@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-03-16 20:30",
+  "lastUpdate": "2026年3月17日 09:15",
   "stats": {
     "iranDeaths": "1332+",
     "israelDeaths": "15+",
@@ -13,25 +13,34 @@
     "day": 17,
     "events": [
       {
-        "time": "下午（最新）",
+        "time": "下午",
         "type": "major",
-        "tags": ["突发"],
+        "tags": ["军事"],
         "isNew": true,
-        "title": "伊朗发动第54波攻势，首次使用"泥石"弹道导弹打击以色列",
-        "content": "伊朗伊斯兰革命卫队宣布发动"真实承诺-4"行动第54轮军事行动，首次出动"泥石"弹道导弹。该导弹射程超过2000公里，采用固体火箭发动机，发射准备时间短，具备末段变轨能力。目标包括以色列空中作战指挥中心、核心军事与防空基地。伊朗导弹碎片击中美国驻以色列领事官邸建筑。",
+        "title": "伊朗称已摧毁4个美军萨德反导系统，多数导弹库存未动用",
+        "content": "伊朗伊斯兰革命卫队称已摧毁4个美军萨德反导系统，并表示多数导弹库存尚未动用。伊朗最高领袖穆杰塔巴重申将向敌人索取赔偿，若对方拒绝将没收或摧毁同等价值资产。外长阿拉格齐称伊朗未请求停火或谈判，将继续自卫直至美方认输。",
         "sources": [
-          {"name": "央视网", "url": "https://news.cctv.com/2026/03/15/ARTIMk6lPKmm5lF3zJZLlJSz260315.shtml", "official": true},
-          {"name": "新华社/东南网", "url": "https://news.fjsen.com/2026-03/16/content_32150553.htm", "official": true}
+          {"name": "新华网", "url": "http://www2.xinhuanet.com/world/20260316/a0fe6ca2bedc4d17aeaba0d10dff2a92/c.html", "official": true}
         ]
       },
       {
-        "time": "3月15日",
+        "time": "下午",
         "type": "normal",
-        "tags": ["人道"],
-        "title": "美以袭击已导致202名伊朗儿童死亡，黎巴嫩850人死亡",
-        "content": "据伊朗方面通报，美以持续袭击已导致202名伊朗儿童死亡。黎巴嫩卫生部声明称，以色列对黎巴嫩的持续袭击已造成850人死亡。伊朗伊斯兰革命卫队表示，将继续对以色列目标发动打击，直至达成战略目标。",
+        "tags": ["外交"],
+        "title": "伊朗总统与法国总统通话，强调中东不安全源于美以敌对行为",
+        "content": "伊朗总统佩泽希齐扬与法国总统马克龙通电话，强调中东地区不安全源于美国和以色列的敌对行为。伊朗外长阿拉格齐指出以色列对德黑兰燃料设施的轰炸违反国际法，构成生态灭绝。",
         "sources": [
-          {"name": "中华网", "url": "https://news.china.com/socialgd/10000169/20260316/49326277.html"}
+          {"name": "新华网", "url": "http://www2.xinhuanet.com/world/20260316/a0fe6ca2bedc4d17aeaba0d10dff2a92/c.html", "official": true}
+        ]
+      },
+      {
+        "time": "全天",
+        "type": "normal",
+        "tags": ["军事"],
+        "title": "以军打击伊朗200多个目标，对黎巴嫩真主党展开地面行动",
+        "content": "以色列国防军称过去一天内打击伊朗西部、中部200多个目标，包括指挥中心、防空系统及武器设施。以军第91师对黎巴嫩南部真主党据点展开有限且有针对性的地面行动。",
+        "sources": [
+          {"name": "新华网", "url": "http://www2.xinhuanet.com/world/20260316/a0fe6ca2bedc4d17aeaba0d10dff2a92/c.html", "official": true}
         ]
       }
     ]
