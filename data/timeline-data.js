@@ -7,21 +7,21 @@ var TIMELINE_DATA = {
     meta: {
         title: "伊朗-以色列冲突事件时间轴",
         startDate: "2026-02-28",
-        lastUpdate: "2026年03月17日 19:20",
-        version: "2.0.0"
+        lastUpdate: "2026年3月17日 21:53",
+        version: "2.0.1"
     },
     
     stats: {
         totalDays: 18,
-        totalEvents: 96,
-        attackWaves: 56,
-        iranDeaths: 1300,
+        totalEvents: 97,
+        attackWaves: 57,
+        iranDeaths: 1332,
         israelDeaths: 15,
-        usDeaths: 0,
+        usDeaths: 13,
         usInjured: 200,
-        displaced: 3000000,
-        lebanonDeaths: 826,
-        childDeaths: 168
+        displaced: 4100000,
+        lebanonDeaths: 850,
+        childDeaths: 202
     },
     
     dates: [
