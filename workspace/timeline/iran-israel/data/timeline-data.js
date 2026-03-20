@@ -7,24 +7,141 @@ var TIMELINE_DATA = {
     meta: {
         title: "伊朗-以色列冲突事件时间轴",
         startDate: "2026-02-28",
-        lastUpdate: "2026年3月17日 21:53",
-        version: "2.0.1"
+        lastUpdate: "2026年3月20日 16:00",
+        version: "2.2.0"
     },
     
     stats: {
-        totalDays: 18,
-        totalEvents: 108,
-        attackWaves: 57,
-        iranDeaths: 1332,
-        israelDeaths: 15,
-        usDeaths: 13,
-        usInjured: 200,
-        displaced: 4100000,
-        lebanonDeaths: 850,
-        childDeaths: 202
+        totalDays: 21,
+        totalEvents: 122,
+        attackWaves: 66,
+        iranDeaths: 1425,
+        israelDeaths: 22,
+        usDeaths: 19,
+        usInjured: 298,
+        displaced: 4420000,
+        lebanonDeaths: 917,
+        childDeaths: 227
     },
     
     dates: [
+    {
+        "id": "d20",
+        "date": "3月20日",
+        "day": 21,
+        "events": [
+            {
+                "time": "上午",
+                "type": "normal",
+                "tags": ["政治"],
+                "isNew": true,
+                "title": "以色列宣布暂停空袭伊朗能源设施",
+                "content": "以色列总理内塔尼亚胡宣布遵守美国总统特朗普要求，暂停后续对伊朗能源设施的空袭。特朗普此前表示对以色列袭击伊朗油气设施事先不知情，要求以方停止此类行动。",
+                "sources": [
+                    {"name": "齐鲁晚报", "url": "https://m.sohu.com/a/998780025_121218495/", "official": true}
+                ]
+            },
+            {
+                "time": "凌晨",
+                "type": "major",
+                "tags": ["军事"],
+                "isNew": true,
+                "title": "伊朗发动第66轮\"真实承诺-4\"打击，多国美军基地遇袭",
+                "content": "伊朗伊斯兰革命卫队发动\"真实承诺-4\"第66轮军事行动，使用超重型多弹头导弹及无人机袭击以色列中部、南部目标，以及沙特、巴林、阿联酋境内的美军基地，首次使用升级版\"卡德尔\"导弹。",
+                "sources": [
+                    {"name": "中华网", "url": "https://news.china.com/socialgd/10000169/20260320/49338308.html", "official": true}
+                ]
+            }
+        ]
+    },
+    {
+        "id": "d19",
+        "date": "3月19日",
+        "day": 20,
+        "events": [
+            {
+                "time": "全天",
+                "type": "major",
+                "tags": ["军事", "人道"],
+                "isNew": true,
+                "title": "伊朗发动多轮打击，以色列177人受伤，美第五舰队被命中",
+                "content": "伊朗当天发动第63、64、65轮打击，使用新一代无人机和导弹击中以色列海法、阿什杜德炼油厂，本-古里安机场受损，大量航班取消，当地民众每小时需躲避3次空袭，共177人送医。伊朗同时宣布击中美国第五舰队，导致美军燃油补给瘫痪。",
+                "sources": [
+                    {"name": "每日经济新闻", "url": "http://m.163.com/dy/article/KOET1U8K05567I2C.html", "official": true}
+                ]
+            },
+            {
+                "time": "下午",
+                "type": "major",
+                "tags": ["政治"],
+                "isNew": true,
+                "title": "伊朗宣布冲突进入\"新阶段\"，开始打击能源设施",
+                "content": "伊朗伊斯兰革命卫队发表声明称，由于美以袭击伊朗能源基础设施，伊朗同美以的战争已进入\"新阶段\"，将持续攻击美国及盟友的能源基础设施作为报复，警告若再发生此类事件将彻底摧毁相关设施。",
+                "sources": [
+                    {"name": "新快报", "url": "https://tech.sina.cn/2026-03-20/detail-inhrqccn4435837.d.html", "official": true}
+                ]
+            }
+        ]
+    },
+    {
+        "id": "d18",
+        "date": "3月18日",
+        "day": 19,
+        "events": [
+            {
+                "time": "夜间",
+                "type": "major",
+                "tags": ["军事"],
+                "isNew": true,
+                "title": "以色列空袭伊朗南部天然气设施，引发能源战升级",
+                "content": "以色列空军袭击伊朗南部布什尔市主要天然气设施，伊朗随后宣布对中东地区美国相关石油设施展开报复打击，冲突首次升级到能源基础设施领域。",
+                "sources": [
+                    {"name": "新快报", "url": "https://tech.sina.cn/2026-03-20/detail-inhrqccn4435837.d.html", "official": true}
+                ]
+            },
+            {
+                "time": "全天",
+                "type": "normal",
+                "tags": ["政治"],
+                "isNew": true,
+                "title": "美以出现战争目标分歧，美国考虑增派军队",
+                "content": "美国与以色列在对伊战争终局目标上出现分歧，美国面临国内反战压力，以色列则要求彻底削弱伊朗军事能力。美国五角大楼提交2000亿美元战争预算申请，考虑向中东增派数千海军陆战队，评估夺取伊朗哈尔克岛的可能性。",
+                "sources": [
+                    {"name": "新快报", "url": "https://tech.sina.cn/2026-03-20/detail-inhrqccn4435837.d.html", "official": true}
+                ]
+            }
+        ]
+    },
+    {
+        "id": "d17",
+        "date": "3月17日",
+        "day": 18,
+        "events": [
+            {
+                "time": "下午",
+                "type": "major",
+                "tags": ["军事"],
+                "isNew": true,
+                "title": "伊朗发动新一轮大规模导弹袭击",
+                "content": "伊朗武装部队向以色列发动新一轮大规模导弹袭击，打击以方军事目标。以色列评估战争可能还会持续三周到一个月，远超最初的预期。",
+                "sources": [
+                    {"name": "财联社", "url": "https://www.cls.cn/detail/2315356", "official": true},
+                    {"name": "CCTV国际时讯", "url": "http://m.163.com/dy/article/KO8BO0B205198CJN.html", "official": true}
+                ]
+            },
+            {
+                "time": "晚间",
+                "type": "normal",
+                "tags": ["政治"],
+                "isNew": true,
+                "title": "伊朗抓捕97名美以关联间谍人员",
+                "content": "伊朗情报部宣布在全国范围内开展反间谍行动，抓捕97名与美国和以色列有关联的人员，缴获大量武器弹药，防止美以策划内部骚乱。",
+                "sources": [
+                    {"name": "千龙网", "url": "http://m.163.com/dy/article/KOE316OV05568W0A.html", "official": true}
+                ]
+            }
+        ]
+    },
     {
         "id": "d17",
         "date": "3月17日",
