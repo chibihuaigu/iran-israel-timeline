@@ -7,7 +7,7 @@ var TIMELINE_DATA = {
     meta: {
         title: "伊朗-以色列冲突事件时间轴",
         startDate: "2026-02-28",
-        lastUpdate: "2026年3月17日 21:53",
+        lastUpdate: "2026年3月20日 17:35",
         version: "2.0.1"
     },
     
