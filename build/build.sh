@@ -12,9 +12,15 @@ cd "$WORKDIR"
 mkdir -p backup
 cp index.html backup/index-$(date +%Y%m%d-%H%M).html 2>/dev/null || true
 
-echo "步骤1: 提取HTML头部..."
-# 提取从开头到第一个date-group之前的部分
-head -n 1857 index.html > index.new.html
+echo "步骤1: 使用模板创建新文件..."
+# 使用干净模板（不包含任何日期块）
+if [ -f "template.html" ]; then
+    cp template.html index.new.html
+    echo "  使用 template.html 作为基础"
+else
+    echo "  错误：template.html 不存在"
+    exit 1
+fi
 
 echo "步骤2: 插入事件片段..."
 echo "" >> index.new.html
@@ -38,16 +44,7 @@ for f in "${EVENTS[@]}"; do
     fi
 done
 
-echo "步骤3: 提取HTML尾部（footer部分）..."
-# 找到footer开始的位置并提取
-timeline_end=$(grep -n '</div>.*timeline\|class="footer"' index.html | tail -1 | cut -d: -f1)
-if [ -n "$timeline_end" ]; then
-    echo "  从第 $timeline_end 行提取footer"
-    tail -n +$timeline_end index.html >> index.new.html
-else
-    echo "  警告：未找到footer，使用默认位置3635"
-    tail -n +3635 index.html >> index.new.html
-fi
+echo "步骤3: 完成（模板已包含footer）"
 
 echo "步骤4: 替换原文件..."
 mv index.new.html index.html
