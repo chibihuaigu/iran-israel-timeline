@@ -12,41 +12,55 @@ cd "$WORKDIR"
 mkdir -p backup
 cp index.html backup/index-$(date +%Y%m%d-%H%M).html 2>/dev/null || true
 
-echo "步骤1: 提取模板头部..."
-# 提取template.html从开头到d16之前（包含timeline开始标记）
-# d16在template.html中的位置需要确定
-d16_line=$(grep -n 'id="d16"' template.html | head -1 | cut -d: -f1)
-if [ -n "$d16_line" ]; then
-    head -n $((d16_line - 1)) template.html > index.new.html
-    echo "  提取到第 $((d16_line - 1)) 行（d16之前）"
-else
-    echo "  错误：未在template.html中找到d16"
-    exit 1
-fi
+echo "步骤1: 复制模板头部..."
+# template.html 包含HTML头部和timeline开始
+cp template.html index.new.html
+echo "  复制 template.html 作为基础"
 
-echo "步骤2: 插入新事件片段（d17-d20）..."
-# 倒序插入事件片段（最新的在前）
+echo "步骤2: 插入所有日期片段（倒序：最新在前）..."
+# 倒序插入所有事件片段（d20到d0）
 EVENTS=(
     "src/events/d20.html"
     "src/events/d19.html"
     "src/events/d18.html"
     "src/events/d17.html"
+    "src/events/d16.html"
+    "src/events/d15.html"
+    "src/events/d14.html"
+    "src/events/d13.html"
+    "src/events/d12.html"
+    "src/events/d11.html"
+    "src/events/d10.html"
+    "src/events/d9.html"
+    "src/events/d8.html"
+    "src/events/d7.html"
+    "src/events/d6.html"
+    "src/events/d5.html"
+    "src/events/d4.html"
+    "src/events/d3.html"
+    "src/events/d2.html"
+    "src/events/d1.html"
+    "src/events/d0.html"
 )
 
+total_lines=0
 for f in "${EVENTS[@]}"; do
     if [ -f "$f" ]; then
-        echo "  合并: $f ($(wc -l < $f) 行)"
+        lines=$(wc -l < "$f")
+        total_lines=$((total_lines + lines))
+        echo "  合并: $f (${lines} 行)"
         cat "$f" >> index.new.html
         echo "" >> index.new.html
     else
-        echo "  跳过: $f (不存在)"
+        echo "  ⚠️  跳过: $f (不存在)"
     fi
 done
+echo "  总计: ${total_lines} 行日期内容"
 
-echo "步骤3: 追加旧日期和footer..."
-# 从d16开始追加到文件结束（包含d16-d0和footer）
-tail -n +$d16_line template.html >> index.new.html
-echo "  从第 $d16_line 行追加旧日期和footer"
+echo "步骤3: 追加footer..."
+# footer.html 包含timeline闭合、footer、scripts和结束标签
+cat footer.html >> index.new.html
+echo "  追加 footer.html"
 
 echo "步骤4: 替换原文件..."
 mv index.new.html index.html
