@@ -20,6 +20,14 @@
             var scrolled = (winScroll / height) * 100;
             document.getElementById('readingProgress').style.width = scrolled + '%';
         });
+
+        // 战前背景折叠功能
+        function toggleBackground() {
+            var bgGroup = document.getElementById('bg');
+            if (bgGroup) {
+                bgGroup.classList.toggle('collapsed');
+            }
+        }
     </script>
 
     <!-- 参战国历史弹窗 -->

@@ -1043,6 +1043,66 @@
       color: white;
     }
     
+    /* 更多标签颜色 */
+    .category-tag.political-tag,
+    .tag.political {
+      background: var(--system-indigo);
+      color: white;
+    }
+    
+    .category-tag.economic-tag,
+    .tag.economic {
+      background: var(--system-green);
+      color: white;
+    }
+    
+    .category-tag.intelligence-tag,
+    .tag.intelligence {
+      background: var(--system-purple);
+      color: white;
+    }
+    
+    .category-tag.legal-tag,
+    .tag.legal {
+      background: var(--system-blue);
+      color: white;
+    }
+    
+    .category-tag.media-tag,
+    .tag.media {
+      background: var(--system-pink);
+      color: white;
+    }
+    
+    .category-tag.technology-tag,
+    .tag.technology {
+      background: var(--system-yellow);
+      color: black;
+    }
+    
+    .category-tag.history-tag,
+    .tag.history {
+      background: var(--system-gray);
+      color: white;
+    }
+    
+    /* 战前背景折叠功能 */
+    .date-group.collapsed .events-container {
+      display: none;
+    }
+    
+    .date-group.collapsed .date-label::after {
+      content: ' ▶';
+    }
+    
+    .date-group:not(.collapsed) .date-label::after {
+      content: ' ▼';
+    }
+    
+    #bg.date-group .date-label {
+      cursor: pointer;
+    }
+    
     /* Event Sources */
     .event-sources {
       display: flex;
