@@ -1,0 +1,747 @@
+        </div>
+
+        <div class="footer">
+            <p>数据来源：<a href="https://news.cctv.com/">央视新闻</a>、<a href="https://www.xinhuanet.com/">新华网</a>、<a href="https://new.qq.com/">腾讯新闻</a>、<a href="https://www.163.com/">网易新闻</a>、<a href="https://www.thepaper.cn/">澎湃新闻</a>等权威媒体</p>
+            <p>更新时间：2026年3月20日 18:00</p>
+        </div>
+    </div>
+
+    <button class="scroll-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">↑</button>
+
+    <div class="keyboard-hint">
+        <kbd>J</kbd>下 <kbd>K</kbd>上 <kbd>/</kbd>搜索
+    </div>
+
+    <script>
+        // 阅读进度条
+        window.addEventListener('scroll', function() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById('readingProgress').style.width = scrolled + '%';
+        });
+
+        // 战前背景折叠功能
+        function toggleBackground() {
+            var bgGroup = document.getElementById('bg');
+            if (bgGroup) {
+                bgGroup.classList.toggle('collapsed');
+            }
+        }
+    </script>
+
+    <!-- 参战国历史弹窗 -->
+    <div class="modal-overlay" id="historyModal" onclick="closeModal(event, 'historyModal')">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <button class="modal-close" onclick="closeModal(null, 'historyModal')">&times;</button>
+            <h2 class="modal-title">📜 参战国历史</h2>
+            
+            <div class="modal-section">
+                <h3>🇮🇷 伊朗</h3>
+                <div class="country-card">
+                    <h4>波斯文明古国</h4>
+                    <p>伊朗古称波斯，是世界文明古国之一。1979年伊斯兰革命后建立伊朗伊斯兰共和国，定都德黑兰。伊朗是中东地区最大的伊斯兰什叶派国家，人口约8700万。</p>
+                </div>
+                <div class="country-card">
+                    <h4>抵抗轴心领导国</h4>
+                    <p>伊朗领导"抵抗轴心"组织网络，包括黎巴嫩真主党、也门胡塞武装、伊拉克什叶派民兵等。伊朗通过这些代理人势力在中东地区构建了广泛的军事影响力。</p>
+                </div>
+            </div>
+
+            <div class="modal-section">
+                <h3>🇮🇱 以色列</h3>
+                <div class="country-card">
+                    <h4>犹太国家</h4>
+                    <p>以色列1948年建国，是世界上唯一以犹太人为主体的国家。特拉维夫-雅法为实际首都（耶路撒冷为法定首都），人口约900万。</p>
+                </div>
+                <div class="country-card">
+                    <h4>中东军事强国</h4>
+                    <p>以色列拥有中东地区最强大的常规军事力量，科技发达，在网络安全、人工智能、无人机等领域处于世界领先地位。与美国保持战略同盟关系。</p>
+                </div>
+            </div>
+
+            <div class="modal-section">
+                <h3>🇺🇸 美国</h3>
+                <div class="country-card">
+                    <h4>全球超级大国</h4>
+                    <p>美国在中东地区有重要战略利益，军事基地遍布波斯湾地区。此次冲突中，美军直接参与对伊朗的打击行动，并协调国际制裁。</p>
+                </div>
+            </div>
+
+            <div class="modal-section">
+                <h3>🇱🇧 黎巴嫩真主党</h3>
+                <div class="country-card">
+                    <h4>伊朗代理人武装</h4>
+                    <p>黎巴嫩真主党是伊朗支持的什叶派武装组织，成立于1985年是真主党在黎巴嫩的政治和军事组织，拥有约2万名武装人员，是伊朗"抵抗轴心"的核心力量之一。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 冲突原因分析弹窗 -->
+    <div class="modal-overlay" id="analysisModal" onclick="closeModal(event, 'analysisModal')">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <button class="modal-close" onclick="closeModal(null, 'analysisModal')">&times;</button>
+            <h2 class="modal-title">🔍 冲突原因分析</h2>
+            
+            <div class="modal-section">
+                <h3>一、历史与宗教根源</h3>
+                <p>以色列是犹太人的国家，伊朗是伊斯兰什叶派国家，两者在地缘政治上存在结构性矛盾。犹太复国主义与伊斯兰教的冲突可追溯至20世纪初。</p>
+                <p><strong>来源：</strong>《以色列与伊朗的冲突原因分析》, 今日头条, 2025年6月15日</p>
+                <a href="https://www.toutiao.com/article/7515989247694750235/" target="_blank" class="modal-source">查看原文 →</a>
+            </div>
+
+            <div class="modal-section">
+                <h3>二、核武器争议</h3>
+                <p>伊朗核计划是以色列最大安全关切。以色列多次表示，伊朗一旦拥有核武器将对以色列生存构成致命威胁。2025年6月以色列发动"狮子崛起行动"，首要目标就是伊朗核设施。</p>
+                <p><strong>来源：</strong>《2025年以伊冲突》, 百度百科</p>
+                <a href="https://baike.baidu.com/item/2025%E5%B9%B4%E4%BB%A5%E4%BC%8A%E5%86%B2%E7%AA%81/65802378" target="_blank" class="modal-source">查看原文 →</a>
+            </div>
+
+            <div class="modal-section">
+                <h3>三、地缘政治博弈</h3>
+                <p>伊朗通过"抵抗轴心"（真主党、胡塞武装等）扩大地区影响力，这与以色列和美国的中东战略直接冲突。伊朗在叙利亚、伊拉克、也门的军事存在引发以色列强烈不满。</p>
+                <p><strong>来源：</strong>《本轮以色列与伊朗冲突：背景、特点与趋势》, 腾讯新闻, 2025年6月16日</p>
+                <a href="https://news.qq.com/rain/a/20250616A07UOX00" target="_blank" class="modal-source">查看原文 →</a>
+            </div>
+
+            <div class="modal-section">
+                <h3>四、2025年6月"12日战争"导火索</h3>
+                <p>2025年6月13日，以色列对伊朗发动代号"崛起的雄狮"大规模空袭，炸死伊朗伊斯兰革命卫队总司令等多名高级将领。这场"12日战争"以停火告终，但仇恨种子已经埋下。</p>
+                <p><strong>来源：</strong>《新闻背景｜以伊冲突时间线》, 澎湃新闻, 2025年6月</p>
+                <a href="https://m.thepaper.cn/newsDetail_forward_31036747" target="_blank" class="modal-source">查看原文 →</a>
+            </div>
+
+            <div class="modal-section">
+                <h3>五、2026年2月冲突升级</h3>
+                <p>2026年2月28日，美国和以色列对伊朗发动"先发制人"联合军事打击，伊朗霍尔木兹甘省一所小学遭导弹袭击造成重大平民伤亡。伊朗随后发动大规模导弹反击，冲突进入新阶段。</p>
+                <p><strong>来源：</strong>《美以联手空袭伊朗 伊朗誓言"毁灭式报复"》, 新华网, 2026年3月1日</p>
+                <a href="https://www3.xinhuanet.com/world/20260301/c6528253227a43218432a2925115ac7a/c.html" target="_blank" class="modal-source">查看原文 →</a>
+            </div>
+
+            <div class="modal-section">
+                <h3>六、各方目标</h3>
+                <p><strong>伊朗：</strong>维护国家安全，阻止美国和以色列的军事打击，获取战争赔偿</p>
+                <p><strong>以色列：</strong>彻底摧毁伊朗核能力，解除伊朗代理人武装</p>
+                <p><strong>美国：</strong>遏制伊朗地区影响力，保护以色列安全，维护波斯湾能源航道</p>
+                <p><strong>来源：</strong>《中东冲突主要参与者分析》, 雪球财经, 2025年6月18日</p>
+                <a href="https://xueqiu.com/4528807922/339264655" target="_blank" class="modal-source">查看原文 →</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 军事实力对比弹窗 -->
+    <div class="modal-overlay" id="militaryModal" onclick="closeModal(event, 'militaryModal')">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <button class="modal-close" onclick="closeModal(null, 'militaryModal')">&times;</button>
+            <h2 class="modal-title">⚔️ 军事实力对比</h2>
+
+            <!-- 综合排名 -->
+            <div class="modal-section">
+                <h3>一、综合军力排名（GFP 2025）</h3>
+                <table class="military-table">
+                    <thead>
+                        <tr>
+                            <th>国家</th>
+                            <th>全球排名</th>
+                            <th>综合指数</th>
+                            <th>定位</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>🇺🇸 美国</td>
+                            <td><span class="military-rank green">第1位</span></td>
+                            <td>0.0699</td>
+                            <td>全球超级大国</td>
+                        </tr>
+                        <tr>
+                            <td>🇮🇱 以色列</td>
+                            <td><span class="military-rank blue">第15位</span></td>
+                            <td>0.2661</td>
+                            <td>中东技术强国</td>
+                        </tr>
+                        <tr>
+                            <td>🇮🇷 伊朗</td>
+                            <td><span class="military-rank">第16位</span></td>
+                            <td>0.3048</td>
+                            <td>中东规模大国</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="modal-source">数据来源：Global Firepower 2025年军力指数报告</p>
+                <a href="https://www.globalfirepower.com/countries-listing.php" target="_blank" class="modal-source">查看原报告 →</a>
+            </div>
+
+            <!-- 兵力对比 -->
+            <div class="modal-section">
+                <h3>二、兵力规模</h3>
+                <table class="military-table">
+                    <thead>
+                        <tr>
+                            <th>指标</th>
+                            <th>🇮🇷 伊朗</th>
+                            <th>🇮🇱 以色列</th>
+                            <th>🇺🇸 美国（中东）</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>现役兵力</td>
+                            <td>约 61 万人</td>
+                            <td>约 17 万人</td>
+                            <td>约 4 万人（驻中东）</td>
+                        </tr>
+                        <tr>
+                            <td>其中精锐</td>
+                            <td>革命卫队 19 万</td>
+                            <td>—</td>
+                            <td>特种部队 + 海军陆战队</td>
+                        </tr>
+                        <tr>
+                            <td>预备役</td>
+                            <td>约 35 万人</td>
+                            <td>约 46.5 万人</td>
+                            <td>—</td>
+                        </tr>
+                        <tr>
+                            <td>国防预算</td>
+                            <td>约 99 亿美元</td>
+                            <td>约 305 亿美元（含美援 38 亿）</td>
+                            <td>8860 亿美元（全球）</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="modal-source">来源：IISS《军力平衡 2025》/ 搜狐·军事分析，2026年3月3日</p>
+                <a href="http://www1.xinhuanet.com/milpro/20260212/60c429f6777543fa8baf1fb43d282832/c.html" target="_blank" class="modal-source">新华网·外媒分析伊朗军事实力 →</a>
+            </div>
+
+            <!-- 空军对比 -->
+            <div class="modal-section">
+                <h3>三、空中力量</h3>
+                <table class="military-table">
+                    <thead>
+                        <tr>
+                            <th>装备</th>
+                            <th>🇮🇷 伊朗</th>
+                            <th>🇮🇱 以色列</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>战斗机总数</td>
+                            <td>约 350 架（含老旧 F-4/F-14）</td>
+                            <td>约 340 架（含 F-35I/F-15/F-16）</td>
+                        </tr>
+                        <tr>
+                            <td>隐身战机</td>
+                            <td>无</td>
+                            <td>F-35I 约 50 架（深度魔改）</td>
+                        </tr>
+                        <tr>
+                            <td>无人机</td>
+                            <td>沙希德-136、莫哈吉尔等<br>数量庞大，已出口多国</td>
+                            <td>苍鹭、哈比等高端侦察/攻击无人机</td>
+                        </tr>
+                        <tr>
+                            <td>综合评估</td>
+                            <td>数量多但技术老旧</td>
+                            <td>质量碾压，信息化程度高</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="modal-source">来源：搜狐军事《以伊战争正酣，以色列与伊朗的军力对比分析》，2025年6月16日</p>
+                <a href="https://www.sohu.com/a/904969651_100051387" target="_blank" class="modal-source">查看原文 →</a>
+            </div>
+
+            <!-- 陆军/导弹对比 -->
+            <div class="modal-section">
+                <h3>四、陆军与导弹力量</h3>
+                <table class="military-table">
+                    <thead>
+                        <tr>
+                            <th>装备</th>
+                            <th>🇮🇷 伊朗</th>
+                            <th>🇮🇱 以色列</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>主战坦克</td>
+                            <td>约 1,650 辆（T-72/豹-1改）</td>
+                            <td>约 2,200 辆（梅卡瓦 IV 为主）</td>
+                        </tr>
+                        <tr>
+                            <td>弹道导弹</td>
+                            <td>
+                                <span class="missile-tag">卡德尔（射程 2000km）</span>
+                                <span class="missile-tag">霍尔木兹（精确制导）</span>
+                                <span class="missile-tag">法塔赫（高超音速）</span>
+                                <span class="missile-tag">沙哈布-3（中程）</span>
+                            </td>
+                            <td>
+                                <span class="missile-tag blue">杰里科-3（中远程）</span>
+                                <span class="missile-tag blue">德利拉巡航导弹</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>导弹数量优势</td>
+                            <td>中东导弹库存最大，估计 3000+ 枚</td>
+                            <td>种类精准，疑拥有核弹头</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="modal-source">来源：今日头条《伊朗军事力量详细数据》，2025年6月13日</p>
+                <a href="https://www.toutiao.com/article/7515286322056151586/" target="_blank" class="modal-source">查看原文 →</a>
+            </div>
+
+            <!-- 防空系统 -->
+            <div class="modal-section">
+                <h3>五、防空体系</h3>
+                <table class="military-table">
+                    <thead>
+                        <tr>
+                            <th>层级</th>
+                            <th>🇮🇷 伊朗</th>
+                            <th>🇮🇱 以色列</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>低空防御</td>
+                            <td>苦杜尔·2 短程防空</td>
+                            <td>铁穹（拦截率 90%+）</td>
+                        </tr>
+                        <tr>
+                            <td>中层防御</td>
+                            <td>萨德-15、霍尔达德-15</td>
+                            <td>大卫弹弓（拦截中程导弹）</td>
+                        </tr>
+                        <tr>
+                            <td>高层防御</td>
+                            <td>S-300PMU-2（俄制）</td>
+                            <td>箭-3（可拦截洲际弹道导弹）</td>
+                        </tr>
+                        <tr>
+                            <td>综合评估</td>
+                            <td>多层存在但被以军反复压制</td>
+                            <td>全球最完善的多层防空体系</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="modal-source">来源：知乎《奇趣数据看世界（180）：以伊军事实力对比》，2025年6月24日</p>
+                <a href="https://zhuanlan.zhihu.com/p/1920976891407468463" target="_blank" class="modal-source">查看原文 →</a>
+            </div>
+
+            <!-- 海军 -->
+            <div class="modal-section">
+                <h3>六、海军力量</h3>
+                <table class="military-table">
+                    <thead>
+                        <tr>
+                            <th>装备</th>
+                            <th>🇮🇷 伊朗</th>
+                            <th>🇮🇱 以色列</th>
+                            <th>🇺🇸 美国（中东）</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>战略核心</td>
+                            <td>封锁霍尔木兹海峡能力</td>
+                            <td>地中海制海权</td>
+                            <td>第五舰队（驻巴林）</td>
+                        </tr>
+                        <tr>
+                            <td>潜艇</td>
+                            <td>小型潜艇约 19 艘</td>
+                            <td>海豚级潜艇 5 艘（核巡航导弹疑载台）</td>
+                            <td>核潜艇可随时部署</td>
+                        </tr>
+                        <tr>
+                            <td>水面舰艇</td>
+                            <td>护卫舰 + 大量快艇</td>
+                            <td>萨尔-6 隐身护卫舰</td>
+                            <td>福特级、林肯级航母编队</td>
+                        </tr>
+                        <tr>
+                            <td>战略意义</td>
+                            <td>威慑波斯湾能源航道</td>
+                            <td>依托美国海军力量</td>
+                            <td>控制中东海域全局</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="modal-source">来源：人民网《航母逼近！美国在中东有哪些军事部署？》，2026年1月17日</p>
+                <a href="https://world.people.com.cn/n1/2026/0117/c1002-40647130.html" target="_blank" class="modal-source">查看原文 →</a>
+            </div>
+
+            <!-- 综合评估 -->
+            <div class="modal-section">
+                <h3>七、综合评估</h3>
+                <div class="military-summary">
+                    <strong>质量 vs 数量：</strong>伊朗以人力和导弹数量见长，以色列以技术代差和信息化制胜，美国综合碾压一切。<br>
+                    <strong>不对称优势：</strong>伊朗的"抵抗轴心"体系（真主党+胡塞+伊拉克民兵）形成多点牵制，是其核心战略资产。<br>
+                    <strong>核威慑：</strong>以色列拥有公认的核武器（约 90 枚），伊朗核计划是此次冲突根源；美国核保护伞全程覆盖以色列。<br>
+                    <strong>制空权：</strong>以色列 F-35I + 美军 B-2、F-22 在制空权上完全压制伊朗，是此次冲突伊朗承受重大损失的根本原因。
+                </div>
+                <p class="modal-source" style="margin-top:10px">综合来源：Global Firepower 2025 / IISS《军力平衡》2025 / 新华网·军事</p>
+                <a href="https://zhuanlan.zhihu.com/p/2012290191981835797" target="_blank" class="modal-source">知乎·三国军力深度对比 →</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+// 打开弹窗
+function openModal(modalId) {
+    var modal = document.getElementById(modalId);
+    if (modal) {
+        modal.style.display = 'flex';
+        document.body.style.overflow = 'hidden';
+    }
+}
+
+// 关闭弹窗
+function closeModal(event, modalId) {
+    // 阻止事件冒泡
+    if (event && event.stopPropagation) {
+        event.stopPropagation();
+    }
+    
+    var modal = document.getElementById(modalId);
+    if (modal) {
+        modal.style.display = 'none';
+        document.body.style.overflow = '';
+    }
+}
+
+// 点击弹窗外部关闭（延迟执行，避免与openModal冲突）
+setTimeout(function() {
+    document.addEventListener('click', function(e) {
+        var modals = document.querySelectorAll('.modal-overlay');
+        modals.forEach(function(modal) {
+            if (modal.style.display === 'flex') {
+                var content = modal.querySelector('.modal-content');
+                if (content && !content.contains(e.target) && !e.target.closest('.header-btn')) {
+                    modal.style.display = 'none';
+                    document.body.style.overflow = '';
+                }
+            }
+        });
+    });
+}, 100);
+
+
+
+// 切换字体大小
+function toggleFontSize() {
+    var body = document.body;
+    var currentSize = parseInt(getComputedStyle(body).fontSize) || 16;
+    var sizes = [14, 16, 18, 20];
+    var currentIndex = sizes.indexOf(currentSize);
+    var newIndex = (currentIndex + 1) % sizes.length;
+    body.style.fontSize = sizes[newIndex] + 'px';
+    
+    // 保存到localStorage
+    localStorage.setItem('fontSize', sizes[newIndex]);
+}
+
+// 滚动到指定日期
+function scrollToDate(dateId) {
+    var el = document.getElementById(dateId);
+    if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+}
+
+
+function toggleTheme(btn) {
+    document.body.toggleAttribute('data-theme');
+    btn.textContent = document.body.hasAttribute('data-theme') ? '☀️' : '🌙';
+}
+
+function toggleFont(btn) {
+    fontSize = fontSize === 1 ? 1.15 : 1;
+    document.body.style.fontSize = fontSize === 1.15 ? '115%' : '100%';
+}
+
+function toggleToc() {
+    const links = document.getElementById('tocLinks');
+    const btn = document.querySelector('.toc-toggle');
+    links.classList.toggle('collapsed');
+    btn.textContent = links.classList.contains('collapsed') ? '展开' : '收起';
+}
+
+function scrollToSection(id) {
+    const el = document.getElementById(id);
+    if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+}
+
+// 筛选状态变量
+var currentFilter = 'all';
+
+function filterByTag(tag, btn) {
+    currentFilter = tag;
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    filterEvents();
+}
+
+function filterEvents() {
+    var events = document.querySelectorAll('.event-card');
+    var dateGroups = document.querySelectorAll('.date-group');
+    var hasVisibleEvent = false;
+    
+    events.forEach(function(event) {
+        var shouldShow = currentFilter === 'all';
+        
+        if (!shouldShow) {
+            // 检查事件是否有对应的标签
+            var tags = event.querySelectorAll('.category-tag');
+            tags.forEach(function(tag) {
+                var tagText = tag.textContent.trim();
+                if (currentFilter === 'major' && tag.classList.contains('major-tag')) {
+                    shouldShow = true;
+                } else if (currentFilter === 'military' && tagText.includes('军事')) {
+                    shouldShow = true;
+                } else if (currentFilter === 'humanitarian' && tag.classList.contains('humanitarian-tag')) {
+                    shouldShow = true;
+                } else if (currentFilter === 'political' && tag.classList.contains('political-tag')) {
+                    shouldShow = true;
+                } else if (currentFilter === 'diplomatic' && tag.classList.contains('diplomatic-tag')) {
+                    shouldShow = true;
+                }
+            });
+            
+            // 检查是否是重要事件
+            if (currentFilter === 'major' && event.classList.contains('major')) {
+                shouldShow = true;
+            }
+        }
+        
+        if (shouldShow) {
+            event.classList.remove('hidden');
+            hasVisibleEvent = true;
+        } else {
+            event.classList.add('hidden');
+        }
+    });
+    
+    // 更新日期组的显示状态
+    dateGroups.forEach(function(group) {
+        var visibleEvents = group.querySelectorAll('.event-card:not(.hidden)');
+        if (visibleEvents.length === 0) {
+            group.classList.add('hidden');
+        } else {
+            group.classList.remove('hidden');
+        }
+    });
+    
+    // 显示筛选结果提示
+    updateFilterResult();
+}
+
+function updateFilterResult() {
+    var visibleEvents = document.querySelectorAll('.event-card:not(.hidden)').length;
+    var resultDiv = document.getElementById('filterResult');
+    
+    if (!resultDiv) {
+        resultDiv = document.createElement('div');
+        resultDiv.id = 'filterResult';
+        resultDiv.className = 'filter-result-count';
+        var timeline = document.getElementById('timeline');
+        timeline.parentNode.insertBefore(resultDiv, timeline);
+    }
+    
+    if (currentFilter !== 'all') {
+        var filterNames = {
+            'all': '全部',
+            'major': '重要事件',
+            'military': '军事',
+            'humanitarian': '人道主义',
+            'political': '政治',
+            'diplomatic': '外交'
+        };
+        resultDiv.innerHTML = '当前显示：<strong>' + filterNames[currentFilter] + '</strong> 共 ' + visibleEvents + ' 条事件';
+        resultDiv.classList.add('show');
+    } else {
+        resultDiv.classList.remove('show');
+    }
+}
+
+function setSort(order, btn) {
+    currentSort = order;
+    document.querySelectorAll('.control-btn').forEach(b => {
+        if (b.textContent.includes('序')) b.classList.remove('active');
+    });
+    btn.classList.add('active');
+    
+    const container = document.getElementById('timeline');
+    const groups = Array.from(document.querySelectorAll('.date-group'));
+    
+    if (order === 'desc') {
+        groups.reverse();
+    }
+    
+    groups.forEach(g => container.appendChild(g));
+}
+
+
+        // 音乐播放控制逻辑
+        var hasPlayedOnce = false;      // 是否已经播放过
+        var isPausedByUser = false;     // 用户是否手动暂停过
+        var isPlaying = false;          // 当前是否正在播放
+
+        // 首次打开页面时自动播放音乐
+        function tryAutoPlay() {
+            var bgMusic = document.getElementById('bgMusic');
+            if (bgMusic && !hasPlayedOnce) {
+                bgMusic.play().then(function() {
+                    hasPlayedOnce = true;
+                    isPlaying = true;
+                    var player = document.getElementById('musicPlayer');
+                    if (player) player.classList.add('playing');
+                    console.log('音乐自动播放成功');
+                }).catch(function(e) {
+                    console.log('自动播放被浏览器阻止，等待用户交互:', e);
+                    // 浏览器阻止自动播放，设置标志等待用户交互
+                    hasPlayedOnce = false;
+                });
+            }
+        }
+
+        // 页面加载完成后初始化
+        document.addEventListener('DOMContentLoaded', function() {
+            // 绑定筛选按钮事件
+            document.querySelectorAll('.filter-btn').forEach(function(btn) {
+                btn.addEventListener('click', function() {
+                    var filter = this.getAttribute('data-filter');
+                    filterByTag(filter, this);
+                });
+            });
+
+            // 不再自动播放，改为用户滚动时触发
+
+            // 获取音乐播放器元素
+            var musicPlayer = document.getElementById('musicPlayer');
+            var bgMusic = document.getElementById('bgMusic');
+
+            // 点击黑胶唱片切换播放/暂停
+            if (musicPlayer) {
+                musicPlayer.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+
+                    if (!bgMusic) {
+                        bgMusic = document.getElementById('bgMusic');
+                    }
+                    if (!bgMusic) return;
+
+                    if (isPlaying) {
+                        // 暂停
+                        bgMusic.pause();
+                        isPlaying = false;
+                        isPausedByUser = true;  // 标记用户手动暂停
+                        musicPlayer.classList.remove('playing');
+                        console.log('音乐已暂停');
+                    } else {
+                        // 播放
+                        bgMusic.play().then(function() {
+                            isPlaying = true;
+                            isPausedByUser = false;
+                            hasPlayedOnce = true;
+                            musicPlayer.classList.add('playing');
+                            console.log('音乐开始播放');
+                        }).catch(function(e) {
+                            console.log('播放失败:', e);
+                        });
+                    }
+                });
+            }
+
+            // 音乐结束时重置播放状态
+            if (bgMusic) {
+                bgMusic.addEventListener('ended', function() {
+                    isPlaying = false;
+                    musicPlayer.classList.remove('playing');
+                });
+            }
+        });
+
+        // 用户滚动页面时触发播放（只触发一次）
+        var scrollPlayHandler = function() {
+            if (!hasPlayedOnce) {
+                tryAutoPlay();
+                // 播放成功后移除监听，避免重复触发
+                window.removeEventListener('scroll', scrollPlayHandler);
+                window.removeEventListener('touchmove', scrollPlayHandler);
+            }
+        };
+        
+        // 监听滚动事件（桌面端）
+        window.addEventListener('scroll', scrollPlayHandler);
+        // 监听触摸滑动事件（移动端）
+        window.addEventListener('touchmove', scrollPlayHandler);
+    
+    </script>
+
+    <!-- 反馈按钮 -->
+    <button class="feedback-btn" onclick="openFeedback()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+        </svg>
+        <span>意见反馈</span>
+    </button>
+
+    <!-- 反馈弹窗 -->
+    <div class="feedback-modal" id="feedbackModal" onclick="closeFeedback(event)">
+        <div class="feedback-content" onclick="event.stopPropagation()">
+            <button class="feedback-close" onclick="closeFeedback()">&times;</button>
+            <div class="feedback-title">💬 意见反馈</div>
+            <div class="feedback-desc">发现错误或有改进建议？欢迎随时联系</div>
+            <div class="feedback-options">
+                <a href="mailto:chibihuaigu01@outlook.com?subject=伊朗-以色列时间轴反馈&body=您好，%0A%0A我对时间轴有以下反馈：%0A%0A1. 反馈类型：□错误纠正 □功能建议 □其他%0A%0A2. 详细描述：%0A%0A3. 相关事件日期（如有）：%0A%0A感谢您的付出！" class="feedback-option">
+                    <div class="feedback-option-icon">📧</div>
+                    <div class="feedback-option-text">
+                        <div class="feedback-option-title">发送邮件</div>
+                        <div class="feedback-option-subtitle">chibihuaigu01@outlook.com</div>
+                    </div>
+                    <div class="feedback-option-arrow">→</div>
+                </a>
+                <a href="https://github.com/chibihuaigu/iran-israel-timeline/issues" target="_blank" class="feedback-option">
+                    <div class="feedback-option-icon">🐙</div>
+                    <div class="feedback-option-text">
+                        <div class="feedback-option-title">GitHub Issues</div>
+                        <div class="feedback-option-subtitle">提交问题或功能请求</div>
+                    </div>
+                    <div class="feedback-option-arrow">→</div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 反馈弹窗控制
+        function openFeedback() {
+            document.getElementById('feedbackModal').classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeFeedback(event) {
+            if (!event || event.target.id === 'feedbackModal') {
+                document.getElementById('feedbackModal').classList.remove('active');
+                document.body.style.overflow = '';
+            }
+        }
+
+        // ESC键关闭弹窗
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeFeedback();
+            }
+        });
+    </script>
+</body>
+</html>
