@@ -1,0 +1,58 @@
+    {
+        "id": "d20",
+        "date": "3月20日",
+        "day": 21,
+        "events": [
+            {
+                "time": "凌晨",
+                "type": "major",
+                "tags": ["军事"],
+                "isNew": true,
+                "title": "伊朗发动\"真实承诺-4\"第66轮军事行动",
+                "content": "伊朗伊斯兰革命卫队宣布发动\"真实承诺-4\"第66轮军事行动，使用多种超重型多弹头导弹及无人机袭击以色列中部、南部目标以及中东地区美军基地。",
+                "sources": [
+                    {"name": "央视新闻", "url": "https://content.cctv.com", "official": true}
+                ]
+            },
+            {
+                "time": "上午",
+                "type": "normal",
+                "tags": ["政治"],
+                "isNew": true,
+                "title": "以色列宣布暂停空袭伊朗能源设施",
+                "content": "以色列总理内塔尼亚胡表示，以方将遵守美国总统特朗普要求，暂停后续对伊朗能源设施的空袭。特朗普此前称对以色列袭击伊朗油气设施事先不知情。",
+                "sources": [
+                    {"name": "央视新闻", "url": "https://content.cctv.com", "official": true}
+                ]
+            }
+        ]
+    },
+    {
+        "id": "d19",
+        "date": "3月19日",
+        "day": 20,
+        "events": [
+            {
+                "time": "夜间",
+                "type": "major",
+                "tags": ["军事"],
+                "isNew": true,
+                "title": "伊朗第65轮行动打击以色列炼油厂及美军基地",
+                "content": "伊朗伊斯兰革命卫队发动\"真实承诺-4\"第65轮行动，首次使用升级版\"卡德尔\"导弹，击中以色列海法和阿什杜德炼油厂，同时打击沙特、巴林、阿联酋境内美军基地。",
+                "sources": [
+                    {"name": "央视新闻", "url": "https://content.cctv.com", "official": true}
+                ]
+            },
+            {
+                "time": "凌晨",
+                "type": "major",
+                "tags": ["军事"],
+                "isNew": true,
+                "title": "伊朗称击中美军F-35战斗机",
+                "content": "伊朗伊斯兰革命卫队表示，美军一架F-35战斗机在伊朗中部空域遭伊朗新型先进防空系统击中并严重受损。",
+                "sources": [
+                    {"name": "央视新闻", "url": "https://content.cctv.com", "official": true}
+                ]
+            }
+        ]
+    }
