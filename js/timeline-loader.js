@@ -74,6 +74,22 @@ function renderEventCard(event) {
 function renderDateGroup(dayData) {
     const eventsHtml = dayData.events.map(renderEventCard).join('\n');
     
+    // 战前背景特殊处理（可折叠）
+    if (dayData.date_id === 'bg' || dayData.is_collapsible) {
+        return `
+            <div class="date-group" id="${dayData.date_id}">
+                <div class="date-label bg-collapsed" onclick="toggleBg()" style="background: linear-gradient(135deg, #52c41a, #73d13d); cursor: pointer;">
+                    ${dayData.date_label} <span class="date-day">· ${dayData.date_subtitle || ''}</span>
+                    <span class="bg-toggle-hint">点击展开</span>
+                </div>
+                <div class="events-container bg-content" style="display: none;">
+                    ${eventsHtml}
+                </div>
+            </div>
+        `;
+    }
+    
+    // 普通日期组
     return `
         <div class="date-group" id="${dayData.date_id}">
             <div class="date-label" onclick="scrollToDate('${dayData.date_id}')">
@@ -170,6 +186,27 @@ async function initTimeline() {
     console.log('[时间线] 初始化完成');
     
     return { eventsData, dashboardData };
+}
+
+/**
+ * 切换战前背景展开/折叠
+ */
+function toggleBg() {
+    var label = document.querySelector('.date-label.bg-collapsed, .date-label.bg-expanded');
+    var content = document.querySelector('.bg-content');
+    if (label && content) {
+        if (label.classList.contains('bg-collapsed')) {
+            label.classList.remove('bg-collapsed');
+            label.classList.add('bg-expanded');
+            content.style.display = 'block';
+            label.querySelector('.bg-toggle-hint').textContent = '点击收起';
+        } else {
+            label.classList.remove('bg-expanded');
+            label.classList.add('bg-collapsed');
+            content.style.display = 'none';
+            label.querySelector('.bg-toggle-hint').textContent = '点击展开';
+        }
+    }
 }
 
 // 页面加载完成后初始化
