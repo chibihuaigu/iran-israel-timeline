@@ -1,9 +1,67 @@
 {
   "version": "1.0",
   "extracted_at": "2026-04-05 00:59:45",
-  "total_days": 32,
-  "total_events": 161,
+  "total_days": 33,
+  "total_events": 164,
   "events": [
+    {
+      "date_id": "bg",
+      "date_label": "战前背景",
+      "date_subtitle": "2025年6月",
+      "is_collapsible": true,
+      "events": [
+        {
+          "time": "2025年6月13日-24日",
+          "tag": "diplomatic-tag",
+          "category": "外交",
+          "title": "2025年6月\"12日战争\"",
+          "content": "以色列对伊朗发动代号\"崛起的雄狮\"大规模空袭，伊朗随即展开\"真实承诺-3\"报复行动。以色列出动超200架F-35隐形战机，这是海湾战争、伊拉克战争后中东地区最大规模直接军事对抗，最终在美国斡旋下于6月24日达成停火协议。",
+          "major": false,
+          "sources": [
+            {
+              "url": "https://baike.baidu.com/item/2025%E5%B9%B4%E4%BB%A5%E4%BC%8A%E5%86%B2%E7%AA%81/65802378",
+              "name": "百度百科"
+            },
+            {
+              "url": "https://www.xinhuanet.com/",
+              "name": "新华网"
+            }
+          ]
+        },
+        {
+          "time": "2025年6月-2026年2月",
+          "tag": "military-tag",
+          "category": "军事",
+          "title": "本轮冲突起因",
+          "content": "国际原子能机构认定伊朗违反《不扩散核武器条约》，以色列以此为由发动预防性打击。2025年12日战争结束后，伊朗核计划未被彻底摧毁，局势持续紧张。2026年2月，美以研判伊朗核能力即将突破红线，决定发动新一轮更大规模打击，拉开本轮冲突序幕。",
+          "major": false,
+          "sources": [
+            {
+              "url": "https://www.xinhuanet.com/",
+              "name": "新华网"
+            },
+            {
+              "url": "https://news.cctv.com/",
+              "name": "央视新闻"
+            }
+          ]
+        },
+        {
+          "time": "2025年6月（12天）",
+          "tag": "humanitarian-tag",
+          "category": "人道",
+          "title": "2025年6月冲突伤亡数据",
+          "content": "伊朗：约430名平民死亡，超3500人受伤；以色列：24人死亡，1272人受伤。2026年本轮冲突规模与烈度均远超2025年，双方均无停战迹象。",
+          "major": false,
+          "sources": [
+            {
+              "url": "https://baike.baidu.com/item/2025%E5%B9%B4%E4%BB%A5%E4%BC%8A%E5%86%B2%E7%AA%81/65802378",
+              "name": "百度百科"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date_id": "d32",
       "date_label": "4月1日",
