@@ -122,8 +122,10 @@ function renderTimeline(eventsData) {
  * 支持两种HTML结构：
  * 1. data-field 属性（新版）
  * 2. id 属性（原版）
+ * @param {Object} dashboardData - Dashboard数据
+ * @param {Object} eventsData - 事件数据（可选，用于更新subtitle）
  */
-function updateDashboard(dashboardData) {
+function updateDashboard(dashboardData, eventsData = null) {
     // 字段映射：dashboard.json字段 -> HTML元素ID
     const fieldMap = {
         'warDays': 'warDays',
@@ -152,10 +154,26 @@ function updateDashboard(dashboardData) {
         }
     });
     
-    // 更新 lastUpdated
+    // 更新 lastUpdated（多种选择器兼容）
     const updatedEl = document.querySelector('.last-updated');
     if (updatedEl && dashboardData.lastUpdated) {
         updatedEl.textContent = `最后更新: ${dashboardData.lastUpdated}`;
+    }
+    
+    // 更新 update-badge（Header中的更新时间戳）
+    const updateBadge = document.getElementById('update-badge');
+    if (updateBadge && dashboardData.lastUpdated) {
+        updateBadge.textContent = `📅 更新于 ${dashboardData.lastUpdated}`;
+    }
+    
+    // 更新 subtitle（Header中的日期范围和统计）
+    const subtitleEl = document.querySelector('.header .subtitle');
+    if (subtitleEl && dashboardData.warDays) {
+        const firstEvent = eventsData?.events?.[eventsData.events.length - 1];
+        const lastEvent = eventsData?.events?.[0];
+        if (firstEvent && lastEvent) {
+            subtitleEl.textContent = `2026年2月28日 - ${lastEvent.date_label} · 第${dashboardData.warDays}天 · 伊朗第${dashboardData.iranMissileWaves}导弹袭击`;
+        }
     }
     
     console.log('[Dashboard] 数据已更新');
@@ -178,9 +196,9 @@ async function initTimeline() {
         renderTimeline(eventsData);
     }
     
-    // 更新Dashboard
+    // 更新Dashboard（传递eventsData用于更新subtitle）
     if (dashboardData) {
-        updateDashboard(dashboardData);
+        updateDashboard(dashboardData, eventsData);
     }
     
     console.log('[时间线] 初始化完成');
