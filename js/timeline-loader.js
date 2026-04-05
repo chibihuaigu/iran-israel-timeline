@@ -8,6 +8,7 @@
 const DATA_DIR = 'data/';
 const EVENTS_FILE = DATA_DIR + 'events.json';
 const DASHBOARD_FILE = DATA_DIR + 'dashboard.json';
+const STATISTICS_FILE = DATA_DIR + 'statistics.json';
 
 /**
  * 加载事件数据
@@ -23,6 +24,25 @@ async function loadEvents() {
         return data;
     } catch (error) {
         console.error('[时间线] 加载事件数据失败:', error);
+        return null;
+    }
+}
+
+/**
+ * 加载统计数据（数据来源追踪）
+ */
+async function loadStatistics() {
+    try {
+        const response = await fetch(STATISTICS_FILE);
+        if (!response.ok) {
+            console.log('[统计] 无统计数据文件');
+            return null;
+        }
+        const data = await response.json();
+        console.log(`[统计] 加载成功，${Object.keys(data.fields || {}).length}个字段`);
+        return data;
+    } catch (error) {
+        console.log('[统计] 加载失败:', error.message);
         return null;
     }
 }
@@ -202,10 +222,11 @@ function updateDashboard(dashboardData, eventsData = null) {
 async function initTimeline() {
     console.log('[时间线] 开始加载数据...');
     
-    // 并行加载事件和Dashboard数据
-    const [eventsData, dashboardData] = await Promise.all([
+    // 并行加载所有数据
+    const [eventsData, dashboardData, statisticsData] = await Promise.all([
         loadEvents(),
-        loadDashboard()
+        loadDashboard(),
+        loadStatistics()
     ]);
     
     // 渲染时间线
@@ -218,9 +239,37 @@ async function initTimeline() {
         updateDashboard(dashboardData, eventsData);
     }
     
+    // 更新统计数据来源显示（如果有争议数据）
+    if (statisticsData) {
+        updateStatisticsDisplay(statisticsData);
+    }
+    
     console.log('[时间线] 初始化完成');
     
-    return { eventsData, dashboardData };
+    return { eventsData, dashboardData, statisticsData };
+}
+
+/**
+ * 更新统计数据来源显示
+ */
+function updateStatisticsDisplay(statisticsData) {
+    // 检查是否有争议数据
+    const disputedFields = [];
+    for (const [field, data] of Object.entries(statisticsData.fields || {})) {
+        if (data.hasDispute) {
+            disputedFields.push({
+                field: field,
+                value: data.value,
+                dispute: data.disputeDetails,
+                confidence: data.confidence
+            });
+        }
+    }
+    
+    if (disputedFields.length > 0) {
+        console.log('[统计] 发现争议数据:', disputedFields);
+        // 可以在这里添加UI提示，比如在Dashboard下方显示争议说明
+    }
 }
 
 /**
