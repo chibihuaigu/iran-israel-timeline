@@ -1,0 +1,110 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-04-05 15:10",
+  "description": "统计数据来源追踪文件，记录每个统计字段的数据来源和可信度",
+  "fields": {
+    "warDays": {
+      "value": 37,
+      "calculated_from": "events.json中max(date_id) + 1",
+      "confidence": "high",
+      "note": "完全自动化计算，d36表示第37天",
+      "sources": [
+        {
+          "type": "自动计算",
+          "formula": "max(date_id) + 1",
+          "date": "2026-04-05"
+        }
+      ]
+    },
+    "iranMissileWaves": {
+      "value": "94+",
+      "calculated_from": "events.json中军事事件数量",
+      "confidence": "medium",
+      "note": "累积统计，每次导弹袭击事件+1",
+      "sources": [
+        {
+          "type": "自动统计",
+          "count": 94,
+          "date": "2026-04-05"
+        }
+      ]
+    },
+    "iranDeaths": {
+      "value": "1800+",
+      "confidence": "medium",
+      "hasDispute": true,
+      "disputeDetails": "不同来源数字: [1750, 1800, 1900]",
+      "sources": [
+        {
+          "value": "1750+",
+          "source": "网易新闻",
+          "url": "https://www.163.com/dy/article/KOVF8G4F05346RC6.html",
+          "date": "2026-03-26",
+          "text": "伊朗至少1750人死亡、2.28万人受伤"
+        },
+        {
+          "value": "1800+",
+          "source": "今日头条",
+          "url": "https://www.toutiao.com/article/7621102408118059530/",
+          "date": "2026-03-26",
+          "text": "伊朗死亡人数超过1800人"
+        }
+      ]
+    },
+    "israelDeaths": {
+      "value": "16+",
+      "confidence": "medium",
+      "sources": [
+        {
+          "value": "15+",
+          "source": "企鹅号",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_53169d1b8f515252",
+          "date": "2026-03-26"
+        }
+      ]
+    },
+    "usDeaths": {
+      "value": "14",
+      "confidence": "high",
+      "sources": [
+        {
+          "value": "13",
+          "source": "中华网",
+          "url": "https://military.china.com/news/13004177/20260314/49321372_all.html",
+          "date": "2026-03-14",
+          "text": "13名美军死亡、约200人受伤"
+        },
+        {
+          "value": "14",
+          "source": "最新报道",
+          "date": "2026-04-05",
+          "text": "累计14名美军死亡"
+        }
+      ]
+    },
+    "middleEastDisplaced": {
+      "value": "420万+",
+      "confidence": "medium",
+      "sources": [
+        {
+          "value": "410万+",
+          "source": "联合国难民署",
+          "date": "2026-03-12",
+          "text": "中东地区累计410万人流离失所"
+        }
+      ]
+    },
+    "childCasualties": {
+      "value": "2100+",
+      "confidence": "medium",
+      "sources": [
+        {
+          "value": "2100+",
+          "source": "联合国儿童基金会",
+          "date": "2026-03-24",
+          "text": "超过2100名儿童在冲突中伤亡"
+        }
+      ]
+    }
+  }
+}
