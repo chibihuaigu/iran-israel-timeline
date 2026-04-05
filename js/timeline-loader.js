@@ -157,7 +157,18 @@ function updateDashboard(dashboardData, eventsData = null) {
         'childCasualties': 'childCasualty'
     };
     
-    // 更新各字段
+    // Modal 元素映射：dashboard.json字段 -> Modal元素ID
+    const modalFieldMap = {
+        'warDays': 'dataWarDays',
+        'iranMissileWaves': 'dataMissileWaves',
+        'iranDeaths': 'dataIranDeaths',
+        'israelDeaths': 'dataIsraelDeaths',
+        'usDeaths': 'dataUsDeaths',
+        'middleEastDisplaced': 'dataDisplaced',
+        'childCasualties': 'dataChildren'
+    };
+    
+    // 更新 Dashboard 卡片
     Object.keys(fieldMap).forEach(dashboardField => {
         const htmlId = fieldMap[dashboardField];
         const value = dashboardData[dashboardField];
@@ -169,6 +180,17 @@ function updateDashboard(dashboardData, eventsData = null) {
             el = document.querySelector(`.stat-value[data-field="${htmlId}"]`);
         }
         
+        if (el && value !== undefined) {
+            el.textContent = value;
+        }
+    });
+    
+    // 更新 Modal（数据统计弹窗）
+    Object.keys(modalFieldMap).forEach(dashboardField => {
+        const modalId = modalFieldMap[dashboardField];
+        const value = dashboardData[dashboardField];
+        
+        const el = document.getElementById(modalId);
         if (el && value !== undefined) {
             el.textContent = value;
         }
