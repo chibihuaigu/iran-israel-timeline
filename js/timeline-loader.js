@@ -1,14 +1,15 @@
 /**
  * 时间线数据加载器
  * 从外部 JSON 文件加载事件数据和 Dashboard 数据
- * 版本: 1.0
+ * 版本: 1.1
  */
 
-// 数据文件路径
+// 数据文件路径（添加版本号防止缓存）
+const CACHE_BUSTER = '?v=' + Date.now();
 const DATA_DIR = 'data/';
-const EVENTS_FILE = DATA_DIR + 'events.json';
-const DASHBOARD_FILE = DATA_DIR + 'dashboard.json';
-const STATISTICS_FILE = DATA_DIR + 'statistics.json';
+const EVENTS_FILE = DATA_DIR + 'events.json' + CACHE_BUSTER;
+const DASHBOARD_FILE = DATA_DIR + 'dashboard.json' + CACHE_BUSTER;
+const STATISTICS_FILE = DATA_DIR + 'statistics.json' + CACHE_BUSTER;
 
 /**
  * 加载事件数据
