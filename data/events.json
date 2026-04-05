@@ -1,9 +1,24 @@
 {
   "version": "1.0",
-  "extracted_at": "2026-04-05 13:06:41",
+  "extracted_at": "2026-04-05 13:22:59",
   "total_days": 37,
   "total_events": 169,
   "events": [
+    {
+      "date_id": "d36",
+      "date_label": "4月5日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "军事",
+          "tag": "military-tag",
+          "title": "冲突持续，双方继续交火",
+          "content": "伊朗与以色列冲突持续，双方继续在多个战线交火。截至4月5日，冲突已进入第36天。",
+          "major": false,
+          "sources": []
+        }
+      ]
+    },
     {
       "date_id": "d35",
       "date_label": "4月4日",
@@ -25,21 +40,6 @@
               "name": "企鹅号"
             }
           ]
-        }
-      ]
-    },
-    {
-      "date_id": "d36",
-      "date_label": "4月5日",
-      "events": [
-        {
-          "time": "全天",
-          "category": "军事",
-          "tag": "military-tag",
-          "title": "冲突持续，双方继续交火",
-          "content": "伊朗与以色列冲突持续，双方继续在多个战线交火。截至4月5日，冲突已进入第36天。",
-          "major": false,
-          "sources": []
         }
       ]
     },
