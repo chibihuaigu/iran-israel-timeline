@@ -123,7 +123,7 @@ function renderTimeline(eventsData) {
  * 1. data-field 属性（新版）
  * 2. id 属性（原版）
  * @param {Object} dashboardData - Dashboard数据
- * @param {Object} eventsData - 事件数据（可选，用于更新subtitle）
+ * @param {Object} eventsData - 事件数据（可选，用于更新subtitle和toc）
  */
 function updateDashboard(dashboardData, eventsData = null) {
     // 字段映射：dashboard.json字段 -> HTML元素ID
@@ -160,7 +160,7 @@ function updateDashboard(dashboardData, eventsData = null) {
         updatedEl.textContent = `最后更新: ${dashboardData.lastUpdated}`;
     }
     
-    // 更新 update-badge（Header中的更新时间戳）
+    // 更新 update-badge（Header中的更新时间戳）- 包含完整时间
     const updateBadge = document.getElementById('update-badge');
     if (updateBadge && dashboardData.lastUpdated) {
         updateBadge.textContent = `📅 更新于 ${dashboardData.lastUpdated}`;
@@ -174,6 +174,23 @@ function updateDashboard(dashboardData, eventsData = null) {
         if (firstEvent && lastEvent) {
             subtitleEl.textContent = `2026年2月28日 - ${lastEvent.date_label} · 第${dashboardData.warDays}天 · 伊朗第${dashboardData.iranMissileWaves}导弹袭击`;
         }
+    }
+    
+    // 更新 toc-links（底部横向时间轴导航）
+    const tocLinksEl = document.getElementById('tocLinks');
+    if (tocLinksEl && eventsData?.events) {
+        // 按日期倒序生成链接（最新在前）
+        const tocLinks = eventsData.events
+            .filter(day => day.date_id !== 'bg') // 排除战前背景
+            .map(day => `<a href="#${day.date_id}" class="toc-link">${day.date_label}</a>`)
+            .join('\n');
+        // 添加战前背景链接到末尾
+        const bgEvent = eventsData.events.find(day => day.date_id === 'bg');
+        const fullTocLinks = bgEvent 
+            ? tocLinks + `\n<a href="#bg" class="toc-link">战前背景</a>`
+            : tocLinks;
+        tocLinksEl.innerHTML = fullTocLinks;
+        console.log('[时间线] TOC导航已更新');
     }
     
     console.log('[Dashboard] 数据已更新');
