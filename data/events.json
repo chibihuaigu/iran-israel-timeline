@@ -1,9 +1,63 @@
 {
   "version": "1.0",
-  "extracted_at": "2026-04-05 02:07:56",
-  "total_days": 33,
-  "total_events": 164,
+  "extracted_at": "2026-04-05 12:38:56",
+  "total_days": 35,
+  "total_events": 167,
   "events": [
+    {
+      "date_id": "d34",
+      "date_label": "4月3日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "以色列议员住所遭伊朗导弹袭击",
+          "content": "伊朗对以色列中部发动导弹袭击，造成一名议员住所受损。以色列议员摩西·加夫尼位于布内布拉克的住宅遭到袭击，未造成人员伤亡。",
+          "major": false,
+          "sources": [
+            {
+              "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_53169d1b8f515252",
+              "name": "企鹅号"
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "军事",
+          "tag": "military-tag",
+          "title": "以色列评估伊朗仍拥有超千枚弹道导弹",
+          "content": "以色列情报官员透露，以军评估认为伊朗仍拥有超过1000枚可打击以色列的弹道导弹。冲突开始时约2500枚，已发射超500枚。",
+          "major": false,
+          "sources": [
+            {
+              "url": "https://www.yicai.com/brief/103119591.html",
+              "name": "一财资讯"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d33",
+      "date_label": "4月2日",
+      "events": [
+        {
+          "time": "晚间",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "伊朗向以色列特拉维夫发动新一轮导弹袭击",
+          "content": "当地时间4月2日晚，伊朗向以色列特拉维夫发动新一轮导弹袭击。这是伊朗对以色列持续军事行动的回应。",
+          "major": true,
+          "sources": [
+            {
+              "url": "https://new.qq.com/rain/a/20260403A0189D00",
+              "name": "央视新闻"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date_id": "d32",
       "date_label": "4月1日",
