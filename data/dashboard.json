@@ -1,12 +1,13 @@
 {
   "version": "1.0",
-  "extracted_at": "2026-04-05 02:07:56",
-  "warDays": 34,
-  "iranMissileWaves": "89+",
-  "iranDeaths": "1750+",
-  "israelDeaths": "15+",
-  "usDeaths": "13",
-  "middleEastDisplaced": "410万+",
+  "extracted_at": "2026-04-05 12:38:56",
+  "warDays": 36,
+  "iranMissileWaves": "91+",
+  "iranDeaths": "1800+",
+  "israelDeaths": "16+",
+  "usDeaths": "14",
+  "middleEastDisplaced": "420万+",
   "childCasualties": "2100+",
-  "lastUpdated": "2026-04-03"
+  "lastUpdated": "2026-04-05",
+  "childCasualty": "2200+"
 }
