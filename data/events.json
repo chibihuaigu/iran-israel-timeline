@@ -1,9 +1,48 @@
 {
   "version": "1.0",
-  "extracted_at": "2026-04-05 12:38:56",
-  "total_days": 35,
-  "total_events": 167,
+  "extracted_at": "2026-04-05 13:06:41",
+  "total_days": 37,
+  "total_events": 169,
   "events": [
+    {
+      "date_id": "d35",
+      "date_label": "4月4日",
+      "events": [
+        {
+          "time": "凌晨",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "伊朗发动第94波打击，精准命中以色列化工厂",
+          "content": "当地时间4月4日凌晨，伊朗弹道导弹突破以色列防空网，精准命中南部内盖夫地区的ADAMA农药化工厂与工业园区。伊朗伊斯兰革命卫队称，在真实承诺4第94波打击行动中，使用了弹道导弹、固液双燃料重型导弹、多弹头导弹和无人机，摧毁了以色列南部、中部、北部以及特拉维夫地区的工业和军事设施。",
+          "major": true,
+          "sources": [
+            {
+              "url": "https://www.toutiao.com/w/1861541534462976/",
+              "name": "今日头条"
+            },
+            {
+              "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_33169d10a0112152",
+              "name": "企鹅号"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d36",
+      "date_label": "4月5日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "军事",
+          "tag": "military-tag",
+          "title": "冲突持续，双方继续交火",
+          "content": "伊朗与以色列冲突持续，双方继续在多个战线交火。截至4月5日，冲突已进入第36天。",
+          "major": false,
+          "sources": []
+        }
+      ]
+    },
     {
       "date_id": "d34",
       "date_label": "4月3日",
