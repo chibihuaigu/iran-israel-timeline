@@ -1,9 +1,57 @@
 {
   "version": "1.0",
-  "extracted_at": "2026-04-05 13:22:59",
-  "total_days": 37,
-  "total_events": 169,
+  "extracted_at": "2026-04-06 15:18:42",
+  "total_days": 38,
+  "total_events": 172,
   "events": [
+    {
+      "date_id": "d37",
+      "date_label": "4月6日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "特朗普发出最后通牒：4月6日晚8点期限",
+          "content": "美国总统特朗普向伊朗发出最后通牒，如果4月6日晚8点前不能达成协议、霍尔木兹海峡仍未恢复通航，美国将“炸毁并彻底摧毁伊朗所有的发电站、油井及哈尔克岛”。哈尔克岛是伊朗石油出口的关键设施。",
+          "major": true,
+          "sources": [
+            {
+              "url": "http://www.baidu.com/link?url=hKKfIgqThNEHSLUKWMHYx-bGTWsjzA2Olm5nVCUM_KUiorgOaqCa09iO8hgOvBHMTaXYIBssVUp61mpyqESII9IU3J6t4-ckQUe9DgWX4Ke",
+              "name": "百度搜索"
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "伊朗击落12架美军战机",
+          "content": "伊朗军方证实，过去两天击落12架美军战机，包括F-15E战斗机、C-130运输机、A-10攻击机、“黑鹰”直升机及MQ-9无人机。美军救援被击落飞行员的行动遭挫败。",
+          "major": true,
+          "sources": [
+            {
+              "url": "http://www.baidu.com/link?url=hKKfIgqThNEHSLUKWMHYx-bGTWsjzA2Olm5nVCUM_KUqhIFxc4WyMmFKlOTjYa-rM8v3yZ00aOupj5nPoCy_Aa3GSWqIeJjkZYxUfs05zP7",
+              "name": "百度搜索"
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "外交",
+          "tag": "diplomacy-tag",
+          "title": "美伊讨论45天停火协议",
+          "content": "美国、伊朗和一组地区调解人正在讨论一项可能为期45天的停火协议条款，该协议有望结束当前的军事冲突。",
+          "major": false,
+          "sources": [
+            {
+              "url": "http://www.baidu.com/link?url=hKKfIgqThNEHSLUKWMHYx-bGTWsjzA2Olm5nVCUM_KUiorgOaqCa09iO8hgOvBHMGtklCe6RrqLXk_4-vfnQeZH9iswDb6fEQJ6M3OZvOya",
+              "name": "百度搜索"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date_id": "d36",
       "date_label": "4月5日",
