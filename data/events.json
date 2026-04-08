@@ -1,9 +1,51 @@
 {
   "version": "1.0",
-  "extracted_at": "2026-04-06 15:18:42",
-  "total_days": 38,
-  "total_events": 172,
+  "extracted_at": "2026-04-08 12:27:01",
+  "total_days": 40,
+  "total_events": 174,
   "events": [
+    {
+      "date_id": "d39",
+      "date_label": "4月8日",
+      "events": [
+        {
+          "time": "上午",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "以色列总理承诺尊重停火暂停攻击",
+          "content": "白宫消息称，美国总统特朗普在宣布与伊朗进行有条件临时停火前，与以色列总理内塔尼亚胡通了电话，通报情况并获得了以方\"尊重停火、暂停攻击\"的承诺。",
+          "major": true,
+          "sources": [
+            {
+              "url": "https://news.cctv.com/2026/04/08/ARTITQJ5NM1WnR4zknLT58Ja260408.shtml",
+              "name": "央视新闻",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d38",
+      "date_label": "4月7日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "美伊有条件临时停火",
+          "content": "美国总统特朗普宣布与伊朗进行有条件临时停火。特朗普表示，如果伊朗在停火期间不发动导弹袭击，美国将暂停军事行动。这是冲突爆发以来首次宣布停火。",
+          "major": true,
+          "sources": [
+            {
+              "url": "https://news.cctv.com/2026/04/08/ARTITQJ5NM1WnR4zknLT58Ja260408.shtml",
+              "name": "央视新闻",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
     {
       "date_id": "d37",
       "date_label": "4月6日",
