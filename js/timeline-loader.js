@@ -67,24 +67,87 @@ async function loadDashboard() {
 }
 
 /**
+ * 获取来源可信度等级
+ * @param {string} sourceName - 来源名称
+ * @returns {string} 等级类名
+ */
+function getSourceTier(sourceName) {
+    // 官方权威媒体（最高优先级）
+    const officialSources = ['央视新闻', '新华社', '人民日报', '光明日报', '中国新闻网', '央广网', '环球时报'];
+    // 国际主流媒体
+    const intlSources = ['路透社', '美联社', '法新社', 'BBC', 'CNN', '纽约时报', '华盛顿邮报', '卫报', '半岛电视台', '联合早报'];
+    // 国内主流媒体
+    const domesticSources = ['网易', '腾讯', '澎湃新闻', '搜狐', '新浪', '凤凰网', '观察者网', '中华网', '企鹅号'];
+
+    if (officialSources.some(s => sourceName.includes(s))) return 'tier-official';
+    if (intlSources.some(s => sourceName.includes(s))) return 'tier-intl';
+    if (domesticSources.some(s => sourceName.includes(s))) return 'tier-domestic';
+    return 'tier-other';
+}
+
+/**
  * 渲染事件卡片
  */
 function renderEventCard(event) {
-    const sourceLinks = event.sources.map(s => 
-        `<a class="source-link" href="${s.url}" target="_blank">${s.name}</a>`
-    ).join('');
-    
+    // 合并同一媒体的多个来源
+    const groupedSources = {};
+    event.sources.forEach(s => {
+        if (!groupedSources[s.name]) {
+            groupedSources[s.name] = [];
+        }
+        groupedSources[s.name].push(s.url);
+    });
+
+    // 生成来源链接（同一媒体的多个链接合并显示，带可信度等级）
+    const sourceLinks = Object.entries(groupedSources).map(([name, urls]) => {
+        const tier = getSourceTier(name);
+        if (urls.length === 1) {
+            return `<a class="source-link ${tier}" href="${urls[0]}" target="_blank">${name}</a>`;
+        } else {
+            // 多个链接时，第一个作为主链接，其他作为角标
+            const mainLink = `<a class="source-link ${tier}" href="${urls[0]}" target="_blank">${name}</a>`;
+            const extraLinks = urls.slice(1).map((url, i) =>
+                `<a class="source-link source-extra" href="${url}" target="_blank" title="${name} 文章${i+2}">+${i+1}</a>`
+            ).join('');
+            return mainLink + extraLinks;
+        }
+    }).join('');
+
+    // 待验证标记
+    const verificationBadge = event.needs_verification
+        ? `<span class="verification-badge" title="此事件来源待验证">⚠️ 待验证</span>`
+        : '';
+
+    // 争议标记
+    const disputedBadge = event.disputed
+        ? `<span class="disputed-badge" title="此事件存在争议">🔍 有争议</span>`
+        : '';
+
+    // 来源优先级样式
+    const hasHighPrioritySource = event.sources.some(s => s.priority === 1);
+    const sourceQualityClass = event.sources.length === 0 ? 'no-sources'
+        : hasHighPrioritySource ? 'high-quality'
+        : 'standard-quality';
+
+    // 关键事件标注类
+    let eventMarkClass = '';
+    if (event.mark === 'turning_point') eventMarkClass = ' turning-point';
+    else if (event.mark === 'first_occurrence') eventMarkClass = ' first-occurrence';
+    else if (event.mark === 'escalation') eventMarkClass = ' escalation';
+
     return `
-        <div class="event-card${event.major ? ' major' : ''}">
+        <div class="event-card${event.major ? ' major' : ''}${eventMarkClass} ${sourceQualityClass}">
             <div class="event-time">${event.time}</div>
             <div class="event-header">
                 <div class="event-title">
                     <span class="category-tag ${event.tag}">${event.category}</span>
                     ${event.title}
+                    ${verificationBadge}
+                    ${disputedBadge}
                 </div>
             </div>
             <div class="event-content">${event.content}</div>
-            ${event.sources.length > 0 ? `<div class="event-sources">${sourceLinks}</div>` : ''}
+            ${event.sources.length > 0 ? `<div class="event-sources">${sourceLinks}</div>` : '<div class="event-sources no-source-warning">⚠️ 暂无来源</div>'}
         </div>
     `;
 }
@@ -94,7 +157,12 @@ function renderEventCard(event) {
  */
 function renderDateGroup(dayData) {
     const eventsHtml = dayData.events.map(renderEventCard).join('\n');
-    
+
+    // 每日总结（如果有）
+    const summaryHtml = dayData.summary
+        ? `<div class="day-summary"><span class="day-summary-icon">📌</span><span class="day-summary-text">${dayData.summary}</span></div>`
+        : '';
+
     // 战前背景特殊处理（可折叠）
     if (dayData.date_id === 'bg' || dayData.is_collapsible) {
         return `
@@ -109,13 +177,14 @@ function renderDateGroup(dayData) {
             </div>
         `;
     }
-    
+
     // 普通日期组
     return `
         <div class="date-group" id="${dayData.date_id}">
             <div class="date-label" onclick="scrollToDate('${dayData.date_id}')">
                 ${dayData.date_label}
             </div>
+            ${summaryHtml}
             <div class="events-container">
                 ${eventsHtml}
             </div>
@@ -150,22 +219,22 @@ function updateDashboard(dashboardData, eventsData = null) {
     // 字段映射：dashboard.json字段 -> HTML元素ID
     const fieldMap = {
         'warDays': 'warDays',
-        'iranMissileWaves': 'eventCount',
+        'missileWaves': 'eventCount',
         'iranDeaths': 'casualtyCount',
         'israelDeaths': 'israelCasualty',
         'usDeaths': 'usCasualty',
-        'middleEastDisplaced': 'iranCasualty',
+        'displaced': 'iranCasualty',
         'childCasualties': 'childCasualty'
     };
-    
+
     // Modal 元素映射：dashboard.json字段 -> Modal元素ID
     const modalFieldMap = {
         'warDays': 'dataWarDays',
-        'iranMissileWaves': 'dataMissileWaves',
+        'missileWaves': 'dataMissileWaves',
         'iranDeaths': 'dataIranDeaths',
         'israelDeaths': 'dataIsraelDeaths',
         'usDeaths': 'dataUsDeaths',
-        'middleEastDisplaced': 'dataDisplaced',
+        'displaced': 'dataDisplaced',
         'childCasualties': 'dataChildren'
     };
     
@@ -202,23 +271,36 @@ function updateDashboard(dashboardData, eventsData = null) {
     if (updatedEl && dashboardData.lastUpdated) {
         updatedEl.textContent = `最后更新: ${dashboardData.lastUpdated}`;
     }
-    
-    // 更新 update-badge（Header中的更新时间戳）- 包含完整时间
+
+    // 更新 update-time（新版Header中的更新时间戳）
+    const updateTimeEl = document.getElementById('update-time');
+    if (updateTimeEl && dashboardData.lastUpdated) {
+        updateTimeEl.textContent = `📅 最后更新：${dashboardData.lastUpdated}`;
+    }
+
+    // 更新 update-stats（新版Header中的统计信息）
+    const updateStatsEl = document.getElementById('update-stats');
+    if (updateStatsEl && eventsData) {
+        const totalEvents = eventsData.total_events || 0;
+        updateStatsEl.textContent = `📊 已收录 ${totalEvents} 条权威事件`;
+    }
+
+    // 更新 update-badge（Header中的更新时间戳）- 兼容旧版
     const updateBadge = document.getElementById('update-badge');
     if (updateBadge && dashboardData.lastUpdated) {
         updateBadge.textContent = `📅 更新于 ${dashboardData.lastUpdated}`;
     }
-    
+
     // 更新 subtitle（Header中的日期范围和统计）
     const subtitleEl = document.querySelector('.header .subtitle');
     if (subtitleEl && dashboardData.warDays) {
         const firstEvent = eventsData?.events?.[eventsData.events.length - 1];
         const lastEvent = eventsData?.events?.[0];
         if (firstEvent && lastEvent) {
-            subtitleEl.textContent = `2026年2月28日 - ${lastEvent.date_label} · 第${dashboardData.warDays}天 · 伊朗第${dashboardData.iranMissileWaves}导弹袭击`;
+            subtitleEl.textContent = `2026年2月28日 - ${lastEvent.date_label} · 第${dashboardData.warDays}天 · 伊朗第${dashboardData.iranMissileWaves || dashboardData.missileWaves}导弹袭击`;
         }
     }
-    
+
     // 更新 toc-links（底部横向时间轴导航）
     const tocLinksEl = document.getElementById('tocLinks');
     if (tocLinksEl && eventsData?.events) {
@@ -229,14 +311,78 @@ function updateDashboard(dashboardData, eventsData = null) {
             .join('\n');
         // 添加战前背景链接到末尾
         const bgEvent = eventsData.events.find(day => day.date_id === 'bg');
-        const fullTocLinks = bgEvent 
+        const fullTocLinks = bgEvent
             ? tocLinks + `\n<a href="#bg" class="toc-link">战前背景</a>`
             : tocLinks;
         tocLinksEl.innerHTML = fullTocLinks;
+
+        // 初始化时滚动到最左边（显示最新日期）
+        // 因为导航是最新在前，所以scrollLeft=0显示最新日期
+        tocLinksEl.scrollLeft = 0;
+
         console.log('[时间线] TOC导航已更新');
     }
-    
+
+    // 更新 warDaysSub（冲突天数副标题，显示停火信息）
+    const warDaysSubEl = document.getElementById('warDaysSub');
+    if (warDaysSubEl && dashboardData.ceasefireInfo) {
+        const ceasefireInfo = dashboardData.ceasefireInfo;
+        const ceasefireDays = ceasefireInfo.ceasefireDays || dashboardData.ceasefireDays || 0;
+        const status = ceasefireInfo.status || '停火中';
+        const statusDetail = ceasefireInfo.statusDetail || '';
+
+        // 根据状态显示不同的副标题
+        if (status === '谈判破裂') {
+            warDaysSubEl.textContent = `含停火 ${ceasefireDays} 天 | 谈判破裂`;
+            warDaysSubEl.style.color = 'var(--primary)'; // 红色警告
+        } else if (status === '达成协议') {
+            warDaysSubEl.textContent = `停火生效 | 第${ceasefireDays}天`;
+            warDaysSubEl.style.color = 'var(--secondary)'; // 蓝色
+        } else if (status === '谈判中') {
+            warDaysSubEl.textContent = `含停火 ${ceasefireDays} 天 | 谈判中`;
+            warDaysSubEl.style.color = 'var(--text-secondary)';
+        } else {
+            warDaysSubEl.textContent = `含停火 ${ceasefireDays} 天`;
+            warDaysSubEl.style.color = 'var(--text-secondary)';
+        }
+    }
+
     console.log('[Dashboard] 数据已更新');
+}
+
+/**
+ * 显示加载状态
+ */
+function showLoading() {
+    const container = document.querySelector('.timeline');
+    if (container) {
+        container.innerHTML = `
+            <div class="loading-state" style="text-align: center; padding: 60px 20px;">
+                <div class="loading-spinner" style="width: 40px; height: 40px; border: 3px solid var(--border); border-top-color: var(--primary); border-radius: 50%; animation: spin 1s linear infinite; margin: 0 auto 16px;"></div>
+                <div style="color: var(--text-secondary); font-size: 14px;">正在加载时间线数据...</div>
+            </div>
+            <style>
+                @keyframes spin { to { transform: rotate(360deg); } }
+            </style>
+        `;
+    }
+}
+
+/**
+ * 显示错误状态
+ */
+function showError(message) {
+    const container = document.querySelector('.timeline');
+    if (container) {
+        container.innerHTML = `
+            <div class="error-state" style="text-align: center; padding: 60px 20px; background: var(--card-bg); border-radius: 12px; border: 1px solid var(--border);">
+                <div style="font-size: 48px; margin-bottom: 16px;">⚠️</div>
+                <div style="color: var(--primary); font-size: 16px; font-weight: 600; margin-bottom: 8px;">数据加载失败</div>
+                <div style="color: var(--text-secondary); font-size: 14px; margin-bottom: 16px;">${message}</div>
+                <button onclick="location.reload()" style="padding: 10px 24px; background: var(--primary); color: white; border: none; border-radius: 8px; cursor: pointer; font-size: 14px;">重新加载</button>
+            </div>
+        `;
+    }
 }
 
 /**
@@ -244,32 +390,49 @@ function updateDashboard(dashboardData, eventsData = null) {
  */
 async function initTimeline() {
     console.log('[时间线] 开始加载数据...');
-    
-    // 并行加载所有数据
-    const [eventsData, dashboardData, statisticsData] = await Promise.all([
-        loadEvents(),
-        loadDashboard(),
-        loadStatistics()
-    ]);
-    
-    // 渲染时间线
-    if (eventsData) {
-        renderTimeline(eventsData);
+
+    // 显示加载状态
+    showLoading();
+
+    try {
+        // 并行加载所有数据
+        const [eventsData, dashboardData, statisticsData] = await Promise.all([
+            loadEvents(),
+            loadDashboard(),
+            loadStatistics()
+        ]);
+
+        // 检查数据是否加载成功
+        if (!eventsData && !dashboardData) {
+            showError('无法连接到数据源，请检查网络连接');
+            return;
+        }
+
+        // 渲染时间线
+        if (eventsData) {
+            renderTimeline(eventsData);
+        } else {
+            showError('事件数据加载失败');
+            return;
+        }
+
+        // 更新Dashboard（传递eventsData用于更新subtitle）
+        if (dashboardData) {
+            updateDashboard(dashboardData, eventsData);
+        }
+
+        // 更新统计数据来源显示（如果有争议数据）
+        if (statisticsData) {
+            updateStatisticsDisplay(statisticsData);
+        }
+
+        console.log('[时间线] 初始化完成');
+
+        return { eventsData, dashboardData, statisticsData };
+    } catch (error) {
+        console.error('[时间线] 初始化失败:', error);
+        showError('发生未知错误: ' + error.message);
     }
-    
-    // 更新Dashboard（传递eventsData用于更新subtitle）
-    if (dashboardData) {
-        updateDashboard(dashboardData, eventsData);
-    }
-    
-    // 更新统计数据来源显示（如果有争议数据）
-    if (statisticsData) {
-        updateStatisticsDisplay(statisticsData);
-    }
-    
-    console.log('[时间线] 初始化完成');
-    
-    return { eventsData, dashboardData, statisticsData };
 }
 
 /**
