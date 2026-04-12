@@ -1,12 +1,36 @@
 {
   "version": "1.0",
-  "extracted_at": "2026-04-06 15:18:43",
-  "warDays": 40,
-  "iranMissileWaves": "94+",
-  "iranDeaths": "1800+",
-  "israelDeaths": "16+",
-  "usDeaths": "14",
-  "middleEastDisplaced": "420万+",
-  "childCasualties": "2100+",
-  "lastUpdated": "2026-04-08 12:27"
+  "extracted_at": "2026-04-13 00:10:20",
+  "lastUpdated": "2026-04-13 00:10",
+  "warDays": 44,
+  "ceasefireDays": 5,
+  "missileWaves": "186",
+  "iranDeaths": "1300+",
+  "israelDeaths": "25",
+  "usDeaths": "13",
+  "displaced": "320万+",
+  "childCasualties": "295+",
+  "iranMissileWaves": "186波次",
+  "dataQuality": {
+    "totalEvents": 161,
+    "verifiedEvents": 16,
+    "eventsWithoutSources": 5,
+    "lastVerified": "2026-04-12 19:00:00"
+  },
+  "ceasefireInfo": {
+    "ceasefireDate": "2026-04-08",
+    "ceasefireDays": 5,
+    "status": "停火中",
+    "statusDetail": "临时停火生效中"
+  },
+  "sources": [
+    "UN IOM - 流离失所数据",
+    "UNICEF - 儿童伤亡数据",
+    "NPR - 伊朗死亡人数",
+    "Statista - 以色列死亡人数",
+    "US DoD - 美军死亡人数",
+    "ISW - 导弹攻击波次",
+    "Al Jazeera - 综合报道"
+  ],
+  "total_days": 35
 }
