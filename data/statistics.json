@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-04-06 15:18",
+  "lastUpdated": "2026-04-13 00:10",
   "description": "统计数据来源追踪文件，记录每个统计字段的数据来源和可信度",
   "fields": {
     "warDays": {
@@ -30,26 +30,43 @@
       ]
     },
     "iranDeaths": {
-      "value": "1800+",
-      "confidence": "medium",
+      "value": "120+",
+      "confidence": "low",
       "hasDispute": true,
-      "disputeDetails": "不同来源数字: [1750, 1800, 1900]",
+      "disputeDetails": "不同来源数字: [120, 100, 50, 4, 1]",
       "sources": [
         {
-          "value": "1750+",
-          "source": "网易新闻",
-          "url": "https://www.163.com/dy/article/KOVF8G4F05346RC6.html",
-          "date": "2026-03-26",
-          "text": "伊朗至少1750人死亡、2.28万人受伤"
+          "value": 100,
+          "source": "GlobalSecurity/IRNA",
+          "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/04/iran-260401-presstv14.htm",
+          "text": "伊朗发射第89波反击，打击美以目标 伊朗革命卫队发射100多枚重型导弹和攻击无人机，打击美国和以色列目标，包括特拉维夫、海法和巴林的基地。"
         },
         {
-          "value": "1800+",
-          "source": "今日头条",
-          "url": "https://www.toutiao.com/article/7621102408118059530/",
-          "date": "2026-03-26",
-          "text": "伊朗死亡人数超过1800人"
+          "value": 50,
+          "source": "IDF",
+          "url": "https://www.idf.il/en/mini-sites/iran-israel-war-2026/iran-israel-war-2026-live-updates-1/april-1-2026-iran-israel-war-2026-live-updates/",
+          "text": "以军空袭伊朗境内50处武器生产设施 以军对伊朗中部和西部地区发动大规模空袭，打击弹道导弹发射和存储设施、无人机生产设施和防空系统。"
+        },
+        {
+          "value": 4,
+          "source": "JNS",
+          "url": "https://www.jns.org/news/israel-news/iranian-missile-hits-near-idf-headquarters-in-tel-aviv",
+          "text": "伊朗集束导弹击中特拉维夫IDF总部附近 伊朗集束炸弹在特拉维夫Kirya军事总部附近爆炸，造成4人轻伤。伊朗集束弹药在以色列中部10个地点爆炸。"
+        },
+        {
+          "value": 1,
+          "source": "ISW",
+          "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-april-4-2026/",
+          "text": "以军打击伊朗西南部石化设施 以军打击伊朗胡齐斯坦省Bandar-e Imam Khomeini的石化设施，称该设施用于生产弹道导弹材料。布什尔核电站附近遭袭，1人死亡。"
+        },
+        {
+          "value": 120,
+          "source": "IDF",
+          "url": "https://www.idf.il/en/mini-sites/iran-israel-war-2026/iran-israel-war-2026-live-updates-1/april-5-2026-iran-israel-war-2026-live-updates/",
+          "text": "以军打击伊朗境内120多个目标 以军在过去一天打击伊朗中西部120多个目标，包括革命卫队弹道导弹阵地、无人机存储和发射阵地、防空阵地。以军称已摧毁真主党1000多名恐怖分子。"
         }
-      ]
+      ],
+      "lastUpdated": "2026-04-13"
     },
     "israelDeaths": {
       "value": "16+",
@@ -103,6 +120,19 @@
           "source": "联合国儿童基金会",
           "date": "2026-03-24",
           "text": "超过2100名儿童在冲突中伤亡"
+        }
+      ]
+    },
+    "missileWaves": {
+      "value": "186",
+      "calculated_from": "新闻中'第XX轮'格式识别",
+      "confidence": "high",
+      "note": "识别'真实承诺-4行动第XX轮'格式",
+      "sources": [
+        {
+          "type": "自动识别",
+          "max_round": 86,
+          "date": "2026-04-13"
         }
       ]
     }
