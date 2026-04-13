@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-04-13 00:10",
+  "lastUpdated": "2026-04-13 20:50",
   "description": "统计数据来源追踪文件，记录每个统计字段的数据来源和可信度",
   "fields": {
     "warDays": {
