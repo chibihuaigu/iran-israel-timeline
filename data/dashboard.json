@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "extracted_at": "2026-04-13 20:50:28",
-  "lastUpdated": "2026-04-13 20:50",
-  "warDays": 44,
+  "extracted_at": "2026-04-13 21:57:10",
+  "lastUpdated": "2026-04-13 21:57",
+  "warDays": 45,
   "ceasefireDays": 5,
   "missileWaves": "186",
   "iranDeaths": "1300+",
@@ -12,7 +12,7 @@
   "childCasualties": "295+",
   "iranMissileWaves": "186波次",
   "dataQuality": {
-    "totalEvents": 161,
+    "totalEvents": 166,
     "verifiedEvents": 16,
     "eventsWithoutSources": 5,
     "lastVerified": "2026-04-12 19:00:00"
@@ -20,8 +20,8 @@
   "ceasefireInfo": {
     "ceasefireDate": "2026-04-08",
     "ceasefireDays": 5,
-    "status": "谈判中",
-    "statusDetail": "美伊正在进行停火谈判"
+    "status": "停火破裂",
+    "statusDetail": "美国开始封锁伊朗港口，停火协议面临考验"
   },
   "sources": [
     "UN IOM - 流离失所数据",
