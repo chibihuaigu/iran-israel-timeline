@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "extracted_at": "2026-04-13 00:10:20",
-  "lastUpdated": "2026-04-13 00:10",
+  "extracted_at": "2026-04-13 20:50:28",
+  "lastUpdated": "2026-04-13 20:50",
   "warDays": 44,
   "ceasefireDays": 5,
   "missileWaves": "186",
@@ -20,8 +20,8 @@
   "ceasefireInfo": {
     "ceasefireDate": "2026-04-08",
     "ceasefireDays": 5,
-    "status": "停火中",
-    "statusDetail": "临时停火生效中"
+    "status": "谈判中",
+    "statusDetail": "美伊正在进行停火谈判"
   },
   "sources": [
     "UN IOM - 流离失所数据",
