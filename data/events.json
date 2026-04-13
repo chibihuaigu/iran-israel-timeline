@@ -1,9 +1,110 @@
 {
   "version": "1.0",
-  "extracted_at": "2026-04-13 20:50:28",
-  "total_days": 44,
-  "total_events": 176,
+  "extracted_at": "2026-04-13 21:56:42",
+  "total_days": 45,
+  "total_events": 181,
   "events": [
+    {
+      "date_id": "d44",
+      "date_label": "4月13日",
+      "events": [
+        {
+          "time": "22:00",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "美国开始封锁伊朗港口和沿海地区",
+          "content": "美国中央司令部宣布于美国东部时间10:00（北京时间22:00）开始封锁所有伊朗港口和沿海地区。封锁针对所有国家的船只，禁止进出伊朗港口。特朗普称此举是切断伊朗石油收入的关键措施。",
+          "major": true,
+          "sources": [
+            {
+              "url": "https://apnews.com/article/iran-us-israel-trump-lebanon-blockade-hormuz-april-13-2026-ed7a6cd4bc61dc47f317a2c82afcc1c9",
+              "name": "AP News",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/iran-war-live-trump-says-us-begin-naval-blockade-irans-ports-strait-hormuz-2026-04-13/",
+              "name": "Reuters",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "军事",
+          "tag": "military-tag",
+          "title": "伊朗威胁海湾地区所有港口",
+          "content": "伊朗军方称美国封锁计划是\"海盗行为\"，警告海湾和奥曼海的港口\"要么属于所有人，要么不属于任何人\"。伊朗军方表示将对美国的封锁行动做出回应。",
+          "major": true,
+          "sources": [
+            {
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/4/13/what-iran-is-saying-about-us-plan-to-blockade-ports",
+              "name": "Al Jazeera",
+              "priority": 1
+            },
+            {
+              "url": "https://apnews.com/article/iran-us-israel-trump-lebanon-blockade-hormuz-april-13-2026-ed7a6cd4bc61dc47f317a2c82afcc1c9",
+              "name": "AP News",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "外交",
+          "tag": "diplomatic-tag",
+          "title": "以色列黎巴嫩将在华盛顿举行直接谈判",
+          "content": "以色列和黎巴嫩大使将于4月14日在美国国务院举行历史性直接谈判，讨论停火和真主党解除武装问题。黎巴嫩要求先停火再谈判，以色列表示不会与真主党讨论停火，目标是实现\"真正的和平协议\"。",
+          "major": true,
+          "sources": [
+            {
+              "url": "https://www.bbc.com/news/articles/c93en5q2zl3o",
+              "name": "BBC",
+              "priority": 1
+            },
+            {
+              "url": "https://www.lemonde.fr/en/international/article/2026/04/10/lebanon-says-talks-with-israel-scheduled-for-tuesday-in-the-us_6752301_4.html",
+              "name": "Le Monde",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "经济",
+          "tag": "economic-tag",
+          "title": "油价突破100美元/桶",
+          "content": "原油价格因美国封锁威胁再次突破100美元/桶。市场担忧霍尔木兹海峡供应中断可能进一步推高能源价格。",
+          "major": false,
+          "sources": [
+            {
+              "url": "https://www.theguardian.com/world/live/2026/apr/13/iran-war-live-news-ceasefire-peace-talks-us-trump-strait-hormuz-blockade-middle-east-crisis-latest-updates",
+              "name": "The Guardian",
+              "priority": 1
+            },
+            {
+              "url": "https://www.nytimes.com/live/2026/04/13/world/iran-war-trump-news",
+              "name": "NY Times",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "外交",
+          "tag": "diplomatic-tag",
+          "title": "英国不支持美国封锁行动",
+          "content": "英国首相Starmer表示英国不支持美国对霍尔木兹海峡的封锁行动。西班牙国防部长也表示封锁\"毫无意义\"。欧洲多国对此表示担忧。",
+          "major": false,
+          "sources": [
+            {
+              "url": "https://www.theguardian.com/world/live/2026/apr/13/iran-war-live-news-ceasefire-peace-talks-us-trump-strait-hormuz-blockade-middle-east-crisis-latest-updates",
+              "name": "The Guardian",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
     {
       "date_id": "d43",
       "date_label": "4月12日",
