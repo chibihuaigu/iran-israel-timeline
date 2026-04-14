@@ -140,6 +140,16 @@
               "url": "https://www.aljazeera.com/news/2026/4/14/russian-fm-lavrov-visits-china-to-discuss-middle-east-crisis",
               "name": "Al Jazeera",
               "priority": 1
+            },
+            {
+              "url": "https://english.news.cn/europe/20260413/5fad5372374e4e618f9d88d050aff3ea/c.html",
+              "name": "Xinhua",
+              "priority": 1
+            },
+            {
+              "url": "https://tass.com/politics/2116529",
+              "name": "TASS",
+              "priority": 1
             }
           ]
         },
@@ -175,6 +185,11 @@
               "url": "https://www.newsweek.com/iran-war-updates-vance-economic-terrorism-blockade-starts-11824389",
               "name": "Newsweek",
               "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/markets/global-markets/imf-cuts-global-growth-outlook-iran-war-raises-risk-deep-slowdown-2026-04-14/",
+              "name": "Reuters",
+              "priority": 1
             }
           ]
         },
@@ -189,6 +204,11 @@
             {
               "url": "https://www.aljazeera.com/video/newsfeed/2026/4/14/anti-war-protesters-arrested-in-new-york-urging-end-to-israel-weapon-sales",
               "name": "Al Jazeera",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/us-activists-protest-arms-sales-israel-outside-senators-offices-2026-04-14/",
+              "name": "Reuters",
               "priority": 1
             }
           ]
@@ -290,6 +310,11 @@
             {
               "url": "https://www.theguardian.com/world/live/2026/apr/13/iran-war-live-news-ceasefire-peace-talks-us-trump-strait-hormuz-blockade-middle-east-crisis-latest-updates",
               "name": "The Guardian",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/uk/uk-says-it-does-not-support-us-blockade-strait-hormuz-2026-04-13/",
+              "name": "Reuters",
               "priority": 1
             }
           ]
