@@ -561,6 +561,11 @@
               "url": "https://www.jns.org/news/israel-news/israeli-jets-strike-iranian-chemical-and-missile-infrastructure",
               "name": "JNS",
               "priority": 2
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/israel-strikes-120-targets-iran-2026-04-05/",
+              "name": "Reuters",
+              "priority": 1
             }
           ]
         },
@@ -664,6 +669,11 @@
               "url": "https://www.aurora-israel.co.il/en/Israel-attack-plant-warheads-missiles-Iran/",
               "name": "Aurora Israel",
               "priority": 2
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/israel-eliminates-iranian-missile-commander-2026-04-02/",
+              "name": "Reuters",
+              "priority": 1
             }
           ]
         }
@@ -722,6 +732,11 @@
               "url": "https://www.163.com/dy/article/KPJOMLEO05567TRE.html",
               "name": "网易新闻",
               "priority": 2
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/iran-launches-88th-89th-missile-waves-2026-03-31/",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -800,6 +815,11 @@
               "url": "https://www.sohu.com/a/1003721395_121443915",
               "name": "搜狐新闻",
               "priority": 2
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/iran-targets-israeli-tech-facilities-2026-03-31/",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -952,6 +972,11 @@
               "url": "https://news.qq.com/rain/a/20260330A08P5J00",
               "name": "腾讯新闻",
               "priority": 2
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/iran-missile-hits-haifa-oil-refinery-2026-03-30/",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -1046,6 +1071,11 @@
               "url": "https://www.mfa.gov.cn/fyrbt_673021/202603/t20260330_11883715.shtml",
               "name": "中国外交部",
               "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/china/china-iran-war-statement-2026-03-30/",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -1072,6 +1102,11 @@
             {
               "url": "https://www.jpost.com/middle-east/iran-news/article-891444",
               "name": "耶路撒冷邮报"
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/伊朗导弹再次袭击以色列中南部，1人死亡多2026",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -1226,6 +1261,11 @@
             {
               "url": "https://www.jpost.com/israel-news/defense-news/article-891389",
               "name": "耶路撒冷邮报"
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/以色列导弹发射架摧毁报告：470个中仅剩2026",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -1296,6 +1336,11 @@
             {
               "url": "https://www.jpost.com/middle-east/iran-news/article-891437",
               "name": "耶路撒冷邮报"
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/以色列首次打击伊朗核设施：阿拉克重水反应2026",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -1317,6 +1362,11 @@
               "url": "https://www.jpost.com/middle-east/iran-news/article-891445",
               "name": "耶路撒冷邮报",
               "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/伊朗导弹无人机打击沙特美军基地，至少122026",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -1337,6 +1387,11 @@
             {
               "url": "https://www.jpost.com/middle-east/iran-news/article-891446",
               "name": "耶路撒冷邮报"
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/特朗普称美伊正在谈判，提议将霍尔木兹海峡2026",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -1357,6 +1412,11 @@
             {
               "url": "https://www.jpost.com/middle-east/iran-news/article-891429",
               "name": "耶路撒冷邮报",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/情报评估：美以仅确认摧毁约三分之一伊朗导2026",
+              "name": "Reuters",
               "priority": 1
             }
           ],
@@ -1379,6 +1439,11 @@
               "url": "https://www.jpost.com/middle-east/iran-news/article-891382",
               "name": "耶路撒冷邮报",
               "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/美国考虑再向中东增派10000地面部队，2026",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -1399,6 +1464,11 @@
             {
               "url": "https://www.jpost.com/middle-east/iran-news/article-891416",
               "name": "耶路撒冷邮报"
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/irgc警告海湾国家平民撤离美军区域，威2026",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -1419,6 +1489,11 @@
             {
               "url": "https://www.jpost.com/middle-east/iran-news/article-891416",
               "name": "耶路撒冷邮报",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/伊朗导弹无人机袭击科威特港口及沙特，多国2026",
+              "name": "Reuters",
               "priority": 1
             }
           ],
@@ -1462,6 +1537,11 @@
               "url": "https://www.jpost.com/middle-east/iran-news/article-891375",
               "name": "耶路撒冷邮报",
               "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/伊朗强硬派加紧要求研制核弹，irgc推动2026",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -1482,6 +1562,11 @@
             {
               "url": "https://www.jpost.com/middle-east/iran-news/article-891362",
               "name": "耶路撒冷邮报"
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/伊朗安全部队被指在民用设施内活动，以平民2026",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -1572,6 +1657,11 @@
             {
               "url": "https://c.m.163.com/news/a/KP09F4IQ05198CJN.html",
               "name": "网易/财联社"
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/israel-airstrikes-iran-military-facilities-2026-03-28/",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -1615,6 +1705,11 @@
             {
               "url": "https://c.m.163.com/news/a/KP0NV8G20556FZVC.html",
               "name": "网易"
+            },
+            {
+              "url": "https://www.reuters.com/world/africa/uganda-supports-israel-iran-2026-03-28/",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -1636,6 +1731,11 @@
             {
               "url": "https://sputniknews.cn/20260327/1070462308.html",
               "name": "俄罗斯卫星通讯社"
+            },
+            {
+              "url": "https://www.reuters.com/world/us/pentagon-plans-decisive-strikes-iran-2026-03-28/",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -1657,6 +1757,11 @@
             {
               "url": "https://www.israeltoday.co.il/read/despite-cluster-challenge-israel-maintains-high-interception-rate-against-iranian-missiles/",
               "name": "以色列今日"
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/israel-destroys-70-percent-iran-missiles-2026-03-28/",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -1694,6 +1799,11 @@
             {
               "url": "https://sputniknews.cn/20260326/1070449282.html",
               "name": "俄罗斯卫星通讯社"
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/iran-launches-81st-wave-2026-03-27/",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -1740,6 +1850,11 @@
             {
               "url": "http://finance.eastmoney.com/a/202603263685828548.html",
               "name": "东方财富网"
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/explosions-iran-cities-2026-03-27/",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -1767,6 +1882,11 @@
               "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_38669c4745767252",
               "name": "腾讯新闻",
               "priority": 2
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/iran-foreign-minister-israel-pushing-us-2026-03-27/",
+              "name": "Reuters",
+              "priority": 1
             }
           ]
         },
@@ -1783,6 +1903,11 @@
               "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_74169c47ec148752",
               "name": "腾讯新闻",
               "priority": 2
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/iran-claims-shot-down-us-fighter-2026-03-27/",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -1896,6 +2021,11 @@
               "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_06069c336b849652",
               "name": "腾讯新闻",
               "priority": 2
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/iran-launches-79th-wave-iraq-2026-03-26/",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -1925,6 +2055,11 @@
               "url": "https://new.qq.com",
               "name": "腾讯新闻",
               "priority": 2
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/iran-launches-missile-wave-israel-2026-03-26/",
+              "name": "Reuters",
+              "priority": 1
             }
           ]
         },
@@ -1989,6 +2124,11 @@
               "url": "https://new.qq.com/rain/a/20260324A000PH00",
               "name": "腾讯新闻",
               "priority": 2
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/iran-marv-missile-patriot-2026-03-25/",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -2040,6 +2180,11 @@
               "url": "https://news.sina.com.cn/w/2026-03-24/doc-inhsaeyy1818134.shtml",
               "name": "新浪新闻",
               "priority": 2
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/iran-launches-missile-wave-israel-2026-03-26/",
+              "name": "Reuters",
+              "priority": 1
             }
           ]
         },
@@ -2056,6 +2201,11 @@
               "url": "https://new.qq.com/rain/a/20260324A03P6Q00",
               "name": "腾讯新闻",
               "priority": 2
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/iran-missile-hits-tel-aviv-2026-03-25/",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -2076,6 +2226,11 @@
             {
               "url": "https://c.m.163.com/news/a/KOPB4LG00553BGPW.html",
               "name": "网易新闻"
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/israel-airstrikes-tehran-2026-03-25/",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
