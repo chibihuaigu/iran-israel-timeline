@@ -2104,6 +2104,11 @@
               "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_39969c0c1ca99552",
               "name": "腾讯新闻",
               "priority": 2
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/israel-strikes-tehran-third-day-2026-03-24/",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -2124,6 +2129,11 @@
             {
               "url": "http://www.ahwang.cn/newsflash/2026/0323/2984881.html",
               "name": "安徽网"
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/trump-gives-iran-48-hours-open-strait-hormuz-2026-03-24/",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -2151,6 +2161,11 @@
             {
               "url": "http://news.china.com.cn/2026-03/23/content_118395776.shtml",
               "name": "中国网"
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/iran-says-it-does-not-seek-conflict-islamic-nations-2026-03-23/",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -2177,6 +2192,11 @@
             {
               "url": "https://view.inews.qq.com/a/20260321A05LUS00",
               "name": "腾讯新闻"
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/israeli-strike-kills-senior-iranian-commander-2026-03-22/",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -2198,6 +2218,11 @@
               "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_31569c1c8d598852",
               "name": "腾讯新闻",
               "priority": 2
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/iran-sets-six-conditions-ceasefire-2026-03-22/",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -2251,6 +2276,11 @@
             {
               "url": "http://www.ahwang.cn/newsflash/2026/0323/2984881.html",
               "name": "安徽网"
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/israel-expands-ground-operations-lebanon-2026-03-19/",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -2328,6 +2358,11 @@
             {
               "url": "https://news.qq.com/",
               "name": "腾讯新闻"
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/iraqi-militia-drone-attacks-baghdad-green-zone-2026-03-17/",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -2402,6 +2437,11 @@
             {
               "url": "https://finance.sina.cn/2026-03-15/detail-inhqzkiw9842293.d.html",
               "name": "新华国际头条"
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/trump-announces-multinational-coalition-guard-strait-hormuz-2026-03-15/",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -2553,6 +2593,11 @@
             {
               "url": "https://wallstreetcn.com/articles/3767495",
               "name": "华尔街见闻"
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/number-us-troops-wounded-war-against-iran-rises-about-200-2026-03-16/",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -2578,6 +2623,11 @@
             {
               "url": "https://www.nbd.com.cn/articles/2026-03-14/4292190.html",
               "name": "每日经济新闻"
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/us-israel-have-struck-15000-targets-iran-pentagon-2026-03-14/",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -2647,6 +2697,11 @@
               "url": "https://news.qq.com/rain/a/20260310A0706I00",
               "name": "腾讯新闻",
               "priority": 2
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/irans-new-leader-makes-first-statement-2026-03-14/",
+              "name": "Reuters",
+              "priority": 1
             }
           ]
         },
@@ -2666,6 +2721,11 @@
             {
               "url": "https://www.ungeneva.org/zh/news-media/news/2026/03/116710",
               "name": "联合国日内瓦"
+            },
+            {
+              "url": "https://www.reuters.com/world/china-russia-demand-end-iran-war-un-2026-03-14/",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -2758,6 +2818,11 @@
             {
               "url": "https://news.qq.com/",
               "name": "腾讯新闻"
+            },
+            {
+              "url": "https://www.reuters.com/markets/global-markets/oil-prices-rise-2-iran-war-continues-2026-03-14/",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -2805,6 +2870,11 @@
               "url": "https://news.qq.com/rain/a/20260313A08FNL00",
               "name": "腾讯新闻",
               "priority": 2
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/iran-deploys-mines-strait-hormuz-warned-us-official-2026-03-14/",
+              "name": "Reuters",
+              "priority": 1
             }
           ]
         },
@@ -2846,6 +2916,11 @@
             {
               "url": "https://news.ifeng.com/",
               "name": "凤凰网"
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/us-military-plane-crashes-iraq-2026-03-13/",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -2939,6 +3014,11 @@
             {
               "url": "https://www.yunnan.cn/",
               "name": "云南网"
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/iran-hezbollah-launch-joint-missile-attacks-2026-03-12/",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -3041,6 +3121,11 @@
             {
               "url": "https://www.news.cn/20260312/e7b9c631dcc443dfa0e4d4aa45ea09b2/c.html",
               "name": "新华网"
+            },
+            {
+              "url": "https://www.reuters.com/markets/iea-releases-emergency-oil-reserves-2026-03-12/",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -3485,6 +3570,11 @@
             {
               "url": "https://www.guancha.cn/",
               "name": "观察者网"
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/iran-appoints-new-supreme-leader-2026-03-09/",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -3774,6 +3864,11 @@
             {
               "url": "https://www.thepaper.cn/",
               "name": "澎湃新闻"
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/iran-claims-struck-us-aircraft-carrier-2026-03-05/",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -3794,6 +3889,11 @@
             {
               "url": "https://www.news.cn/world/20260306/98f410fe4460429799f195496e541a21/c.html",
               "name": "新华网"
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/iran-fires-missiles-qatar-2026-03-05/",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -3815,6 +3915,11 @@
             {
               "url": "https://www.news.cn/world/20260306/98f410fe4460429799f195496e541a21/c.html",
               "name": "新华网"
+            },
+            {
+              "url": "https://www.reuters.com/world/us/senate-rejects-war-powers-resolution-2026-03-05/",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -4145,6 +4250,11 @@
             {
               "url": "https://www.infzm.com/",
               "name": "南方周末"
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/iranian-missiles-hit-iraqi-airport-2026-03-01/",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -4361,6 +4471,11 @@
             {
               "url": "https://baike.baidu.com/item/2025%E5%B9%B4%E4%BB%A5%E4%BC%8A%E5%86%B2%E7%AA%81/65802378",
               "name": "需核实"
+            },
+            {
+              "url": "https://www.bbc.com/news/world-middle-east-68600000",
+              "name": "BBC",
+              "priority": 1
             }
           ],
           "needs_verification": true,
