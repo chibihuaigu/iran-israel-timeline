@@ -1,9 +1,170 @@
 {
   "version": "1.0",
-  "extracted_at": "2026-04-13 21:56:42",
+  "extracted_at": "2026-04-14 22:50:00",
   "total_days": 45,
-  "total_events": 181,
+  "total_events": 188,
   "events": [
+    {
+      "date_id": "d45",
+      "date_label": "4月14日",
+      "events": [
+        {
+          "time": "22:00",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "美国封锁伊朗港口正式生效，特朗普威胁击沉伊朗船只",
+          "content": "美国海军正式开始执行封锁伊朗港口的行动，禁止所有船只进出伊朗港口和沿海地区。特朗普警告将击沉任何接近美国海军封锁线的伊朗攻击艇。美国中央司令部表示封锁不影响前往非伊朗港口的船只通行。",
+          "major": true,
+          "sources": [
+            {
+              "url": "https://apnews.com/live/iran-war-israel-trump-04-14-2026",
+              "name": "AP News",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/asia-pacific/us-iranian-teams-could-return-islamabad-peace-talks-this-week-four-sources-say-2026-04-14/",
+              "name": "Reuters",
+              "priority": 1
+            },
+            {
+              "url": "https://www.cbsnews.com/live-updates/iran-war-us-iran-ports-blockade-strait-of-hormuz-trump/",
+              "name": "CBS News",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "巴基斯坦提议举行第二轮美伊会谈",
+          "content": "巴基斯坦提议主办第二轮美伊和平谈判，此前在伊斯兰堡举行的第一轮谈判未能达成协议。美国副总统JD Vance表示谈判取得了一些进展，特朗普称对方想达成协议。伊朗国家媒体报道正在交换信息，但尚无举行新会谈的确切信息。",
+          "major": true,
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/asia-pacific/us-iranian-teams-could-return-islamabad-peace-talks-this-week-four-sources-say-2026-04-14/",
+              "name": "Reuters",
+              "priority": 1
+            },
+            {
+              "url": "https://apnews.com/live/iran-war-israel-trump-04-14-2026",
+              "name": "AP News",
+              "priority": 1
+            },
+            {
+              "url": "https://www.bostonglobe.com/2026/04/14/nation/us-iran-war-live-updates/",
+              "name": "Boston Globe",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "黎巴嫩与以色列在华盛顿举行历史性直接谈判",
+          "content": "黎巴嫩和以色列大使在美国国务院举行自1993年以来首次直接面对面谈判。美国国务卿Marco Rubio主持谈判，讨论黎巴嫩边境安全和真主党解除武装问题。黎巴嫩要求先停火再谈判，以色列坚持不会与真主党讨论停火，目标是真正的和平协议。",
+          "major": true,
+          "sources": [
+            {
+              "url": "https://apnews.com/article/lebanon-israel-us-war-hezbollah-negotiations-28b207b800de1804d8c2ab5242237542",
+              "name": "AP News",
+              "priority": 1
+            },
+            {
+              "url": "https://www.wunc.org/2026-04-14/israel-and-lebanon-set-to-meet-for-first-direct-talks-in-more-than-30-years",
+              "name": "NPR",
+              "priority": 1
+            },
+            {
+              "url": "https://www.france24.com/en/middle-east/20260414-lebanon-and-israel-to-hold-rare-direct-talks-in-washington-despite-hezbollah-opposition",
+              "name": "France 24",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "外交",
+          "tag": "diplomatic-tag",
+          "title": "真主党表示不会遵守黎以谈判结果",
+          "content": "真主党政治委员会成员Wafiq Safa表示，真主党对谈判结果不感兴趣也不关心。真主党领导人Naim Kassem敦促黎巴嫩退出与以色列的谈判。谈判旨在解除真主党武装，但真主党明确表示不会接受任何协议。",
+          "major": true,
+          "sources": [
+            {
+              "url": "https://apnews.com/article/hezbollah-lebanon-israel-wafiq-safa-a7af20b76ace9a34d8f641bca91e0b23",
+              "name": "AP News",
+              "priority": 1
+            },
+            {
+              "url": "https://www.newsweek.com/iran-war-updates-vance-economic-terrorism-blockade-starts-11824389",
+              "name": "Newsweek",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "外交",
+          "tag": "diplomatic-tag",
+          "title": "中国谴责美国封锁行动危险且不负责任",
+          "content": "中国外交部发言人郭嘉昆谴责美国对伊朗港口的封锁行动是危险且不负责任的行为，称其将加剧紧张局势并破坏本已脆弱的停火协议。中国国防部长董军确认中国船只继续在霍尔木兹海峡航行，强调与伊朗的经贸协议。中国否认向伊朗提供武器的报道。",
+          "major": true,
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/china/china-urges-restraint-over-us-blockade-strait-hormuz-backs-talks-2026-04-13/",
+              "name": "Reuters",
+              "priority": 1
+            },
+            {
+              "url": "https://www.bbc.com/news/live/cp9vm5ezxz4t",
+              "name": "BBC",
+              "priority": 1
+            },
+            {
+              "url": "https://www.cnbc.com/2026/04/14/china-us-strait-of-hormuz-war-donald-trump-oil-energy-crisis-conflict-middle-east-iran.html",
+              "name": "CNBC",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "外交",
+          "tag": "diplomatic-tag",
+          "title": "俄罗斯外长拉夫罗夫访华讨论中东危机",
+          "content": "俄罗斯外长拉夫罗夫抵达北京，讨论中东危机和霍尔木兹海峡局势。中俄两国都谴责美国对伊朗的封锁行动，呼吁通过外交途径解决争端。",
+          "major": false,
+          "sources": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/4/14/russian-fm-lavrov-visits-china-to-discuss-middle-east-crisis",
+              "name": "Al Jazeera",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "军事",
+          "tag": "military-tag",
+          "title": "多艘船只通过霍尔木兹海峡测试美国封锁",
+          "content": "至少三艘与伊朗有关的船只在美国封锁开始后通过霍尔木兹海峡，包括两艘中国国有超级油轮。BBC Verify分析航运数据显示船只成功通过海峡。",
+          "major": false,
+          "sources": [
+            {
+              "url": "https://www.bbc.com/news/live/cp9vm5ezxz4t",
+              "name": "BBC",
+              "priority": 1
+            },
+            {
+              "url": "https://www.theguardian.com/world/live/2026/apr/14/middle-east-crisis-live-hezbollah-urges-lebanon-to-pull-out-of-talks-with-israel-blockade-of-strait-of-hormuz-begins",
+              "name": "The Guardian",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
     {
       "date_id": "d44",
       "date_label": "4月13日",
