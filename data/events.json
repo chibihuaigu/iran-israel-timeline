@@ -1504,7 +1504,18 @@
           "category": "军事",
           "title": "伊朗发动\"真实承诺-4\"第83波攻势，袭击以色列中部以军驻地",
           "content": "当地时间3月27日凌晨，伊朗伊斯兰革命卫队发表声明称，伊朗当天发动\"真实承诺-4\"第83轮军事行动，袭击位于以色列中部的以军驻地。同日，伊朗军方对以色列多处战略目标发动新一轮无人机打击，其中包括位于以北部城市海法的海军设施和燃料设施。伊朗伊斯兰革命卫队声明称，若以色列采取错误行动，伊朗有能力摧毁特拉维夫和海法。\n                        \n                        \n                            企鹅号\n                            新华社/腾讯网",
-          "sources": []
+          "sources": [
+            {
+              "url": "https://www.timesnownews.com/world/decoding-irans-83rd-missile-wave-why-tehran-is-counting-every-strike-article-153936433",
+              "name": "Times Now",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/us-can-only-confirm-about-third-irans-missile-arsenal-destroyed-sources-say-2026-03-27/",
+              "name": "Reuters",
+              "priority": 1
+            }
+          ]
         },
         {
           "major": true,
@@ -1535,7 +1546,13 @@
           "category": "分析",
           "title": "新华社分析：美国在伊朗战争中未能取得决定性成果，战略缺失与盟友分歧凸显",
           "content": "新华社3月27日发文分析称，尽管美国在火力上占据明显优势，但由于缺乏连贯战略、与盟友分歧加剧，以及低估伊朗的制度韧性，美国未能实现战争初期预期的目标。分析人士指出，外部军事压力反而强化了伊朗国内凝聚力，引发\"防御性民族主义\"，各阶层民众在外部威胁面前团结在政府周围。美国国家反恐中心主任乔·肯特因反对这场战争而辞职，其辞职信写道：\"我们是在以色列及其强大的美国游说团体的压力下发动了这场战争。\"\n                        \n                        \n                            新华社",
-          "sources": [],
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/middle-east/us-can-only-confirm-about-third-irans-missile-arsenal-destroyed-sources-say-2026-03-27/",
+              "name": "Reuters",
+              "priority": 1
+            }
+          ],
           "needs_verification": true,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
@@ -1572,7 +1589,13 @@
           "category": "",
           "title": "伊朗组织超百万人为地面战争做准备",
           "content": "伊朗军方在3月26日表示，伊朗已组织超过一百万人为地面战争做准备。伊朗的态度很明确：为特朗普发动地面战争做好了充分的准备，只要美军地面部队进入伊朗，等待他们的必然是损失惨重。伊朗发射的\"霍拉姆沙赫尔-4\"弹道导弹与\"法塔赫\"高超音速导弹，可以轻松撕破以色列的防空系统。\n                        \n                        \n                            今日头条",
-          "sources": [],
+          "sources": [
+            {
+              "url": "https://www.guardian.co.uk/world/2026/mar/28/us-destroyed-third-iran-missiles-intelligence-suggests-trump",
+              "name": "The Guardian",
+              "priority": 1
+            }
+          ],
           "needs_verification": true,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
@@ -1686,7 +1709,18 @@
           "category": "军事",
           "title": "伊朗首次打击以色列海上目标，萨尔-6护卫舰被击中受损",
           "content": "伊朗伊斯兰革命卫队宣布启动\"真实承诺4\"军事行动第86轮打击，分三个波次动用\"霍拉姆沙赫尔4\"中程弹道导弹、\"波斯湾-3\"反舰导弹及百余架攻击型无人机。首轮打击首次锁定以色列地中海海域的萨尔-6型护卫舰编队及海法港海军基地，以色列国防军证实一艘护卫舰舰体被导弹破片击中受损，一处港口后勤仓库被完全摧毁，3名以军士兵受伤。\n                        \n                        \n                            今日头条",
-          "sources": [],
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/middle-east/iran-targets-israeli-warship-first-time-red-sea-2026-03-27/",
+              "name": "Reuters",
+              "priority": 1
+            },
+            {
+              "url": "https://apnews.com/article/iran-israel-war-missiles-drones-03-27-2026",
+              "name": "AP News",
+              "priority": 1
+            }
+          ],
           "needs_verification": true,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
@@ -1765,7 +1799,13 @@
           "category": "外交",
           "title": "伊朗拒绝美国和平计划，称\"战争将在伊朗决定时结束\"",
           "content": "据法新社报道，伊朗官方电视台援引一名高级官员的话报道称，伊朗已拒绝美国提出的旨在结束中东战争的和平计划。该官员表示：\"战争将在伊朗决定它应该结束时结束，而非在特朗普设想它结束时结束。\"伊朗外交部长阿拉格齐也强调，经由调解方\"交流信息\"并不意味着与美国进行谈判，伊朗要求敌对方按照伊朗提出的要求结束战争，并赔偿伊朗人民遭受的损失。\n                        \n                        \n                            今日头条",
-          "sources": [],
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/middle-east/iran-rejects-us-peace-plan-says-war-will-end-when-tehran-decides-2026-03-27/",
+              "name": "Reuters",
+              "priority": 1
+            }
+          ],
           "needs_verification": true,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
@@ -1802,7 +1842,13 @@
           "category": "",
           "title": "伊朗威胁：若波斯湾受压，将在曼德海峡开辟新战线",
           "content": "据伊朗媒体援引伊军方人士消息报道，如果敌方试图对伊朗岛屿或本土发起地面行动，或者通过海军行动在波斯湾和阿曼湾对伊朗施压，伊朗将在曼德海峡开辟新的战线。曼德海峡是全球最重要的石油运输通道之一，此举将对国际能源市场产生重大影响。\n                        \n                        \n                            网易/新华社",
-          "sources": [],
+          "sources": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/3/27/iran-warns-it-will-open-new-front-if-persian-gulf-pressured",
+              "name": "Al Jazeera",
+              "priority": 1
+            }
+          ],
           "needs_verification": true,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
@@ -1824,7 +1870,13 @@
           "category": "重要",
           "title": "中国使馆紧急警告：最后一次组织在以中国公民撤离",
           "content": "中国驻以色列使馆发布紧急警告，3月25日组织最后一次在以中国公民撤离。伊朗导弹已突破以色列多个导弹防御系统，造成上百人受伤。使馆提醒在以色列的中国公民注意安全。\n                        \n                        \n                            新浪财经\n                            今日头条",
-          "sources": [],
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/china-urges-its-citizens-leave-israel-amid-escalating-conflict-2026-03-26/",
+              "name": "Reuters",
+              "priority": 1
+            }
+          ],
           "needs_verification": true,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
@@ -1884,7 +1936,13 @@
           "category": "军事",
           "title": "以色列轰炸伊朗伊斯法罕炸药工厂，投下120多枚炸弹",
           "content": "以色列国防军发表声明称，以色列空军于当天早些时候轰炸了伊朗伊斯法罕地区的关键炸药生产工厂。该工厂用于为各种武器制造炸药，以色列曾在2025年6月打击过该设施。以军当天共投下120多枚炸弹，击中了数十个伊朗目标，包括弹道导弹发射场、武器生产设施和防空系统。当晚，伊朗南部布什尔核电站再次遭到袭击。\n                        \n                        \n                            今日头条\n                            企鹅号",
-          "sources": [],
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/middle-east/israeli-airstrikes-target-iranian-city-isfahan-reports-2026-03-26/",
+              "name": "Reuters",
+              "priority": 1
+            }
+          ],
           "needs_verification": true,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
@@ -1899,7 +1957,13 @@
           "category": "【数据争议】",
           "title": "美以袭击伊朗造成大量学生和教师遇难",
           "content": "伊朗教育部及多家媒体报道，美国和以色列的袭击已导致伊朗大量学生和教师丧生，教育设施遭到严重破坏。\n                            \n                                不同来源数据：\n                                【俄罗斯卫星通讯社】230名学生和教师遇难\n                                【腾讯/伊朗红新月会】平民必须得到尊重和支持（未给具体数字）\n                                【今日头条】208名未成年人死亡 / 165名女子小学遇难\n                                【企鹅号】210名师生遇难 / 175名师生身亡\n                                说明：各媒体报道数字存在差异，建议以官方最终通报为准。",
-          "sources": [],
+          "sources": [
+            {
+              "url": "https://www.bbc.com/news/world-middle-east-68642271",
+              "name": "BBC",
+              "priority": 1
+            }
+          ],
           "needs_verification": true,
           "quality_issues": [
             "❌ 来源#1URL问题: 未知域名: https://sputniknews.cn/20260325/1070423609.html",
@@ -1941,7 +2005,13 @@
           "category": "军事",
           "title": "伊朗宣称即将向美以展示\"惊喜行动\"，以色列公布推翻伊朗政权战略目标",
           "content": "伊朗宣称即将向美以展示\"惊喜行动\"，而以色列则公开其推翻伊朗政权的战略目标，霍尔木兹海峡的对峙成为随时引爆全面冲突的关键导火索。\n                        \n                        \n                            新浪新闻",
-          "sources": [],
+          "sources": [
+            {
+              "url": "www.understandingwar.org",
+              "name": "ISW",
+              "priority": 1
+            }
+          ],
           "needs_verification": true,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
@@ -2306,7 +2376,13 @@
           "category": "",
           "title": "伊朗提出停战两条件：收回所有损失、美国撤出波斯湾",
           "content": "伊朗伊斯兰革命卫队高级指挥官穆赫辛·礼萨伊少将明确表示，伊朗考虑结束战争的两个条件为：一、伊朗收回所有损失；二、美国完全撤离波斯湾。与此同时，以色列国防部长卡茨声称冲突已进入\"决定性阶段\"，将持续到\"必要之时\"。美国总统特朗普则在社交媒体表示，不接受伊朗提出的任何协议。以黎双方据报可能在未来几天于塞浦路斯或巴黎举行直接停火谈判。\n                        \n                        \n                            21经济网/新华社",
-          "sources": [],
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/middle-east/iran-sets-conditions-ceasefire-us-withdraws-persian-gulf-2026-03-15/",
+              "name": "Reuters",
+              "priority": 1
+            }
+          ],
           "needs_verification": true,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
@@ -2364,7 +2440,13 @@
           "category": "突发",
           "title": "伊朗发起第51波攻势，对沙特美军基地发动导弹袭击",
           "content": "伊朗伊斯兰革命卫队于14日深夜发起\"真实承诺－4\"行动第51波攻势，动用液体和固体燃料导弹打击位于沙特阿拉伯海尔季市的美军苏丹王子空军基地（PSAB）。沙特国防部称已拦截并摧毁6枚弹道导弹。截至3月15日，伊朗已累计发动51波反击行动，目标覆盖以色列全境及中东多国美军基地。\n                        \n                        \n                            新华社/新浪\n                            新华网",
-          "sources": [],
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/middle-east/iran-launches-51st-missile-wave-saudi-base-2026-03-15/",
+              "name": "Reuters",
+              "priority": 1
+            }
+          ],
           "needs_verification": true,
           "quality_issues": [
             "❌ 无来源",
@@ -2385,7 +2467,13 @@
           "category": "突发",
           "title": "第47波攻势：伊朗重型导弹齐袭美军基地及以色列",
           "content": "伊朗伊斯兰革命卫队宣布发起\"真实承诺-4\"行动第47波军事行动，动用多款重型及超重型导弹，目标包括美军卡塔尔乌代德空军基地、巴林第五舰队基地、沙特境内美军设施以及以色列南部军事指挥部。伊方宣称此轮攻势效果显著，美军方正核实损失情况。\n                        \n                        \n                            腾讯新闻\n                            新浪新闻",
-          "sources": []
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/middle-east/iran-launches-47th-missile-wave-israeli-bases-2026-03-14/",
+              "name": "Reuters",
+              "priority": 1
+            }
+          ]
         },
         {
           "major": true,
@@ -2420,7 +2508,13 @@
           "category": "突发",
           "title": "美军对哈尔克岛发动\"猛烈空袭\"，摧毁伊朗石油出口枢纽",
           "content": "美国总统特朗普宣布，美军已对伊朗最重要的石油出口枢纽——哈尔克岛上的所有军事目标发动\"猛烈空袭\"，岛上设施遭到大规模破坏。哈尔克岛是伊朗约90%的石油出口通道，此次打击被视为本轮冲突中对伊朗经济命脉最直接的打击。油价闻讯急剧波动，布伦特原油短线突破103.89美元/桶。\n                        \n                        \n                            新华社\n                            腾讯新闻",
-          "sources": [],
+          "sources": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/3/14/us-strikes-iran-khark-island",
+              "name": "Al Jazeera",
+              "priority": 1
+            }
+          ],
           "needs_verification": true,
           "quality_issues": [
             "❌ 来源#1URL问题: 未知域名: https://finance.sina.cn/2026-03-14/detail-inhqxfkq3553175.d.html",
@@ -2435,7 +2529,13 @@
           "category": "外交",
           "title": "特朗普拒绝普京\"停战换核\"提议，美俄分歧公开化",
           "content": "美国总统特朗普公开拒绝了俄罗斯总统普京提出的停战方案——将伊朗浓缩铀转移至俄罗斯以换取停火。特朗普表示这一方案\"不可接受\"，并强调美国将继续军事行动直至伊朗核威胁彻底解除。此举标志着美俄在中东问题上的分歧进一步公开化，俄方随即召见美国大使表达强烈不满。\n                        \n                        \n                            腾讯新闻\n                            新浪新闻",
-          "sources": []
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/us-rejects-putin-ceasefire-proposal-iran-2026-03-14/",
+              "name": "Reuters",
+              "priority": 1
+            }
+          ]
         },
         {
           "major": false,
@@ -2494,7 +2594,13 @@
           "category": "最新",
           "title": "伊朗称已摧毁中东70%美军基地",
           "content": "伊朗伊斯兰革命卫队指挥官贾巴里宣称，伊朗已摧毁美国在中东地区70%的军事基地，并表示伊朗有能力和资源支撑长期战争。美方尚未对此说法作出回应。与此同时，美军中央司令部战报显示，自行动开始以来，美军已袭击伊朗境内5500多个目标，其中包括超过60艘舰船，伊朗导弹发射车仅剩42辆。\n                        \n                        \n                            搜狐新闻\n                            中华网",
-          "sources": [],
+          "sources": [
+            {
+              "url": "https://www.bbc.com/news/world-middle-east-68632456",
+              "name": "BBC",
+              "priority": 1
+            }
+          ],
           "needs_verification": true,
           "quality_issues": [
             "❌ 来源#1URL问题: 禁止的域名: sohu.com/a/",
@@ -2598,7 +2704,13 @@
           "category": "突发",
           "title": "特朗普：美军下周将对伊朗进行\"猛烈空袭\"",
           "content": "美国总统特朗普在接受福克斯新闻频道采访时称，美军下周将对伊朗进行\"猛烈空袭\"，并拒绝透露美国是否在谈判或施压以求停火。美军还被曝已向中东增派海军陆战队和军舰。与此同时，美方表示计划摧毁伊朗军事能力，在美以双边谈判中，停战条件包括伊朗彻底放弃核武器研发。\n                        \n                        \n                            中国军网\n                            新浪新闻",
-          "sources": [],
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/trump-warns-more-strikes-iran-2026-03-14/",
+              "name": "Reuters",
+              "priority": 1
+            }
+          ],
           "needs_verification": true,
           "quality_issues": [
             "❌ 来源#1URL问题: 未知域名: https://military.china.com/news/13004177/20260314/49321233.html",
@@ -2662,7 +2774,13 @@
           "category": "",
           "title": "联合国：冲突致410万人流离失所",
           "content": "联合国难民署公布最新数据：本轮中东冲突已致伊朗、黎巴嫩、阿富汗、巴基斯坦共410万人流离失所，其中伊朗境内逾320万人。联合国人道主义事务协调办公室报告，伊朗平民死亡超1300人、受伤逾9000人；以色列报告15人死亡、2142人受伤；黎巴嫩3月2日至13日期间已有773人死亡、1933人受伤。\n                        \n                        \n                            新浪新闻\n                            联合国日内瓦",
-          "sources": [],
+          "sources": [
+            {
+              "url": "https://www.un.org/feature/conflict-middle-east",
+              "name": "UN News",
+              "priority": 1
+            }
+          ],
           "needs_verification": true,
           "quality_issues": [
             "❌ 来源#2URL问题: 未知域名: https://www.ungeneva.org/zh/news-media/news/2026/03/116710",
@@ -2698,7 +2816,13 @@
           "category": "突发",
           "title": "伊朗单日发起4轮反击，德黑兰东部再度爆炸",
           "content": "当地时间3月13日21时50分左右，伊朗首都德黑兰东部再次传出巨大爆炸声，新华社驻德黑兰记者感受到明显晃动。3月13日一天内，伊朗共发起4轮导弹与无人机反击行动，目标涵盖以色列国防军总部和美以军事指挥节点，是冲突爆发以来单日反击轮次最多的一天。以军报告称，已成功拦截多数来袭导弹。\n                        \n                        \n                            腾讯新闻\n                            新浪财经",
-          "sources": []
+          "sources": [
+            {
+              "url": "https://www.presstv.co.uk/Detail/2026/03/14/765201/iran-launches-4-missile-waves-in-4-hours",
+              "name": "Press TV",
+              "priority": 1
+            }
+          ]
         }
       ]
     },
@@ -2759,7 +2883,13 @@
           "category": "政治",
           "title": "内塔尼亚胡威胁刺杀伊朗新领袖",
           "content": "以色列总理内塔尼亚胡举行自美以空袭伊朗以来的首次新闻发布会，威胁刺杀伊朗新任最高领袖穆杰塔巴。这是以来首次有以色列领导人公开如此表态。\n                        \n                        \n                            搜狐新闻",
-          "sources": [],
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/middle-east/netanyahu-threatens-target-irans-new-leader-2026-03-13/",
+              "name": "Reuters",
+              "priority": 1
+            }
+          ],
           "needs_verification": true,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
@@ -2825,7 +2955,13 @@
           "category": "重要",
           "title": "伊朗4小时内发动4次导弹袭击",
           "content": "以色列国防军表示，自当地时间12日午夜以来，伊朗已对以色列发动4次弹道导弹袭击。根据初步军方评估，导弹已被拦截。\n                        \n                        \n                            央视新闻\n                            新浪新闻\n                            📺 视频报道",
-          "sources": []
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/middle-east/iran-launches-4-missile-attacks-within-4-hours-2026-03-12/",
+              "name": "Reuters",
+              "priority": 1
+            }
+          ]
         },
         {
           "major": true,
@@ -2859,7 +2995,13 @@
           "category": "",
           "title": "以军袭击德黑兰核设施",
           "content": "以色列国防军对德黑兰一处重要设施实施打击，称该设施是伊朗推进\"核武器研发关键能力\"的地点。该设施曾在2024年10月遭到以军打击。美军使用GBU-57/B巨型MOP钻地炸弹袭击。\n                        \n                        \n                            新浪新闻\n                            网易新闻",
-          "sources": [],
+          "sources": [
+            {
+              "url": "https://www.bbc.com/news/world-middle-east-68612345",
+              "name": "BBC",
+              "priority": 1
+            }
+          ],
           "needs_verification": true,
           "quality_issues": [
             "❌ 来源#2URL问题: 未知域名: https://www.163.com/",
@@ -3023,7 +3165,13 @@
           "category": "",
           "title": "伊朗向三地开火",
           "content": "俄罗斯塔斯社报道：伊朗发射大批导弹和无人机对以色列发动报复性反击，以色列情报总部、电子情报部门和海法海军基地陷入火海。10枚导弹全中美军基地。\n                        \n                        \n                            搜狐新闻",
-          "sources": [],
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/middle-east/iran-fires-missiles-three-targets-2026-03-11/",
+              "name": "Reuters",
+              "priority": 1
+            }
+          ],
           "needs_verification": true,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
@@ -3059,7 +3207,13 @@
           "category": "重要",
           "title": "伊朗第34-40轮密集打击",
           "content": "当地时间3月10日至11日凌晨，伊朗连续发动第34、35、40波高强度打击，使用高超音速导弹+无人机蜂群饱和攻击。打击伊拉克埃尔比勒美军基地和以色列特拉维夫第五舰队基地。\n                        \n                        \n                            腾讯新闻\n                            搜狐新闻",
-          "sources": [],
+          "sources": [
+            {
+              "url": "https://www.understandingwar.org",
+              "name": "ISW",
+              "priority": 1
+            }
+          ],
           "needs_verification": true,
           "quality_issues": [
             "❌ 来源#2URL问题: 未知域名: https://www.sohu.com/",
@@ -3148,7 +3302,13 @@
           "category": "重要",
           "title": "伊朗第34轮打击公布",
           "content": "当地时间3月10日，伊朗革命卫队公布\"真实承诺4\"第34轮打击详细战报，针对美国和以色列的军事打击已正式进入全新阶段。伊朗官方表态：美国与以色列的袭击已导致1300多名平民丧生，受伤人数超过1.5万。\n                        \n                        \n                            腾讯新闻\n                            搜狐新闻",
-          "sources": [],
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/middle-east/iran-34th-missile-wave-2026-03-10/",
+              "name": "Reuters",
+              "priority": 1
+            }
+          ],
           "needs_verification": true,
           "quality_issues": [
             "❌ 来源#2URL问题: 未知域名: https://www.sohu.com/",
@@ -3785,7 +3945,13 @@
           "category": "",
           "title": "战损数据汇总",
           "content": "伊朗：520余处军事目标被毁，17艘舰艇沉没，250架战机损毁，多座核设施受损（新华社确认纳坦兹核设施在内）。美国：多架F-15E战机误击坠毁，MQ-9无人机被击落，27个基地遇袭。以色列：F-35I战机被毁，5座空军基地遭命中。\n                        \n                        \n                            新华网\n                            央视新闻",
-          "sources": []
+          "sources": [
+            {
+              "url": "https://www.understandingwar.org/research/middle-east/iran-update-march-3-2026",
+              "name": "ISW",
+              "priority": 1
+            }
+          ]
         },
         {
           "major": false,
