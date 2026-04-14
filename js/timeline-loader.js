@@ -72,12 +72,23 @@ async function loadDashboard() {
  * @returns {string} 等级类名
  */
 function getSourceTier(sourceName) {
-    // 官方权威媒体（最高优先级）
-    const officialSources = ['央视新闻', '新华社', '人民日报', '光明日报', '中国新闻网', '央广网', '环球时报'];
-    // 国际主流媒体
-    const intlSources = ['路透社', '美联社', '法新社', 'BBC', 'CNN', '纽约时报', '华盛顿邮报', '卫报', '半岛电视台', '联合早报'];
-    // 国内主流媒体
-    const domesticSources = ['网易', '腾讯', '澎湃新闻', '搜狐', '新浪', '凤凰网', '观察者网', '中华网', '企鹅号'];
+    // 官方权威媒体（最高优先级）- 中英文
+    const officialSources = [
+        '央视新闻', '新华社', '人民日报', '光明日报', '中国新闻网', '央广网', '环球时报',
+        'CCTV', 'Xinhua', 'People\'s Daily', 'China Daily', 'Global Times'
+    ];
+    // 国际主流媒体 - 中英文
+    const intlSources = [
+        '路透社', '美联社', '法新社', 'BBC', 'CNN', '纽约时报', '华盛顿邮报', '卫报', '半岛电视台', '联合早报',
+        'Reuters', 'AP News', 'AFP', 'BBC', 'CNN', 'New York Times', 'Washington Post', 'The Guardian', 'Al Jazeera',
+        'CBS', 'NBC', 'ABC', 'France 24', 'NPR', 'Bloomberg', 'CNBC', 'Newsweek', 'Time', 'Economist',
+        'Boston Globe', 'Wall Street Journal'
+    ];
+    // 国内主流媒体 - 中英文
+    const domesticSources = [
+        '网易', '腾讯', '澎湃新闻', '搜狐', '新浪', '凤凰网', '观察者网', '中华网', '企鹅号',
+        'NetEase', 'Tencent', 'Sohu', 'Sina', 'Phoenix', 'guancha'
+    ];
 
     if (officialSources.some(s => sourceName.includes(s))) return 'tier-official';
     if (intlSources.some(s => sourceName.includes(s))) return 'tier-intl';
