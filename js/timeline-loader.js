@@ -72,26 +72,32 @@ async function loadDashboard() {
  * @returns {string} 等级类名
  */
 function getSourceTier(sourceName) {
-    // 官方权威媒体（最高优先级）- 中英文
+    // 官方权威媒体（最高优先级）- 中国官方
     const officialSources = [
         '央视新闻', '新华社', '人民日报', '光明日报', '中国新闻网', '央广网', '环球时报',
         'CCTV', 'Xinhua', 'People\'s Daily', 'China Daily', 'Global Times'
     ];
-    // 国际主流媒体 - 中英文
+    // 国际主流媒体 - 相对中立可靠
     const intlSources = [
-        '路透社', '美联社', '法新社', 'BBC', 'CNN', '纽约时报', '华盛顿邮报', '卫报', '半岛电视台', '联合早报',
+        '路透社', '美联社', '法新社', 'BBC', 'CNN', '纽约时报', '华盛顿邮报', '卫报', '半岛电视台',
         'Reuters', 'AP News', 'AFP', 'BBC', 'CNN', 'New York Times', 'Washington Post', 'The Guardian', 'Al Jazeera',
-        'CBS', 'CBS News', 'NBC', 'ABC', 'France 24', '安徽网', 'Yahoo', 'KPTV', 'NPR', 'Bloomberg', 'CNBC', 'Newsweek', 'Time', 'Economist',
-        'Boston Globe', 'Wall Street Journal', 'UN News', 'ISW', 'TASS', 'Press TV'
+        'CBS', 'CBS News', 'NBC', 'ABC', 'France 24', 'NPR', 'Bloomberg', 'CNBC', 'Newsweek', 'Time', 'Economist',
+        'Boston Globe', 'Wall Street Journal', 'UN News', 'ISW'
     ];
-    // 国内主流媒体 - 中英文
+    // 有倾向性的媒体 - 作为二级参考
+    const biasedSources = [
+        'IDF', '以色列国防军', 'Ynet', 'JNS', 'Israel Today', 'Jerusalem Post', 'Times of Israel',
+        '俄罗斯卫星通讯社', 'Sputnik', 'TASS', 'Press TV', '安徽网'
+    ];
+    // 国内主流媒体 - 二级
     const domesticSources = [
         '网易', '腾讯', '澎湃新闻', '搜狐', '新浪', '凤凰网', '观察者网', '中华网', '企鹅号',
-        'NetEase', 'Tencent', 'Sohu', 'Sina', 'Phoenix', 'guancha'
+        'NetEase', 'Tencent', 'Sohu', 'Sina', 'Phoenix', 'guancha', 'Yahoo', 'KPTV'
     ];
 
     if (officialSources.some(s => sourceName.includes(s))) return 'tier-official';
     if (intlSources.some(s => sourceName.includes(s))) return 'tier-intl';
+    if (biasedSources.some(s => sourceName.includes(s))) return 'tier-domestic';  // 有倾向的降为二级
     if (domesticSources.some(s => sourceName.includes(s))) return 'tier-domestic';
     return 'tier-other';
 }
