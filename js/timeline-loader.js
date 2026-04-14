@@ -81,8 +81,8 @@ function getSourceTier(sourceName) {
     const intlSources = [
         '路透社', '美联社', '法新社', 'BBC', 'CNN', '纽约时报', '华盛顿邮报', '卫报', '半岛电视台', '联合早报',
         'Reuters', 'AP News', 'AFP', 'BBC', 'CNN', 'New York Times', 'Washington Post', 'The Guardian', 'Al Jazeera',
-        'CBS', 'NBC', 'ABC', 'France 24', '安徽网', 'Yahoo', 'KPTV', 'NPR', 'Bloomberg', 'CNBC', 'Newsweek', 'Time', 'Economist',
-        'Boston Globe', 'Wall Street Journal'
+        'CBS', 'CBS News', 'NBC', 'ABC', 'France 24', '安徽网', 'Yahoo', 'KPTV', 'NPR', 'Bloomberg', 'CNBC', 'Newsweek', 'Time', 'Economist',
+        'Boston Globe', 'Wall Street Journal', 'UN News', 'ISW', 'TASS', 'Press TV'
     ];
     // 国内主流媒体 - 中英文
     const domesticSources = [
