@@ -342,6 +342,11 @@
               "url": "https://www.kptv.com/2026/04/12/iran-blames-us-after-ceasefire-talks-break-down-vance-heads-home-without-an-agreement/",
               "name": "KPTV",
               "priority": 2
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/us-iran-ceasefire-talks-fail-2026-04-12/",
+              "name": "Reuters",
+              "priority": 1
             }
           ]
         },
@@ -373,6 +378,11 @@
               "url": "https://www.kptv.com/2026/04/12/iran-blames-us-after-ceasefire-talks-break-down-vance-heads-home-without-an-agreement/",
               "name": "KPTV",
               "priority": 2
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/trump-threatens-shut-strait-hormuz-2026-04-12/",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true
@@ -841,6 +851,11 @@
               "url": "https://news.qq.com/rain/a/20260401A01JKR00",
               "name": "腾讯新闻",
               "priority": 2
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/israel-will-destroy-all-iran-military-facilities-2026-03-31/",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -2404,6 +2419,11 @@
             {
               "url": "http://www.ahwang.cn/newsflash/2026/0323/2984881.html",
               "name": "安徽网"
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/iran-us-standoff-hormuz-2026-03-20/",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -3139,6 +3159,11 @@
             {
               "url": "https://news.qq.com/",
               "name": "腾讯新闻"
+            },
+            {
+              "url": "https://www.reuters.com/markets/iea-emergency-oil-reserve-2026-03-13/",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
@@ -3343,6 +3368,11 @@
             {
               "url": "https://news.qq.com/",
               "name": "腾讯新闻"
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/israel-foreign-minister-no-endless-war-2026-03-12/",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": true,
