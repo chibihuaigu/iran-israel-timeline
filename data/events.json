@@ -385,7 +385,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true
+          "needs_verification": false
         }
       ]
     },
@@ -749,7 +749,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 无来源",
             "❌ 有效来源不足2个（现有0个）"
@@ -775,7 +775,7 @@
               "priority": 2
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 无来源",
             "❌ 有效来源不足2个（现有0个）"
@@ -801,7 +801,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 无来源",
             "❌ 有效来源不足2个（现有0个）"
@@ -832,7 +832,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 无来源",
             "❌ 有效来源不足2个（现有0个）"
@@ -858,7 +858,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 无来源",
             "❌ 有效来源不足2个（现有0个）"
@@ -884,7 +884,7 @@
               "priority": 2
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 无来源",
             "❌ 有效来源不足2个（现有0个）"
@@ -905,7 +905,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 无来源",
             "❌ 有效来源不足2个（现有0个）"
@@ -937,7 +937,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 无来源",
             "❌ 有效来源不足2个（现有0个）"
@@ -963,7 +963,7 @@
               "priority": 2
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 无来源",
             "❌ 有效来源不足2个（现有0个）"
@@ -994,7 +994,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 无来源",
             "❌ 有效来源不足2个（现有0个）"
@@ -1020,7 +1020,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 无来源",
             "❌ 有效来源不足2个（现有0个）"
@@ -1041,7 +1041,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 无来源",
             "❌ 有效来源不足2个（现有0个）"
@@ -1067,7 +1067,7 @@
               "priority": 2
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 无来源",
             "❌ 有效来源不足2个（现有0个）"
@@ -1093,7 +1093,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 无来源",
             "❌ 有效来源不足2个（现有0个）"
@@ -1124,7 +1124,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -1156,7 +1156,7 @@
               "name": "Euronews"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 来源#1URL问题: 未知域名: https://abcnews.com/Business/wireStory/israel-launches-new-wave-strikes-iran-sign-diplomatic-131461625",
             "❌ 来源#2URL问题: 未知域名: https://globalnews.ca/news/11748592/iran-israel-tehran-strikes/",
@@ -1183,7 +1183,7 @@
               "name": "CTV News"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 来源#1URL问题: 未知域名: https://www.bostonglobe.com/2026/03/27/nation/trump-administration-iran-attacks-updates/",
             "❌ 来源#2URL问题: 未知域名: https://www.ctvnews.ca/world/mideast-conflict/article/israel-launches-a-new-wave-of-strikes-on-iran-with-no-sign-of-diplomatic-breakthrough/",
@@ -1208,7 +1208,7 @@
               "name": "Boston Globe"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 来源#2URL问题: 未知域名: https://www.bostonglobe.com/2026/03/27/nation/trump-administration-iran-attacks-updates/",
             "❌ 有效来源不足2个（现有1个）"
@@ -1232,7 +1232,7 @@
               "name": "Global News"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 来源#1URL问题: 未知域名: https://www.bostonglobe.com/2026/03/27/nation/trump-administration-iran-attacks-updates/",
             "❌ 来源#2URL问题: 未知域名: https://globalnews.ca/news/11748592/iran-israel-tehran-strikes/",
@@ -1257,7 +1257,7 @@
               "name": "Global News"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 来源#1URL问题: 未知域名: https://abcnews.com/Business/wireStory/israel-launches-new-wave-strikes-iran-sign-diplomatic-131461625",
             "❌ 来源#2URL问题: 未知域名: https://globalnews.ca/news/11748592/iran-israel-tehran-strikes/",
@@ -1283,7 +1283,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -1307,7 +1307,7 @@
               "name": "Boston Globe"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 来源#1URL问题: 未知域名: https://globalnews.ca/news/11748592/iran-israel-tehran-strikes/",
             "❌ 来源#2URL问题: 未知域名: https://www.bostonglobe.com/2026/03/27/nation/trump-administration-iran-attacks-updates/",
@@ -1332,7 +1332,7 @@
               "name": "Global News"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 来源#1URL问题: 未知域名: https://www.bostonglobe.com/2026/03/27/nation/trump-administration-iran-attacks-updates/",
             "❌ 来源#2URL问题: 未知域名: https://globalnews.ca/news/11748592/iran-israel-tehran-strikes/",
@@ -1358,7 +1358,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -1384,7 +1384,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -1409,7 +1409,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -1435,7 +1435,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -1461,7 +1461,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -1486,7 +1486,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -1512,7 +1512,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -1533,7 +1533,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -1559,7 +1559,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -1584,7 +1584,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -1631,7 +1631,7 @@
               "name": "央视国际/CCTV+"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: https://www.cctvplus.com/news/20260327/8472106.shtml",
@@ -1653,7 +1653,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: https://english.news.cn/20260327/3593b9099faa46378051489ed39761d7/c.html",
@@ -1679,7 +1679,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: https://c.m.163.com/news/a/KP09F4IQ05198CJN.html",
@@ -1701,7 +1701,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1名称无效: '待核实来源'",
@@ -1727,7 +1727,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: https://c.m.163.com/news/a/KP0NV8G20556FZVC.html",
@@ -1753,7 +1753,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: https://sputniknews.cn/20260327/1070462308.html",
@@ -1779,7 +1779,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: https://www.israeltoday.co.il/read/despite-cluster-challenge-israel-maintains-high-interception-rate-against-iranian-missiles/",
@@ -1821,7 +1821,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 来源#3URL问题: 未知域名: https://sputniknews.cn/20260326/1070449282.html"
           ]
@@ -1846,7 +1846,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1名称无效: '待核实来源'",
@@ -1872,7 +1872,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: http://finance.eastmoney.com/a/202603263685828548.html",
@@ -1925,7 +1925,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -1946,7 +1946,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1名称无效: '待核实来源'",
@@ -1989,7 +1989,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 禁止的域名: 163.com/dy",
@@ -2017,7 +2017,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -2043,7 +2043,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -2093,7 +2093,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -2114,7 +2114,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 来源#1URL问题: 未知域名: https://sputniknews.cn/20260325/1070423609.html",
             "❌ 有效来源不足2个（现有1个）"
@@ -2146,7 +2146,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -2167,7 +2167,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: https://news.sina.cn/bignews/insight/2026-03-24/detail-inhrzyta1838576.d.html",
@@ -2223,7 +2223,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -2248,7 +2248,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: https://c.m.163.com/news/a/KOPB4LG00553BGPW.html",
@@ -2281,7 +2281,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -2306,7 +2306,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: http://www.ahwang.cn/newsflash/2026/0323/2984881.html",
@@ -2338,7 +2338,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -2369,7 +2369,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -2395,7 +2395,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -2426,7 +2426,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: http://www.ahwang.cn/newsflash/2026/0323/2984881.html",
@@ -2458,7 +2458,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: http://www.ahwang.cn/newsflash/2026/0323/2984881.html",
@@ -2485,7 +2485,7 @@
               "name": "央视新闻"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -2515,7 +2515,7 @@
               "name": "央视新闻"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 来源#1URL问题: 未知域名: https://finance.sina.cn/2026-03-17/detail-inhrfwqa9552288.d.html",
             "❌ 有效来源不足2个（现有1个）"
@@ -2540,7 +2540,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -2566,7 +2566,7 @@
               "name": "央视新闻"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -2593,7 +2593,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: https://www.21jingji.com/article/20260314/herald/40960a2f4df41a3dc44b667102578554.html",
@@ -2619,7 +2619,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: https://finance.sina.cn/2026-03-15/detail-inhqzkiw9842293.d.html",
@@ -2641,7 +2641,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -2662,7 +2662,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 无来源",
             "❌ 有效来源不足2个（现有0个）"
@@ -2709,7 +2709,7 @@
               "name": "每日经济新闻"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 来源#2URL问题: 未知域名: https://www.nbd.com.cn/articles/2026-03-14/4292190.html",
             "❌ 有效来源不足2个（现有1个）"
@@ -2730,7 +2730,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 来源#1URL问题: 未知域名: https://finance.sina.cn/2026-03-14/detail-inhqxfkq3553175.d.html",
             "❌ 有效来源不足2个（现有1个）"
@@ -2775,7 +2775,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 来源#2URL问题: 未知域名: https://wallstreetcn.com/articles/3767495",
             "❌ 有效来源不足2个（现有1个）"
@@ -2805,7 +2805,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 来源#2URL问题: 未知域名: https://www.nbd.com.cn/articles/2026-03-14/4292190.html",
             "❌ 有效来源不足2个（现有1个）"
@@ -2826,7 +2826,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 来源#1URL问题: 禁止的域名: sohu.com/a/",
             "❌ 来源#2URL问题: 未知域名: https://news.china.com/socialgd/10000169/20260313/49319052.html",
@@ -2903,7 +2903,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 来源#1URL问题: 未知域名: https://news.un.org/zh/",
             "❌ 来源#2URL问题: 未知域名: https://www.ungeneva.org/zh/news-media/news/2026/03/116710",
@@ -2946,7 +2946,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 来源#1URL问题: 未知域名: https://military.china.com/news/13004177/20260314/49321233.html",
             "❌ 有效来源不足2个（现有1个）"
@@ -2971,7 +2971,7 @@
               "name": "星岛日报"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 来源#2URL问题: 未知域名: https://www.stheadline.com/zh-hans/realtime-world/3551981",
             "❌ 有效来源不足2个（现有1个）"
@@ -3000,7 +3000,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 来源#1URL问题: 未知域名: https://finance.eastmoney.com/a/202603133670575738.html",
             "❌ 有效来源不足2个（现有1个）"
@@ -3021,7 +3021,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 来源#2URL问题: 未知域名: https://www.ungeneva.org/zh/news-media/news/2026/03/116710",
             "❌ 有效来源不足2个（现有1个）"
@@ -3098,7 +3098,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 来源#2URL问题: 未知域名: https://news.ifeng.com/",
             "❌ 有效来源不足2个（现有1个）"
@@ -3119,7 +3119,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -3140,7 +3140,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: https://news.sohu.com/",
@@ -3166,7 +3166,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -3201,7 +3201,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 来源#2URL问题: 未知域名: https://www.yunnan.cn/",
             "❌ 有效来源不足2个（现有1个）"
@@ -3241,7 +3241,7 @@
               "name": "中华网"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 来源#2URL问题: 未知域名: https://www.china.com/",
             "❌ 有效来源不足2个（现有1个）"
@@ -3262,7 +3262,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 来源#2URL问题: 未知域名: https://www.163.com/",
             "❌ 有效来源不足2个（现有1个）"
@@ -3282,7 +3282,7 @@
               "name": "Xinhua"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: https://www.news.cn/20260312/e7b9c631dcc443dfa0e4d4aa45ea09b2/c.html",
@@ -3308,7 +3308,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: https://www.news.cn/20260312/e7b9c631dcc443dfa0e4d4aa45ea09b2/c.html",
@@ -3330,7 +3330,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -3350,7 +3350,7 @@
               "name": "央视新闻"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -3375,7 +3375,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -3442,7 +3442,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: https://www.sohu.com/",
@@ -3463,7 +3463,7 @@
               "name": "央视新闻"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -3484,7 +3484,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 来源#2URL问题: 未知域名: https://www.sohu.com/",
             "❌ 有效来源不足2个（现有1个）"
@@ -3512,7 +3512,7 @@
               "name": "UN News"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 来源#3URL问题: 未知域名: https://news.un.org/"
           ]
@@ -3531,7 +3531,7 @@
               "name": "央视新闻"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -3579,7 +3579,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 来源#2URL问题: 未知域名: https://www.sohu.com/",
             "❌ 有效来源不足2个（现有1个）"
@@ -3603,7 +3603,7 @@
               "name": "大洋网"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 来源#2URL问题: 未知域名: https://www.dayoo.com/",
             "❌ 有效来源不足2个（现有1个）"
@@ -3644,7 +3644,7 @@
               "name": "央视新闻"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -3664,7 +3664,7 @@
               "name": "央视新闻"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -3684,7 +3684,7 @@
               "name": "UN News"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: https://news.un.org/",
@@ -3706,7 +3706,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -3727,7 +3727,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -3762,7 +3762,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 来源#2URL问题: 未知域名: https://www.guancha.cn/",
             "❌ 有效来源不足2个（现有1个）"
@@ -3782,7 +3782,7 @@
               "name": "央视新闻"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -3802,7 +3802,7 @@
               "name": "央视新闻"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -3826,7 +3826,7 @@
               "name": "UN News"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 来源#2URL问题: 未知域名: https://news.un.org/",
             "❌ 有效来源不足2个（现有1个）"
@@ -3852,7 +3852,7 @@
               "name": "央视新闻"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -3872,7 +3872,7 @@
               "name": "央视新闻"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -3892,7 +3892,7 @@
               "name": "央视新闻"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -3912,7 +3912,7 @@
               "name": "央视新闻"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -3959,7 +3959,7 @@
               "name": "央视新闻"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -3979,7 +3979,7 @@
               "name": "央视新闻"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -4005,7 +4005,7 @@
               "name": "央视新闻"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -4031,7 +4031,7 @@
               "name": "央视新闻"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -4056,7 +4056,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -4081,7 +4081,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: https://www.news.cn/world/20260306/98f410fe4460429799f195496e541a21/c.html",
@@ -4107,7 +4107,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: https://www.news.cn/world/20260306/98f410fe4460429799f195496e541a21/c.html",
@@ -4155,7 +4155,7 @@
               "name": "央视新闻"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -4181,7 +4181,7 @@
               "name": "央视新闻"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -4201,7 +4201,7 @@
               "name": "央视新闻"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -4221,7 +4221,7 @@
               "name": "央视新闻"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -4258,7 +4258,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -4279,7 +4279,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -4326,7 +4326,7 @@
               "name": "央视新闻"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -4373,7 +4373,7 @@
               "name": "央视新闻"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -4393,7 +4393,7 @@
               "name": "央视新闻"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -4417,7 +4417,7 @@
               "name": "Xinhua"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "❌ 来源#2URL问题: 未知域名: https://www.news.cn/",
             "❌ 有效来源不足2个（现有1个）"
@@ -4442,7 +4442,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: https://www.infzm.com/",
@@ -4463,7 +4463,7 @@
               "name": "央视新闻"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -4550,7 +4550,7 @@
               "name": "央视新闻"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -4570,7 +4570,7 @@
               "name": "央视新闻"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -4590,7 +4590,7 @@
               "name": "央视新闻"
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -4617,7 +4617,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
@@ -4663,7 +4663,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": true,
+          "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 禁止的域名: baike.baidu.com",
