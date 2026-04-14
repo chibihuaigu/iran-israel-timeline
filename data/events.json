@@ -1529,7 +1529,7 @@
           "sources": [
             {
               "url": "https://www.france24.com/en/middle-east/20260327-middle-east-live-iran-launches-strikes-on-israel-and-gulf-sites",
-              "name": "法国24",
+              "name": "France 24",
               "priority": 1
             }
           ],
@@ -2891,7 +2891,7 @@
           "sources": [
             {
               "url": "https://news.un.org/zh/",
-              "name": "联合国新闻"
+              "name": "UN News"
             },
             {
               "url": "https://www.ungeneva.org/zh/news-media/news/2026/03/116710",
@@ -3279,7 +3279,7 @@
           "sources": [
             {
               "url": "https://www.news.cn/20260312/e7b9c631dcc443dfa0e4d4aa45ea09b2/c.html",
-              "name": "新华网"
+              "name": "Xinhua"
             }
           ],
           "needs_verification": true,
@@ -3300,7 +3300,7 @@
           "sources": [
             {
               "url": "https://www.news.cn/20260312/e7b9c631dcc443dfa0e4d4aa45ea09b2/c.html",
-              "name": "新华网"
+              "name": "Xinhua"
             },
             {
               "url": "https://www.reuters.com/markets/iea-releases-emergency-oil-reserves-2026-03-12/",
@@ -3509,7 +3509,7 @@
             },
             {
               "url": "https://news.un.org/",
-              "name": "联合国新闻"
+              "name": "UN News"
             }
           ],
           "needs_verification": true,
@@ -3681,7 +3681,7 @@
           "sources": [
             {
               "url": "https://news.un.org/",
-              "name": "联合国新闻"
+              "name": "UN News"
             }
           ],
           "needs_verification": true,
@@ -3823,7 +3823,7 @@
             },
             {
               "url": "https://news.un.org/",
-              "name": "联合国新闻"
+              "name": "UN News"
             }
           ],
           "needs_verification": true,
@@ -4073,7 +4073,7 @@
           "sources": [
             {
               "url": "https://www.news.cn/world/20260306/98f410fe4460429799f195496e541a21/c.html",
-              "name": "新华网"
+              "name": "Xinhua"
             },
             {
               "url": "https://www.reuters.com/world/middle-east/iran-fires-missiles-qatar-2026-03-05/",
@@ -4099,7 +4099,7 @@
           "sources": [
             {
               "url": "https://www.news.cn/world/20260306/98f410fe4460429799f195496e541a21/c.html",
-              "name": "新华网"
+              "name": "Xinhua"
             },
             {
               "url": "https://www.reuters.com/world/us/senate-rejects-war-powers-resolution-2026-03-05/",
@@ -4414,7 +4414,7 @@
             },
             {
               "url": "https://www.news.cn/",
-              "name": "新华网"
+              "name": "Xinhua"
             }
           ],
           "needs_verification": true,
