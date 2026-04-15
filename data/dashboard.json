@@ -1,9 +1,9 @@
 {
   "version": "1.0",
-  "extracted_at": "2026-04-14 23:58:23",
-  "lastUpdated": "2026-04-14 23:58",
-  "warDays": 46,
-  "ceasefireDays": 6,
+  "extracted_at": "2026-04-15 21:37:08",
+  "lastUpdated": "2026-04-15 21:37",
+  "warDays": 47,
+  "ceasefireDays": 7,
   "missileWaves": "186",
   "iranDeaths": "1300+",
   "israelDeaths": "25",
@@ -19,9 +19,9 @@
   },
   "ceasefireInfo": {
     "ceasefireDate": "2026-04-08",
-    "ceasefireDays": 6,
-    "status": "停火破裂",
-    "statusDetail": "美国封锁伊朗港口生效，美伊谈判仍在进行"
+    "ceasefireDays": 7,
+    "status": "谈判中",
+    "statusDetail": "美伊正在进行停火谈判"
   },
   "sources": [
     "UN IOM - 流离失所数据",
