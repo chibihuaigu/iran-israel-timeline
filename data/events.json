@@ -1,9 +1,145 @@
 {
   "version": "1.0",
-  "extracted_at": "2026-04-14 23:58:00",
-  "total_days": 45,
-  "total_events": 190,
+  "extracted_at": "2026-04-15 21:37:08",
+  "total_days": 47,
+  "total_events": 196,
   "events": [
+    {
+      "date_id": "d46",
+      "date_label": "4月15日",
+      "events": [
+        {
+          "time": "上午",
+          "category": "外交",
+          "tag": "diplomatic-tag",
+          "title": "IAEA总干事呼吁对伊朗核计划实施严格核查",
+          "content": "国际原子能机构总干事拉斐尔·格罗西表示，任何结束战争的协议都应包括对伊朗核计划的严格核查措施。他强调铀浓缩暂停期限是政治决定，需要美伊双方协商。IAEA确认伊朗仍有大量浓缩铀无法追踪。",
+          "major": false,
+          "sources": [
+            {
+              "url": "https://www.washingtonpost.com/world/2026/04/15/iaea-iran-grossi-us-nuclear/fb0fe55e-3894-11f1-90c4-9772c7fabc03_story.html",
+              "name": "Washington Post",
+              "priority": 1
+            },
+            {
+              "url": "https://uat.apnews.com/article/iaea-iran-grossi-us-nuclear-f96d4f5f5a0b086fec5ddba158a36145",
+              "name": "AP News",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "下午",
+          "category": "军事",
+          "tag": "combat-tag",
+          "title": "以色列空袭黎巴嫩南部贝鲁特附近车辆",
+          "content": "以色列对黎巴嫩贝鲁特以南约20公里的萨迪亚特地区发动空袭，击中一辆车辆。这是黎以谈判进行期间的军事行动，以色列持续对真主党目标进行打击。",
+          "major": false,
+          "sources": [
+            {
+              "url": "https://www.thehindu.com/news/international/iran-israel-us-war-west-asia-conflict-live-updates-april-15-2026/article70863575.ece",
+              "name": "The Hindu",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "早晨",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "美国宣布对伊朗封锁全面实施，完全切断伊朗海运贸易",
+          "content": "美国中央司令部宣布对伊朗港口的封锁已全面实施，完全切断了伊朗的海运贸易。美国海军拦截了所有前往伊朗港口的船只，特朗普政府表示将维持最大压力。伊朗方面考虑暂停通过霍尔木兹海峡的石油运输以避免与美国海军对抗。",
+          "major": true,
+          "sources": [
+            {
+              "url": "https://www.cnbc.com/2026/04/15/us-strait-of-hormuz-blockade-navy-iran-seaborne-trade-oil-trump.html",
+              "name": "CNBC",
+              "priority": 1
+            },
+            {
+              "url": "https://www.aljazeera.com/economy/2026/4/15/us-military-says-blockade-of-iran-ports-completely-halts-economic-trade",
+              "name": "Al Jazeera",
+              "priority": 1
+            },
+            {
+              "url": "https://www.channelnewsasia.com/world/strait-hormuz-iran-war-maritime-trade-6057596",
+              "name": "Channel News Asia",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "调停方推动延长美伊停火，特朗普称战争即将结束",
+          "content": "调停方正在推动延长美伊停火协议。特朗普对福克斯商业频道表示，他认为战争'非常接近结束'。美伊双方可能在周末恢复和平谈判。双方仍在铀浓缩期限问题上存在分歧，伊朗提议暂停5年，美国要求20年禁令。美国财政部表示不会续签伊朗石油制裁的临时豁免。",
+          "major": true,
+          "sources": [
+            {
+              "url": "https://apnews.com/article/us-iran-war-lebanon-israel-talks-hormuz-15-april-2026-f1b02d16f81d6fdcf68c0ed16d7a719d",
+              "name": "AP News",
+              "priority": 1
+            },
+            {
+              "url": "https://www.smh.com.au/world/us-and-iran-could-resume-peace-talks-20260415-p5znyf.html",
+              "name": "Sydney Morning Herald",
+              "priority": 1
+            },
+            {
+              "url": "https://www.bbc.co.uk/news/live/c20dd5ynxz9t",
+              "name": "BBC",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "以色列与黎巴嫩同意举行直接谈判",
+          "content": "以色列和黎巴嫩在华盛顿举行的直接谈判后同意继续对话。这是两国自1993年以来首次高级别直接外交谈判。黎巴嫩请求先停火再讨论真主党解除武装问题，以色列坚持不会与真主党讨论停火。黎巴嫩政府表示希望摆脱伊朗的影响。",
+          "major": true,
+          "sources": [
+            {
+              "url": "https://en.annahar.com/fr/300227/lebanese-israeli-meeting-at-the-us-state-department-negotiation-framework-set-by-washington-lebanon-requests-ceasefire",
+              "name": "An Nahar",
+              "priority": 1
+            },
+            {
+              "url": "http://www.abc.net.au/news/2026-04-15/lebanon-israel-agree-direct-negotiations-after-washington-talks/106565744",
+              "name": "ABC News Australia",
+              "priority": 1
+            },
+            {
+              "url": "https://www.npr.org/2026/04/14/nx-s1-5784551/lebanon-israel-talks",
+              "name": "NPR",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "白天",
+          "category": "军事",
+          "tag": "combat-tag",
+          "title": "真主党向以色列北部发射近40枚火箭弹",
+          "content": "真主党向以色列北部地区发射了近40枚火箭弹，以军防空系统进行了拦截。这是黎以谈判进行期间真主党继续展示武力的行动。以色列国防军继续对黎巴嫩南部真主党目标进行空袭。",
+          "major": false,
+          "sources": [
+            {
+              "url": "https://report.az/en/other-countries/hezbollah-fires-nearly-40-rockets-at-northern-israel",
+              "name": "Report.az",
+              "priority": 1
+            },
+            {
+              "url": "https://www.jpost.com/middle-east/iran-news/2026-04-15/live-updates-893032",
+              "name": "Jerusalem Post",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
     {
       "date_id": "d45",
       "date_label": "4月14日",
