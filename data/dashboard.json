@@ -1,9 +1,9 @@
 {
   "version": "1.0",
-  "extracted_at": "2026-04-15 21:37:08",
-  "lastUpdated": "2026-04-15 21:37",
-  "warDays": 47,
-  "ceasefireDays": 7,
+  "extracted_at": "2026-04-17 21:36:36",
+  "lastUpdated": "2026-04-17 21:36",
+  "warDays": 49,
+  "ceasefireDays": 9,
   "missileWaves": "186",
   "iranDeaths": "1300+",
   "israelDeaths": "25",
@@ -19,7 +19,7 @@
   },
   "ceasefireInfo": {
     "ceasefireDate": "2026-04-08",
-    "ceasefireDays": 7,
+    "ceasefireDays": 9,
     "status": "谈判中",
     "statusDetail": "美伊正在进行停火谈判"
   },
