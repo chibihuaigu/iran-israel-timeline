@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "extracted_at": "2026-04-17 21:36:36",
+  "extracted_at": "2026-04-17 22:27:18",
   "total_days": 49,
   "total_events": 204,
   "events": [
@@ -9,15 +9,51 @@
       "date_label": "4月17日",
       "events": [
         {
-          "time": "上午",
-          "category": "外交",
-          "title": "美伊谈判进入最后阶段，特朗普暗示协议接近达成",
-          "content": "美国总统特朗普表示美伊谈判可能在今天恢复，暗示协议接近达成。谈判主要集中在伊朗核计划的限制和制裁解除问题上。",
+          "time": "凌晨",
+          "category": "军事",
+          "tag": "ceasefire-tag",
+          "title": "以色列黎巴嫩10天停火协议正式生效",
+          "content": "以色列与黎巴嫩达成的10天停火协议于当地时间午夜正式生效。流离失所的居民开始返回南部家园。黎巴嫩军队警告该地区存在若干违反停火的行为。停火不包括真主党。",
           "major": true,
           "sources": [
             {
-              "url": "https://www.nytimes.com/live/2026/04/17/world/iran-us-war-trump",
-              "name": "NY Times",
+              "url": "https://www.npr.org/2026/04/17/g-s1-117788/israel-us-iran-middle-east-conflict-updates",
+              "name": "NPR",
+              "priority": 1
+            },
+            {
+              "url": "https://www.bbc.com/news/articles/c8x7w1w9gd2o",
+              "name": "BBC",
+              "priority": 1
+            },
+            {
+              "url": "https://news.un.org/en/story/2026/04/1167318",
+              "name": "UN News",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "下午",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "特朗普宣布伊朗同意移交浓缩铀，美伊接近达成协议",
+          "content": "美国总统特朗普宣布伊朗已同意移交其储存的浓缩铀，为和平谈判铺平道路。特朗普表示美伊非常接近达成和平协议，谈判可能在本周末恢复。伊朗方面据称非常有力地同意不发展核武器。伊朗议会消息人士否认了特朗普的说法。",
+          "major": true,
+          "sources": [
+            {
+              "url": "https://www.upi.com/Top_News/World-News/2026/04/17/Iran-will-surrender-enriched-uranium/9661776413769/",
+              "name": "UPI",
+              "priority": 1
+            },
+            {
+              "url": "https://fortune.com/2026/04/17/trump-iran-war-peace-end-pretty-soon/",
+              "name": "Fortune",
+              "priority": 1
+            },
+            {
+              "url": "https://apnews.com/live/iran-war-israel-trump-04-17-2026",
+              "name": "AP News",
               "priority": 1
             }
           ]
@@ -30,19 +66,20 @@
       "events": [
         {
           "time": "上午",
-          "category": "外交",
-          "title": "以色列与黎巴嫩达成10天停火协议",
-          "content": "美国总统特朗普宣布以色列与黎巴嫩达成10天停火协议。停火于当地时间4月16日生效，但协议不包括真主党。贝鲁特民众对以色列是否遵守协议持谨慎态度。",
-          "major": true,
+          "category": "军事",
+          "tag": "military-tag",
+          "title": "美军澄清伊朗港口封锁细节",
+          "content": "美军中央司令部澄清伊朗港口封锁的实施细节，表示封锁已全面实施，进出伊朗的海运贸易已完全停止。封锁针对所有进入或离开伊朗沿海地区的各国船只，但不影响前往非伊朗港口的船只通行。",
+          "major": false,
           "sources": [
             {
-              "url": "https://www.nytimes.com/2026/04/16/briefing/israel-lebanon-cease-fire.html",
-              "name": "NY Times",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/4/16/us-general-clarifies-iranian-ports-under-blockade",
+              "name": "Al Jazeera",
               "priority": 1
             },
             {
-              "url": "https://www.aljazeera.com/video/newsfeed/2026/4/16/people-in-beirut-wary-of-trusting-israel-will-uphold-lebanon-ceasefire",
-              "name": "Al Jazeera",
+              "url": "https://www.reuters.com/world/middle-east/us-blockade-iran-after-talks-fail-yield-a-deal-2026-04-13/",
+              "name": "Reuters",
               "priority": 1
             }
           ]
@@ -50,8 +87,9 @@
         {
           "time": "下午",
           "category": "外交",
-          "title": "美伊谈判取得突破希望，巴基斯坦积极斡旋",
-          "content": "巴基斯坦官员表示，在巴基斯坦的斡旋下，美伊谈判有望取得重大突破。双方正在讨论一项临时协议，但在核武器问题上仍存在分歧。",
+          "tag": "diplomatic-tag",
+          "title": "巴基斯坦斡旋美伊谈判取得重大进展",
+          "content": "巴基斯坦官员表示在巴基斯坦的斡旋下，美伊谈判有望取得重大突破。巴基斯坦陆军参谋长阿西姆·穆尼尔率领的高级代表团抵达德黑兰。双方正在讨论临时协议，但在铀浓缩期限问题上仍存在分歧。伊朗提议暂停5年，美国要求20年禁令。",
           "major": true,
           "sources": [
             {
@@ -69,13 +107,24 @@
         {
           "time": "晚上",
           "category": "外交",
-          "title": "特朗普表示可能前往巴基斯坦签署协议",
-          "content": "美国总统特朗普表示，如果美伊达成协议，他可能前往巴基斯坦。谈判进入关键阶段，双方正在缩小分歧。",
-          "major": false,
+          "tag": "major-tag",
+          "title": "特朗普宣布以色列与黎巴嫩达成10天停火协议",
+          "content": "美国总统特朗普宣布以色列与黎巴嫩达成10天停火协议，停火于当地时间午夜生效。真主党表示愿意参与停火，但要求包括全面停止对黎巴嫩的攻击以及以色列军队不得自由行动。以色列表示真主党攻击已在以色列造成2名平民死亡，13名以色列士兵丧生。",
+          "major": true,
           "sources": [
             {
-              "url": "https://www.nytimes.com/live/2026/04/17/world/iran-us-war-trump",
-              "name": "NY Times",
+              "url": "https://www.bbc.com/news/articles/c8x7w1w9gd2o",
+              "name": "BBC",
+              "priority": 1
+            },
+            {
+              "url": "https://www.pbs.org/video/lebanon-ceasefire-sot-1776363850/",
+              "name": "PBS",
+              "priority": 1
+            },
+            {
+              "url": "https://www.washingtonpost.com/world/2026/04/16/trump-iran-israel-lebanon-ceasefire/",
+              "name": "Washington Post",
               "priority": 1
             }
           ]
@@ -90,23 +139,18 @@
           "time": "凌晨",
           "category": "军事",
           "tag": "major-tag",
-          "title": "美国宣布对伊朗封锁全面实施，完全切断伊朗海运贸易",
-          "content": "美国中央司令部宣布对伊朗港口的封锁已全面实施，完全切断了伊朗的海运贸易。美国海军拦截了所有前往伊朗港口的船只，特朗普政府表示将维持最大压力。伊朗方面考虑暂停通过霍尔木兹海峡的石油运输以避免与美国海军对抗。",
+          "title": "美军宣布对伊朗港口封锁全面实施",
+          "content": "美军中央司令部宣布对伊朗港口的封锁已全面实施，完全切断了伊朗的海运贸易。美国海军拦截所有前往伊朗港口的船只，特朗普政府表示将维持最大压力。伊朗方面考虑暂停通过霍尔木兹海峡的石油运输以避免与美国海军对抗。",
           "major": true,
           "sources": [
-            {
-              "url": "https://www.cnbc.com/2026/04/15/us-strait-of-hormuz-blockade-navy-iran-seaborne-trade-oil-trump.html",
-              "name": "CNBC",
-              "priority": 1
-            },
             {
               "url": "https://www.aljazeera.com/economy/2026/4/15/us-military-says-blockade-of-iran-ports-completely-halts-economic-trade",
               "name": "Al Jazeera",
               "priority": 1
             },
             {
-              "url": "https://www.channelnewsasia.com/world/strait-hormuz-iran-war-maritime-trade-6057596",
-              "name": "Channel News Asia",
+              "url": "https://www.washingtonpost.com/world/2026/04/15/us-iran-war-navy-blockade-strait-of-hormuz/5c7c03e6-38f3-11f1-90c4-9772c7fabc03_story.html",
+              "name": "Washington Post",
               "priority": 1
             }
           ]
@@ -115,53 +159,33 @@
           "time": "上午",
           "category": "军事",
           "tag": "combat-tag",
-          "title": "真主党向以色列北部发射近40枚火箭弹",
-          "content": "真主党向以色列北部地区发射了近40枚火箭弹，以军防空系统进行了拦截。这是黎以谈判进行期间真主党继续展示武力的行动。以色列国防军继续对黎巴嫩南部真主党目标进行空袭。",
+          "title": "真主党向以色列北部发射约30枚火箭弹",
+          "content": "真主党向以色列北部地区发射了约30枚火箭弹，以军防空系统进行了拦截。这是黎以谈判进行期间真主党继续展示武力的行动。",
           "major": false,
           "sources": [
             {
-              "url": "https://report.az/en/other-countries/hezbollah-fires-nearly-40-rockets-at-northern-israel",
-              "name": "Report.az",
+              "url": "https://news.cgtn.com/news/2026-04-15/news-1MmtlPfJfFK/p.html",
+              "name": "CGTN",
               "priority": 1
             },
             {
-              "url": "https://www.jpost.com/middle-east/iran-news/2026-04-15/live-updates-893032",
-              "name": "Jerusalem Post",
-              "priority": 1
-            }
-          ]
-        },
-        {
-          "time": "上午",
-          "category": "外交",
-          "tag": "diplomatic-tag",
-          "title": "IAEA总干事呼吁对伊朗核计划实施严格核查",
-          "content": "国际原子能机构总干事拉斐尔·格罗西表示，任何结束战争的协议都应包括对伊朗核计划的严格核查措施。他强调铀浓缩暂停期限是政治决定，需要美伊双方协商。IAEA确认伊朗仍有大量浓缩铀无法追踪。",
-          "major": false,
-          "sources": [
-            {
-              "url": "https://www.washingtonpost.com/world/2026/04/15/iaea-iran-grossi-us-nuclear/fb0fe55e-3894-11f1-90c4-9772c7fabc03_story.html",
-              "name": "Washington Post",
-              "priority": 1
-            },
-            {
-              "url": "https://uat.apnews.com/article/iaea-iran-grossi-us-nuclear-f96d4f5f5a0b086fec5ddba158a36145",
-              "name": "AP News",
+              "url": "https://www.aljazeera.com/news/2026/4/15/hezbollah-rockets-northern-israel",
+              "name": "Al Jazeera",
               "priority": 1
             }
           ]
         },
         {
           "time": "下午",
-          "category": "军事",
-          "tag": "combat-tag",
-          "title": "以色列空袭黎巴嫩南部贝鲁特附近车辆",
-          "content": "以色列对黎巴嫩贝鲁特以南约20公里的萨迪亚特地区发动空袭，击中一辆车辆。这是黎以谈判进行期间的军事行动，以色列持续对真主党目标进行打击。",
+          "category": "外交",
+          "tag": "diplomatic-tag",
+          "title": "IAEA总干事呼吁对伊朗核计划实施严格核查",
+          "content": "国际原子能机构总干事拉斐尔·格罗西表示，任何结束战争的协议都应包括对伊朗核计划的严格核查措施。他强调铀浓缩暂停期限是政治决定，需要美伊双方协商。格罗西警告说，任何没有严格监控的协议都是\"协议的幻觉\"。",
           "major": false,
           "sources": [
             {
-              "url": "https://www.thehindu.com/news/international/iran-israel-us-war-west-asia-conflict-live-updates-april-15-2026/article70863575.ece",
-              "name": "The Hindu",
+              "url": "https://apnews.com/article/iaea-iran-grossi-nuclear-inspections-2026",
+              "name": "AP News",
               "priority": 1
             }
           ]
@@ -171,22 +195,17 @@
           "category": "外交",
           "tag": "major-tag",
           "title": "以色列与黎巴嫩同意举行直接谈判",
-          "content": "以色列和黎巴嫩在华盛顿举行的直接谈判后同意继续对话。这是两国自1993年以来首次高级别直接外交谈判。黎巴嫩请求先停火再讨论真主党解除武装问题，以色列坚持不会与真主党讨论停火。黎巴嫩政府表示希望摆脱伊朗的影响。",
+          "content": "以色列和黎巴嫩在华盛顿举行直接谈判后同意继续对话。这是两国自1993年以来首次高级别直接外交谈判。黎巴嫩请求先停火再讨论真主党解除武装问题，以色列坚持不会与真主党讨论停火。黎巴嫩政府表示希望摆脱伊朗的影响。",
           "major": true,
           "sources": [
             {
-              "url": "https://en.annahar.com/fr/300227/lebanese-israeli-meeting-at-the-us-state-department-negotiation-framework-set-by-washington-lebanon-requests-ceasefire",
-              "name": "An Nahar",
-              "priority": 1
-            },
-            {
-              "url": "http://www.abc.net.au/news/2026-04-15/lebanon-israel-agree-direct-negotiations-after-washington-talks/106565744",
-              "name": "ABC News Australia",
-              "priority": 1
-            },
-            {
               "url": "https://www.npr.org/2026/04/14/nx-s1-5784551/lebanon-israel-talks",
               "name": "NPR",
+              "priority": 1
+            },
+            {
+              "url": "https://apnews.com/article/us-iran-war-lebanon-israel-talks-hormuz-15-april-2026-f1b02d16f81d6fdcf68c0ed16d7a719d",
+              "name": "AP News",
               "priority": 1
             }
           ]
@@ -196,22 +215,12 @@
           "category": "外交",
           "tag": "major-tag",
           "title": "调停方推动延长美伊停火，特朗普称战争即将结束",
-          "content": "调停方正在推动延长美伊停火协议。特朗普对福克斯商业频道表示，他认为战争'非常接近结束'。美伊双方可能在周末恢复和平谈判。双方仍在铀浓缩期限问题上存在分歧，伊朗提议暂停5年，美国要求20年禁令。美国财政部表示不会续签伊朗石油制裁的临时豁免。",
+          "content": "调停方正在推动延长美伊停火协议。特朗普对福克斯商业频道表示，他认为战争非常接近结束。美伊双方可能在周末恢复和平谈判。双方仍在铀浓缩期限问题上存在分歧。",
           "major": true,
           "sources": [
             {
               "url": "https://apnews.com/article/us-iran-war-lebanon-israel-talks-hormuz-15-april-2026-f1b02d16f81d6fdcf68c0ed16d7a719d",
               "name": "AP News",
-              "priority": 1
-            },
-            {
-              "url": "https://www.smh.com.au/world/us-and-iran-could-resume-peace-talks-20260415-p5znyf.html",
-              "name": "Sydney Morning Herald",
-              "priority": 1
-            },
-            {
-              "url": "https://www.bbc.co.uk/news/live/c20dd5ynxz9t",
-              "name": "BBC",
               "priority": 1
             }
           ]
