@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-05-18 00:38",
+  "lastUpdated": "2026-05-18 00:48",
   "description": "统计数据来源追踪文件，记录每个统计字段的数据来源和可信度",
   "fields": {
     "warDays": {
@@ -57,22 +57,16 @@
       "lastUpdated": "2026-04-13"
     },
     "israelDeaths": {
-      "value": "3+",
-      "confidence": "low",
-      "hasDispute": true,
-      "disputeDetails": "不同来源数字: [3, 1]",
+      "value": "1+",
+      "confidence": "medium",
+      "hasDispute": false,
+      "disputeDetails": null,
       "sources": [
         {
           "value": 1,
           "source": "新华社",
           "url": "https://www.news.cn/world/20260419/cb852a73b5644b598d435e028ccb9b1f/c.html",
-          "text": "以军1名士兵在黎巴嫩南部阵亡、9人受伤 以色列国防军声明，1名士兵在黎巴嫩南部作战时死亡，另有9名士兵受伤"
-        },
-        {
-          "value": 3,
-          "source": "中国西藏网",
-          "url": "http://tibet.cn/cn/gjfy/202604/t20260424_7965437.html",
-          "text": "以色列空袭黎巴嫩南部致3人死亡 黎巴嫩公共卫生部称以军空袭黎南部造成3人死亡"
+          "text": "以军1名士兵阵亡、9人受伤 以色列国防军声明，1名士兵在黎巴嫩南部作战时死亡"
         }
       ],
       "lastUpdated": "2026-05-18"
