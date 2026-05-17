@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "extracted_at": "2026-05-18 00:38:40",
-  "lastUpdated": "2026-05-18 00:38",
+  "extracted_at": "2026-05-18 00:48:59",
+  "lastUpdated": "2026-05-18 00:48",
   "warDays": 56,
   "ceasefireDays": 40,
   "missileWaves": "186",
   "iranDeaths": "120+",
-  "israelDeaths": "3+",
+  "israelDeaths": "1+",
   "usDeaths": "14",
   "displaced": "420万+",
   "childCasualties": "2100+",
@@ -16,5 +16,5 @@
     "status": "谈判破裂",
     "statusDetail": "美伊和谈未达成协议，停火面临失效风险"
   },
-  "total_days": 56
+  "total_days": 57
 }
