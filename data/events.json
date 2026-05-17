@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "extracted_at": "2026-05-18 00:48:59",
+  "extracted_at": "2026-05-18 00:58:21",
   "total_days": 57,
   "total_events": 232,
   "events": [
@@ -190,8 +190,8 @@
           "major": true,
           "sources": [
             {
-              "url": "https://www.jpost.com/international/article-893248",
-              "name": "Jerusalem Post",
+              "url": "https://www3.xinhuanet.com/world/20260416/4f537f54692e47b0a3ceac9091f9c260/c.html",
+              "name": "新华社",
               "priority": 1
             }
           ]
@@ -3210,7 +3210,18 @@
           "title": "美以联军空袭伊朗纳坦兹铀浓缩设施",
           "content": "以色列和美国对伊朗纳坦兹铀浓缩设施发动空袭。纳坦兹是伊朗核计划的核心设施。此前一天特朗普威胁若伊朗不在48小时内开放霍尔木兹海峡将轰炸其发电厂。",
           "major": true,
-          "sources": []
+          "sources": [
+            {
+              "url": "https://www3.xinhuanet.com/world/20260321/344e843954dd4248889587055f747015/c.html",
+              "name": "新华社",
+              "priority": 1
+            },
+            {
+              "url": "https://news.cctv.com/2026/03/21/ARTINhm8OhxUudVUsgqbDkvH260321.shtml",
+              "name": "央视网",
+              "priority": 1
+            }
+          ]
         },
         {
           "time": "凌晨",
