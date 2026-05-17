@@ -3382,12 +3382,12 @@ function initializeData() {
 
     // 更新数据统计 Modal
     document.getElementById('dataWarDays').textContent = conflictData.warDays;
-    document.getElementById('dataMissileWaves').textContent = conflictData.events.iranMissileWaves;
     document.getElementById('dataIranDeaths').textContent = conflictData.events.iranDeaths;
     document.getElementById('dataIsraelDeaths').textContent = conflictData.events.israelDeaths;
+    document.getElementById('dataLebanonDeaths').textContent = conflictData.events.lebanonDeaths;
     document.getElementById('dataUsDeaths').textContent = conflictData.events.usDeaths;
     document.getElementById('dataDisplaced').textContent = conflictData.events.middleEastDisplaced;
-    document.getElementById('dataChildren').textContent = conflictData.events.childCasualties;
+    document.getElementById('dataIranInjured').textContent = conflictData.events.iranInjured;
 }
 
 // 页面加载完成后初始化数据
@@ -3518,18 +3518,18 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="stat-value" id="displaced">--</div>
                     <div class="stat-label">流离失所</div>
                 </a>
-                <div class="stat-item">
-                    <div class="stat-value" id="missileWaves">--</div>
-                    <div class="stat-label">导弹波次</div>
-                </div>
+                <a class="stat-item stat-link" href="https://en.wikipedia.org/wiki/Casualties_of_the_2026_Iran_war" target="_blank" title="来源：黎巴嫩卫生部/Wikipedia - 黎巴嫩伤亡统计">
+                    <div class="stat-value" id="lebanonDeaths">--</div>
+                    <div class="stat-label">黎巴嫩死亡</div>
+                </a>
                 <div class="stat-item">
                     <div class="stat-value" id="usDeaths">--</div>
                     <div class="stat-label">美军死亡</div>
                 </div>
-                <div class="stat-item">
-                    <div class="stat-value" id="childCasualties">--</div>
-                    <div class="stat-label">儿童伤亡</div>
-                </div>
+                <a class="stat-item stat-link" href="https://en.wikipedia.org/wiki/Casualties_of_the_2026_Iran_war" target="_blank" title="来源：伊朗卫生部/US估计 - 伊朗受伤统计">
+                    <div class="stat-value" id="iranInjured">--</div>
+                    <div class="stat-label">伊朗受伤</div>
+                </a>
             </div>
 
             <div class="belligerents">
