@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "extracted_at": "2026-05-18 00:58:21",
+  "extracted_at": "2026-05-18 01:18:57",
   "total_days": 57,
   "total_events": 232,
   "events": [
@@ -21,7 +21,8 @@
               "name": "Al Arabiya",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "time": "上午",
@@ -41,7 +42,8 @@
               "name": "CGTN",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -67,7 +69,8 @@
               "name": "Times of Israel",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "time": "下午",
@@ -92,7 +95,8 @@
               "name": "NPR",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "time": "下午",
@@ -107,7 +111,8 @@
               "name": "Le Monde",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "time": "上午",
@@ -122,7 +127,8 @@
               "name": "ISW",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "single_authoritative"
         }
       ]
     },
@@ -143,7 +149,8 @@
               "name": "路透社",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "time": "上午",
@@ -158,7 +165,8 @@
               "name": "路透社",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "time": "上午",
@@ -173,7 +181,8 @@
               "name": "ISW",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "single_authoritative"
         }
       ]
     },
@@ -194,7 +203,8 @@
               "name": "新华社",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "time": "下午",
@@ -209,7 +219,8 @@
               "name": "路透社",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "time": "上午",
@@ -224,7 +235,8 @@
               "name": "新华社",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "time": "上午",
@@ -233,7 +245,14 @@
           "title": "以军在宾特朱拜勒与真主党激战",
           "content": "以色列国防军第35伞兵旅旅长称，以军在黎巴嫩南部宾特朱拜勒与真主党进行激烈战斗，目前已全面出击。以军在该市中央区和体育场附近与真主党交火。宾特朱拜勒位于多条主要道路交汇处，具有重要战术意义。",
           "major": false,
-          "sources": []
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-april-21-2026/",
+              "name": "ISW",
+              "priority": 1
+            }
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -250,11 +269,17 @@
           "major": false,
           "sources": [
             {
-              "url": "https://www.aa.com.tr/en/americas/us-embassy-renews-iraq-travel-warning-urges-citizens-there-to-leave-now/3912158",
-              "name": "Anadolu Agency",
+              "url": "https://iq.usembassy.gov/security-alert-u-s-embassy-baghdad-iraq-april-20-2026/",
+              "name": "美国驻巴格达大使馆",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reutersconnect.com/item/us-embassy-warns-of-possible-baghdad-attacks-urges-americans-to-leave-iraq/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1ZBOTQ3MjAyMDQyMDI2UlAx",
+              "name": "路透社",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "time": "上午",
@@ -274,7 +299,8 @@
               "name": "Jerusalem Post",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "time": "上午",
@@ -289,7 +315,8 @@
               "name": "ISW",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "single_authoritative"
         }
       ]
     },
@@ -320,7 +347,8 @@
               "name": "JNS",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "time": "下午",
@@ -345,7 +373,8 @@
               "name": "Times of Israel",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "time": "上午",
@@ -365,7 +394,8 @@
               "name": "路透社",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "time": "上午",
@@ -385,7 +415,8 @@
               "name": "Jerusalem Post",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -411,7 +442,8 @@
               "name": "纽约时报",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "time": "下午",
@@ -431,7 +463,8 @@
               "name": "NPR",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "time": "下午",
@@ -451,7 +484,8 @@
               "name": "新华网",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "time": "上午",
@@ -471,7 +505,8 @@
               "name": "Jerusalem Post",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -497,7 +532,8 @@
               "name": "CNBC",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "time": "上午",
@@ -522,7 +558,8 @@
               "name": "半岛电视台",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "time": "凌晨",
@@ -542,7 +579,8 @@
               "name": "BBC",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -3201,7 +3239,8 @@
               "name": "ISW",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "time": "上午",
@@ -3221,7 +3260,8 @@
               "name": "央视网",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "time": "凌晨",
@@ -3230,7 +3270,19 @@
           "title": "伊朗革命卫队发动第70波导弹攻击",
           "content": "伊朗革命卫队发表声明称发动真实承诺-4第70波行动，使用海巴尔谢坎和卡德尔导弹打击以色列海法和特拉维夫地区目标，并使用吉亚姆和伊马德导弹及攻击型无人机协同攻击5个美军基地。",
           "major": true,
-          "sources": []
+          "sources": [
+            {
+              "url": "https://world.people.com.cn/n1/2026/0321/c1002-40686158.html",
+              "name": "人民网",
+              "priority": 1
+            },
+            {
+              "url": "https://www.news.cn/world/20260321/b907a83ea7cd4fe2875845162c2a1f9c/c.html",
+              "name": "新华网",
+              "priority": 1
+            }
+          ],
+          "verification_status": "verified"
         }
       ]
     },
