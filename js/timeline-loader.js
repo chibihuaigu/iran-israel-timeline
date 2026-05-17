@@ -72,32 +72,39 @@ async function loadDashboard() {
  * @returns {string} 等级类名
  */
 function getSourceTier(sourceName) {
-    // 官方权威媒体（最高优先级）- 中国官方
+    // 一级 - 中国官方媒体 (tier1_china)
     const officialSources = [
-        '央视新闻', '新华社', '人民日报', '光明日报', '中国新闻网', '央广网', '环球时报',
-        'CCTV', 'Xinhua', 'People\'s Daily', 'China Daily', 'Global Times'
+        '央视新闻', '新华社', '人民日报', '中国新闻网', '环球时报', 'CCTV', 'CGTN',
+        'Xinhua', 'China News', 'Global Times'
     ];
-    // 国际主流媒体 - 相对中立可靠
+    // 一级 - 国际通讯社+主流媒体 (tier1_intl + tier1_other + tier2)
     const intlSources = [
-        '路透社', '美联社', '法新社', 'BBC', 'CNN', '纽约时报', '华盛顿邮报', '卫报', '半岛电视台',
-        'Reuters', 'AP News', 'AFP', 'BBC', 'CNN', 'New York Times', 'Washington Post', 'The Guardian', 'Al Jazeera',
-        'CBS', 'CBS News', 'NBC', 'ABC', 'France 24', 'NPR', 'Bloomberg', 'CNBC', 'Newsweek', 'Time', 'Economist',
-        'Boston Globe', 'Wall Street Journal', 'UN News', 'ISW'
+        '路透社', '美联社', '法新社', 'BBC', 'NPR', '卫报', '华盛顿邮报', '纽约时报', '半岛电视台',
+        '财富杂志', '合众国际社', 'PBS',
+        'Reuters', 'AP News', 'AP', 'AFP', 'France 24', 'BBC', 'Al Jazeera',
+        'NPR', 'The Guardian', 'Washington Post', 'New York Times', 'Fortune', 'UPI', 'PBS',
+        'UN News', 'ISW', 'understandingwar', 'CTP', 'criticalthreats',
+        'CNN', 'CNBC', '彭博社', 'Bloomberg', 'CNBC', 'Channel News Asia',
+        'Haaretz', '以色列时报',
+        'TRT World', 'Al Arabiya', '阿拉比亚',
+        'NDTV'
     ];
-    // 有倾向性的媒体 - 作为二级参考
+    // 有倾向性的媒体 (biased_israeli + biased_iranian + biased_russian + biased_turkish)
     const biasedSources = [
-        'IDF', '以色列国防军', 'Ynet', 'JNS', 'Israel Today', 'Jerusalem Post', 'Times of Israel',
-        '俄罗斯卫星通讯社', 'Sputnik', 'TASS', 'Press TV', '安徽网'
+        '耶路撒冷邮报', 'Jerusalem Post', 'JNS', 'Times of Israel', '以色列今日', 'Ynet',
+        '伊朗官方通讯社', 'Press TV', '塔斯尼姆', '德黑兰时报',
+        '塔斯社', 'TASS', '俄罗斯卫星通讯社', 'Sputnik', '今日俄罗斯', 'RT',
+        '每日晨报', '阿纳多卢', 'Daily Sabah', 'AA'
     ];
-    // 国内主流媒体 - 二级
+    // 国内商业媒体 (tier3_domestic)
     const domesticSources = [
-        '网易', '腾讯', '澎湃新闻', '搜狐', '新浪', '凤凰网', '观察者网', '中华网', '企鹅号',
-        'NetEase', 'Tencent', 'Sohu', 'Sina', 'Phoenix', 'guancha', 'Yahoo', 'KPTV'
+        '腾讯新闻', '新浪新闻', '搜狐新闻', '网易新闻', '澎湃新闻', '观察者网', '财新网', '界面新闻',
+        'Tencent', 'Sina', 'Sohu', 'NetEase', 'The Paper', 'guancha', 'Caixin', 'Jiemian'
     ];
 
     if (officialSources.some(s => sourceName.includes(s))) return 'tier-official';
     if (intlSources.some(s => sourceName.includes(s))) return 'tier-intl';
-    if (biasedSources.some(s => sourceName.includes(s))) return 'tier-domestic';  // 有倾向的降为二级
+    if (biasedSources.some(s => sourceName.includes(s))) return 'tier-domestic';
     if (domesticSources.some(s => sourceName.includes(s))) return 'tier-domestic';
     return 'tier-other';
 }
@@ -236,12 +243,12 @@ function updateDashboard(dashboardData, eventsData = null) {
     // 字段映射：dashboard.json字段 -> HTML元素ID
     const fieldMap = {
         'warDays': 'warDays',
-        'missileWaves': 'eventCount',
-        'iranDeaths': 'casualtyCount',
-        'israelDeaths': 'israelCasualty',
-        'usDeaths': 'usCasualty',
-        'displaced': 'iranCasualty',
-        'childCasualties': 'childCasualty'
+        'missileWaves': 'missileWaves',
+        'iranDeaths': 'iranDeaths',
+        'israelDeaths': 'israelDeaths',
+        'usDeaths': 'usDeaths',
+        'displaced': 'displaced',
+        'childCasualties': 'childCasualties'
     };
 
     // Modal 元素映射：dashboard.json字段 -> Modal元素ID
@@ -314,7 +321,7 @@ function updateDashboard(dashboardData, eventsData = null) {
         const firstEvent = eventsData?.events?.[eventsData.events.length - 1];
         const lastEvent = eventsData?.events?.[0];
         if (firstEvent && lastEvent) {
-            subtitleEl.textContent = `2026年2月28日 - ${lastEvent.date_label} · 第${dashboardData.warDays}天 · 伊朗第${dashboardData.iranMissileWaves || dashboardData.missileWaves}导弹袭击`;
+            subtitleEl.textContent = `2026年2月28日 - ${lastEvent.date_label} · 第${dashboardData.warDays}天 · 伊朗第${dashboardData.missileWaves}导弹袭击`;
         }
     }
 
