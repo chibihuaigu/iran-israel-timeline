@@ -1,10 +1,10 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-04-17 22:27",
+  "lastUpdated": "2026-05-18 00:38",
   "description": "统计数据来源追踪文件，记录每个统计字段的数据来源和可信度",
   "fields": {
     "warDays": {
-      "value": 37,
+      "value": 49,
       "calculated_from": "events.json中max(date_id) + 1",
       "confidence": "high",
       "note": "完全自动化计算，d36表示第37天",
@@ -16,22 +16,10 @@
         }
       ]
     },
-    "iranMissileWaves": {
-      "value": "94+",
-      "calculated_from": "新闻中'第XX轮'格式识别",
-      "confidence": "high",
-      "note": "识别'真实承诺-4行动第XX轮'格式",
-      "sources": [
-        {
-          "type": "自动识别",
-          "max_round": 86,
-          "date": "2026-04-06"
-        }
-      ]
-    },
     "iranDeaths": {
       "value": "120+",
       "confidence": "low",
+      "caliber": "伊朗境内军事人员+平民合计，不含黎巴嫩/叙利亚代理人武装",
       "hasDispute": true,
       "disputeDetails": "不同来源数字: [120, 100, 50, 4, 1]",
       "sources": [
@@ -69,20 +57,30 @@
       "lastUpdated": "2026-04-13"
     },
     "israelDeaths": {
-      "value": "16+",
-      "confidence": "medium",
+      "value": "3+",
+      "confidence": "low",
+      "hasDispute": true,
+      "disputeDetails": "不同来源数字: [3, 1]",
       "sources": [
         {
-          "value": "15+",
-          "source": "企鹅号",
-          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_53169d1b8f515252",
-          "date": "2026-03-26"
+          "value": 1,
+          "source": "新华社",
+          "url": "https://www.news.cn/world/20260419/cb852a73b5644b598d435e028ccb9b1f/c.html",
+          "text": "以军1名士兵在黎巴嫩南部阵亡、9人受伤 以色列国防军声明，1名士兵在黎巴嫩南部作战时死亡，另有9名士兵受伤"
+        },
+        {
+          "value": 3,
+          "source": "中国西藏网",
+          "url": "http://tibet.cn/cn/gjfy/202604/t20260424_7965437.html",
+          "text": "以色列空袭黎巴嫩南部致3人死亡 黎巴嫩公共卫生部称以军空袭黎南部造成3人死亡"
         }
-      ]
+      ],
+      "lastUpdated": "2026-05-18"
     },
     "usDeaths": {
       "value": "14",
       "confidence": "high",
+      "caliber": "驻中东美军在冲突中死亡人数（含基地袭击）",
       "sources": [
         {
           "value": "13",
@@ -99,9 +97,10 @@
         }
       ]
     },
-    "middleEastDisplaced": {
+    "displaced": {
       "value": "420万+",
       "confidence": "medium",
+      "caliber": "中东地区（伊朗、黎巴嫩、阿富汗、巴基斯坦）累计流离失所人数",
       "sources": [
         {
           "value": "410万+",
@@ -114,6 +113,7 @@
     "childCasualties": {
       "value": "2100+",
       "confidence": "medium",
+      "caliber": "冲突中儿童（18岁以下）死亡+受伤合计",
       "sources": [
         {
           "value": "2100+",
@@ -132,7 +132,7 @@
         {
           "type": "自动识别",
           "max_round": 86,
-          "date": "2026-04-17"
+          "date": "2026-05-18"
         }
       ]
     }
