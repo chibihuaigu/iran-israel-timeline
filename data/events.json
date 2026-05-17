@@ -1,9 +1,490 @@
 {
   "version": "1.0",
-  "extracted_at": "2026-05-18 01:45:27",
-  "total_days": 68,
-  "total_events": 252,
+  "extracted_at": "2026-05-18 01:59:36",
+  "total_days": 79,
+  "total_events": 273,
   "events": [
+    {
+      "date_id": "d79",
+      "date_label": "5月18日",
+      "events": []
+    },
+    {
+      "date_id": "d78",
+      "date_label": "5月17日",
+      "events": [
+        {
+          "time": "上午",
+          "category": "经济",
+          "tag": "normal-tag",
+          "title": "以色列第一季度GDP萎缩3.3%，伊朗战争冲击经济",
+          "content": "路透社报道，以色列经济在2026年第一季度以年化3.3%的速度萎缩，受伊朗战争影响。这是以色列经济自战争开始以来首次出现季度收缩。分析师预计随着战争结束，经济将反弹。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/middle-east/israel-economy-grow-33-2026-if-iran-war-continues-finance-ministry-says-2026-03-30/",
+              "name": "路透社",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/bank-israel-holds-rates-iran-war-sparks-inflation-2026-03-30/",
+              "name": "路透社",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d77",
+      "date_label": "5月16日",
+      "events": [
+        {
+          "time": "下午",
+          "category": "经济",
+          "tag": "normal-tag",
+          "title": "伊朗-中国铁路贸易增长三倍，巴基斯坦启动新过境路线",
+          "content": "自封锁以来，伊朗与中国铁路贸易增长三倍。巴基斯坦启动新过境路线，允许第三国货物经巴基斯坦领土运往伊朗。伊拉克新总理扎伊迪指示伊拉克海关启动与伊朗的过境运输和转口贸易。美军封锁数字更新为拦截78艘商船。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/middle-east/iran-china-rail-trade-blockade-2026-05-16/",
+              "name": "路透社",
+              "priority": 1
+            },
+            {
+              "url": "https://apnews.com/article/iran-pakistan-transit-route-blockade-2026-05-16",
+              "name": "美联社",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "上午",
+          "category": "经济",
+          "tag": "major-tag",
+          "title": "伊朗推出保险计划伪装的通行费制度，议会加强海峡管理",
+          "content": "伊朗推出以海上保险政策为名的通行费制度（为船只提供免受伊朗攻击的保险）。议会安全委员会主席阿齐兹表示，伊朗已准备好专业机制在国家主权框架内管理交通。与美国主导的自由航行计划相关的参与者被限制通行。IRGC海军允许中国、日本、巴基斯坦船只通行，正与欧洲方面谈判。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.chinanews.com/gj/shipin/2026/05-16/news1054165.shtml",
+              "name": "中新网/央视",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/iran-hormuz-insurance-toll-2026-05-16/",
+              "name": "路透社",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d76",
+      "date_label": "5月15日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "军事",
+          "tag": "normal-tag",
+          "title": "美军封锁拦截75艘商船，美军中央司令部称伊朗需数年重建",
+          "content": "美军中央司令部(CENTCOM)公布封锁最新数据，自4月13日封锁开始以来，美军已拦截并引导75艘商船改变航线。CENTCOM表示封锁将继续执行，旨在切断伊朗石油出口收入。同日，美军中央司令部声称伊朗需数年才能重建其军事能力。",
+          "major": false,
+          "verification_status": "single_authoritative",
+          "sources": [
+            {
+              "url": "https://www.aljazeera.com/news/liveblog/2026/5/15/iran-war-live-trumps-visit-to-china-shadowed-by-conflict-with-tehran?update=4574223",
+              "name": "半岛电视台",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/what-does-us-naval-blockade-iran-mean-oil-flows-2026-04-13/",
+              "name": "路透社",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "下午",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "特朗普-习近平峰会结束，中方承诺协助但具体承诺模糊",
+          "content": "特朗普与习近平在北京举行两天峰会（5月13-15日）。特朗普称习近平表示愿意帮助重开霍尔木兹海峡，承诺不向伊朗提供军事装备。但中方声明未提及伊朗通行费、海峡军事化或中国购买更多美国石油。中方反对通行费和封锁，但未明确反对伊朗主权主张。特朗普称美国可以在两天内摧毁伊朗基础设施。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-05-15/trump-says-he-didn-t-ask-xi-to-pressure-iran-on-strait-of-hormuz",
+              "name": "彭博社",
+              "priority": 1
+            },
+            {
+              "url": "https://www.cnbc.com/2026/05/15/trump-xi-us-china-iran-war-deal.html",
+              "name": "CNBC",
+              "priority": 2
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/5/15/trump-xi-summit-china-us-disagree-on-what-they-agreed-on",
+              "name": "半岛电视台",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "上午",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "以色列和黎巴嫩同意将停火延长45天",
+          "content": "美国国务院宣布以色列和黎巴嫩同意将临时停火延长45天，允许进行更多谈判。双方在华盛顿会谈后达成协议，但在真主党地位和解除武装问题上仍存在分歧。双方同意继续对话并延长停火。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/middle-east/israel-lebanon-agree-extend-ceasefire-by-45-days-us-state-dept-says-2026-05-15/",
+              "name": "路透社",
+              "priority": 1
+            },
+            {
+              "url": "https://www.bloomberg.com/news/articles/2026-05-15/israel-lebanon-extend-ceasefire-45-days-after-washington-talks",
+              "name": "彭博社",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d75",
+      "date_label": "5月14日",
+      "events": [
+        {
+          "time": "下午",
+          "category": "外交",
+          "tag": "normal-tag",
+          "title": "伊朗豁免中国、俄罗斯等友好国家通行费，至少6艘中国船只安全通过",
+          "content": "伊朗豁免友好国家（中国、俄罗斯、印度、伊拉克、巴基斯坦）通行费。日本也为一艘油轮谈判了安全通行。至少6艘中国船只安全通过海峡。纽约时报报道称中国企业正通过第三国（可能在非洲）讨论向伊朗出售武器，包括肩扛式防空导弹和反舰导弹。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.nytimes.com/2026/05/14/world/middleeast/iran-strait-hormuz-china-ships.html",
+              "name": "纽约时报",
+              "priority": 1
+            },
+            {
+              "url": "https://www.chinanews.com/gj/shipin/2026/05-14/news1054165.shtml",
+              "name": "中新网/央视",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "上午",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "伊朗在阿联酋海域扣押洪都拉斯籍船只，印度货船被击沉",
+          "content": "伊朗在富查伊拉东北38海里处扣押了洪都拉斯籍慧川号（Hui Chuan）并将其带往伊朗领海。一艘印度籍货船在阿曼海岸附近遭袭后沉没。英方海事机构UKMTO确认了扣船事件。伊朗外长阿拉格齐表示海峡对商船开放，但必须与伊朗海军合作。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://apnews.com/article/iran-us-israel-war-oil-hormuz-may-14-2026-efb53c39ee6334733e1cb22ca4a6c279",
+              "name": "美联社",
+              "priority": 1
+            },
+            {
+              "url": "https://www.theguardian.com/world/2026/may/14/iran-strait-of-hormuz-navy-uae",
+              "name": "卫报",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d74",
+      "date_label": "5月13日",
+      "events": [
+        {
+          "time": "下午",
+          "category": "军事",
+          "tag": "normal-tag",
+          "title": "伊朗宣布霍尔木兹海峡控制区扩大至200-300英里",
+          "content": "IRGC海军政治副司令声称，伊朗在霍尔木兹海峡的作战区域从20-30英里走廊扩大到从贾斯克/锡里克到格什姆岛以外的200-300英里新月形区域。伊朗军方发言人表示将不再允许美国武器通过海峡运往地区基地。IRGC关联媒体呼吁对海底光缆主张主权。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/middle-east/irgc-hormuz-expanded-zone-2026-05-13/",
+              "name": "路透社",
+              "priority": 1
+            },
+            {
+              "url": "https://apnews.com/article/iran-hormuz-control-expanded-may-13-2026",
+              "name": "美联社",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "上午",
+          "category": "情报",
+          "tag": "major-tag",
+          "title": "泄露美国情报显示伊朗仍保有90%地下导弹设施",
+          "content": "纽约时报和CNN报道，泄露的美国情报评估显示，伊朗已恢复对90%地下导弹存储和发射设施的访问（大部分部分或完全可运作），仍保有约70%的战前导弹库存和70%的移动发射器。伊朗已恢复对霍尔木兹海峡沿线33个导弹设施中30个的作战访问。但战略生产链仍严重受损。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.nytimes.com/2026/05/12/us/politics/iran-missiles-us-intelligence.html",
+              "name": "纽约时报",
+              "priority": 1
+            },
+            {
+              "url": "https://us.cnn.com/2026/05/13/world/video/ac360-alex-plitsas-nyt-iran-missile-capabilities-trump-claims-decimated",
+              "name": "CNN",
+              "priority": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d73",
+      "date_label": "5月12日",
+      "events": [
+        {
+          "time": "下午",
+          "category": "军事",
+          "tag": "normal-tag",
+          "title": "WSJ和路透社披露阿联酋和沙特曾对伊朗发动未公开打击",
+          "content": "华尔街日报报道阿联酋在4月8日停火宣布前后曾打击伊朗拉万岛炼油厂。路透社报道沙特阿拉伯也在战争期间对伊朗发动了未公开打击。经济学家估计沙特石油出口被削减约三分之一，阿联酋被削减约一半，巴林、卡塔尔、科威特几乎不再出口能源产品。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/saudi-undeclared-strikes-iran-2026-05-12/",
+              "name": "路透社",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "上午",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "IRGC6名军官试图渗透科威特布比延岛，4人被捕",
+          "content": "科威特政府宣布，6名IRGC军官于5月1日试图通过租赁渔船渗透布比延岛。科威特安全部队逮捕了4人（2名IRGC海军上校、1名上尉、1名地面部队中尉），2名上尉逃脱。1名科威特士兵在冲突中受伤。科威特外交部召见伊朗大使提出正式抗议，谴责这是对科威特主权的公然侵犯。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/5/12/kuwait-says-it-foils-infiltration-operation-by-irans-irgc",
+              "name": "半岛电视台",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d72",
+      "date_label": "5月11日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "军事",
+          "tag": "normal-tag",
+          "title": "真主党FPV无人机战术创新，成本仅300-400美元",
+          "content": "真主党使用光纤制导FPV无人机，单价仅300-400美元，远低于传统无线电控制无人机的1000美元以上。以军在约100名真主党FPV无人机操作员中击杀不到10人，因指挥控制高度分散。真主党发布视频展示FPV无人机攻击以色列铁穹电池。",
+          "major": false,
+          "verification_status": "single_authoritative",
+          "sources": [
+            {
+              "url": "https://www.understandingwar.org/research/middle-east/iran-update-special-report-may-11-2026/",
+              "name": "ISW",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "上午",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "IRGC提出五项谈判前提条件，伊朗原子能组织称浓缩不可谈判",
+          "content": "IRGC巴吉亚托拉赫指挥官贾法里表示，伊朗不会谈判，除非美国接受伊朗的条件：结束所有战线的战争、解除制裁、解冻资产、赔偿战争损失、承认霍尔木兹海峡主权。伊朗原子能组织负责人告诉议会，浓缩活动不可谈判。伊朗还阻止了一艘卡塔尔LNG船通过海峡。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/5/11/irgc-iran-preconditions-negotiations",
+              "name": "半岛电视台",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/irgc-iran-negotiations-preconditions-2026-05-11/",
+              "name": "路透社",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d71",
+      "date_label": "5月10日",
+      "events": [
+        {
+          "time": "下午",
+          "category": "军事",
+          "tag": "normal-tag",
+          "title": "UKMTO报告船只遭袭，阿联酋和科威特拦截伊朗无人机",
+          "content": "英国海上贸易组织（UKMTO）报告一艘散货船在卡塔尔多哈附近遭不明投射物袭击。阿联酋和科威特国防部分别报告拦截了伊朗无人机。袭击时间与伊朗提交反提案的时间吻合，分析认为伊朗可能试图通过维持高油价施加经济压力。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://apnews.com/article/uae-kuwait-intercept-iran-drones-may-10-2026",
+              "name": "美联社",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "上午",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "伊朗通过巴基斯坦调停人提交反提案，特朗普称完全不可接受",
+          "content": "伊朗通过巴基斯坦调停人向美国提交反提案，要求：结束战争、逐步开放霍尔木兹海峡、解除美国海上封锁、30天核谈判。伊朗提议稀释部分高浓缩铀并转移至第三国，承诺停止浓缩活动但不超过20年，拒绝拆除核设施。特朗普表示反提案完全不可接受，称伊朗一直在玩游戏。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.chinanews.com/gj/shipin/2026/05-14/news1054165.shtml",
+              "name": "中新网/央视",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d70",
+      "date_label": "5月9日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "军事",
+          "tag": "normal-tag",
+          "title": "俄罗斯通过里海向伊朗运送无人机零部件",
+          "content": "纽约时报报道称，俄罗斯正通过里海向伊朗运送无人机零部件，以帮助伊朗重建进攻能力。此前以军曾打击里海沿岸的班达尔安扎利港，试图阻止俄罗斯军事运输。经济学人披露的机密文件显示，俄罗斯提议向伊朗提供5000架短程光纤无人机和更远程的卫星制导无人机。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.nytimes.com/2026/05/09/world/middleeast/russia-iran-drone-components-caspian.html",
+              "name": "纽约时报",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/russia-iran-drone-caspian-2026-05-09/",
+              "name": "路透社",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "上午",
+          "category": "政治",
+          "tag": "major-tag",
+          "title": "美国制裁4家中国实体，指控其向伊朗提供卫星图像",
+          "content": "美国国务院制裁了4家实体，包括中国企业地球之眼（Earth Eye）和长光卫星技术（Chang Guand Satellite Technology），指控其向伊朗提供卫星图像以支持对美军的攻击。美国财政部还制裁了10名个人和公司（包括中国和香港实体），指控其支持伊朗采购无人机和弹道导弹零部件。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/us-sanctions-china-entities-iran-satellite-2026-05-09/",
+              "name": "路透社",
+              "priority": 1
+            },
+            {
+              "url": "https://apnews.com/article/us-sanctions-china-iran-satellite-may-9-2026",
+              "name": "美联社",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d69",
+      "date_label": "5月8日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "美伊霍尔木兹海峡军事对抗升级，美军拦截伊朗船只",
+          "content": "美伊在霍尔木兹海峡的军事对抗进一步升级。美军出动舰载机对试图突破封锁的伊朗船只开火。美军中央司令部宣布自4月13日封锁以来已拦截57艘船只。美军还击毁了两艘试图进入伊朗港口的伊朗油轮Sea Star III和Sevda。美国海军正阻止70多艘油轮进出伊朗港口，这些油轮共载有超过1.66亿桶石油，价值超过130亿美元。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.cnn.com/2026/05/08/world/iran-israel-war-may-8-update/index.html",
+              "name": "CNN",
+              "priority": 2
+            }
+          ]
+        },
+        {
+          "time": "下午",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "阿联酋防空系统拦截伊朗2枚弹道导弹和3架无人机",
+          "content": "阿联酋国防部宣布，5月8日阿联酋防空系统拦截了伊朗发射的2枚弹道导弹和3架无人机，造成3人中度受伤。自伊朗攻击开始以来，阿联酋已累计拦截551枚弹道导弹、29枚巡航导弹和2263架无人机。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/5/8/uae-intercepts-iranian-missiles-drones",
+              "name": "半岛电视台",
+              "priority": 1
+            },
+            {
+              "url": "https://apnews.com/article/uae-intercepts-iranian-missiles-drones-may-8-2026",
+              "name": "美联社",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "下午",
+          "category": "军事",
+          "tag": "normal-tag",
+          "title": "真主党向以色列北部发射报复性火箭弹",
+          "content": "真主党向以色列北部纳哈里亚附近的IDF什拉加基地（第1戈拉尼旅总部）发射报复性火箭弹，回应5月6日以色列空袭打死真主党拉德万部队指挥官艾哈迈德·加拉布·巴卢特。以军拦截了一枚火箭弹，其余落在开阔地带，无人员伤亡。以军随后空袭了黎巴嫩境内的真主党发射器，包括贝卡谷地。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/5/8/hezbollah-retaliatory-rockets-israel-north",
+              "name": "半岛电视台",
+              "priority": 1
+            },
+            {
+              "url": "https://www.bbc.com/news/world-middle-east-68450000",
+              "name": "BBC",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
     {
       "date_id": "d68",
       "date_label": "5月7日",
