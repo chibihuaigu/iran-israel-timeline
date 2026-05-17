@@ -243,23 +243,23 @@ function updateDashboard(dashboardData, eventsData = null) {
     // 字段映射：dashboard.json字段 -> HTML元素ID
     const fieldMap = {
         'warDays': 'warDays',
-        'missileWaves': 'missileWaves',
         'iranDeaths': 'iranDeaths',
         'israelDeaths': 'israelDeaths',
+        'lebanonDeaths': 'lebanonDeaths',
         'usDeaths': 'usDeaths',
         'displaced': 'displaced',
-        'childCasualties': 'childCasualties'
+        'iranInjured': 'iranInjured'
     };
 
     // Modal 元素映射：dashboard.json字段 -> Modal元素ID
     const modalFieldMap = {
         'warDays': 'dataWarDays',
-        'missileWaves': 'dataMissileWaves',
         'iranDeaths': 'dataIranDeaths',
         'israelDeaths': 'dataIsraelDeaths',
+        'lebanonDeaths': 'dataLebanonDeaths',
         'usDeaths': 'dataUsDeaths',
         'displaced': 'dataDisplaced',
-        'childCasualties': 'dataChildren'
+        'iranInjured': 'dataIranInjured'
     };
     
     // 更新 Dashboard 卡片
@@ -321,7 +321,7 @@ function updateDashboard(dashboardData, eventsData = null) {
         const firstEvent = eventsData?.events?.[eventsData.events.length - 1];
         const lastEvent = eventsData?.events?.[0];
         if (firstEvent && lastEvent) {
-            subtitleEl.textContent = `2026年2月28日 - ${lastEvent.date_label} · 第${dashboardData.warDays}天 · 伊朗第${dashboardData.missileWaves}导弹袭击`;
+            subtitleEl.textContent = `2026年2月28日 - ${lastEvent.date_label} · 第${dashboardData.warDays}天`;
         }
     }
 
