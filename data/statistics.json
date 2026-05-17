@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-05-18 02:00",
+  "lastUpdated": "2026-05-18 02:12",
   "description": "统计数据来源追踪文件，记录每个统计字段的数据来源和可信度",
   "fields": {
     "warDays": {
@@ -17,115 +17,99 @@
       ]
     },
     "iranDeaths": {
-      "value": "120+",
-      "confidence": "low",
-      "caliber": "伊朗境内军事人员+平民合计，不含黎巴嫩/叙利亚代理人武装",
+      "value": "3,468+",
+      "confidence": "medium",
+      "caliber": "伊朗境内军事人员+平民合计",
       "hasDispute": true,
-      "disputeDetails": "不同来源数字: [120, 100, 50, 4, 1]",
+      "disputeDetails": "伊朗官方3,468 / HRANA 3,636+ / US/Israel声称6,000+",
       "sources": [
         {
-          "value": 100,
-          "source": "GlobalSecurity/IRNA",
-          "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/04/iran-260401-presstv14.htm",
-          "text": "伊朗发射第89波反击，打击美以目标 伊朗革命卫队发射100多枚重型导弹和攻击无人机，打击美国和以色列目标，包括特拉维夫、海法和巴林的基地。"
+          "value": "3,468",
+          "source": "伊朗官方/Foundation of Martyrs",
+          "date": "2026-05-05"
         },
         {
-          "value": 50,
-          "source": "IDF",
-          "url": "https://www.idf.il/en/mini-sites/iran-israel-war-2026/iran-israel-war-2026-live-updates-1/april-1-2026-iran-israel-war-2026-live-updates/",
-          "text": "以军空袭伊朗境内50处武器生产设施 以军对伊朗中部和西部地区发动大规模空袭，打击弹道导弹发射和存储设施、无人机生产设施和防空系统。"
+          "value": "3,636+",
+          "source": "HRANA独立核实",
+          "date": "2026-05-05"
         },
         {
-          "value": 4,
-          "source": "JNS",
-          "url": "https://www.jns.org/news/israel-news/iranian-missile-hits-near-idf-headquarters-in-tel-aviv",
-          "text": "伊朗集束导弹击中特拉维夫IDF总部附近 伊朗集束炸弹在特拉维夫Kirya军事总部附近爆炸，造成4人轻伤。伊朗集束弹药在以色列中部10个地点爆炸。"
-        },
-        {
-          "value": 1,
-          "source": "ISW",
-          "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-april-4-2026/",
-          "text": "以军打击伊朗西南部石化设施 以军打击伊朗胡齐斯坦省Bandar-e Imam Khomeini的石化设施，称该设施用于生产弹道导弹材料。布什尔核电站附近遭袭，1人死亡。"
-        },
-        {
-          "value": 120,
-          "source": "IDF",
-          "url": "https://www.idf.il/en/mini-sites/iran-israel-war-2026/iran-israel-war-2026-live-updates-1/april-5-2026-iran-israel-war-2026-live-updates/",
-          "text": "以军打击伊朗境内120多个目标 以军在过去一天打击伊朗中西部120多个目标，包括革命卫队弹道导弹阵地、无人机存储和发射阵地、防空阵地。以军称已摧毁真主党1000多名恐怖分子。"
+          "value": "6,000+",
+          "source": "US/Israel声称",
+          "date": "2026-05-05"
         }
       ],
-      "lastUpdated": "2026-04-13"
+      "lastUpdated": "2026-05-18"
     },
     "israelDeaths": {
-      "value": "1+",
+      "value": "47",
       "confidence": "medium",
-      "hasDispute": false,
-      "disputeDetails": null,
       "sources": [
         {
-          "value": 1,
-          "source": "新华社",
-          "url": "https://www.news.cn/world/20260419/cb852a73b5644b598d435e028ccb9b1f/c.html",
-          "text": "以军1名士兵阵亡、9人受伤 以色列国防军声明，1名士兵在黎巴嫩南部作战时死亡"
+          "value": "47",
+          "source": "Wikipedia/Casualties_of_the_2026_Iran_war",
+          "date": "2026-05-12"
         }
       ],
       "lastUpdated": "2026-05-18"
     },
     "usDeaths": {
-      "value": "14",
+      "value": "15",
       "confidence": "high",
-      "caliber": "驻中东美军在冲突中死亡人数（含基地袭击）",
+      "caliber": "驻中东美军在冲突中死亡人数",
       "sources": [
         {
-          "value": "13",
-          "source": "中华网",
-          "url": "https://military.china.com/news/13004177/20260314/49321372_all.html",
-          "date": "2026-03-14",
-          "text": "13名美军死亡、约200人受伤"
-        },
-        {
-          "value": "14",
-          "source": "最新报道",
-          "date": "2026-04-05",
-          "text": "累计14名美军死亡"
+          "value": "15",
+          "source": "Wikipedia/CENTCOM确认",
+          "date": "2026-05-12"
         }
-      ]
+      ],
+      "lastUpdated": "2026-05-18"
     },
     "displaced": {
-      "value": "420万+",
+      "value": "160万+",
       "confidence": "medium",
-      "caliber": "中东地区（伊朗、黎巴嫩、阿富汗、巴基斯坦）累计流离失所人数",
+      "caliber": "黎巴嫩流离失所人数",
       "sources": [
         {
-          "value": "410万+",
-          "source": "联合国难民署",
-          "date": "2026-03-12",
-          "text": "中东地区累计410万人流离失所"
+          "value": "160万+",
+          "source": "联合国/黎巴嫩卫生部",
+          "date": "2026-05-12"
         }
-      ]
+      ],
+      "lastUpdated": "2026-05-18"
     },
     "childCasualties": {
-      "value": "2100+",
-      "confidence": "medium",
-      "caliber": "冲突中儿童（18岁以下）死亡+受伤合计",
+      "value": "300+",
+      "confidence": "low",
+      "caliber": "已知儿童死亡人数（不含受伤）",
+      "hasDispute": true,
+      "disputeDetails": "UNICEF报告伊朗200+黎巴嫩91以色列4科威特1=296; HRANA估计15%为儿童",
       "sources": [
         {
-          "value": "2100+",
-          "source": "联合国儿童基金会",
-          "date": "2026-03-24",
-          "text": "超过2100名儿童在冲突中伤亡"
+          "value": "200",
+          "source": "UNICEF/伊朗红新月",
+          "date": "2026-03-21",
+          "text": "伊朗200名儿童死亡"
+        },
+        {
+          "value": "91",
+          "source": "UNICEF",
+          "date": "2026-03-21",
+          "text": "黎巴嫩91名儿童死亡"
         }
-      ]
+      ],
+      "lastUpdated": "2026-05-18"
     },
     "missileWaves": {
-      "value": "186",
-      "calculated_from": "新闻中'第XX轮'格式识别",
+      "value": "89",
+      "calculated_from": "events.json中'第XX轮'格式识别",
       "confidence": "high",
-      "note": "识别'真实承诺-4行动第XX轮'格式",
+      "note": "最大轮次为第89波（真实承诺-4行动）",
       "sources": [
         {
           "type": "自动识别",
-          "max_round": 86,
+          "max_round": 89,
           "date": "2026-05-18"
         }
       ]
