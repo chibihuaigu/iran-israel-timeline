@@ -1,9 +1,191 @@
 {
   "version": "1.0",
-  "extracted_at": "2026-05-18 01:18:57",
-  "total_days": 57,
-  "total_events": 232,
+  "extracted_at": "2026-05-18 01:27:36",
+  "total_days": 62,
+  "total_events": 242,
   "events": [
+    {
+      "date_id": "d61",
+      "date_label": "4月30日",
+      "events": [
+        {
+          "time": "下午",
+          "category": "军事",
+          "tag": "major",
+          "title": "以色列空袭黎巴嫩南部造成至少28人死亡",
+          "content": "黎巴嫩国家通讯社报道称，以色列对黎巴嫩南部多处地点发动空袭，造成至少28人死亡。黎巴嫩总统约瑟夫·奥恩谴责以色列的\"持续违反\"停火行为，指出尽管有停火协议，以色列仍在拆除房屋和宗教场所。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-april-30-2026/",
+              "name": "ISW",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d60",
+      "date_label": "4月29日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "军事",
+          "tag": "normal",
+          "title": "美国继续维持对伊朗港口封锁，拦截伊朗油轮",
+          "content": "美国中央司令部继续执行对伊朗港口的封锁，拦截试图驶往伊朗港口的受制裁伊朗旗油轮。美国国防部长赫格塞斯重申美国将继续执行封锁。美伊谈判在取消后仍无进展，局势持续僵持。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-april-25-2026/",
+              "name": "ISW",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/pentagon-chief-hegseth-says-iran-has-chance-make-good-deal-2026-04-24/",
+              "name": "路透社",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d58",
+      "date_label": "4月27日",
+      "events": [
+        {
+          "time": "下午",
+          "category": "军事",
+          "tag": "normal",
+          "title": "真主党持续使用FPV无人机袭击黎巴嫩南部以军",
+          "content": "真主党继续在停火期间使用第一人称视角(FPV)无人机对黎巴嫩南部的以色列国防军车辆发动袭击。真主党公布了4月13日和15日的FPV无人机攻击以军车辆的 footage。以色列媒体注意到真主党近几周越来越多地使用FPV无人机。美国继续维持对伊朗港口的封锁。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-april-27-2026/",
+              "name": "ISW",
+              "priority": 1
+            },
+            {
+              "url": "https://www.nytimes.com/2026/04/21/world/middleeast/us-iraq-security-cooperation.html",
+              "name": "纽约时报",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d57",
+      "date_label": "4月26日",
+      "events": [
+        {
+          "time": "下午",
+          "category": "军事",
+          "tag": "normal",
+          "title": "以色列对黎巴嫩南部真主党目标发动空袭",
+          "content": "以色列军队对黎巴嫩南部真主党目标发动空袭。以色列总理内塔尼亚胡此前下令军方\"猛烈攻击\"黎巴嫩真主党目标，尽管此前特朗普表示以黎停火协议已延长三周。真主党继续使用光纤FPV无人机对以军车辆发动攻击。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.theguardian.com/world/live/2026/apr/25/middle-east-crisis-live-witkoff-and-kushner-head-to-pakistan-for-iran-negotiations",
+              "name": "卫报",
+              "priority": 1
+            },
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-april-26-2026/",
+              "name": "ISW",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d56",
+      "date_label": "4月25日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "经济",
+          "tag": "normal",
+          "title": "美国财政部制裁中国恒力石化及40家航运公司",
+          "content": "美国财政部对中国恒力石化炼油有限公司实施制裁，该公司是伊朗最大原油客户之一。财政部还针对40家参与运输伊朗石油的航运公司和船只。此外，美国近期冻结了与伊朗相关的3.44亿美元加密货币。这些措施进一步加大了对伊朗经济的压力。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.cnn.com/2026/04/24/politics/us-freezes-cryptocurrency-iran",
+              "name": "CNN",
+              "priority": 2
+            },
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-april-25-2026/",
+              "name": "ISW",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "下午",
+          "category": "军事",
+          "tag": "normal",
+          "title": "真主党对以色列北部和黎巴嫩南部以军发动小规模袭击",
+          "content": "真主党声称在4月24日和25日分别对黎巴嫩南部的以色列国防军车辆发动了两次无人机袭击。以色列军方报告真主党还向以色列北部城镇发射了两枚火箭弹和两架无人机，落在空旷地区，未造成伤亡。真主党官员称停火协议\"毫无意义\"。ISW评估认为真主党正进行小规模象征性攻击，既展示能力又避免引发大规模报复。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-april-25-2026/",
+              "name": "ISW",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/hezbollah-mp-ceasefire-meaningless-light-israeli-attacks-2026-04-24/",
+              "name": "路透社",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "上午",
+          "category": "外交",
+          "tag": "major",
+          "title": "特朗普取消维特科夫和库什纳赴巴基斯坦谈判计划",
+          "content": "美国总统特朗普突然取消了派遣特使维特科夫和库什纳前往巴基斯坦与伊朗谈判的计划。特朗普在社交媒体上表示，由于伊朗谈判立场未变，18小时的飞行是浪费时间。特朗普称伊朗内部存在\"激烈的内斗和混乱\"，无人知道谁在掌权。但他表示取消行程不意味着将恢复战争。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://apnews.com/article/us-iran-war-hormuz-israel-pakistan-ceasefire-april-25-2026-7e52d208e7b517c615fc178280ca57d0",
+              "name": "美联社",
+              "priority": 1
+            },
+            {
+              "url": "https://www.theguardian.com/world/live/2026/apr/25/middle-east-crisis-live-witkoff-and-kushner-head-to-pakistan-for-iran-negotiations",
+              "name": "卫报",
+              "priority": 1
+            },
+            {
+              "url": "https://www.npr.org/2026/04/25/nx-s1-5799372/iran-middle-east-updates",
+              "name": "NPR",
+              "priority": 1
+            },
+            {
+              "url": "https://www.news.cn/20260425/6f49e8155c304065801c23ecdaf83b93/c.html",
+              "name": "新华网",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
     {
       "date_id": "d55",
       "date_label": "4月24日",
@@ -11,39 +193,107 @@
         {
           "time": "下午",
           "category": "政治",
-          "tag": "",
-          "title": "以色列安全内阁尚未决定解除真主党武装方案",
-          "content": "以色列媒体报道，以色列安全内阁尚未决定是与黎巴嫩政府合作解除真主党武装，还是单方面扩大对真主党的军事行动。解除真主党武装是以色列与黎巴嫩谈判中的核心分歧点。",
-          "major": false,
+          "tag": "major",
+          "title": "伊朗革命卫队司令瓦希迪在内部权力斗争中胜出",
+          "content": "ISW/CTP评估称，伊朗革命卫队(IRGC)司令艾哈迈德·瓦希迪及其核心圈子多次阻止议会议长加利巴夫等\"务实派\"官员推动伊朗采取更灵活谈判立场。瓦希迪似乎已在这场内部权力斗争中胜出，将主导伊朗对谈判和战争采取最大化、不妥协的立场。加利巴夫据报已考虑辞去谈判代表团职务。",
+          "major": true,
+          "verification_status": "verified",
           "sources": [
             {
-              "url": "https://english.alarabiya.net/webtv/media/2026/04/19/israel-says-seeking-disarmament-of-hezbollah-in-lebanon",
-              "name": "Al Arabiya",
-              "priority": 1
-            }
-          ],
-          "verification_status": "single_authoritative"
-        },
-        {
-          "time": "上午",
-          "category": "政治",
-          "tag": "",
-          "title": "真主党议员称停火协议毫无意义",
-          "content": "真主党议员阿里·法亚德称停火协议毫无意义，因为该协议允许以军对真主党迫在眉睫的威胁作出回应。法亚德声称以色列的军事活动赋予真主党进行对等回应的权利。以色列媒体将停火期间以真双方的行动定性为低强度冲突。",
-          "major": false,
-          "sources": [
-            {
-              "url": "https://english.news.cn/20260424/19857fd934024ee297d311d802775a7f/c.html",
-              "name": "新华社",
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-april-24-2026/",
+              "name": "ISW",
               "priority": 1
             },
             {
-              "url": "https://news.cgtn.com/news/2026-04-24/news-1MBEOzao7pm/p.html",
-              "name": "CGTN",
+              "url": "https://www.nytimes.com/live/2026/04/24/world/iran-war-trump-hormuz",
+              "name": "纽约时报",
+              "priority": 1
+            },
+            {
+              "url": "https://www.news.cn/20260424/115eeabad86846718f059d83ca2a2383/c.html",
+              "name": "新华网",
               "priority": 1
             }
-          ],
-          "verification_status": "verified"
+          ]
+        },
+        {
+          "time": "下午",
+          "category": "军事",
+          "tag": "major",
+          "title": "美国防长赫格塞斯警告将击毁任何在海峡布雷的伊朗船只",
+          "content": "美国国防部长皮特·赫格塞斯在五角大楼新闻发布会上警告，特朗普总统已授权美国海军摧毁任何试图在霍尔木兹海峡布雷或干扰航行的伊朗快艇。赫格塞斯表示美国将\"毫不犹豫地射击摧毁\"，并称五角大楼估计清除海峡水雷可能需要长达六个月。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/middle-east/pentagon-chief-hegseth-says-iran-has-chance-make-good-deal-2026-04-24/",
+              "name": "路透社",
+              "priority": 1
+            },
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-april-24-2026/",
+              "name": "ISW",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "下午",
+          "category": "政治",
+          "tag": "normal",
+          "title": "以色列总理内塔尼亚胡披露隐瞒的前列腺癌诊断",
+          "content": "以色列总理本雅明·内塔尼亚胡披露他在伊朗战争期间被诊断出早期前列腺癌并接受了放疗，但选择对公众隐瞒病情。内塔尼亚胡现年76岁，声称隐瞒是因为担心伊朗会利用这一信息。其办公室表示他目前已无癌症。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/4/24/israels-benjamin-netanyahu-says-he-received-treatment-for-prostate-cancer",
+              "name": "半岛电视台",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "下午",
+          "category": "军事",
+          "tag": "normal",
+          "title": "疑似伊朗支持的伊拉克民兵用无人机袭击科威特北部边境",
+          "content": "科威特军方称两架来自伊拉克的无人机袭击了科威特北部边境哨所，未造成人员伤亡。伊拉克总理下令成立调查委员会。ISW评估称这些可能是伊朗支持的伊拉克民兵所为。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/middle-east/kuwait-says-two-drones-iraq-hit-northern-border-posts-no-casualties-2026-04-24/",
+              "name": "路透社",
+              "priority": 1
+            },
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-april-24-2026/",
+              "name": "ISW",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "上午",
+          "category": "外交",
+          "tag": "major",
+          "title": "伊朗外长阿拉格齐抵达巴基斯坦参加第二轮美伊谈判",
+          "content": "伊朗外交部长阿拉格齐抵达巴基斯坦首都伊斯兰堡，与巴方就美伊谈判先决条件进行讨论。议题包括解除对伊朗封锁、释放被扣押船只及船员、确保解除制裁及解冻伊朗被冻结资产。美国特使维特科夫和库什纳将于次日抵达。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.news.cn/20260424/5dc7b26246db407086d2efc68d2b969a/c.html",
+              "name": "新华网",
+              "priority": 1
+            },
+            {
+              "url": "https://www.nytimes.com/live/2026/04/24/world/iran-war-trump-hormuz",
+              "name": "纽约时报",
+              "priority": 1
+            }
+          ]
         }
       ]
     },
