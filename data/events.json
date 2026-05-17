@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "extracted_at": "2026-05-18 00:38:40",
-  "total_days": 56,
-  "total_events": 228,
+  "extracted_at": "2026-05-18 00:48:59",
+  "total_days": 57,
+  "total_events": 232,
   "events": [
     {
       "date_id": "d55",
@@ -17,8 +17,8 @@
           "major": false,
           "sources": [
             {
-              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-april-24-2026/",
-              "name": "ISW",
+              "url": "https://english.alarabiya.net/webtv/media/2026/04/19/israel-says-seeking-disarmament-of-hezbollah-in-lebanon",
+              "name": "Al Arabiya",
               "priority": 1
             }
           ]
@@ -32,8 +32,13 @@
           "major": false,
           "sources": [
             {
-              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-april-24-2026/",
-              "name": "ISW",
+              "url": "https://english.news.cn/20260424/19857fd934024ee297d311d802775a7f/c.html",
+              "name": "新华社",
+              "priority": 1
+            },
+            {
+              "url": "https://news.cgtn.com/news/2026-04-24/news-1MBEOzao7pm/p.html",
+              "name": "CGTN",
               "priority": 1
             }
           ]
@@ -228,13 +233,7 @@
           "title": "以军在宾特朱拜勒与真主党激战",
           "content": "以色列国防军第35伞兵旅旅长称，以军在黎巴嫩南部宾特朱拜勒与真主党进行激烈战斗，目前已全面出击。以军在该市中央区和体育场附近与真主党交火。宾特朱拜勒位于多条主要道路交汇处，具有重要战术意义。",
           "major": false,
-          "sources": [
-            {
-              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-april-21-2026/",
-              "name": "ISW",
-              "priority": 1
-            }
-          ]
+          "sources": []
         }
       ]
     },
@@ -251,8 +250,8 @@
           "major": false,
           "sources": [
             {
-              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-april-20-2026/",
-              "name": "ISW",
+              "url": "https://www.aa.com.tr/en/americas/us-embassy-renews-iraq-travel-warning-urges-citizens-there-to-leave-now/3912158",
+              "name": "Anadolu Agency",
               "priority": 1
             }
           ]
@@ -332,8 +331,18 @@
           "major": false,
           "sources": [
             {
-              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-april-19-2026/",
-              "name": "ISW",
+              "url": "https://www.lemonde.fr/en/international/article/2026/04/19/israel-vows-to-counter-threats-in-lebanon-with-full-force-both-on-the-ground-and-from-the-air_6752599_4.html",
+              "name": "Le Monde",
+              "priority": 1
+            },
+            {
+              "url": "https://english.alarabiya.net/News/middle-east/2026/04/19/israel-says-to-use-full-force-in-lebanon-despite-truce-if-soldiers-face-threat",
+              "name": "Al Arabiya",
+              "priority": 1
+            },
+            {
+              "url": "https://www.timesofisrael.com/liveblog_entry/katz-vows-to-use-full-force-in-lebanon-to-counter-any-threat-to-troops/",
+              "name": "Times of Israel",
               "priority": 1
             }
           ]
@@ -349,6 +358,11 @@
             {
               "url": "https://www.npr.org/2026/04/19/nx-s1-5790378/iran-us-hormuz-closed-impossible",
               "name": "NPR",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/lebanon-seek-ceasefire-extension-us-hosted-talks-with-israel-2026-04-23/",
+              "name": "路透社",
               "priority": 1
             }
           ]
@@ -451,6 +465,11 @@
               "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-april-18-2026/",
               "name": "ISW",
               "priority": 1
+            },
+            {
+              "url": "https://www.jpost.com/middle-east/article-893405",
+              "name": "Jerusalem Post",
+              "priority": 1
             }
           ]
         }
@@ -464,23 +483,43 @@
           "time": "下午",
           "category": "外交",
           "tag": "major-tag",
-          "title": "特朗普宣布伊朗同意移交浓缩铀，美伊接近达成协议",
-          "content": "美国总统特朗普宣布伊朗已同意移交其储存的浓缩铀，为和平谈判铺平道路。特朗普表示美伊非常接近达成和平协议，谈判可能在本周末恢复。伊朗方面据称非常有力地同意不发展核武器。伊朗议会消息人士否认了特朗普的说法。",
+          "title": "特朗普称美伊接近达成协议",
+          "content": "美国总统特朗普在社交媒体上发文称美伊谈判取得进展，暗示伊朗同意移交浓缩铀。据阿克西奥斯新闻网报道，美伊正就一份3页停战谅解备忘录谈判，内容包括美国解冻200亿美元伊朗资金以换取伊朗放弃浓缩铀库存。伊朗议长卡利巴夫称特朗普发布的7项声明均不属实。",
           "major": true,
           "sources": [
             {
-              "url": "https://www.upi.com/Top_News/World-News/2026/04/17/Iran-will-surrender-enriched-uranium/9661776413769/",
-              "name": "UPI",
+              "url": "https://www.xinhuanet.com/20260419/a1a8ad78951f4eedb09c97ac9aad930c/c.html",
+              "name": "新华网",
               "priority": 1
             },
             {
-              "url": "https://fortune.com/2026/04/17/trump-iran-war-peace-end-pretty-soon/",
-              "name": "Fortune",
+              "url": "https://www.cnbc.com/2026/04/17/iran-war-hormuz-strait-israel-lebanon-ceasefire.html",
+              "name": "CNBC",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "上午",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "伊朗外长宣布停火期间对所有商船开放霍尔木兹海峡",
+          "content": "伊朗外交部长阿拉格齐在社交媒体上宣布，鉴于黎巴嫩和以色列达成停火，在停火期间伊朗对所有商船开放霍尔木兹海峡。美国总统特朗普随后确认海峡已完全开放，但同时表示美国将继续对伊朗实施海上封锁。国际油价应声大跌超10%。",
+          "major": true,
+          "sources": [
+            {
+              "url": "https://www.news.cn/world/20260417/819a92047fb74c7abd0d9a5a1499a527/c.html",
+              "name": "新华社",
               "priority": 1
             },
             {
-              "url": "https://apnews.com/live/iran-war-israel-trump-04-17-2026",
-              "name": "AP News",
+              "url": "https://www.cnbc.com/2026/04/17/iran-war-hormuz-strait-israel-lebanon-ceasefire.html",
+              "name": "CNBC",
+              "priority": 1
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/4/17/iran-foreign-minister-says-strait-of-hormuz-completely-open",
+              "name": "半岛电视台",
               "priority": 1
             }
           ]
@@ -488,24 +527,19 @@
         {
           "time": "凌晨",
           "category": "军事",
-          "tag": "ceasefire-tag",
+          "tag": "major-tag",
           "title": "以色列黎巴嫩10天停火协议正式生效",
-          "content": "以色列与黎巴嫩达成的10天停火协议于当地时间午夜正式生效。流离失所的居民开始返回南部家园。黎巴嫩军队警告该地区存在若干违反停火的行为。停火不包括真主党。",
+          "content": "当地时间4月17日零时，为期10天的以色列-黎巴嫩停火协议正式生效。停火由美国斡旋达成，为更广泛的美伊谈判创造条件。",
           "major": true,
           "sources": [
             {
-              "url": "https://www.npr.org/2026/04/17/g-s1-117788/israel-us-iran-middle-east-conflict-updates",
+              "url": "https://www.npr.org/2026/04/08/nx-s1-5781234/iran-war-ceasefire",
               "name": "NPR",
               "priority": 1
             },
             {
-              "url": "https://www.bbc.com/news/articles/c8x7w1w9gd2o",
+              "url": "https://www.bbc.com/news/live/clyeg3224d9t",
               "name": "BBC",
-              "priority": 1
-            },
-            {
-              "url": "https://news.un.org/en/story/2026/04/1167318",
-              "name": "UN News",
               "priority": 1
             }
           ]
@@ -3147,6 +3181,45 @@
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
           ]
+        }
+      ]
+    },
+    {
+      "date_id": "d21",
+      "date_label": "3月21日",
+      "events": [
+        {
+          "time": "下午",
+          "category": "军事",
+          "tag": "",
+          "title": "以军空袭德黑兰发动新一轮打击",
+          "content": "以色列国防军表示对伊朗首都德黑兰发动新一轮空袭。此前一天以军通报过去一周打死3名伊朗高级官员，将继续在世界各地追杀伊朗高级官员。3月21日为伊朗新年诺鲁孜节。",
+          "major": false,
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-march-21-2026/",
+              "name": "ISW",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "上午",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "美以联军空袭伊朗纳坦兹铀浓缩设施",
+          "content": "以色列和美国对伊朗纳坦兹铀浓缩设施发动空袭。纳坦兹是伊朗核计划的核心设施。此前一天特朗普威胁若伊朗不在48小时内开放霍尔木兹海峡将轰炸其发电厂。",
+          "major": true,
+          "sources": []
+        },
+        {
+          "time": "凌晨",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "伊朗革命卫队发动第70波导弹攻击",
+          "content": "伊朗革命卫队发表声明称发动真实承诺-4第70波行动，使用海巴尔谢坎和卡德尔导弹打击以色列海法和特拉维夫地区目标，并使用吉亚姆和伊马德导弹及攻击型无人机协同攻击5个美军基地。",
+          "major": true,
+          "sources": []
         }
       ]
     },
