@@ -4,10 +4,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>伊朗-以色列冲突时间轴 - 方案A：深蓝+暗红</title>
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Expires" content="0">
+    <title>伊朗-以色列冲突时间轴</title>
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
@@ -1063,16 +1060,16 @@
             font-style: italic;
         }
 
-        /* 来源可信度等级样式 - 一级信源用深蓝突出，确保高可见度 */
+        /* 来源可信度等级样式 - 中国官方用红色突出，国际通讯社用深蓝 */
         .source-link.tier-official {
-            background: rgba(30, 58, 95, 0.15) !important;
-            color: #1e3a5f !important;
-            border-left: 3px solid #1e3a5f;
+            background: rgba(180, 40, 40, 0.12) !important;
+            color: #8b1a1a !important;
+            border-left: 3px solid #b42828;
             padding-left: 8px;
             font-weight: 600;
         }
         .source-link.tier-official:hover {
-            background: #1e3a5f !important;
+            background: #b42828 !important;
             color: white !important;
         }
 
@@ -1107,6 +1104,44 @@
         }
         .source-link.tier-other:hover {
             background: #a0aec0 !important;
+            color: white !important;
+        }
+
+        /* 暗黑模式 - 来源等级颜色适配 */
+        [data-theme="dark"] .source-link.tier-official {
+            background: rgba(220, 80, 80, 0.2) !important;
+            color: #f08080 !important;
+            border-left-color: #dc5050;
+        }
+        [data-theme="dark"] .source-link.tier-official:hover {
+            background: #dc5050 !important;
+            color: white !important;
+        }
+        [data-theme="dark"] .source-link.tier-intl {
+            background: rgba(100, 160, 220, 0.2) !important;
+            color: #7ab8e0 !important;
+            border-left-color: #5090c0;
+        }
+        [data-theme="dark"] .source-link.tier-intl:hover {
+            background: #5090c0 !important;
+            color: white !important;
+        }
+        [data-theme="dark"] .source-link.tier-domestic {
+            background: rgba(150, 160, 180, 0.15) !important;
+            color: #a0aec0 !important;
+            border-left-color: #718096;
+        }
+        [data-theme="dark"] .source-link.tier-domestic:hover {
+            background: #718096 !important;
+            color: white !important;
+        }
+        [data-theme="dark"] .source-link.tier-other {
+            background: rgba(130, 140, 160, 0.12) !important;
+            color: #8a94a6 !important;
+            border-left-color: #6b7a8d;
+        }
+        [data-theme="dark"] .source-link.tier-other:hover {
+            background: #6b7a8d !important;
             color: white !important;
         }
 
@@ -3338,12 +3373,12 @@
 function initializeData() {
     // 更新 Dashboard
     document.getElementById('warDays').textContent = conflictData.warDays;
-    document.getElementById('eventCount').textContent = conflictData.events.iranMissileWaves;
-    document.getElementById('casualtyCount').textContent = conflictData.events.iranDeaths;
-    document.getElementById('israelCasualty').textContent = conflictData.events.israelDeaths;
-    document.getElementById('usCasualty').textContent = conflictData.events.usDeaths;
-    document.getElementById('iranCasualty').textContent = conflictData.events.middleEastDisplaced;
-    document.getElementById('childCasualty').textContent = conflictData.events.childCasualties;
+    document.getElementById('missileWaves').textContent = conflictData.events.iranMissileWaves;
+    document.getElementById('iranDeaths').textContent = conflictData.events.iranDeaths;
+    document.getElementById('israelDeaths').textContent = conflictData.events.israelDeaths;
+    document.getElementById('usDeaths').textContent = conflictData.events.usDeaths;
+    document.getElementById('displaced').textContent = conflictData.events.middleEastDisplaced;
+    document.getElementById('childCasualties').textContent = conflictData.events.childCasualties;
 
     // 更新数据统计 Modal
     document.getElementById('dataWarDays').textContent = conflictData.warDays;
@@ -3442,7 +3477,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 </svg>
             </div>
             <h1>伊朗-以色列冲突事件时间轴</h1>
-            <div class="subtitle">2026年2月28日 - 4月12日 · 第43天 · 伊朗第89+波导弹袭击</div>
+            <div class="subtitle">加载中...</div>
             <div class="update-info">
                 <span class="update-time" id="update-time">📅 最后更新：加载中...</span>
                 <span class="update-stats" id="update-stats">📊 已收录 ... 条权威事件</span>
@@ -3472,17 +3507,29 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="stat-sub" id="warDaysSub" style="font-size:11px;color:var(--text-secondary);margin-top:2px;">加载中...</div>
                 </div>
                 <a class="stat-item stat-link" href="https://www.163.com/dy/article/KOVF8G4F05346RC6.html" target="_blank" title="来源：NPR/UN - 伊朗死亡人数统计">
-                    <div class="stat-value" id="casualtyCount">1300+</div>
+                    <div class="stat-value" id="iranDeaths">--</div>
                     <div class="stat-label">伊朗死亡</div>
                 </a>
-                <a class="stat-item stat-link" href="https://so.html5.qq.com/page/real/search_news?docid=70000021_75869c3c41762152" target="_blank" title="来源：Statista - 以色列死亡人数统计">
-                    <div class="stat-value" id="israelCasualty">25</div>
+                <a class="stat-item stat-link" href="https://news.un.org/en/story/2026/03/1167318" target="_blank" title="来源：联合国难民署 - 以色列伤亡统计">
+                    <div class="stat-value" id="israelDeaths">--</div>
                     <div class="stat-label">以色列死亡</div>
                 </a>
-                <a class="stat-item stat-link" href="https://news.cctv.cn/2026/03/14/ARTIoDR6Ih62qxTie7VgeJdm260314.shtml" target="_blank" title="来源：UN IOM - 中东地区流离失所人数">
-                    <div class="stat-value" id="iranCasualty">320万+</div>
+                <a class="stat-item stat-link" href="https://news.cctv.cn/2026/03/14/ARTIoDR6Ih62qxTie7VgeJdm260314.shtml" target="_blank" title="来源：联合国难民署 - 中东地区流离失所人数">
+                    <div class="stat-value" id="displaced">--</div>
                     <div class="stat-label">流离失所</div>
                 </a>
+                <div class="stat-item">
+                    <div class="stat-value" id="missileWaves">--</div>
+                    <div class="stat-label">导弹波次</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" id="usDeaths">--</div>
+                    <div class="stat-label">美军死亡</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" id="childCasualties">--</div>
+                    <div class="stat-label">儿童伤亡</div>
+                </div>
             </div>
 
             <div class="belligerents">
@@ -3742,7 +3789,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <li><strong>伤亡人数：</strong>以UN、NPR、Statista等权威来源为准，"+"表示保守估计</li>
                     <li><strong>导弹波次：</strong>伊朗对以色列发射的导弹攻击波次（来源：ISW）</li>
                     <li><strong>流离失所：</strong>因战争被迫撤离的平民（来源：UN IOM）</li>
-                    <li><strong>停火状态：</strong>4月8日起临时停火，4月12日伊斯兰堡和谈破裂，冲突可能再次升级</li>
+                    <li><strong>停火状态：</strong>4月8日起临时停火，4月12日伊斯兰堡和谈破裂，停火名存实亡</li>
                 </ul>
             </div>
 
