@@ -1,9 +1,255 @@
 {
   "version": "1.0",
-  "extracted_at": "2026-05-18 01:27:36",
-  "total_days": 62,
-  "total_events": 242,
+  "extracted_at": "2026-05-18 01:45:27",
+  "total_days": 68,
+  "total_events": 252,
   "events": [
+    {
+      "date_id": "d68",
+      "date_label": "5月7日",
+      "events": [
+        {
+          "time": "晚上",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "美伊在霍尔木兹海峡爆发直接军事冲突",
+          "content": "美伊在霍尔木兹海峡爆发直接军事冲突。伊朗指控美军率先袭击本国油轮与民用区域，随即动用导弹、无人机反击美军舰艇；美方则称伊朗发起无端袭击，己方仅实施自卫性定点打击。美军中央司令部证实3艘美海军导弹驱逐舰通过海峡时遭伊朗导弹、无人机和小艇袭击。美军对伊朗格什姆港和阿巴斯港发动空袭。冲突造成伊朗沿海部分设施受损，阿联酋港口遇袭。双方均表态无意全面升级战争。国际油价上涨，布伦特原油突破101美元。伊朗外交部发言人表示正在审议美方提案。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.news.cn/world/20260508/167183e19c034e7591313026121cc976/c.html",
+              "name": "新华网",
+              "priority": 1
+            },
+            {
+              "url": "https://www.bbc.com/zhongwen/articles/cq8pkjje11go/simp",
+              "name": "BBC中文",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d66",
+      "date_label": "5月5日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "军事",
+          "tag": "minor-tag",
+          "title": "以军继续对黎巴嫩南部真主党发动密集空袭",
+          "content": "以色列国防军持续对黎巴嫩南部真主党基础设施和战斗人员发动高频率空袭。自5月1日以来以军已对黎巴嫩南部至少120个真主党目标实施打击，这是停火以来单日空袭频率最高的时期之一。真主党使用FPV无人机进行反击。",
+          "major": false,
+          "verification_status": "single_authoritative",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-may-5-2026/",
+              "name": "ISW",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d65",
+      "date_label": "5月4日",
+      "events": [
+        {
+          "time": "下午",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "伊朗攻击阿联酋和阿曼目标 霍尔木兹海峡对峙升级",
+          "content": "伊朗对阿联酋和阿曼发动导弹和无人机攻击。阿联酋国防部通报监测到来自伊朗方向的4枚巡航导弹，其中3枚被拦截。阿联酋富查伊拉石油工业区遭伊朗无人机袭击起火，造成3名印度籍人员受伤，这是4月8日停火以来阿联酋首次遭袭。阿联酋外交部谴责伊朗使用2架无人机袭击阿布扎比国家石油公司旗下船只。阿联酋向迪拜和沙迦市民发布紧急导弹威胁警报。联合国秘书长古特雷斯呼吁各方保持克制。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.news.cn/world/20260505/1230841ab8ff4aceadc9d3e177899c49/c.html",
+              "name": "新华网",
+              "priority": 1
+            },
+            {
+              "url": "https://www.chinanews.com.cn/gj/2026/05-04/10615444.shtml",
+              "name": "中国新闻网",
+              "priority": 1
+            },
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-may-4-2026/",
+              "name": "ISW",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "上午",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "两艘美国旗商船成功通过霍尔木兹海峡",
+          "content": "作为'自由计划'第一步，两艘悬挂美国国旗的商船成功通过霍尔木兹海峡。美军驱逐舰在通过海峡后目前在海湾执行疏导滞留船只任务。伊朗军方声称对美军驱逐舰进行了警告射击，包括发射巡航导弹、火箭弹和无人机，但美军中央司令部否认有舰艇被击中。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.news.cn/world/20260505/1230841ab8ff4aceadc9d3e177899c49/c.html",
+              "name": "新华网",
+              "priority": 1
+            },
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-may-4-2026/",
+              "name": "ISW",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d64",
+      "date_label": "5月3日",
+      "events": [
+        {
+          "time": "上午",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "特朗普宣布启动霍尔木兹海峡船只疏导行动",
+          "content": "美国总统特朗普在社交媒体发文宣布，美国将于中东当地时间5月4日上午在霍尔木兹海峡开始'自由计划'疏导行动，引导被困船只驶离海峡。此举标志着美国试图打破伊朗对海峡的封锁控制。伊朗革命卫队回应称，任何与伊方原则相违背的海上活动将面临严重风险。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.news.cn/world/20260505/1230841ab8ff4aceadc9d3e177899c49/c.html",
+              "name": "新华网",
+              "priority": 1
+            },
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-may-4-2026/",
+              "name": "ISW",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d63",
+      "date_label": "5月2日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "伊朗谈判立场未变 核问题和海峡管控不让步",
+          "content": "伊朗在最新提议中未改变其在霍尔木兹海峡管理和核计划问题上的谈判立场。伊朗高级军事和安全官员对美伊妥协前景表示悲观。伊朗开始减产石油，因储存容量接近上限。真主党发布视频展示其正在国内生产无人机。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-may-2-2026/",
+              "name": "ISW",
+              "priority": 1
+            },
+            {
+              "url": "https://www.news.cn/world/20260505/1230841ab8ff4aceadc9d3e177899c49/c.html",
+              "name": "新华网",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "军事",
+          "tag": "minor-tag",
+          "title": "以军对黎巴嫩南部真主党发动120余次空袭",
+          "content": "以色列国防军在5月1日以来对黎巴嫩南部真主党目标和战斗人员发动了至少120次空袭，这是自停火以来以军在黎巴嫩南部单日空袭频率最高的一次。真主党继续使用FPV无人机袭击以色列在黎巴嫩南部的部队。",
+          "major": false,
+          "verification_status": "single_authoritative",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-may-4-2026/",
+              "name": "ISW",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d62",
+      "date_label": "5月1日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "特朗普称对伊朗最新提议不满意",
+          "content": "美国总统特朗普表示对伊朗通过巴基斯坦调解提交的最新提议'不满意'。伊朗提议要求讨论霍尔木兹海峡通行条件与美国停止攻击和解除封锁同步进行，但将核问题推迟到后续阶段，并排除导弹谈判。特朗普的不满反映了伊朗在核计划和霍尔木兹海峡等关键议题上持续缺乏灵活性。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-may-1-2026/",
+              "name": "ISW",
+              "priority": 1
+            },
+            {
+              "url": "https://www.theguardian.com/world/2026/may/08/us-iran-war-strait-of-hormuz-negotiations-marco-rubio",
+              "name": "卫报",
+              "priority": 1
+            },
+            {
+              "url": "https://apnews.com/article/iran-us-war-ceasefire-negotiations-strait-9317c11e51ba8dfa527b424f931fe04b",
+              "name": "美联社",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "伊朗利用停火重建导弹和无人机能力",
+          "content": "NBC新闻援引美国官员和知情人士报道，伊朗正试图恢复被掩埋在地下或美以空袭废墟下的武器和导弹发射器。伊朗两名高级官员告诉路透社，伊朗已激活防空系统，并计划在遭到攻击时进行'广泛'回应。IRGC关联媒体报道，德黑兰省多地防空系统启动以应对小型无人机和侦察无人机。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-may-1-2026/",
+              "name": "ISW",
+              "priority": 1
+            },
+            {
+              "url": "https://www.news.cn/world/20260508/167183e19c034e7591313026121cc976/c.html",
+              "name": "新华网",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "下午",
+          "category": "经济",
+          "tag": "minor-tag",
+          "title": "美财政部制裁伊朗逃避制裁银行网络",
+          "content": "美国财政部将三个伊朗银行网络及其关联空壳公司列入制裁名单，这些实体每年在伊朗'影子银行'网络中进行数百亿美元贸易。此前4月28日美财政部已制裁35个参与伊朗影子银行网络的实体和个人。美国还冻结了与伊朗相关的3.44亿美元加密货币。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-may-1-2026/",
+              "name": "ISW",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/",
+              "name": "路透社",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
     {
       "date_id": "d61",
       "date_label": "4月30日",
