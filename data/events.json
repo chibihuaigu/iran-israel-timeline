@@ -611,7 +611,8 @@
               "name": "Washington Post",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "time": "下午",
@@ -631,7 +632,8 @@
               "name": "Reuters",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "time": "上午",
@@ -651,7 +653,8 @@
               "name": "Reuters",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -677,7 +680,8 @@
               "name": "AP News",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "time": "全天",
@@ -692,7 +696,8 @@
               "name": "AP News",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "time": "下午",
@@ -707,7 +712,8 @@
               "name": "AP News",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "time": "上午",
@@ -727,7 +733,8 @@
               "name": "Al Jazeera",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "time": "凌晨",
@@ -747,7 +754,8 @@
               "name": "Washington Post",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -773,7 +781,8 @@
               "name": "Reuters",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "time": "全天",
@@ -793,7 +802,8 @@
               "name": "Reuters",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "time": "全天",
@@ -813,7 +823,8 @@
               "name": "The Guardian",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "time": "全天",
@@ -838,7 +849,8 @@
               "name": "TASS",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "time": "全天",
@@ -863,7 +875,8 @@
               "name": "CNBC",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "time": "全天",
@@ -883,7 +896,8 @@
               "name": "Newsweek",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "time": "全天",
@@ -908,7 +922,8 @@
               "name": "France 24",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "time": "全天",
@@ -933,7 +948,8 @@
               "name": "Boston Globe",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "time": "22:00",
@@ -958,7 +974,8 @@
               "name": "CBS News",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -984,7 +1001,8 @@
               "name": "Reuters",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "time": "全天",
@@ -1004,7 +1022,8 @@
               "name": "NY Times",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "time": "全天",
@@ -1024,7 +1043,8 @@
               "name": "Le Monde",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "time": "全天",
@@ -1044,7 +1064,8 @@
               "name": "AP News",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "time": "22:00",
@@ -1064,7 +1085,8 @@
               "name": "Reuters",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -1096,7 +1118,8 @@
               "priority": 1
             }
           ],
-          "needs_verification": false
+          "needs_verification": false,
+          "verification_status": "verified"
         },
         {
           "time": "全天",
@@ -1117,7 +1140,8 @@
               "priority": 1
             }
           ],
-          "needs_verification": true
+          "needs_verification": true,
+          "verification_status": "verified"
         },
         {
           "time": "全天",
@@ -1152,7 +1176,8 @@
               "name": "AP News",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -1178,7 +1203,8 @@
               "name": "PBS News",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -1204,7 +1230,8 @@
               "name": "Foreign Policy",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -1240,7 +1267,8 @@
               "name": "AP News",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -1271,7 +1299,8 @@
               "name": "ABC News",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -1297,7 +1326,8 @@
               "name": "AP News",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -1323,7 +1353,8 @@
               "name": "Anadolu/IRNA",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -1349,7 +1380,8 @@
               "name": "AP News",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "time": "全天",
@@ -1381,7 +1413,8 @@
             }
           ],
           "disputed": true,
-          "dispute_note": "军事成果数字来源单一，无法独立验证"
+          "dispute_note": "军事成果数字来源单一，无法独立验证",
+          "verification_status": "verified"
         }
       ]
     },
@@ -1414,7 +1447,8 @@
             }
           ],
           "disputed": true,
-          "dispute_note": "目标命中情况存在争议，以色列未确认"
+          "dispute_note": "目标命中情况存在争议，以色列未确认",
+          "verification_status": "verified"
         }
       ]
     },
@@ -1452,7 +1486,8 @@
             }
           ],
           "disputed": true,
-          "dispute_note": "70%钢铁产能摧毁为以色列单方面声称"
+          "dispute_note": "70%钢铁产能摧毁为以色列单方面声称",
+          "verification_status": "verified"
         }
       ]
     },
@@ -1488,7 +1523,8 @@
               "name": "Reuters",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -1519,7 +1555,8 @@
               "name": "IDF",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -1546,7 +1583,8 @@
           "quality_issues": [
             "❌ 无来源",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "major": true,
@@ -1572,7 +1610,8 @@
           "quality_issues": [
             "❌ 无来源",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -1598,7 +1637,8 @@
           "quality_issues": [
             "❌ 无来源",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -1629,7 +1669,8 @@
           "quality_issues": [
             "❌ 无来源",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -1655,7 +1696,8 @@
           "quality_issues": [
             "❌ 无来源",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -1681,7 +1723,8 @@
           "quality_issues": [
             "❌ 无来源",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -1712,7 +1755,8 @@
           "quality_issues": [
             "❌ 无来源",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -1744,7 +1788,8 @@
           "quality_issues": [
             "❌ 无来源",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -1770,7 +1815,8 @@
           "quality_issues": [
             "❌ 无来源",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -1791,7 +1837,8 @@
           "quality_issues": [
             "❌ 无来源",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "major": false,
@@ -1817,7 +1864,8 @@
           "quality_issues": [
             "❌ 无来源",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -1848,7 +1896,8 @@
           "quality_issues": [
             "❌ 无来源",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -1874,7 +1923,8 @@
           "quality_issues": [
             "❌ 无来源",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -1900,7 +1950,8 @@
           "quality_issues": [
             "❌ 无来源",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -1931,7 +1982,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -1957,7 +2009,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -1978,7 +2031,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "major": false,
@@ -2004,7 +2058,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -2029,7 +2084,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -2055,7 +2111,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -2081,7 +2138,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -2106,7 +2164,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -2132,7 +2191,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -2157,7 +2217,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -2182,7 +2243,8 @@
             "❌ 来源#1URL问题: 未知域名: https://www.bostonglobe.com/2026/03/27/nation/trump-administration-iran-attacks-updates/",
             "❌ 来源#2URL问题: 未知域名: https://globalnews.ca/news/11748592/iran-israel-tehran-strikes/",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -2207,7 +2269,8 @@
             "❌ 来源#1URL问题: 未知域名: https://globalnews.ca/news/11748592/iran-israel-tehran-strikes/",
             "❌ 来源#2URL问题: 未知域名: https://www.bostonglobe.com/2026/03/27/nation/trump-administration-iran-attacks-updates/",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -2232,7 +2295,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -2257,7 +2321,8 @@
             "❌ 来源#1URL问题: 未知域名: https://abcnews.com/Business/wireStory/israel-launches-new-wave-strikes-iran-sign-diplomatic-131461625",
             "❌ 来源#2URL问题: 未知域名: https://globalnews.ca/news/11748592/iran-israel-tehran-strikes/",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -2282,7 +2347,8 @@
             "❌ 来源#1URL问题: 未知域名: https://www.bostonglobe.com/2026/03/27/nation/trump-administration-iran-attacks-updates/",
             "❌ 来源#2URL问题: 未知域名: https://globalnews.ca/news/11748592/iran-israel-tehran-strikes/",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -2306,7 +2372,8 @@
           "quality_issues": [
             "❌ 来源#2URL问题: 未知域名: https://www.bostonglobe.com/2026/03/27/nation/trump-administration-iran-attacks-updates/",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -2331,7 +2398,8 @@
             "❌ 来源#1URL问题: 未知域名: https://www.bostonglobe.com/2026/03/27/nation/trump-administration-iran-attacks-updates/",
             "❌ 来源#2URL问题: 未知域名: https://www.ctvnews.ca/world/mideast-conflict/article/israel-launches-a-new-wave-of-strikes-on-iran-with-no-sign-of-diplomatic-breakthrough/",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -2366,7 +2434,8 @@
             "❌ 来源#3URL问题: 未知域名: https://www.bostonglobe.com/2026/03/27/nation/trump-administration-iran-attacks-updates/",
             "❌ 来源#4URL问题: 未知域名: https://www.euronews.com/video/2026/03/27/iran-releases-strike-images-from-usisraeli-attacks-as-war-fears-escalate",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -2391,7 +2460,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -2424,7 +2494,8 @@
             "❌ 来源#1URL问题: 未知域名: https://www.israeltoday.co.il/read/despite-cluster-challenge-israel-maintains-high-interception-rate-against-iranian-missiles/",
             "❌ 有效来源不足2个（现有0个）"
           ],
-          "dispute_note": "军事成果声明，独立验证困难"
+          "dispute_note": "军事成果声明，独立验证困难",
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -2450,7 +2521,8 @@
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: https://sputniknews.cn/20260327/1070462308.html",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -2476,7 +2548,8 @@
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: https://c.m.163.com/news/a/KP0NV8G20556FZVC.html",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -2498,7 +2571,8 @@
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1名称无效: '待核实来源'",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "major": true,
@@ -2524,7 +2598,8 @@
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: https://c.m.163.com/news/a/KP09F4IQ05198CJN.html",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -2546,7 +2621,8 @@
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: https://english.news.cn/20260327/3593b9099faa46378051489ed39761d7/c.html",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "major": true,
@@ -2567,7 +2643,8 @@
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: https://www.cctvplus.com/news/20260327/8472106.shtml",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "major": true,
@@ -2588,7 +2665,8 @@
               "name": "Reuters",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -2616,7 +2694,8 @@
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 禁止的域名: 163.com/dy",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "major": true,
@@ -2642,7 +2721,8 @@
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: https://sputniknews.cn/20260326/1070449282.html",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -2664,7 +2744,8 @@
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1名称无效: '待核实来源'",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "major": true,
@@ -2690,7 +2771,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -2716,7 +2798,8 @@
               "name": "Reuters",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -2742,7 +2825,8 @@
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: http://finance.eastmoney.com/a/202603263685828548.html",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -2769,7 +2853,8 @@
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1名称无效: '待核实来源'",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -2803,7 +2888,8 @@
           "needs_verification": false,
           "quality_issues": [
             "❌ 来源#3URL问题: 未知域名: https://sputniknews.cn/20260326/1070449282.html"
-          ]
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -2830,7 +2916,8 @@
           "quality_issues": [
             "❌ 来源#1URL问题: 未知域名: https://sputniknews.cn/20260325/1070423609.html",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "major": true,
@@ -2851,7 +2938,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "major": true,
@@ -2880,7 +2968,8 @@
               "name": "Reuters",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -2906,7 +2995,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -2927,7 +3017,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         }
       ]
     },
@@ -2959,7 +3050,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -2985,7 +3077,8 @@
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: https://c.m.163.com/news/a/KOPB4LG00553BGPW.html",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -3014,7 +3107,8 @@
               "name": "Reuters",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -3036,7 +3130,8 @@
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: https://news.sina.cn/bignews/insight/2026-03-24/detail-inhrzyta1838576.d.html",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "major": false,
@@ -3062,7 +3157,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -3104,7 +3200,8 @@
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: http://www.ahwang.cn/newsflash/2026/0323/2984881.html",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -3130,7 +3227,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -3161,7 +3259,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -3193,7 +3292,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -3218,7 +3318,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -3314,7 +3415,8 @@
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: http://www.ahwang.cn/newsflash/2026/0323/2984881.html",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -3346,7 +3448,8 @@
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: http://www.ahwang.cn/newsflash/2026/0323/2984881.html",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -3372,7 +3475,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         }
       ]
     },
@@ -3403,7 +3507,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -3427,7 +3532,8 @@
           "quality_issues": [
             "❌ 来源#1URL问题: 未知域名: https://finance.sina.cn/2026-03-17/detail-inhrfwqa9552288.d.html",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -3453,7 +3559,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         }
       ]
     },
@@ -3480,7 +3587,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "major": false,
@@ -3506,7 +3614,8 @@
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: https://finance.sina.cn/2026-03-15/detail-inhqzkiw9842293.d.html",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -3527,7 +3636,8 @@
           "quality_issues": [
             "❌ 无来源",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "major": false,
@@ -3549,7 +3659,8 @@
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: https://www.21jingji.com/article/20260314/herald/40960a2f4df41a3dc44b667102578554.html",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         }
       ]
     },
@@ -3581,7 +3692,8 @@
               "name": "Reuters",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -3602,7 +3714,8 @@
           "quality_issues": [
             "❌ 来源#2URL问题: 未知域名: https://www.ungeneva.org/zh/news-media/news/2026/03/116710",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "major": true,
@@ -3636,7 +3749,8 @@
           "quality_issues": [
             "❌ 来源#1URL问题: 未知域名: https://finance.eastmoney.com/a/202603133670575738.html",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -3666,7 +3780,8 @@
           "quality_issues": [
             "❌ 来源#2URL问题: 未知域名: https://www.stheadline.com/zh-hans/realtime-world/3551981",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -3687,7 +3802,8 @@
           "quality_issues": [
             "❌ 来源#1URL问题: 未知域名: https://military.china.com/news/13004177/20260314/49321233.html",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "major": true,
@@ -3708,7 +3824,8 @@
               "name": "新浪新闻",
               "priority": 2
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -3738,7 +3855,8 @@
             "❌ 来源#1URL问题: 未知域名: https://news.un.org/zh/",
             "❌ 来源#2URL问题: 未知域名: https://www.ungeneva.org/zh/news-media/news/2026/03/116710",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -3764,7 +3882,8 @@
               "name": "Reuters",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -3785,7 +3904,8 @@
               "name": "新华社",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -3808,7 +3928,8 @@
             "❌ 来源#2URL问题: 未知域名: https://news.china.com/socialgd/10000169/20260313/49319052.html",
             "❌ 有效来源不足2个（现有0个）"
           ],
-          "dispute_note": "伊朗单方面声称，美方未确认"
+          "dispute_note": "伊朗单方面声称，美方未确认",
+          "verification_status": "single_authoritative"
         },
         {
           "major": true,
@@ -3838,7 +3959,8 @@
           "quality_issues": [
             "❌ 来源#2URL问题: 未知域名: https://www.nbd.com.cn/articles/2026-03-14/4292190.html",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -3867,7 +3989,8 @@
           "quality_issues": [
             "❌ 来源#2URL问题: 未知域名: https://wallstreetcn.com/articles/3767495",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -3888,7 +4011,8 @@
               "name": "Reuters",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -3914,7 +4038,8 @@
           "quality_issues": [
             "❌ 来源#1URL问题: 未知域名: https://finance.sina.cn/2026-03-14/detail-inhqxfkq3553175.d.html",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -3939,7 +4064,8 @@
           "quality_issues": [
             "❌ 来源#2URL问题: 未知域名: https://www.nbd.com.cn/articles/2026-03-14/4292190.html",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -3955,7 +4081,8 @@
               "name": "Reuters",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "single_authoritative"
         }
       ]
     },
@@ -3986,7 +4113,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -4012,7 +4140,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -4033,7 +4162,8 @@
               "name": "Al Jazeera",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -4067,7 +4197,8 @@
           "quality_issues": [
             "❌ 来源#2URL问题: 未知域名: https://news.ifeng.com/",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -4098,7 +4229,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -4118,7 +4250,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "major": false,
@@ -4139,7 +4272,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "major": true,
@@ -4165,7 +4299,8 @@
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: https://www.news.cn/20260312/e7b9c631dcc443dfa0e4d4aa45ea09b2/c.html",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -4186,7 +4321,8 @@
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: https://www.news.cn/20260312/e7b9c631dcc443dfa0e4d4aa45ea09b2/c.html",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "major": false,
@@ -4212,7 +4348,8 @@
           "quality_issues": [
             "❌ 来源#2URL问题: 未知域名: https://www.163.com/",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -4236,7 +4373,8 @@
           "quality_issues": [
             "❌ 来源#2URL问题: 未知域名: https://www.china.com/",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -4258,7 +4396,8 @@
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: https://news.sohu.com/",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "major": true,
@@ -4274,7 +4413,8 @@
               "name": "Reuters",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "major": true,
@@ -4303,7 +4443,8 @@
           "quality_issues": [
             "❌ 来源#2URL问题: 未知域名: https://www.yunnan.cn/",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -4330,7 +4471,8 @@
               "name": "路透社",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -4355,7 +4497,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -4383,7 +4526,8 @@
           "quality_issues": [
             "❌ 来源#3URL问题: 未知域名: https://news.un.org/"
           ],
-          "dispute_note": "伤亡数字来源单一，需第三方验证"
+          "dispute_note": "伤亡数字来源单一，需第三方验证",
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -4404,7 +4548,8 @@
           "quality_issues": [
             "❌ 来源#2URL问题: 未知域名: https://www.sohu.com/",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "major": false,
@@ -4429,7 +4574,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -4451,7 +4597,8 @@
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: https://www.sohu.com/",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "major": true,
@@ -4475,7 +4622,8 @@
               "name": "Al Jazeera",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -4496,7 +4644,8 @@
               "name": "Jerusalem Post",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -4523,7 +4672,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "major": true,
@@ -4549,7 +4699,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -4570,7 +4721,8 @@
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: https://news.un.org/",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "major": false,
@@ -4590,7 +4742,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "major": false,
@@ -4615,7 +4768,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -4636,7 +4790,8 @@
               "name": "人民日报",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -4660,7 +4815,8 @@
           "quality_issues": [
             "❌ 来源#2URL问题: 未知域名: https://www.dayoo.com/",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -4681,7 +4837,8 @@
           "quality_issues": [
             "❌ 来源#2URL问题: 未知域名: https://www.sohu.com/",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         }
       ]
     },
@@ -4711,7 +4868,8 @@
           "quality_issues": [
             "❌ 来源#2URL问题: 未知域名: https://news.un.org/",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -4731,7 +4889,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "major": true,
@@ -4751,7 +4910,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "major": true,
@@ -4780,7 +4940,8 @@
           "quality_issues": [
             "❌ 来源#2URL问题: 未知域名: https://www.guancha.cn/",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -4806,7 +4967,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "major": false,
@@ -4826,7 +4988,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "major": false,
@@ -4846,7 +5009,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "major": false,
@@ -4866,7 +5030,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         }
       ]
     },
@@ -4892,7 +5057,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "major": false,
@@ -4912,7 +5078,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "major": true,
@@ -4938,7 +5105,8 @@
               "name": "Al Jazeera",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -4964,7 +5132,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         }
       ]
     },
@@ -4996,7 +5165,8 @@
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: https://www.news.cn/world/20260306/98f410fe4460429799f195496e541a21/c.html",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -5022,7 +5192,8 @@
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: https://www.news.cn/world/20260306/98f410fe4460429799f195496e541a21/c.html",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -5048,7 +5219,8 @@
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
           ],
-          "dispute_note": "美军未确认，伊朗单方面声称"
+          "dispute_note": "美军未确认，伊朗单方面声称",
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -5068,7 +5240,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         }
       ]
     },
@@ -5094,7 +5267,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "major": false,
@@ -5115,7 +5289,8 @@
               "name": "新华社",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -5142,7 +5317,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "major": false,
@@ -5163,7 +5339,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "major": false,
@@ -5179,7 +5356,8 @@
               "name": "ISW",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "major": false,
@@ -5199,7 +5377,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "major": false,
@@ -5219,7 +5398,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "major": true,
@@ -5239,7 +5419,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         }
       ]
     },
@@ -5271,7 +5452,8 @@
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: https://sputniknews.cn/",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -5291,7 +5473,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "major": true,
@@ -5317,7 +5500,8 @@
               "name": "Al Jazeera",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -5343,7 +5527,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "major": false,
@@ -5369,7 +5554,8 @@
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1URL问题: 未知域名: https://www.infzm.com/",
             "❌ 有效来源不足2个（现有0个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -5398,7 +5584,8 @@
           "quality_issues": [
             "❌ 来源#2URL问题: 未知域名: https://www.news.cn/",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -5423,7 +5610,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -5443,7 +5631,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         }
       ]
     },
@@ -5469,7 +5658,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "single_authoritative"
         },
         {
           "major": false,
@@ -5494,7 +5684,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -5519,7 +5710,8 @@
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -5538,7 +5730,8 @@
               "url": "https://new.qq.com/",
               "name": "腾讯新闻"
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -5564,7 +5757,8 @@
               "name": "Al Jazeera",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -5590,7 +5784,8 @@
               "name": "International Policy",
               "priority": 2
             }
-          ]
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -5617,7 +5812,8 @@
               "name": "Al Jazeera",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "time": "2025年12月-2026年2月",
@@ -5636,7 +5832,8 @@
               "name": "RAND",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "time": "2025年11月",
@@ -5655,7 +5852,8 @@
               "name": "Arms Control Association",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "time": "2025年6月24日",
@@ -5674,7 +5872,8 @@
               "name": "NY Times",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "time": "2025年6月13-24日",
@@ -5693,7 +5892,8 @@
               "name": "NY Times",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "time": "2025年6月13日",
@@ -5712,7 +5912,8 @@
               "name": "Xinhua",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         },
         {
           "time": "2025年6月",
@@ -5731,7 +5932,8 @@
               "name": "CFR",
               "priority": 1
             }
-          ]
+          ],
+          "verification_status": "verified"
         }
       ]
     }
