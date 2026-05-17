@@ -1,14 +1,9 @@
 {
   "version": "1.0",
-  "extracted_at": "2026-05-18 01:59:36",
-  "total_days": 79,
+  "extracted_at": "2026-05-18 02:00:17",
+  "total_days": 78,
   "total_events": 273,
   "events": [
-    {
-      "date_id": "d79",
-      "date_label": "5月18日",
-      "events": []
-    },
     {
       "date_id": "d78",
       "date_label": "5月17日",
