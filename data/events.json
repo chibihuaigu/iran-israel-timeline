@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "extracted_at": "2026-05-18 19:37:38",
+  "extracted_at": "2026-05-18 20:07:56",
   "total_days": 79,
-  "total_events": 276,
+  "total_events": 279,
   "events": [
     {
       "date_id": "d79",
@@ -68,22 +68,101 @@
       "date_label": "5月17日",
       "events": [
         {
+          "time": "下午",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "伊朗/疑似伊朗武装无人机袭击阿联酋巴拉卡核电站",
+          "content": "3架疑似伊朗或伊朗支持的武装无人机从西部方向进入阿联酋领空， targeting the Barakah Nuclear Power Plant in Abu Dhabi. 2架被阿联酋防空系统拦截，第3架击中核电站外围电气发电机区域引发火灾。阿联酋核监管机构确认辐射水平正常，无人员伤亡，反应堆运行未受影响。IAEA总干事表示严重关切。ISW分析指出，伊朗此前曾用无人机从非常规方向接近目标以掩盖责任（如2019年沙特阿布盖格袭击）。IRGC关联媒体试图将袭击归咎于沙特，以离间阿联酋与海湾国家关系。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/5/17/drone-strike-sparks-fire-at-uaes-barakah-nuclear-power-plant",
+              "name": "半岛电视台",
+              "priority": 1
+            },
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-may-17-2026/",
+              "name": "ISW",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "下午",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "美伊谈判僵局：美方提出5项苛刻条件回应伊方提案",
+          "content": "据伊朗法尔斯通讯社5月17日报道，美方在回应伊朗停火提案时提出5项关键条件：(1)美国不支付任何战争赔偿；(2)伊朗将400公斤浓缩铀运交美国；(3)仅允许伊朗保留一处核设施运转；(4)拒绝解冻伊朗被冻结资产；(5)各战线停火须以展开谈判为前提。此前伊朗5月10日通过巴基斯坦提交的提案被特朗普称为完全不可接受。伊朗方面也提出5项建立互信前提：全面停止冲突、解除制裁、解冻资产、赔偿损失、承认伊朗对霍尔木兹海峡的主权。双方立场根本对立。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.ndtv.com/world-news/uranium-transfer-nuclear-limits-us-sets-5-conditions-in-ongoing-iran-negotiations-11507870",
+              "name": "NDTV",
+              "priority": 2
+            },
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-may-17-2026/",
+              "name": "ISW",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "下午",
+          "category": "军事",
+          "tag": "tag",
+          "title": "NYT披露以色列在伊拉克沙漠建两个秘密军事前哨站",
+          "content": "据《纽约时报》5月17日报道，伊拉克官员披露以色列在2024年底在伊拉克西部沙漠建造了两个秘密军事前哨站。其中一个位于安巴尔省Nukhayb附近，曾在2025年6月12天战争中用于空中支援、加油和医疗。以色列在近期对伊作战前曾向该基地部署突击队和搜救队，以便在伊朗击落以军战机时营救飞行员。另一秘密前哨站的位置和状态未公开。两名伊拉克安全官员还透露，美国曾在2025年6月和近期冲突中迫使伊拉克关闭雷达以保护美军飞机。伊朗支持的伊拉克行为体可能利用这些报告向伊拉克政府施压，要求采购先进防空系统。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.nytimes.com/2026/05/17/world/europe/israel-iraq-iran-bases.html",
+              "name": "纽约时报",
+              "priority": 1
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/5/18/israel-built-two-military-bases-in-iraq-before-war-on-iran-nyt",
+              "name": "半岛电视台",
+              "priority": 1
+            }
+          ]
+        },
+        {
           "time": "上午",
-          "category": "经济",
-          "tag": "normal-tag",
-          "title": "以色列第一季度GDP萎缩3.3%，伊朗战争冲击经济",
-          "content": "路透社报道，以色列经济在2026年第一季度以年化3.3%的速度萎缩，受伊朗战争影响。这是以色列经济自战争开始以来首次出现季度收缩。分析师预计随着战争结束，经济将反弹。",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "CENTCOM：美海军封锁已拦截81艘商船、瘫痪4艘",
+          "content": "美国中央司令部(CENTCOM)5月17日宣布，自4月13日对伊朗港口实施海上封锁以来，美军已拦截并改道81艘商用船只，瘫痪4艘。据估算，封锁已阻止约1.66亿桶伊朗石油（价值超130亿美元）进出伊朗港口。这是数十年来美国对伊朗最激进的海上执法行动之一。拦截数量从此前的58艘大幅增至81艘，表明商业航运运营商最初曾试探封锁是否为虚张声势。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://news.cgtn.com/news/2026-05-17/news-1Ne63RlBXAk/p.html",
+              "name": "CGTN",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "上午",
+          "category": "政治",
+          "tag": "tag",
+          "title": "伊朗议长加利巴夫被任命为对华事务特别代表",
+          "content": "据伊朗塔斯尼姆通讯社5月17日报道，经伊朗总统佩泽什基安提名、最高领袖哈梅内伊批准，伊朗议会议长穆罕默德·巴格尔·加利巴夫被任命为伊朗对华事务特别代表，负责协调伊朗与中国关系的各个方面。此举正值特朗普访华之际，此前伊朗宣布允许中国船只通过霍尔木兹海峡。加利巴夫曾作为伊方首席谈判代表于4月11-12日在伊斯兰堡与美国副总统万斯进行美伊最高级别对话。",
           "major": false,
           "verification_status": "verified",
           "sources": [
             {
-              "url": "https://www.reuters.com/world/middle-east/israel-economy-grow-33-2026-if-iran-war-continues-finance-ministry-says-2026-03-30/",
-              "name": "路透社",
+              "url": "https://www.news.cn/world/20260517/e6fa57c5e50b41888f3f098e7e996521/c.html",
+              "name": "新华社",
               "priority": 1
             },
             {
-              "url": "https://www.reuters.com/world/middle-east/bank-israel-holds-rates-iran-war-sparks-inflation-2026-03-30/",
-              "name": "路透社",
+              "url": "https://news.cgtn.com/news/2026-05-17/Iran-appoints-parliament-speaker-as-special-envoy-for-China-affairs-1NdMJacnGOQ/p.html",
+              "name": "CGTN",
               "priority": 1
             }
           ]
@@ -2597,17 +2676,33 @@
       "events": [
         {
           "major": false,
-          "disputed": false,
+          "disputed": true,
           "time": "晚上",
           "tag": "military-tag",
           "category": "军事",
           "title": "以色列面临“七线作战”，兵力濒临崩溃",
-          "content": "随着伊朗主导的地区反美反以联盟“抗拒之弧”陌续参战，以色列面临“七线作战”局面，兵力“不堪重负”。战事导致以军费开支激增，高价値武器消耗巨大，国内反战呼声日益高涨。\n                        \n                            新浪新闻",
+          "content": "以军总参谋长扎米尔向安全内阁警告军队\"面临崩溃\"，反对派领袖拉皮德称预备役军人已进行第六、七轮轮换，\"精疲力竭\"。以军同时在伊朗、黎巴嫩、加沙、叙利亚、约旦河西岸等多条战线作战。Le Monde、Anadolu、Middle East Monitor等均有报道。",
           "sources": [
             {
               "url": "https://www.news.cn/world/20260331/38b5771ae34c407f81670651669100ff/c.html",
               "name": "新华社",
               "priority": 1
+            },
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/world/middle-east/"
+            },
+            {
+              "name": "Le Monde",
+              "url": "https://www.lemonde.fr/en/international/article/2026/03/26/israeli-army-calls-for-more-troops-on-lebanese-front-opposition-warns-shortage-could-trigger-security-disaster_6751845_4.html"
+            },
+            {
+              "name": "Anadolu Agency",
+              "url": "https://www.aa.com.tr/en/middle-east/israel-s-chief-of-staff-warns-of-army-collapse-sparks-political-storm-over-troop-shortages/3885337"
+            },
+            {
+              "name": "Middle East Monitor",
+              "url": "https://www.middleeastmonitor.com/20260327-israel-chief-of-staff-warns-army-nearing-internal-collapse-amid-multi-front-war/"
             }
           ],
           "needs_verification": false,
@@ -2721,12 +2816,17 @@
               "url": "https://world.people.com.cn/n1/2026/0331/c1002-40692186.html",
               "name": "人民网",
               "priority": 1
+            },
+            {
+              "url": "https://www.cnn.com/2026/03/28/middleeast/iran-strait-of-hormuz-toll-intl",
+              "name": "CNN",
+              "priority": 1
+            },
+            {
+              "url": "https://www.aa.com.tr/en/world/iran-says-smart-management-plan-for-strait-of-hormuz-finalized-in-parliament-commission/3936245",
+              "name": "Anadolu Agency",
+              "priority": 1
             }
-          ],
-          "needs_verification": false,
-          "quality_issues": [
-            "❌ 无来源",
-            "❌ 有效来源不足2个（现有0个）"
           ],
           "verification_status": "verified"
         },
@@ -2748,12 +2848,17 @@
               "url": "https://finance.sina.com.cn/roll/2026-03-30/doc-inhsueey6488598.shtml",
               "name": "新浪财经",
               "priority": 2
+            },
+            {
+              "url": "https://www.jpost.com/middle-east/iran-news/article-891351",
+              "name": "Jerusalem Post",
+              "priority": 1
+            },
+            {
+              "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10521/",
+              "name": "UK Parliament",
+              "priority": 2
             }
-          ],
-          "needs_verification": false,
-          "quality_issues": [
-            "❌ 无来源",
-            "❌ 有效来源不足2个（现有0个）"
           ],
           "verification_status": "verified"
         },
@@ -2840,12 +2945,17 @@
               "url": "https://www.sina.cn/news/detail/5282204344911520.html",
               "name": "新浪新闻",
               "priority": 2
+            },
+            {
+              "url": "https://www.theguardian.com/world/2026/mar/26/irgc-naval-commander-killed-in-israeli-strike-was-hardliner-who-understood-power-of-strait-of-hormuz",
+              "name": "The Guardian",
+              "priority": 1
+            },
+            {
+              "url": "https://www.usnews.com/news/world/articles/2026-03-26/us-confirms-death-of-iranian-irgc-naval-commander",
+              "name": "Reuters",
+              "priority": 1
             }
-          ],
-          "needs_verification": false,
-          "quality_issues": [
-            "❌ 无来源",
-            "❌ 有效来源不足2个（现有0个）"
           ],
           "verification_status": "verified"
         },
@@ -2862,6 +2972,14 @@
               "url": "https://www.news.cn/world/20260330/9f3ed09e09c8421bb08ee61c114fa897/c.html",
               "name": "新华社",
               "priority": 1
+            },
+            {
+              "name": "Times of Israel",
+              "url": "https://www.timesofisrael.com/liveblog_entry/idf-strikes-170-targets-in-iran-as-war-enters-completion-phase/"
+            },
+            {
+              "name": "ISW",
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-march-30-2026/"
             }
           ],
           "needs_verification": false,
@@ -2948,12 +3066,17 @@
               "url": "https://finance.sina.com.cn/wm/2026-03-31/doc-inhsvshk2243645.shtml",
               "name": "新浪财经",
               "priority": 2
+            },
+            {
+              "url": "https://www.aa.com.tr/en/middle-east/israeli-parliament-approves-record-2026-defense-budget/3884472",
+              "name": "Anadolu Agency",
+              "priority": 1
+            },
+            {
+              "url": "https://breakingdefense.com/2026/03/israel-approves-45b-defense-budget-as-iran-war-rages/",
+              "name": "Breaking Defense",
+              "priority": 2
             }
-          ],
-          "needs_verification": false,
-          "quality_issues": [
-            "❌ 无来源",
-            "❌ 有效来源不足2个（现有0个）"
           ],
           "verification_status": "verified"
         },
@@ -3561,17 +3684,20 @@
           "time": "全天",
           "tag": "diplomatic-tag",
           "category": "外交",
-          "title": "乌干达宣布与以色列结盟，准备参战打伊朗",
-          "content": "远在非洲的乌干达公开宣布准备与以色列结盟，对伊朗作战。乌干达国家防御人民军总司令穆胡齐·凯纳鲁加巴将军公开发表强硬声明表示，如果针对以色列国家的军事冲突升级，其国家准备直接军事出兵干预。这是首次有非洲国家公开表态介入中东冲突。\n                        \n                        \n                            网易",
+          "title": "乌干达军方领导人社交媒体发文支持以色列，但非官方政策",
+          "content": "乌干达国防军总司令穆胡齐·凯纳鲁加巴在社交媒体发文称“站在以色列一边”，声称一个旅“两周内可攻占德黑兰”。但这些是个人社交媒体言论，非官方声明。其父穆塞维尼总统次日会见伊朗大使讨论合作。耶路撒冷邮报、Fox News等均有报道。",
           "sources": [
             {
-              "url": "https://c.m.163.com/news/a/KP0NV8G20556FZVC.html",
-              "name": "网易"
+              "name": "Jerusalem Post",
+              "url": "https://www.jpost.com/middle-east/iran-news/article-891223"
             },
             {
-              "url": "https://www.reuters.com/world/africa/uganda-supports-israel-iran-2026-03-28/",
-              "name": "Reuters",
-              "priority": 1
+              "name": "Fox News",
+              "url": "https://www.aol.com/articles/ugandan-military-chief-vows-back-153805806.html"
+            },
+            {
+              "name": "Ynetnews",
+              "url": "https://www.ynetnews.com/article/h1ukefqhwl"
             }
           ],
           "needs_verification": false,
@@ -3780,22 +3906,24 @@
         },
         {
           "major": true,
-          "disputed": false,
+          "disputed": true,
           "time": "下午",
           "tag": "major-tag",
           "category": "军事",
-          "title": "伊朗称击落美军F-18战斗机",
-          "content": "伊朗伊斯兰革命卫队发表声明，伊朗防空部队在东南部恰巴哈尔附近领空击落一架美军F-18战斗机，战斗机随后坠毁于印度洋。声明强调，该战斗机被伊朗国产新型防空系统击中，这是近期利用国产武器第四次成功拦截美国和以色列的战机。\n                        \n                        \n                            企鹅号/央广网",
+          "title": "伊朗宣称击落美军F-18战斗机（美方否认）",
+          "content": "伊朗革命卫队宣称在恰巴哈尔附近击落一架美军F-18战斗机。美军中央司令部(CENTCOM)明确否认。事实核查机构Misbar分析视频后发现飞机存活并继续飞行。该说法未获证实。",
           "sources": [
             {
-              "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_74169c47ec148752",
-              "name": "腾讯新闻",
-              "priority": 2
+              "name": "CENTCOM",
+              "url": "https://twitter.com/CENTCOM"
             },
             {
-              "url": "https://www.reuters.com/world/middle-east/iran-claims-shot-down-us-fighter-2026-03-27/",
-              "name": "Reuters",
-              "priority": 1
+              "name": "Misbar",
+              "url": "https://misbar.com"
+            },
+            {
+              "name": "NDTV",
+              "url": "https://www.ndtv.com"
             }
           ],
           "needs_verification": false,
@@ -4391,6 +4519,21 @@
               "url": "https://news.cctv.com/2026/03/21/ARTINhm8OhxUudVUsgqbDkvH260321.shtml",
               "name": "央视网",
               "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/china/iran-says-natanz-nuclear-site-hit-us-israeli-strikes-2026-03-02/",
+              "name": "Reuters",
+              "priority": 1
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/3/21/iran-says-us-and-israel-attacked-natanz-nuclear-facility",
+              "name": "Al Jazeera",
+              "priority": 1
+            },
+            {
+              "url": "https://www.theguardian.com/world/2026/mar/21/iran-hits-israeli-town-housing-nuclear-facility-in-retaliation-for-natanz-strike",
+              "name": "The Guardian",
+              "priority": 1
             }
           ],
           "verification_status": "verified"
@@ -4456,6 +4599,33 @@
       "date_label": "3月19日",
       "events": [
         {
+          "major": true,
+          "disputed": false,
+          "time": "全天",
+          "tag": "major-tag",
+          "category": "重要",
+          "title": "伊朗选出新任最高领袖穆杰塔巴·哈梅内伊",
+          "content": "伊朗专家会议选出哈梅内伊次子穆杰塔巴·哈梅内伊为新一任最高领导人，接替在2月28日美以袭击中遇袭身亡的父亲。新领袖发表首次声明誓言\"永不终结的复仇\"。据报道穆杰塔巴在2月28日袭击中受伤，尚未公开露面。",
+          "sources": [
+            {
+              "url": "https://www.cnn.com/2026/04/21/middleeast/iran-supreme-leader-intl",
+              "name": "CNN",
+              "priority": 1
+            },
+            {
+              "url": "https://apnews.com/article/iran-us-gulf-khamenei-5cbf26dc89ce5e868e414320178f4c1b",
+              "name": "AP News",
+              "priority": 1
+            },
+            {
+              "url": "https://www.nytimes.com/2026/04/23/world/middleeast/iran-new-leadership-generals.html",
+              "name": "New York Times",
+              "priority": 1
+            }
+          ],
+          "verification_status": "verified"
+        },
+        {
           "major": false,
           "disputed": false,
           "time": "全天",
@@ -4474,12 +4644,6 @@
               "priority": 1
             }
           ],
-          "needs_verification": false,
-          "quality_issues": [
-            "⚠️ 只有1个来源（需要≥2个）",
-            "❌ 来源#1URL问题: 未知域名: http://www.ahwang.cn/newsflash/2026/0323/2984881.html",
-            "❌ 有效来源不足2个（现有0个）"
-          ],
           "verification_status": "verified"
         }
       ]
@@ -4495,11 +4659,17 @@
           "tag": "",
           "category": "人道",
           "title": "允许有限人员双向通行 拉法口岸18日起重新开放",
-          "content": "以色列国防部方面15日称，加沙地带拉法口岸定于18日起双向重新开放，允许有限人员双向通行。拉法口岸位于加沙地带南部与埃及交界处，对加沙地带人道主义援助至关重要。2024年5月，以军控制了拉法口岸巴方一侧。以色列与美国2月28日联手对伊朗发起大规模军事行动首日，以方以安全为由关闭拉法口岸。\n                        \n                        \n                            央视新闻",
+          "content": "以色列国防部方面15日称，加沙地带拉法口岸定于18日起双向重新开放，允许有限人员双向通行。拉法口岸位于加沙地带南部与埃及交界处，对加沙地带人道主义援助至关重要。2024年5月，以军控制了拉法口岸巴方一侧。以色列与美国2月28日联手对伊朗发起大规模军事行动首日，以方以安全为由关闭拉法口岸。\n                        \n                        \n                            央视新闻\n                            NBC News",
           "sources": [
             {
               "url": "https://news.cctv.com/2026/03/18/ARTIFASoSVIbmclHxFSYpjt2260318.shtml",
-              "name": "央视新闻"
+              "name": "央视新闻",
+              "priority": 1
+            },
+            {
+              "url": "https://www.nbcnews.com/video/israel-to-reopen-gazas-rafah-border-crossing-on-trial-basis-262039109881",
+              "name": "NBC News",
+              "priority": 1
             }
           ],
           "needs_verification": false,
@@ -4584,14 +4754,19 @@
             {
               "url": "https://news.cctv.com/2026/03/15/ARTIMk6lPKmm5lF3zJZLlJSz260315.shtml",
               "name": "央视新闻"
+            },
+            {
+              "url": "https://www.thedefensenews.com/news-details/Iran-Launches-Solid-Fuel-Sejjil-Ballistic-Missile-in-54th-Wave-of-Strikes-Against-Israel",
+              "name": "The Defense News",
+              "priority": 1
+            },
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-evening-special-report-march-15-2026/",
+              "name": "ISW",
+              "priority": 1
             }
           ],
-          "needs_verification": false,
-          "quality_issues": [
-            "⚠️ 只有1个来源（需要≥2个）",
-            "❌ 有效来源不足2个（现有1个）"
-          ],
-          "verification_status": "single_authoritative"
+          "verification_status": "verified"
         }
       ]
     },
@@ -4612,6 +4787,14 @@
               "url": "https://www.xinhuanet.com/world/20260315/a8acbf88da1a48b499c25af8f65879a9/c.html",
               "name": "新华社",
               "priority": 1
+            },
+            {
+              "name": "Anadolu Agency",
+              "url": "https://www.aa.com.tr/en/middle-east/over-42-000-civilian-structures-damaged-in-us-israeli-airstrikes-on-iran/3864566"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/mar/22/iran-war-timeline-civilians-bear-brunt-of-us-and-israels-month-long-campaign"
             }
           ],
           "needs_verification": false,
@@ -4854,6 +5037,16 @@
               "url": "https://finance.sina.com.cn/jjxw/2026-03-14/doc-inhqxfkq3557264.shtml",
               "name": "新浪新闻",
               "priority": 2
+            },
+            {
+              "url": "https://www.longwarjournal.org/archives/2026/03/israel-conducts-7600-strikes-on-iran-in-13-days-iran-fires-hundreds-of-missiles-and-drones-at-israel.php",
+              "name": "FDD Long War Journal",
+              "priority": 1
+            },
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-march-14-2026/",
+              "name": "ISW",
+              "priority": 1
             }
           ],
           "verification_status": "verified"
@@ -4934,6 +5127,11 @@
               "url": "https://www.xinhuanet.com/world/20260313/dc33835874154e16aa0253334e730dba/c.html",
               "name": "新华社",
               "priority": 1
+            },
+            {
+              "url": "https://www.bbc.com/news/articles/c4g4e6z9960o",
+              "name": "BBC",
+              "priority": 1
             }
           ],
           "verification_status": "verified"
@@ -4984,6 +5182,14 @@
               "url": "https://www.reuters.com/world/middle-east/us-israel-have-struck-15000-targets-iran-pentagon-2026-03-14/",
               "name": "Reuters",
               "priority": 1
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/3/13/us-hegseth-claims-irans-new-supreme-leader-mojtaba-khamenei-injured"
+            },
+            {
+              "name": "ISW",
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-march-14-2026/"
             }
           ],
           "needs_verification": false,
@@ -5269,20 +5475,26 @@
           "time": "全天",
           "tag": "political-tag",
           "category": "政治",
-          "title": "内塔尼亚胡放话",
-          "content": "以色列总理内塔尼亚胡表示，需要多长时间就打击伊朗多久，不寻求\"无休止战争\"。\n                        \n                        \n                            央视新闻",
+          "title": "内塔尼亚胡：需要多长时间就打击伊朗多久",
+          "content": "以色列总理内塔尼亚胡表示，需要多长时间就打击伊朗多久，不寻求\"无休止战争\"。\n                        \n                        \n                            央视新闻\n                            Washington Post\n                            ISW",
           "sources": [
             {
               "url": "https://news.cctv.com/",
-              "name": "央视新闻"
+              "name": "央视新闻",
+              "priority": 1
+            },
+            {
+              "url": "https://www.washingtonpost.com/world/2026/03/16/dubai-airport-drone-strike-iran/",
+              "name": "Washington Post",
+              "priority": 1
+            },
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-morning-special-report-march-12-2026/",
+              "name": "ISW",
+              "priority": 1
             }
           ],
-          "needs_verification": false,
-          "quality_issues": [
-            "⚠️ 只有1个来源（需要≥2个）",
-            "❌ 有效来源不足2个（现有1个）"
-          ],
-          "verification_status": "single_authoritative"
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -5297,14 +5509,14 @@
               "url": "https://www3.xinhuanet.com/",
               "name": "新华社",
               "priority": 1
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/3/12/irans-president-sets-terms-to-end-the-war-is-an-off-ramp-in-sight",
+              "name": "Al Jazeera",
+              "priority": 1
             }
           ],
-          "needs_verification": false,
-          "quality_issues": [
-            "⚠️ 只有1个来源（需要≥2个）",
-            "❌ 有效来源不足2个（现有1个）"
-          ],
-          "verification_status": "single_authoritative"
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -5339,21 +5551,25 @@
           "time": "全天",
           "tag": "",
           "category": "人道",
-          "title": "双方伤亡数据汇总",
+          "title": "截至3月12日双方伤亡数据汇总",
           "content": "伊朗方面：至少585人死亡、1326人受伤，320万人流离失所 | 黎巴嫩方面：3月2日至12日累计634人死亡、1586人受伤 | 美军方面：至少13人死亡，约200人受伤\n                        \n                        \n                            新华网",
           "sources": [
             {
               "url": "https://www.news.cn/20260312/e7b9c631dcc443dfa0e4d4aa45ea09b2/c.html",
               "name": "Xinhua"
+            },
+            {
+              "url": "https://www.npr.org/2026/03/14/nx-s1-5746623/iran-war-cost-deaths",
+              "name": "NPR",
+              "priority": 1
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/3/1/us-israel-attacks-on-iran-death-toll-and-injuries-live-tracker",
+              "name": "Al Jazeera",
+              "priority": 1
             }
           ],
-          "needs_verification": false,
-          "quality_issues": [
-            "⚠️ 只有1个来源（需要≥2个）",
-            "❌ 来源#1URL问题: 未知域名: https://www.news.cn/20260312/e7b9c631dcc443dfa0e4d4aa45ea09b2/c.html",
-            "❌ 有效来源不足2个（现有0个）"
-          ],
-          "verification_status": "single_authoritative"
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -5686,12 +5902,12 @@
       "events": [
         {
           "major": false,
-          "disputed": false,
+          "disputed": true,
           "time": "全天",
           "tag": "diplomatic-tag",
           "category": "外交",
           "title": "普京与特朗普通话提出外交调解方案",
-          "content": "俄罗斯总统普京与美国总统特朗普通电话，提出通过政治外交途径解决冲突，建议多国领导人参与调停沟通。澳大利亚宣布向阿联酋提供预警机和导弹防御支援，但明确不参与对伊朗进攻行动。\n                        \n                        \n                            新华网",
+          "content": "俄罗斯总统普京与美国总统特朗普通电话，提出通过政治外交途径解决冲突，建议多国领导人参与调停沟通。澳大利亚宣布向阿联酋提供预警机和导弹防御支援，但明确不参与对伊朗进攻行动。（注：3月10日通话仅见于新华社报道，西方主流媒体未确认该日期通话。CNN等媒体记录的普京-特朗普伊朗问题通话为4月29日。）\n                        \n                        \n                            新华网",
           "sources": [
             {
               "url": "https://www.xinhuanet.com/20260310/c287a8c2f3fc4d989b6d0381b48ea1f6/c.html",
@@ -5699,12 +5915,7 @@
               "priority": 1
             }
           ],
-          "needs_verification": false,
-          "quality_issues": [
-            "⚠️ 只有1个来源（需要≥2个）",
-            "❌ 有效来源不足2个（现有1个）"
-          ],
-          "verification_status": "single_authoritative"
+          "verification_status": "disputed"
         },
         {
           "major": true,
@@ -5762,19 +5973,20 @@
           "tag": "",
           "category": "军事",
           "title": "以色列帕尔马希姆空军基地遭袭",
-          "content": "位于以色列境内的帕尔马希姆空军基地遭到伊朗导弹袭击。\n                        \n                        \n                            央视新闻",
+          "content": "位于以色列境内的帕尔马希姆空军基地遭到伊朗导弹袭击。（注：Al Jazeera报道伊朗军方于3月12日宣称打击帕尔马希姆和奥夫达空军基地。）\n                        \n                        \n                            央视新闻\n                            Al Jazeera",
           "sources": [
             {
               "url": "https://news.cctv.com/",
-              "name": "央视新闻"
+              "name": "央视新闻",
+              "priority": 1
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/3/12/iran-says-it-targets-israeli-bases-accuses-israel-of-targeting-hospitals",
+              "name": "Al Jazeera",
+              "priority": 1
             }
           ],
-          "needs_verification": false,
-          "quality_issues": [
-            "⚠️ 只有1个来源（需要≥2个）",
-            "❌ 有效来源不足2个（现有1个）"
-          ],
-          "verification_status": "single_authoritative"
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -5895,11 +6107,6 @@
               "name": "UN News"
             }
           ],
-          "needs_verification": false,
-          "quality_issues": [
-            "❌ 来源#2URL问题: 未知域名: https://news.un.org/",
-            "❌ 有效来源不足2个（现有1个）"
-          ],
           "verification_status": "verified"
         },
         {
@@ -5909,19 +6116,20 @@
           "tag": "",
           "category": "军事",
           "title": "海湾国家首次遭袭击",
-          "content": "战火扩大至海湾国家：阿联酋迪拜国际机场遭伊朗无人机袭击，2名加纳籍、1名孟加拉国籍人员受轻伤，1名印度籍受中度伤。两架无人机坠落迪拜机场附近。\n                        \n                        \n                            央视新闻",
+          "content": "战火扩大至海湾国家：阿联酋迪拜国际机场遭伊朗无人机袭击，2名加纳籍、1名孟加拉国籍人员受轻伤，1名印度籍受中度伤。两架无人机坠落迪拜机场附近。\n                        \n                        \n                            央视新闻\n                            CNN",
           "sources": [
             {
               "url": "https://news.cctv.com/",
-              "name": "央视新闻"
+              "name": "央视新闻",
+              "priority": 1
+            },
+            {
+              "url": "https://www.cnn.com/2026/02/28/middleeast/dubai-airport-uae-iran-attacks-intl-hnk",
+              "name": "CNN",
+              "priority": 1
             }
           ],
-          "needs_verification": false,
-          "quality_issues": [
-            "⚠️ 只有1个来源（需要≥2个）",
-            "❌ 有效来源不足2个（现有1个）"
-          ],
-          "verification_status": "single_authoritative"
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -5937,42 +6145,7 @@
               "name": "央视新闻"
             }
           ],
-          "needs_verification": false,
-          "quality_issues": [
-            "⚠️ 只有1个来源（需要≥2个）",
-            "❌ 有效来源不足2个（现有1个）"
-          ],
           "verification_status": "single_authoritative"
-        },
-        {
-          "major": true,
-          "disputed": false,
-          "time": "全天",
-          "tag": "major-tag",
-          "category": "重要",
-          "title": "伊朗选出新任最高领袖",
-          "content": "伊朗选出哈梅内伊次子穆杰塔巴·哈梅内伊为新一任最高领导人，这是伊朗新领袖执政后首次强化对美以反击。伊朗随后对美国和以色列基地发起第29轮攻击。\n                        \n                        \n                            澎湃新闻\n                            观察者网",
-          "sources": [
-            {
-              "url": "https://www.thepaper.cn/",
-              "name": "澎湃新闻"
-            },
-            {
-              "url": "https://www.guancha.cn/",
-              "name": "观察者网"
-            },
-            {
-              "url": "https://www.reuters.com/world/middle-east/iran-appoints-new-supreme-leader-2026-03-09/",
-              "name": "Reuters",
-              "priority": 1
-            }
-          ],
-          "needs_verification": false,
-          "quality_issues": [
-            "❌ 来源#2URL问题: 未知域名: https://www.guancha.cn/",
-            "❌ 有效来源不足2个（现有1个）"
-          ],
-          "verification_status": "verified"
         }
       ]
     },
@@ -5992,6 +6165,10 @@
             {
               "url": "https://news.cctv.com/",
               "name": "央视新闻"
+            },
+            {
+              "name": "ISW",
+              "url": "https://understandingwar.org/research/middle-east/iran-update-evening-special-report-march-8-2026/"
             }
           ],
           "needs_verification": false,
@@ -6013,6 +6190,10 @@
             {
               "url": "https://news.cctv.com/",
               "name": "央视新闻"
+            },
+            {
+              "name": "ISW",
+              "url": "https://understandingwar.org/research/middle-east/iran-update-evening-special-report-march-8-2026/"
             }
           ],
           "needs_verification": false,
@@ -6034,6 +6215,10 @@
             {
               "url": "https://news.cctv.com/",
               "name": "央视新闻"
+            },
+            {
+              "name": "ISW",
+              "url": "https://understandingwar.org/research/middle-east/iran-update-evening-special-report-march-8-2026/"
             }
           ],
           "needs_verification": false,
@@ -6055,6 +6240,10 @@
             {
               "url": "https://news.cctv.com/",
               "name": "央视新闻"
+            },
+            {
+              "name": "ISW",
+              "url": "https://understandingwar.org/research/middle-east/iran-update-evening-special-report-march-8-2026/"
             }
           ],
           "needs_verification": false,
@@ -6077,19 +6266,25 @@
           "tag": "diplomatic-tag",
           "category": "外交",
           "title": "伊朗总统拒绝无条件投降",
-          "content": "伊朗总统佩泽希齐扬发表电视讲话，表示伊朗绝不可能无条件投降，呼吁邻国共同解决分歧，\"不要沦为美国和以色列的傀儡\"。\n                        \n                        \n                            央视新闻\n                            📺 讲话视频",
+          "content": "伊朗总统佩泽希齐扬发表电视讲话，表示伊朗绝不可能无条件投降，呼吁邻国共同解决分歧，\"不要沦为美国和以色列的傀儡\"。\n                        \n                        \n                            央视新闻\n                            NPR\n                            France 24\n                            📺 讲话视频",
           "sources": [
             {
               "url": "https://news.cctv.com/",
-              "name": "央视新闻"
+              "name": "央视新闻",
+              "priority": 1
+            },
+            {
+              "url": "https://www.npr.org/2026/03/07/g-s1-112858/iran-president-statement",
+              "name": "NPR",
+              "priority": 1
+            },
+            {
+              "url": "https://www.france24.com/en/video/20260307-iran-will-not-surrender-pezeshkian-tells-trump",
+              "name": "France 24",
+              "priority": 1
             }
           ],
-          "needs_verification": false,
-          "quality_issues": [
-            "⚠️ 只有1个来源（需要≥2个）",
-            "❌ 有效来源不足2个（现有1个）"
-          ],
-          "verification_status": "single_authoritative"
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -6152,19 +6347,25 @@
           "tag": "",
           "category": "经济",
           "title": "以军重点打击伊朗石油设施",
-          "content": "以军攻击目标从军事设施转向炼油厂、油库、输油管道等民用目标。重点打击伊朗两处最重要的弹道导弹生产基地，重创伊朗导弹生产能力。\n                        \n                        \n                            央视新闻\n                            📺 打击画面",
+          "content": "以军攻击目标从军事设施转向炼油厂、油库、输油管道等民用目标。重点打击伊朗两处最重要的弹道导弹生产基地，重创伊朗导弹生产能力。\n                        \n                        \n                            央视新闻\n                            NYT\n                            Al Jazeera\n                            📺 打击画面",
           "sources": [
             {
               "url": "https://news.cctv.com/",
-              "name": "央视新闻"
+              "name": "央视新闻",
+              "priority": 1
+            },
+            {
+              "url": "https://www.nytimes.com/2026/03/07/world/middleeast/israel-iran-oil-strikes.html",
+              "name": "New York Times",
+              "priority": 1
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/3/8/israel-strikes-irans-oil-facilities-for-first-time-as-war-enters-ninth-day",
+              "name": "Al Jazeera",
+              "priority": 1
             }
           ],
-          "needs_verification": false,
-          "quality_issues": [
-            "⚠️ 只有1个来源（需要≥2个）",
-            "❌ 有效来源不足2个（现有1个）"
-          ],
-          "verification_status": "single_authoritative"
+          "verification_status": "verified"
         }
       ]
     },
@@ -6259,12 +6460,16 @@
           "time": "全天",
           "tag": "major-tag",
           "category": "重要",
-          "title": "美以伊全面开打第6天",
+          "title": "美以联军对伊朗24省实施高强度空袭，伊朗封锁霍尔木兹海峡",
           "content": "美军出动B-2、B-52轰炸机与战斧巡航导弹，联合以军对伊朗24省、超2000个目标实施高强度空袭。伊朗以\"真实承诺-4\"反击。美军公布数据：3人死亡、5人重伤。伊朗实质性封锁霍尔木兹海峡。\n                        \n                        \n                            央视新闻\n                            📺 战况视频",
           "sources": [
             {
               "url": "https://news.cctv.com/",
               "name": "央视新闻"
+            },
+            {
+              "name": "ISW",
+              "url": "https://understandingwar.org/research/middle-east/iran-update-evening-special-report-march-5-2026/"
             }
           ],
           "needs_verification": false,
@@ -6287,17 +6492,18 @@
           "tag": "",
           "category": "军事",
           "title": "伊朗使用高超音速导弹",
-          "content": "伊朗使用\"霍拉姆沙赫尔-4\"高超音速导弹（射程2000km、14-16马赫）和\"法塔赫\"高超声速导弹打击以色列国防部、本·古里安机场等目标。\n                        \n                        \n                            央视新闻\n                            📺 导弹视频",
+          "content": "伊朗使用\"霍拉姆沙赫尔-4\"高超音速导弹（射程2000km、14-16马赫）和\"法塔赫\"高超声速导弹打击以色列国防部、本·古里安机场等目标。Janes防务情报确认伊朗在冲突中使用了2000km+射程弹道导弹。\n                        \n                        \n                            央视新闻\n                            Janes\n                            📺 导弹视频",
           "sources": [
             {
               "url": "https://news.cctv.com/",
-              "name": "央视新闻"
+              "name": "央视新闻",
+              "priority": 1
+            },
+            {
+              "url": "https://www.janes.com/defence-intelligence-insights/defence-news/weapons/iran-conflict-2026-us-defence-secretary-adds-to-reports-of-2000-km-range-iranian-missiles",
+              "name": "Janes",
+              "priority": 2
             }
-          ],
-          "needs_verification": false,
-          "quality_issues": [
-            "⚠️ 只有1个来源（需要≥2个）",
-            "❌ 有效来源不足2个（现有1个）"
           ],
           "verification_status": "single_authoritative"
         },
@@ -6308,7 +6514,7 @@
           "tag": "",
           "category": "经济",
           "title": "霍尔木兹海峡持续封锁",
-          "content": "霍尔木兹海峡被伊朗实质性封锁，全球约20%石油运输受影响。至少9个中东国家遭遇伊朗袭击。中东多国机场、酒店及能源基础设施被命中或误伤。\n                        \n                        \n                            央视新闻\n                            新华网",
+          "content": "霍尔木兹海峡被伊朗实质性封锁，全球约20%石油运输受影响。至少9个中东国家遭遇伊朗袭击。中东多国机场、酒店及能源基础设施被命中或误伤。\n                        \n                        \n                            央视新闻\n                            新华网\n                            NPR\n                            The Guardian",
           "sources": [
             {
               "url": "https://news.cctv.com/",
@@ -6318,6 +6524,16 @@
             {
               "url": "https://www.xinhuanet.com/",
               "name": "新华社",
+              "priority": 1
+            },
+            {
+              "url": "https://www.npr.org/2026/03/04/nx-s1-5736104/iran-war-oil-trump-israel-strait-hormuz-closed-energy-crisis",
+              "name": "NPR",
+              "priority": 1
+            },
+            {
+              "url": "https://www.theguardian.com/business/2026/mar/01/us-israel-strikes-iran-oil-price",
+              "name": "The Guardian",
               "priority": 1
             }
           ],
@@ -6342,6 +6558,10 @@
               "url": "https://www3.xinhuanet.com/world/20260304/db82eb4fdc1d46b58eea7145a5eae195/c.html",
               "name": "新华社",
               "priority": 1
+            },
+            {
+              "name": "AP News",
+              "url": "https://apnews.com/article/iran-israel-us-03-03-2026-8755877b603e46ed3df8107689c1ee23"
             }
           ],
           "needs_verification": false,
@@ -6358,11 +6578,26 @@
           "tag": "diplomatic-tag",
           "category": "外交",
           "title": "美国向中东多国发撤离令，国内爆发反战游行",
-          "content": "美国国务院3小时内连续发布6条撤离令，要求驻约旦、巴林、伊拉克、科威特、卡塔尔、阿联酋的非必要政府人员撤离。与此同时，纽约、旧金山、洛杉矶等城市民众自发举行大规模反战游行，要求政府停止对伊朗军事行动。\n                        \n                        \n                            新华网",
+          "content": "美国国务院3小时内连续发布6条撤离令，要求驻约旦、巴林、伊拉克、科威特、卡塔尔、阿联酋的非必要政府人员撤离。与此同时，纽约、旧金山、洛杉矶等城市民众自发举行大规模反战游行，要求政府停止对伊朗军事行动。\n                        \n                        \n                            新华网\n                            NBC News\n                            Al Jazeera\n                            PBS",
           "sources": [
             {
               "url": "https://www3.xinhuanet.com/world/20260304/db82eb4fdc1d46b58eea7145a5eae195/c.html",
               "name": "新华社",
+              "priority": 1
+            },
+            {
+              "url": "https://www.nbcnews.com/politics/national-security/state-department-urges-americans-mideast-depart-strikes-continue-rcna261313",
+              "name": "NBC News",
+              "priority": 1
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/3/3/us-urges-citizens-to-immediately-leave-over-a-dozen-middle-east-countries",
+              "name": "Al Jazeera",
+              "priority": 1
+            },
+            {
+              "url": "https://www.pbs.org/newshour/world/state-department-urges-u-s-citizens-to-leave-more-than-a-dozen-middle-eastern-countries",
+              "name": "PBS",
               "priority": 1
             }
           ],
@@ -6397,11 +6632,17 @@
           "tag": "diplomatic-tag",
           "category": "外交",
           "title": "北约明确表态不参战",
-          "content": "北约明确表态不会参与美伊冲突。这对美国而言是重大挫折。\n                        \n                        \n                            央视新闻",
+          "content": "北约明确表态不会参与美伊冲突。多数北约盟友告知美方不愿介入伊朗军事行动。特朗普后来批评北约拒绝协助是\"非常愚蠢的错误\"。意大利于3月15日宣布不参战并开始撤回军队。\n                        \n                        \n                            央视新闻\n                            Reuters",
           "sources": [
             {
               "url": "https://news.cctv.com/",
-              "name": "央视新闻"
+              "name": "央视新闻",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/nato-countries-dont-want-get-involved-iran-operation-trump-says-2026-03-17/",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": false,
@@ -6439,11 +6680,15 @@
           "tag": "major-tag",
           "category": "重要",
           "title": "伊朗发起\"最猛烈\"导弹打击",
-          "content": "伊朗凌晨对以色列及美国目标发动大规模导弹袭击，这是冲突以来\"最猛烈、最沉重\"的一轮攻击。持续约3小时的密集打击，目标包括特拉维夫、海法、耶路撒冷及美国海军第五舰队基地。导弹直接命中内塔尼亚胡办公室。\n                        \n                        \n                            央视新闻\n                            📺 现场视频",
+          "content": "伊朗凌晨对以色列及美国目标发动大规模导弹袭击，这是冲突以来\"最猛烈、最沉重\"的一轮攻击。持续约3小时的密集打击，目标包括特拉维夫、海法、耶路撒冷及美国海军第五舰队基地。导弹直接命中内塔尼亚胡办公室。\n                        \n                        \n                            央视新闻\n                            📺 现场视频 (注：ISW/Alma数据显示3月1日为最猛烈一天(62波攻击)，3月3日仅24波。\"最猛烈\"表述可能不准确。)",
           "sources": [
             {
               "url": "https://news.cctv.com/",
               "name": "央视新闻"
+            },
+            {
+              "name": "ISW",
+              "url": "https://understandingwar.org/research/middle-east/iran-update-evening-special-report-march-3-2026/"
             }
           ],
           "needs_verification": false,
@@ -6493,11 +6738,22 @@
           "tag": "",
           "category": "军事",
           "title": "伊朗向三方向同时发射导弹",
-          "content": "伊朗首次向三个方向同时开火：以色列本土军事重地、以色列周边关键设施、科威特境内美军基地。约旦成功拦截49枚导弹和无人机。\n                        \n                        \n                            央视新闻",
+          "content": "伊朗首次向三个方向同时开火：以色列本土军事重地、以色列周边关键设施、科威特境内美军基地。约旦成功拦截49枚导弹和无人机。\n                        \n                        \n                            央视新闻\n                            Reuters\n                            BBC",
           "sources": [
             {
               "url": "https://news.cctv.com/",
-              "name": "央视新闻"
+              "name": "央视新闻",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/iran-live-israel-strikes-hezbollah-uk-base-hit-cyprus-conflict-widens-2026-03-02/",
+              "name": "Reuters",
+              "priority": 1
+            },
+            {
+              "url": "https://www.bbc.com/news/articles/c5yljdgwppzo",
+              "name": "BBC",
+              "priority": 1
             }
           ],
           "needs_verification": false,
@@ -6533,6 +6789,33 @@
             }
           ],
           "verification_status": "verified"
+        },
+        {
+          "major": false,
+          "disputed": true,
+          "time": "全天",
+          "tag": "",
+          "category": "军事",
+          "title": "伊朗称导弹命中以总理办公室（以色列否认）",
+          "content": "伊朗革命卫队宣称使用\"海巴尔\"弹道导弹打击以色列总理内塔尼亚胡办公室及空军指挥部。以色列总理办公室否认该说法，称之为\"假新闻\"。内塔尼亚胡事后在贝特谢梅什公开露面。AFP核实称网上流传的相关视频为虚假内容。",
+          "sources": [
+            {
+              "url": "https://www.timesofisrael.com/liveblog_entry/iran-guards-claim-they-targeted-netanyahus-office-air-force-headquarters/",
+              "name": "Times of Israel",
+              "priority": 1
+            },
+            {
+              "url": "https://www.timesofisrael.com/liveblog_entry/fake-news-netanyahus-office-dismisses-iran-army-claims-pms-fate-unclear-after-purported-jerusalem-missile-attack/",
+              "name": "Times of Israel",
+              "priority": 1
+            },
+            {
+              "url": "https://factcheck.afp.com/doc.afp.com.A2X47T3",
+              "name": "AFP Fact Check",
+              "priority": 1
+            }
+          ],
+          "verification_status": "disputed"
         }
       ]
     },
@@ -6547,11 +6830,22 @@
           "tag": "humanitarian-tag",
           "category": "人道",
           "title": "以色列空袭伊朗多地",
-          "content": "以色列国防军宣布对伊朗弹道导弹发射装置和防空系统发动新一轮打击。德黑兰多地传出爆炸声。伊朗一所小学及一座体育馆遭遇袭击，多人伤亡。\n                        \n                        \n                            央视新闻",
+          "content": "以色列国防军宣布对伊朗弹道导弹发射装置和防空系统发动新一轮打击。德黑兰多地传出爆炸声。伊朗一所小学及一座体育馆遭遇袭击，多人伤亡。\n                        \n                        \n                            央视新闻\n                            NPR\n                            Reuters",
           "sources": [
             {
               "url": "https://news.cctv.com/",
-              "name": "央视新闻"
+              "name": "央视新闻",
+              "priority": 1
+            },
+            {
+              "url": "https://www.npr.org/2026/03/01/g-s1-112062/iran-fires-missiles",
+              "name": "NPR",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/",
+              "name": "Reuters",
+              "priority": 1
             }
           ],
           "needs_verification": false,
@@ -6595,7 +6889,7 @@
           "tag": "major-tag",
           "category": "重要",
           "title": "伊朗发射76枚导弹+100架无人机",
-          "content": "伊朗向以色列发射76枚弹道导弹和超过100架无人机。以色列中部城市贝特谢梅什9人死亡，特拉维夫1人死亡。以色列军方称导弹袭击造成2人死亡、456人受伤。\n                        \n                        \n                            央视新闻\n                            新华网\n                            📺 导弹来袭视频",
+          "content": "伊朗向以色列发射76枚弹道导弹和超过100架无人机。以色列中部城市贝特谢梅什9人死亡，特拉维夫1人死亡。以色列军方称导弹袭击造成2人死亡、456人受伤。\n                        \n                        \n                            央视新闻\n                            新华网\n                            📺 导弹来袭视频 (注：76枚导弹数据来自央视，西方来源(ISW)报告伊朗在2月28日发射170枚弹道导弹)",
           "sources": [
             {
               "url": "https://news.cctv.com/",
@@ -6609,6 +6903,14 @@
               "url": "https://www.aljazeera.com/news/2026/3/1/missile-strikes-continue-as-iranian-leaders-project-defiance-after-khamenei",
               "name": "Al Jazeera",
               "priority": 1
+            },
+            {
+              "name": "ISW",
+              "url": "https://understandingwar.org/research/middle-east/iran-update-evening-special-report-march-1-2026/"
+            },
+            {
+              "name": "CNN",
+              "url": "https://www.cnn.com/world/live-news/us-israel-iran-attack-03-01-26-intl"
             }
           ],
           "needs_verification": false,
@@ -6635,6 +6937,14 @@
               "url": "https://www.aljazeera.com/news/2026/3/1/iran-begins-40-day-mourning-after-khamenei-killed-in-us-israeli-attack",
               "name": "Al Jazeera",
               "priority": 1
+            },
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/world/middle-east/irans-supreme-leader-khamenei-killed-iranian-state-media-confirm-2026-03-01/"
+            },
+            {
+              "name": "AP News",
+              "url": "https://apnews.com/article/iran-us-israel-trump-khamenei-030126"
             }
           ],
           "needs_verification": false,
@@ -6677,44 +6987,29 @@
           "time": "上午",
           "tag": "diplomatic-tag",
           "category": "外交",
-          "title": "内塔尼亚胡扬言·特朗普表态",
-          "content": "以色列总理内塔尼亚胡公开扬言四天内就能结束战争。美国总统特朗普表示要推翻伊朗政权，称美国正在伊朗展开大规模军事行动，要把伊朗导弹工业\"夷为平地\"。\n                        \n                        \n                            央视新闻",
+          "title": "内塔尼亚胡·特朗普发表联合声明",
+          "content": "以色列总理内塔尼亚胡宣布\"咆哮的狮子\"行动启动，称行动\"将持续至威胁消除\"，呼吁伊朗人民\"走上街头完成使命\"。美国总统特朗普表示要将伊朗导弹工业\"夷为平地\"(raze to the ground)，敦促伊朗军方投降否则面临\"必然死亡\"，并暗示支持伊朗政权更迭。\n                        \n                        \n                            央视新闻\n                            Al Jazeera\n                            The Guardian\n                            PBS NewsHour",
           "sources": [
             {
               "url": "https://news.cctv.com/",
-              "name": "央视新闻"
-            }
-          ],
-          "needs_verification": false,
-          "quality_issues": [
-            "⚠️ 只有1个来源（需要≥2个）",
-            "❌ 有效来源不足2个（现有1个）"
-          ],
-          "verification_status": "single_authoritative"
-        },
-        {
-          "major": false,
-          "disputed": false,
-          "time": "上午",
-          "tag": "",
-          "category": "军事",
-          "title": "伊朗反击：导弹命中以总理办公室",
-          "content": "伊朗对以色列发动报复性导弹打击，导弹直接命中以色列总理内塔尼亚胡的办公室。\n                        \n                        \n                            央视新闻",
-          "sources": [
-            {
-              "url": "https://news.cctv.com/",
-              "name": "央视新闻"
+              "name": "央视新闻",
+              "priority": 1
             },
             {
-              "url": "https://www.aljazeera.com/news/liveblog/2026/2/28/live-israel-launches-attacks-on-iran-multiple-explosions-heard-in-tehran",
+              "url": "https://www.aljazeera.com/news/2026/2/28/us-and-israel-attack-iran-what-we-know-so-far",
               "name": "Al Jazeera",
               "priority": 1
+            },
+            {
+              "url": "https://www.theguardian.com/world/2026/feb/28/israel-launches-attack-on-iran-as-explosions-heard-in-tehran",
+              "name": "The Guardian",
+              "priority": 1
+            },
+            {
+              "url": "https://www.pbs.org/newshour/world/read-netanyahus-full-statement-on-iran-attacks",
+              "name": "PBS NewsHour",
+              "priority": 1
             }
-          ],
-          "needs_verification": false,
-          "quality_issues": [
-            "⚠️ 只有1个来源（需要≥2个）",
-            "❌ 有效来源不足2个（现有1个）"
           ],
           "verification_status": "verified"
         },
@@ -6737,11 +7032,6 @@
               "priority": 1
             }
           ],
-          "needs_verification": false,
-          "quality_issues": [
-            "⚠️ 只有1个来源（需要≥2个）",
-            "❌ 有效来源不足2个（现有1个）"
-          ],
           "verification_status": "verified"
         },
         {
@@ -6760,6 +7050,26 @@
             {
               "url": "https://new.qq.com/",
               "name": "腾讯新闻"
+            },
+            {
+              "name": "CNN",
+              "url": "https://www.cnn.com/2026/03/11/politics/us-iran-school-strike-civilians"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/2/28/israel-strikes-two-schools-in-iran-killing-more-than-50-people"
+            },
+            {
+              "name": "NPR",
+              "url": "https://www.npr.org/2026/03/11/nx-s1-5744981/pentagon-iran-missile-school-hegseth"
+            },
+            {
+              "name": "BBC",
+              "url": "https://www.bbc.com/news/articles/c0rlzmpgplgo"
+            },
+            {
+              "name": "Amnesty International",
+              "url": "https://www.amnesty.org/en/latest/news/2026/03/usa-iran-those-responsible-for-deadly-and-unlawful-us-strike-on-school-that-killed-over-100-children-must-be-held-accountable/"
             }
           ],
           "verification_status": "verified"
@@ -6787,6 +7097,18 @@
               "url": "https://www.aljazeera.com/news/2026/2/28/irans-supreme-leader-ali-khamenei-killed-in-us-israeli-attacks-reports",
               "name": "Al Jazeera",
               "priority": 1
+            },
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/world/middle-east/irans-supreme-leader-khamenei-killed-iranian-state-media-confirm-2026-03-01/"
+            },
+            {
+              "name": "CNN",
+              "url": "https://www.cnn.com/2026/02/28/middleeast/ayatollah-khamenei-iran-killed-airstrike-intl-latam"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/feb/28/khamenei-likely-killed-us-israeli-iran-strikes"
             }
           ],
           "verification_status": "verified"
@@ -6814,6 +7136,18 @@
               "url": "https://internationalpolicy.org/publications/epic-fury-international-law/",
               "name": "International Policy",
               "priority": 2
+            },
+            {
+              "name": "Reuters",
+              "url": "https://www.reuters.com/world/middle-east/israel-says-it-launched-pre-emptive-attack-against-iran-2026-02-28/"
+            },
+            {
+              "name": "CNN",
+              "url": "https://www.cnn.com/2026/02/28/middleeast/ayatollah-khamenei-iran-killed-airstrike-intl-latam"
+            },
+            {
+              "name": "NPR",
+              "url": "https://www.npr.org/2026/02/28/nx-s1-5730333/the-u-s-and-israel-launch-a-major-attack-on-iran"
             }
           ],
           "verification_status": "verified"
@@ -6826,26 +7160,6 @@
       "date_subtitle": "2025年6月 - 2026年2月",
       "is_collapsible": true,
       "events": [
-        {
-          "time": "2026年2月28日",
-          "category": "军事",
-          "title": "美以联合发动「史诗怒火」行动，新一轮冲突爆发",
-          "content": "美国和以色列对伊朗发动代号「史诗怒火」(Operation Epic Fury)的大规模联合军事打击。行动目标包括伊朗最高领袖哈梅内伊的官邸。哈梅内伊在空袭中身亡，结束其36年的统治。伊朗随即宣布全国动员，向以色列和美国在海湾的军事基地发射导弹。本轮冲突正式爆发。",
-          "major": true,
-          "sources": [
-            {
-              "url": "https://www.aljazeera.com/news/2026/2/28/mapping-us-and-israeli-attacks-on-iran-and-tehrans-retaliatory-strikes",
-              "name": "Al Jazeera",
-              "priority": 1
-            },
-            {
-              "url": "https://www.aljazeera.com/news/2026/2/28/irans-supreme-leader-ali-khamenei-killed-in-us-israeli-attacks-reports",
-              "name": "Al Jazeera",
-              "priority": 1
-            }
-          ],
-          "verification_status": "verified"
-        },
         {
           "time": "2025年12月-2026年2月",
           "category": "军事",
@@ -6889,8 +7203,8 @@
         {
           "time": "2025年6月24日",
           "category": "外交",
-          "title": "美国斡旋下达成停火协议",
-          "content": "美国总统特朗普宣布以色列和伊朗达成全面停火协议。停火于当地时间晚间生效。12日战争结束。据多方统计，伊朗方面死亡人数超过900人(含军事人员)，受伤超过4700人；以色列方面死亡24人，受伤约600人。",
+          "title": "12日战争结束：美国斞旋下达成停火协议（2025年）",
+          "content": "2025年6月，美国总统特朗普宣布以色列和伊朗达成全面停火协议，12日战争结束。伊朗方面死亡超900人，受伤超4700人；以色列方面死亡24人，受伤约600人。此事件为战前背景。",
           "major": true,
           "sources": [
             {
