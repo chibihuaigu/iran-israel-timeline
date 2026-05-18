@@ -69,7 +69,7 @@
             gap: 8px;
         }
         .header-controls .control-btn {
-            padding: 6px 10px;
+            padding: 6px 12px;
             border: 1px solid rgba(255,255,255,0.3);
             background: rgba(255,255,255,0.15);
             border-radius: 16px;
@@ -77,10 +77,41 @@
             font-size: 13px;
             transition: all 0.2s;
             color: rgba(255,255,255,0.9);
+            backdrop-filter: blur(4px);
         }
         .header-controls .control-btn:hover {
-            background: rgba(255,255,255,0.25);
+            background: rgba(255,255,255,0.3);
             transform: scale(1.05);
+        }
+        .theme-toggle .theme-label {
+            font-size: 11px;
+            margin-left: 2px;
+            opacity: 0.8;
+        }
+
+        .stats-expand-toggle {
+            display: inline-flex;
+            align-items: center;
+            padding: 4px 10px;
+            font-size: 12px;
+            color: var(--primary);
+            cursor: pointer;
+            border-radius: 12px;
+            background: rgba(26,54,93, 0.08);
+            transition: all 0.2s;
+            vertical-align: middle;
+            margin-left: 4px;
+        }
+        .stats-expand-toggle:hover {
+            background: rgba(26,54,93, 0.15);
+        }
+        .stats-extra {
+            display: none;
+            width: 100%;
+        }
+        .stats-extra.expanded {
+            display: flex;
+            flex-wrap: wrap;
         }
 
         /* 音乐播放器样式 - header右上角 */
@@ -334,17 +365,19 @@
         .toolbar {
             display: flex;
             align-items: center;
-            gap: 10px;
+            flex-wrap: wrap;
+            gap: 8px;
             padding: 0;
             margin-bottom: 16px;
         }
         .toolbar .search-box {
-            flex: 0 1 auto;
-            min-width: 240px;
+            flex: 1 1 220px;
+            min-width: 180px;
+            max-width: 360px;
             margin-bottom: 0;
         }
         .toolbar .search-input {
-            padding: 0 16px;
+            padding: 0 14px;
             font-size: 14px;
             height: 36px;
             line-height: 36px;
@@ -362,13 +395,16 @@
         .toolbar .filter-bar {
             display: flex;
             align-items: center;
-            gap: 6px;
+            gap: 5px;
+            flex-wrap: nowrap;
+            margin-bottom: 0;
+            padding: 0;
         }
         .toolbar .filter-btn {
-            padding: 0 12px;
-            font-size: 14px;
-            height: 36px;
-            line-height: 36px;
+            padding: 0 10px;
+            font-size: 13px;
+            height: 34px;
+            line-height: 34px;
             box-sizing: border-box;
             white-space: nowrap;
             border: 1px solid var(--border);
@@ -377,6 +413,7 @@
             color: var(--text-secondary);
             cursor: pointer;
             transition: all 0.2s;
+            flex-shrink: 0;
         }
         .toolbar .filter-btn:hover {
             background: var(--bg-secondary);
@@ -389,23 +426,41 @@
         }
         .filter-divider {
             color: var(--text-muted);
-            margin: 0 4px;
+            margin: 0 3px;
+            flex-shrink: 0;
+        }
+        @media (max-width: 1024px) {
+            .toolbar .filter-bar {
+                gap: 4px;
+            }
+            .toolbar .filter-btn {
+                padding: 0 8px;
+                font-size: 12px;
+            }
+            .stage-filter .filter-btn {
+                font-size: 11px;
+                padding: 0 6px;
+            }
         }
         @media (max-width: 768px) {
             .toolbar {
-                flex-direction: column;
-                align-items: stretch;
-                padding: 0;
+                gap: 6px;
+                margin-bottom: 12px;
             }
             .toolbar .search-box {
-                min-width: 100%;
+                flex: 1 1 100%;
+                max-width: 100%;
+            }
+            .toolbar .search-input {
+                height: 34px;
+                padding: 0 12px;
+                font-size: 13px;
+                border-width: 1px;
             }
             .toolbar .filter-bar {
-                justify-content: flex-start;
-                flex-wrap: nowrap;
                 gap: 4px;
                 overflow-x: auto;
-                padding: 0 2px;
+                padding: 2px 0;
                 scrollbar-width: none;
                 -webkit-overflow-scrolling: touch;
             }
@@ -413,44 +468,16 @@
             .toolbar .filter-btn {
                 padding: 0 7px;
                 font-size: 11px;
-                height: 30px;
-                line-height: 30px;
+                height: 28px;
+                line-height: 28px;
                 flex-shrink: 0;
             }
             .filter-divider {
                 margin: 0 2px;
-                flex-shrink: 0;
-            }
-            .toolbar-left, .toolbar-right {
-                width: 100%;
-            }
-            .toolbar-right {
-                flex-direction: column;
-            }
-            .toolbar-divider {
-                display: none;
             }
         }
 
-        /* 统一工具栏布局 */
-        .toolbar-left {
-            flex: 1;
-            min-width: 200px;
-        }
-
-        .toolbar-right {
-            display: flex;
-            align-items: center;
-            gap: 16px;
-            flex-wrap: nowrap;
-        }
-
-        .toolbar-divider {
-            width: 1px;
-            height: 24px;
-            background: var(--border);
-        }
-
+        /* 工具栏子元素 */
         .toolbar-actions {
             display: flex;
             align-items: center;
@@ -478,6 +505,9 @@
         .search-box {
             margin-bottom: 20px;
             position: relative;
+        }
+        .toolbar .search-box {
+            margin-bottom: 0;
         }
 
         .search-input {
@@ -539,6 +569,10 @@
             margin-bottom: 20px;
             padding: 0;
             background: transparent;
+        }
+        .toolbar .filter-bar {
+            margin-bottom: 0;
+            flex-wrap: nowrap;
         }
 
         .filter-label {
@@ -896,6 +930,25 @@
             gap: 6px;
         }
 
+        .event-share {
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 13px;
+            padding: 2px 6px;
+            border-radius: 6px;
+            opacity: 0;
+            transition: opacity 0.2s, background 0.2s;
+            flex-shrink: 0;
+        }
+        .event-card:hover .event-share {
+            opacity: 0.6;
+        }
+        .event-share:hover {
+            opacity: 1 !important;
+            background: var(--bg);
+        }
+
         .event-title {
             font-size: 17px;
             font-weight: 700;
@@ -1168,8 +1221,8 @@
             font-weight: 600;
             color: #ffffff;
         }
-        .source-legend-badge.official { background: #4a90d9; }
-        .source-legend-badge.intl { background: #4a90d9; }
+        .source-legend-badge.official { background: #b42828; }
+        .source-legend-badge.intl { background: #1e3a5f; }
         .source-legend-badge.domestic { background: #718096; }
         .source-legend-badge.other { background: #a0aec0; }
 
@@ -1211,6 +1264,17 @@
             border: 1px solid rgba(113, 128, 150, 0.3);
         }
 
+        .disputed-icon {
+            font-size: 0.6em;
+            vertical-align: super;
+            cursor: help;
+            opacity: 0.7;
+            transition: opacity 0.2s;
+        }
+        .disputed-icon:hover {
+            opacity: 1;
+        }
+
         .category-tag {
             display: inline-block;
             padding: 3px 10px;
@@ -1237,6 +1301,37 @@
         /* 人道/其他 - 灰色 */
         .humanitarian-tag { background: var(--text-tertiary); }
 
+        /* 争议数据提示 */
+        .dispute-banner {
+            background: linear-gradient(135deg, rgba(255, 193, 7, 0.08), rgba(255, 152, 0, 0.05));
+            border: 1px solid rgba(255, 193, 7, 0.3);
+            border-radius: 10px;
+            padding: 12px 16px;
+            margin: 12px auto;
+            max-width: 600px;
+            font-size: 12px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+        .dispute-banner .dispute-title {
+            font-weight: 700;
+            color: #e65100;
+            margin-bottom: 4px;
+            font-size: 13px;
+        }
+        .dispute-banner .dispute-item {
+            margin: 4px 0;
+            padding-left: 12px;
+            border-left: 2px solid rgba(255, 193, 7, 0.4);
+        }
+        [data-theme="dark"] .dispute-banner {
+            background: linear-gradient(135deg, rgba(255, 193, 7, 0.05), rgba(255, 152, 0, 0.03));
+            border-color: rgba(255, 193, 7, 0.2);
+        }
+        [data-theme="dark"] .dispute-banner .dispute-title {
+            color: #ffb74d;
+        }
+
         .footer {
             text-align: center;
             padding: 25px 20px;
@@ -1252,6 +1347,29 @@
 
         .footer a:hover {
             text-decoration: underline;
+        }
+
+        .footer-links {
+            margin: 8px 0;
+        }
+        .footer-divider {
+            margin: 0 6px;
+            color: var(--text-muted);
+        }
+        .footer-update {
+            font-size: 11px;
+            color: var(--text-muted);
+            margin-top: 4px;
+        }
+
+        /* 时段筛选 */
+        .stage-filter {
+            margin-top: 6px;
+        }
+        .stage-filter .filter-label {
+            font-size: 12px;
+            color: var(--text-tertiary);
+            font-weight: 500;
         }
 
         .scroll-top {
@@ -1823,6 +1941,9 @@
             .header-controls .control-btn {
                 padding: 5px 8px;
                 font-size: 12px;
+            }
+            .theme-toggle .theme-label {
+                display: none;
             }
             .music-player {
                 top: 10px;
@@ -3365,38 +3486,6 @@
         }
 
         </style>
-    <!-- 动态数据加载（当前停用，使用 HTML 内嵌模式） -->
-    <!-- 如果需要启用数据驱动模式，取消下面这行注释并确保 timeline-data.js 存在 -->
-    <!-- <script src="data/timeline-data.js">
-// 统一数据源 - 所有数据在这里定义，Dashboard 和 Modal 都从这里读取
-// 初始化数据 - 页面加载时调用
-function initializeData() {
-    // 更新 Dashboard
-    document.getElementById('warDays').textContent = conflictData.warDays;
-    document.getElementById('missileWaves').textContent = conflictData.events.iranMissileWaves;
-    document.getElementById('iranDeaths').textContent = conflictData.events.iranDeaths;
-    document.getElementById('israelDeaths').textContent = conflictData.events.israelDeaths;
-    document.getElementById('usDeaths').textContent = conflictData.events.usDeaths;
-    document.getElementById('displaced').textContent = conflictData.events.middleEastDisplaced;
-    document.getElementById('childCasualties').textContent = conflictData.events.childCasualties;
-
-    // 更新数据统计 Modal
-    document.getElementById('dataWarDays').textContent = conflictData.warDays;
-    document.getElementById('dataIranDeaths').textContent = conflictData.events.iranDeaths;
-    document.getElementById('dataIsraelDeaths').textContent = conflictData.events.israelDeaths;
-    document.getElementById('dataLebanonDeaths').textContent = conflictData.events.lebanonDeaths;
-    document.getElementById('dataUsDeaths').textContent = conflictData.events.usDeaths;
-    document.getElementById('dataDisplaced').textContent = conflictData.events.middleEastDisplaced;
-    document.getElementById('dataIranInjured').textContent = conflictData.events.iranInjured;
-}
-
-// 页面加载完成后初始化数据
-document.addEventListener('DOMContentLoaded', function() {
-    initializeData();
-});
-
-
-</script> -->
     <script src="js/timeline-loader.js?v=20260413"></script>
 
     <!-- Leaflet 地图 JS -->
@@ -3417,7 +3506,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="header">
             <!-- 右上角控制按钮 -->
             <div class="header-controls">
-                <button class="control-btn theme-toggle" onclick="toggleTheme()" id="themeBtn" title="切换明暗主题">🌙</button>
+                <button class="control-btn theme-toggle" onclick="toggleTheme()" id="themeBtn" title="切换明暗主题">🌙<span class="theme-label">夜间</span></button>
                 <button class="control-btn font-toggle" onclick="toggleFontSize()" title="调整字体大小">A+</button>
             </div>
             <!-- 音乐播放器 -->
@@ -3518,19 +3607,25 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="stat-value" id="displaced">--</div>
                     <div class="stat-label">流离失所</div>
                 </a>
-                <a class="stat-item stat-link" href="https://en.wikipedia.org/wiki/Casualties_of_the_2026_Iran_war" target="_blank" title="来源：黎巴嫩卫生部/Wikipedia - 黎巴嫩伤亡统计">
-                    <div class="stat-value" id="lebanonDeaths">--</div>
-                    <div class="stat-label">黎巴嫩死亡</div>
-                </a>
-                <div class="stat-item">
-                    <div class="stat-value" id="usDeaths">--</div>
-                    <div class="stat-label">美军死亡</div>
+                <div class="stats-expand-toggle" id="statsToggle" onclick="toggleStatsExpand()">更多 ▾</div>
+                <div class="stats-extra" id="statsExtra">
+                    <a class="stat-item stat-link" href="https://en.wikipedia.org/wiki/Casualties_of_the_2026_Iran_war" target="_blank" title="来源：黎巴嫩卫生部/Wikipedia - 黎巴嫩伤亡统计">
+                        <div class="stat-value" id="lebanonDeaths">--</div>
+                        <div class="stat-label">黎巴嫩死亡</div>
+                    </a>
+                    <div class="stat-item">
+                        <div class="stat-value" id="usDeaths">--</div>
+                        <div class="stat-label">美军死亡</div>
+                    </div>
+                    <a class="stat-item stat-link" href="https://en.wikipedia.org/wiki/Casualties_of_the_2026_Iran_war" target="_blank" title="来源：伊朗卫生部/US估计 - 伊朗受伤统计">
+                        <div class="stat-value" id="iranInjured">--</div>
+                        <div class="stat-label">伊朗受伤</div>
+                    </a>
                 </div>
-                <a class="stat-item stat-link" href="https://en.wikipedia.org/wiki/Casualties_of_the_2026_Iran_war" target="_blank" title="来源：伊朗卫生部/US估计 - 伊朗受伤统计">
-                    <div class="stat-value" id="iranInjured">--</div>
-                    <div class="stat-label">伊朗受伤</div>
-                </a>
             </div>
+
+            <!-- 争议数据提示区域（由 JS 动态填充） -->
+            <div id="disputeBanner" class="dispute-banner" style="display:none;"></div>
 
             <div class="belligerents">
                 <div class="belligerent-side">
@@ -3573,24 +3668,27 @@ document.addEventListener('DOMContentLoaded', function() {
 
         <!-- 搜索与筛选工具栏 -->
         <div class="toolbar" id="mainToolbar">
-            <div class="toolbar-left">
-                <div class="search-box">
-                    <input type="text" class="search-input" id="searchInput" placeholder="搜索事件关键词... (按 / 快速聚焦)">
-                </div>
+            <div class="search-box">
+                <input type="text" class="search-input" id="searchInput" placeholder="搜索事件关键词... (按 / 快速聚焦)">
             </div>
-            <div class="toolbar-right">
-                <div class="filter-bar">
-                    <button class="filter-btn active" data-filter="all">全部</button>
-                    <button class="filter-btn" data-filter="major">重要</button>
-                    <button class="filter-btn" data-filter="military">军事</button>
-                    <button class="filter-btn" data-filter="humanitarian">人道</button>
-                    <button class="filter-btn" data-filter="political">政治</button>
-                    <button class="filter-btn" data-filter="diplomatic">外交</button>
-                    <span class="filter-divider">|</span>
-                    <button class="filter-btn" data-filter="iran">伊朗</button>
-                    <button class="filter-btn" data-filter="israel">以色列</button>
-                    <button class="filter-btn" data-filter="usa">美国</button>
-                </div>
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="all">全部</button>
+                <button class="filter-btn" data-filter="major">重要</button>
+                <button class="filter-btn" data-filter="military">军事</button>
+                <button class="filter-btn" data-filter="humanitarian">人道</button>
+                <button class="filter-btn" data-filter="political">政治</button>
+                <button class="filter-btn" data-filter="diplomatic">外交</button>
+                <span class="filter-divider">|</span>
+                <button class="filter-btn" data-filter="iran">伊朗</button>
+                <button class="filter-btn" data-filter="israel">以色列</button>
+                <button class="filter-btn" data-filter="usa">美国</button>
+            </div>
+            <div class="filter-bar stage-filter" id="stageFilter">
+                <span class="filter-label">时段:</span>
+                <button class="filter-btn active" data-stage="all">全部</button>
+                <button class="filter-btn" data-stage="2-3月">2-3月 · 开战</button>
+                <button class="filter-btn" data-stage="4月">4月 · 升级</button>
+                <button class="filter-btn" data-stage="5月">5月 · 停火</button>
             </div>
         </div>
 
@@ -3822,11 +3920,54 @@ document.addEventListener('DOMContentLoaded', function() {
 
     <div class="footer">
             <p>伊朗-以色列冲突时间线 · 数据来源于各事件标注的权威媒体</p>
-            <p>© 2026 <a href="https://github.com/chibihuaigu/iran-israel-timeline" target="_blank">GitHub</a></p>
+            <p class="footer-links">
+                <a href="javascript:void(0)" onclick="document.getElementById('methodologyModal').style.display='flex'">数据来源与方法论</a>
+                <span class="footer-divider">·</span>
+                <a href="https://github.com/chibihuaigu/iran-israel-timeline" target="_blank">GitHub</a>
+            </p>
+            <p class="footer-update" id="footerUpdate"></p>
+            <p>© 2026</p>
+        </div>
+
+    <!-- 方法论弹窗 -->
+    <div class="modal-overlay" id="methodologyModal" onclick="closeModal(event, 'methodologyModal')">
+        <div class="modal-content" onclick="event.stopPropagation()" style="max-width: 640px;">
+            <button class="modal-close" onclick="closeModal(null, 'methodologyModal')">&times;</button>
+            <h2 class="modal-title">数据来源与方法论</h2>
+            <div style="font-size: 14px; color: var(--text-secondary); line-height: 1.8;">
+                <h3 style="font-size: 15px; color: var(--text); margin: 16px 0 8px;">数据来源</h3>
+                <p>所有事件均来自白名单内的权威媒体，分为以下等级：</p>
+                <ul style="margin: 8px 0; padding-left: 20px;">
+                    <li><strong>官方媒体</strong>（红色标记）：央视新闻、新华社、人民日报等</li>
+                    <li><strong>国际通讯社</strong>（蓝色标记）：路透社、美联社、法新社、BBC 等</li>
+                    <li><strong>国际主流媒体</strong>：CNN、纽约时报、半岛电视台等</li>
+                    <li><strong>有倾向性媒体</strong>（灰色标记）：耶路撒冷邮报、Press TV、塔斯社等，仅供参考</li>
+                </ul>
+
+                <h3 style="font-size: 15px; color: var(--text); margin: 16px 0 8px;">搜索方法</h3>
+                <p>采用三层搜索架构确保覆盖面：</p>
+                <ol style="margin: 8px 0; padding-left: 20px;">
+                    <li><strong>ISW/CTP 骨架提取</strong>：从权威军事分析机构报告中提取核心事件</li>
+                    <li><strong>独立验证</strong>：用 9 个维度的关键词在双搜索引擎（Tavily + DuckDuckGo）中交叉验证</li>
+                    <li><strong>宽泛覆盖</strong>：补充搜索遗漏事件，确保无重大事件缺失</li>
+                </ol>
+
+                <h3 style="font-size: 15px; color: var(--text); margin: 16px 0 8px;">争议标注</h3>
+                <p>当多个来源对同一事件给出不同数据时（如伤亡数字），我们：</p>
+                <ul style="margin: 8px 0; padding-left: 20px;">
+                    <li>同时记录各方数据，标注来源</li>
+                    <li>不做出主观判断，呈现事实争议</li>
+                    <li>伤亡数字优先使用区间表示</li>
+                </ul>
+
+                <h3 style="font-size: 15px; color: var(--text); margin: 16px 0 8px;">更新频率</h3>
+                <p>每日更新，收录过去 24 小时内经权威媒体验证的事件。</p>
+            </div>
         </div>
     </div>
+    </div>
 
-    <button class="scroll-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">↑</button>
+    <button class="scroll-top" onclick="scrollToLatest()" title="回到最新">↓</button>
 
     <div class="keyboard-hint">
         <kbd>J</kbd>下 <kbd>K</kbd>上 <kbd>/</kbd>搜索
@@ -4901,12 +5042,33 @@ function initWordCloudEvents() {
 
 // 筛选状态变量
 var currentFilter = 'all';
+var currentStage = 'all';
 
 function filterByTag(tag, btn) {
     currentFilter = tag;
-    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    // 只移除分类筛选按钮的 active，不影响时段按钮
+    document.querySelectorAll('.filter-btn[data-filter]').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
     filterEvents();
+}
+
+function filterByStage(stage, btn) {
+    currentStage = stage;
+    document.querySelectorAll('.stage-filter .filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    filterEvents();
+}
+
+// 时段到 date_id 范围的映射（d0 = 2026-02-28）
+function isDateInStage(dateId, stage) {
+    if (stage === 'all') return true;
+    var match = dateId.match(/^d(\d+)$/);
+    if (!match) return false;
+    var dayNum = parseInt(match[1], 10);
+    if (stage === '2-3月') return dayNum >= 0 && dayNum <= 31;   // Feb 28 - Mar 31
+    if (stage === '4月') return dayNum >= 32 && dayNum <= 61;     // Apr 1 - Apr 30
+    if (stage === '5月') return dayNum >= 62;                     // May 1+
+    return true;
 }
 
 function filterEvents() {
@@ -4915,32 +5077,42 @@ function filterEvents() {
     var hasVisibleEvent = false;
 
     events.forEach(function(event) {
-        var shouldShow = currentFilter === 'all';
+        var categoryMatch = currentFilter === 'all';
 
-        if (!shouldShow) {
+        if (!categoryMatch) {
             // 检查事件是否有对应的标签
             var tags = event.querySelectorAll('.category-tag');
             tags.forEach(function(tag) {
                 var tagText = tag.textContent.trim();
                 if (currentFilter === 'major' && tag.classList.contains('major-tag')) {
-                    shouldShow = true;
+                    categoryMatch = true;
                 } else if (currentFilter === 'military' && tagText.includes('军事')) {
-                    shouldShow = true;
+                    categoryMatch = true;
                 } else if (currentFilter === 'humanitarian' && tag.classList.contains('humanitarian-tag')) {
-                    shouldShow = true;
+                    categoryMatch = true;
                 } else if (currentFilter === 'political' && tag.classList.contains('political-tag')) {
-                    shouldShow = true;
+                    categoryMatch = true;
                 } else if (currentFilter === 'diplomatic' && tag.classList.contains('diplomatic-tag')) {
-                    shouldShow = true;
+                    categoryMatch = true;
                 }
             });
 
             // 检查是否是重要事件
             if (currentFilter === 'major' && event.classList.contains('major')) {
-                shouldShow = true;
+                categoryMatch = true;
             }
         }
 
+        // 时段筛选：检查所属 date-group 的 id 是否在当前时段内
+        var stageMatch = currentStage === 'all';
+        if (!stageMatch) {
+            var parentGroup = event.closest('.date-group');
+            if (parentGroup && parentGroup.id) {
+                stageMatch = isDateInStage(parentGroup.id, currentStage);
+            }
+        }
+
+        var shouldShow = categoryMatch && stageMatch;
         if (shouldShow) {
             event.classList.remove('hidden');
             hasVisibleEvent = true;
@@ -4975,16 +5147,29 @@ function updateFilterResult() {
         timeline.parentNode.insertBefore(resultDiv, timeline);
     }
 
-    if (currentFilter !== 'all') {
-        var filterNames = {
-            'all': '全部',
-            'major': '重要事件',
-            'military': '军事',
-            'humanitarian': '人道主义',
-            'political': '政治',
-            'diplomatic': '外交'
-        };
-        resultDiv.innerHTML = '当前显示：<strong>' + filterNames[currentFilter] + '</strong> 共 ' + visibleEvents + ' 条事件';
+    var filterNames = {
+        'all': '全部',
+        'major': '重要事件',
+        'military': '军事',
+        'humanitarian': '人道主义',
+        'political': '政治',
+        'diplomatic': '外交'
+    };
+    var stageNames = {
+        'all': '',
+        '2-3月': '2-3月',
+        '4月': '4月',
+        '5月': '5月'
+    };
+
+    var activeFilter = currentFilter !== 'all' ? filterNames[currentFilter] : null;
+    var activeStage = currentStage !== 'all' ? stageNames[currentStage] : null;
+
+    if (activeFilter || activeStage) {
+        var label = [];
+        if (activeStage) label.push(activeStage);
+        if (activeFilter) label.push(activeFilter);
+        resultDiv.innerHTML = '当前显示：<strong>' + label.join(' · ') + '</strong> 共 ' + visibleEvents + ' 条事件';
         resultDiv.classList.add('show');
     } else {
         resultDiv.classList.remove('show');
@@ -5042,10 +5227,18 @@ function setSort(order, btn) {
             initWordCloudEvents();
 
             // 绑定筛选按钮事件
-            document.querySelectorAll('.filter-btn').forEach(function(btn) {
+            document.querySelectorAll('.filter-btn[data-filter]').forEach(function(btn) {
                 btn.addEventListener('click', function() {
                     var filter = this.getAttribute('data-filter');
                     filterByTag(filter, this);
+                });
+            });
+
+            // 绑定时段筛选按钮事件
+            document.querySelectorAll('.stage-filter .filter-btn').forEach(function(btn) {
+                btn.addEventListener('click', function() {
+                    var stage = this.getAttribute('data-stage');
+                    filterByStage(stage, this);
                 });
             });
 
@@ -5178,14 +5371,23 @@ function setSort(order, btn) {
 
             if (currentTheme === 'dark') {
                 html.removeAttribute('data-theme');
-                if (btn) btn.textContent = '🌙';
+                if (btn) btn.innerHTML = '🌙<span class="theme-label">夜间</span>';
                 btn.setAttribute('title', '切换到暗色模式');
                 localStorage.setItem('theme', 'light');
             } else {
                 html.setAttribute('data-theme', 'dark');
-                if (btn) btn.textContent = '☀️';
+                if (btn) btn.innerHTML = '☀️<span class="theme-label">日间</span>';
                 btn.setAttribute('title', '切换到浅色模式');
                 localStorage.setItem('theme', 'dark');
+            }
+        }
+
+        function toggleStatsExpand() {
+            var extra = document.getElementById('statsExtra');
+            var toggle = document.getElementById('statsToggle');
+            if (extra && toggle) {
+                extra.classList.toggle('expanded');
+                toggle.textContent = extra.classList.contains('expanded') ? '收起 ▴' : '更多 ▾';
             }
         }
 
@@ -5207,9 +5409,9 @@ function setSort(order, btn) {
             var btn = document.getElementById('themeBtn');
             if (savedTheme === 'dark') {
                 document.documentElement.setAttribute('data-theme', 'dark');
-                if (btn) { btn.textContent = '☀️'; btn.setAttribute('title', '切换到浅色模式'); }
+                if (btn) { btn.innerHTML = '☀️<span class="theme-label">日间</span>'; btn.setAttribute('title', '切换到浅色模式'); }
             } else {
-                if (btn) { btn.textContent = '🌙'; btn.setAttribute('title', '切换到暗色模式'); }
+                if (btn) { btn.innerHTML = '🌙<span class="theme-label">夜间</span>'; btn.setAttribute('title', '切换到暗色模式'); }
             }
         });
 
