@@ -1962,7 +1962,7 @@
                 margin-bottom: 12px;
             }
 
-            /* 移动端底部固定日期导航 - 独立圆角框版 */
+            /* 移动端底部固定日期导航 */
             .toc {
                 position: fixed;
                 bottom: 0;
@@ -1972,9 +1972,10 @@
                 margin: 0;
                 border-radius: 0;
                 background: transparent;
+                backdrop-filter: none;
+                -webkit-backdrop-filter: none;
                 box-shadow: none;
                 padding: 0;
-                /* 覆盖电脑端的 sticky */
                 top: auto;
             }
             .toc-header {
