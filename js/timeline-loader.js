@@ -1,11 +1,11 @@
 /**
  * 时间线数据加载器
  * 从外部 JSON 文件加载事件数据和 Dashboard 数据
- * 版本: 1.1
+ * 版本: 1.2
  */
 
-// 数据文件路径（添加版本号防止缓存）
-const CACHE_BUSTER = '?v=' + Date.now();
+// 数据文件路径（静态版本号，每次数据更新时递增）
+const CACHE_BUSTER = '?v=20260518';
 const DATA_DIR = 'data/';
 const EVENTS_FILE = DATA_DIR + 'events.json' + CACHE_BUSTER;
 const DASHBOARD_FILE = DATA_DIR + 'dashboard.json' + CACHE_BUSTER;
@@ -84,6 +84,7 @@ function getSourceTier(sourceName) {
         'Reuters', 'AP News', 'AP', 'AFP', 'France 24', 'BBC', 'Al Jazeera',
         'NPR', 'The Guardian', 'Washington Post', 'New York Times', 'Fortune', 'UPI', 'PBS',
         'UN News', 'ISW', 'understandingwar', 'CTP', 'criticalthreats',
+        'Wikipedia',
         'CNN', 'CNBC', '彭博社', 'Bloomberg', 'CNBC', 'Channel News Asia',
         'Haaretz', '以色列时报',
         'TRT World', 'Al Arabiya', '阿拉比亚',
@@ -104,15 +105,24 @@ function getSourceTier(sourceName) {
 
     if (officialSources.some(s => sourceName.includes(s))) return 'tier-official';
     if (intlSources.some(s => sourceName.includes(s))) return 'tier-intl';
-    if (biasedSources.some(s => sourceName.includes(s))) return 'tier-domestic';
+    if (biasedSources.some(s => sourceName.includes(s))) return 'tier-other';
     if (domesticSources.some(s => sourceName.includes(s))) return 'tier-domestic';
     return 'tier-other';
 }
 
+const TIER_DESCRIPTIONS = {
+    'tier-official': '官方/权威来源',
+    'tier-intl': '国际主流媒体',
+    'tier-domestic': '国内商业媒体',
+    'tier-other': '其他来源（含倾向性媒体）'
+};
+
 /**
  * 渲染事件卡片
  */
-function renderEventCard(event) {
+function renderEventCard(event, dateId, eventIndex) {
+    // 生成唯一锚点ID
+    const anchorId = dateId ? `${dateId}-e${eventIndex}` : '';
     // 合并同一媒体的多个来源
     const groupedSources = {};
     event.sources.forEach(s => {
@@ -125,11 +135,12 @@ function renderEventCard(event) {
     // 生成来源链接（同一媒体的多个链接合并显示，带可信度等级）
     const sourceLinks = Object.entries(groupedSources).map(([name, urls]) => {
         const tier = getSourceTier(name);
+        const tierTip = TIER_DESCRIPTIONS[tier] || '';
         if (urls.length === 1) {
-            return `<a class="source-link ${tier}" href="${urls[0]}" target="_blank">${name}</a>`;
+            return `<a class="source-link ${tier}" href="${urls[0]}" target="_blank" title="${tierTip}">${name}</a>`;
         } else {
             // 多个链接时，第一个作为主链接，其他作为角标
-            const mainLink = `<a class="source-link ${tier}" href="${urls[0]}" target="_blank">${name}</a>`;
+            const mainLink = `<a class="source-link ${tier}" href="${urls[0]}" target="_blank" title="${tierTip}">${name}</a>`;
             const extraLinks = urls.slice(1).map((url, i) =>
                 `<a class="source-link source-extra" href="${url}" target="_blank" title="${name} 文章${i+2}">+${i+1}</a>`
             ).join('');
@@ -160,7 +171,7 @@ function renderEventCard(event) {
     else if (event.mark === 'escalation') eventMarkClass = ' escalation';
 
     return `
-        <div class="event-card${event.major ? ' major' : ''}${eventMarkClass} ${sourceQualityClass}">
+        <div class="event-card${event.major ? ' major' : ''}${eventMarkClass} ${sourceQualityClass}" ${anchorId ? `id="${anchorId}"` : ''}>
             <div class="event-time">${event.time}</div>
             <div class="event-header">
                 <div class="event-title">
@@ -169,6 +180,7 @@ function renderEventCard(event) {
                     ${verificationBadge}
                     ${disputedBadge}
                 </div>
+                ${anchorId ? `<button class="event-share" onclick="shareEvent('${anchorId}')" title="分享此事件">🔗</button>` : ''}
             </div>
             <div class="event-content">${event.content}</div>
             ${event.sources.length > 0 ? `<div class="event-sources">${sourceLinks}</div>` : '<div class="event-sources no-source-warning">⚠️ 暂无来源</div>'}
@@ -180,7 +192,7 @@ function renderEventCard(event) {
  * 渲染日期组
  */
 function renderDateGroup(dayData) {
-    const eventsHtml = dayData.events.map(renderEventCard).join('\n');
+    const eventsHtml = dayData.events.map((e, i) => renderEventCard(e, dayData.date_id, i)).join('\n');
 
     // 每日总结（如果有）
     const summaryHtml = dayData.summary
@@ -263,19 +275,24 @@ function updateDashboard(dashboardData, eventsData = null) {
     };
     
     // 更新 Dashboard 卡片
+    const disputed = dashboardData.disputed_fields || {};
     Object.keys(fieldMap).forEach(dashboardField => {
         const htmlId = fieldMap[dashboardField];
         const value = dashboardData[dashboardField];
-        
+
         // 尝试通过ID查找
         let el = document.getElementById(htmlId);
         // 如果没有ID，尝试data-field属性
         if (!el) {
             el = document.querySelector(`.stat-value[data-field="${htmlId}"]`);
         }
-        
+
         if (el && value !== undefined) {
-            el.textContent = value;
+            if (disputed[dashboardField]) {
+                el.innerHTML = value + ' <span class="disputed-icon" title="' + disputed[dashboardField] + '">⚠️</span>';
+            } else {
+                el.textContent = value;
+            }
         }
     });
     
@@ -313,6 +330,14 @@ function updateDashboard(dashboardData, eventsData = null) {
     const updateBadge = document.getElementById('update-badge');
     if (updateBadge && dashboardData.lastUpdated) {
         updateBadge.textContent = `📅 更新于 ${dashboardData.lastUpdated}`;
+    }
+
+    // 更新 footer 更新日志
+    const footerUpdate = document.getElementById('footerUpdate');
+    if (footerUpdate && dashboardData.lastUpdated) {
+        const totalEvents = eventsData?.total_events || 0;
+        const totalDays = eventsData?.total_days || 0;
+        footerUpdate.textContent = `最后数据更新：${dashboardData.lastUpdated} · 已收录 ${totalEvents} 条事件 / ${totalDays} 天`;
     }
 
     // 更新 subtitle（Header中的日期范围和统计）
@@ -465,6 +490,7 @@ async function initTimeline() {
 function updateStatisticsDisplay(statisticsData) {
     // 检查是否有争议数据
     const disputedFields = [];
+    let latestVerified = null;
     for (const [field, data] of Object.entries(statisticsData.fields || {})) {
         if (data.hasDispute) {
             disputedFields.push({
@@ -474,11 +500,58 @@ function updateStatisticsDisplay(statisticsData) {
                 confidence: data.confidence
             });
         }
+        // 追踪最新核实日期
+        if (data.lastUpdated) {
+            if (!latestVerified || data.lastUpdated > latestVerified) {
+                latestVerified = data.lastUpdated;
+            }
+        }
     }
-    
+
+    // 显示争议提示
     if (disputedFields.length > 0) {
         console.log('[统计] 发现争议数据:', disputedFields);
-        // 可以在这里添加UI提示，比如在Dashboard下方显示争议说明
+
+        const banner = document.getElementById('disputeBanner');
+        if (banner) {
+            const fieldLabels = {
+                iranDeaths: '伊朗死亡', israelDeaths: '以色列死亡',
+                lebanonDeaths: '黎巴嫩死亡', usDeaths: '美军死亡',
+                displaced: '流离失所', iranInjured: '伊朗受伤'
+            };
+            const items = disputedFields.map(d => {
+                const label = fieldLabels[d.field] || d.field;
+                return `<div class="dispute-item"><strong>${label}</strong>: ${d.dispute}</div>`;
+            }).join('');
+            let html = `<div class="dispute-title">数据存在争议</div>${items}`;
+            if (latestVerified) {
+                html += `<div style="margin-top:6px;font-size:11px;color:var(--text-tertiary);">伤亡数据最后核实: ${latestVerified}</div>`;
+            }
+            banner.innerHTML = html;
+            banner.style.display = 'block';
+        }
+    } else if (latestVerified) {
+        // 无争议时也显示核实日期
+        const banner = document.getElementById('disputeBanner');
+        if (banner) {
+            banner.innerHTML = `<div style="font-size:11px;color:var(--text-tertiary);text-align:center;">伤亡数据最后核实: ${latestVerified}</div>`;
+            banner.style.display = 'block';
+            banner.style.background = 'transparent';
+            banner.style.border = 'none';
+            banner.style.padding = '4px 0';
+        }
+    }
+}
+
+/**
+ * 滚动到最新事件（第一个日期组）
+ */
+function scrollToLatest() {
+    const firstGroup = document.querySelector('.date-group');
+    if (firstGroup) {
+        firstGroup.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    } else {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 }
 
@@ -501,6 +574,43 @@ function toggleBg() {
             label.querySelector('.bg-toggle-hint').textContent = '点击展开';
         }
     }
+}
+
+/**
+ * 分享单条事件（复制锚点链接到剪贴板）
+ */
+function shareEvent(anchorId) {
+    const url = window.location.origin + window.location.pathname + '#' + anchorId;
+    if (navigator.clipboard) {
+        navigator.clipboard.writeText(url).then(() => {
+            showToast('链接已复制');
+        });
+    } else {
+        // fallback
+        const input = document.createElement('input');
+        input.value = url;
+        document.body.appendChild(input);
+        input.select();
+        document.execCommand('copy');
+        document.body.removeChild(input);
+        showToast('链接已复制');
+    }
+}
+
+/**
+ * 显示轻量提示
+ */
+function showToast(message) {
+    let toast = document.getElementById('toast');
+    if (!toast) {
+        toast = document.createElement('div');
+        toast.id = 'toast';
+        toast.style.cssText = 'position:fixed;bottom:80px;left:50%;transform:translateX(-50%);background:var(--primary);color:white;padding:8px 20px;border-radius:20px;font-size:13px;z-index:9999;transition:opacity 0.3s;pointer-events:none;';
+        document.body.appendChild(toast);
+    }
+    toast.textContent = message;
+    toast.style.opacity = '1';
+    setTimeout(() => { toast.style.opacity = '0'; }, 1500);
 }
 
 // 页面加载完成后初始化
