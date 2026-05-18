@@ -1993,24 +1993,29 @@
             .toc-links::-webkit-scrollbar { display: none; }
             .toc-link {
                 flex-shrink: 0;
-                padding: 4px 8px;
+                padding: 6px 12px;
                 font-size: 12px;
-                background: transparent;
-                border: none;
-                color: var(--text-secondary);
+                background: rgba(255,255,255,0.6);
+                border: 1px solid rgba(0,0,0,0.08);
+                color: rgba(0,0,0,0.6);
                 white-space: nowrap;
                 line-height: 1;
-                border-radius: 0;
+                border-radius: 16px;
             }
             [data-theme="dark"] .toc-link {
-                color: rgba(255,255,255,0.6);
+                background: rgba(50,60,80,0.6);
+                border-color: rgba(255,255,255,0.15);
+                color: rgba(255,255,255,0.7);
             }
             .toc-link.active {
-                color: var(--primary);
-                font-weight: 600;
+                background: var(--primary);
+                border-color: var(--primary);
+                color: white;
             }
             .toc-link:hover, .toc-link.active:hover {
-                color: var(--primary);
+                background: var(--primary);
+                border-color: var(--primary);
+                color: white;
                 transform: none;
                 box-shadow: none;
             }
