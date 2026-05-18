@@ -1992,33 +1992,24 @@
             .toc-links::-webkit-scrollbar { display: none; }
             .toc-link {
                 flex-shrink: 0;
-                padding: 6px 12px;
+                padding: 4px 8px;
                 font-size: 12px;
-                background: rgba(255,255,255,0.6);
-                backdrop-filter: blur(10px);
-                -webkit-backdrop-filter: blur(10px);
-                border: 1px solid rgba(0,0,0,0.08);
-                color: rgba(0,0,0,0.6);
+                background: transparent;
+                border: none;
+                color: var(--text-secondary);
                 white-space: nowrap;
                 line-height: 1;
-                border-radius: 16px;
+                border-radius: 0;
             }
             [data-theme="dark"] .toc-link {
-                background: rgba(50,60,80,0.6);
-                border-color: rgba(255,255,255,0.15);
-                color: rgba(255,255,255,0.7);
+                color: rgba(255,255,255,0.6);
             }
             .toc-link.active {
-                background: var(--primary);
-                border-color: var(--primary);
-                color: white;
-                backdrop-filter: blur(10px);
-                -webkit-backdrop-filter: blur(10px);
+                color: var(--primary);
+                font-weight: 600;
             }
             .toc-link:hover, .toc-link.active:hover {
-                background: var(--primary);
-                border-color: var(--primary);
-                color: white;
+                color: var(--primary);
                 transform: none;
                 box-shadow: none;
             }
