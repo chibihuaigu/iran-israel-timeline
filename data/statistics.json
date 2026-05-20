@@ -1,21 +1,21 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-05-18 20:07",
+  "lastUpdated": "2026-05-20 22:40",
   "description": "统计数据来源追踪文件，记录每个统计字段的数据来源和可信度",
   "fields": {
     "warDays": {
-      "value": 80,
+      "value": 83,
       "calculated_from": "events.json中max(date_id) + 1",
       "confidence": "high",
-      "note": "完全自动化计算，d36表示第37天",
+      "note": "完全自动化计算",
       "sources": [
         {
           "type": "自动计算",
           "formula": "max(date_id) + 1",
-          "date": "2026-05-18"
+          "date": "2026-05-20"
         }
       ],
-      "lastUpdated": "2026-05-18"
+      "lastUpdated": "2026-05-20"
     },
     "iranDeaths": {
       "value": "3,468+",
@@ -27,20 +27,20 @@
         {
           "value": "3,468",
           "source": "伊朗官方/Foundation of Martyrs",
-          "date": "2026-05-05"
+          "date": "2026-05-20"
         },
         {
           "value": "3,636+",
           "source": "HRANA独立核实",
-          "date": "2026-05-05"
+          "date": "2026-05-20"
         },
         {
           "value": "6,000+",
           "source": "US/Israel声称",
-          "date": "2026-05-05"
+          "date": "2026-05-20"
         }
       ],
-      "lastUpdated": "2026-05-18"
+      "lastUpdated": "2026-05-20"
     },
     "israelDeaths": {
       "value": "47",
@@ -49,10 +49,10 @@
         {
           "value": "47",
           "source": "Wikipedia/Casualties_of_the_2026_Iran_war",
-          "date": "2026-05-12"
+          "date": "2026-05-20"
         }
       ],
-      "lastUpdated": "2026-05-18"
+      "lastUpdated": "2026-05-20"
     },
     "usDeaths": {
       "value": "15",
@@ -62,10 +62,10 @@
         {
           "value": "15",
           "source": "Wikipedia/CENTCOM确认",
-          "date": "2026-05-12"
+          "date": "2026-05-20"
         }
       ],
-      "lastUpdated": "2026-05-18"
+      "lastUpdated": "2026-05-20"
     },
     "displaced": {
       "value": "160万+",
@@ -75,10 +75,10 @@
         {
           "value": "160万+",
           "source": "联合国/黎巴嫩卫生部",
-          "date": "2026-05-12"
+          "date": "2026-05-20"
         }
       ],
-      "lastUpdated": "2026-05-18"
+      "lastUpdated": "2026-05-20"
     },
     "lebanonDeaths": {
       "value": "2,869+",
@@ -88,20 +88,20 @@
         {
           "value": "2,869",
           "source": "黎巴嫩卫生部",
-          "date": "2026-05-12"
+          "date": "2026-05-20"
         },
         {
           "value": "1,000+",
           "source": "真主党自称",
-          "date": "2026-04-17"
+          "date": "2026-05-20"
         },
         {
           "value": "1,700",
           "source": "IDF声称击杀",
-          "date": "2026-04-17"
+          "date": "2026-05-20"
         }
       ],
-      "lastUpdated": "2026-05-18"
+      "lastUpdated": "2026-05-20"
     },
     "iranInjured": {
       "value": "15,000+",
@@ -113,15 +113,15 @@
         {
           "value": "26,500+",
           "source": "伊朗卫生部",
-          "date": "2026-04-27"
+          "date": "2026-05-20"
         },
         {
           "value": "15,000",
           "source": "US/Israel估计",
-          "date": "2026-05-05"
+          "date": "2026-05-20"
         }
       ],
-      "lastUpdated": "2026-05-18"
+      "lastUpdated": "2026-05-20"
     }
   }
 }
