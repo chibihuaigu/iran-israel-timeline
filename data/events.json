@@ -1,9 +1,222 @@
 {
   "version": "1.0",
-  "extracted_at": "2026-05-18 20:07:56",
-  "total_days": 79,
-  "total_events": 279,
+  "extracted_at": "2026-05-20 22:40:25",
+  "total_days": 82,
+  "total_events": 289,
   "events": [
+    {
+      "date_id": "d82",
+      "date_label": "5月20日",
+      "events": [
+        {
+          "time": "上午",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "习近平普京联合谴责\"背信弃义的打击\"",
+          "content": "中国国家主席习近平与俄罗斯总统普京5月20日发表联合声明，谴责针对伊朗的\"背信弃义的打击\"。普京原计划5月19-20日访问相关国家。这是中俄在美以伊冲突中最高级别的联合外交表态，标志着大国在中东问题上的对立进一步加深。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/putin-china-live-russian-leader-meets-xi-beijing-days-after-trump-2026-05-20/",
+              "name": "路透社",
+              "priority": 1
+            },
+            {
+              "url": "https://www.bbc.com/news/live/c86d7yqyyz6t",
+              "name": "BBC",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "凌晨",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "以色列空袭黎巴嫩致至少19人死亡，含妇女儿童",
+          "content": "以色列5月20日凌晨对黎巴嫩发动空袭，仅在沿海提尔省代尔卡农·纳赫尔村的一次空袭中就造成10人死亡，包括3名儿童和3名妇女。全天共造成至少19人死亡。尽管以色列与黎巴嫩已延长停火协议45天，但双方冲突仍在持续，停火协议形同虚设。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.theguardian.com/world/2026/may/20/deadly-israeli-strikes-lebanon",
+              "name": "卫报",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d81",
+      "date_label": "5月19日",
+      "events": [
+        {
+          "time": "下午",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "联合国安理会谴责对阿联酋巴拉卡核电站的袭击",
+          "content": "联合国安理会5月19日发表声明，谴责5月17日对阿联酋巴拉卡核电站的无人机袭击。安理会成员国一致认为此次袭击威胁地区安全与核安全。阿联酋在此次美以伊战争中遭受的伊朗导弹和无人机袭击比任何其他中东国家都多。IAEA总干事此前表示严重关切。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/putin-china-live-russian-leader-meets-xi-beijing-days-after-trump-2026-05-20/",
+              "name": "路透社",
+              "priority": 1
+            },
+            {
+              "url": "https://www.bbc.com/news/live/c86d7yqyyz6t",
+              "name": "BBC",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "中午",
+          "category": "政治",
+          "tag": "major-tag",
+          "title": "特朗普称距重启对伊军事行动仅\"一小时\"",
+          "content": "美国总统特朗普5月19日透露，他曾距重启对伊朗的军事行动仅\"一小时\"之遥。特朗普在坚持伊朗仍想达成协议的同时，暗示美国随时准备恢复军事打击。伊朗革命卫队随后警告，若美以再次发动\"侵略\"，战争将扩展到西亚以外地区。这一表态显示停火协议岌岌可危。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/5/19/trump-says-iran-attack-on-hold-what-we-know-about-latest-negotiations",
+              "name": "半岛电视台",
+              "priority": 1
+            },
+            {
+              "url": "https://www.theguardian.com/world/live/2026/may/20/us-iran-israel-lebanon-gaza-trump-oil-hormuz-latest-news-updates?filterKeyEvents=false",
+              "name": "卫报",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "上午",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "伊朗首席谈判代表：正准备对潜在攻击的\"有力回应\"",
+          "content": "伊朗首席谈判代表、最高国家安全委员会秘书5月19日表示，伊朗正准备对潜在攻击作出\"有力回应\"。此前一天特朗普曾威胁伊朗\"最好快点行动\"。伊朗外长阿拉格齐此前表示，相互矛盾的信息\"让我们对谈判持谨慎态度\"，暗示美伊之间存在严重的信任危机。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/5/19/trump-says-iran-attack-on-hold-what-we-know-about-latest-negotiations",
+              "name": "半岛电视台",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/asia-pacific/revised-iranian-proposal-end-war-shared-with-us-pakistani-source-says-2026-05-18/",
+              "name": "路透社",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d80",
+      "date_label": "5月18日",
+      "events": [
+        {
+          "time": "傍晚",
+          "category": "政治",
+          "tag": "major-tag",
+          "title": "特朗普威胁伊朗'最好快点'，数小时后撤回威胁",
+          "content": "美国总统特朗普5月17日在社交平台发文称\"伊朗的时钟在滴答作响，最好快点行动，否则将一无所有\"。然而数小时后特朗普撤回了这一威胁。据《纽约时报》同日报道，美国军方官员表示，面对美国持续数月的军事打击和封锁，伊朗表现出了巨大的韧性和军事实力。美官员透露，伊朗的核储备尚未受到影响，军事设施也未被完全摧毁。这一信息与特朗普此前声称的\"已摧毁伊朗100%军事能力\"形成鲜明对比。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/5/19/trump-says-iran-attack-on-hold-what-we-know-about-latest-negotiations",
+              "name": "半岛电视台",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "下午",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "伊朗回应美方最新和平方案，坚持核权利不可谈判",
+          "content": "伊朗外交部发言人巴加埃5月18日宣布，伊朗已通过巴基斯坦渠道回应美方最新提出的和平方案。巴加埃强调，伊朗的核权利是《不扩散核武器条约》赋予的，不会就此妥协或谈判。此前美方提出5项苛刻条件，包括伊朗将400公斤浓缩铀运交美国、仅保留一处核设施运转等。伊朗方面也提出5项建立互信前提，包括全面停火、解除制裁、解冻资产、赔偿损失等。双方立场根本对立。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/5/18/iran-sends-response-to-us-proposal-to-end-war-via-mediator-pakistan-2",
+              "name": "半岛电视台",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/asia-pacific/revised-iranian-proposal-end-war-shared-with-us-pakistani-source-says-2026-05-18/",
+              "name": "路透社",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "下午",
+          "category": "军事",
+          "tag": "tag",
+          "title": "伊拉克真主党旅警告：若美以再次打击将报复",
+          "content": "伊朗支持的伊拉克民兵组织真主党旅发言人阿布·穆贾希德·阿萨夫5月18日警告，如果美以再次打击伊朗支持的伊拉克民兵，该组织将进行报复。他还声称大部分美以\"侦察行动\"来自约旦，并警告约旦政府从近期冲突中吸取教训，意在阻止约旦允许美军从其领土发起打击。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-may-18-2026/",
+              "name": "ISW",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "上午",
+          "category": "外交",
+          "tag": "tag",
+          "title": "以色列与黎巴嫩延长停火45天并扩大谈判",
+          "content": "美国国务院5月18日宣布，以色列与黎巴嫩已同意将4月16日达成的停火协议延长45天，并启动更广泛的政治解决方案谈判。然而，以色列对黎巴嫩的空袭和真主党的攻击在整个周末持续进行。联合国安理会随后谴责了对阿联酋巴拉卡核电站的无人机袭击。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/middle-east/israel-lebanon-agree-extend-ceasefire-by-45-days-us-state-dept-says-2026-05-15/",
+              "name": "路透社",
+              "priority": 1
+            },
+            {
+              "url": "https://apnews.com/video/israel-and-lebanon-agree-to-45-day-extension-of-ceasefire-us-says-c21e85b70c75489e9793a4895dacab2e",
+              "name": "美联社",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "上午",
+          "category": "外交",
+          "tag": "tag",
+          "title": "伊朗外交部：已准备好应对与美冲突的任何局面",
+          "content": "伊朗外交部发言人巴加埃5月18日在新闻发布会上表示，德黑兰已准备好应对与美冲突的任何局面。巴加埃强调，伊朗武装力量在40天的战斗行动中已经证明，将以全力回击任何鲁莽的举动。此前CNN报道称五角大楼已拟定针对伊朗境内的打击目标清单。巴加埃同时强调，伊朗严肃地寻求以外交方式调解冲突。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/5/18/iran-sends-response-to-us-proposal-to-end-war-via-mediator-pakistan-2",
+              "name": "半岛电视台",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/asia-pacific/revised-iranian-proposal-end-war-shared-with-us-pakistani-source-says-2026-05-18/",
+              "name": "路透社",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
     {
       "date_id": "d79",
       "date_label": "5月18日",
