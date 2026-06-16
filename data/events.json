@@ -1,9 +1,328 @@
 {
   "version": "1.0",
-  "extracted_at": "2026-06-17 01:26:24",
-  "total_days": 90,
-  "total_events": 316,
+  "extracted_at": "2026-06-17 01:36:00",
+  "total_days": 95,
+  "total_events": 330,
   "events": [
+    {
+      "date_id": "d93",
+      "date_label": "5月31日",
+      "events": [
+        {
+          "time": "晚间",
+          "category": "政治",
+          "tag": "rumor",
+          "title": "反政府媒体：佩泽什基安总统已提交辞呈，伊朗官媒否认",
+          "content": "5月31日，反政府媒体援引未具名消息源报道，伊朗总统佩泽什基安（Masoud Pezeshkian）已向最高领袖Mojtaba Khamenei提交辞呈，信中称IRGC强硬派已\"接管\"政府、他被排除在\"重大决策过程\"之外、已无法履行总统职责。ISW-CTP表示无法独立核实该报道，伊朗国家媒体（IRNA、Tasnim）已正式否认，伊朗总统办公室副发言人塔巴塔巴伊称相关报道为\"外国不可靠媒体的造谣\"。",
+          "major": false,
+          "verification_status": "single_authoritative",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-may-31-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "下午",
+          "category": "外交",
+          "tag": "official-statement",
+          "title": "IRGC塔斯尼姆：宁可不签\"坏协议\"",
+          "content": "5月31日，IRGC关联塔斯尼姆新闻社发文认为，对伊朗来说，不达成协议比接受一个无法保障伊朗利益的\"坏协议\"更可取。这是IRGC首次公开表达对MoU草案的反对意见，反映出伊朗强硬派对当前协议框架的强烈抵触。消息人士指出，伊朗最高领袖Mojtaba Khamenei尚未对当前MoU草案作出回应。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-may-31-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            },
+            {
+              "url": "https://english.alarabiya.net/News/middle-east/2026/05/29/iran-sources-tell-irgclinked-agency-trump-comments-on-deal-mixture-of-truth-lies-",
+              "name": "阿拉比亚电视台",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "上午",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "特朗普要求修改MoU草案（HEU、霍尔木兹、解冻资产）",
+          "content": "5月31日ISW报告指出，一名特朗普政府高级官员和另一名消息人士5月30日告诉Axios，特朗普已要求对MoU草案进行多项实质性修改。特朗普特别要求修改关于美国如何及何时获取伊朗高浓缩铀（HEU）的条款（当前草案未包含伊朗HEU移交或停止浓缩的承诺），还要求修改霍尔木兹海峡相关文本。三名美国官员同日告诉《纽约时报》，特朗普对MoU中涉及美国解冻伊朗资金的条款表示担忧。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-may-31-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            },
+            {
+              "url": "http://www.xinhuanet.com/world/20260531/7e407ffa35a742b89da6624c57e0522f/c.html",
+              "name": "新华网",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d92",
+      "date_label": "5月30日",
+      "events": [
+        {
+          "time": "晚间",
+          "category": "外交",
+          "tag": "negotiation",
+          "title": "伊朗谈判团成员：120亿美元被冻资产是核心条件",
+          "content": "5月30日，接近议长加利巴夫的伊朗谈判团队成员明确表示，伊朗对120亿美元被冻结资产的\"不可逆\"使用权是任何可能协议的\"主要条件\"之一。IRGC关联法尔斯新闻社引述消息源称，伊朗要求\"在进入下一阶段谈判前立即释放120亿美元\"。卡塔尔5月29日拒绝了伊朗关于立即无条件释放该笔资金的请求，仅同意在严格限制下释放一半（约60亿美元）作为购买卡塔尔必需品的信贷额度，反映美方强烈反对伊朗获得\"流动资金\"。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://english.alarabiya.net/News/middle-east/2026/05/30/us-warns-it-is-capable-of-resuming-war-with-iran-as-deal-remains-elusive",
+              "name": "阿拉比亚电视台",
+              "priority": 1
+            },
+            {
+              "url": "https://apnews.com/article/iran-us-war-oil-may-28-2026-8f5ed2813ba63df7ae9ccbe991688d29",
+              "name": "美联社（AP News）",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "下午",
+          "category": "军事",
+          "tag": "rhetoric",
+          "title": "Khatam ol Anbia中央总部：任何军事船只干预海峡将被\"瞄准\"",
+          "content": "5月30日，伊朗Khatam ol Anbia中央总部发表声明，伊朗武装力量\"完全管理\"霍尔木兹海峡，所有船舶必须获得IRGC海军许可后通过伊朗航道分离方案。声明警告：任何军事船只试图干预伊朗对海峡的管理或扰乱海上交通，将成为伊朗武装力量的\"目标\"。伊朗议会准备就一项将海峡管理权\"合法化\"的法案进行投票。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://english.news.cn/20260531/59b199f7345c4c86bb1c4f8cc6fefe61/c.html",
+              "name": "新华网",
+              "priority": 1
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/5/30/iran-reasserts-control-over-hormuz-strait-as-deal-with-us-remains-elusive",
+              "name": "半岛电视台",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "上午",
+          "category": "军事",
+          "tag": "incident",
+          "title": "IRGC海军发布每日数据：20艘船通过伊朗非法航道分离方案",
+          "content": "5月30日IRGC海军开始发布每日通过伊朗非法航道分离方案的船舶数据，当日共有20艘船通过。IRGC海军声称对部分船舶出于\"人道主义原因\"提供\"安全通行\"，试图将自己包装为合理行为方。但美国与国际社会必须继续拒绝伊朗将该方案\"常态化\"的努力，因为这种努力损害国际商业利益，并对国际水域航行自由构成危险先例。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://english.news.cn/20260531/59b199f7345c4c86bb1c4f8cc6fefe61/c.html",
+              "name": "新华网",
+              "priority": 1
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/5/30/iran-reasserts-control-over-hormuz-strait-as-deal-with-us-remains-elusive",
+              "name": "半岛电视台",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d91",
+      "date_label": "5月29日",
+      "events": [
+        {
+          "time": "晚间",
+          "category": "军事",
+          "tag": "rhetoric",
+          "title": "IRGC声明：以色列须\"从地图上抹去\"，5万美军戒备",
+          "content": "5月29日，IRGC就以色列空袭哈马斯官员事件发表声明：\"只要这个杀害儿童邪恶政权不从中东地图上消失，地区就不会有和平。\"IRGC还批评特朗普的和平计划\"只带来死亡和恐怖\"。同日，5万美军士兵进入戒备状态，等待白宫对伊朗的最终决策。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.presstv.co.uk/Detail/2026/05/29/769580/",
+              "name": "Press TV（伊朗官媒）",
+              "priority": 3
+            },
+            {
+              "url": "https://english.alarabiya.net/News/middle-east/2026/05/29/iran-sources-tell-irgclinked-agency-trump-comments-on-deal-mixture-of-truth-lies-",
+              "name": "阿拉比亚电视台",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "下午",
+          "category": "外交",
+          "tag": "official-statement",
+          "title": "伊朗外交部发言人巴加埃：协议\"尚未最终确定\"",
+          "content": "5月29日，伊朗外交部发言人巴加埃（Esmaeil Baghaei）就特朗普声明回应称，美伊之间的信息交换仍在进行中，谅解\"尚未最终确定\"。他表示：\"伊朗47年前就与命令分道扬镳了。\"巴加埃强调，伊朗基于自身利益和权利作出决定，外部要求应被视为\"请求\"而非命令。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "http://www.xinhuanet.com/world/20260531/7e407ffa35a742b89da6624c57e0522f/c.html",
+              "name": "新华网",
+              "priority": 1
+            },
+            {
+              "url": "https://www.presstv.co.uk/Detail/2026/05/29/769512/",
+              "name": "Press TV（伊朗官媒）",
+              "priority": 3
+            }
+          ]
+        },
+        {
+          "time": "上午",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "特朗普Truth Social声明：要求伊朗弃核、开放霍尔木兹海峡、移除水雷",
+          "content": "5月29日，美国总统特朗普在Truth Social发布详细声明，列出对伊朗的三大要求：伊朗必须同意永不拥有核武器；霍尔木兹海峡必须立即开放，无任何通行费，保障双向无限制通航；伊朗须移除所有水雷。特朗普还表示在签署任何协议前\"不会交换任何资金\"。但IRGC关联法尔斯新闻社引述知情消息源称，特朗普关于协议的表态是\"真相与谎言的混合体\"。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "http://www.xinhuanet.com/world/20260531/7e407ffa35a742b89da6624c57e0522f/c.html",
+              "name": "新华网",
+              "priority": 1
+            },
+            {
+              "url": "https://english.alarabiya.net/News/middle-east/2026/05/29/iran-sources-tell-irgclinked-agency-trump-comments-on-deal-mixture-of-truth-lies-",
+              "name": "阿拉比亚电视台",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d90",
+      "date_label": "5月28日",
+      "events": [
+        {
+          "time": "晚间",
+          "category": "经济",
+          "tag": "sanction",
+          "title": "美财政部制裁伊朗\"波斯湾海峡管理局\"（PGSA）",
+          "content": "5月28日美联社报道，美国财政部外国资产控制办公室（OFAC）对伊朗新成立的\"波斯湾海峡管理局\"（PGSA）实施新制裁，并威胁将制裁任何参与PGSA保险计划的实体。PGSA是伊朗在霍尔木兹海峡建立通行收费和海上管控的核心机构。此举是美方对伊朗将海峡控制权\"合法化\"努力的强力反击。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://apnews.com/article/iran-us-war-oil-may-28-2026-8f5ed2813ba63df7ae9ccbe991688d29",
+              "name": "美联社（AP News）",
+              "priority": 1
+            },
+            {
+              "url": "https://english.alarabiya.net/News/middle-east/2026/05/28/us-and-iran-reach-deal-but-need-trumps-final-approval-report",
+              "name": "阿拉比亚电视台",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "下午",
+          "category": "军事",
+          "tag": "incident",
+          "title": "美空袭阿巴斯港机场，IRGC反击美军基地并逼退美油轮",
+          "content": "5月28日凌晨，美军对阿巴斯港机场附近发动空袭，作为回应，IRGC宣布对美军实施反击，袭击了美军发起攻击的基地，并迫使一艘试图非法通过霍尔木兹海峡的美油轮掉头。IRGC警告：任何针对伊朗的新侵略行为都将得到回应。同日科威特防空部队拦截伊朗导弹和无人机攻击。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://english.alarabiya.net/News/middle-east/2026/05/28/latest-us-strikes-on-iran-carried-out-in-self-defense-source-",
+              "name": "阿拉比亚电视台",
+              "priority": 1
+            },
+            {
+              "url": "https://www.presstv.co.uk/Detail/2026/05/28/769441/",
+              "name": "Press TV（伊朗官媒）",
+              "priority": 3
+            }
+          ]
+        },
+        {
+          "time": "上午",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "Axios独家：美伊达成60天MoU草案，但Mojtaba未批准",
+          "content": "5月28日Axios报道引述美国官员透露，美伊谈判团队已就延长停火、启动核谈达成60天谅解备忘录（MoU）草案，美方称伊朗谈判团队获得\"高层批准\"。但同日，IRGC关联塔斯尼姆新闻社引述接近谈判团队的消息源否认协议已\"敲定\"，以色列媒体也称伊朗最高领袖Mojtaba尚未批准该\"协议\"。副总统万斯表示：\"总统是否签署、何时签署还不确定。\"",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://apnews.com/article/iran-us-war-oil-may-28-2026-8f5ed2813ba63df7ae9ccbe991688d29",
+              "name": "美联社（AP News）",
+              "priority": 1
+            },
+            {
+              "url": "https://english.alarabiya.net/News/middle-east/2026/05/28/us-and-iran-reach-deal-but-need-trumps-final-approval-report",
+              "name": "阿拉比亚电视台",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d89",
+      "date_label": "5月27日",
+      "events": [
+        {
+          "time": "下午",
+          "category": "军事",
+          "tag": "incident",
+          "title": "美空袭击毙伊朗4名海军，伊朗指\"严重违反\"停火",
+          "content": "5月27日（周三），美军夜间对伊朗南部发动\"自卫性\"空袭击毙伊朗4名海军人员。伊朗指责美国此举是\"严重违反\"美伊脆弱停火协议，IRGC海军副政委穆罕默德·阿克巴扎德（Mohammad Akbarzadeh）警告：\"从恰巴哈尔到马赫沙赫尔，将成为侵略者的坟场\"。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://apnews.com/article/trump-iran-nuclear-cabinet-meeting-af77d581873bfeec32d7342b56841244",
+              "name": "美联社（AP News）",
+              "priority": 1
+            },
+            {
+              "url": "https://english.alarabiya.net/News/middle-east/2026/05/28/latest-us-strikes-on-iran-carried-out-in-self-defense-source-",
+              "name": "阿拉比亚电视台",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "上午",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "伊朗最高领袖顾问韦拉亚提：霍尔木兹海峡是伊朗\"终极杠杆\"",
+          "content": "5月27日ISW报告指出，伊朗最高领袖顾问韦拉亚提（Ali Akbar Velayati）将霍尔木兹海峡描述为伊朗的\"终极杠杆\"和美伊协议\"生存的真正保证\"。韦拉亚提的言论表明伊朗政界高层正围绕霍尔木兹控制权凝聚共识，将此作为对美以威慑的关键支柱，也是伊朗弹道导弹能力被削弱后重建威慑的核心。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.presstv.co.uk/Detail/2026/05/27/769259/",
+              "name": "Press TV（伊朗官媒）",
+              "priority": 3
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/5/27/iran-velayati-strait-of-hormuz-ultimate-leverage-iran",
+              "name": "半岛电视台",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
     {
       "date_id": "d88",
       "date_label": "5月26日",
