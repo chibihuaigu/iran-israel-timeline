@@ -1,10 +1,10 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-06-17 01:05",
+  "lastUpdated": "2026-06-17 01:26",
   "description": "统计数据来源追踪文件，记录每个统计字段的数据来源和可信度",
   "fields": {
     "warDays": {
-      "value": 83,
+      "value": 89,
       "calculated_from": "events.json中max(date_id) + 1",
       "confidence": "high",
       "note": "完全自动化计算",
