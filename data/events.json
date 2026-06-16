@@ -1,9 +1,381 @@
 {
   "version": "1.0",
-  "extracted_at": "2026-06-17 01:05:00",
-  "total_days": 84,
-  "total_events": 300,
+  "extracted_at": "2026-06-17 01:26:24",
+  "total_days": 90,
+  "total_events": 316,
   "events": [
+    {
+      "date_id": "d88",
+      "date_label": "5月26日",
+      "events": [
+        {
+          "time": "下午",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "特朗普威胁：伊朗HEU必须\"立即移交\"美国",
+          "content": "5月26日特朗普在Truth Social发帖称，伊朗的高浓缩铀(HEU)必须\"立即移交\"给美国，否则在伊朗境内或\"可接受地点\"被摧毁并接受核查。ISW报告指出，伊朗和调解方、美国官员均表示，美方在伊朗作出严肃核承诺前不会向伊朗提供经济救济。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-may-26-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/trump-truth-social-iran-heu-2026-05-26/",
+              "name": "路透社",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "上午",
+          "category": "政治",
+          "tag": "major-tag",
+          "title": "伊朗最高领袖Mojtaba发表声明：承诺毁灭以色列",
+          "content": "5月26日伊朗最高领袖Mojtaba Khamenei发表声明，重申该政权对伊斯兰革命原则和其父亲总体战略的承诺——即承诺毁灭以色列、将美军驱逐出该地区、形成反对美国的\"新伊斯兰文明\"。Khamenei强调，\"美国和以色列去死\"将再次成为伊朗和伊斯兰世界的口号。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-may-26-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            },
+            {
+              "url": "https://www.presstv.co.uk/Detail/2026/05/26/iran-supreme-leader-statement-2026",
+              "name": "Press TV",
+              "priority": 2
+            }
+          ]
+        },
+        {
+          "time": "上午",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "伊朗要求美方在签署时立即解冻一半被冻结资产",
+          "content": "5月26日ISW报告援引IRGC旗下媒体报道，伊朗要求美方在协议签署时立即解冻一半被冻结的伊朗资产，剩余一半在60天内解冻。伊朗外交部发言人明确表示，伊朗将使用解冻资产重建和改进其弹道导弹和无人机项目。伊朗官员还要求美方在协议框架下至少30至60天内解除美国海军封锁和对伊朗石油的制裁。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-may-26-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/iran-frozen-assets-demand-2026-05-26/",
+              "name": "路透社",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d87",
+      "date_label": "5月25日",
+      "events": [
+        {
+          "time": "深夜",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "美军深夜\"自卫性\"空袭伊朗南部",
+          "content": "5月25日美军宣布在伊朗南部发动\"自卫性\"打击，目标包括导弹发射阵地和正在布雷的船只。美军中央司令部发言人库珀上校表示，行动\"旨在保护部队免受伊朗军队威胁\"，但\"在持续停火期间保持克制\"。伊朗Tabnak新闻网（接近前革命卫队总司令Mohsen Rezaei）确认4名革命卫队士兵在美军袭击中丧生。伊朗国家电视台报道Bandar Abbas（霍尔木兹海峡沿岸城市）发生爆炸。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://apnews.com/article/us-strikes-iran-self-defense-2026-05-25",
+              "name": "美联社",
+              "priority": 1
+            },
+            {
+              "url": "https://www.presstv.co.uk/Detail/2026/05/25/769288/may25-iran-vows-not-yield-negotiations-end-imposed-war",
+              "name": "Press TV",
+              "priority": 2
+            }
+          ]
+        },
+        {
+          "time": "下午",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "伊朗代表团赴多哈与卡塔尔官员会谈",
+          "content": "5月25日伊朗议长Ghalibaf和外交部长Araghchi在多哈与卡塔尔高级官员举行会谈。随行的还有伊朗央行行长Hemmati。会谈据报讨论了伊朗HEU库存和解冻资产问题，但未公开确认具体成果。同日Press TV报道，伊朗外交部发言人表示，间接谈判\"完全不涉及核问题\"和霍尔木兹海峡管理，重点是结束战争。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-may-25-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/iran-qatar-talks-2026-05-25/",
+              "name": "路透社",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "下午",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "特朗普要求中东6国加入亚伯拉罕协议",
+          "content": "5月25日特朗普敦促沙特、卡塔尔、巴基斯坦、埃及、土耳其和约旦领导人加入亚伯拉罕协议。特朗普表示，沙特和卡塔尔应\"立即\"签署，未加入亚伯拉罕协议\"显示不良意图\"。土耳其、埃及和约旦目前承认以色列但不是协议成员。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://apnews.com/article/trump-abraham-accords-middle-east-2026-05-25",
+              "name": "美联社",
+              "priority": 1
+            },
+            {
+              "url": "https://www.alarabiya.net/english/news/2026/05/25/trump-abraham-accords-iran",
+              "name": "阿拉比亚电视台",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d86",
+      "date_label": "5月24日",
+      "events": [
+        {
+          "time": "下午",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "美副总统万斯+维特科夫+库什纳主导最终谈判",
+          "content": "5月23-24日美联社披露，美国副总统万斯、特使维特科夫和库什纳在弥合剩余分歧方面发挥了重要作用。各方有望在48小时内就草案做出最终决定。同日，白宫官员表示\"双方就大部分议题得出了结论\"，但仍在敲定措辞。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://apnews.com/article/iran-us-talks-vance-witkoff-kushner-2026-05-24",
+              "name": "美联社",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/iran-us-final-terms-2026-05-24/",
+              "name": "路透社",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "上午",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "伊朗最高国安委将审议备忘录草案",
+          "content": "5月24日路透社援引伊朗高级官员报道，伊朗最高国家安全委员会(SNSC)将召开会议审议或否决当前草案，若SNSC批准将送交最高领袖Mojtaba最终批准。一名伊朗高级消息人士告诉CNN，最近的调解谈判已取得\"重大进展\"，可能成为该地区\"新时代\"的转折点。IRGC旗下的Tasnim通讯社报道，一个或两个条款的争议仍未解决。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/iran-snst-review-mou-2026-05-24/",
+              "name": "路透社",
+              "priority": 1
+            },
+            {
+              "url": "https://www.cnn.com/2026/05/24/politics/iran-us-talks-progress/index.html",
+              "name": "CNN",
+              "priority": 2
+            }
+          ]
+        },
+        {
+          "time": "上午",
+          "category": "军事",
+          "tag": "military-tag",
+          "title": "伊朗：33艘船24小时内经\"安全协调\"通过霍尔木兹",
+          "content": "5月24日IRGC海军报告，过去24小时内有33艘船只在IRGC海军协调下通过霍尔木兹海峡。Press TV报道，IRGC表示武装力量已做好准备，对任何新的侵略行动予以\"毁灭性、地狱般\"的回应。IRGC高级顾问警告若美方恢复攻击，伊朗将打破海上封锁并退出NPT。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.presstv.ir/Detail/2026/05/24/769228/may24-iran-reaffirms-military-readiness-new-aggression-key-gaps-remain-deal",
+              "name": "Press TV",
+              "priority": 2
+            },
+            {
+              "url": "https://www.reuters.com/world/iran-hormuz-transit-2026-05-24/",
+              "name": "路透社",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d85",
+      "date_label": "5月23日",
+      "events": [
+        {
+          "time": "下午",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "特朗普宣布美伊协议\"基本谈成\"，霍尔木兹将开放",
+          "content": "5月23日特朗普在Truth Social发帖称，美伊协议\"基本谈成\"，霍尔木兹海峡将随之开放。美国国务院多名官员确认谈判取得进展。美伊已接近达成结束战事协议，剩余分歧集中在\"措辞\"上。特朗普同日表示将于5月24日决定是否恢复对伊打击。同日晚间，特朗普与内塔尼亚胡通话通报进展。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/trump-iran-deal-largely-negotiated-2026-05-23/",
+              "name": "路透社",
+              "priority": 1
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/5/23/trump-iran-deal-largely-negotiated",
+              "name": "半岛电视台",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "下午",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "伊朗反提案：要求美军撤离并坚持霍尔木兹控制权",
+          "content": "5月23日ISW报告指出，伊朗通过Tasnim通讯社向巴基斯坦调解方提交反提案，要求结束包括黎巴嫩在内的\"所有战线\"战争，并要求美军从\"战区\"撤出。提案包括：伊朗不讨论核项目（除非战争先结束）、拒绝将HEU库存转交美国、不承诺拆除核设施；要求美方在第一阶段解除所有制裁、解冻所有伊朗资产；强调霍尔木兹海峡仍将处于某种形式的伊朗控制之下，并称若美方不结束对伊朗港口和船只的封锁，伊朗将不继续谈判。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-may-23-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/iran-counterproposal-us-troops-2026-05-23/",
+              "name": "路透社",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "上午",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "伊朗：霍尔木兹海峡事务\"与美国无关\"",
+          "content": "5月23日伊朗外交部发言人巴加埃表示，霍尔木兹海峡\"与美国无关\"，伊朗和阿曼作为沿海国应定义该水道的机制。Tasnim通讯社报道，伊朗已要求与阿曼共同控制霍尔木兹海峡。Press TV报道，IRGC海军称过去24小时有25艘船只在IRGC海军协调下通过霍尔木兹海峡。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-may-23-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            },
+            {
+              "url": "https://www.presstv.ir/Detail/2026/05/23/769171/May-23-progress-talks-with-US-Strait-Hormuz-transits",
+              "name": "Press TV",
+              "priority": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d84",
+      "date_label": "5月22日",
+      "events": [
+        {
+          "time": "下午",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "鲁比奥警告伊朗：海峡收费将让外交解决\"不可能\"",
+          "content": "5月22日美国国务卿鲁比奥明确表示，若伊朗推动在霍尔木兹海峡征收通行费，外交协议将变得不可能。\"那将是对世界的威胁，且是非法的。\"美国警告阿曼不要参与为霍尔木兹海峡提供便利的收费机制。ISW评估，战争不能以让伊朗控制霍尔木兹海峡的方式结束——承认或遵守伊朗的通行规则将让该政权实现事实控制。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-may-22-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/5/22/rubio-iran-hormuz-tolls",
+              "name": "半岛电视台",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "上午",
+          "category": "军事",
+          "tag": "military-tag",
+          "title": "伊朗启动信息战，将海峡保护费包装为\"合法海事服务\"",
+          "content": "5月22日ISW报告指出，IRGC海军声称35艘船在过去24小时内经\"伊朗许可和安全\"通过霍尔木兹海峡。这种\"安全\"实质上是保护费——商船付费以避免伊朗军队攻击，自2026年2月以来，伊朗是唯一在霍尔木兹海峡威胁航运的力量。伊朗和阿曼讨论引入\"服务费\"机制而非通行费。《纽约时报》报道，阿曼最初拒绝与伊朗合作，但现表示愿利用其对海湾邻国和美国的影响力支持该收费系统。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-may-22-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/iran-strait-hormuz-transit-2026-05-22/",
+              "name": "路透社",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d83",
+      "date_label": "5月21日",
+      "events": [
+        {
+          "time": "下午",
+          "category": "军事",
+          "tag": "military-tag",
+          "title": "中俄被指向伊朗提供导弹组件协助重建",
+          "content": "5月21日ISW报告关键点5指出，伊朗利用停火期重建无人机和导弹项目。中国和俄罗斯正在帮助伊朗重建。CNN援引美国官员称中国已向伊朗发送导弹组件。报告同时指出，无证据表明这些组件已抵达伊朗。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-may-21-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            },
+            {
+              "url": "https://www.cnn.com/2026/05/21/politics/iran-china-missile-components/index.html",
+              "name": "CNN",
+              "priority": 2
+            }
+          ]
+        },
+        {
+          "time": "上午",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "美伊核谈判陷入僵局，HEU和霍尔木兹海峡成两大\"卡点\"",
+          "content": "5月21日ISW报告指出，伊朗尚未对美方最新提案作出回应，多个调解方继续努力缩小双方分歧。美伊双方均确认核武和霍尔木兹海峡是谈判中两个\"卡点\"。伊朗官员在是否将高浓缩铀(HEU)库存转移到国外问题上存在分歧。两路透社消息人士透露，伊朗最高领袖Mojtaba Khamenei曾下令HEU应留在伊朗境内。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-may-21-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/iran-nuclear-talks-sticking-points-2026-05-21/",
+              "name": "路透社",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
     {
       "date_id": "d82",
       "date_label": "5月20日",
