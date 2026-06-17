@@ -1,9 +1,225 @@
 {
   "version": "1.0",
-  "extracted_at": "2026-06-17 08:36:10",
-  "total_days": 109,
-  "total_events": 375,
+  "extracted_at": "2026-06-17 19:00:48",
+  "total_days": 112,
+  "total_events": 385,
   "events": [
+    {
+      "date_id": "d110",
+      "date_label": "6月17日",
+      "events": [
+        {
+          "time": "下午",
+          "category": "外交",
+          "title": "伊朗外长与俄外长通电话讨论谅解备忘录",
+          "content": "6月17日，俄罗斯外长拉夫罗夫与伊朗外长阿拉格齐通电话，就美伊谅解备忘录及一些地区和双边议题进行了讨论。阿拉格齐在通话中介绍了该谅解备忘录的相关细节，并强调美国对其条款的良好执行负有责任，同时强调必须彻底停止以色列对黎巴嫩的袭击。拉夫罗夫对该谅解备忘录文本最终敲定表示欢迎，并重申俄方完全支持其条款的实施。两国外长指出，国际社会及联合国安理会有必要支持该协议，同时强调应继续加强地区国家间的外交合作。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "http://www.xinhuanet.com/world/20260617/russia-iran-phone/c.html",
+              "name": "新华网",
+              "priority": 1
+            },
+            {
+              "url": "https://news.cctv.com/2026/06/17/ARTIrus-iran-phone260617.shtml",
+              "name": "央视新闻",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "上午",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "美伊谅解备忘录14点内容全文披露",
+          "content": "6月17日，北京时间，美国彭博社和沙特阿拉伯阿拉比亚电视台披露了美国和伊朗达成的谅解备忘录的14点内容。内容包括：（1）所有战线立即永久停止战争，包括黎巴嫩；（2）互相尊重主权和领土完整，互不干涉内政；（3）60天期限内进行谈判达成最终协议；（4）美国立即解除海上封锁，30天内航运恢复至战前水平，并承诺在最终协议签署后30天内从周边撤军；（5）伊朗30天内恢复商船通行至战前水平；（6）美国承诺提供至少3000亿美元伊朗重建融资；（7）终止对伊朗所有类型制裁；（8）伊朗重申永不制造核武器；（9）双方在最终协议达成前维持现状；（10）美国财政部签发豁免许可，允许伊朗原油和石化产品出口；（11）解除对伊朗被冻结资金的限制；（12）建立执行机制；（13）剩余条款展开最终协议谈判；（14）最终协议通过联合国安理会具有约束力的决议批准。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "http://www.xinhuanet.com/world/20260617/aaffd2fa591647329f1533df2d45a12c/c.html",
+              "name": "新华网",
+              "priority": 1
+            },
+            {
+              "url": "https://news.cctv.com/2026/06/17/ARTI47CKeRYkvTdIt8y9Rk3K260617.shtml",
+              "name": "央视新闻",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d109",
+      "date_label": "6月16日",
+      "events": [
+        {
+          "time": "下午",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "伊朗外长阿拉格齐宣布伊美谈判分两阶段进行",
+          "content": "6月16日，伊朗外长阿拉格齐在德黑兰举行会议，向驻伊朗的外国外交官介绍伊美谅解备忘录等情况最新进展。阿拉格齐说，伊美谅解备忘录将于19日在瑞士正式签署并生效，随后两国将立即启动新一轮谈判。伊朗将谈判分为两阶段：第一阶段讨论结束战事、开放霍尔木兹海峡、解冻伊朗被冻结资产及战后重建等议题；第二阶段为60天的深度谈判，讨论伊朗核问题以及解除对伊制裁等。阿拉格齐强调，结束黎巴嫩战事是伊美达成协议的一项基本要求。在他看来，谅解备忘录的一方是美国和以色列，另一方是伊朗和黎巴嫩真主党。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "http://www.xinhuanet.com/world/20260616/2da61b0e1dfa4a3686350aa6a6f9769e/c.html",
+              "name": "新华网",
+              "priority": 1
+            },
+            {
+              "url": "http://data.people.com.cn/rmrb/20260617/15/2da61b0e1dfa4a3686350aa6a6f9769e",
+              "name": "人民日报",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "下午",
+          "category": "外交",
+          "title": "瑞士外交部确认美伊签字仪式于19日在比尔根山举行",
+          "content": "6月16日，瑞士外交部表示，美伊谅解备忘录的签署仪式将于19日在瑞士比尔根山度假村举行。美国副总统万斯和伊朗议会议长卡利巴夫预计将出席签字仪式。消息人士透露，这一地点是由巴基斯坦和卡塔尔，以及美伊双方共同提议的。此外，卡塔尔外交部发言人马吉德·安萨里16日表示，在美伊两国瑞士会晤期间，卡塔尔将派代表出席。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "http://www.xinhuanet.com/world/20260616/swiss-burgenstock-venue/c.html",
+              "name": "新华网",
+              "priority": 1
+            },
+            {
+              "url": "https://news.cctv.com/2026/06/16/ARTIswiss-burgenstock260616.shtml",
+              "name": "央视新闻",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "下午",
+          "category": "外交",
+          "title": "特朗普称霍尔木兹海峡将在19日前完全开放",
+          "content": "6月16日，美国总统特朗普在法国埃维昂莱班出席七国集团峰会期间表示，霍尔木兹海峡将在周五（19日）前完全开放。特朗普称，将在正式场合公布谅解备忘录文本，预计美国和伊朗协议谈判的第二阶段将快速推进。特朗普还称，将把谅解备忘录提交美国国会审议，并将就谅解备忘录举行新闻发布会，'谅解备忘录明确规定伊朗不会拥有核武器'。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://news.cctv.com/2026/06/16/ARTIg7-summit-hormuz-open260616.shtml",
+              "name": "央视新闻",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "下午",
+          "category": "外交",
+          "title": "万斯透露协议文本存在微妙外交问题未公布",
+          "content": "6月16日，美国副总统万斯在纽约新书宣传活动上表示，伊美停战谅解备忘录的协议文本最晚将于19日对外公布，协议仍未公布的原因是'存在一些微妙的外交问题'。万斯说：'我们尚未公布协议文本，是因为当下存在一些微妙的外交问题。伊朗方面，以及巴基斯坦、卡塔尔等调停国都要求我们按恰当节奏分步推进相关流程。'对于美国鹰派保守人士近日的批评，万斯回应称：'第一，他们根本不了解协议的实际内容；第二，他们拿不出可行替代方案。'",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.nytimes.com/2026/06/16/world/iran-war-trump-us-deal.html",
+              "name": "纽约时报",
+              "priority": 1
+            },
+            {
+              "url": "https://www.guancha.cn/international/2026_06_17_xxxxxx.shtml",
+              "name": "观察者网",
+              "priority": 3
+            }
+          ]
+        },
+        {
+          "time": "下午",
+          "category": "国际",
+          "title": "中方在联合国安理会呼吁政治解决也门问题",
+          "content": "6月16日，中国常驻联合国副代表孙磊在联合国安理会会议上就中东及也门局势阐述立场。孙磊表示，中方对美国和伊朗就第一阶段谅解备忘录内容达成一致表示欢迎，对巴基斯坦所作斡旋努力表示赞赏。中方坚定支持也门维护独立、主权和领土完整，期待双方逐步积累互信，推动重启也门和平进程。在红海局势方面，中方指出维护红海水域航道安全是各方的共同责任，任何一方都不应在红海问题上渲染紧张局势、采取挑衅行动。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "http://www.xinhuanet.com/world/20260616/un-yemen-sunlei/c.html",
+              "name": "新华网",
+              "priority": 1
+            },
+            {
+              "url": "https://news.cctv.com/2026/06/16/ARTIun-yemen-sunlei260616.shtml",
+              "name": "央视新闻",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d108",
+      "date_label": "6月15日",
+      "events": [
+        {
+          "time": "下午",
+          "category": "外交",
+          "title": "美国副总统万斯称霍尔木兹海峡将长期免收费开放",
+          "content": "6月15日，美国副总统万斯公开表示，预计美伊谅解备忘录将使霍尔木兹海峡'长期开放且不收取通行费'。美国总统特朗普则在社交媒体上写到，随着美伊协议签署，霍尔木兹海峡将重新免费开放，持续60天，以便进行排雷作业。这与伊朗方面表态形成鲜明对比，伊朗强调在60天免收费期结束后将恢复对通过海峡的商船收取'服务费'。双方在霍尔木兹海峡通行费问题上的明显分歧，为后续协议执行埋下隐患。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "http://www.xinhuanet.com/world/20260615/f058ab9bf4dc44d3a1bf42c16871791c/c.html",
+              "name": "新华网",
+              "priority": 1
+            },
+            {
+              "url": "https://news.cctv.com/2026/06/15/ARTI2vkfTdayCEKuCCewtqjj260615.shtml",
+              "name": "央视新闻",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "下午",
+          "category": "军事",
+          "title": "真主党宣布遵守停火，停止对以北部袭击",
+          "content": "6月15日，黎巴嫩真主党发表声明，宣布将遵守美伊协议中包含的'全面停火'条款，停止对以色列北部的袭击行动。一名真主党官员告诉路透社，该组织自美伊协议宣布以来已经停止进攻性行动，并表示真主党对停火的遵守与以色列是否遵守挂钩。真主党在声明中暗示，美伊协议为以色列从黎巴嫩撤军创造了条件，称该协议'是完成黎巴嫩解放的前奏'。但以色列国防部长卡茨同日表示，以色列将在黎巴嫩、叙利亚和加沙地带的安全区内维持无限期的以军存在。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/?p=147635",
+              "name": "ISW战争研究所",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/hezbollah-has-not-carried-out-operations-since-iran-us-deal-hezbollah-official-2026-06-15/",
+              "name": "路透社",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "上午",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "伊朗外交部宣布将对霍尔木兹海峡航运服务收费",
+          "content": "6月15日，伊朗外交部发言人巴加埃在新闻发布会上宣布，伊朗将在'特定时期内'负责霍尔木兹海峡安全通行管理，并将对相关航运服务收取费用。巴加埃说，伊朗将与另一霍尔木兹海峡沿岸国阿曼一道，采取必要措施确保船舶能安全通过该海峡。伊朗并非单纯寻求收费，但将对霍尔木兹海峡的航行服务、环境保护以及由伊朗和阿曼提供的船舶保险等相关费用进行设计并收取。同日，伊朗法尔斯通讯社援引知情人士透露，伊美谅解备忘录在达成前最后阶段进行了修改，'明确且无歧义地'强调了伊朗与阿曼对霍尔木兹海峡行使管理权。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "http://www.xinhuanet.com/world/20260615/f058ab9bf4dc44d3a1bf42c16871791c/c.html",
+              "name": "新华网",
+              "priority": 1
+            },
+            {
+              "url": "https://news.cctv.com/2026/06/15/ARTI2vkfTdayCEKuCCewtqjj260615.shtml",
+              "name": "央视新闻",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
     {
       "date_id": "d107",
       "date_label": "6月14日",
