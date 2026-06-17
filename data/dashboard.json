@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "extracted_at": "2026-06-17 08:36:10",
-  "lastUpdated": "2026-06-17 08:36",
-  "warDays": 108,
+  "extracted_at": "2026-06-17 19:00:48",
+  "lastUpdated": "2026-06-17 19:00",
+  "warDays": 111,
   "ceasefireDays": 40,
   "iranDeaths": "3,468+",
   "israelDeaths": "50",
@@ -20,7 +20,7 @@
     "status": "谈判破裂",
     "statusDetail": "美伊和谈未达成协议，停火面临失效风险"
   },
-  "total_days": 109,
+  "total_days": 112,
   "lebanonDeaths": "3,020",
   "iranInjured": "26,500"
 }
