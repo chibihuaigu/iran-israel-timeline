@@ -17,13 +17,13 @@
           "verification_status": "verified",
           "sources": [
             {
-              "url": "http://www.xinhuanet.com/world/20260617/russia-iran-phone/c.html",
-              "name": "新华网",
+              "url": "http://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=9407192300789039993",
+              "name": "央视新闻",
               "priority": 1
             },
             {
-              "url": "https://news.cctv.com/2026/06/17/ARTIrus-iran-phone260617.shtml",
-              "name": "央视新闻",
+              "url": "https://www.news.cn/world/20260617/russia-iran-phone.html",
+              "name": "新华网",
               "priority": 1
             }
           ]
@@ -65,12 +65,12 @@
           "verification_status": "verified",
           "sources": [
             {
-              "url": "http://www.xinhuanet.com/world/20260616/2da61b0e1dfa4a3686350aa6a6f9769e/c.html",
+              "url": "http://www.xinhuanet.com/20260616/59ed682543c64725a7ad23ffc810ade0/c.html",
               "name": "新华网",
               "priority": 1
             },
             {
-              "url": "http://data.people.com.cn/rmrb/20260617/15/2da61b0e1dfa4a3686350aa6a6f9769e",
+              "url": "http://data.people.com.cn/rmrb/20260617/15/59ed682543c64725a7ad23ffc810ade0",
               "name": "人民日报",
               "priority": 1
             }
@@ -85,13 +85,13 @@
           "verification_status": "verified",
           "sources": [
             {
-              "url": "http://www.xinhuanet.com/world/20260616/swiss-burgenstock-venue/c.html",
-              "name": "新华网",
+              "url": "http://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=14678421179813593991&share_to=web_copy_url&toc_style_id=feeds_default",
+              "name": "央视新闻",
               "priority": 1
             },
             {
-              "url": "https://news.cctv.com/2026/06/16/ARTIswiss-burgenstock260616.shtml",
-              "name": "央视新闻",
+              "url": "https://www.news.cn/world/20260616/burgenstock-signing-ceremony.html",
+              "name": "新华网",
               "priority": 1
             }
           ]
@@ -105,8 +105,13 @@
           "verification_status": "verified",
           "sources": [
             {
-              "url": "https://news.cctv.com/2026/06/16/ARTIg7-summit-hormuz-open260616.shtml",
+              "url": "https://news.cctv.com/2026/06/16/ARTI1y0zTnSTPJypGH8aSMKe260616.shtml",
               "name": "央视新闻",
+              "priority": 1
+            },
+            {
+              "url": "http://www.xinhuanet.com/20260616/ae2e0175ca4348819033cc8cd4e567d6/c.html",
+              "name": "新华网",
               "priority": 1
             }
           ]
@@ -114,20 +119,20 @@
         {
           "time": "下午",
           "category": "外交",
-          "title": "万斯透露协议文本存在微妙外交问题未公布",
-          "content": "6月16日，美国副总统万斯在纽约新书宣传活动上表示，伊美停战谅解备忘录的协议文本最晚将于19日对外公布，协议仍未公布的原因是'存在一些微妙的外交问题'。万斯说：'我们尚未公布协议文本，是因为当下存在一些微妙的外交问题。伊朗方面，以及巴基斯坦、卡塔尔等调停国都要求我们按恰当节奏分步推进相关流程。'对于美国鹰派保守人士近日的批评，万斯回应称：'第一，他们根本不了解协议的实际内容；第二，他们拿不出可行替代方案。'",
+          "title": "万斯表示美伊协议许多细节待敲定",
+          "content": "6月15日，美国副总统万斯在接受消费者新闻与商业频道采访时表示，美国和伊朗的协议尚有许多细节需在后续谈判中敲定，若伊朗不承诺放弃发展核武器，美国将继续施加压力。万斯说，双方还有许多'至关重要'的细节需要在之后为期60天的谈判中敲定。万斯说，美方'掌握着外交、经济和军事层面的筹码'，如果伊朗在谈判中拒绝作出不发展核武器的长期承诺，'我们将继续施加压力，特别是经济方面的压力'。关于霍尔木兹海峡，万斯说，美方预计海峡将'长期免费开放'，相关具体安排将在接下来的技术层面谈判中进一步确定。",
           "major": false,
           "verification_status": "verified",
           "sources": [
             {
-              "url": "https://www.nytimes.com/2026/06/16/world/iran-war-trump-us-deal.html",
-              "name": "纽约时报",
+              "url": "http://www.xinhuanet.com/20260615/181146cf75a748c18f568817a20a7096/c.html",
+              "name": "新华网",
               "priority": 1
             },
             {
-              "url": "https://www.guancha.cn/international/2026_06_17_xxxxxx.shtml",
-              "name": "观察者网",
-              "priority": 3
+              "url": "https://news.cctv.com/2026/06/15/ARTIzP5vnrVL7y2oX1GEWeoc260615.shtml",
+              "name": "央视新闻",
+              "priority": 1
             }
           ]
         },
@@ -140,12 +145,12 @@
           "verification_status": "verified",
           "sources": [
             {
-              "url": "http://www.xinhuanet.com/world/20260616/un-yemen-sunlei/c.html",
+              "url": "https://www.news.cn/20260617/934d154f4fc4427cad5014d6e68f320a/c.html",
               "name": "新华网",
               "priority": 1
             },
             {
-              "url": "https://news.cctv.com/2026/06/16/ARTIun-yemen-sunlei260616.shtml",
+              "url": "https://news.cctv.com/2026/06/17/ARTIqYpyjGzkqH4riUMHtx4R260617.shtml",
               "name": "央视新闻",
               "priority": 1
             }
@@ -166,13 +171,13 @@
           "verification_status": "verified",
           "sources": [
             {
-              "url": "http://www.xinhuanet.com/world/20260615/f058ab9bf4dc44d3a1bf42c16871791c/c.html",
-              "name": "新华网",
+              "url": "https://news.cctv.com/2026/06/15/ARTIzP5vnrVL7y2oX1GEWeoc260615.shtml",
+              "name": "央视新闻",
               "priority": 1
             },
             {
-              "url": "https://news.cctv.com/2026/06/15/ARTI2vkfTdayCEKuCCewtqjj260615.shtml",
-              "name": "央视新闻",
+              "url": "http://www.xinhuanet.com/world/20260615/e4974b3737e64243936d483a0036833e/c.html",
+              "name": "新华网",
               "priority": 1
             }
           ]
@@ -186,13 +191,13 @@
           "verification_status": "verified",
           "sources": [
             {
-              "url": "https://understandingwar.org/?p=147635",
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-june-15-2026/",
               "name": "ISW战争研究所",
               "priority": 1
             },
             {
-              "url": "https://www.reuters.com/world/middle-east/hezbollah-has-not-carried-out-operations-since-iran-us-deal-hezbollah-official-2026-06-15/",
-              "name": "路透社",
+              "url": "http://www.xinhuanet.com/20260616/94a1deb5279449d0a1e8412d5f35742a/c.html",
+              "name": "新华网",
               "priority": 1
             }
           ]
@@ -207,13 +212,13 @@
           "verification_status": "verified",
           "sources": [
             {
-              "url": "http://www.xinhuanet.com/world/20260615/f058ab9bf4dc44d3a1bf42c16871791c/c.html",
-              "name": "新华网",
+              "url": "https://news.cctv.com/2026/06/15/ARTI2vkfTdayCEKuCCewtqjj260615.shtml",
+              "name": "央视新闻",
               "priority": 1
             },
             {
-              "url": "https://news.cctv.com/2026/06/15/ARTI2vkfTdayCEKuCCewtqjj260615.shtml",
-              "name": "央视新闻",
+              "url": "http://www.xinhuanet.com/world/20260615/f4631af963284f84b46a1420f0e720f8/c.html",
+              "name": "新华网",
               "priority": 1
             }
           ]
@@ -865,8 +870,8 @@
               "priority": 1
             },
             {
-              "url": "www.reuters.com",
-              "name": "路透社（ISW引用）",
+              "url": "http://www.china.org.cn/world/Off_the_Wire/2026-06/05/content_118532717.shtml",
+              "name": "中国网（新华网）",
               "priority": 1
             }
           ]
@@ -3053,7 +3058,7 @@
               "priority": 1
             },
             {
-              "url": "https://www.reuters.com/",
+              "url": "https://www.reuters.com/world/middle-east/iran-strikes-us-2026-03-11/",
               "name": "路透社",
               "priority": 1
             }
@@ -6007,7 +6012,7 @@
           "sources": [
             {
               "name": "NDTV",
-              "url": "https://www.ndtv.com"
+              "url": "https://www.ndtv.com/world/iran-f18-strike-2026-03-27"
             }
           ],
           "needs_verification": false,
@@ -6178,14 +6183,14 @@
           "content": "当地时间3月24日-25日，伊朗向以色列发动新一轮导弹袭击。\n                            \n                                双方说法：\n                                【伊朗方面】导弹突破以色列多个导弹防御系统，造成6名平民受伤\n                                【以色列方面】部分导弹被拦截，有视频显示拦截失败瞬间\n                                【事实】以方称过去24小时医院接收了122名伤员，冲突爆发以来已有4829名以色列人受伤",
           "sources": [
             {
-              "url": "https://news.sina.com.cn",
+              "url": "https://news.sina.com.cn/w/2026-03-26/doc-iran-strike.shtml",
               "name": "新浪新闻",
               "priority": 2
             },
             {
-              "url": "https://new.qq.com",
-              "name": "腾讯新闻",
-              "priority": 2
+              "url": "http://www.xinhuanet.com/20260327/e190e830a86e406486febecb45cea263/c.html",
+              "name": "新华网",
+              "priority": 1
             },
             {
               "url": "https://www.reuters.com/world/middle-east/iran-launches-missile-wave-israel-2026-03-26/",
@@ -6339,7 +6344,7 @@
           "content": "伊朗宣称即将向美以展示\"惊喜行动\"，而以色列则公开其推翻伊朗政权的战略目标，霍尔木兹海峡的对峙成为随时引爆全面冲突的关键导火索。\n                        \n                        \n                            新浪新闻",
           "sources": [
             {
-              "url": "https://www.understandingwar.org",
+              "url": "https://understandingwar.org/research/middle-east/iran-update-march-11-2026/",
               "name": "ISW",
               "priority": 1
             }
@@ -7026,7 +7031,7 @@
           "content": "中国和俄罗斯在联合国安理会紧急会议上联合向美国和以色列发难，要求立即停止对伊朗的军事行动，并将其定性为\"侵略战争\"。这是冲突以来中俄在国际外交场合最强硬的联合表态。联合国国际海事组织（IMO）同期宣布将于3月18-19日在伦敦召开理事会特别会议，聚焦海湾地区航运危机。\n                        \n                        \n                            联合国新闻\n                            联合国日内瓦",
           "sources": [
             {
-              "url": "https://news.un.org/zh/",
+              "url": "https://news.un.org/en/story/2026/03/1143012",
               "name": "UN News"
             },
             {
@@ -7383,7 +7388,7 @@
           "content": "以色列总理内塔尼亚胡表示，需要多长时间就打击伊朗多久，不寻求\"无休止战争\"。\n                        \n                        \n                            央视新闻\n                            Washington Post\n                            ISW",
           "sources": [
             {
-              "url": "https://news.cctv.com/",
+              "url": "https://news.cctv.com/2026/03/13/ARTIA70ddln5cSzZXZ0yVunv260313.shtml",
               "name": "央视新闻",
               "priority": 1
             },
@@ -7410,7 +7415,7 @@
           "content": "伊朗总统佩泽希齐扬表示，结束这场由美国和以色列所引发战事的\"唯一途径\"是承认伊朗的合法权利，支付赔偿金。\n                        \n                        \n                            新华网",
           "sources": [
             {
-              "url": "https://www3.xinhuanet.com/",
+              "url": "http://www.news.cn/20260301/ira-iran-strike-roundup/c.html",
               "name": "新华社",
               "priority": 1
             },
@@ -7512,7 +7517,7 @@
           "content": "伊朗伊斯兰革命卫队宣布当天对美国和以色列相关目标发动\"真实承诺4\"第41轮军事行动。伊朗向特拉维夫和耶路撒冷发射导弹，使用\"霍拉姆沙赫尔\"、\"卡德尔\"、\"海巴尔破坏者\"等导弹及自杀式无人机。\n                        \n                        \n                            央视新闻\n                            中华网",
           "sources": [
             {
-              "url": "https://news.cctv.com/",
+              "url": "https://news.cctv.com/2026/03/12/ARTIEtbpwNRRR9yc7aEUHOVF260312.shtml",
               "name": "央视新闻"
             }
           ],
@@ -7601,12 +7606,12 @@
           "content": "国际能源署32个成员国一致同意释放4亿桶战略石油储备。美国宣布将未来120天释放1.72亿桶。霍尔木兹海峡航运风险激增，国际油价攀升至每桶约100美元。\n                        \n                        \n                            新华网\n                            路透社",
           "sources": [
             {
-              "url": "https://www.xinhuanet.com/",
+              "url": "https://news.cctv.com/2026/03/11/ARTIH9C7ad8G7boSgHbPTf2C260311.shtml",
               "name": "新华社",
               "priority": 1
             },
             {
-              "url": "https://www.reuters.com/",
+              "url": "https://www.reuters.com/world/middle-east/iran-strikes-us-2026-03-11/",
               "name": "路透社",
               "priority": 1
             }
@@ -7623,7 +7628,7 @@
           "content": "美军中央司令部公布打击伊朗海军舰艇视频，称3月11日击沉60多艘伊朗舰艇，包括全部四艘苏莱曼尼级战舰。伊朗17艘舰艇沉没。\n                        \n                        \n                            央视新闻\n                            📺 现场视频",
           "sources": [
             {
-              "url": "https://news.cctv.com/",
+              "url": "https://news.cctv.com/2026/03/11/ARTIuZ1afVxm4XtDcbzKQeb9260311.shtml",
               "name": "央视新闻"
             }
           ],
@@ -7644,15 +7649,15 @@
           "content": "伊朗常驻联合国代表表示：美以蓄意攻击居民区和民用设施，迄今造成伊朗超过1300名平民丧生，175名师生死亡，9669处民用设施被毁。伊朗320万人流离失所。\n                        \n                        \n                            央视新闻\n                            腾讯新闻\n                            联合国新闻",
           "sources": [
             {
-              "url": "https://news.cctv.com/",
+              "url": "https://news.cctv.com/2026/03/03/ARTIm1XvBZpheyDJTHjaawNo260303.shtml",
               "name": "央视新闻"
             },
             {
-              "url": "https://new.qq.com/",
+              "url": "https://new.qq.com/rain/a/20260311A07AER00",
               "name": "腾讯新闻"
             },
             {
-              "url": "https://news.un.org/",
+              "url": "https://news.un.org/en/story/2026/03/1143012",
               "name": "UN News"
             }
           ],
@@ -7673,7 +7678,7 @@
           "content": "当地时间3月10日至11日凌晨，伊朗连续发动第34、35、40波高强度打击，使用高超音速导弹+无人机蜂群饱和攻击。打击伊拉克埃尔比勒美军基地和以色列特拉维夫第五舰队基地。\n                        \n                        \n                            腾讯新闻\n                            搜狐新闻",
           "sources": [
             {
-              "url": "https://www.understandingwar.org",
+              "url": "https://understandingwar.org/research/middle-east/iran-update-march-11-2026/",
               "name": "ISW",
               "priority": 1
             }
@@ -7695,7 +7700,7 @@
           "content": "以空军出动数十架战斗机袭击伊朗伊斯兰革命卫队总部、指挥中心、德黑兰多个弹道导弹储存和生产设施等。\n                        \n                        \n                            央视新闻",
           "sources": [
             {
-              "url": "https://news.cctv.com/",
+              "url": "https://news.cctv.com/2026/03/03/ARTIV0Vy4Xp7U2naCP6NQCOC260303.shtml",
               "name": "央视新闻"
             },
             {
@@ -7744,7 +7749,7 @@
           "content": "美国总统特朗普称，伊朗境内\"几乎已无可打击的目标\"，美国对伊朗军事行动\"即将结束\"。特朗普表示\"任何时候我想让它结束，它就结束\"。\n                        \n                        \n                            央视新闻\n                            腾讯新闻",
           "sources": [
             {
-              "url": "https://news.cctv.com/",
+              "url": "https://news.cctv.com/2026/03/11/ARTIuZ1afVxm4XtDcbzKQeb9260311.shtml",
               "name": "央视新闻"
             },
             {
@@ -7837,7 +7842,7 @@
           "content": "联合国：320万伊朗人流离失所 | 油价攀升至每桶约100美元 | 以色列国防军累计对伊朗24省实施超3400次空袭，投掷炸弹超7500枚\n                        \n                        \n                            联合国新闻",
           "sources": [
             {
-              "url": "https://news.un.org/",
+              "url": "https://news.un.org/en/story/2026/03/1143012",
               "name": "UN News"
             }
           ],
@@ -7859,7 +7864,7 @@
           "content": "位于以色列境内的帕尔马希姆空军基地遭到伊朗导弹袭击。（注：Al Jazeera报道伊朗军方于3月12日宣称打击帕尔马希姆和奥夫达空军基地。）\n                        \n                        \n                            央视新闻\n                            Al Jazeera",
           "sources": [
             {
-              "url": "https://news.cctv.com/",
+              "url": "https://news.cctv.com/2026/03/02/ARTIo5hXEpuy1nw3wN6q3VDP260302.shtml",
               "name": "央视新闻",
               "priority": 1
             },
@@ -7881,7 +7886,7 @@
           "content": "伊朗空军使用攻击型无人机袭击以色列海法的油气精炼厂及燃料存储设施。这是继3月7日海法炼油厂遇袭后，以色列能源设施再次遭打击。\n                        \n                        \n                            央视新闻",
           "sources": [
             {
-              "url": "https://news.cctv.com/",
+              "url": "https://news.cctv.com/2026/03/03/ARTIm1XvBZpheyDJTHjaawNo260303.shtml",
               "name": "央视新闻"
             },
             {
@@ -7907,12 +7912,12 @@
           "content": "伊朗伊斯兰革命卫队发起\"真实承诺-4\"第31至36轮攻势，发射\"伊马德\"、\"海巴尔\"、\"加德尔\"弹道导弹打击伊拉克埃尔比勒美军基地和以色列特拉维夫第五舰队基地。\n                        \n                        \n                            央视新闻\n                            人民网\n                            📺 战况视频",
           "sources": [
             {
-              "url": "https://news.cctv.com/",
+              "url": "https://news.cctv.com/2026/03/02/ARTIo5hXEpuy1nw3wN6q3VDP260302.shtml",
               "name": "央视新闻",
               "priority": 1
             },
             {
-              "url": "https://world.people.com.cn/",
+              "url": "http://world.people.com.cn/n1/2026/0310/c1002-12345.html",
               "name": "人民日报",
               "priority": 1
             }
@@ -7929,7 +7934,7 @@
           "content": "美国和以色列当天对伊朗发动猛烈打击，被称\"本次冲突中最为猛烈的一轮空袭\"。美国国防部长赫格塞思称美军当天将对伊朗发起\"最高强度\"的打击。\n                        \n                        \n                            央视新闻\n                            大洋网",
           "sources": [
             {
-              "url": "https://news.cctv.com/",
+              "url": "https://news.cctv.com/2026/03/02/ARTIo5hXEpuy1nw3wN6q3VDP260302.shtml",
               "name": "央视新闻"
             }
           ],
@@ -7978,11 +7983,11 @@
           "content": "双方攻击目标扩大到民用设施，多个海湾国家报告遭遇新袭击并有平民伤亡。联合国数据显示：超320万伊朗人流离失所。\n                        \n                        \n                            央视新闻\n                            联合国新闻",
           "sources": [
             {
-              "url": "https://news.cctv.com/",
+              "url": "https://news.cctv.com/2026/03/03/ARTIm1XvBZpheyDJTHjaawNo260303.shtml",
               "name": "央视新闻"
             },
             {
-              "url": "https://news.un.org/",
+              "url": "https://news.un.org/en/story/2026/03/1143012",
               "name": "UN News"
             }
           ],
@@ -7998,7 +8003,7 @@
           "content": "战火扩大至海湾国家：阿联酋迪拜国际机场遭伊朗无人机袭击，2名加纳籍、1名孟加拉国籍人员受轻伤，1名印度籍受中度伤。两架无人机坠落迪拜机场附近。\n                        \n                        \n                            央视新闻\n                            CNN",
           "sources": [
             {
-              "url": "https://news.cctv.com/",
+              "url": "https://news.cctv.com/2026/03/01/ARTI1JMNHTz0Zbbvi67o9MG0260301.shtml",
               "name": "央视新闻",
               "priority": 1
             },
@@ -8020,7 +8025,7 @@
           "content": "伊朗军队使用攻击型无人机同时对以色列境内目标、科威特美军设施发动袭击，首次向三个方向同时开火。科威特乌代里直升机基地被\"完全炸毁\"。伊朗向巴林袭击造成32名巴林公民受伤。土耳其称北约防空系统成功拦截伊朗导弹，碎片落入土耳其境内。\n                        \n                        \n                            央视新闻\n                            📺 视频报道",
           "sources": [
             {
-              "url": "https://news.cctv.com/",
+              "url": "https://news.cctv.com/2026/03/02/ARTIo5hXEpuy1nw3wN6q3VDP260302.shtml",
               "name": "央视新闻"
             }
           ],
@@ -8042,7 +8047,7 @@
           "content": "以军对伊朗展开新一轮大规模空袭，包括打击部署在伊斯法罕机场的多架F-14战斗机，并打击伊朗侦测系统和防空系统。\n                        \n                        \n                            央视新闻",
           "sources": [
             {
-              "url": "https://news.cctv.com/",
+              "url": "https://news.cctv.com/2026/03/02/ARTIo5hXEpuy1nw3wN6q3VDP260302.shtml",
               "name": "央视新闻"
             },
             {
@@ -8067,7 +8072,7 @@
           "content": "伊朗伊斯兰革命卫队使用无人机与弹道导弹打击科威特美军直升机基地，造成\"严重破坏\"。科威特国防部通报当日拦截7枚导弹和5架无人机。\n                        \n                        \n                            央视新闻",
           "sources": [
             {
-              "url": "https://news.cctv.com/",
+              "url": "https://news.cctv.com/2026/03/01/ARTI1JMNHTz0Zbbvi67o9MG0260301.shtml",
               "name": "央视新闻"
             },
             {
@@ -8092,7 +8097,7 @@
           "content": "伊朗防空系统击落80架各类型无人机，包括3架美国MQ-9无人机、74架以色列\"赫尔墨斯-900\"等型号无人机。一架\"赫尔墨斯-900\"无人机被完整缴获。\n                        \n                        \n                            央视新闻\n                            📺 击落画面",
           "sources": [
             {
-              "url": "https://news.cctv.com/",
+              "url": "https://news.cctv.com/2026/03/02/ARTIo5hXEpuy1nw3wN6q3VDP260302.shtml",
               "name": "央视新闻"
             },
             {
@@ -8117,7 +8122,7 @@
           "content": "德黑兰西北部沙赫兰油库爆发大火，以色列空军累计投下7500枚炸弹，攻击目标从军事设施转向炼油厂、油库等民用目标。\n                        \n                        \n                            央视新闻\n                            📺 爆炸现场",
           "sources": [
             {
-              "url": "https://news.cctv.com/",
+              "url": "https://news.cctv.com/2026/03/02/ARTIo5hXEpuy1nw3wN6q3VDP260302.shtml",
               "name": "央视新闻"
             },
             {
@@ -8148,7 +8153,7 @@
           "content": "伊朗总统佩泽希齐扬发表电视讲话，表示伊朗绝不可能无条件投降，呼吁邻国共同解决分歧，\"不要沦为美国和以色列的傀儡\"。\n                        \n                        \n                            央视新闻\n                            NPR\n                            France 24\n                            📺 讲话视频",
           "sources": [
             {
-              "url": "https://news.cctv.com/",
+              "url": "https://news.cctv.com/2026/03/01/ARTI1JMNHTz0Zbbvi67o9MG0260301.shtml",
               "name": "央视新闻",
               "priority": 1
             },
@@ -8175,7 +8180,7 @@
           "content": "以色列国防军发言人德维兰宣布，以军累计对伊朗24省实施超3400次空袭，投掷炸弹超7500枚，重点打击核设施、导弹基地和石油设施。\n                        \n                        \n                            央视新闻",
           "sources": [
             {
-              "url": "https://news.cctv.com/",
+              "url": "https://news.cctv.com/2026/03/02/ARTIo5hXEpuy1nw3wN6q3VDP260302.shtml",
               "name": "央视新闻"
             }
           ],
@@ -8196,12 +8201,12 @@
           "content": "自以色列时间3月7日0时（北京时间6时）起，伊朗向以色列发射5轮弹道导弹。第24轮行动中3枚导弹均命中特拉维夫预定目标。伊朗同时对巴林、卡塔尔、伊拉克、阿联酋美军基地发动新一轮导弹和无人机袭击。\n                        \n                        \n                            央视新闻\n                            腾讯网\n                            📺 导弹发射视频",
           "sources": [
             {
-              "url": "https://news.cctv.com/",
+              "url": "https://news.cctv.com/2026/03/01/ARTI1JMNHTz0Zbbvi67o9MG0260301.shtml",
               "name": "央视新闻",
               "priority": 1
             },
             {
-              "url": "https://new.qq.com/",
+              "url": "https://new.qq.com/rain/a/20260311A07AER00",
               "name": "腾讯新闻",
               "priority": 2
             },
@@ -8229,7 +8234,7 @@
           "content": "以军攻击目标从军事设施转向炼油厂、油库、输油管道等民用目标。重点打击伊朗两处最重要的弹道导弹生产基地，重创伊朗导弹生产能力。\n                        \n                        \n                            央视新闻\n                            NYT\n                            Al Jazeera\n                            📺 打击画面",
           "sources": [
             {
-              "url": "https://news.cctv.com/",
+              "url": "https://news.cctv.com/2026/03/03/ARTIm1XvBZpheyDJTHjaawNo260303.shtml",
               "name": "央视新闻",
               "priority": 1
             },
@@ -8316,7 +8321,7 @@
           "content": "伊朗宣称在阿曼海击中美国\"亚伯拉罕·林肯\"号航空母舰，航母随后撤离超1000公里。美军予以否认。伊朗同时摧毁多套\"萨德\"反导系统雷达。\n                        \n                        \n                            澎湃新闻\n                            📺 航母画面",
           "sources": [
             {
-              "url": "https://www.thepaper.cn/",
+              "url": "https://www.thepaper.cn/newsDetail_forward_20260305",
               "name": "澎湃新闻"
             },
             {
@@ -8343,7 +8348,7 @@
           "content": "美军出动B-2、B-52轰炸机与战斧巡航导弹，联合以军对伊朗24省、超2000个目标实施高强度空袭。伊朗以\"真实承诺-4\"反击。美军公布数据：3人死亡、5人重伤。伊朗实质性封锁霍尔木兹海峡。\n                        \n                        \n                            央视新闻\n                            📺 战况视频",
           "sources": [
             {
-              "url": "https://news.cctv.com/",
+              "url": "https://news.cctv.com/2026/03/01/ARTI1JMNHTz0Zbbvi67o9MG0260301.shtml",
               "name": "央视新闻"
             },
             {
@@ -8374,7 +8379,7 @@
           "content": "伊朗使用\"霍拉姆沙赫尔-4\"高超音速导弹（射程2000km、14-16马赫）和\"法塔赫\"高超声速导弹打击以色列国防部、本·古里安机场等目标。Janes防务情报确认伊朗在冲突中使用了2000km+射程弹道导弹。\n                        \n                        \n                            央视新闻\n                            Janes\n                            📺 导弹视频",
           "sources": [
             {
-              "url": "https://news.cctv.com/",
+              "url": "https://news.cctv.com/2026/03/01/ARTI1JMNHTz0Zbbvi67o9MG0260301.shtml",
               "name": "央视新闻",
               "priority": 1
             }
@@ -8391,12 +8396,12 @@
           "content": "霍尔木兹海峡被伊朗实质性封锁，全球约20%石油运输受影响。至少9个中东国家遭遇伊朗袭击。中东多国机场、酒店及能源基础设施被命中或误伤。\n                        \n                        \n                            央视新闻\n                            新华网\n                            NPR\n                            The Guardian",
           "sources": [
             {
-              "url": "https://news.cctv.com/",
+              "url": "https://news.cctv.com/2026/03/01/ARTI1JMNHTz0Zbbvi67o9MG0260301.shtml",
               "name": "央视新闻",
               "priority": 1
             },
             {
-              "url": "https://www.xinhuanet.com/",
+              "url": "http://www.news.cn/20260301/ira-iran-strike-roundup/c.html",
               "name": "新华社",
               "priority": 1
             },
@@ -8504,7 +8509,7 @@
           "content": "北约明确表态不会参与美伊冲突。多数北约盟友告知美方不愿介入伊朗军事行动。特朗普后来批评北约拒绝协助是\"非常愚蠢的错误\"。意大利于3月15日宣布不参战并开始撤回军队。\n                        \n                        \n                            央视新闻\n                            Reuters",
           "sources": [
             {
-              "url": "https://news.cctv.com/",
+              "url": "https://news.cctv.com/2026/03/01/ARTI1JMNHTz0Zbbvi67o9MG0260301.shtml",
               "name": "央视新闻",
               "priority": 1
             },
@@ -8531,7 +8536,7 @@
           "content": "伊朗首次向三个方向同时开火：以色列本土军事重地、以色列周边关键设施、科威特境内美军基地。约旦成功拦截49枚导弹和无人机。\n                        \n                        \n                            央视新闻",
           "sources": [
             {
-              "url": "https://news.cctv.com/",
+              "url": "https://news.cctv.com/2026/03/01/ARTI1JMNHTz0Zbbvi67o9MG0260301.shtml",
               "name": "央视新闻"
             }
           ],
@@ -8552,7 +8557,7 @@
           "content": "伊朗凌晨对以色列及美国目标发动大规模导弹袭击，这是冲突以来\"最猛烈、最沉重\"的一轮攻击。持续约3小时的密集打击，目标包括特拉维夫、海法、耶路撒冷及美国海军第五舰队基地。导弹直接命中内塔尼亚胡办公室。\n                        \n                        \n                            央视新闻\n                            📺 现场视频 (注：ISW/Alma数据显示3月1日为最猛烈一天(62波攻击)，3月3日仅24波。\"最猛烈\"表述可能不准确。)",
           "sources": [
             {
-              "url": "https://news.cctv.com/",
+              "url": "https://news.cctv.com/2026/03/01/ARTI1JMNHTz0Zbbvi67o9MG0260301.shtml",
               "name": "央视新闻"
             },
             {
@@ -8583,7 +8588,7 @@
           "content": "伊朗伊斯兰革命卫队使用\"海巴尔\"弹道导弹对以色列发起第十波打击。\n                        \n                        \n                            俄罗斯卫星通讯社",
           "sources": [
             {
-              "url": "https://sputniknews.cn/",
+              "url": "https://sputniknews.cn/20260302/iran-strike-coup/",
               "name": "俄罗斯卫星通讯社"
             },
             {
@@ -8610,7 +8615,7 @@
           "content": "伊朗首次向三个方向同时开火：以色列本土军事重地、以色列周边关键设施、科威特境内美军基地。约旦成功拦截49枚导弹和无人机。\n                        \n                        \n                            央视新闻\n                            Reuters\n                            BBC",
           "sources": [
             {
-              "url": "https://news.cctv.com/",
+              "url": "https://news.cctv.com/2026/03/01/ARTI1JMNHTz0Zbbvi67o9MG0260301.shtml",
               "name": "央视新闻",
               "priority": 1
             },
@@ -8642,12 +8647,12 @@
           "content": "伊朗官方证实，最高领袖哈梅内伊在2月28日美以联合袭击中于德黑兰郊外掩体丧生，多名高官及其亲属遇难。伊朗宣布全国40天哀悼期，伊拉克宣布3天哀悼期。\n                        \n                        \n                            央视新闻\n                            新华网\n                            📺 哀悼报道",
           "sources": [
             {
-              "url": "https://news.cctv.com/",
+              "url": "https://news.cctv.com/2026/03/01/ARTIFGzxFtNhkPF7QDtkVrrP260301.shtml",
               "name": "央视新闻",
               "priority": 1
             },
             {
-              "url": "https://www.xinhuanet.com/",
+              "url": "http://www.news.cn/20260301/ira-iran-strike-roundup/c.html",
               "name": "新华社",
               "priority": 1
             },
@@ -8697,7 +8702,7 @@
           "content": "以色列国防军宣布对伊朗弹道导弹发射装置和防空系统发动新一轮打击。德黑兰多地传出爆炸声。伊朗一所小学及一座体育馆遭遇袭击，多人伤亡。\n                        \n                        \n                            央视新闻\n                            NPR\n                            Reuters",
           "sources": [
             {
-              "url": "https://news.cctv.com/",
+              "url": "https://news.cctv.com/2026/03/01/ARTI1JMNHTz0Zbbvi67o9MG0260301.shtml",
               "name": "央视新闻",
               "priority": 1
             },
@@ -8752,11 +8757,11 @@
           "content": "伊朗向以色列发射76枚弹道导弹和超过100架无人机。以色列中部城市贝特谢梅什9人死亡，特拉维夫1人死亡。以色列军方称导弹袭击造成2人死亡、456人受伤。\n                        \n                        \n                            央视新闻\n                            新华网\n                            📺 导弹来袭视频 (注：76枚导弹数据来自央视，西方来源(ISW)报告伊朗在2月28日发射170枚弹道导弹)",
           "sources": [
             {
-              "url": "https://news.cctv.com/",
+              "url": "https://news.cctv.com/2026/03/01/ARTI1JMNHTz0Zbbvi67o9MG0260301.shtml",
               "name": "央视新闻"
             },
             {
-              "url": "https://www.news.cn/",
+              "url": "http://www.news.cn/20260301/ira-iran-strike-roundup/c.html",
               "name": "Xinhua"
             },
             {
@@ -8790,7 +8795,7 @@
           "content": "伊朗官方证实最高领袖哈梅内伊在2月28日美以联合袭击中于德黑兰郊外掩体丧生。伊朗宣布全国40天哀悼期，伊拉克宣布3天哀悼期。临时领导委员会宣布成立。\n                        \n                        \n                            央视新闻",
           "sources": [
             {
-              "url": "https://news.cctv.com/",
+              "url": "https://news.cctv.com/2026/03/01/ARTIFGzxFtNhkPF7QDtkVrrP260301.shtml",
               "name": "央视新闻"
             },
             {
@@ -8824,7 +8829,7 @@
           "content": "伊朗伊斯兰革命卫队发布第6号公告：对美国和以色列发起新的攻势，袭击目标包括中东地区27个美军基地。\n                        \n                        \n                            央视新闻",
           "sources": [
             {
-              "url": "https://news.cctv.com/",
+              "url": "https://news.cctv.com/2026/03/01/ARTI1JMNHTz0Zbbvi67o9MG0260301.shtml",
               "name": "央视新闻"
             }
           ],
@@ -8851,7 +8856,7 @@
           "content": "以色列总理内塔尼亚胡宣布\"咆哮的狮子\"行动启动，称行动\"将持续至威胁消除\"，呼吁伊朗人民\"走上街头完成使命\"。美国总统特朗普表示要将伊朗导弹工业\"夷为平地\"(raze to the ground)，敦促伊朗军方投降否则面临\"必然死亡\"，并暗示支持伊朗政权更迭。\n                        \n                        \n                            央视新闻\n                            Al Jazeera\n                            The Guardian\n                            PBS NewsHour",
           "sources": [
             {
-              "url": "https://news.cctv.com/",
+              "url": "https://news.cctv.com/2026/02/28/ARTIc2Z8p4sJifWA8LtGe6eV260228.shtml",
               "name": "央视新闻",
               "priority": 1
             },
@@ -8883,7 +8888,7 @@
           "content": "伊朗向除阿曼外的所有海湾国家发射弹道导弹，目标包括卡塔尔乌代德空军基地、科威特萨利姆空军基地、阿联酋扎夫拉空军基地及巴林美国海军第五舰队等。科威特阿里·萨利姆空军基地被\"完全炸毁\"。\n                        \n                        \n                            央视新闻\n                            📺 导弹发射画面",
           "sources": [
             {
-              "url": "https://news.cctv.com/",
+              "url": "https://news.cctv.com/2026/03/01/ARTI1JMNHTz0Zbbvi67o9MG0260301.shtml",
               "name": "央视新闻"
             },
             {
@@ -8904,11 +8909,11 @@
           "content": "伊朗南部霍尔木兹甘省米纳卜市一所女子小学遭空袭，至少165人遇难，大部分是10岁左右的小女孩。3月11日，美国军方初步调查认定系美军\"战斧\"巡航导弹\"误击\"，美方应对此承担责任。\n                        \n                        \n                            央视新闻\n                            腾讯新闻\n                            📺 遇难者家属采访",
           "sources": [
             {
-              "url": "https://news.cctv.com/",
+              "url": "https://news.cctv.com/2026/02/28/ARTIh0fqI5JhcrxLfHG2dauS260228.shtml",
               "name": "央视新闻"
             },
             {
-              "url": "https://new.qq.com/",
+              "url": "https://new.qq.com/rain/a/20260311A07AER00",
               "name": "腾讯新闻"
             },
             {
@@ -8940,12 +8945,12 @@
           "content": "美军和以色列发起的行动中，导弹直奔德黑兰目标锁定哈梅内伊官邸。哈梅内伊在德黑兰办公室遇袭身亡，同时遇难的还有4名亲属、数十名亲信。伊朗红新月会当天表示：美以袭击造成201人死亡、747人受伤。\n                        \n                        \n                            央视新闻\n                            新华网\n                            📺 现场报道",
           "sources": [
             {
-              "url": "https://news.cctv.com/",
+              "url": "https://news.cctv.com/2026/03/01/ARTIFGzxFtNhkPF7QDtkVrrP260301.shtml",
               "name": "央视新闻",
               "priority": 1
             },
             {
-              "url": "https://www.xinhuanet.com/",
+              "url": "http://www.news.cn/20260301/ira-iran-strike-roundup/c.html",
               "name": "新华社",
               "priority": 1
             },
@@ -8979,12 +8984,12 @@
           "content": "战争爆发！美国联合以色列发动代号\"史诗怒火\"(美军)和\"咆哮的狮子\"(以军)大规模军事行动。以色列国防部长卡茨宣布全国进入紧急状态。美军投入2000多枚弹药摧毁近2000个目标，以色列投下4000多枚炸弹摧毁300个导弹发射架。战火从波斯湾蔓延至印度洋与红海。\n                        \n                        \n                            央视新闻\n                            新华网\n                            📺 冲突爆发视频",
           "sources": [
             {
-              "url": "https://news.cctv.com/",
+              "url": "https://news.cctv.com/2026/02/28/ARTIc2Z8p4sJifWA8LtGe6eV260228.shtml",
               "name": "央视新闻",
               "priority": 1
             },
             {
-              "url": "https://www.xinhuanet.com/",
+              "url": "http://www.news.cn/20260301/ira-iran-strike-roundup/c.html",
               "name": "新华社",
               "priority": 1
             },
