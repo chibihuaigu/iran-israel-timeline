@@ -1,9 +1,392 @@
 {
   "version": "1.0",
-  "extracted_at": "2026-06-17 02:00:00",
-  "total_days": 102,
-  "total_events": 356,
+  "extracted_at": "2026-06-17 08:36:10",
+  "total_days": 109,
+  "total_events": 375,
   "events": [
+    {
+      "date_id": "d107",
+      "date_label": "6月14日",
+      "events": [
+        {
+          "time": "晚上",
+          "category": "军事",
+          "title": "以色列空袭贝鲁特南郊，搅局美伊协议",
+          "content": "6月14日，就在美伊宣布达成协议前几个小时，以色列轰炸了黎巴嫩首都贝鲁特南郊，令特朗普大为光火。特朗普在接受美国阿克西奥斯新闻网站电话采访时爆粗口，批评以总理内塔尼亚胡'毫无判断力'。特朗普在《纽约时报》另一通电话采访中继续严厉批评内塔尼亚胡，称'他是个非常难缠的人'。以色列媒体则纷纷用'失败''糟糕'这样的字眼描述美伊协议，认为这份初步协议没有照顾以方利益。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "http://www.xinhuanet.com/world/20260615/5fb2f66ca52241c491d93c0b354495c5/c.html",
+              "name": "新华网",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "下午",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "美伊达成谅解备忘录，定于6月19日在瑞士签署",
+          "content": "6月14日，巴基斯坦总理夏巴兹在社交媒体发文说，经过密集磋商，'美国与伊朗已达成和平协议，正式签字仪式将于19日在瑞士举行'。美国总统特朗普随后在社交媒体发文证实，美伊协议'现在完成'，并称正式批准开放霍尔木兹海峡，无需缴纳通行费，同时下令立即解除美国海军对伊朗港口的海上封锁。伊朗外交部副部长加里巴巴迪确认，伊美谅解备忘录文本已最终确定。伊朗最高国家安全委员会秘书处也发表声明，正式宣布伊朗与美国已最终敲定关于'结束战争谈判'的谅解备忘录文本。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "http://www.xinhuanet.com/world/20260615/5fb2f66ca52241c491d93c0b354495c5/c.html",
+              "name": "新华网",
+              "priority": 1
+            },
+            {
+              "url": "https://www.fortune.com/2026/06/14/iran-ceasefire-terms-mou-versions-us-deal-sanctions-hormuz-blockade-nuclear-program-frozen-assets/",
+              "name": "Fortune",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "下午",
+          "category": "经济",
+          "title": "备忘录草案14条：停火、解封、60天倒计时",
+          "content": "伊朗迈赫尔通讯社6月15日凌晨披露备忘录草案14条核心内容：第一条，在所有战线包括黎巴嫩立即并永久停止战争；第三条，30天内全面解除美国对伊朗的海上封锁；第五条，霍尔木兹海峡将在30天内按照伊朗的安排重新开放；第六条，暂停针对伊朗石油及石化产品的制裁；第七条，美国及其盟友须提出总额至少3000亿美元的伊朗重建计划；第八条，签署备忘录后启动为期60天的谈判；第十一条，解冻240亿美元伊朗被冻结资产，其中一半必须在正式谈判开始前交付；第十四条，伊朗导弹计划及其支持抵抗组织的问题已被明确排除在议程之外。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "http://www.xinhuanet.com/world/20260615/5fb2f66ca52241c491d93c0b354495c5/c.html",
+              "name": "新华网",
+              "priority": 1
+            },
+            {
+              "url": "http://m.163.com/dy/article/KVHEMFDE0556BOZV.html",
+              "name": "网易新闻",
+              "priority": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d106",
+      "date_label": "6月13日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "军事",
+          "title": "美军发射49枚战斧巡航导弹打击伊朗",
+          "content": "6月10日17时15分（美东时间），美国中央司令部宣布，应三军统帅指示，对伊朗境内多个目标发起新一轮打击。据美国官员透露，所有打击目标均位于伊朗南部，包括防空系统、雷达以及无人机指挥控制单元。本轮共使用了49枚'战斧'巡航导弹，部分目标距伊朗首都德黑兰仅约65公里，另有战斗机在伊朗西南部领空执行任务。特朗普透露，伊朗高层官员已主动致电，请求他叫停这轮轰炸。特朗普随后表示，轰炸即将停止。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://news.cctv.com/2026/06/11/ARTIu3JzTfXfAhj9Q5FhWjC260611.shtml",
+              "name": "央视新闻",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "外交",
+          "title": "伊朗国家安全委员会副主席披露霍尔木兹海峡通行安排",
+          "content": "6月13日，伊朗国家安全委员会副主席纳博扬说，根据他看过的伊朗和美国谅解备忘录文本，霍尔木兹海峡所有商船将恢复通行，不受任何限制。特朗普同日在白宫表示，美国和伊朗定于14日签署协议，霍尔木兹海峡将在协议签署后立即开放。伊朗已不再寻求拥有核武器，也不会购买、自主研发或以任何其他方式获取核武器。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "http://china.cnr.cn/news/20260614/t20260614_527660209.shtml",
+              "name": "央广网",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d105",
+      "date_label": "6月12日",
+      "events": [
+        {
+          "time": "晚间",
+          "category": "外交",
+          "title": "伊朗外长披露伊美谅解备忘录草案部分内容",
+          "content": "6月12日晚播出的伊朗伊斯兰共和国广播电视台节目中，伊朗外长阿拉格齐披露伊美谅解备忘录草案部分内容，涉及停火安排、霍尔木兹海峡航运和经济议题等。阿拉格齐说，谈判框架分为'两阶段'，第一阶段聚焦结束冲突和恢复地区稳定，第二阶段就核问题及有关事项展开正式谈判。关于停火安排，谅解文件涉及结束所有战线军事冲突，涵盖黎巴嫩，伊方明确告知对方达成协议需要以色列从黎巴嫩南部撤军。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "http://world.people.com.cn/n1/2026/0613/c1002-40739511.html",
+              "name": "人民网",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "凌晨",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "特朗普紧急取消原定对伊猛烈轰炸计划",
+          "content": "6月11日（北京时间6月12日凌晨），美国总统特朗普在社交媒体发文说，鉴于与伊朗的磋商结果已提交至伊朗最高领导层并获得批准，他已取消原定于当晚针对伊朗实施的打击与轰炸行动。当天早些时候，特朗普曾威胁称将于当晚对伊朗进行猛烈打击，并称在不久的将来要占领伊朗哈尔克岛和其他石油基础设施。特朗普说，相关磋商及最终要点已在概念和细节层面获得各相关方认可，包括美国、以色列、沙特、阿联酋、卡塔尔、土耳其、巴基斯坦、巴林、科威特、约旦、埃及等国。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "http://www.xinhuanet.com/world/20260612/4d880ceed9534280af3ecceb7c55bd2a/c.html",
+              "name": "新华网",
+              "priority": 1
+            },
+            {
+              "url": "http://world.people.com.cn/n1/2026/0612/c1002-40738820.html",
+              "name": "人民网",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d104",
+      "date_label": "6月11日",
+      "events": [
+        {
+          "time": "凌晨",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "伊朗宣布霍尔木兹海峡对所有船只关闭",
+          "content": "6月11日凌晨，伊朗武装部队哈塔姆安比亚中央总部发布声明，宣布霍尔木兹海峡即日起对包括油轮和商船在内的所有类型船只关闭，任何试图通过该海峡的船只都将成为打击目标。霍尔木兹海峡承担全球约30%（一说20%）的原油海运量。伊朗还驳斥了美国方面有关船只通过霍尔木兹海峡的说法。国际油价应声暴涨，布伦特原油期货价格一度逼近93美元/桶。美军中央司令部10日发布消息称，伊朗声称海峡已关闭的说法'错误'，当晚商船仍在继续进出霍尔木兹海峡。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://news.cri.cn/2026-06-11/571d2a15-70c5-415d-b4ca-d5f7c6a9628e.html",
+              "name": "国际在线（中央广电总台）",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "凌晨",
+          "category": "军事",
+          "title": "伊朗革命卫队打击美军在中东18个重要目标",
+          "content": "6月11日凌晨，伊朗伊斯兰革命卫队公共关系部门发表声明，称革命卫队在两波行动中'击中并摧毁'了美军在中东地区的18个重要目标。这些目标分布在三个核心地点：科威特的阿里·萨利姆空军基地和艾哈迈德·贾比尔空军基地、巴林的谢赫·伊萨空军基地。伊朗还用无人机袭击了位于巴林的美军第五舰队总部。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://news.cri.cn/2026-06-11/571d2a15-70c5-415d-b4ca-d5f7c6a9628e.html",
+              "name": "国际在线（中央广电总台）",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d103",
+      "date_label": "6月10日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "军事",
+          "title": "以色列空袭黎巴嫩提尔市，造成至少8人死亡",
+          "content": "6月10日，以色列在黎巴嫩南部提尔市发动空袭，造成至少8人死亡。空袭前，以色列史无前例地发布了覆盖整座城市的疏散令。黎巴嫩卫生部表示，空袭针对民用和居民基础设施。以色列表示行动目标是黎巴嫩真主党据点。这是6月7日贝鲁特南郊空袭后以色列对黎巴嫩的持续军事行动。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://mobile.chinadaily.com.cn/html5/2026-06/10/content_012_6a28675aed50be540e731f78.htm",
+              "name": "中国日报",
+              "priority": 1
+            },
+            {
+              "url": "http://news.cnr.cn/sq/20260610/t20260610_527655156.shtml",
+              "name": "央视新闻",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "特朗普：美伊协议进入'最后关头'，2-3天内达成",
+          "content": "6月10日，美国总统特朗普表示，美国与伊朗的谈判已进入'最后关头'，协议将包括全面禁止核武器等相关内容，霍尔木兹海峡也会很快恢复通航，一旦签署协议，海峡将立即开放，协议可能在两三天内就能达成。美国副总统万斯表示，美伊'非常接近'达成协议，可能在未来一周内达成，也可能在11月中期选举前取得结果。然而，自2月28日伊朗战事爆发以来，特朗普类似的'协议即将达成'表态已说过30多次。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "http://news.cnr.cn/sq/20260610/t20260610_527655156.shtml",
+              "name": "央视新闻",
+              "priority": 1
+            },
+            {
+              "url": "https://mobile.chinadaily.com.cn/html5/2026-06/10/content_012_6a28675aed50be540e731f78.htm",
+              "name": "中国日报",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "军事",
+          "title": "内塔尼亚胡取消重大对伊打击计划",
+          "content": "6月10日，以色列总理内塔尼亚胡在特朗普要求下取消原定的大规模对伊打击计划。以色列和阿拉伯媒体均确认，内塔尼亚胡在白宫压力下暂缓报复行动。内塔尼亚胡在X平台发布的视频中表示，以色列军队'目前'正在停火，因为伊朗'停止了对我们的攻击'，并警告'如果伊朗恢复对以色列的攻击，我们将以压倒性力量进行回击'。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://mobile.chinadaily.com.cn/html5/2026-06/10/content_012_6a28675aed50be540e731f78.htm",
+              "name": "中国日报",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d102",
+      "date_label": "6月9日",
+      "events": [
+        {
+          "time": "下午",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "美军对伊朗发动'自卫性'打击，回应阿帕奇直升机被击落",
+          "content": "美国东部时间6月9日17时，在总统特朗普指示下，美国中央司令部对伊朗发动'自卫性'打击，以回应前一天美军'阿帕奇'直升机被击落事件。打击目标全部位于霍尔木兹海峡伊朗沿岸一侧，涵盖沿岸远程防空雷达站、近程防空导弹发射阵地、海岸警戒雷达三套核心设施，没有触及伊朗内陆炼油、核设施、居民聚居区等敏感目标。伊朗霍尔木兹甘省锡里克、米纳卜、格什姆岛等多地传出爆炸声，部分地区防空系统启动。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "http://news.cnr.cn/sq/20260610/t20260610_527655156.shtml",
+              "name": "央视新闻",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "凌晨",
+          "category": "军事",
+          "title": "伊朗议会发言人：伊朗武装部队已达到最高战斗准备状态",
+          "content": "在美军打击行动发生前，伊朗议会国家安全与外交政策委员会发言人雷扎伊6月9日表示，伊朗武装部队已达到最高战斗和防御准备状态，受损情况已得到修复。伊朗武装部队已做好以最高级别应对任何侵略的准备。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "http://news.cnr.cn/sq/20260610/t20260610_527655156.shtml",
+              "name": "央视新闻",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d101",
+      "date_label": "6月8日",
+      "events": [
+        {
+          "time": "晚上",
+          "category": "军事",
+          "title": "美军阿帕奇武装直升机在霍尔木兹海峡被伊朗击落",
+          "content": "6月8日晚间，美军一架AH-64'阿帕奇'武装直升机在阿曼海岸附近霍尔木兹海峡上空执行常态化巡逻任务时，被伊朗方面击落，机上两名机组人员后续被美军近海力量安全营救。美东时间8日19时33分坠毁。9日一位美国官员透露，直升机是在与一架伊朗无人机发生碰撞后坠毁的。该事件直接导致美军次日对伊朗本土发动'自卫性'空袭。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "http://news.cnr.cn/sq/20260610/t20260610_527655156.shtml",
+              "name": "央视新闻",
+              "priority": 1
+            },
+            {
+              "url": "http://www.china.org.cn/2026-06/08/content_118535766.shtml",
+              "name": "中国网（Xinhua）",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "晚间",
+          "category": "军事",
+          "title": "胡塞武装介入，向以色列发射导弹并禁止与以色列有关船只通过红海",
+          "content": "6月8日，也门胡塞武装发言人宣布，胡塞武装当日向以色列中部雅法地区多个目标发射导弹，并宣布对以色列实施红海航行'全面禁令'，警告任何与以色列有关联、在红海水域活动的船只都将被视为打击目标。胡塞武装的加入使本轮冲突进一步外溢，对全球航运构成新威胁。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "http://www.xinhuanet.com/20260608/ea3e127173a14360bb4ee0c71a82096b/c.html",
+              "name": "新华网",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "下午",
+          "category": "外交",
+          "title": "伊朗和以色列先后宣布停止袭击对方，特朗普紧急斡旋",
+          "content": "6月8日下午，伊朗武装部队哈塔姆安比亚中央总部发表声明，宣布停止对以色列的军事行动，并警告'如以方继续行动将采取更加严厉措施'。随后以色列第12频道电视台援引以色列高级官员的话说，以色列应美国总统特朗普要求，暂停对伊朗的打击。特朗普在以伊双方间紧急斡旋，亲自致电内塔尼亚胡要求其放弃对伊朗的进一步反击。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "http://www.xinhuanet.com/20260608/ea3e127173a14360bb4ee0c71a82096b/c.html",
+              "name": "新华网",
+              "priority": 1
+            },
+            {
+              "url": "https://www.france24.com/fr/moyen-orient/20260608-moyen-orient-iran-israel-hostilit%C3%A9s-interrompues-menaces-persistent-liban-donald-trump",
+              "name": "France 24",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "凌晨",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "伊朗革命卫队向以色列拉马特戴维空军基地发射弹道导弹，4月停火以来首次直接袭击",
+          "content": "6月8日凌晨，伊朗伊斯兰革命卫队从本土向以色列北部拉马特戴维空军基地发射至少10枚弹道导弹，触发以色列北部多地防空警报。这是今年4月美伊停火谅解达成以来伊朗首次对以色列本土直接动手，也是史上头一回，伊朗因为以色列打击第三方（黎巴嫩真主党/贝鲁特）而主动对以发动攻击。伊朗外交部声明称，这是对以色列近期在黎巴嫩和伊朗的'侵略行动'以及频繁违反4月停火协议'合法自卫权'的回应。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "http://www.xinhuanet.com/20260608/ea3e127173a14360bb4ee0c71a82096b/c.html",
+              "name": "新华网",
+              "priority": 1
+            },
+            {
+              "url": "http://www.china.org.cn/2026-06/08/content_118535766.shtml",
+              "name": "中国网（Xinhua）",
+              "priority": 1
+            },
+            {
+              "url": "https://www.france24.com/fr/moyen-orient/20260608-moyen-orient-iran-israel-hostilit%C3%A9s-interrompues-menaces-persistent-liban-donald-trump",
+              "name": "France 24",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "凌晨",
+          "category": "军事",
+          "title": "以军空袭伊朗西部和中部军事目标作为回应",
+          "content": "伊朗导弹袭击后，以色列空军出动数十架战机，于6月8日凌晨对伊朗西部和中部地区的军事目标实施空袭。打击目标包括多地的'战略防御系统'、防空系统、雷达站以及伊朗西南部马赫沙赫尔石油化工综合体的3家工厂。报道援引以军消息说，本轮对伊朗的袭击由以色列单方面实施，但与美军中央司令部进行了'全面协调'，以军总参谋长扎米尔与美军中央司令部司令库珀进行了3次通话。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "http://www.xinhuanet.com/20260608/a26f4a236f9a4538a69e97d3d69b3c6c/c.html",
+              "name": "新华网",
+              "priority": 1
+            },
+            {
+              "url": "http://www.china.org.cn/2026-06/08/content_118535766.shtml",
+              "name": "中国网（Xinhua）",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
     {
       "date_id": "d100",
       "date_label": "6月7日",
