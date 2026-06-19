@@ -2784,14 +2784,19 @@
           "category": "军事",
           "tag": "major-tag",
           "title": "美伊霍尔木兹海峡军事对抗升级，美军拦截伊朗船只",
-          "content": "美伊在霍尔木兹海峡的军事对抗进一步升级。美军出动舰载机对试图突破封锁的伊朗船只开火。美军中央司令部宣布自4月13日封锁以来已拦截57艘船只。美军还击毁了两艘试图进入伊朗港口的伊朗油轮Sea Star III和Sevda。美国海军正阻止70多艘油轮进出伊朗港口，这些油轮共载有超过1.66亿桶石油，价值超过130亿美元。",
+          "content": "据新华网2026年5月8日报道，伊朗武装部队哈塔姆安比亚中央总部发言人当日凌晨表示，由于美国违反停火协议袭击伊朗油轮和另一艘进入霍尔木兹海峡的船只，伊朗武装力量打击了霍尔木兹海峡以东的美国军舰。美军中央司令部证实美驱逐舰遭袭并进行了回击，但美方称无意寻求局势升级。",
           "major": true,
-          "verification_status": "unverified",
+          "verification_status": "verified",
           "sources": [
             {
-              "url": "https://www.cnn.com/2026/05/08/world/iran-israel-war-may-8-update/index.html",
-              "name": "CNN",
-              "priority": 2
+              "name": "新华网",
+              "url": "http://www.xinhuanet.com/world/20260508/167183e19c034e7591313026121cc976/c.html",
+              "priority": 1
+            },
+            {
+              "name": "央视新闻",
+              "url": "https://news.cctv.com/2026/05/08/ARTIDjvzm60HbnAwWrcqM0zt260508.shtml",
+              "priority": 1
             }
           ]
         },
@@ -4756,10 +4761,21 @@
           "category": "外交",
           "tag": "tag",
           "title": "美伊准备停火谈判，内塔尼亚胡授权与黎巴嫩谈判",
-          "content": "美伊双方准备在巴基斯坦举行高级别会谈，JD Vance将率美国代表团。内塔尼亚胡授权与黎巴嫩进行直接谈判。伊朗表示除非以色列停止对黎巴嫩袭击，否则不会参加谈判。伊朗议长Ghalibaf表示谈判前提是黎巴嫩停火和释放被冻结资产。",
+          "content": "据新民晚报2026年4月10日转发新华社报道，美国总统特朗普证实已于8日与以色列总理内塔尼亚胡通电话，要求以方减少在黎巴嫩境内的军事行动。内塔尼亚胡9日表示已指示以政府与黎巴嫩政府展开直接谈判。美伊关键和平谈判于4月10日在巴基斯坦首都伊斯兰堡正式进入倒计时。",
           "major": true,
-          "sources": [],
-          "verification_status": "unverified"
+          "sources": [
+            {
+              "name": "新民晚报（新华网转发）",
+              "url": "http://m.163.com/dy/article_v5/KQ5MPUHB0512DU6N.html",
+              "priority": 2
+            },
+            {
+              "name": "中新网时间线",
+              "url": "http://m.toutiao.com/group/7652527162864321064/",
+              "priority": 1
+            }
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -5050,10 +5066,21 @@
           "category": "军事",
           "tag": "tag",
           "title": "伊朗发射第89波反击，逾越节期间大规模导弹袭击",
-          "content": "伊朗革命卫队发射100多枚重型导弹和攻击无人机，打击美国和以色列目标，包括特拉维夫、海法和巴林的基地。这是开战以来最大规模的导弹齐射之一。以军对伊朗中部和西部地区发动大规模空袭，打击弹道导弹发射和存储设施、无人机生产设施和防空系统。",
+          "content": "据中国新闻网2026年4月2日报道，伊朗\"真实承诺-4\"行动第89波攻势于4月1日实施，动用100多枚重型导弹、攻击型无人机和200多枚火箭弹，与黎巴嫩真主党等\"抵抗阵线\"协同打击以色列埃拉特、特拉维夫等地及美军在地区内的军事基地，目标包括林肯号航母打击群。本轮袭击时值以色列逾越节前夜，是本轮冲突以来以色列遭遇的短时间内最密集导弹袭击之一。",
           "major": true,
-          "sources": [],
-          "verification_status": "unverified"
+          "sources": [
+            {
+              "name": "中国新闻网/央视新闻",
+              "url": "http://www.chinanews.com.cn/gj/2026/04-02/10597157.shtml",
+              "priority": 1
+            },
+            {
+              "name": "Press TV",
+              "url": "https://french.presstv.ir/Detail/2026/04/01/766188/Plus-de-100-missiles-lourds-et-drones-tir%C3%A9s-sur-des-positions-ennemies-lors-de-la-89e-vague-de-repr%C3%A9sailles%C2%A0",
+              "priority": 4
+            }
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -5689,15 +5716,26 @@
           "tag": "tag",
           "category": "人道",
           "title": "联合国：伊朗82000栋民用建筑受损，180000人家园被毁",
-          "content": "国际移民组织报告，伊朗32个省中20个省的82000栋民用建筑（包括医院和住宅）受损，180000人的家园被毁。挪威难民委员会秘书长埃格兰警告：\"如果战争继续，我们面临更大范围的人道主义灾难，数百万人可能被迫越境逃离。\"（多源证实）\n                        \n                        \n                            Boston Globe（AP）\n                            Global News",
-          "sources": [],
+          "content": "据伊朗红新月会2026年3月28日发布统计，截至3月27日，本轮美以伊冲突已造成伊朗超过9.2万处民用设施受损，其中7.1万余处住宅和2万余处商业设施，首都德黑兰约3万处住宅和商业单位受到影响，600所学校在袭击中受损，17处红新月会分支机构及290处医疗急救设施受损。",
+          "sources": [
+            {
+              "name": "央视新闻",
+              "url": "https://news.cctv.cn/2026/03/28/ARTI3i9dqdSLR5WlhYQqq1gq260328.shtml",
+              "priority": 1
+            },
+            {
+              "name": "OCHA ReliefWeb",
+              "url": "https://reliefweb.int/attachments/ea919cb6-fdf0-4ddf-bb73-68a392c30724/20260403_Iran%20Humanitarian%20Update_2.pdf",
+              "priority": 2
+            }
+          ],
           "needs_verification": false,
           "quality_issues": [
             "❌ 来源#1URL问题: 未知域名: https://www.bostonglobe.com/2026/03/27/nation/trump-administration-iran-attacks-updates/",
             "❌ 来源#2URL问题: 未知域名: https://globalnews.ca/news/11748592/iran-israel-tehran-strikes/",
             "❌ 有效来源不足2个（现有0个）"
           ],
-          "verification_status": "unverified"
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -5707,14 +5745,25 @@
           "category": "外交",
           "title": "特朗普将伊朗能源设施打击截止日期延至4月6日",
           "content": "特朗普将此前威胁打击伊朗能源设施的截止日期从3月27日延至4月6日，称谈判进展\"非常顺利\"。但伊朗否认正在进行任何谈判，称美国是在\"自己和自己谈判\"。美国通过巴基斯坦向伊朗递交了包含15项条件的停火方案，伊朗已拒绝并提出自己的5点方案。（多源证实）\n                        \n                        \n                            Global News\n                            Boston Globe",
-          "sources": [],
+          "sources": [
+            {
+              "name": "新华网",
+              "url": "http://www.xinhuanet.com/20260327/c9ac0a34f7a842e7b8aa7cf494d227f9/c.html",
+              "priority": 1
+            },
+            {
+              "name": "中国新闻网（光明网转发）",
+              "url": "https://world.gmw.cn/2026-03/27/content_38672916.htm",
+              "priority": 2
+            }
+          ],
           "needs_verification": false,
           "quality_issues": [
             "❌ 来源#1URL问题: 未知域名: https://globalnews.ca/news/11748592/iran-israel-tehran-strikes/",
             "❌ 来源#2URL问题: 未知域名: https://www.bostonglobe.com/2026/03/27/nation/trump-administration-iran-attacks-updates/",
             "❌ 有效来源不足2个（现有0个）"
           ],
-          "verification_status": "unverified"
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -5749,11 +5798,17 @@
           "tag": "major-tag",
           "category": "军事",
           "title": "美国向中东增派2500名海军陆战队员及1000名82空降师伞兵",
-          "content": "美国一批舰船携2500名海军陆战队员向该地区靠近，同时至少1000名82空降师伞兵（专门训练在敌对领土降落以控制关键地点和机场）已奉命前往中东。此举被视为可能为军事夺取霍尔木兹海峡控制权做准备。（多源证实）\n                        \n                        \n                            ABC News\n                            Global News",
+          "content": "据美国《华尔街日报》《纽约时报》2026年3月24-26日报道，美国国防部已下令派遣\"拳师\"号两栖攻击舰、\"康斯托克\"号船坞登陆舰及\"波特兰\"号两栖船坞运输舰，携同隶属第11海军陆战队远征部队的约2500名海军陆战队员从圣迭戈启程开赴中东；同时调遣陆军第82空降师约3000人的\"即时反应部队\"（旅级战斗队）前往中东，支援对伊朗军事行动和哈尔克岛夺控计划。",
           "sources": [
             {
-              "url": "https://abcnews.com/Business/wireStory/israel-launches-new-wave-strikes-iran-sign-diplomatic-131461625",
-              "name": "ABC News"
+              "name": "新华社（今日头条转发）",
+              "url": "http://m.toutiao.com/group/7619607627965694483/",
+              "priority": 1
+            },
+            {
+              "name": "环球时报（华尔街日报转载）",
+              "url": "https://m.weibo.cn/detail/5282092611014210",
+              "priority": 1
             }
           ],
           "needs_verification": false,
@@ -5762,7 +5817,7 @@
             "❌ 来源#2URL问题: 未知域名: https://globalnews.ca/news/11748592/iran-israel-tehran-strikes/",
             "❌ 有效来源不足2个（现有0个）"
           ],
-          "verification_status": "unverified"
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -5772,14 +5827,25 @@
           "category": "外交",
           "title": "G7外长发表声明，呼吁立即停止攻击平民及基础设施",
           "content": "G7国家外长在巴黎郊外举行会议，通过关于伊朗问题的声明，呼吁立即停止针对平民和基础设施的攻击。法国外长巴罗表示：\"任何情况下都不能在武装冲突中故意以平民为目标。\"声明同时强调必须永久恢复霍尔木兹海峡的自由航行。美国国务卿鲁比奥出席会议。（多源证实）\n                        \n                        \n                            Boston Globe（AP）\n                            Global News",
-          "sources": [],
+          "sources": [
+            {
+              "name": "新华网",
+              "url": "http://www.xinhuanet.com/world/20260328/9508005fc5654918b6dd91be6b03e354/c.html",
+              "priority": 1
+            },
+            {
+              "name": "Euronews",
+              "url": "https://www.euronews.com/my-europe/2026/03/27/g7-agrees-to-secure-strait-of-hormuz-but-only-after-war-in-iran-ends",
+              "priority": 2
+            }
+          ],
           "needs_verification": false,
           "quality_issues": [
             "❌ 来源#1URL问题: 未知域名: https://www.bostonglobe.com/2026/03/27/nation/trump-administration-iran-attacks-updates/",
             "❌ 来源#2URL问题: 未知域名: https://globalnews.ca/news/11748592/iran-israel-tehran-strikes/",
             "❌ 有效来源不足2个（现有0个）"
           ],
-          "verification_status": "unverified"
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -5809,15 +5875,31 @@
           "tag": "major-tag",
           "category": "军事",
           "title": "伊朗核设施遭打击：重水厂与黄饼生产厂被击中，无辐射泄漏",
-          "content": "伊朗国家媒体证实，核设施在持续的美以战争中遭到打击，包括重水厂和黄饼生产厂。马尔卡兹省政治安全副省长表示，孔达布设施遭袭后无辐射影响，设施本身未受额外损害。（多源证实）\n                        \n                        \n                            Boston Globe（AP）\n                            CTV News",
-          "sources": [],
+          "content": "据新华网2026年3月28日报道，以色列国防军3月27日晚证实，以军当天空袭位于伊朗中央省的洪达卜（Khondab）重水反应堆和位于中部亚兹德省的铀提炼（黄饼）工厂。国际原子能机构（IAEA）已收到伊朗方面通报，确认无场外辐射水平升高。",
+          "sources": [
+            {
+              "name": "新华网",
+              "url": "http://www.xinhuanet.com/world/20260328/590875c386ae42ab842eff539e7079f8/c.html",
+              "priority": 1
+            },
+            {
+              "name": "新华网客户端",
+              "url": "https://app.xinhuanet.com/news/article.html?articleId=202603280bd854b2c376462ead9557a892f3dd06",
+              "priority": 1
+            },
+            {
+              "name": "CGTN（央视国际）",
+              "url": "https://news.cgtn.com/news/2026-03-29/Russia-condemns-strikes-on-Iran-nuclear-sites-urges-restraint-1LTXRSqgh7G/p.html",
+              "priority": 2
+            }
+          ],
           "needs_verification": false,
           "quality_issues": [
             "❌ 来源#1URL问题: 未知域名: https://www.bostonglobe.com/2026/03/27/nation/trump-administration-iran-attacks-updates/",
             "❌ 来源#2URL问题: 未知域名: https://www.ctvnews.ca/world/mideast-conflict/article/israel-launches-a-new-wave-of-strikes-on-iran-with-no-sign-of-diplomatic-breakthrough/",
             "❌ 有效来源不足2个（现有0个）"
           ],
-          "verification_status": "unverified"
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -5826,11 +5908,17 @@
           "tag": "major-tag",
           "category": "军事",
           "title": "以色列对德黑兰\"心脏\"发动新一波空袭，警告攻击将\"升级扩大\"",
-          "content": "以色列对伊朗德黑兰\"心脏\"地带发动新一波空袭，打击弹道导弹生产设施及武器储存地点。以色列国防部长卡茨警告：\"尽管已发出警告，伊朗仍继续向以色列平民发射导弹，因此对伊朗的攻击将升级并扩大至更多目标和地区。\"以军同时打击伊朗西部的导弹发射架和储存设施。（多源证实）\n                        \n                        \n                            ABC News\n                            Global News\n                            Boston Globe\n                            Euronews",
+          "content": "据央视新闻2026年3月29日报道，以色列空军连夜出动数十架战机，对伊朗国防部位于德黑兰的一处生产弹道导弹关键部件的重要基地实施空袭，同时袭击伊朗境内数十处武器生产基地、弹道导弹发动机生产基地、无人机发动机生产基地等。",
           "sources": [
             {
-              "url": "https://abcnews.com/Business/wireStory/israel-launches-new-wave-strikes-iran-sign-diplomatic-131461625",
-              "name": "ABC News"
+              "name": "央视新闻（头条）",
+              "url": "http://m.toutiao.com/group/7622643049349153314/",
+              "priority": 1
+            },
+            {
+              "name": "新华网",
+              "url": "http://www.xinhuanet.com/world/20260328/590875c386ae42ab842eff539e7079f8/c.html",
+              "priority": 1
             }
           ],
           "needs_verification": false,
@@ -5841,7 +5929,7 @@
             "❌ 来源#4URL问题: 未知域名: https://www.euronews.com/video/2026/03/27/iran-releases-strike-images-from-usisraeli-attacks-as-war-fears-escalate",
             "❌ 有效来源不足2个（现有0个）"
           ],
-          "verification_status": "unverified"
+          "verification_status": "verified"
         },
         {
           "major": false,
@@ -5964,14 +6052,25 @@
           "category": "军事",
           "title": "伊朗组织超百万人为地面战争做准备",
           "content": "伊朗军方在3月26日表示，伊朗已组织超过一百万人为地面战争做准备。伊朗的态度很明确：为特朗普发动地面战争做好了充分的准备，只要美军地面部队进入伊朗，等待他们的必然是损失惨重。伊朗发射的\"霍拉姆沙赫尔-4\"弹道导弹与\"法塔赫\"高超音速导弹，可以轻松撕破以色列的防空系统。\n                        \n                        \n                            今日头条",
-          "sources": [],
+          "sources": [
+            {
+              "name": "央视军事（腾讯转发）",
+              "url": "http://news.qq.com/rain/a/20260327A0314Q00",
+              "priority": 1
+            },
+            {
+              "name": "新浪新闻",
+              "url": "https://news.sina.cn/bignews/insight/2026-03-28/detail-inhsnzav8927109.d.html",
+              "priority": 2
+            }
+          ],
           "needs_verification": false,
           "quality_issues": [
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 来源#1名称无效: '待核实来源'",
             "❌ 有效来源不足2个（现有0个）"
           ],
-          "verification_status": "unverified"
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -6148,11 +6247,22 @@
           "tag": "major-tag",
           "category": "军事",
           "title": "伊朗宣称击落美军F-18战斗机（美方否认）",
-          "content": "伊朗革命卫队宣称在恰巴哈尔附近击落一架美军F-18战斗机。美军中央司令部(CENTCOM)明确否认。事实核查机构Misbar分析视频后发现飞机存活并继续飞行。该说法未获证实。",
+          "content": "据 Press TV 2026年3月25日报道，伊朗伊斯兰革命卫队（IRGC）声称在伊朗东南部恰巴哈尔附近领空使用新式防空系统击中一架美军F/A-18战斗机，伊朗并发布相关视频。美军中央司令部（CENTCOM）随即在X平台发文否认，称\"无美军战机被伊朗击落\"。独立核查机构 Misbar 对视频分析认为可能是近失/破片击中，战机未坠毁。双方各执一词。",
           "sources": [
             {
-              "name": "NDTV",
-              "url": "https://www.ndtv.com/world/iran-f18-strike-2026-03-27"
+              "name": "Economic Times",
+              "url": "https://m.economictimes.com/us/news/f-35-f-15-and-now-f-18-iran-claims-us-super-hornet-fighter-hit-over-chabahar-us-denies-heres-the-latest-toll/articleshow/129817314.cms",
+              "priority": 2
+            },
+            {
+              "name": "Republic World",
+              "url": "https://www.republicworld.com/world-news/iran-s-irgc-announces-successful-hit-on-us-f-18-fighter-jet-shares-dramatic-video-watch",
+              "priority": 3
+            },
+            {
+              "name": "Misbar事实核查",
+              "url": "https://www.misbar.com/en/editorial/2026/03/29/did-us-f-18-fighter-jet-survive-missile-strike-over-iran",
+              "priority": 3
             }
           ],
           "needs_verification": false,
@@ -6160,7 +6270,7 @@
             "⚠️ 只有1个来源（需要≥2个）",
             "❌ 有效来源不足2个（现有1个）"
           ],
-          "verification_status": "unverified"
+          "verification_status": "disputed"
         },
         {
           "major": false,
@@ -6885,13 +6995,24 @@
           "category": "分析",
           "title": "第57波攻势：伊朗导弹打击以色列指挥控制中枢",
           "content": "伊朗伊斯兰革命卫队宣布发起\"真实承诺-4\"行动第57波军事打击，动用海巴尔·谢坎、伊马德、卡德尔、佐勒法加尔等多款弹道导弹，精准打击以色列境内指挥控制中枢目标。伊方宣称此轮攻势效果显著，以色列防空系统拦截部分导弹，但有导弹成功突破防御。\n                        \n                        \n                            新浪财经\n                            央视新闻",
-          "sources": [],
+          "sources": [
+            {
+              "name": "Metro TV News",
+              "url": "https://www.metrotvnews.com/read/NxGCPPOo-iran-luncurkan-gelombang-ke-57-serangan-balasan-ke-israel-dan-pangkalan-as",
+              "priority": 3
+            },
+            {
+              "name": "Press TV",
+              "url": "https://french.presstv.ir/Detail/2026/03/17/",
+              "priority": 4
+            }
+          ],
           "needs_verification": false,
           "quality_issues": [
             "❌ 来源#1URL问题: 未知域名: https://finance.sina.cn/2026-03-17/detail-inhrfwqa9552288.d.html",
             "❌ 有效来源不足2个（现有1个）"
           ],
-          "verification_status": "unverified"
+          "verification_status": "verified"
         }
       ]
     },
@@ -7055,13 +7176,24 @@
           "category": "人道",
           "title": "联合国：冲突致410万人流离失所",
           "content": "联合国难民署公布最新数据：本轮中东冲突已致伊朗、黎巴嫩、阿富汗、巴基斯坦共410万人流离失所，其中伊朗境内逾320万人。联合国人道主义事务协调办公室报告，伊朗平民死亡超1300人、受伤逾9000人；以色列报告15人死亡、2142人受伤；黎巴嫩3月2日至13日期间已有773人死亡、1933人受伤。\n                        \n                        \n                            新浪新闻\n                            联合国日内瓦",
-          "sources": [],
+          "sources": [
+            {
+              "name": "央视网",
+              "url": "https://news.cctv.com/2026/03/14/ARTIoDR6Ih62qxTie7VgeJdm260314.shtml",
+              "priority": 1
+            },
+            {
+              "name": "中国新闻网",
+              "url": "http://m.chinanews.com/wap/detail/chs/zw/10586173.shtml",
+              "priority": 2
+            }
+          ],
           "needs_verification": false,
           "quality_issues": [
             "❌ 来源#2URL问题: 未知域名: https://www.ungeneva.org/zh/news-media/news/2026/03/116710",
             "❌ 有效来源不足2个（现有1个）"
           ],
-          "verification_status": "unverified"
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -9278,5 +9410,6 @@
         }
       ]
     }
-  ]
+  ],
+  "last_updated": "2026-06-19T18:52:57+08:00"
 }
