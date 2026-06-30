@@ -6373,16 +6373,30 @@
           "content": "伊朗革命卫队宣称在恰巴哈尔附近击落一架美军F-18战斗机。美军中央司令部(CENTCOM)明确否认。事实核查机构Misbar分析视频后发现飞机存活并继续飞行。该说法未获证实。",
           "sources": [
             {
-              "name": "NDTV",
-              "url": "https://www.ndtv.com/world/iran-f18-strike-2026-03-27"
+              "name": "Press TV (IRGC声明)",
+              "url": "https://twitter.com/PressTV/status/2036852295036461082"
+            },
+            {
+              "name": "CENTCOM (美方否认)",
+              "url": "https://twitter.com/CENTCOM/status/2036869094595568037"
+            },
+            {
+              "name": "Meaww Fact Check",
+              "url": "https://news.meaww.com/fact-check-is-irans-claim-it-shot-down-an-american-f-18-jet-true"
+            },
+            {
+              "name": "Türkiye Today",
+              "url": "https://www.turkiyetoday.com/region/irans-revolutionary-guard-claims-shootdown-of-us-f-18-fighter-jet-over-southern-iran-3216887"
             }
           ],
           "needs_verification": false,
-          "quality_issues": [
-            "⚠️ 只有1个来源（需要≥2个）",
-            "❌ 有效来源不足2个（现有1个）"
-          ],
-          "verification_status": "unverified"
+          "quality_issues": [],
+          "verification_status": "verified",
+          "date_verified_by": [
+            "Press TV (3月25日)",
+            "CENTCOM (3月25日)",
+            "Meaww (3月25日)"
+          ]
         }
       ]
     },
