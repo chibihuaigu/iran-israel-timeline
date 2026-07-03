@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "extracted_at": "2026-07-04 00:01:54",
+  "extracted_at": "2026-07-04 00:03:50",
   "total_days": 127,
-  "total_events": 404,
+  "total_events": 405,
   "events": [
     {
       "date_id": "d125",
@@ -270,7 +270,28 @@
     {
       "date_id": "d116",
       "date_label": "6月24日",
-      "events": []
+      "events": [
+        {
+          "time": "下午",
+          "category": "外交",
+          "title": "特朗普表态霍尔木兹海峡收费不可接受",
+          "content": "6月24日，美国总统特朗普再次表示，对通过霍尔木兹海峡的船只收取费用是\"不可接受的\"。此前5月美国曾警告阿曼不要介入海峡收费问题。同日，人民日报客户端发布分析文章《复航的船与解冻的钱：美伊签下\"60日之约\"》，指出伊朗常驻联合国日内瓦办事处代表巴赫雷尼6月23日正式确认霍尔木兹海峡已对全球商船完全开放，60天不收费；美国财政部签发石油出口豁免许可，伊朗120亿美元海外冻结资产启动分批次解冻。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "http://world.people.com.cn/n1/2026/0624/c1002-40746818.html",
+              "name": "人民日报",
+              "priority": 1
+            },
+            {
+              "url": "http://www.xinhuanet.com/world/20260625/trump-hormuz.html",
+              "name": "新华网",
+              "priority": 1
+            }
+          ]
+        }
+      ]
     },
     {
       "date_id": "d115",
