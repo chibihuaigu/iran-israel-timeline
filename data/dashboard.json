@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "extracted_at": "2026-07-04 00:03:50",
-  "lastUpdated": "2026-07-04 00:03",
+  "lastUpdated": "2026-07-04 13:19",
   "warDays": 126,
   "ceasefireDays": 40,
   "iranDeaths": "3,468+",
@@ -22,5 +22,6 @@
   },
   "total_days": 127,
   "lebanonDeaths": "3,020",
-  "iranInjured": "26,500"
+  "iranInjured": "26,500",
+  "total_events": 407
 }
