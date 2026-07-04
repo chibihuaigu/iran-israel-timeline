@@ -6627,36 +6627,6 @@
         },
         {
           "major": true,
-          "disputed": true,
-          "time": "上午",
-          "tag": "major-tag",
-          "category": "军事",
-          "extra_tags": [
-            "【有争议】"
-          ],
-          "title": "伊朗向以色列发动新一轮导弹袭击",
-          "content": "当地时间3月24日-25日，伊朗向以色列发动新一轮导弹袭击。\n                            \n                                双方说法：\n                                【伊朗方面】导弹突破以色列多个导弹防御系统，造成6名平民受伤\n                                【以色列方面】部分导弹被拦截，有视频显示拦截失败瞬间\n                                【事实】以方称过去24小时医院接收了122名伤员，冲突爆发以来已有4829名以色列人受伤",
-          "sources": [
-            {
-              "url": "https://news.sina.com.cn/w/2026-03-26/doc-iran-strike.shtml",
-              "name": "新浪新闻",
-              "priority": 2
-            },
-            {
-              "url": "http://www.xinhuanet.com/20260327/e190e830a86e406486febecb45cea263/c.html",
-              "name": "新华网",
-              "priority": 1
-            },
-            {
-              "url": "https://www.reuters.com/world/middle-east/iran-launches-missile-wave-israel-2026-03-26/",
-              "name": "Reuters",
-              "priority": 1
-            }
-          ],
-          "verification_status": "verified"
-        },
-        {
-          "major": true,
           "disputed": false,
           "time": "上午",
           "tag": "major-tag",
@@ -6915,25 +6885,33 @@
         },
         {
           "major": true,
-          "disputed": false,
-          "time": "夜间",
+          "disputed": true,
+          "time": "上午",
           "tag": "major-tag",
-          "category": "分析",
-          "title": "德黑兰连遭三轮空袭，以色列官宣行动，中东局势急剧升温",
-          "content": "当地时间3月22日晚至23日凌晨，伊朗首都德黑兰遭遇以色列多轮彻夜空袭，密集爆炸声持续超8小时，防空系统全程紧急启动，现场空气中残留刺鼻气味。以色列军方已公开承认发动此次打击。\n                        \n                        \n                            企鹅号",
+          "category": "军事",
+          "extra_tags": [
+            "【有争议】"
+          ],
+          "title": "伊朗向以色列发动新一轮导弹袭击",
+          "content": "当地时间3月24日-25日，伊朗向以色列发动新一轮导弹袭击。\n                            \n                                双方说法：\n                                【伊朗方面】导弹突破以色列多个导弹防御系统，造成6名平民受伤\n                                【以色列方面】部分导弹被拦截，有视频显示拦截失败瞬间\n                                【事实】以方称过去24小时医院接收了122名伤员，冲突爆发以来已有4829名以色列人受伤",
           "sources": [
             {
-              "url": "https://www.reuters.com/world/middle-east/israel-strikes-tehran-third-day-2026-03-24/",
+              "url": "https://news.sina.com.cn/w/2026-03-26/doc-iran-strike.shtml",
+              "name": "新浪新闻",
+              "priority": 2
+            },
+            {
+              "url": "http://www.xinhuanet.com/20260327/e190e830a86e406486febecb45cea263/c.html",
+              "name": "新华网",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/iran-launches-missile-wave-israel-2026-03-26/",
               "name": "Reuters",
               "priority": 1
             }
           ],
-          "needs_verification": false,
-          "quality_issues": [
-            "⚠️ 只有1个来源（需要≥2个）",
-            "❌ 有效来源不足2个（现有1个）"
-          ],
-          "verification_status": "single_authoritative"
+          "verification_status": "verified"
         }
       ]
     },
@@ -6980,6 +6958,28 @@
           "sources": [
             {
               "url": "https://www.reuters.com/world/middle-east/iran-sets-six-conditions-ceasefire-2026-03-22/",
+              "name": "Reuters",
+              "priority": 1
+            }
+          ],
+          "needs_verification": false,
+          "quality_issues": [
+            "⚠️ 只有1个来源（需要≥2个）",
+            "❌ 有效来源不足2个（现有1个）"
+          ],
+          "verification_status": "single_authoritative"
+        },
+        {
+          "major": true,
+          "disputed": false,
+          "time": "夜间",
+          "tag": "major-tag",
+          "category": "分析",
+          "title": "德黑兰连遭三轮空袭，以色列官宣行动，中东局势急剧升温",
+          "content": "当地时间3月22日晚至23日凌晨，伊朗首都德黑兰遭遇以色列多轮彻夜空袭，密集爆炸声持续超8小时，防空系统全程紧急启动，现场空气中残留刺鼻气味。以色列军方已公开承认发动此次打击。\n                        \n                        \n                            企鹅号",
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/middle-east/israel-strikes-tehran-third-day-2026-03-24/",
               "name": "Reuters",
               "priority": 1
             }
@@ -7148,13 +7148,7 @@
             }
           ],
           "verification_status": "single_authoritative"
-        }
-      ]
-    },
-    {
-      "date_id": "d18",
-      "date_label": "3月18日",
-      "events": [
+        },
         {
           "major": false,
           "disputed": false,
@@ -7178,6 +7172,11 @@
           "verification_status": "single_authoritative"
         }
       ]
+    },
+    {
+      "date_id": "d18",
+      "date_label": "3月18日",
+      "events": []
     },
     {
       "date_id": "d17",
@@ -7373,6 +7372,33 @@
             "❌ 有效来源不足2个（现有0个）"
           ],
           "verification_status": "single_authoritative"
+        },
+        {
+          "major": false,
+          "disputed": false,
+          "time": "全天",
+          "tag": "tag",
+          "category": "外交",
+          "title": "北约明确表态不参战",
+          "content": "北约明确表态不会参与美伊冲突。多数北约盟友告知美方不愿介入伊朗军事行动。特朗普后来批评北约拒绝协助是\"非常愚蠢的错误\"。意大利于3月15日宣布不参战并开始撤回军队。\n                        \n                        \n                            央视新闻\n                            Reuters",
+          "sources": [
+            {
+              "url": "https://news.cctv.com/2026/03/01/ARTI1JMNHTz0Zbbvi67o9MG0260301.shtml",
+              "name": "央视新闻",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/nato-countries-dont-want-get-involved-iran-operation-trump-says-2026-03-17/",
+              "name": "Reuters",
+              "priority": 1
+            }
+          ],
+          "needs_verification": false,
+          "quality_issues": [
+            "⚠️ 只有1个来源（需要≥2个）",
+            "❌ 有效来源不足2个（现有1个）"
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -7537,23 +7563,6 @@
             "❌ 有效来源不足2个（现有0个）"
           ],
           "verification_status": "verified"
-        },
-        {
-          "major": true,
-          "disputed": false,
-          "time": "上午",
-          "tag": "major-tag",
-          "category": "分析",
-          "title": "穆杰塔巴发表就任后首份声明",
-          "content": "伊朗新任最高领袖穆杰塔巴·哈梅内伊发表就任后首份公开声明，称将\"战斗到最后一息\"，誓言继续关闭霍尔木兹海峡直至美以停止军事行动。其父哈梅内伊与妻子均在此前空袭中身亡，穆杰塔巴以\"压倒性多数\"于3月8日当选新任最高领袖，革命卫队和武装部队已宣誓效忠。\n                        \n                        \n                            新浪财经\n                            腾讯新闻",
-          "sources": [
-            {
-              "url": "https://www.reuters.com/world/middle-east/irans-new-leader-makes-first-statement-2026-03-14/",
-              "name": "Reuters",
-              "priority": 1
-            }
-          ],
-          "verification_status": "single_authoritative"
         },
         {
           "major": true,
@@ -7839,6 +7848,23 @@
             "❌ 有效来源不足2个（现有1个）"
           ],
           "verification_status": "verified"
+        },
+        {
+          "major": true,
+          "disputed": false,
+          "time": "上午",
+          "tag": "major-tag",
+          "category": "分析",
+          "title": "穆杰塔巴发表就任后首份声明",
+          "content": "伊朗新任最高领袖穆杰塔巴·哈梅内伊发表就任后首份公开声明，称将\"战斗到最后一息\"，誓言继续关闭霍尔木兹海峡直至美以停止军事行动。其父哈梅内伊与妻子均在此前空袭中身亡，穆杰塔巴以\"压倒性多数\"于3月8日当选新任最高领袖，革命卫队和武装部队已宣誓效忠。\n                        \n                        \n                            新浪财经\n                            腾讯新闻",
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/middle-east/irans-new-leader-makes-first-statement-2026-03-14/",
+              "name": "Reuters",
+              "priority": 1
+            }
+          ],
+          "verification_status": "single_authoritative"
         }
       ]
     },
@@ -8079,6 +8105,28 @@
             "❌ 有效来源不足2个（现有1个）"
           ],
           "verification_status": "single_authoritative"
+        },
+        {
+          "major": false,
+          "disputed": false,
+          "time": "全天",
+          "tag": "tag",
+          "category": "军事",
+          "title": "以色列帕尔马希姆空军基地遭袭",
+          "content": "位于以色列境内的帕尔马希姆空军基地遭到伊朗导弹袭击。（注：Al Jazeera报道伊朗军方于3月12日宣称打击帕尔马希姆和奥夫达空军基地。）\n                        \n                        \n                            央视新闻\n                            Al Jazeera",
+          "sources": [
+            {
+              "url": "https://news.cctv.com/2026/03/02/ARTIo5hXEpuy1nw3wN6q3VDP260302.shtml",
+              "name": "央视新闻",
+              "priority": 1
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/3/12/iran-says-it-targets-israeli-bases-accuses-israel-of-targeting-hospitals",
+              "name": "Al Jazeera",
+              "priority": 1
+            }
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -8343,28 +8391,6 @@
             "❌ 有效来源不足2个（现有0个）"
           ],
           "verification_status": "single_authoritative"
-        },
-        {
-          "major": false,
-          "disputed": false,
-          "time": "全天",
-          "tag": "tag",
-          "category": "军事",
-          "title": "以色列帕尔马希姆空军基地遭袭",
-          "content": "位于以色列境内的帕尔马希姆空军基地遭到伊朗导弹袭击。（注：Al Jazeera报道伊朗军方于3月12日宣称打击帕尔马希姆和奥夫达空军基地。）\n                        \n                        \n                            央视新闻\n                            Al Jazeera",
-          "sources": [
-            {
-              "url": "https://news.cctv.com/2026/03/02/ARTIo5hXEpuy1nw3wN6q3VDP260302.shtml",
-              "name": "央视新闻",
-              "priority": 1
-            },
-            {
-              "url": "https://www.aljazeera.com/news/2026/3/12/iran-says-it-targets-israeli-bases-accuses-israel-of-targeting-hospitals",
-              "name": "Al Jazeera",
-              "priority": 1
-            }
-          ],
-          "verification_status": "verified"
         },
         {
           "major": false,
@@ -8988,33 +9014,6 @@
             }
           ],
           "verification_status": "single_authoritative"
-        },
-        {
-          "major": false,
-          "disputed": false,
-          "time": "全天",
-          "tag": "tag",
-          "category": "外交",
-          "title": "北约明确表态不参战",
-          "content": "北约明确表态不会参与美伊冲突。多数北约盟友告知美方不愿介入伊朗军事行动。特朗普后来批评北约拒绝协助是\"非常愚蠢的错误\"。意大利于3月15日宣布不参战并开始撤回军队。\n                        \n                        \n                            央视新闻\n                            Reuters",
-          "sources": [
-            {
-              "url": "https://news.cctv.com/2026/03/01/ARTI1JMNHTz0Zbbvi67o9MG0260301.shtml",
-              "name": "央视新闻",
-              "priority": 1
-            },
-            {
-              "url": "https://www.reuters.com/world/middle-east/nato-countries-dont-want-get-involved-iran-operation-trump-says-2026-03-17/",
-              "name": "Reuters",
-              "priority": 1
-            }
-          ],
-          "needs_verification": false,
-          "quality_issues": [
-            "⚠️ 只有1个来源（需要≥2个）",
-            "❌ 有效来源不足2个（现有1个）"
-          ],
-          "verification_status": "verified"
         },
         {
           "major": false,
