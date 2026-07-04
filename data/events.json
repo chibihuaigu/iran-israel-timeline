@@ -1618,6 +1618,27 @@
               "priority": 1
             }
           ]
+        },
+        {
+          "time": "上午",
+          "category": "政治",
+          "tag": "tag",
+          "title": "伊拉克什叶协调框架支持限制武器收归国家",
+          "content": "6月1日，伊拉克什叶派协调框架宣布支持将武器限制于国家、将伊朗支持的\"人民动员力量\"（PMF）从\"政治、党派和社会框架\"中分离。ISW评估认为该表态是对美国要求伊拉克联邦政府解除民兵武装压力的回应，而非真正意图。6月2日，伊朗支持的伊拉克民兵Asaib Ahl al Haq（正义联盟）宣布成立内部委员会开始从PMF中\"脱离\"，此前该组织领导人Qais al Khazali已公开支持解除武装。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-june-2-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            },
+            {
+              "url": "https://www.understandingwar.org/research/middle-east/iran-update-special-report-june-4-2026/",
+              "name": "ISW（次日报告）",
+              "priority": 1
+            }
+          ]
         }
       ]
     },
@@ -1694,27 +1715,6 @@
           "sources": [
             {
               "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-june-3-2026/",
-              "name": "ISW战争研究所",
-              "priority": 1
-            },
-            {
-              "url": "https://www.understandingwar.org/research/middle-east/iran-update-special-report-june-4-2026/",
-              "name": "ISW（次日报告）",
-              "priority": 1
-            }
-          ]
-        },
-        {
-          "time": "上午",
-          "category": "政治",
-          "tag": "tag",
-          "title": "伊拉克什叶协调框架支持限制武器收归国家",
-          "content": "6月1日，伊拉克什叶派协调框架宣布支持将武器限制于国家、将伊朗支持的\"人民动员力量\"（PMF）从\"政治、党派和社会框架\"中分离。ISW评估认为该表态是对美国要求伊拉克联邦政府解除民兵武装压力的回应，而非真正意图。6月2日，伊朗支持的伊拉克民兵Asaib Ahl al Haq（正义联盟）宣布成立内部委员会开始从PMF中\"脱离\"，此前该组织领导人Qais al Khazali已公开支持解除武装。",
-          "major": false,
-          "verification_status": "verified",
-          "sources": [
-            {
-              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-june-2-2026/",
               "name": "ISW战争研究所",
               "priority": 1
             },
@@ -3395,13 +3395,7 @@
               "priority": 1
             }
           ]
-        }
-      ]
-    },
-    {
-      "date_id": "d64",
-      "date_label": "5月3日",
-      "events": [
+        },
         {
           "time": "上午",
           "category": "外交",
@@ -3424,6 +3418,11 @@
           ]
         }
       ]
+    },
+    {
+      "date_id": "d64",
+      "date_label": "5月3日",
+      "events": []
     },
     {
       "date_id": "d63",
@@ -3774,6 +3773,32 @@
               "priority": 1
             }
           ]
+        },
+        {
+          "time": "下午",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "特朗普宣布以色列黎巴嫩停火延长三周",
+          "content": "美国总统特朗普宣布，以色列与黎巴嫩同意将停火延长三周。此前以黎双方在白宫举行第二轮大使级会谈。原定10天停火将于4月26日到期。特朗普表示美国将与黎巴嫩合作帮助其保护自己免受真主党威胁。",
+          "major": true,
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/middle-east/lebanon-seek-ceasefire-extension-us-hosted-talks-with-israel-2026-04-23/",
+              "name": "路透社",
+              "priority": 1
+            },
+            {
+              "url": "https://www.washingtonpost.com/national-security/2026/04/23/us-israel-lebanon-ceasefire-talks/",
+              "name": "华盛顿邮报",
+              "priority": 1
+            },
+            {
+              "url": "https://www.npr.org/2026/04/23/nx-s1-5796719/iran-middle-east-updates",
+              "name": "NPR",
+              "priority": 1
+            }
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -3994,32 +4019,6 @@
         },
         {
           "time": "下午",
-          "category": "外交",
-          "tag": "major-tag",
-          "title": "特朗普宣布以色列黎巴嫩停火延长三周",
-          "content": "美国总统特朗普宣布，以色列与黎巴嫩同意将停火延长三周。此前以黎双方在白宫举行第二轮大使级会谈。原定10天停火将于4月26日到期。特朗普表示美国将与黎巴嫩合作帮助其保护自己免受真主党威胁。",
-          "major": true,
-          "sources": [
-            {
-              "url": "https://www.reuters.com/world/middle-east/lebanon-seek-ceasefire-extension-us-hosted-talks-with-israel-2026-04-23/",
-              "name": "路透社",
-              "priority": 1
-            },
-            {
-              "url": "https://www.washingtonpost.com/national-security/2026/04/23/us-israel-lebanon-ceasefire-talks/",
-              "name": "华盛顿邮报",
-              "priority": 1
-            },
-            {
-              "url": "https://www.npr.org/2026/04/23/nx-s1-5796719/iran-middle-east-updates",
-              "name": "NPR",
-              "priority": 1
-            }
-          ],
-          "verification_status": "verified"
-        },
-        {
-          "time": "下午",
           "category": "军事",
           "tag": "tag",
           "title": "以军空袭黎巴嫩南部致3人死亡",
@@ -4049,35 +4048,13 @@
             }
           ],
           "verification_status": "single_authoritative"
-        }
-      ]
-    },
-    {
-      "date_id": "d53",
-      "date_label": "4月22日",
-      "events": [
+        },
         {
           "time": "下午",
           "category": "外交",
           "tag": "major-tag",
           "title": "黎巴嫩寻求延长停火一个月",
           "content": "黎巴嫩官员向法新社透露，黎巴嫩将在4月23日华盛顿会谈中要求延长停火一个月、停止以色列在黎巴嫩的轰炸和拆除行动。黎巴嫩总统奥恩表示主要目标是延长停火和停止以军拆除行动，称黎巴嫩不会做出任何让步。当前10天停火将于4月26日到期。",
-          "major": true,
-          "sources": [
-            {
-              "url": "https://www.reuters.com/world/asia-pacific/lebanon-hopes-extension-ceasefire-washington-meeting-2026-04-22/",
-              "name": "路透社",
-              "priority": 1
-            }
-          ],
-          "verification_status": "single_authoritative"
-        },
-        {
-          "time": "上午",
-          "category": "军事",
-          "tag": "major-tag",
-          "title": "真主党连续第二天违反停火协议发动攻击",
-          "content": "真主党连续第二天在停火期间对以色列军队发动攻击。真主党声称使用两架FPV无人机攻击了卡恩塔拉地区的以军人员和指挥车，以军在拜亚达拦截了一架无人机，未造成伤亡。双方互相指责对方违反停火协议。",
           "major": true,
           "sources": [
             {
@@ -4099,6 +4076,28 @@
             {
               "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-april-22-2026/",
               "name": "ISW",
+              "priority": 1
+            }
+          ],
+          "verification_status": "single_authoritative"
+        }
+      ]
+    },
+    {
+      "date_id": "d53",
+      "date_label": "4月22日",
+      "events": [
+        {
+          "time": "上午",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "真主党连续第二天违反停火协议发动攻击",
+          "content": "真主党连续第二天在停火期间对以色列军队发动攻击。真主党声称使用两架FPV无人机攻击了卡恩塔拉地区的以军人员和指挥车，以军在拜亚达拦截了一架无人机，未造成伤亡。双方互相指责对方违反停火协议。",
+          "major": true,
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/asia-pacific/lebanon-hopes-extension-ceasefire-washington-meeting-2026-04-22/",
+              "name": "路透社",
               "priority": 1
             }
           ],
@@ -4871,6 +4870,27 @@
             }
           ],
           "verification_status": "verified"
+        },
+        {
+          "time": "全天",
+          "category": "外交",
+          "tag": "tag",
+          "title": "以色列黎巴嫩将在华盛顿举行直接谈判",
+          "content": "以色列和黎巴嫩大使将于4月14日在美国国务院举行历史性直接谈判，讨论停火和真主党解除武装问题。黎巴嫩要求先停火再谈判，以色列表示不会与真主党讨论停火，目标是实现\"真正的和平协议\"。",
+          "major": true,
+          "sources": [
+            {
+              "url": "https://www.bbc.com/news/articles/c93en5q2zl3o",
+              "name": "BBC",
+              "priority": 1
+            },
+            {
+              "url": "https://www.lemonde.fr/en/international/article/2026/04/10/lebanon-says-talks-with-israel-scheduled-for-tuesday-in-the-us_6752301_4.html",
+              "name": "Le Monde",
+              "priority": 1
+            }
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -4915,27 +4935,6 @@
             {
               "url": "https://www.nytimes.com/live/2026/04/13/world/iran-war-trump-news",
               "name": "NY Times",
-              "priority": 1
-            }
-          ],
-          "verification_status": "verified"
-        },
-        {
-          "time": "全天",
-          "category": "外交",
-          "tag": "tag",
-          "title": "以色列黎巴嫩将在华盛顿举行直接谈判",
-          "content": "以色列和黎巴嫩大使将于4月14日在美国国务院举行历史性直接谈判，讨论停火和真主党解除武装问题。黎巴嫩要求先停火再谈判，以色列表示不会与真主党讨论停火，目标是实现\"真正的和平协议\"。",
-          "major": true,
-          "sources": [
-            {
-              "url": "https://www.bbc.com/news/articles/c93en5q2zl3o",
-              "name": "BBC",
-              "priority": 1
-            },
-            {
-              "url": "https://www.lemonde.fr/en/international/article/2026/04/10/lebanon-says-talks-with-israel-scheduled-for-tuesday-in-the-us_6752301_4.html",
-              "name": "Le Monde",
               "priority": 1
             }
           ],
@@ -5390,6 +5389,28 @@
           "major": true,
           "sources": [],
           "verification_status": "unverified"
+        },
+        {
+          "major": false,
+          "disputed": false,
+          "time": "下午",
+          "tag": "tag",
+          "category": "军事",
+          "title": "以色列宣布将完成对伊朗所有关键军事生产设施打击",
+          "content": "以色列国防军发表声明，以色列空军将于4月1日完成对伊朗军事生产行业所有“关键”资产的打击，约占伊朗军事生产行业的70%。以军还表示未来其他非关键军事生产设施也可能被列为打击对象。\n                        \n                            新浪新闻",
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/middle-east/israel-will-destroy-all-iran-military-facilities-2026-03-31/",
+              "name": "Reuters",
+              "priority": 1
+            }
+          ],
+          "needs_verification": false,
+          "quality_issues": [
+            "❌ 无来源",
+            "❌ 有效来源不足2个（现有0个）"
+          ],
+          "verification_status": "single_authoritative"
         }
       ]
     },
@@ -5443,28 +5464,6 @@
             {
               "url": "https://www.news.cn/world/20260402/5f60e8d97a604e6ea3ea874b3294895d/c.html",
               "name": "新华社",
-              "priority": 1
-            }
-          ],
-          "needs_verification": false,
-          "quality_issues": [
-            "❌ 无来源",
-            "❌ 有效来源不足2个（现有0个）"
-          ],
-          "verification_status": "single_authoritative"
-        },
-        {
-          "major": false,
-          "disputed": false,
-          "time": "下午",
-          "tag": "tag",
-          "category": "军事",
-          "title": "以色列宣布将完成对伊朗所有关键军事生产设施打击",
-          "content": "以色列国防军发表声明，以色列空军将于4月1日完成对伊朗军事生产行业所有“关键”资产的打击，约占伊朗军事生产行业的70%。以军还表示未来其他非关键军事生产设施也可能被列为打击对象。\n                        \n                            新浪新闻",
-          "sources": [
-            {
-              "url": "https://www.reuters.com/world/middle-east/israel-will-destroy-all-iran-military-facilities-2026-03-31/",
-              "name": "Reuters",
               "priority": 1
             }
           ],
@@ -8127,6 +8126,42 @@
             }
           ],
           "verification_status": "verified"
+        },
+        {
+          "major": false,
+          "disputed": false,
+          "time": "上午",
+          "tag": "tag",
+          "category": "人道",
+          "title": "美军误击伊朗小学 165人遇难",
+          "content": "伊朗南部霍尔木兹甘省米纳卜市一所女子小学遭空袭，至少165人遇难，大部分是10岁左右的小女孩。3月11日，美国军方初步调查认定系美军\"战斧\"巡航导弹\"误击\"，美方应对此承担责任。\n                        \n                        \n                            央视新闻\n                            腾讯新闻\n                            📺 遇难者家属采访",
+          "sources": [
+            {
+              "url": "https://news.cctv.com/2026/02/28/ARTIh0fqI5JhcrxLfHG2dauS260228.shtml",
+              "name": "央视新闻"
+            },
+            {
+              "url": "https://new.qq.com/rain/a/20260311A07AER00",
+              "name": "腾讯新闻"
+            },
+            {
+              "name": "CNN",
+              "url": "https://www.cnn.com/2026/03/11/politics/us-iran-school-strike-civilians"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/2/28/israel-strikes-two-schools-in-iran-killing-more-than-50-people"
+            },
+            {
+              "name": "NPR",
+              "url": "https://www.npr.org/2026/03/11/nx-s1-5744981/pentagon-iran-missile-school-hegseth"
+            },
+            {
+              "name": "BBC",
+              "url": "https://www.bbc.com/news/articles/c0rlzmpgplgo"
+            }
+          ],
+          "verification_status": "verified"
         }
       ]
     },
@@ -9384,42 +9419,6 @@
               "url": "https://www.aljazeera.com/news/2026/2/28/mapping-us-and-israeli-attacks-on-iran-and-tehrans-retaliatory-strikes",
               "name": "Al Jazeera",
               "priority": 1
-            }
-          ],
-          "verification_status": "verified"
-        },
-        {
-          "major": false,
-          "disputed": false,
-          "time": "上午",
-          "tag": "tag",
-          "category": "人道",
-          "title": "美军误击伊朗小学 165人遇难",
-          "content": "伊朗南部霍尔木兹甘省米纳卜市一所女子小学遭空袭，至少165人遇难，大部分是10岁左右的小女孩。3月11日，美国军方初步调查认定系美军\"战斧\"巡航导弹\"误击\"，美方应对此承担责任。\n                        \n                        \n                            央视新闻\n                            腾讯新闻\n                            📺 遇难者家属采访",
-          "sources": [
-            {
-              "url": "https://news.cctv.com/2026/02/28/ARTIh0fqI5JhcrxLfHG2dauS260228.shtml",
-              "name": "央视新闻"
-            },
-            {
-              "url": "https://new.qq.com/rain/a/20260311A07AER00",
-              "name": "腾讯新闻"
-            },
-            {
-              "name": "CNN",
-              "url": "https://www.cnn.com/2026/03/11/politics/us-iran-school-strike-civilians"
-            },
-            {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/2/28/israel-strikes-two-schools-in-iran-killing-more-than-50-people"
-            },
-            {
-              "name": "NPR",
-              "url": "https://www.npr.org/2026/03/11/nx-s1-5744981/pentagon-iran-missile-school-hegseth"
-            },
-            {
-              "name": "BBC",
-              "url": "https://www.bbc.com/news/articles/c0rlzmpgplgo"
             }
           ],
           "verification_status": "verified"
