@@ -445,6 +445,52 @@
       "date_label": "6月18日",
       "events": [
         {
+          "time": "上午",
+          "category": "外交",
+          "title": "巴基斯坦总理展示已签署的美伊谅解备忘录",
+          "content": "6月18日，在巴基斯坦首都伊斯兰堡，巴基斯坦总理夏巴兹·谢里夫公开展示已签署的美国和伊朗谅解备忘录。巴基斯坦作为美伊谈判的斡旋方，在备忘录签署过程中发挥了关键调解作用。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "http://world.people.com.cn/n1/2026/0618/c1002-40743252.html",
+              "name": "人民日报",
+              "priority": 1
+            },
+            {
+              "url": "http://www.news.cn/20260618/4a56609c1930473e997235ed3dd005d3/c.html",
+              "name": "新华社",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "外交",
+          "title": "普京表示俄罗斯准备给予调停性支持",
+          "content": "6月18日，俄罗斯总统普京在与阿联酋总统穆罕默德通电话时表示，俄罗斯准备在推动以伊冲突各方对话方面给予\"调停性支持\"，并已就此意向与多国领导人进行沟通。普京同日在圣彼得堡表示，俄方愿意继续确保伊朗和平利用核能的利益，同时缓解以色列的安全担忧。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "http://www.kremlin.ru/events/president/news/20260618",
+              "name": "克里姆林宫官网",
+              "priority": 1
+            },
+            {
+              "url": "http://www.news.cn/2026/06/18/",
+              "name": "新华社",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d109",
+      "date_label": "6月17日",
+      "events": [
+        {
           "time": "下午",
           "category": "外交",
           "title": "伊朗外长与俄外长通电话讨论谅解备忘录",
@@ -488,8 +534,8 @@
       ]
     },
     {
-      "date_id": "d109",
-      "date_label": "6月17日",
+      "date_id": "d108",
+      "date_label": "6月16日",
       "events": [
         {
           "time": "下午",
@@ -575,8 +621,8 @@
       ]
     },
     {
-      "date_id": "d108",
-      "date_label": "6月16日",
+      "date_id": "d107",
+      "date_label": "6月15日",
       "events": [
         {
           "time": "下午",
@@ -642,8 +688,8 @@
       ]
     },
     {
-      "date_id": "d107",
-      "date_label": "6月15日",
+      "date_id": "d106",
+      "date_label": "6月14日",
       "events": [
         {
           "time": "晚上",
@@ -724,8 +770,8 @@
       ]
     },
     {
-      "date_id": "d106",
-      "date_label": "6月14日",
+      "date_id": "d105",
+      "date_label": "6月13日",
       "events": [
         {
           "time": "全天",
@@ -745,8 +791,8 @@
       ]
     },
     {
-      "date_id": "d105",
-      "date_label": "6月13日",
+      "date_id": "d104",
+      "date_label": "6月12日",
       "events": [
         {
           "time": "晚间",
@@ -766,8 +812,8 @@
       ]
     },
     {
-      "date_id": "d104",
-      "date_label": "6月12日",
+      "date_id": "d103",
+      "date_label": "6月11日",
       "events": [
         {
           "time": "凌晨",
@@ -803,8 +849,8 @@
       ]
     },
     {
-      "date_id": "d103",
-      "date_label": "6月11日",
+      "date_id": "d102",
+      "date_label": "6月10日",
       "events": [
         {
           "time": "全天",
@@ -886,8 +932,8 @@
       ]
     },
     {
-      "date_id": "d102",
-      "date_label": "6月10日",
+      "date_id": "d101",
+      "date_label": "6月9日",
       "events": [
         {
           "time": "全天",
@@ -938,8 +984,8 @@
       ]
     },
     {
-      "date_id": "d101",
-      "date_label": "6月9日",
+      "date_id": "d100",
+      "date_label": "6月8日",
       "events": [
         {
           "time": "晚上",
@@ -1045,8 +1091,8 @@
       ]
     },
     {
-      "date_id": "d100",
-      "date_label": "6月8日",
+      "date_id": "d99",
+      "date_label": "6月7日",
       "events": [
         {
           "time": "晚间",
@@ -1130,8 +1176,8 @@
       ]
     },
     {
-      "date_id": "d99",
-      "date_label": "6月7日",
+      "date_id": "d98",
+      "date_label": "6月6日",
       "events": [
         {
           "time": "下午",
@@ -1178,8 +1224,8 @@
       ]
     },
     {
-      "date_id": "d98",
-      "date_label": "6月6日",
+      "date_id": "d97",
+      "date_label": "6月5日",
       "events": [
         {
           "time": "下午",
@@ -1273,8 +1319,8 @@
       ]
     },
     {
-      "date_id": "d97",
-      "date_label": "6月5日",
+      "date_id": "d96",
+      "date_label": "6月4日",
       "events": [
         {
           "time": "下午",
@@ -1337,8 +1383,8 @@
       ]
     },
     {
-      "date_id": "d96",
-      "date_label": "6月4日",
+      "date_id": "d95",
+      "date_label": "6月3日",
       "events": [
         {
           "time": "下午",
@@ -1406,8 +1452,8 @@
       ]
     },
     {
-      "date_id": "d95",
-      "date_label": "6月3日",
+      "date_id": "d94",
+      "date_label": "6月2日",
       "events": [
         {
           "time": "晚间",
@@ -1470,8 +1516,8 @@
       ]
     },
     {
-      "date_id": "d94",
-      "date_label": "6月2日",
+      "date_id": "d93",
+      "date_label": "6月1日",
       "events": [
         {
           "time": "晚间",
@@ -1576,8 +1622,8 @@
       ]
     },
     {
-      "date_id": "d93",
-      "date_label": "6月1日",
+      "date_id": "d92",
+      "date_label": "5月31日",
       "events": [
         {
           "time": "晚间",
@@ -1682,8 +1728,8 @@
       ]
     },
     {
-      "date_id": "d92",
-      "date_label": "5月31日",
+      "date_id": "d91",
+      "date_label": "5月30日",
       "events": [
         {
           "time": "晚间",
@@ -1751,8 +1797,8 @@
       ]
     },
     {
-      "date_id": "d91",
-      "date_label": "5月30日",
+      "date_id": "d90",
+      "date_label": "5月29日",
       "events": [
         {
           "time": "晚间",
@@ -1820,8 +1866,8 @@
       ]
     },
     {
-      "date_id": "d90",
-      "date_label": "5月29日",
+      "date_id": "d89",
+      "date_label": "5月28日",
       "events": [
         {
           "time": "晚间",
@@ -1889,8 +1935,8 @@
       ]
     },
     {
-      "date_id": "d89",
-      "date_label": "5月28日",
+      "date_id": "d88",
+      "date_label": "5月27日",
       "events": [
         {
           "time": "下午",
@@ -1937,8 +1983,8 @@
       ]
     },
     {
-      "date_id": "d88",
-      "date_label": "5月27日",
+      "date_id": "d87",
+      "date_label": "5月26日",
       "events": [
         {
           "time": "下午",
@@ -2006,8 +2052,8 @@
       ]
     },
     {
-      "date_id": "d87",
-      "date_label": "5月26日",
+      "date_id": "d86",
+      "date_label": "5月25日",
       "events": [
         {
           "time": "深夜",
@@ -2075,8 +2121,8 @@
       ]
     },
     {
-      "date_id": "d86",
-      "date_label": "5月25日",
+      "date_id": "d85",
+      "date_label": "5月24日",
       "events": [
         {
           "time": "下午",
@@ -2144,8 +2190,8 @@
       ]
     },
     {
-      "date_id": "d85",
-      "date_label": "5月24日",
+      "date_id": "d84",
+      "date_label": "5月23日",
       "events": [
         {
           "time": "下午",
@@ -2213,8 +2259,8 @@
       ]
     },
     {
-      "date_id": "d84",
-      "date_label": "5月23日",
+      "date_id": "d83",
+      "date_label": "5月22日",
       "events": [
         {
           "time": "下午",
@@ -2261,8 +2307,8 @@
       ]
     },
     {
-      "date_id": "d83",
-      "date_label": "5月22日",
+      "date_id": "d82",
+      "date_label": "5月21日",
       "events": [
         {
           "time": "下午",
@@ -2309,8 +2355,8 @@
       ]
     },
     {
-      "date_id": "d82",
-      "date_label": "5月21日",
+      "date_id": "d81",
+      "date_label": "5月20日",
       "events": [
         {
           "time": "上午",
@@ -2352,8 +2398,8 @@
       ]
     },
     {
-      "date_id": "d81",
-      "date_label": "5月20日",
+      "date_id": "d80",
+      "date_label": "5月19日",
       "events": [
         {
           "time": "下午",
@@ -2421,9 +2467,62 @@
       ]
     },
     {
-      "date_id": "d80",
-      "date_label": "5月19日",
+      "date_id": "d79",
+      "date_label": "5月18日",
       "events": [
+        {
+          "time": "下午",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "伊朗无人机袭击阿联酋巴拉卡核电站，引发火灾",
+          "content": "阿联酋国防部宣布，3架伊朗无人机从西部边境进入阿联酋领空，2架被成功拦截，第3架在阿布扎比巴拉卡(Barakah)核电站外围引发火灾。火灾发生在核电站电气发电机区域，位于内围安全区之外，已得到控制，无人员伤亡，辐射安全水平未受影响。阿联酋称这是'无端恐怖袭击'，并指责伊朗或其代理人发动袭击。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.theguardian.com/world/2026/may/17/uae-blames-iran-or-its-proxies-for-drone-strike-fire-near-nuclear-plant",
+              "name": "卫报",
+              "priority": 1
+            },
+            {
+              "url": "https://www.aljazeera.com/news/liveblog/2026/5/18/iran-war-live-trump-warns-clock-ticking-saudi-uae-report-drone-attacks?update=4581222",
+              "name": "半岛电视台",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "上午",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "沙特拦截3架伊朗无人机，阿联酋同日遭袭",
+          "content": "沙特阿拉伯宣布成功拦截3架从伊朗方向发射的无人机。同日，阿联酋也报告遭受无人机袭击。这是伊朗对海湾国家发动的又一次协调攻击，显示冲突正在向更广泛的地区蔓延。",
+          "major": true,
+          "verification_status": "single_authoritative",
+          "sources": [
+            {
+              "url": "https://www.aljazeera.com/news/liveblog/2026/5/18/iran-war-live-trump-warns-clock-ticking-saudi-uae-report-drone-attacks?update=4581222",
+              "name": "半岛电视台",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "凌晨",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "特朗普威胁伊朗'倒计时开始'，美伊谈判仍陷僵局",
+          "content": "特朗普在Truth Social发帖称'倒计时开始，他们最好快点行动，否则将一无所有'。此前《纽约时报》报道称美国和以色列最早本周可能恢复对伊朗的打击。美伊谈判在特朗普访华后仍无进展，停火被形容为'处于生命支持状态'。以色列总理内塔尼亚胡表示将与特朗普通话。",
+          "major": true,
+          "verification_status": "single_authoritative",
+          "sources": [
+            {
+              "url": "https://www.aljazeera.com/news/liveblog/2026/5/18/iran-war-live-trump-warns-clock-ticking-saudi-uae-report-drone-attacks?update=4581222",
+              "name": "半岛电视台",
+              "priority": 1
+            }
+          ]
+        },
         {
           "time": "傍晚",
           "category": "政治",
@@ -2515,65 +2614,6 @@
             {
               "url": "https://www.reuters.com/world/asia-pacific/revised-iranian-proposal-end-war-shared-with-us-pakistani-source-says-2026-05-18/",
               "name": "路透社",
-              "priority": 1
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date_id": "d79",
-      "date_label": "5月18日",
-      "events": [
-        {
-          "time": "下午",
-          "category": "军事",
-          "tag": "major-tag",
-          "title": "伊朗无人机袭击阿联酋巴拉卡核电站，引发火灾",
-          "content": "阿联酋国防部宣布，3架伊朗无人机从西部边境进入阿联酋领空，2架被成功拦截，第3架在阿布扎比巴拉卡(Barakah)核电站外围引发火灾。火灾发生在核电站电气发电机区域，位于内围安全区之外，已得到控制，无人员伤亡，辐射安全水平未受影响。阿联酋称这是'无端恐怖袭击'，并指责伊朗或其代理人发动袭击。",
-          "major": true,
-          "verification_status": "verified",
-          "sources": [
-            {
-              "url": "https://www.theguardian.com/world/2026/may/17/uae-blames-iran-or-its-proxies-for-drone-strike-fire-near-nuclear-plant",
-              "name": "卫报",
-              "priority": 1
-            },
-            {
-              "url": "https://www.aljazeera.com/news/liveblog/2026/5/18/iran-war-live-trump-warns-clock-ticking-saudi-uae-report-drone-attacks?update=4581222",
-              "name": "半岛电视台",
-              "priority": 1
-            }
-          ]
-        },
-        {
-          "time": "上午",
-          "category": "军事",
-          "tag": "major-tag",
-          "title": "沙特拦截3架伊朗无人机，阿联酋同日遭袭",
-          "content": "沙特阿拉伯宣布成功拦截3架从伊朗方向发射的无人机。同日，阿联酋也报告遭受无人机袭击。这是伊朗对海湾国家发动的又一次协调攻击，显示冲突正在向更广泛的地区蔓延。",
-          "major": true,
-          "verification_status": "single_authoritative",
-          "sources": [
-            {
-              "url": "https://www.aljazeera.com/news/liveblog/2026/5/18/iran-war-live-trump-warns-clock-ticking-saudi-uae-report-drone-attacks?update=4581222",
-              "name": "半岛电视台",
-              "priority": 1
-            }
-          ]
-        },
-        {
-          "time": "凌晨",
-          "category": "外交",
-          "tag": "major-tag",
-          "title": "特朗普威胁伊朗'倒计时开始'，美伊谈判仍陷僵局",
-          "content": "特朗普在Truth Social发帖称'倒计时开始，他们最好快点行动，否则将一无所有'。此前《纽约时报》报道称美国和以色列最早本周可能恢复对伊朗的打击。美伊谈判在特朗普访华后仍无进展，停火被形容为'处于生命支持状态'。以色列总理内塔尼亚胡表示将与特朗普通话。",
-          "major": true,
-          "verification_status": "single_authoritative",
-          "sources": [
-            {
-              "url": "https://www.aljazeera.com/news/liveblog/2026/5/18/iran-war-live-trump-warns-clock-ticking-saudi-uae-report-drone-attacks?update=4581222",
-              "name": "半岛电视台",
               "priority": 1
             }
           ]
