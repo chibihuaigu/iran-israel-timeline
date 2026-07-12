@@ -1,9 +1,567 @@
 {
   "version": "1.0",
-  "extracted_at": "2026-07-04 00:03:50",
-  "total_days": 125,
-  "total_events": 406,
+  "extracted_at": "2026-07-12 08:16:03",
+  "total_days": 134,
+  "total_events": 430,
   "events": [
+    {
+      "date_id": "d134",
+      "date_label": "7月12日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "外交",
+          "tag": "tag",
+          "title": "伊朗外长阿曼会谈推出海峡双航道方案",
+          "content": "7月11日伊朗外长阿拉格齐访问阿曼马斯喀特，与阿曼外交大臣闭门磋商霍尔木兹海峡管控、美伊停火谅解备忘录履约问题，卡塔尔代表列席斡旋。伊朗提出海峡双航道方案，试图在维持伊朗控制的同时回应国际社会对航行自由的关切。美国高级官员透露，美国预计伊朗将在未来几天发表公开声明，表示霍尔木兹海峡开放，通过该水道的商船不会受到攻击。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/middle-east/",
+              "name": "路透社",
+              "priority": 1
+            },
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-11-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "经济",
+          "tag": "tag",
+          "title": "6300万桶伊朗原油漂浮波斯湾",
+          "content": "波斯湾海面上，数千万桶伊朗原油漫无目的地漂泊，曾经迎来复苏曙光的伊朗经济一夜之间打回原形。一场突如其来的海峡冲突撕碎了短暂的美伊和解局面，也搅动了全球能源市场。美国恢复制裁后，伊朗原油出口再次面临严重困境。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/middle-east/",
+              "name": "路透社",
+              "priority": 1
+            },
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-11-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d133",
+      "date_label": "7月11日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "伊朗谈判代表试图保留与美国的谈判",
+          "content": "伊朗官员私下告诉美国官员，一个寻求破坏谈判的\"错误\"强硬派 faction 对伊朗最近在海峡攻击商船负责，据 unspecified 美国高级官员称。伊朗7月6日和7日攻击了三艘使用南部阿曼航线的商船，以执行其对海峡的控制，这引发了美国对伊朗的打击。一名 unspecified 美国官员7月10日告诉Axios，伊朗谈判代表在两次攻击后与特朗普政府联系，要求双方继续谈判。美国官员声称伊朗正面临内部\"权力斗争\"。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/asia-pacific/trump-says-us-iran-agree-continue-talks-ceasefire-over-2026-07-11/",
+              "name": "路透社",
+              "priority": 1
+            },
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-11-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "核",
+          "tag": "tag",
+          "title": "伊朗继续保护其核计划",
+          "content": "国际科学与国际安全研究所和CNN 7月10日报道，伊朗最近几周继续采取措施保护帕尔钦军事综合体的塔莱甘2号设施，以防未来可能的打击。该研究所评估，伊朗正在塔莱甘2号上方建造混凝土屋顶，以加固其抵御打击能力。美国和以色列在最近的战争中多次打击帕尔钦，至少一次打击了塔莱甘2号设施。伊朗政权此前在2003年暂停其核武器计划之前，使用塔莱甘2号设施测试引爆核装置所需的炸药。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-11-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            },
+            {
+              "url": "https://www.cnn.com/2026/07/10/world/video/investigates-polglase-iran-nuclear-sat-imagery",
+              "name": "CNN",
+              "priority": 2
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "政治",
+          "tag": "major-tag",
+          "title": "伊朗最高领袖表示必须为父亲被杀复仇",
+          "content": "伊朗最高领袖穆杰塔巴·哈梅内伊7月11日表示，伊朗必须为其父亲、前最高领袖阿里·哈梅内伊的被杀复仇。他补充说，这种复仇不取决于他个人的生存，世界上\"每个自由的人\"都将参与实现这一目标。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-11-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/",
+              "name": "路透社",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "外交",
+          "tag": "tag",
+          "title": "伊朗外长访问阿曼讨论霍尔木兹海峡",
+          "content": "伊朗外交部长阿巴斯·阿拉格齐7月11日前往阿曼与阿曼官员就海峡安全通行举行会谈。阿拉格齐是主导谈判的关键人物，他与阿曼的会谈旨在讨论霍尔木兹海峡的安全通行问题。特朗普政府已指示高级官员，包括副总统JD·万斯、中东特使史蒂夫·威特科夫和贾里德·库什纳继续谈判。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/asia-pacific/trump-says-us-iran-agree-continue-talks-ceasefire-over-2026-07-11/",
+              "name": "路透社",
+              "priority": 1
+            },
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-11-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d132",
+      "date_label": "7月10日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "美国和伊朗将在美国打击后恢复谈判",
+          "content": "美国总统唐纳德·特朗普7月10日表示，美国应伊朗请求同意恢复谈判，但美国现在认为停火已经结束。谅解备忘录和美伊之间的最近几轮谈判未能弥合战争关键问题上的分歧，这些问题包括伊朗对海峡的控制、伊朗核计划以及以色列在黎巴嫩的行动。两名伊朗高级消息人士7月8日告诉路透社，伊朗政权认为其对海峡的控制是\"重要杠杆\"，放弃这种控制等同于\"投降\"。消息人士补充说，除非美国承认伊朗对海峡的全面管理，否则伊朗不会讨论其核计划。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/how-irans-golden-weapon-hormuz-became-bigger-priority-than-its-long-disputed-2026-07-08/",
+              "name": "路透社",
+              "priority": 1
+            },
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-10-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "经济",
+          "tag": "tag",
+          "title": "美国增加对伊朗影子银行基础设施的经济压力",
+          "content": "美国7月10日制裁了八名个人和六个实体，包括迪拜金融家阿里·安萨里，他监管受益于最高领袖穆杰塔巴·哈梅内伊、其他政权精英和伊斯兰革命卫队的资产。美国财政部还制裁了安萨里拥有的Smart Global Limited、三家伊朗交易所和两家前沿公司，这些公司通过空壳公司网络为受制裁的伊朗银行每年转移或持有数十亿美元。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-10-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/",
+              "name": "路透社",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "军事",
+          "tag": "tag",
+          "title": "伊朗支持的伊拉克民兵试图规避解除武装倡议",
+          "content": " unidentified 框架消息人士7月9日告诉伊拉克媒体， unidentified 民兵正在向政府移交\"废弃\"导弹或无法操作的无人机，但保留功能性重型武器。只有真主党旅和伊玛目阿里旅公开宣布愿意解除武装，可能是为了获得扎伊迪为民兵成员愿意解除武装而保留的35,000个安全部门职位。两个民兵在战争期间都进行或直接支持了对伊拉克和地区外国目标的攻击。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-10-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/",
+              "name": "路透社",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d131",
+      "date_label": "7月9日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "美军打击伊朗90个目标",
+          "content": "美国中央司令部7月8日报告，美军在伊朗南部海岸线打击了90个目标，包括防空系统、沿海监视资产、导弹和无人机储存地点、海军能力和军事后勤基础设施。这些打击是为回应伊朗7月6日和7日在海峡内对民用船只的打击。中央司令部于7月7日进行了类似打击。地理定位画面显示美国打击对恰巴哈尔港 reported 海上交通管制塔造成损坏，该港位于伊朗东南部与阿曼湾接壤的边境。地理定位画面还显示对法尔斯省设拉子的伊斯兰革命卫队海军沙希德·阿萨里内贾德兵营造成损坏。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-9-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/",
+              "name": "路透社",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "核",
+          "tag": "major-tag",
+          "title": "伊朗官员威胁改变核学说",
+          "content": "议会国家安全和外交政策委员会发言人易卜拉欣·雷扎伊7月8日表示，如果美国发动另一次\"全面攻击\"，伊朗可能会考虑改变其核学说。雷扎伊此前7月3日表示，以色列官员威胁杀害伊朗最高领袖穆杰塔巴·哈梅内伊构成重新考虑伊朗核学说的\"有效且令人信服的理由\"。议会经济委员会成员侯赛因·萨姆萨米7月9日 separately 表示，伊朗必须改变其核学说，因为伊朗目前正参与一场\"生存战争\"。萨姆萨米是85名伊朗议员之一，他们在5月31日致穆杰塔巴的信中隐含呼吁伊朗发展洲际弹道导弹能力。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-9-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/",
+              "name": "路透社",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "外交",
+          "tag": "tag",
+          "title": "美国采取措施支持黎巴嫩三方框架协议执行",
+          "content": "美国驻黎巴嫩大使米歇尔·伊萨在7月9日与黎巴嫩总统约瑟夫·奥恩的会面中表示，美国将在\"数日内\"向黎巴嫩派遣军事代表团，以支持协议执行。伊萨也表示，在即将举行的7月15日和16日在意大利罗马的美以黎谈判之后，将确定执行协议\"试点区\"计划的开始日期。一名 unspecified 美国官员告诉Axios，以色列国防军将在\"数日内\"开始从两个 recently announced 试点区撤出。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-9-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/",
+              "name": "路透社",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d130",
+      "date_label": "7月8日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "美军打击伊朗80多个目标",
+          "content": "美国中央司令部7月7日报告，为回应伊朗在海峡内反复攻击商船，美军打击了伊朗80多个目标。中央司令部表示，打击了沿海雷达站点、反舰导弹能力、无人机发射场地、指挥控制网络以及霍尔木兹海峡附近和内部的60多艘伊斯兰革命卫队快速攻击艇。这些打击旨在削弱伊朗威胁航运、布设水雷和协调海峡内海上行动的能力。然而，与7月7日进行的类似打击并未对伊朗威胁航运的能力产生明显影响，目前尚不清楚这些打击何时会对伊朗威胁航运的能力或意愿产生影响。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/middle-east/ship-hit-hormuz-millions-march-ayatollah-iran-says-no-talks-unless-trump-halts-2026-07-07/",
+              "name": "路透社",
+              "priority": 1
+            },
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-8-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "伊朗攻击美国在巴林和科威特的军事设施",
+          "content": "伊朗为回应美国的打击，向巴林和科威特的美军设施发射导弹和无人机。所有伊朗投射物均被拦截，未造成伤亡。伊朗可能计算，对海湾国家的攻击将通过威胁美军和提高美国盟友的成本来增加美国避免进一步军事升级的压力。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-8-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/",
+              "name": "路透社",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "外交",
+          "tag": "tag",
+          "title": "黎巴嫩政府宣布参加罗马谈判",
+          "content": "黎巴嫩政府7月8日宣布将参加7月15日和16日在意大利罗马与美国和以色列的谈判。黎巴嫩政府早些时候声称，其参加谈判的条件是以色列从黎巴嫩南部的\"试点区\"撤军。6月26日框架协议规定，以色列军队最终将从其在扎夫塔尔·埃尔·加尔比耶和纳巴蒂耶省甘杜里耶和弗伦周围的阵地撤出，之后黎巴嫩武装部队将确保这些区域的安全并解除和解散当地武装团体。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-8-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/",
+              "name": "路透社",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d129",
+      "date_label": "7月7日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "外交",
+          "tag": "tag",
+          "title": "伊朗拒绝阿联酋向国际海事组织提出的管理海峡计划",
+          "content": "多家伊朗媒体7月7日报道，阿联酋向国际海事组织提出了管理霍尔木兹海峡的计划，伊朗予以拒绝，其他八个 unspecified 阿联酋\"盟友\"予以支持。伊朗声称该计划缺乏\"法律依据\"并\"超出国际海事理事会的技术授权和权限\"。伊朗声称仍在为船只提供服务。伊朗政权附属媒体在这些媒体报道伊朗拒绝阿联酋计划后发表声明，称通过海峡的所有过境必须按照伊朗的安排进行。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-7-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/nato-allies-discuss-hormuz-tensions-mission-with-gulf-arabs-2026-07-07/",
+              "name": "路透社",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "军事",
+          "tag": "tag",
+          "title": "伊朗向油轮发射无人机",
+          "content": "伊朗7月7日在霍尔木兹海峡附近向一艘 unspecified 油轮发射无人机。此前伊朗于7月6日对油轮发动两次导弹袭击。这些攻击旨在阻止船只使用靠近阿曼海岸的过境路线，以维护伊朗对海峡交通的控制。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/middle-east/ship-hit-hormuz-millions-march-ayatollah-iran-says-no-talks-unless-trump-halts-2026-07-07/",
+              "name": "路透社",
+              "priority": 1
+            },
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-7-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "外交",
+          "tag": "tag",
+          "title": "北约外长讨论霍尔木兹海峡问题",
+          "content": "北约成员国外长7月7日在土耳其安卡拉举行的北约峰会间隙，与巴林、科威特、卡塔尔和阿联酋外长讨论如何处理海峡问题，据外交官告诉路透社。沙特阿拉伯、科威特和阿联酋据报正在制定延长能源管道的计划，以绕过海峡并减轻伊朗对其经济的干扰，据多个消息来源7月7日告诉路透社。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/middle-east/nato-allies-discuss-hormuz-tensions-mission-with-gulf-arabs-2026-07-07/",
+              "name": "路透社",
+              "priority": 1
+            },
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-7-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d128",
+      "date_label": "7月6日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "政治",
+          "tag": "tag",
+          "title": "伊朗最高领袖重新任命司法首长",
+          "content": "伊朗最高领袖穆杰塔巴·哈梅内伊7月5日重新任命戈拉姆·侯赛因·穆赫辛尼·埃杰伊为司法首长。这是穆杰塔巴自2026年3月成为最高领袖以来的第三次任命。埃杰伊曾在强硬派总统马哈茂德·艾哈迈迪内贾德手下担任情报部长，自2021年起担任司法首长。埃杰伊历史上对政权异见者采取强硬立场，例如在2022年马赫萨·阿米尼抗议活动中公开为处决抗议者辩护，并在2026年将抗议者描述为\"恐怖分子\"。美国于2010年9月因侵犯人权行为制裁了埃杰伊。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-6-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/",
+              "name": "路透社",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "伊朗攻击霍尔木兹海峡油轮",
+          "content": "伊朗7月6日在霍尔木兹海峡对油轮发动两次导弹袭击，因为两艘船只均未使用伊朗批准的过境机制。第一次袭击针对一艘运载卡塔尔天然气出口的油轮，距离阿曼利马海岸8海里；第二次袭击针对海峡内一艘沙特籍油轮。这些袭击旨在阻止船只使用靠近阿曼海岸的过境路线。伊朗认识到，如果未能攻击这些船只，将失去霍尔木兹海峡作为杠杆工具。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/middle-east/ship-hit-hormuz-millions-march-ayatollah-iran-says-no-talks-unless-trump-halts-2026-07-07/",
+              "name": "路透社",
+              "priority": 1
+            },
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-7-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d127",
+      "date_label": "7月5日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "以色列国防军宣布控制真主党在黎巴嫩南部的隧道网络",
+          "content": "以色列国防军参谋长艾yal·扎米尔中将7月5日宣布，以色列国防军已控制真主党在黎巴嫩南部贝福特城堡附近的广泛隧道网络。以色列国防军此前于5月31日控制了贝福特城堡周围的地面地形，并于6月开始夺取和拆除真主党的地下基础设施。扎米尔指出，真主党在伊朗协助下，在贝福特城堡周围的山脊开发了广泛的隧道网络，用于指挥控制和瞄准以色列北部社区。扎米尔敦促黎巴嫩武装部队履行解除真主党武装的承诺，并警告以色列国防军准备在真主党违反停火时发动\"迅速进攻\"。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-5-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/",
+              "name": "路透社",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d126",
+      "date_label": "7月4日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "外交",
+          "tag": "tag",
+          "title": "伊朗坚持在霍尔木兹海峡征收通行费",
+          "content": "伊朗继续坚持在霍尔木兹海峡实施非法通行费计划，尽管阿曼反对强制收费。伊朗拒绝了阿曼提出的设立\"海事服务\"基金的提议，该基金将由航运和能源公司自愿捐款资助。据《华尔街日报》7月2日报道，伊朗寻求对通过海峡的船只征收强制费用，而阿曼则建议将费用改为自愿性质。美伊谅解备忘录要求伊朗与阿曼协商确定海峡的\"未来管理\"，但报告显示伊朗和阿曼对水道未来管理存在不同愿景。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.nytimes.com/2026/06/30/world/middleeast/iran-war-oman-strait-hormuz-fee-ships.html",
+              "name": "纽约时报",
+              "priority": 1
+            },
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-3-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "政治",
+          "tag": "tag",
+          "title": "伊朗最高领袖穆杰塔巴·哈梅内伊未出席前最高领袖葬礼开幕式",
+          "content": "伊朗最高领袖穆杰塔巴·哈梅内伊7月3日未出席在德黑兰举行的前最高领袖阿里·哈梅内伊葬礼开幕式，尽管伊朗大多数高级领导人和许多外国显要出席了仪式。穆杰塔巴自战争开始以来未曾公开露面，据报道正在从导致其父亲死亡的袭击中恢复。伊斯兰革命卫队指挥官艾哈迈德·瓦希迪少将在仪式上首次公开露面，这是自美以伊战争以来的首次。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.theguardian.com/world/2026/mar/11/mojtaba-khamenei-was-hurt-in-strike-that-killed-his-father-irans-cyprus-ambassador-confirms",
+              "name": "卫报",
+              "priority": 1
+            },
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-3-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "经济",
+          "tag": "tag",
+          "title": "伊朗开始与日本公司谈判出售石油",
+          "content": "伊朗已开始与日本公司谈判购买伊朗石油，据伊朗和西方消息人士7月3日告诉路透社。美伊谅解备忘录包括60天的石油制裁豁免，并规定美国将在签署最终协议后解除对伊朗的所有制裁。日本此前是美国对伊朗实施最大压力制裁前伊朗石油的主要进口国。伊朗与日本的谈判表明，伊朗正试图利用制裁豁免期与前经济伙伴重建石油销售网络。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.reuters.com/business/energy/iran-exploring-oil-sales-japan-buyers-seek-longer-sanctions-waiver-sources-2026-07-03/",
+              "name": "路透社",
+              "priority": 1
+            },
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-3-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
     {
       "date_id": "d125",
       "date_label": "7月3日",
@@ -445,26 +1003,6 @@
       "date_label": "6月18日",
       "events": [
         {
-          "time": "上午",
-          "category": "外交",
-          "title": "巴基斯坦总理展示已签署的美伊谅解备忘录",
-          "content": "6月18日，在巴基斯坦首都伊斯兰堡，巴基斯坦总理夏巴兹·谢里夫公开展示已签署的美国和伊朗谅解备忘录。巴基斯坦作为美伊谈判的斡旋方，在备忘录签署过程中发挥了关键调解作用。",
-          "major": true,
-          "verification_status": "verified",
-          "sources": [
-            {
-              "url": "http://world.people.com.cn/n1/2026/0618/c1002-40743252.html",
-              "name": "人民日报",
-              "priority": 1
-            },
-            {
-              "url": "http://www.news.cn/20260618/4a56609c1930473e997235ed3dd005d3/c.html",
-              "name": "新华社",
-              "priority": 1
-            }
-          ]
-        },
-        {
           "time": "全天",
           "category": "外交",
           "title": "普京表示俄罗斯准备给予调停性支持",
@@ -479,6 +1017,26 @@
             },
             {
               "url": "http://www.news.cn/2026/06/18/",
+              "name": "新华社",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "上午",
+          "category": "外交",
+          "title": "巴基斯坦总理展示已签署的美伊谅解备忘录",
+          "content": "6月18日，在巴基斯坦首都伊斯兰堡，巴基斯坦总理夏巴兹·谢里夫公开展示已签署的美国和伊朗谅解备忘录。巴基斯坦作为美伊谈判的斡旋方，在备忘录签署过程中发挥了关键调解作用。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "http://world.people.com.cn/n1/2026/0618/c1002-40743252.html",
+              "name": "人民日报",
+              "priority": 1
+            },
+            {
+              "url": "http://www.news.cn/20260618/4a56609c1930473e997235ed3dd005d3/c.html",
               "name": "新华社",
               "priority": 1
             }
@@ -665,27 +1223,6 @@
           ]
         },
         {
-          "time": "上午",
-          "category": "外交",
-          "tag": "major-tag",
-          "title": "伊朗外交部宣布将对霍尔木兹海峡航运服务收费",
-          "content": "6月15日，伊朗外交部发言人巴加埃在新闻发布会上宣布，伊朗将在'特定时期内'负责霍尔木兹海峡安全通行管理，并将对相关航运服务收取费用。巴加埃说，伊朗将与另一霍尔木兹海峡沿岸国阿曼一道，采取必要措施确保船舶能安全通过该海峡。伊朗并非单纯寻求收费，但将对霍尔木兹海峡的航行服务、环境保护以及由伊朗和阿曼提供的船舶保险等相关费用进行设计并收取。同日，伊朗法尔斯通讯社援引知情人士透露，伊美谅解备忘录在达成前最后阶段进行了修改，'明确且无歧义地'强调了伊朗与阿曼对霍尔木兹海峡行使管理权。",
-          "major": true,
-          "verification_status": "verified",
-          "sources": [
-            {
-              "url": "https://news.cctv.com/2026/06/15/ARTI2vkfTdayCEKuCCewtqjj260615.shtml",
-              "name": "央视新闻",
-              "priority": 1
-            },
-            {
-              "url": "http://www.xinhuanet.com/world/20260615/f4631af963284f84b46a1420f0e720f8/c.html",
-              "name": "新华网",
-              "priority": 1
-            }
-          ]
-        },
-        {
           "time": "下午",
           "category": "经济",
           "title": "备忘录草案14条：停火、解封、60天倒计时",
@@ -721,6 +1258,27 @@
             {
               "url": "https://news.cctv.com/2026/06/15/ARTIzP5vnrVL7y2oX1GEWeoc260615.shtml",
               "name": "央视新闻",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "上午",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "伊朗外交部宣布将对霍尔木兹海峡航运服务收费",
+          "content": "6月15日，伊朗外交部发言人巴加埃在新闻发布会上宣布，伊朗将在'特定时期内'负责霍尔木兹海峡安全通行管理，并将对相关航运服务收取费用。巴加埃说，伊朗将与另一霍尔木兹海峡沿岸国阿曼一道，采取必要措施确保船舶能安全通过该海峡。伊朗并非单纯寻求收费，但将对霍尔木兹海峡的航行服务、环境保护以及由伊朗和阿曼提供的船舶保险等相关费用进行设计并收取。同日，伊朗法尔斯通讯社援引知情人士透露，伊美谅解备忘录在达成前最后阶段进行了修改，'明确且无歧义地'强调了伊朗与阿曼对霍尔木兹海峡行使管理权。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://news.cctv.com/2026/06/15/ARTI2vkfTdayCEKuCCewtqjj260615.shtml",
+              "name": "央视新闻",
+              "priority": 1
+            },
+            {
+              "url": "http://www.xinhuanet.com/world/20260615/f4631af963284f84b46a1420f0e720f8/c.html",
+              "name": "新华网",
               "priority": 1
             }
           ]
@@ -1201,27 +1759,6 @@
           ]
         },
         {
-          "time": "上午",
-          "category": "军事",
-          "tag": "major-tag",
-          "title": "IDF误击黎巴嫩军队车辆致3名军官死亡含1名准将",
-          "content": "6月6日，以色列国防军（IDF）空袭黎巴嫩南部Kfar Tebnit附近一辆黎巴嫩武装力量（LAF）车辆，造成3人死亡，包括1名准将、1名上尉和1名士兵。IDF称该车辆在撤离区\"可疑移动\"，且在真主党活动且被视为活跃战区的地方需与IDF协调。LAF和黎巴嫩官员包括总统奥恩、总理萨拉姆、议长贝里强烈谴责IDF袭击。同日，IDF打击黎巴嫩Saksakiye村造成6名平民死亡，4人受伤。",
-          "major": true,
-          "verification_status": "verified",
-          "sources": [
-            {
-              "url": "https://www.timesofisrael.com/israeli-strike-kills-lebanese-army-general-two-soldiers-idf-says-incident-under-review/",
-              "name": "Times of Israel",
-              "priority": 3
-            },
-            {
-              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-june-6-2026/",
-              "name": "ISW战争研究所",
-              "priority": 1
-            }
-          ]
-        },
-        {
           "time": "下午",
           "category": "经济",
           "tag": "tag",
@@ -1237,6 +1774,27 @@
             },
             {
               "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-june-7-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "上午",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "IDF误击黎巴嫩军队车辆致3名军官死亡含1名准将",
+          "content": "6月6日，以色列国防军（IDF）空袭黎巴嫩南部Kfar Tebnit附近一辆黎巴嫩武装力量（LAF）车辆，造成3人死亡，包括1名准将、1名上尉和1名士兵。IDF称该车辆在撤离区\"可疑移动\"，且在真主党活动且被视为活跃战区的地方需与IDF协调。LAF和黎巴嫩官员包括总统奥恩、总理萨拉姆、议长贝里强烈谴责IDF袭击。同日，IDF打击黎巴嫩Saksakiye村造成6名平民死亡，4人受伤。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.timesofisrael.com/israeli-strike-kills-lebanese-army-general-two-soldiers-idf-says-incident-under-review/",
+              "name": "Times of Israel",
+              "priority": 3
+            },
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-june-6-2026/",
               "name": "ISW战争研究所",
               "priority": 1
             }
@@ -1269,6 +1827,27 @@
             },
             {
               "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-june-5-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "下午",
+          "category": "外交",
+          "tag": "tag",
+          "title": "伊朗外长Rezaei：任何美伊和平协议取决于释放240亿美元冻结资产",
+          "content": "6月5日，伊朗最高领袖军事顾问、IRGC前司令穆赫辛·礼萨伊（Mohsen Rezaei）告诉CNN，任何潜在的美伊和平协议取决于美国同意释放240亿美元伊朗冻结资产。同日，伊朗武装部队总参谋部下属媒体Defa Press 6月6日发文称，任何未来美伊协议必须包含对伊朗的经济赔偿以及对美国的保证，使美国在退出协议时承担\"重大代价\"。议会国家安全和外交政策委员会成员Kowsari准将6月6日表示，伊朗在整个谈判过程中都强调需要赔偿。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.cnn.com/2026/06/05/middleeast/iran-supreme-leader-adviser-mohsen-rezaei-interview-intl",
+              "name": "CNN",
+              "priority": 2
+            },
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-june-6-2026/",
               "name": "ISW战争研究所",
               "priority": 1
             }
@@ -1315,27 +1894,6 @@
               "priority": 1
             }
           ]
-        },
-        {
-          "time": "下午",
-          "category": "外交",
-          "tag": "tag",
-          "title": "伊朗外长Rezaei：任何美伊和平协议取决于释放240亿美元冻结资产",
-          "content": "6月5日，伊朗最高领袖军事顾问、IRGC前司令穆赫辛·礼萨伊（Mohsen Rezaei）告诉CNN，任何潜在的美伊和平协议取决于美国同意释放240亿美元伊朗冻结资产。同日，伊朗武装部队总参谋部下属媒体Defa Press 6月6日发文称，任何未来美伊协议必须包含对伊朗的经济赔偿以及对美国的保证，使美国在退出协议时承担\"重大代价\"。议会国家安全和外交政策委员会成员Kowsari准将6月6日表示，伊朗在整个谈判过程中都强调需要赔偿。",
-          "major": false,
-          "verification_status": "verified",
-          "sources": [
-            {
-              "url": "https://www.cnn.com/2026/06/05/middleeast/iran-supreme-leader-adviser-mohsen-rezaei-interview-intl",
-              "name": "CNN",
-              "priority": 2
-            },
-            {
-              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-june-6-2026/",
-              "name": "ISW战争研究所",
-              "priority": 1
-            }
-          ]
         }
       ]
     },
@@ -1360,27 +1918,6 @@
           ]
         },
         {
-          "time": "上午",
-          "category": "外交",
-          "tag": "tag",
-          "title": "伊朗副外长称伊朗遵守UNCLOS对霍尔木兹海峡\"提供服务\"",
-          "content": "6月4日，伊朗副外长、法律和国际事务部副部长Gharibabadi接受伊朗媒体采访，声称伊朗遵守《联合国海洋法公约》（UNCLOS），因为伊朗正在向伊朗水域内的船只\"提供服务\"和\"保护\"。他所说的\"保护\"是保护船只免受伊朗袭击，这意味着伊朗在霍尔木兹海峡事实上建立了保护勒索体系。Gharibabadi同时表示，伊朗仍寻求在签署MoU时立即释放至少一半冻结资产，谈判期内再释放另一半。同日，黎巴嫩总统奥恩和总理萨拉姆指责伊朗利用黎巴嫩作为美伊谈判的\"筹码\"。",
-          "major": false,
-          "verification_status": "verified",
-          "sources": [
-            {
-              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-june-4-2026/",
-              "name": "ISW战争研究所",
-              "priority": 1
-            },
-            {
-              "url": "https://www.understandingwar.org/research/middle-east/iran-update-special-report-june-5-2026/",
-              "name": "ISW（次日报告）",
-              "priority": 1
-            }
-          ]
-        },
-        {
           "time": "下午",
           "category": "军事",
           "tag": "tag",
@@ -1400,6 +1937,27 @@
               "priority": 1
             }
           ]
+        },
+        {
+          "time": "上午",
+          "category": "外交",
+          "tag": "tag",
+          "title": "伊朗副外长称伊朗遵守UNCLOS对霍尔木兹海峡\"提供服务\"",
+          "content": "6月4日，伊朗副外长、法律和国际事务部副部长Gharibabadi接受伊朗媒体采访，声称伊朗遵守《联合国海洋法公约》（UNCLOS），因为伊朗正在向伊朗水域内的船只\"提供服务\"和\"保护\"。他所说的\"保护\"是保护船只免受伊朗袭击，这意味着伊朗在霍尔木兹海峡事实上建立了保护勒索体系。Gharibabadi同时表示，伊朗仍寻求在签署MoU时立即释放至少一半冻结资产，谈判期内再释放另一半。同日，黎巴嫩总统奥恩和总理萨拉姆指责伊朗利用黎巴嫩作为美伊谈判的\"筹码\"。",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-june-4-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            },
+            {
+              "url": "https://www.understandingwar.org/research/middle-east/iran-update-special-report-june-5-2026/",
+              "name": "ISW（次日报告）",
+              "priority": 1
+            }
+          ]
         }
       ]
     },
@@ -1407,6 +1965,22 @@
       "date_id": "d95",
       "date_label": "6月3日",
       "events": [
+        {
+          "time": "晚间",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "美以黎三方协议要求真主党撤至利塔尼河以北",
+          "content": "6月3日，美国、以色列和黎巴嫩发表联合声明，同意实施停火，前提是真主党停止所有袭击并将其武装人员撤至利塔尼河以南。联合声明指出，各方寻求建立框架以实现各自在黎巴嫩的长期目标，包括结束冲突并解除真主党武装使武器收归黎巴嫩国家。以色列和黎巴嫩将协调在黎南部建立\"试点区\"，黎巴嫩武装力量（LAF）将部署至这些地区，\"排除所有非国家行为者\"。黎巴嫩政府确认LAF已开始在IDF撤出的黎南部地区部署。黎巴嫩总统奥恩（Aoun）称该联合声明是获得\"最终和全面停火\"的\"最后机会\"。但真主党总书记Qassem于6月4日拒绝该协议，称接受意味着投降。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-june-4-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            }
+          ]
+        },
         {
           "time": "下午",
           "category": "政治",
@@ -1448,22 +2022,6 @@
               "priority": 1
             }
           ]
-        },
-        {
-          "time": "晚间",
-          "category": "外交",
-          "tag": "major-tag",
-          "title": "美以黎三方协议要求真主党撤至利塔尼河以北",
-          "content": "6月3日，美国、以色列和黎巴嫩发表联合声明，同意实施停火，前提是真主党停止所有袭击并将其武装人员撤至利塔尼河以南。联合声明指出，各方寻求建立框架以实现各自在黎巴嫩的长期目标，包括结束冲突并解除真主党武装使武器收归黎巴嫩国家。以色列和黎巴嫩将协调在黎南部建立\"试点区\"，黎巴嫩武装力量（LAF）将部署至这些地区，\"排除所有非国家行为者\"。黎巴嫩政府确认LAF已开始在IDF撤出的黎南部地区部署。黎巴嫩总统奥恩（Aoun）称该联合声明是获得\"最终和全面停火\"的\"最后机会\"。但真主党总书记Qassem于6月4日拒绝该协议，称接受意味着投降。",
-          "major": true,
-          "verification_status": "verified",
-          "sources": [
-            {
-              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-june-4-2026/",
-              "name": "ISW战争研究所",
-              "priority": 1
-            }
-          ]
         }
       ]
     },
@@ -1493,6 +2051,22 @@
           ]
         },
         {
+          "time": "晚间",
+          "category": "经济",
+          "tag": "major-tag",
+          "title": "美财政部制裁4家伊朗加密货币交易所",
+          "content": "6月2日，美国财政部OFAC以帮助伊朗逃避制裁为由，将伊朗最大的4家加密货币交易所Nobitex、Wallex、Bitpin和Ramzinex列入SDN清单，同时点名Nobitex的4名高管。这是OFAC有史以来针对伊朗交易所基础设施规模最大的加密专项行动。Nobitex在2025年处理了伊朗超过50%的数字资产流入，IRGC关联钱包活动已被证实。本次制裁是\"经济狂怒\"（Economic Fury）行动的一部分，自战争开始以来美财政部已扣押约10亿美元伊朗加密资产。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-june-3-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            }
+          ]
+        },
+        {
           "time": "下午",
           "category": "军事",
           "tag": "tag",
@@ -1509,22 +2083,6 @@
             {
               "url": "https://www.understandingwar.org/research/middle-east/iran-update-special-report-june-3-2026/",
               "name": "ISW（次日报告）",
-              "priority": 1
-            }
-          ]
-        },
-        {
-          "time": "晚间",
-          "category": "经济",
-          "tag": "major-tag",
-          "title": "美财政部制裁4家伊朗加密货币交易所",
-          "content": "6月2日，美国财政部OFAC以帮助伊朗逃避制裁为由，将伊朗最大的4家加密货币交易所Nobitex、Wallex、Bitpin和Ramzinex列入SDN清单，同时点名Nobitex的4名高管。这是OFAC有史以来针对伊朗交易所基础设施规模最大的加密专项行动。Nobitex在2025年处理了伊朗超过50%的数字资产流入，IRGC关联钱包活动已被证实。本次制裁是\"经济狂怒\"（Economic Fury）行动的一部分，自战争开始以来美财政部已扣押约10亿美元伊朗加密资产。",
-          "major": true,
-          "verification_status": "verified",
-          "sources": [
-            {
-              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-june-3-2026/",
-              "name": "ISW战争研究所",
               "priority": 1
             }
           ]
@@ -2471,6 +3029,22 @@
       "date_label": "5月18日",
       "events": [
         {
+          "time": "傍晚",
+          "category": "政治",
+          "tag": "major-tag",
+          "title": "特朗普威胁伊朗'最好快点'，数小时后撤回威胁",
+          "content": "美国总统特朗普5月17日在社交平台发文称\"伊朗的时钟在滴答作响，最好快点行动，否则将一无所有\"。然而数小时后特朗普撤回了这一威胁。据《纽约时报》同日报道，美国军方官员表示，面对美国持续数月的军事打击和封锁，伊朗表现出了巨大的韧性和军事实力。美官员透露，伊朗的核储备尚未受到影响，军事设施也未被完全摧毁。这一信息与特朗普此前声称的\"已摧毁伊朗100%军事能力\"形成鲜明对比。",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/5/19/trump-says-iran-attack-on-hold-what-we-know-about-latest-negotiations",
+              "name": "半岛电视台",
+              "priority": 1
+            }
+          ]
+        },
+        {
           "time": "下午",
           "category": "军事",
           "tag": "major-tag",
@@ -2486,54 +3060,6 @@
             },
             {
               "url": "https://www.aljazeera.com/news/liveblog/2026/5/18/iran-war-live-trump-warns-clock-ticking-saudi-uae-report-drone-attacks?update=4581222",
-              "name": "半岛电视台",
-              "priority": 1
-            }
-          ]
-        },
-        {
-          "time": "上午",
-          "category": "军事",
-          "tag": "major-tag",
-          "title": "沙特拦截3架伊朗无人机，阿联酋同日遭袭",
-          "content": "沙特阿拉伯宣布成功拦截3架从伊朗方向发射的无人机。同日，阿联酋也报告遭受无人机袭击。这是伊朗对海湾国家发动的又一次协调攻击，显示冲突正在向更广泛的地区蔓延。",
-          "major": true,
-          "verification_status": "single_authoritative",
-          "sources": [
-            {
-              "url": "https://www.aljazeera.com/news/liveblog/2026/5/18/iran-war-live-trump-warns-clock-ticking-saudi-uae-report-drone-attacks?update=4581222",
-              "name": "半岛电视台",
-              "priority": 1
-            }
-          ]
-        },
-        {
-          "time": "凌晨",
-          "category": "外交",
-          "tag": "major-tag",
-          "title": "特朗普威胁伊朗'倒计时开始'，美伊谈判仍陷僵局",
-          "content": "特朗普在Truth Social发帖称'倒计时开始，他们最好快点行动，否则将一无所有'。此前《纽约时报》报道称美国和以色列最早本周可能恢复对伊朗的打击。美伊谈判在特朗普访华后仍无进展，停火被形容为'处于生命支持状态'。以色列总理内塔尼亚胡表示将与特朗普通话。",
-          "major": true,
-          "verification_status": "single_authoritative",
-          "sources": [
-            {
-              "url": "https://www.aljazeera.com/news/liveblog/2026/5/18/iran-war-live-trump-warns-clock-ticking-saudi-uae-report-drone-attacks?update=4581222",
-              "name": "半岛电视台",
-              "priority": 1
-            }
-          ]
-        },
-        {
-          "time": "傍晚",
-          "category": "政治",
-          "tag": "major-tag",
-          "title": "特朗普威胁伊朗'最好快点'，数小时后撤回威胁",
-          "content": "美国总统特朗普5月17日在社交平台发文称\"伊朗的时钟在滴答作响，最好快点行动，否则将一无所有\"。然而数小时后特朗普撤回了这一威胁。据《纽约时报》同日报道，美国军方官员表示，面对美国持续数月的军事打击和封锁，伊朗表现出了巨大的韧性和军事实力。美官员透露，伊朗的核储备尚未受到影响，军事设施也未被完全摧毁。这一信息与特朗普此前声称的\"已摧毁伊朗100%军事能力\"形成鲜明对比。",
-          "major": true,
-          "verification_status": "verified",
-          "sources": [
-            {
-              "url": "https://www.aljazeera.com/news/2026/5/19/trump-says-iran-attack-on-hold-what-we-know-about-latest-negotiations",
               "name": "半岛电视台",
               "priority": 1
             }
@@ -2578,6 +3104,22 @@
         },
         {
           "time": "上午",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "沙特拦截3架伊朗无人机，阿联酋同日遭袭",
+          "content": "沙特阿拉伯宣布成功拦截3架从伊朗方向发射的无人机。同日，阿联酋也报告遭受无人机袭击。这是伊朗对海湾国家发动的又一次协调攻击，显示冲突正在向更广泛的地区蔓延。",
+          "major": true,
+          "verification_status": "single_authoritative",
+          "sources": [
+            {
+              "url": "https://www.aljazeera.com/news/liveblog/2026/5/18/iran-war-live-trump-warns-clock-ticking-saudi-uae-report-drone-attacks?update=4581222",
+              "name": "半岛电视台",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "上午",
           "category": "外交",
           "tag": "tag",
           "title": "以色列与黎巴嫩延长停火45天并扩大谈判",
@@ -2614,6 +3156,22 @@
             {
               "url": "https://www.reuters.com/world/asia-pacific/revised-iranian-proposal-end-war-shared-with-us-pakistani-source-says-2026-05-18/",
               "name": "路透社",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "凌晨",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "特朗普威胁伊朗'倒计时开始'，美伊谈判仍陷僵局",
+          "content": "特朗普在Truth Social发帖称'倒计时开始，他们最好快点行动，否则将一无所有'。此前《纽约时报》报道称美国和以色列最早本周可能恢复对伊朗的打击。美伊谈判在特朗普访华后仍无进展，停火被形容为'处于生命支持状态'。以色列总理内塔尼亚胡表示将与特朗普通话。",
+          "major": true,
+          "verification_status": "single_authoritative",
+          "sources": [
+            {
+              "url": "https://www.aljazeera.com/news/liveblog/2026/5/18/iran-war-live-trump-warns-clock-ticking-saudi-uae-report-drone-attacks?update=4581222",
+              "name": "半岛电视台",
               "priority": 1
             }
           ]
@@ -4029,22 +4587,6 @@
           "verification_status": "single_authoritative"
         },
         {
-          "time": "上午",
-          "category": "军事",
-          "tag": "tag",
-          "title": "真主党连续第三天攻击以军",
-          "content": "真主党对黎巴嫩南部泰拜赫地区的以军发动反坦克导弹和FPV无人机攻击，连续第三天违反停火协议。以色列军方称正为停火可能随时崩溃做准备，指责真主党在停火期间重组力量。",
-          "major": false,
-          "sources": [
-            {
-              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-april-23-2026/",
-              "name": "ISW",
-              "priority": 1
-            }
-          ],
-          "verification_status": "single_authoritative"
-        },
-        {
           "time": "下午",
           "category": "外交",
           "tag": "major-tag",
@@ -4055,6 +4597,22 @@
             {
               "url": "https://www.reuters.com/world/asia-pacific/lebanon-hopes-extension-ceasefire-washington-meeting-2026-04-22/",
               "name": "路透社",
+              "priority": 1
+            }
+          ],
+          "verification_status": "single_authoritative"
+        },
+        {
+          "time": "上午",
+          "category": "军事",
+          "tag": "tag",
+          "title": "真主党连续第三天攻击以军",
+          "content": "真主党对黎巴嫩南部泰拜赫地区的以军发动反坦克导弹和FPV无人机攻击，连续第三天违反停火协议。以色列军方称正为停火可能随时崩溃做准备，指责真主党在停火期间重组力量。",
+          "major": false,
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-april-23-2026/",
+              "name": "ISW",
               "priority": 1
             }
           ],
@@ -4846,27 +5404,6 @@
           "verification_status": "verified"
         },
         {
-          "time": "晚上",
-          "category": "军事",
-          "tag": "major-tag",
-          "title": "美国封锁伊朗港口正式生效，特朗普威胁击沉伊朗船只",
-          "content": "美国海军正式开始执行封锁伊朗港口的行动，禁止所有船只进出伊朗港口和沿海地区。特朗普警告将击沉任何接近美国海军封锁线的伊朗攻击艇。美国中央司令部表示封锁不影响前往非伊朗港口的船只通行。",
-          "major": true,
-          "sources": [
-            {
-              "url": "https://apnews.com/live/iran-war-israel-trump-04-14-2026",
-              "name": "AP News",
-              "priority": 1
-            },
-            {
-              "url": "https://www.reuters.com/world/asia-pacific/us-iranian-teams-could-return-islamabad-peace-talks-this-week-four-sources-say-2026-04-14/",
-              "name": "Reuters",
-              "priority": 1
-            }
-          ],
-          "verification_status": "verified"
-        },
-        {
           "time": "全天",
           "category": "外交",
           "tag": "tag",
@@ -4882,6 +5419,27 @@
             {
               "url": "https://www.lemonde.fr/en/international/article/2026/04/10/lebanon-says-talks-with-israel-scheduled-for-tuesday-in-the-us_6752301_4.html",
               "name": "Le Monde",
+              "priority": 1
+            }
+          ],
+          "verification_status": "verified"
+        },
+        {
+          "time": "晚上",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "美国封锁伊朗港口正式生效，特朗普威胁击沉伊朗船只",
+          "content": "美国海军正式开始执行封锁伊朗港口的行动，禁止所有船只进出伊朗港口和沿海地区。特朗普警告将击沉任何接近美国海军封锁线的伊朗攻击艇。美国中央司令部表示封锁不影响前往非伊朗港口的船只通行。",
+          "major": true,
+          "sources": [
+            {
+              "url": "https://apnews.com/live/iran-war-israel-trump-04-14-2026",
+              "name": "AP News",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/asia-pacific/us-iranian-teams-could-return-islamabad-peace-talks-this-week-four-sources-say-2026-04-14/",
+              "name": "Reuters",
               "priority": 1
             }
           ],
@@ -7307,6 +7865,33 @@
         {
           "major": false,
           "disputed": false,
+          "time": "全天",
+          "tag": "tag",
+          "category": "外交",
+          "title": "北约明确表态不参战",
+          "content": "北约明确表态不会参与美伊冲突。多数北约盟友告知美方不愿介入伊朗军事行动。特朗普后来批评北约拒绝协助是\"非常愚蠢的错误\"。意大利于3月15日宣布不参战并开始撤回军队。\n                        \n                        \n                            央视新闻\n                            Reuters",
+          "sources": [
+            {
+              "url": "https://news.cctv.com/2026/03/01/ARTI1JMNHTz0Zbbvi67o9MG0260301.shtml",
+              "name": "央视新闻",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/nato-countries-dont-want-get-involved-iran-operation-trump-says-2026-03-17/",
+              "name": "Reuters",
+              "priority": 1
+            }
+          ],
+          "needs_verification": false,
+          "quality_issues": [
+            "⚠️ 只有1个来源（需要≥2个）",
+            "❌ 有效来源不足2个（现有1个）"
+          ],
+          "verification_status": "verified"
+        },
+        {
+          "major": false,
+          "disputed": false,
           "time": "夜间",
           "tag": "tag",
           "category": "人道",
@@ -7401,33 +7986,6 @@
             "❌ 有效来源不足2个（现有0个）"
           ],
           "verification_status": "single_authoritative"
-        },
-        {
-          "major": false,
-          "disputed": false,
-          "time": "全天",
-          "tag": "tag",
-          "category": "外交",
-          "title": "北约明确表态不参战",
-          "content": "北约明确表态不会参与美伊冲突。多数北约盟友告知美方不愿介入伊朗军事行动。特朗普后来批评北约拒绝协助是\"非常愚蠢的错误\"。意大利于3月15日宣布不参战并开始撤回军队。\n                        \n                        \n                            央视新闻\n                            Reuters",
-          "sources": [
-            {
-              "url": "https://news.cctv.com/2026/03/01/ARTI1JMNHTz0Zbbvi67o9MG0260301.shtml",
-              "name": "央视新闻",
-              "priority": 1
-            },
-            {
-              "url": "https://www.reuters.com/world/middle-east/nato-countries-dont-want-get-involved-iran-operation-trump-says-2026-03-17/",
-              "name": "Reuters",
-              "priority": 1
-            }
-          ],
-          "needs_verification": false,
-          "quality_issues": [
-            "⚠️ 只有1个来源（需要≥2个）",
-            "❌ 有效来源不足2个（现有1个）"
-          ],
-          "verification_status": "verified"
         }
       ]
     },
@@ -8082,6 +8640,28 @@
         {
           "major": false,
           "disputed": false,
+          "time": "全天",
+          "tag": "tag",
+          "category": "军事",
+          "title": "以色列帕尔马希姆空军基地遭袭",
+          "content": "位于以色列境内的帕尔马希姆空军基地遭到伊朗导弹袭击。（注：Al Jazeera报道伊朗军方于3月12日宣称打击帕尔马希姆和奥夫达空军基地。）\n                        \n                        \n                            央视新闻\n                            Al Jazeera",
+          "sources": [
+            {
+              "url": "https://news.cctv.com/2026/03/02/ARTIo5hXEpuy1nw3wN6q3VDP260302.shtml",
+              "name": "央视新闻",
+              "priority": 1
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/3/12/iran-says-it-targets-israeli-bases-accuses-israel-of-targeting-hospitals",
+              "name": "Al Jazeera",
+              "priority": 1
+            }
+          ],
+          "verification_status": "verified"
+        },
+        {
+          "major": false,
+          "disputed": false,
           "time": "晚上",
           "tag": "tag",
           "category": "政治",
@@ -8101,6 +8681,42 @@
             "❌ 有效来源不足2个（现有0个）"
           ],
           "verification_status": "single_authoritative"
+        },
+        {
+          "major": false,
+          "disputed": false,
+          "time": "上午",
+          "tag": "tag",
+          "category": "人道",
+          "title": "美军误击伊朗小学 165人遇难",
+          "content": "伊朗南部霍尔木兹甘省米纳卜市一所女子小学遭空袭，至少165人遇难，大部分是10岁左右的小女孩。3月11日，美国军方初步调查认定系美军\"战斧\"巡航导弹\"误击\"，美方应对此承担责任。\n                        \n                        \n                            央视新闻\n                            腾讯新闻\n                            📺 遇难者家属采访",
+          "sources": [
+            {
+              "url": "https://news.cctv.com/2026/02/28/ARTIh0fqI5JhcrxLfHG2dauS260228.shtml",
+              "name": "央视新闻"
+            },
+            {
+              "url": "https://new.qq.com/rain/a/20260311A07AER00",
+              "name": "腾讯新闻"
+            },
+            {
+              "name": "CNN",
+              "url": "https://www.cnn.com/2026/03/11/politics/us-iran-school-strike-civilians"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/2/28/israel-strikes-two-schools-in-iran-killing-more-than-50-people"
+            },
+            {
+              "name": "NPR",
+              "url": "https://www.npr.org/2026/03/11/nx-s1-5744981/pentagon-iran-missile-school-hegseth"
+            },
+            {
+              "name": "BBC",
+              "url": "https://www.bbc.com/news/articles/c0rlzmpgplgo"
+            }
+          ],
+          "verification_status": "verified"
         },
         {
           "major": true,
@@ -8140,64 +8756,6 @@
             "❌ 有效来源不足2个（现有1个）"
           ],
           "verification_status": "single_authoritative"
-        },
-        {
-          "major": false,
-          "disputed": false,
-          "time": "全天",
-          "tag": "tag",
-          "category": "军事",
-          "title": "以色列帕尔马希姆空军基地遭袭",
-          "content": "位于以色列境内的帕尔马希姆空军基地遭到伊朗导弹袭击。（注：Al Jazeera报道伊朗军方于3月12日宣称打击帕尔马希姆和奥夫达空军基地。）\n                        \n                        \n                            央视新闻\n                            Al Jazeera",
-          "sources": [
-            {
-              "url": "https://news.cctv.com/2026/03/02/ARTIo5hXEpuy1nw3wN6q3VDP260302.shtml",
-              "name": "央视新闻",
-              "priority": 1
-            },
-            {
-              "url": "https://www.aljazeera.com/news/2026/3/12/iran-says-it-targets-israeli-bases-accuses-israel-of-targeting-hospitals",
-              "name": "Al Jazeera",
-              "priority": 1
-            }
-          ],
-          "verification_status": "verified"
-        },
-        {
-          "major": false,
-          "disputed": false,
-          "time": "上午",
-          "tag": "tag",
-          "category": "人道",
-          "title": "美军误击伊朗小学 165人遇难",
-          "content": "伊朗南部霍尔木兹甘省米纳卜市一所女子小学遭空袭，至少165人遇难，大部分是10岁左右的小女孩。3月11日，美国军方初步调查认定系美军\"战斧\"巡航导弹\"误击\"，美方应对此承担责任。\n                        \n                        \n                            央视新闻\n                            腾讯新闻\n                            📺 遇难者家属采访",
-          "sources": [
-            {
-              "url": "https://news.cctv.com/2026/02/28/ARTIh0fqI5JhcrxLfHG2dauS260228.shtml",
-              "name": "央视新闻"
-            },
-            {
-              "url": "https://new.qq.com/rain/a/20260311A07AER00",
-              "name": "腾讯新闻"
-            },
-            {
-              "name": "CNN",
-              "url": "https://www.cnn.com/2026/03/11/politics/us-iran-school-strike-civilians"
-            },
-            {
-              "name": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/2/28/israel-strikes-two-schools-in-iran-killing-more-than-50-people"
-            },
-            {
-              "name": "NPR",
-              "url": "https://www.npr.org/2026/03/11/nx-s1-5744981/pentagon-iran-missile-school-hegseth"
-            },
-            {
-              "name": "BBC",
-              "url": "https://www.bbc.com/news/articles/c0rlzmpgplgo"
-            }
-          ],
-          "verification_status": "verified"
         }
       ]
     },
