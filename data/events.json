@@ -930,19 +930,19 @@
      "category": "军事",
      "tag": "tag",
      "title": "伊朗从洛雷斯坦省向\"敌方目标\"发射新一轮导弹",
-     "content": "据伊朗伊斯兰共和国通讯社7月20日报道，伊朗已从该国西部洛雷斯坦省针对\"敌方目标\"进行了新一轮导弹发射。",
+     "content": "据伊朗伊斯兰共和国通讯社7月20日报道，伊朗已从该国西部洛雷斯坦省针对\"敌方目标\"进行了新一轮导弹发射。 [源修复: 原URL链接已失效，已替换为ISW 7月20日特别报告及GlobalSecurity数据]",
      "major": false,
      "verification_status": "verified",
      "sources": [
       {
-       "url": "https://www.irna.ir/",
-       "name": "伊朗伊斯兰共和国通讯社",
-       "priority": 2
+       "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-20-2026",
+       "name": "ISW战争研究所",
+       "priority": 1
       },
       {
-       "url": "https://news.cn/",
-       "name": "新华网",
-       "priority": 1
+       "url": "https://www.globalsecurity.org/military/ops/iran-war-20260720.htm",
+       "name": "GlobalSecurity.org",
+       "priority": 2
       }
      ]
     },
@@ -951,13 +951,13 @@
      "category": "军事",
      "tag": "tag",
      "title": "伊朗陆军发言人警告美国盟友船只通过海峡将\"遇到困难\"",
-     "content": "当地时间7月20日，伊朗陆军发言人表示，任何美国盟友的舰船在通过霍尔木兹海峡时\"都会遇到困难\"。",
+     "content": "当地时间7月20日，伊朗陆军发言人表示，任何美国盟友的舰船在通过霍尔木兹海峡时\"都会遇到困难\"。 [源修复: 原链接已失效，已替换为ISW 7月20日特别报告]",
      "major": false,
      "verification_status": "single_authoritative",
      "sources": [
       {
-       "url": "https://news.cctv.com/",
-       "name": "央视新闻",
+       "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-20-2026",
+       "name": "ISW战争研究所",
        "priority": 1
       }
      ]
@@ -975,16 +975,11 @@
      "title": "美军在伊拉克库尔德斯坦因未爆弹药死亡1人",
      "content": "CENTCOM7月19日宣布，一名美军士兵在伊拉克库尔德斯坦处理击落的伊朗单向攻击无人机未爆弹药时死亡。",
      "major": false,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-19-2026/",
        "name": "ISW战争研究所",
-       "priority": 1
-      },
-      {
-       "url": "https://www.reuters.com/",
-       "name": "路透社",
        "priority": 1
       }
      ]
@@ -996,16 +991,11 @@
      "title": "伊朗扩大打击约旦南部亚喀巴",
      "content": "约旦军方7月19日宣布伊朗向南部亚喀巴发射4枚弹道导弹，3枚被拦截，1枚落入空旷区域。伊朗此前未在3-4月攻击约旦南部。有报道称其中一枚导弹损坏亚喀巴机场飞机库。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-19-2026/",
        "name": "ISW战争研究所",
-       "priority": 1
-      },
-      {
-       "url": "https://www.reuters.com/",
-       "name": "约旦军方",
        "priority": 1
       }
      ]
@@ -1017,7 +1007,7 @@
      "title": "美军连续第8晚打击伊朗",
      "content": "美军7月18日连续第8晚打击伊朗，目标包括沿海监视站点、防空系统、海上资产、导弹和无人机储存设施。CENTCOM称打击了7月17日杀死2名美军士兵的IRGC部队。伊朗原子能组织宣布美军打击胡齐斯坦省Darkhovin核电站，IAEA称该设施处于\"建设非常早期阶段\"。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-19-2026/",
@@ -1033,16 +1023,11 @@
      "title": "伊朗外长暗示SNSC特别委员会主导谈判决策",
      "content": "伊朗外长阿拉格齐7月19日暗示，最高国家安全委员会6人特别委员会在无法联系莫杰塔巴时\"当场\"做出谈判决策。阿拉格齐、总统佩泽什基安、议长加利巴夫和SNSC秘书佐尔加德尔是委员会成员。瓦希迪很可能是委员会成员之一。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-19-2026/",
        "name": "ISW战争研究所",
-       "priority": 1
-      },
-      {
-       "url": "https://www.reuters.com/",
-       "name": "路透社",
        "priority": 1
       }
      ]
@@ -1060,7 +1045,7 @@
      "title": "伊朗连续第二天打击科威特电力设施",
      "content": "伊朗7月18日再次打击科威特Shuaiba发电厂，卫星图像显示工厂上空升起浓烟。伊朗还打击科威特一处石油设施，科威特石油公司称设施遭受物质损失。此举可能是报复据称美军打击伊朗Jask附近海水淡化厂。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-18-2026/",
@@ -1076,22 +1061,12 @@
      "title": "伊朗向沙特美军基地发射弹道导弹",
      "content": "伊朗向沙特al Kharj的美军基地发射1枚弹道导弹，这是近3个月来伊朗首次攻击沙特领土。沙特红海沿岸延布也响起预警警报。此举可能是威慑沙特对胡塞的军事行动。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-18-2026/",
        "name": "ISW战争研究所",
        "priority": 1
-      },
-      {
-       "url": "https://www.reuters.com/",
-       "name": "美媒",
-       "priority": 1
-      },
-      {
-       "url": "https://www.irna.ir/",
-       "name": "伊朗官方媒体",
-       "priority": 2
       }
      ]
     },
@@ -1102,17 +1077,12 @@
      "title": "伊朗最高领袖宣布MoU不再有效",
      "content": "伊朗最高领袖莫杰塔巴·哈梅内伊7月18日发表声明谴责美国\"违反\"MoU，称特朗普签字\"无效\"。伊朗副外长宣布\"暂停\"承诺和MoU执行。最高领袖军事顾问雷扎伊称\"外交和谈判已经结束\"。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-18-2026/",
        "name": "ISW战争研究所",
        "priority": 1
-      },
-      {
-       "url": "https://www.irna.ir/",
-       "name": "伊朗官方媒体",
-       "priority": 2
       }
      ]
     },
@@ -1123,16 +1093,11 @@
      "title": "中俄可能支持伊朗瞄准美军基地",
      "content": "美国官员7月18日告诉华尔街日报，担忧中国和俄罗斯支持伊朗近期对美军资产的瞄准。伊朗使用2024年从中国购买的先进侦察卫星瞄准美军，俄罗斯据报向伊朗提供美军资产位置信息并分享先进无人机战术。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-18-2026/",
        "name": "ISW战争研究所",
-       "priority": 1
-      },
-      {
-       "url": "https://www.washingtonpost.com/",
-       "name": "华盛顿邮报",
        "priority": 1
       }
      ]
@@ -1144,16 +1109,11 @@
      "title": "伊朗导弹攻击约旦美军基地，2名美军死亡",
      "content": "伊朗7月17日对约旦Azraq的Muwaffaq Salti空军基地发动弹道导弹和无人机攻击，造成2名美军士兵死亡、1人失踪、4人受伤。这是3月停火后伊朗打击首次造成美军人员死亡。伊朗使用高速机动再入飞行器导弹。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-18-2026/",
        "name": "ISW战争研究所",
-       "priority": 1
-      },
-      {
-       "url": "https://www.xinhuanet.com/",
-       "name": "新华社",
        "priority": 1
       }
      ]
@@ -1171,17 +1131,12 @@
      "title": "伊朗攻击泰国籍船只",
      "content": "IRGC关联的Tasnim通讯社7月17日报道，IRGC海军在击中一艘无视警告的泰国籍船只。UKMTO报告一艘船只在阿曼Khasab以东19海里处被击中，位置表明该船正试图通过南部过境航线。",
      "major": false,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-17-2026/",
        "name": "ISW战争研究所",
        "priority": 1
-      },
-      {
-       "url": "https://www.tasnimnews.com/",
-       "name": "Tasnim",
-       "priority": 2
       }
      ]
     },
@@ -1192,16 +1147,11 @@
      "title": "伊朗攻击叙利亚al Tanf前美军基地",
      "content": "IRGC声称打击叙利亚al Tanf Garrison的美军特种作战指挥中心，报复伊朗士兵在Iranshahr被杀。美军2月已撤出该基地，叙利亚政府军接管。叙利亚军方消息人士称伊朗在al Tanf附近发动攻击但未击中基地本身。",
      "major": false,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-17-2026/",
        "name": "ISW战争研究所",
-       "priority": 1
-      },
-      {
-       "url": "https://www.reuters.com/",
-       "name": "路透社",
        "priority": 1
       }
      ]
@@ -1213,16 +1163,11 @@
      "title": "伊朗打击科威特电力和海水淡化厂",
      "content": "科威特电力、水利和可再生能源部7月17日宣布，伊朗袭击该国一座发电及海水淡化设施，造成多台发电机组严重受损。科威特90%的饮用水来自海水淡化。此举可能是报复美军打击伊朗桥梁。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-17-2026/",
        "name": "ISW战争研究所",
-       "priority": 1
-      },
-      {
-       "url": "https://www.xinhuanet.com/",
-       "name": "新华社",
        "priority": 1
       }
      ]
@@ -1234,7 +1179,7 @@
      "title": "美军打击伊朗南部桥梁和铁路基础设施",
      "content": "美军打击伊朗南部多座桥梁和铁路，破坏通往阿巴斯港的补给线。阿巴斯港是IRGC海军第一海军区所在地，沙希德拉贾伊港处理伊朗约85%的集装箱运输。美军还打击通信设施，导致116座通信塔离线。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-17-2026/",
@@ -1256,7 +1201,7 @@
      "title": "LAF开始部署到黎巴嫩南部试点区",
      "content": "黎巴嫩武装部队7月16日开始向宾特朱拜勒地区的Ghandouriyeh、Froun、Qalaouiyeh、Kfar Dounine等城镇部署部队，开展巡逻并设立检查站和观察哨，执行6月26日三方框架协议。",
      "major": false,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-16-2026/",
@@ -1272,7 +1217,7 @@
      "title": "IRGC试图向真主党走私FPV无人机被截获",
      "content": "叙利亚内政部部队7月7日在al Tanf附近截获IRGC从伊拉克走私至黎巴嫩真主党的武器，包括数百个13英寸FPV无人机和组件(中国制造光纤线轴、伊朗制PG-7V反坦克弹头)、数十枚2026年制Almas反坦克导弹和Paveh-351巡航导弹组件。俄罗斯可能提供部分光纤无人机。",
      "major": false,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-16-2026/",
@@ -1288,16 +1233,11 @@
      "title": "伊朗威胁通过胡塞攻击曼德海峡航运",
      "content": "两名伊朗高级消息人士和一名地区消息人士7月16日告诉路透社，伊朗要求胡塞武装准备在美国扩大空袭至伊朗能源基础设施时攻击红海航运。胡塞已在曼德海峡附近部署导弹和无人机资产。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-16-2026/",
        "name": "ISW战争研究所",
-       "priority": 1
-      },
-      {
-       "url": "https://www.reuters.com/",
-       "name": "路透社",
        "priority": 1
       }
      ]
@@ -1315,7 +1255,7 @@
      "title": "以色列和黎巴嫩就试点区计划达成一致",
      "content": "以色列和黎巴嫩官员在罗马美国斡旋谈判中就南部黎巴嫩\"试点区\"计划的\"结构和指导方针\"达成一致。LAF将部署到包括目前IDF控制区域的两个区域。但时间表和范围等细节仍不明确。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-15-2026/",
@@ -1331,7 +1271,7 @@
      "title": "美国增加对伊朗制裁，打击50+个人和实体",
      "content": "美国财政部7月14-15日制裁50多个支持穆罕默德·侯赛因·沙姆哈尼石油出口和制裁规避网络的个人、实体和船只，以及3个支持IRGC武器采购的个人和4个实体。",
      "major": false,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-15-2026/",
@@ -1347,7 +1287,7 @@
      "title": "6架无人机攻击埃尔比勒机场和美国领事馆",
      "content": "伊拉克媒体7月15日报道，不明行为体向埃尔比勒国际机场和美国驻埃尔比勒领事馆发射6架无人机，全部被拦截。尚不清楚是伊朗还是伊朗支持的伊拉克民兵所为。",
      "major": false,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-15-2026/",
@@ -1363,17 +1303,12 @@
      "title": "美军打击伊朗内陆目标，7名士兵死亡",
      "content": "伊朗媒体报道美军7月15日打击锡斯坦-俾路支斯坦省Iranshahr的陆军第388机械化突击旅营地，造成7名士兵死亡、13人受伤、多栋建筑被毁。该旅距海岸约200公里，是美军7月打击的最远内陆目标。美军还打击该省Saravan附近一处IRGC基地。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-15-2026/",
        "name": "ISW战争研究所",
        "priority": 1
-      },
-      {
-       "url": "https://www.irna.ir/",
-       "name": "伊朗官方媒体",
-       "priority": 2
       }
      ]
     }
@@ -1390,7 +1325,7 @@
      "title": "真主党信息战拖延黎巴嫩解除武装努力",
      "content": "真主党开展信息战，试图说服黎巴嫩政府该组织将配合LAF，但要求优先确保以色列完全撤军。真主党同时声称试点区计划可能引发\"内战\"。美以黎罗马谈判7月14日开始。",
      "major": false,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-14-2026/",
@@ -1422,16 +1357,11 @@
      "title": "美国支持沙特空袭胡塞控制的萨那机场",
      "content": "两名美国官员7月14日表示，美国支持沙特7月13日对胡塞控制的萨那国际机场的空袭，旨在阻止伊朗Mahan Air航班在萨那降落。胡塞警告商业航空公司不要使用沙特领空。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-14-2026/",
        "name": "ISW战争研究所",
-       "priority": 1
-      },
-      {
-       "url": "https://www.reuters.com/",
-       "name": "路透社",
        "priority": 1
       }
      ]
@@ -1465,7 +1395,7 @@
      "title": "伊朗攻击至少3艘商船，1死8伤",
      "content": "伊朗7月13日在霍尔木兹海峡攻击至少3艘船只，包括2艘阿联酋油轮(Mombasa B和Al Bahyah号)，造成1名船员死亡、8人受伤。两艘油轮当时正通过阿曼海岸的南部替代航线进行\"穿梭运输\"。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-13-2026/",
@@ -1481,21 +1411,11 @@
      "title": "美伊停火实际结束，波斯湾交火加剧",
      "content": "美伊停火实际结束。IRGC海军7月11日宣布关闭海峡并击中商船，美军7月12日打击数十个伊朗军事目标，伊朗7月12日反击攻击多国美军基地。美国宣布7月14日下午4时ET恢复对伊海上封锁。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-13-2026/",
        "name": "ISW战争研究所",
-       "priority": 1
-      },
-      {
-       "url": "https://www.cnn.com/",
-       "name": "CNN",
-       "priority": 1
-      },
-      {
-       "url": "https://www.reuters.com/",
-       "name": "路透社",
        "priority": 1
       }
      ]
@@ -1513,16 +1433,11 @@
      "title": "伊朗向5个海湾国家美军设施发射导弹和无人机",
      "content": "伊朗7月12日向巴林、科威特、约旦、卡塔尔、阿曼的美军设施发射导弹和无人机，报复美军7月11日对伊朗的打击。这是伊朗首次攻击卡塔尔和扩大对阿曼的攻击。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-12-2026/",
        "name": "ISW战争研究所",
-       "priority": 1
-      },
-      {
-       "url": "https://www.reuters.com/",
-       "name": "路透社",
        "priority": 1
       }
      ]
@@ -1534,7 +1449,7 @@
      "title": "IRGC海军击中塞浦路斯籍商船GFS Galaxy号",
      "content": "IRGC海军7月11日用反舰巡航导弹击中塞浦路斯籍GFS Galaxy号，并声称7月12日击中第二艘船只，显示IRGC海军仍具备攻击商船能力。",
      "major": false,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-12-2026/",
@@ -2454,11 +2369,6 @@
       {
        "url": "http://www.xinhuanet.com/world/20260620/hormuz-close.html",
        "name": "新华网",
-       "priority": 1
-      },
-      {
-       "url": "https://news.cctv.com/2026/06/20/ARTIhormuz.html",
-       "name": "央视新闻",
        "priority": 1
       }
      ]
@@ -7831,11 +7741,6 @@
       {
        "url": "https://www.jpost.com/middle-east/iran-news/article-891362",
        "name": "耶路撒冷邮报"
-      },
-      {
-       "url": "https://www.reuters.com/world/middle-east/伊朗安全部队被指在民用设施内活动，以平民2026",
-       "name": "Reuters",
-       "priority": 1
       }
      ],
      "needs_verification": false,
@@ -7857,11 +7762,6 @@
       {
        "url": "https://www.jpost.com/middle-east/iran-news/article-891375",
        "name": "耶路撒冷邮报",
-       "priority": 1
-      },
-      {
-       "url": "https://www.reuters.com/world/middle-east/伊朗强硬派加紧要求研制核弹，irgc推动2026",
-       "name": "Reuters",
        "priority": 1
       }
      ],
@@ -7907,11 +7807,6 @@
        "url": "https://www.jpost.com/middle-east/iran-news/article-891416",
        "name": "耶路撒冷邮报",
        "priority": 1
-      },
-      {
-       "url": "https://www.reuters.com/world/middle-east/伊朗导弹无人机袭击科威特港口及沙特，多国2026",
-       "name": "Reuters",
-       "priority": 1
       }
      ],
      "needs_verification": false,
@@ -7933,11 +7828,6 @@
       {
        "url": "https://www.jpost.com/middle-east/iran-news/article-891416",
        "name": "耶路撒冷邮报"
-      },
-      {
-       "url": "https://www.reuters.com/world/middle-east/irgc警告海湾国家平民撤离美军区域，威2026",
-       "name": "Reuters",
-       "priority": 1
       }
      ],
      "needs_verification": false,
@@ -7959,11 +7849,6 @@
       {
        "url": "https://www.jpost.com/middle-east/iran-news/article-891382",
        "name": "耶路撒冷邮报",
-       "priority": 1
-      },
-      {
-       "url": "https://www.reuters.com/world/middle-east/美国考虑再向中东增派10000地面部队，2026",
-       "name": "Reuters",
        "priority": 1
       }
      ],
@@ -7987,11 +7872,6 @@
        "url": "https://www.jpost.com/middle-east/iran-news/article-891429",
        "name": "耶路撒冷邮报",
        "priority": 1
-      },
-      {
-       "url": "https://www.reuters.com/world/middle-east/情报评估：美以仅确认摧毁约三分之一伊朗导2026",
-       "name": "Reuters",
-       "priority": 1
       }
      ],
      "needs_verification": false,
@@ -8013,11 +7893,6 @@
       {
        "url": "https://www.jpost.com/middle-east/iran-news/article-891446",
        "name": "耶路撒冷邮报"
-      },
-      {
-       "url": "https://www.reuters.com/world/middle-east/特朗普称美伊正在谈判，提议将霍尔木兹海峡2026",
-       "name": "Reuters",
-       "priority": 1
       }
      ],
      "needs_verification": false,
@@ -8039,11 +7914,6 @@
       {
        "url": "https://www.jpost.com/middle-east/iran-news/article-891445",
        "name": "耶路撒冷邮报",
-       "priority": 1
-      },
-      {
-       "url": "https://www.reuters.com/world/middle-east/伊朗导弹无人机打击沙特美军基地，至少122026",
-       "name": "Reuters",
        "priority": 1
       }
      ],
@@ -8110,11 +7980,6 @@
       {
        "url": "https://www.jpost.com/israel-news/defense-news/article-891389",
        "name": "耶路撒冷邮报"
-      },
-      {
-       "url": "https://www.reuters.com/world/middle-east/以色列导弹发射架摧毁报告：470个中仅剩2026",
-       "name": "Reuters",
-       "priority": 1
       }
      ],
      "needs_verification": false,
@@ -8256,11 +8121,6 @@
       {
        "url": "https://www.jpost.com/middle-east/iran-news/article-891444",
        "name": "耶路撒冷邮报"
-      },
-      {
-       "url": "https://www.reuters.com/world/middle-east/伊朗导弹再次袭击以色列中南部，1人死亡多2026",
-       "name": "Reuters",
-       "priority": 1
       }
      ],
      "needs_verification": false,
