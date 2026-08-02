@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "extracted_at": "2026-07-20 21:39:39",
-  "lastUpdated": "2026-07-20 21:39",
-  "warDays": 143,
+  "extracted_at": "2026-08-02 21:43:08",
+  "lastUpdated": "2026-08-02 21:43",
+  "warDays": 156,
   "ceasefireDays": 40,
-  "iranDeaths": "3,468+",
-  "israelDeaths": "47",
-  "usDeaths": "15",
+  "iranDeaths": "3,684+",
+  "israelDeaths": "70",
+  "usDeaths": "20",
   "displaced": "160万+",
   "disputed_fields": {
     "iranDeaths": "伊朗官方数字，独立来源估算差异较大",
@@ -20,8 +20,8 @@
     "status": "谈判破裂",
     "statusDetail": "美伊和谈未达成协议，停火面临失效风险"
   },
-  "total_days": 142,
-  "lebanonDeaths": "2,869+",
-  "iranInjured": "15,000+",
-  "total_events": 459
+  "total_days": 155,
+  "lebanonDeaths": "4,324+",
+  "iranInjured": "27,170+",
+  "total_events": 500
 }
