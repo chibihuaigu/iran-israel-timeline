@@ -1,9 +1,868 @@
 {
   "version": "1.0",
-  "extracted_at": "2026-07-20 21:39:38",
-  "total_days": 142,
-  "total_events": 459,
+  "extracted_at": "2026-08-02 21:43:08",
+  "total_days": 155,
+  "total_events": 500,
   "events": [
+    {
+      "date_id": "d155",
+      "date_label": "8月2日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "伊朗否认与美达成协议，武装部队保持戒备",
+          "content": "8月2日，伊朗方面否认特朗普所称\"伊朗请求美方停止打击\"的说法。伊朗媒体援引军方官员称该说法\"不过是又一个谎言\"，并称伊朗武装部队\"高度戒备、随时准备应对任何情况\"。伊朗官方未确认任何协议内容，霍尔木兹海峡仍处于关闭状态，红海航运继续受到胡塞武装威胁。[日期核验: 半岛电视台 8月2日]",
+          "major": true,
+          "verification_status": "single_authoritative",
+          "sources": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/8/2/why-has-trump-halted-iran-attacks-and-what-is-the-deal-he-is-hinting-at",
+              "name": "半岛电视台",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "上午",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "特朗普宣布取消对伊打击，称协议参数已达成",
+          "content": "8月2日上午，美国总统特朗普在 Truth Social 发文宣布，应伊朗和其他中东国家请求取消原定对伊朗发动的军事打击，称\"协议参数已达成\"，内容包括立即、完全、彻底开放霍尔木兹海峡以及结束\"伊朗核威胁\"。特朗普称美军\"已锁定目标、随时待命\"（locked and loaded），以色列加入该承诺，协议须\"迅速\"达成。Axios 报道沙特王储穆罕默德·本·萨勒曼于8月1日致电特朗普，促其取消打击并回到谈判。[日期核验: 美联社/半岛电视台 8月2日]",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://apnews.com/article/trump-iran-strait-hormuz-israel-gaza-mideast-f4c225f6667d9fd171616304701825a0",
+              "name": "美联社",
+              "priority": 1
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/8/2/trump-cancels-iran-strike-says-deal-perimeters-reached",
+              "name": "半岛电视台",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d154",
+      "date_label": "8月1日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "美国务院向中东10国发布安全警报建议公民离开",
+          "content": "8月1日，美国国务院向巴林、伊拉克、以色列、约旦、科威特、黎巴嫩、阿曼、卡塔尔、沙特和阿联酋等10个国家发布安全警报，建议当地美国公民\"考虑离开\"或做好撤离准备，警告可能发生航班取消、空域关闭和出行中断。美方提醒称伊朗及其支持者可能袭击中东以外的美国利益，此前美外交机构已成为袭击目标。[日期核验: BBC 8月1日]",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.bbc.com/news/articles/cgk4nyr0j73o",
+              "name": "BBC",
+              "priority": 1
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/8/2/trump-cancels-iran-strike-says-deal-perimeters-reached",
+              "name": "半岛电视台",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "美媒报道美以准备大规模打击伊朗能源设施，伊朗发出战争之火警告",
+          "content": "8月1日，美国媒体报道称，美军与以色列正接近对伊朗能源基础设施发动大规模打击，特朗普此前威胁将\"非常猛烈\"地打击伊朗。伊朗外长阿拉格齐警告称任何美以攻击都将遭到\"对等回应\"；伊朗还警告，与华盛顿合作的国家将被\"战争之火\"吞没。[日期核验: BBC 8月1日/半岛电视台 8月2日]",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.bbc.com/news/articles/cgk4nyr0j73o",
+              "name": "BBC",
+              "priority": 1
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/8/2/trump-cancels-iran-strike-says-deal-perimeters-reached",
+              "name": "半岛电视台",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d153",
+      "date_label": "7月31日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "特朗普在戴维营主持内阁会议讨论对伊行动",
+          "content": "7月31日，美国总统特朗普在戴维营主持内阁会议，讨论对伊朗军事行动方案。会后特朗普威胁称，若伊朗不接受协议，美国将\"非常猛烈\"地打击伊朗。美国媒体报道称，美以正在准备可能针对伊朗能源基础设施的新一轮大规模打击。[日期核验: ISW/CTP 7月31日报告/半岛电视台 8月2日]",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.criticalthreats.org/analysis/iran-update-special-report-july-31-2026",
+              "name": "CTP关键威胁项目",
+              "priority": 1
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/8/2/why-has-trump-halted-iran-attacks-and-what-is-the-deal-he-is-hinting-at",
+              "name": "半岛电视台",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "经济",
+          "tag": "major-tag",
+          "title": "伊朗海峡管理局称美不撤军不发放过境许可",
+          "content": "7月31日，伊朗波斯湾海峡管理局表示，在美国结束对伊军事行动之前，将不会为船只发放通过霍尔木兹海峡的过境许可。此举被视为伊朗继续通过经济施压逼迫美国让步，并促使海湾国家敦促美方停止对伊作战。[日期核验: ISW/CTP 7月31日报告]",
+          "major": true,
+          "verification_status": "single_authoritative",
+          "sources": [
+            {
+              "url": "https://www.criticalthreats.org/analysis/iran-update-special-report-july-31-2026",
+              "name": "CTP关键威胁项目",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d152",
+      "date_label": "7月30日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "军事",
+          "tag": "military-tag",
+          "title": "伊朗陆军无人机袭击科威特美军基地",
+          "content": "7月30日，伊朗陆军宣布对科威特艾哈迈德·贾比尔空军基地发动无人机袭击，目标包括战斗机储存设施、卫星通信系统和设备仓库。美国防部官员告诉纽约时报称，伊朗隔夜发射多枚射弹，但美军地区基地未遭受重大损坏。伊朗在美国暂停打击后限制了地区袭击规模，以避免触发更大规模美军行动。[日期核验: ISW/CTP 7月31日报告]",
+          "major": false,
+          "verification_status": "single_authoritative",
+          "sources": [
+            {
+              "url": "https://www.criticalthreats.org/analysis/iran-update-special-report-july-31-2026",
+              "name": "CTP关键威胁项目",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "凌晨",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "美军对伊朗发动大规模报复性打击",
+          "content": "7月30日凌晨，美军中央司令部宣布已完成对伊朗的一波大规模打击，以回应伊朗28日对美军的导弹突袭。打击目标为数十个伊朗革命卫队目标，包括军事指挥中心、导弹和无人机设施、海岸监视与防御站点及海上能力；伊朗媒体报道胡齐斯坦、霍尔木兹甘、法尔斯和布什尔省遭空袭。美军还打击了赞詹省革命卫队地面部队安萨尔·马赫迪省级部队驻地，革命卫队称3名成员死亡，法尔桑班德一处体育馆被击中。[日期核验: 美联社 7月29日/ISW-CTP 7月30日报告]",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4559495/us-strikes-irgc-targets-after-attempted-iranian-attacks",
+              "name": "美军中央司令部",
+              "priority": 1
+            },
+            {
+              "url": "https://www.criticalthreats.org/analysis/iran-update-special-report-july-30-2026",
+              "name": "CTP关键威胁项目",
+              "priority": 1
+            },
+            {
+              "url": "https://apnews.com/article/iran-war-us-hormuz-strait-july-29-2026-e31d249ba6443decdd3e63cd00f0fb84",
+              "name": "美联社",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d151",
+      "date_label": "7月29日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "埃及达米埃塔港美国天然气船遭无人机袭击",
+          "content": "7月29日，一艘美国天然气船在埃及东北部达米埃塔港遭无人机袭击。两名伊朗官员向纽约时报暗示，伊朗可能实施或支持了此次袭击，以展示全球航运和能源供应可被进一步扰乱；伊朗外长阿拉格齐则于7月31日批评该袭击并指责以色列所为，伊朗内部对事件表态不一。[日期核验: ISW/CTP 7月30日报告]",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.criticalthreats.org/analysis/iran-update-special-report-july-30-2026",
+              "name": "CTP关键威胁项目",
+              "priority": 1
+            },
+            {
+              "url": "https://www.criticalthreats.org/analysis/iran-update-special-report-july-31-2026",
+              "name": "CTP关键威胁项目",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "晚上",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "特朗普威胁对伊朗进行大规模报复",
+          "content": "7月29日晚，美国总统特朗普在伊朗突袭美军后威胁进行大规模报复，称\"我们将狠狠地打击他们，他们会挨一顿痛打\"。美军自7月24日起暂停对伊打击，伊朗此次导弹袭击再次打破停火，美方表示将继续评估行动选项。[日期核验: CNBC/美联社 7月29日]",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.cnbc.com/2026/07/29/us-iran-war-hormuz-centcom.html",
+              "name": "CNBC",
+              "priority": 2
+            },
+            {
+              "url": "https://apnews.com/article/iran-war-us-hormuz-strait-july-29-2026-e31d249ba6443decdd3e63cd00f0fb84",
+              "name": "美联社",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "凌晨",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "伊朗弹道导弹突袭美军被全部拦截",
+          "content": "7月29日凌晨，美军中央司令部称，伊朗革命卫队于北京时间5时45分许从伊朗境内发射多枚弹道导弹，试图对中东美军发动突袭，所有导弹均被成功拦截（美方初步估计不超过4枚）。约旦武装部队称拦截了5枚导弹，伊朗革命卫队声称打击了约旦穆瓦法克·萨尔蒂空军基地和美军中央司令部中心。此次袭击打破了双方持续数日的停火。[日期核验: CNN 7月28日]",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.cnn.com/2026/07/28/world/live-news/iran-trump-news",
+              "name": "CNN",
+              "priority": 2
+            },
+            {
+              "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4559495/us-strikes-irgc-targets-after-attempted-iranian-attacks",
+              "name": "美军中央司令部",
+              "priority": 1
+            },
+            {
+              "url": "https://apnews.com/article/iran-war-us-hormuz-strait-july-29-2026-e31d249ba6443decdd3e63cd00f0fb84",
+              "name": "美联社",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d150",
+      "date_label": "7月28日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "军事",
+          "tag": "military-tag",
+          "title": "伊朗无人机袭击伊拉克库尔德叛军目标",
+          "content": "7月28日，流亡的伊朗库尔德反对派组织称，伊朗向其位于伊拉克库尔德斯坦的基地发射了14架无人机，造成物质损失，无人伤亡。[日期核验: 维基百科 2026年伊朗战争条目]",
+          "major": false,
+          "verification_status": "single_authoritative",
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/2026_Iran_war",
+              "name": "Wikipedia英文",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "晚上",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "特朗普与内塔尼亚胡在白宫会晤",
+          "content": "7月28日晚，美国总统特朗普在白宫椭圆形办公室会见以色列总理内塔尼亚胡，讨论伊朗冲突与地区安全局势。内塔尼亚胡此前表示将反对美国施压以色列从加沙、南黎巴嫩和叙利亚撤军，并重申绝不允许伊朗获得核武器。[日期核验: 半岛电视台 7月29日]",
+          "major": true,
+          "verification_status": "single_authoritative",
+          "sources": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/7/29/iran-attacks-us-bases-in-middle-east-as-trump-meets-netanyahu",
+              "name": "半岛电视台",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "晚上",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "美沙联合空袭伊拉克亲伊朗民兵致20人死亡",
+          "content": "7月28日晚，美军中央司令部宣布，美军与沙特战机对伊拉克东部多处亲伊朗民兵武器和后勤据点实施联合精确打击，作为对过去72小时内30多起由伊朗革命卫队指挥的无人机袭击的回应。伊拉克人民动员力量（PMF）称袭击造成其20名成员死亡、32人受伤，其中包括4名伊朗圣城旅顾问；伊拉克政府谴责此次袭击。[日期核验: 维基百科/美联社 7月29日]",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://en.wikipedia.org/wiki/2026_Iran_war",
+              "name": "Wikipedia英文",
+              "priority": 1
+            },
+            {
+              "url": "https://www.cnn.com/2026/07/28/world/live-news/iran-trump-news",
+              "name": "CNN",
+              "priority": 2
+            },
+            {
+              "url": "https://apnews.com/article/iran-war-us-hormuz-strait-july-29-2026-e31d249ba6443decdd3e63cd00f0fb84",
+              "name": "美联社",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d149",
+      "date_label": "7月27日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "沙特、约旦、以色列同日遭无人机袭击",
+          "content": "7月27日，沙特阿拉伯和约旦报告遭到敌对无人机袭击。沙特军方称击落了从伊拉克发射、针对其东部省石油设施和利雅得的无人机；约旦报告遭疑似伊朗支持的伊拉克民兵无人机袭击。同日以色列军方称在约旦边境附近击落两架无人机。袭击发生在美伊打击暂停期间，伊朗被指通过代理武装维持对美方盟友的压力。[日期核验: ISW 7月27日报告]",
+          "major": true,
+          "verification_status": "single_authoritative",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-27-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "阿布盖格石油设施遭袭起火",
+          "content": "7月27日，沙特阿美世界最大原油稳定厂阿布盖格（Abqaiq）设施起火。伊朗革命卫队关联媒体报道称起火系无人机和导弹袭击所致，以色列媒体发布的卫星图像显示设施起火。沙特方面指称袭击来自伊拉克境内的伊朗支持武装，但截至报告时无组织正式认领，归因存在争议。阿布盖格此前是2019年大规模无人机袭击的目标，处理全球相当份额的原油供应，此次事件引发全球能源市场对供应中断的担忧。[日期核验: ISW 7月27日报告]",
+          "major": true,
+          "verification_status": "single_authoritative",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-27-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "军事",
+          "tag": "military-tag",
+          "title": "胡塞武装宣布袭击沙特石油出口基础设施",
+          "content": "7月27日，胡塞武装军事发言人萨里阿宣布，胡塞发射无人机袭击沙特支撑其石油出口的关键基础设施，即连接东部油田与红海出口港的东西向输油管道系统。沙特正日益依赖东西向管道和红海延布港出口石油，以绕开伊朗对霍尔木兹海峡的控制。[日期核验: ISW 7月27日报告]",
+          "major": false,
+          "verification_status": "single_authoritative",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-27-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d148",
+      "date_label": "7月26日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "伊阿会谈称取得进展",
+          "content": "7月26日，伊朗外交部发言人巴加埃及地区官员称，伊阿关于霍尔木兹海峡问题的会谈取得进展。巴基斯坦政府官员同日表示，美国和伊朗均已回应了巴基斯坦和卡塔尔近期提出的联合停火与重返谈判提议。[日期核验: ISW 7月26日报告]",
+          "major": true,
+          "verification_status": "single_authoritative",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-26-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "美方7月12至24日打击约1000个目标",
+          "content": "7月26日，战争研究所统计显示，美军7月12日至24日对伊朗打击约1000个目标，而战争第一阶段38天内美军打击约13000个目标。美国自7月24日以来暂停打击，但维持对伊朗港口和船只的海上封锁。[日期核验: ISW 7月26日报告]",
+          "major": true,
+          "verification_status": "single_authoritative",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-26-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "伊朗议会坚持霍尔木兹海峡控制权",
+          "content": "7月26日，伊朗外交部发言人巴加埃此前表示霍尔木兹海峡交通状况没有变化；伊朗议会副议长尼克扎德和议会国家安全与外交政策委员会成员布鲁杰迪同日表示，伊朗必须保持对海峡的控制。伊朗继续以水雷威胁阻止船只使用未经其批准的航线。[日期核验: ISW 7月26日报告]",
+          "major": true,
+          "verification_status": "single_authoritative",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-26-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "泽连斯基称俄罗斯向伊朗提供美军基地卫星图像",
+          "content": "7月26日，乌克兰总统泽连斯基于7月25日表示，俄罗斯正在向伊朗提供美军海湾基地的卫星图像，以支持伊朗的打击行动和战损评估。此说法与战争研究所此前关于俄罗斯帮助伊朗提高打击精度的评估一致。[日期核验: ISW 7月26日报告]",
+          "major": true,
+          "verification_status": "single_authoritative",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-26-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d147",
+      "date_label": "7月25日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "美国13天来首次未空袭伊朗",
+          "content": "7月25日，美军13天来首次未对伊朗发动隔夜空袭，伊朗卫生部发言人确认美国自7月24日以来未攻击伊朗。美军维持对伊朗港口的海上封锁，未解除军事压力，但暂停了夜间打击行动。[日期核验: ISW 7月25日报告]",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-25-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            },
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-26-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "阿曼代表团访德黑兰，特朗普下令暂停对伊打击",
+          "content": "7月25日，阿曼代表团抵达德黑兰，与伊朗官员讨论重开霍尔木兹海峡的方案；数小时后，美国总统特朗普下令美军暂停对伊打击，并对记者表示美国正在与伊朗交谈。伊朗与阿曼官员于7月24日至25日举行会谈。[日期核验: ISW 7月25日报告]",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-25-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            },
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-26-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "伊朗先进型导弹被指突破美军防御",
+          "content": "7月25日，华尔街日报援引美国官员报道称，伊朗在本轮冲突中向美军地区基地发射了先进型 Kheybar Shekan 中程弹道导弹，其中部分成功突破美军防御。该导弹被视为伊朗规避美方拦截能力的关键武器。[日期核验: ISW 7月25日报告]",
+          "major": true,
+          "verification_status": "single_authoritative",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-25-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "沙特联军空袭胡塞目标，胡塞袭击沙特炼油设施",
+          "content": "7月25日，沙特领导的联军空袭也门多处胡塞武装目标，以削弱其威胁红海航运和沙特关键基础设施的能力。胡塞武装随后袭击沙特船只和红海港口，并于当日声称对沙特红海沿岸吉赞炼油厂发动导弹和无人机袭击，该厂持续燃烧。[日期核验: ISW 7月25日报告]",
+          "major": true,
+          "verification_status": "single_authoritative",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-25-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d146",
+      "date_label": "7月24日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "伊朗无人机反击美军地区基地",
+          "content": "7月24日，伊朗陆军宣布使用无人机袭击巴林 Sheikh Isa 空军基地、约旦穆瓦法克·萨尔蒂/阿兹拉克基地、卡塔尔乌代德基地和科威特 Camp Arifjan 的美军设施；伊朗革命卫队声称袭击科威特 Camp Buehring 美军队舍。伊朗官方媒体公布卫星图像，声称弹道导弹击中美军驻科威特 Ali al Salem 基地建筑。美方未证实相关说法。[日期核验: ISW 7月24日报告]",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-24-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/7/23/trump-warns-of-biggest-strikes-yet-on-iran-as-tehran-lashes-out-across-gulf",
+              "name": "半岛电视台",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "晚上",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "巴林和科威特被指秘密打击伊朗境内目标",
+          "content": "7月24日，华尔街日报报道称，据知情人士透露，巴林和科威特自7月11日以来秘密打击了伊朗境内目标，阿联酋为其提供了目标情报和防空掩护。此举显示海湾国家在美伊冲突中的参与度进一步上升。[日期核验: ISW 7月24日报告]",
+          "major": true,
+          "verification_status": "single_authoritative",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-24-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "凌晨",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "美军第13晚空袭伊朗，胡齐斯坦省4人死亡",
+          "content": "7月24日清晨，美军连续第13晚对伊朗发动空袭。美军中央司令部称，打击目标包括伊朗军事指挥中心、无人机储存设施、通信网络、海岸监视站和海上能力，以削弱伊朗威胁商业航运的能力。伊朗官方通讯社报道，胡齐斯坦省阿瓦士周边遭袭造成至少4人死亡、5人受伤，洛雷斯坦、霍尔木兹甘等六个省份报告爆炸。[日期核验: 半岛电视台 7月23日]",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-23-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/7/23/trump-warns-of-biggest-strikes-yet-on-iran-as-tehran-lashes-out-across-gulf",
+              "name": "半岛电视台",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d145",
+      "date_label": "7月23日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "伊朗对海湾美军基地发动大规模导弹和无人机反击",
+          "content": "7月23日，伊朗革命卫队第26波胜利-2行动与伊朗陆军闪电行动第23阶段，对海湾地区美军目标发动导弹和无人机袭击：科威特 Camp Udairi 电子战部队营房、Ali Al Salem 空军基地军备库和 MQ-9 机库、Camp Doha 弹药库、Camp Arifjan 弹药库，以及约旦 THAAD 雷达、爱国者系统和 C-RAM 雷达、燃料库等目标遭袭。约旦军方宣布拦截7枚导弹和6架无人机，科威特军方确认拦截多枚射弹。[日期核验: 半岛电视台 7月23日]",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-23-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            },
+            {
+              "url": "https://www.aljazeera.com/news/liveblog/2026/7/23/iran-war-live-us-launches-new-attacks-houthis-attack-2-saudi-oil-tankers",
+              "name": "半岛电视台",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "伊拉克民兵无人机袭击科威特阿卜达利口岸",
+          "content": "7月23日，伊朗支持的伊拉克民兵对科威特与伊拉克边境的阿卜达利（Abdali）口岸发动无人机袭击，造成物质损失但无人员伤亡，这是自7月11日以来伊朗抵抗轴心首次袭击地区边境口岸。伊朗媒体称袭击是对美军空袭沙兰切口岸的回应。同日科威特布比延岛报告发生爆炸。[日期核验: ISW 7月23日报告]",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-23-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            },
+            {
+              "url": "https://www.aljazeera.com/news/liveblog/2026/7/23/iran-war-live-us-launches-new-attacks-houthis-attack-2-saudi-oil-tankers",
+              "name": "半岛电视台",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "晚上",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "特朗普威胁对伊朗发动大规模攻击",
+          "content": "7月23日晚，美国总统特朗普对 Axios 表示可能扩大对伊打击规模，称美方已准备好必要时发动大规模攻击，并认为美军目前对伊朗施加的压力尚不足以迫使其接受协议。国务卿鲁比奥同日表示，尽管伊朗官员直接或间接乞求达成协议，伊朗并不愿达成其会遵守的协议，并警告美方打击将逐日加强直至伊朗接受协议。[日期核验: ISW 7月23日报告]",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-23-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/7/23/trump-warns-of-biggest-strikes-yet-on-iran-as-tehran-lashes-out-across-gulf",
+              "name": "半岛电视台",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "晚上",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "伊朗被指拒绝特朗普停火提议",
+          "content": "7月23日晚，纽约时报援引伊朗官员报道称，伊朗拒绝了特朗普经由伊拉克总理扎伊迪转交的停火提议。扎伊迪当日访问德黑兰，与伊朗总统佩泽希齐扬、外长阿拉格齐、议长卡利巴夫会谈。伊朗官员称其对不解决霍尔木兹海峡控制权争端的临时协议不感兴趣；扎伊迪办公室于7月24日否认该报道。[日期核验: ISW 7月24日报告]",
+          "major": true,
+          "verification_status": "single_authoritative",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-24-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "凌晨",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "美军第12晚空袭伊朗，边境口岸袭击致2死11伤",
+          "content": "7月23日凌晨，美军连续第12晚对伊朗发动空袭，目标包括伊朗海上能力、导弹和无人机储存设施、海岸监视站和防空系统。伊朗方面报告，胡齐斯坦省沙兰切（Shalamcheh）边境口岸客运站附近遭袭，造成2人死亡、11人受伤，死者包括一名伊朗陆军上尉；布什尔核电站附近变电站遭袭引发停电；霍尔木兹甘省锡里克、贾斯克等地发生爆炸。[日期核验: 半岛电视台 7月23日]",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-23-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/7/23/iran-houthis-strike-tankers-as-us-bombing-continues-whats-the-latest",
+              "name": "半岛电视台",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d144",
+      "date_label": "7月22日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "胡塞武装袭击红海两艘沙特油轮",
+          "content": "7月22日，也门胡塞武装宣布对红海中的两艘沙特旗油轮 ENCELIA 号和 LAYLA 号发动导弹和无人机袭击，称其违反胡塞对沙特的封锁。沙特官方通讯社确认 ENCELIA 号被击中并起火，无人员伤亡；英国海事贸易行动办公室于7月23日确认一艘沙特旗油轮遭不明射弹袭击。[日期核验: ISW 7月23日报告/半岛电视台 7月23日]",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-22-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            },
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-23-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/7/23/iran-houthis-strike-tankers-as-us-bombing-continues-whats-the-latest",
+              "name": "半岛电视台",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "伊朗导弹和无人机袭击海湾美军基地",
+          "content": "7月22日，伊朗革命卫队和陆军声称对卡塔尔、约旦、巴林、伊拉克和科威特的美军基地发动导弹和无人机袭击，声称摧毁科威特 Camp Buehring 的电子战部队、飞行控制塔和医疗中心。科威特和约旦军方确认拦截了伊朗的无人机和导弹；开源卫星图像显示约旦 King Faisal 空军基地 F-15E 机库、科威特 Camp Buehring 直升机库和仓库受损。[日期核验: ISW 7月23日报告]",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-22-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            },
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-23-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "晚上",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "伊朗声称南部航线油轮触雷",
+          "content": "7月22日晚，伊朗革命卫队声称一艘试图使用霍尔木兹海峡南部航线的油轮触雷失去动力，另有两艘油轮随即掉头。美方和英国海事机构未证实该说法，英国海事贸易行动办公室此前于7月7日确认南部航线存在漂浮水雷。[日期核验: ISW 7月23日报告]",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-23-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/7/23/iran-houthis-strike-tankers-as-us-bombing-continues-whats-the-latest",
+              "name": "半岛电视台",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "凌晨",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "美军第11晚空袭伊朗西部及帕尔钦军事综合体",
+          "content": "7月22日凌晨，美军连续第11晚对伊朗发动空袭，目标包括伊朗西部和西北部军事设施，以及德黑兰附近帕尔钦（Parchin）军事综合体。美军试图进一步削弱伊朗威胁霍尔木兹海峡航运和袭击海湾地区美军基地的能力。[日期核验: ISW 7月22日报告]",
+          "major": true,
+          "verification_status": "single_authoritative",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-22-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d143",
+      "date_label": "7月21日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "霍尔木兹海峡船只遭袭，科威特油轮船员弃船",
+          "content": "7月21日，英国海事贸易行动办公室报告称，7月20日霍尔木兹海峡附近两艘船只遭不明射弹袭击，一艘舵机受损，另一艘科威特油轮 Kaifan 号船员被迫弃船、数名船员受伤。伊朗革命卫队声称袭击了试图使用阿曼南部航线、绕开伊朗管制的两艘油轮。[日期核验: ISW 7月21日报告]",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-21-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/2026_Iran_war",
+              "name": "Wikipedia英文",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "伊朗连续第4天袭击科威特电力和海水淡化设施",
+          "content": "7月21日，科威特政府表示，伊朗已连续第四天袭击其发电和海水淡化设施，多台发电机被摧毁。伊朗媒体称无人机袭击了科威特东南部的 al Zour 电厂。伊朗试图通过对科威特平民基础设施的攻击，迫使其限制美军使用其领土。[日期核验: ISW 7月21日报告]",
+          "major": true,
+          "verification_status": "single_authoritative",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-21-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "胡塞武装对沙特实施海上封锁",
+          "content": "7月21日，胡塞武装继续警告沙特船只避免穿越红海，此前胡塞于7月20日宣布对沙特实施海上封锁，并向船运公司发出警告。至少两艘商船为避免穿越曼德海峡而掉头。胡塞的封锁旨在迫使沙特停止对其控制区港口和机场的限制。[日期核验: ISW 7月21日报告]",
+          "major": true,
+          "verification_status": "single_authoritative",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-21-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "凌晨",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "美军连续第10晚空袭伊朗",
+          "content": "7月21日凌晨，美军对伊朗境内军事目标发动新一轮夜间空袭，此前美军已连续多晚打击伊朗导弹和无人机储存设施、海岸监视站及防空系统，以削弱伊朗威胁霍尔木兹海峡航运的能力。伊朗多地报告爆炸。[日期核验: ISW 7月21日报告]",
+          "major": true,
+          "verification_status": "single_authoritative",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-21-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
     {
       "date_id": "d142",
       "date_label": "7月20日",
