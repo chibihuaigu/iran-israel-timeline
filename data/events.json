@@ -2,7 +2,7 @@
  "version": "1.0",
  "extracted_at": "2026-08-02 21:43:08",
  "total_days": 155,
- "total_events": 501,
+ "total_events": 503,
  "events": [
   {
    "date_id": "d155",
@@ -171,6 +171,27 @@
        "url": "https://www.criticalthreats.org/analysis/iran-update-special-report-july-30-2026",
        "name": "CTP关键威胁项目",
        "priority": 1
+      }
+     ]
+    },
+    {
+     "time": "全天",
+     "category": "军事",
+     "tag": "major-tag",
+     "title": "科威特中企建筑遭伊朗袭击致1名工人死亡",
+     "content": "7月30日，伊朗袭击科威特北部一栋中国企业所属建筑，科威特国防部发言人称袭击造成1名工人死亡和重大财产损失，科威特军方启动应急响应并表示将继续采取一切必要措施保护国家主权。数小时前，约旦军方拦截了来自伊朗的5枚导弹。科威特近期持续遭伊朗袭击，科方指控伊朗攻击平民和民用基础设施。[日期核验: 安纳多卢通讯社/以色列时报 7月30日]",
+     "major": true,
+     "verification_status": "verified",
+     "sources": [
+      {
+       "url": "https://en.wikipedia.org/wiki/2026_Iran_war",
+       "name": "Wikipedia英文",
+       "priority": 1
+      },
+      {
+       "url": "https://www.aa.com.tr/en/middle-east/iranian-attack-kills-worker-at-chinese-company-building-in-kuwait/4013488",
+       "name": "安纳多卢通讯社",
+       "priority": 2
       }
      ]
     },
@@ -543,6 +564,22 @@
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-25-2026/",
        "name": "ISW战争研究所",
+       "priority": 1
+      }
+     ]
+    },
+    {
+     "time": "全天",
+     "category": "军事",
+     "tag": "major-tag",
+     "title": "乌克兰无人机袭击伊朗里海商船致1名船员死亡",
+     "content": "7月25日，乌克兰无人机袭击一艘伊朗商船，伊朗外交部称爆炸造成1名船员死亡、1人受伤。乌克兰称其打击目标为俄罗斯军舰及运输伊朗关联军用物资的船只，泽连斯基于当日宣布乌军里海远程打击取得\"非常好的战果\"。伊朗外交部召见乌克兰驻伊朗代办抗议，外长阿拉格齐于7月26日称此次袭击\"不能没有回应\"，并指责以色列煽动乌方以将欧洲拖入战争；7月28日乌克兰外长西比哈致电阿拉格齐，警告伊朗勿采取升级行动，并敦促其停止支持俄罗斯。[日期核验: 半岛电视台 7月28日]",
+     "major": true,
+     "verification_status": "single_authoritative",
+     "sources": [
+      {
+       "url": "https://www.aljazeera.com/news/2026/7/28/kyiv-warns-iran-against-escalation-after-ukraines-caspian-sea-attack",
+       "name": "半岛电视台",
        "priority": 1
       }
      ]
