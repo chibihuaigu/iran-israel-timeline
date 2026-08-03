@@ -4052,14 +4052,14 @@
      "verification_status": "verified",
      "sources": [
       {
-       "url": "https://apnews.com/article/us-strikes-iran-self-defense-2026-05-25",
-       "name": "美联社",
+       "url": "https://www.reuters.com/business/aerospace-defense/us-military-strikes-iranian-boats-missile-launch-sites-centcom-2026-05-25",
+       "name": "路透社",
        "priority": 1
       },
       {
-       "url": "https://www.presstv.co.uk/Detail/2026/05/25/769288/may25-iran-vows-not-yield-negotiations-end-imposed-war",
-       "name": "Press TV",
-       "priority": 2
+       "url": "https://www.aljazeera.com/news/2026/5/26/us-military-launches-strikes-on-southern-iran-amid-talks-in-qatar",
+       "name": "半岛电视台",
+       "priority": 1
       }
      ]
     },
@@ -4094,13 +4094,13 @@
      "verification_status": "verified",
      "sources": [
       {
-       "url": "https://apnews.com/article/trump-abraham-accords-middle-east-2026-05-25",
-       "name": "美联社",
+       "url": "https://www.reuters.com/world/middle-east/trump-links-abraham-accords-iran-deal-2026-05-25",
+       "name": "路透社",
        "priority": 1
       },
       {
-       "url": "https://www.alarabiya.net/english/news/2026/05/25/trump-abraham-accords-iran",
-       "name": "阿拉比亚电视台",
+       "url": "https://www.aljazeera.com/news/2026/5/25/trump-dangles-normalisation-amid-pro-israel-criticism-of-possible-iran-deal",
+       "name": "半岛电视台",
        "priority": 1
       }
      ]
@@ -4121,13 +4121,13 @@
      "verification_status": "verified",
      "sources": [
       {
-       "url": "https://apnews.com/article/iran-us-talks-vance-witkoff-kushner-2026-05-24",
-       "name": "美联社",
+       "url": "https://www.nytimes.com/2026/05/24/world/middleeast/trump-iran-peace-deal-strait-hormuz.html",
+       "name": "纽约时报",
        "priority": 1
       },
       {
-       "url": "https://www.reuters.com/world/iran-us-final-terms-2026-05-24/",
-       "name": "路透社",
+       "url": "https://en.wikipedia.org/wiki/2025%E2%80%932026_Iran%E2%80%93United_States_negotiations",
+       "name": "Wikipedia英文",
        "priority": 1
       }
      ]
@@ -4727,13 +4727,13 @@
      "verification_status": "verified",
      "sources": [
       {
-       "url": "https://www.reuters.com/world/middle-east/iran-china-rail-trade-blockade-2026-05-16/",
-       "name": "路透社",
+       "url": "https://www.bloomberg.com/news/articles/2026-05-08/iran-turns-to-china-rail-link-to-try-to-bypass-us-blockade",
+       "name": "彭博社",
        "priority": 1
       },
       {
-       "url": "https://apnews.com/article/iran-pakistan-transit-route-blockade-2026-05-16",
-       "name": "美联社",
+       "url": "https://www.aljazeera.com/news/2026/4/30/pakistan-opens-up-road-trade-routes-into-iran-amid-hormuz-blockade",
+       "name": "半岛电视台",
        "priority": 1
       }
      ]
@@ -4897,13 +4897,13 @@
      "verification_status": "verified",
      "sources": [
       {
-       "url": "https://www.reuters.com/world/middle-east/irgc-hormuz-expanded-zone-2026-05-13/",
-       "name": "路透社",
+       "url": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis",
+       "name": "Wikipedia英文",
        "priority": 1
       },
       {
-       "url": "https://apnews.com/article/iran-hormuz-control-expanded-may-13-2026",
-       "name": "美联社",
+       "url": "https://www.aljazeera.com/news/2026/5/5/map-of-dominance-why-iran-cant-afford-to-give-up-hormuz-control",
+       "name": "半岛电视台",
        "priority": 1
       }
      ]
@@ -5023,11 +5023,16 @@
      "title": "UKMTO报告船只遭袭，阿联酋和科威特拦截伊朗无人机",
      "content": "英国海上贸易组织（UKMTO）报告一艘散货船在卡塔尔多哈附近遭不明投射物袭击。阿联酋和科威特国防部分别报告拦截了伊朗无人机。袭击时间与伊朗提交反提案的时间吻合，分析认为伊朗可能试图通过维持高油价施加经济压力。",
      "major": false,
-     "verification_status": "single_authoritative",
+     "verification_status": "verified",
      "sources": [
       {
-       "url": "https://apnews.com/article/uae-kuwait-intercept-iran-drones-may-10-2026",
-       "name": "美联社",
+       "url": "https://www.aljazeera.com/news/2026/5/10/us-iran-ceasefire-under-strain-as-gulf-states-report-drone-attacks",
+       "name": "半岛电视台",
+       "priority": 1
+      },
+      {
+       "url": "https://www.reuters.com/world/middle-east/kuwaits-army-says-hostile-drones-detected-airspace-2026-05-10",
+       "name": "路透社",
        "priority": 1
       }
      ]
@@ -5085,13 +5090,13 @@
      "verification_status": "verified",
      "sources": [
       {
-       "url": "https://www.reuters.com/world/us-sanctions-china-entities-iran-satellite-2026-05-09/",
-       "name": "路透社",
+       "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/05/disrupting-irans-overseas-military-procurement-networks",
+       "name": "美国国务院",
        "priority": 1
       },
       {
-       "url": "https://apnews.com/article/us-sanctions-china-iran-satellite-may-9-2026",
-       "name": "美联社",
+       "url": "https://www.bloomberg.com/news/articles/2026-05-09/us-sanctions-chinese-satellite-imagery-companies-over-iran-war",
+       "name": "彭博社",
        "priority": 1
       }
      ]
@@ -5128,13 +5133,13 @@
      "verification_status": "verified",
      "sources": [
       {
-       "url": "https://www.aljazeera.com/news/2026/5/8/uae-intercepts-iranian-missiles-drones",
-       "name": "半岛电视台",
-       "priority": 1
+       "url": "https://www.aa.com.tr/en/middle-east/3-injured-when-uae-air-defenses-intercept-2-ballistic-missiles-3-drones-launched-from-iran/3931345",
+       "name": "安纳多卢通讯社",
+       "priority": 2
       },
       {
-       "url": "https://apnews.com/article/uae-intercepts-iranian-missiles-drones-may-8-2026",
-       "name": "美联社",
+       "url": "https://www.pbs.org/newshour/amp/world/uae-reports-iranian-drone-and-missile-attack-after-u-s-says-it-traded-fire-with-tehran",
+       "name": "PBS",
        "priority": 1
       }
      ]
@@ -5149,14 +5154,14 @@
      "verification_status": "verified",
      "sources": [
       {
-       "url": "https://www.aljazeera.com/news/2026/5/8/hezbollah-retaliatory-rockets-israel-north",
-       "name": "半岛电视台",
-       "priority": 1
+       "url": "https://www.timesofisrael.com/hezbollah-fires-rockets-at-haifa-area-drones-wound-2-troops-in-north-israel-1-in-lebanon/",
+       "name": "以色列时报",
+       "priority": 2
       },
       {
-       "url": "https://www.bbc.com/news/world-middle-east-68450000",
-       "name": "BBC",
-       "priority": 1
+       "url": "https://www.ynetnews.com/article/rk0p7bsrbl",
+       "name": "Ynet新闻",
+       "priority": 2
       }
      ]
     }
@@ -6471,12 +6476,12 @@
      "major": true,
      "sources": [
       {
-       "url": "https://www.npr.org/2026/04/08/nx-s1-5781234/iran-war-ceasefire",
-       "name": "NPR",
+       "url": "https://apnews.com/article/us-iran-war-lebanon-israel-talks-pakistan-hormuz-16-april-2026-297a8d2bb94add26e503a4ef3a5d1151",
+       "name": "美联社",
        "priority": 1
       },
       {
-       "url": "https://www.bbc.com/news/live/clyeg3224d9t",
+       "url": "https://www.bbc.com/news/articles/c8x7w1w9gd2o",
        "name": "BBC",
        "priority": 1
       }
@@ -6609,8 +6614,8 @@
      "major": false,
      "sources": [
       {
-       "url": "https://apnews.com/article/iaea-iran-grossi-nuclear-inspections-2026",
-       "name": "AP News",
+       "url": "https://apnews.com/article/iaea-iran-grossi-us-nuclear-f96d4f5f5a0b086fec5ddba158a36145",
+       "name": "美联社",
        "priority": 1
       }
      ],
@@ -7104,18 +7109,13 @@
      "major": true,
      "sources": [
       {
-       "url": "https://www.reuters.com/world/middle-east/four-killed-israels-haifa-after-iranian-missile-strike-2026-04-06/",
-       "name": "Reuters",
+       "url": "https://www.aljazeera.com/news/2026/4/9/israeli-attacks-on-lebanon-aimed-to-undermine-ceasefire-critics-say",
+       "name": "半岛电视台",
        "priority": 1
       },
       {
-       "url": "https://www.aljazeera.com/news/2026/4/9/fresh-israeli-attacks-on-lebanon-threate",
-       "name": "Al Jazeera",
-       "priority": 1
-      },
-      {
-       "url": "https://apnews.com/article/israel-lebanon-hezbollah-beirut-strikes-46a82d3758b7d",
-       "name": "AP News",
+       "url": "https://en.wikipedia.org/wiki/8_April_2026_Israeli_attacks_on_Lebanon",
+       "name": "Wikipedia英文",
        "priority": 1
       }
      ],
@@ -7311,23 +7311,13 @@
      "major": true,
      "sources": [
       {
-       "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-april-3-2026/",
-       "name": "ISW",
-       "priority": 1
-      },
-      {
-       "url": "https://www.jns.org/news/israel-news/idf-strikes-50-iranian-ballistic-missile-sites-during-passover",
-       "name": "JNS",
+       "url": "https://www.cnn.com/2026/04/03/politics/us-fighter-jet-iran",
+       "name": "CNN",
        "priority": 2
       },
       {
-       "url": "https://www.reuters.com/world/middle-east/us-fighter-jet-shot-down-over-iran-sea",
-       "name": "Reuters",
-       "priority": 1
-      },
-      {
-       "url": "https://apnews.com/article/iran-us-israel-trump-lebanon-april-3-2026-a6365c6123c",
-       "name": "AP News",
+       "url": "https://www.bbc.com/news/articles/c1w4pdexxqpo",
+       "name": "BBC",
        "priority": 1
       }
      ],
@@ -8557,8 +8547,13 @@
      "content": "伊朗教育部及多家媒体报道，美国和以色列的袭击已导致伊朗大量学生和教师丧生，教育设施遭到严重破坏。\n                            \n                                不同来源数据：\n                                【俄罗斯卫星通讯社】230名学生和教师遇难\n                                【腾讯/伊朗红新月会】平民必须得到尊重和支持（未给具体数字）\n                                【今日头条】208名未成年人死亡 / 165名女子小学遇难\n                                【企鹅号】210名师生遇难 / 175名师生身亡\n                                说明：各媒体报道数字存在差异，建议以官方最终通报为准。",
      "sources": [
       {
-       "url": "https://www.bbc.com/news/world-middle-east-68642271",
+       "url": "https://www.bbc.com/news/articles/cewrx0ldlkko",
        "name": "BBC",
+       "priority": 1
+      },
+      {
+       "url": "https://www.aljazeera.com/news/2026/3/3/questions-over-minab-girls-school-strike-as-israel-us-deny-involvement",
+       "name": "半岛电视台",
        "priority": 1
       }
      ],
@@ -8567,7 +8562,7 @@
       "❌ 来源#1URL问题: 未知域名: https://sputniknews.cn/20260325/1070423609.html",
       "❌ 有效来源不足2个（现有1个）"
      ],
-     "verification_status": "single_authoritative"
+     "verification_status": "verified"
     },
     {
      "major": true,
@@ -9542,7 +9537,7 @@
      "content": "伊朗伊斯兰革命卫队指挥官贾巴里宣称，伊朗已摧毁美国在中东地区70%的军事基地，并表示伊朗有能力和资源支撑长期战争。美方尚未对此说法作出回应。与此同时，美军中央司令部战报显示，自行动开始以来，美军已袭击伊朗境内5500多个目标，其中包括超过60艘舰船，伊朗导弹发射车仅剩42辆。\n                        \n                        \n                            搜狐新闻\n                            中华网",
      "sources": [
       {
-       "url": "https://www.bbc.com/news/world-middle-east-68632456",
+       "url": "https://www.bbc.com/news/articles/c2l2yl7r8r2o",
        "name": "BBC",
        "priority": 1
       }
@@ -9952,14 +9947,9 @@
      "content": "以色列国防军对德黑兰一处重要设施实施打击，称该设施是伊朗推进\"核武器研发关键能力\"的地点。该设施曾在2024年10月遭到以军打击。美军使用GBU-57/B巨型MOP钻地炸弹袭击。\n                        \n                        \n                            新浪新闻\n                            网易新闻",
      "sources": [
       {
-       "url": "https://www.bbc.com/news/world-middle-east-68612345",
-       "name": "BBC",
-       "priority": 1
-      },
-      {
-       "url": "https://www.reuters.com/world/middle-east/israeli-military-says-it-targeted-site-used-irans-nuclear-programme-2026-03-12/",
-       "name": "Reuters",
-       "priority": 1
+       "url": "https://www.jpost.com/middle-east/iran-news/article-889729",
+       "name": "耶路撒冷邮报",
+       "priority": 2
       }
      ],
      "needs_verification": false,
@@ -9967,7 +9957,7 @@
       "❌ 来源#2URL问题: 未知域名: https://www.163.com/",
       "❌ 有效来源不足2个（现有1个）"
      ],
-     "verification_status": "verified"
+     "verification_status": "single_authoritative"
     },
     {
      "major": true,
@@ -11257,21 +11247,9 @@
      "content": "伊朗官方证实最高领袖哈梅内伊在2月28日美以联合袭击中于德黑兰郊外掩体丧生。伊朗宣布全国40天哀悼期，伊拉克宣布3天哀悼期。临时领导委员会宣布成立。\n                        \n                        \n                            央视新闻",
      "sources": [
       {
-       "url": "https://news.cctv.com/2026/03/01/ARTIFGzxFtNhkPF7QDtkVrrP260301.shtml",
-       "name": "央视新闻"
-      },
-      {
-       "url": "https://www.aljazeera.com/news/2026/3/1/iran-begins-40-day-mourning-after-khamenei-killed-in-us-israeli-attack",
-       "name": "Al Jazeera",
+       "url": "https://apnews.com/article/iran-supreme-leader-ayatollah-ali-khamenei-dead-5b13b69b708c4ed38e8f95f5fb41a597",
+       "name": "美联社",
        "priority": 1
-      },
-      {
-       "name": "Reuters",
-       "url": "https://www.reuters.com/world/middle-east/irans-supreme-leader-khamenei-killed-iranian-state-media-confirm-2026-03-01/"
-      },
-      {
-       "name": "AP News",
-       "url": "https://apnews.com/article/iran-us-israel-trump-khamenei-030126"
       }
      ],
      "needs_verification": false,
@@ -11279,7 +11257,7 @@
       "⚠️ 只有1个来源（需要≥2个）",
       "❌ 有效来源不足2个（现有1个）"
      ],
-     "verification_status": "verified"
+     "verification_status": "single_authoritative"
     },
     {
      "major": false,
@@ -11371,28 +11349,14 @@
      "content": "2月28日战争首日，美军一枚战斧巡航导弹误击伊朗南部霍尔木兹甘省米纳卜市（Minab）一所女子小学，造成至少165人遇难（后续升至168人），大部分为7-12岁女童。11天后（3月11日）美国军方初步调查认定系DIA过时目标情报误导所致（学校已于2013-2016年从IRGC海军基地围栏隔出但美军目标清单未更新），美方应对此承担责任。[日期核验: CNN 3月11日/NPR 3月12日]",
      "sources": [
       {
-       "url": "https://news.cctv.com/2026/02/28/ARTIh0fqI5JhcrxLfHG2dauS260228.shtml",
-       "name": "央视新闻"
-      },
-      {
-       "url": "https://new.qq.com/rain/a/20260311A07AER00",
-       "name": "腾讯新闻"
-      },
-      {
-       "name": "CNN",
-       "url": "https://www.cnn.com/2026/03/11/politics/us-iran-school-strike-civilians"
-      },
-      {
-       "name": "Al Jazeera",
-       "url": "https://www.aljazeera.com/news/2026/2/28/israel-strikes-two-schools-in-iran-killing-more-than-50-people"
-      },
-      {
-       "name": "NPR",
-       "url": "https://www.npr.org/2026/03/11/nx-s1-5744981/pentagon-iran-missile-school-hegseth"
-      },
-      {
+       "url": "https://www.bbc.com/news/articles/cewrx0ldlkko",
        "name": "BBC",
-       "url": "https://www.bbc.com/news/articles/c0rlzmpgplgo"
+       "priority": 1
+      },
+      {
+       "url": "https://en.wikipedia.org/wiki/2026_Minab_school_attack",
+       "name": "Wikipedia英文",
+       "priority": 1
       }
      ],
      "verification_status": "verified"
