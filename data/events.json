@@ -2,7 +2,7 @@
  "version": "1.0",
  "extracted_at": "2026-08-02 21:43:08",
  "total_days": 155,
- "total_events": 502,
+ "total_events": 503,
  "events": [
   {
    "date_id": "d155",
@@ -958,6 +958,27 @@
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-20-2026",
        "name": "ISW战争研究所",
+       "priority": 1
+      }
+     ]
+    },
+    {
+     "time": "上午",
+     "category": "军事",
+     "tag": "major-tag",
+     "title": "美军连续第9晚打击伊朗",
+     "content": "7月20日（美东时间7月19日晚），美军连续第9晚对伊朗发动空袭，打击目标包括伊朗南部沿海监视站、防空系统、导弹和无人机储存设施及海上能力。伊朗媒体报道塔布里兹（Tabriz）首次遭袭，贾斯克、锡里克等多地发生爆炸。美军中央司令部称打击旨在继续削弱伊朗威胁霍尔木兹海峡航运的能力。伊朗方面随后从洛雷斯坦省向美军资产发射新一轮导弹（见同日另条）。[日期核验: CNN 7月19日/半岛电视台 7月20日]",
+     "major": true,
+     "verification_status": "verified",
+     "sources": [
+      {
+       "url": "https://www.cnn.com/2026/07/19/world/live-news/iran-war-trump",
+       "name": "CNN",
+       "priority": 2
+      },
+      {
+       "url": "https://www.aljazeera.com/news/2026/7/20/us-bombs-iran-for-ninth-consecutive-night-as-hormuz-tensions-escalate",
+       "name": "半岛电视台",
        "priority": 1
       }
      ]
@@ -2367,9 +2388,19 @@
      "verification_status": "verified",
      "sources": [
       {
-       "url": "http://www.xinhuanet.com/world/20260620/hormuz-close.html",
-       "name": "新华网",
-       "priority": 1
+       "url": "https://en.mehrnews.com/news/245473/Iran-closes-Hormuz-Strait-after-US-Israel-violations-of-MoU",
+       "name": "Mehr新闻社",
+       "priority": 2
+      },
+      {
+       "url": "https://thehill.com/policy/international/5932603-strait-of-hormuz-closure-iran-israel",
+       "name": "The Hill",
+       "priority": 2
+      },
+      {
+       "url": "https://www.france24.com/en/middle-east/20260620-iran-says-closed-strait-of-hormuz-as-us-deal-hits-obstacle-ahead-of-swiss-talks",
+       "name": "France 24",
+       "priority": 2
       }
      ]
     }
