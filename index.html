@@ -92,18 +92,20 @@
         .stats-expand-toggle {
             display: inline-flex;
             align-items: center;
-            padding: 4px 10px;
+            justify-content: center;
+            padding: 6px 18px;
             font-size: 12px;
             color: rgba(255,255,255,0.95);
             cursor: pointer;
-            border-radius: 12px;
-            background: rgba(26,54,93, 0.08);
+            border-radius: 16px;
+            background: rgba(255,255,255,0.12);
             transition: all 0.2s;
-            vertical-align: middle;
-            margin-left: 4px;
+            border: 1px solid rgba(255,255,255,0.2);
+            grid-column: 1 / -1;
+            justify-self: center;
         }
         .stats-expand-toggle:hover {
-            background: rgba(26,54,93, 0.15);
+            background: rgba(255,255,255,0.22);
         }
         .stats-extra {
             display: none;
@@ -120,6 +122,10 @@
             flex: 1 1 130px;
             max-width: 180px;
             min-width: 120px;
+        }
+        .stats-extra.expanded .stats-expand-toggle {
+            width: 100%;
+            justify-content: center;
         }
 
         /* 音乐播放器样式 - header右上角 */
@@ -207,8 +213,38 @@
         }
         .sticky-btns .ctrl-btn:hover {
             transform: scale(1.1);
-            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
         }
+        .sticky-btns #stickyMusicBtn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 3px;
+        }
+        .sticky-btns #stickyMusicBtn .music-wave {
+            display: flex;
+            align-items: flex-end;
+            gap: 2px;
+            height: 12px;
+        }
+        .sticky-btns #stickyMusicBtn .music-wave span {
+            width: 2px;
+            border-radius: 1px;
+            background: var(--text-secondary);
+            animation: none;
+        }
+        .sticky-btns #stickyMusicBtn .music-wave span:nth-child(1) { height: 40%; }
+        .sticky-btns #stickyMusicBtn .music-wave span:nth-child(2) { height: 70%; }
+        .sticky-btns #stickyMusicBtn .music-wave span:nth-child(3) { height: 100%; }
+        .sticky-btns #stickyMusicBtn .music-wave span:nth-child(4) { height: 60%; }
+        .sticky-btns #stickyMusicBtn .music-wave span:nth-child(5) { height: 30%; }
+        .sticky-btns #stickyMusicBtn.playing .music-wave span {
+            background: var(--primary);
+            animation: musicWave 1s ease-in-out infinite;
+        }
+        .sticky-btns #stickyMusicBtn.playing .music-wave span:nth-child(2) { animation-delay: 0.15s; }
+        .sticky-btns #stickyMusicBtn.playing .music-wave span:nth-child(3) { animation-delay: 0.3s; }
+        .sticky-btns #stickyMusicBtn.playing .music-wave span:nth-child(4) { animation-delay: 0.45s; }
+        .sticky-btns #stickyMusicBtn.playing .music-wave span:nth-child(5) { animation-delay: 0.6s; }
         [data-theme="dark"] .sticky-btns .ctrl-btn {
             background: rgba(30,40,55,0.9);
             color: white;
@@ -302,8 +338,12 @@
         .peace-dove {
             width: 32px;
             height: 32px;
+            color: #ffffff;
             filter: drop-shadow(0 0 6px rgba(255,255,255,0.5));
             flex-shrink: 0;
+        }
+        .peace-dove.dove-flip {
+            transform: scaleX(-1);
         }
         .peace-text {
             font-size: 13px;
@@ -332,9 +372,7 @@
             grid-template-columns: repeat(4, 1fr);
             gap: 10px;
             margin-top: 16px;
-            max-width: 600px;
-            margin-left: auto;
-            margin-right: auto;
+            width: 100%;
         }
 
         /* 冲突天数突出显示 */
@@ -343,7 +381,7 @@
             border: 2px solid rgba(255,255,255,0.3);
         }
         .stat-item:first-child .stat-value {
-            font-size: 26px;
+            font-size: 32px;
             font-weight: 800;
         }
         .stat-item:first-child .stat-label {
@@ -359,6 +397,12 @@
             transition: all 0.2s ease;
             cursor: default;
             border: 1px solid rgba(255,255,255,0.1);
+            min-height: 96px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            box-sizing: border-box;
         }
 
         .stat-item a.stat-link {
@@ -383,12 +427,6 @@
         }
         a.stat-link:hover {
             background: rgba(255,255,255,0.28);
-            transform: translateY(-3px);
-            box-shadow: 0 4px 14px rgba(0,0,0,0.15);
-        }
-        a.stat-link:hover .stat-value {
-            text-decoration: underline;
-            text-underline-offset: 3px;
         }
         .stat-src {
             display: block;
@@ -404,6 +442,31 @@
             font-weight: 700;
             line-height: 1.2;
             margin-bottom: 4px;
+        }
+        /* 语义色：伊朗红 / 以色列蓝 / 星标金 */
+        .stat-item#iranDeathsItem .stat-value,
+        .stat-item#iranInjuredItem .stat-value {
+            color: #ffcdd2;
+        }
+        .stat-item#israelDeathsItem .stat-value,
+        .stat-item#lebanonDeathsItem .stat-value,
+        .stat-item#usDeathsItem .stat-value {
+            color: #bbdefb;
+        }
+        .stat-item#displacedItem .stat-value {
+            color: #fff9c4;
+        }
+        [data-theme="dark"] .stat-item#iranDeathsItem .stat-value,
+        [data-theme="dark"] .stat-item#iranInjuredItem .stat-value {
+            color: #ef9a9a;
+        }
+        [data-theme="dark"] .stat-item#israelDeathsItem .stat-value,
+        [data-theme="dark"] .stat-item#lebanonDeathsItem .stat-value,
+        [data-theme="dark"] .stat-item#usDeathsItem .stat-value {
+            color: #90caf9;
+        }
+        [data-theme="dark"] .stat-item#displacedItem .stat-value {
+            color: #fff176;
         }
 
         .stat-label {
@@ -476,6 +539,66 @@
             border-color: var(--primary);
             color: white;
         }
+        /* 筛选按钮按类别着色 */
+        .toolbar .filter-btn[data-filter="major"].active {
+            background: var(--primary-dark);
+            border-color: var(--primary-dark);
+            color: white;
+        }
+        .toolbar .filter-btn[data-filter="military"].active {
+            background: var(--primary);
+            border-color: var(--primary);
+            color: white;
+        }
+        .toolbar .filter-btn[data-filter="humanitarian"].active {
+            background: var(--text-tertiary);
+            border-color: var(--text-tertiary);
+            color: white;
+        }
+        .toolbar .filter-btn[data-filter="political"].active,
+        .toolbar .filter-btn[data-filter="diplomatic"].active {
+            background: var(--secondary);
+            border-color: var(--secondary);
+            color: white;
+        }
+        .toolbar .filter-btn[data-filter="major"]:hover,
+        .toolbar .filter-btn[data-filter="military"]:hover {
+            border-color: var(--primary);
+            color: var(--primary);
+        }
+        .toolbar .filter-btn[data-filter="political"]:hover,
+        .toolbar .filter-btn[data-filter="diplomatic"]:hover {
+            border-color: var(--secondary);
+            color: var(--secondary);
+        }
+        .toolbar .filter-btn[data-filter="humanitarian"]:hover {
+            border-color: var(--text-tertiary);
+            color: var(--text-tertiary);
+        }
+        .toolbar .filter-btn[data-filter="iran"].active {
+            background: #38a169;
+            border-color: #38a169;
+            color: white;
+        }
+        .toolbar .filter-btn[data-filter="israel"].active {
+            background: #3182ce;
+            border-color: #3182ce;
+            color: white;
+        }
+        .toolbar .filter-btn[data-filter="usa"].active {
+            background: #b7791f;
+            border-color: #b7791f;
+            color: white;
+        }
+        .toolbar .filter-btn[data-filter="star"].active {
+            background: #ffd700;
+            border-color: #ffd700;
+            color: #333;
+        }
+        .toolbar .filter-btn[data-filter="star"]:hover {
+            border-color: #ffd700;
+            color: #b8860b;
+        }
         .filter-divider {
             color: var(--text-muted);
             margin: 0 3px;
@@ -488,10 +611,6 @@
             .toolbar .filter-btn {
                 padding: 0 8px;
                 font-size: 12px;
-            }
-            .stage-filter .filter-btn {
-                font-size: 11px;
-                padding: 0 6px;
             }
         }
         @media (max-width: 768px) {
@@ -1250,34 +1369,6 @@
             color: white !important;
         }
 
-        /* 来源等级图例 - 精简 */
-        .source-legend {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 12px;
-            padding: 10px 20px;
-            margin-bottom: 12px;
-            font-size: 12.5px;
-            justify-content: center;
-        }
-        .source-legend-item {
-            display: flex;
-            align-items: center;
-            gap: 6px;
-            color: rgba(255,255,255,0.92);
-        }
-        .source-legend-badge {
-            padding: 2px 8px;
-            border-radius: 4px;
-            font-size: 11px;
-            font-weight: 600;
-            color: #ffffff;
-        }
-        .source-legend-badge.official { background: #b42828; }
-        .source-legend-badge.intl { background: #1e3a5f; }
-        .source-legend-badge.domestic { background: #718096; }
-        .source-legend-badge.other { background: #a0aec0; }
-
         /* 同一媒体额外链接 */
         .source-link.source-extra {
             padding: 2px 6px;
@@ -1316,17 +1407,60 @@
             border: 1px solid rgba(113, 128, 150, 0.3);
         }
 
+        /* 星标事件 */
+        .star-badge {
+            display: inline-block;
+            color: #ffd700;
+            font-size: 13px;
+            margin-right: 4px;
+            vertical-align: middle;
+            text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+        }
+        .event-card.star-event {
+            border-left: 3px solid #ffd700;
+        }
+
+        /* 争议图标：卡片右上角，点击弹出详情 */
+        .stat-item {
+            position: relative;
+        }
         .disputed-icon {
-            font-size: 0.65em;
-            vertical-align: super;
-            cursor: help;
+            position: absolute;
+            top: 6px;
+            right: 8px;
+            font-size: 12px;
+            cursor: pointer;
             opacity: 0.9;
             transition: opacity 0.2s;
+            z-index: 2;
         }
         .disputed-icon:hover {
             opacity: 1;
         }
 
+        /* 争议详情气泡 */
+        .dispute-popover {
+            position: fixed;
+            z-index: 9998;
+            width: 280px;
+            background: rgba(30, 40, 55, 0.95);
+            color: #fff;
+            border-radius: 10px;
+            padding: 12px 14px;
+            font-size: 12.5px;
+            line-height: 1.6;
+            box-shadow: 0 6px 24px rgba(0, 0, 0, 0.35);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+        }
+        .dispute-popover-title {
+            font-weight: 700;
+            color: #ffb74d;
+            margin-bottom: 4px;
+            font-size: 13px;
+        }
+        .dispute-popover-body {
+            color: rgba(255, 255, 255, 0.95);
+        }
         .category-tag {
             display: inline-block;
             padding: 3px 10px;
@@ -1352,58 +1486,10 @@
 
         /* 人道/其他 - 灰色 */
         .humanitarian-tag { background: var(--text-tertiary); }
-
-        /* 争议数据提示 */
-        .dispute-banner {
-            background: linear-gradient(135deg, rgba(255, 193, 7, 0.08), rgba(255, 152, 0, 0.05));
-            border: 1px solid rgba(255, 193, 7, 0.3);
-            border-radius: 10px;
-            padding: 12px 16px;
-            margin: 12px auto;
-            max-width: 600px;
-            font-size: 12.5px;
-            color: var(--text);
-            line-height: 1.6;
-        }
-        .dispute-banner .dispute-title {
-            font-weight: 700;
-            color: #b34700;
-            margin-bottom: 4px;
-            font-size: 13.5px;
-        }
-        .dispute-banner .dispute-item {
-            margin: 4px 0;
-            padding-left: 12px;
-            border-left: 2px solid rgba(255, 193, 7, 0.4);
-            color: var(--text);
-        }
-        .dispute-banner .dispute-item strong {
-            color: #8a3d00;
-            font-weight: 700;
-        }
-        .dispute-verified {
-            margin-top: 6px;
-            font-size: 12px;
-            color: var(--text-secondary);
-            text-align: center;
-        }
-        [data-theme="dark"] .dispute-banner {
-            background: linear-gradient(135deg, rgba(255, 193, 7, 0.05), rgba(255, 152, 0, 0.03));
-            border-color: rgba(255, 193, 7, 0.2);
-            color: var(--text-secondary);
-        }
-        [data-theme="dark"] .dispute-banner .dispute-title {
-            color: #ffb74d;
-        }
-        [data-theme="dark"] .dispute-banner .dispute-item {
-            color: var(--text-secondary);
-        }
-        [data-theme="dark"] .dispute-banner .dispute-item strong {
-            color: #ffb74d;
-        }
-        [data-theme="dark"] .dispute-verified {
-            color: var(--text-tertiary);
-        }
+        /* 传闻 - 浅灰 */
+        .rumor-tag { background: #9aa5b1; }
+        /* 制裁 - 棕灰 */
+        .sanction-tag { background: #8b7355; }
 
         .footer {
             text-align: center;
@@ -1411,6 +1497,13 @@
             color: var(--text-muted);
             font-size: 12px;
             font-weight: 400;
+        }
+        .footer-disclaimer {
+            margin: 8px auto 0;
+            max-width: 720px;
+            font-size: 11.5px;
+            line-height: 1.7;
+            opacity: 0.85;
         }
 
         .footer a {
@@ -1433,16 +1526,6 @@
             font-size: 11px;
             color: var(--text-muted);
             margin-top: 4px;
-        }
-
-        /* 时段筛选 */
-        .stage-filter {
-            margin-top: 6px;
-        }
-        .stage-filter .filter-label {
-            font-size: 12px;
-            color: var(--text-tertiary);
-            font-weight: 500;
         }
 
         .scroll-top {
@@ -1946,11 +2029,11 @@
         @media (max-width: 900px) {
             .stats {
                 grid-template-columns: repeat(4, 1fr);
-                max-width: 100%;
                 gap: 8px;
             }
-            .stat-item:first-child .stat-value { font-size: 24px; }
+            .stat-item:first-child .stat-value { font-size: 26px; }
             .stat-item:first-child .stat-label { font-size: 11px; }
+            .stat-value { font-size: 19px; }
         }
 
         /* 时间轴节点脉冲动画 - 当天 */
@@ -2100,31 +2183,15 @@
                 gap: 8px;
                 margin-top: 14px;
             }
-            .stat-item { padding: 10px 6px; min-width: unset; border-radius: 10px; }
+            .stat-item { padding: 10px 6px; min-width: unset; border-radius: 10px; min-height: 84px; }
             .stat-item:first-child { grid-column: span 1; }
-            .stat-item:first-child .stat-value { font-size: 22px; }
+            .stat-item:first-child .stat-value { font-size: 24px; }
             .stat-value { font-size: 18px; }
             .stat-label { font-size: 10px; }
 
-            /* 来源图例：手机端紧凑显示 */
-            .source-legend {
-                gap: 8px;
-                padding: 8px 12px;
-                font-size: 11px;
-            }
-            .source-legend-badge {
-                padding: 2px 6px;
-                font-size: 10px;
-            }
-            .source-legend-item {
-                gap: 4px;
-            }
-
             /* 参战国区域：手机端改为左右布局，中间VS */
             .belligerents {
-                padding: 14px 8px;
-                margin-top: 14px;
-                border-radius: 10px;
+                margin-top: 12px;
                 flex-direction: row !important;
                 gap: 0;
                 align-items: center;
@@ -2132,7 +2199,6 @@
             }
             .belligerent-side {
                 min-width: unset;
-                flex: 1;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
@@ -3123,11 +3189,8 @@
             justify-content: center;
             align-items: center;
             gap: 0;
-            margin-top: 20px;
+            margin-top: 18px;
             flex-wrap: wrap;
-            background: rgba(0,0,0,0.15);
-            border-radius: 16px;
-            padding: 16px 20px;
             position: relative;
             z-index: 1;
         }
@@ -3135,9 +3198,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 10px;
-            flex: 1;
-            min-width: 140px;
+            gap: 8px;
         }
         .belligerent-flags {
             display: flex;
@@ -3174,7 +3235,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            padding: 0 20px;
+            padding: 0 24px;
             gap: 4px;
         }
         .vs-text {
@@ -3191,16 +3252,13 @@
         }
         @media (max-width: 600px) {
             .belligerents {
-                padding: 14px 8px;
-                margin-top: 14px;
-                border-radius: 10px;
+                margin-top: 12px;
                 flex-direction: row;
                 gap: 0;
                 align-items: center;
                 justify-content: center;
             }
             .belligerent-side {
-                flex: 1;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
@@ -3541,18 +3599,18 @@
             background: rgba(30, 58, 95, 0.2);
         }
 
-        /* 数字列右对齐 */
-        .military-table td:nth-child(n+2) {
-            text-align: right;
+        /* 表格内所有单元格统一居中，字号统一 */
+        .military-table th,
+        .military-table td {
+            text-align: center;
+            font-size: 13.5px;
         }
-
-        .military-table th:nth-child(1) {
-            text-align: left;
+        .military-table .military-rank,
+        .military-table .missile-tag {
+            font-size: 12px;
         }
-
-        .military-table td:nth-child(1) {
-            text-align: left;
-            font-weight: 500;
+        .military-table td .death-claim {
+            font-size: 12px;
         }
 
         </style>
@@ -3575,50 +3633,22 @@
     <div class="sticky-btns" id="stickyBtns">
         <button class="ctrl-btn" onclick="toggleTheme()" title="切换主题">🌙</button>
         <button class="ctrl-btn" onclick="toggleFontSize()" title="字体大小">A</button>
-        <button class="ctrl-btn" id="stickyMusicBtn" title="播放音乐">♪</button>
+        <button class="ctrl-btn" id="stickyMusicBtn" title="播放音乐"><span class="music-wave" id="musicWave">
+                    <span></span><span></span><span></span><span></span><span></span>
+                </span></button>
     </div>
     </div>
     <div class="container">
         <div class="header">
             <div class="peace-banner">
-                <!-- 左侧和平鸽：经典飞翔姿态，衔橄榄枝 -->
-                <svg class="peace-dove" viewBox="0 0 100 80" xmlns="http://www.w3.org/2000/svg">
-                    <!-- 身体 -->
-                    <ellipse cx="48" cy="42" rx="18" ry="11" fill="white" opacity="0.95"/>
-                    <!-- 头部 -->
-                    <circle cx="68" cy="36" r="8" fill="white" opacity="0.95"/>
-                    <!-- 眼睛 -->
-                    <circle cx="71" cy="34" r="1.8" fill="#2c3e50"/>
-                    <circle cx="71.7" cy="33.3" r="0.6" fill="white"/>
-                    <!-- 喙 -->
-                    <path d="M75 37 L82 39 L75 40 Z" fill="#f39c12"/>
-                    <!-- 上翅膀（展开飞翔状） -->
-                    <path d="M48 38 C38 28 18 22 8 26 C20 28 30 34 38 40 Z" fill="white" opacity="0.9"/>
-                    <!-- 下翅膀 -->
-                    <path d="M48 44 C38 54 16 58 6 55 C18 52 32 48 40 44 Z" fill="white" opacity="0.8"/>
-                    <!-- 尾羽 -->
-                    <path d="M30 42 C22 40 14 44 10 50 C16 46 24 44 30 44 Z" fill="white" opacity="0.85"/>
-                    <!-- 橄榄枝（衔在嘴里） -->
-                    <path d="M82 39 C88 37 94 38 96 36" stroke="#27ae60" stroke-width="1.8" fill="none" stroke-linecap="round"/>
-                    <ellipse cx="90" cy="35" rx="4" ry="2.5" fill="#2ecc71" transform="rotate(-20 90 35)" opacity="0.9"/>
-                    <ellipse cx="94" cy="34" rx="3.5" ry="2" fill="#27ae60" transform="rotate(-35 94 34)" opacity="0.9"/>
-                    <ellipse cx="87" cy="37" rx="3" ry="1.8" fill="#2ecc71" transform="rotate(-5 87 37)" opacity="0.9"/>
+                <!-- 左侧和平鸽：Font Awesome Dove（CC BY 4.0） -->
+                <svg class="peace-dove" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+                    <path fill="currentColor" d="M160.8 96.5c14 17 31 30.9 49.5 42.2c25.9 15.8 53.7 25.9 77.7 31.6l0-31.5C265.8 108.5 250 71.5 248.6 28c-.4-11.3-7.5-21.5-18.4-24.4c-7.6-2-15.8-.2-21 5.8c-13.3 15.4-32.7 44.6-48.4 87.2zM320 144l0 30.6s0 0 0 0l0 1.3s0 0 0 0l0 32.1c-60.8-5.1-185-43.8-219.3-157.2C97.4 40 87.9 32 76.6 32c-7.9 0-15.3 3.9-18.8 11C46.8 65.9 32 112.1 32 176c0 116.9 80.1 180.5 118.4 202.8L11.8 416.6C6.7 418 2.6 421.8 .9 426.8s-.8 10.6 2.3 14.8C21.7 466.2 77.3 512 160 512c3.6 0 7.2-1.2 10-3.5L245.6 448l74.4 0c88.4 0 160-71.6 160-160l0-160 29.9-44.9c1.3-2 2.1-4.4 2.1-6.8c0-6.8-5.5-12.3-12.3-12.3L400 64c-44.2 0-80 35.8-80 80zm80-16a16 16 0 1 1 0 32 16 16 0 1 1 0-32z"/>
                 </svg>
                 <span class="peace-text">愿世界和平 · Peace for the World</span>
                 <!-- 右侧和平鸽：水平翻转 -->
-                <svg class="peace-dove" viewBox="0 0 100 80" xmlns="http://www.w3.org/2000/svg" style="transform:scaleX(-1)">
-                    <ellipse cx="48" cy="42" rx="18" ry="11" fill="white" opacity="0.95"/>
-                    <circle cx="68" cy="36" r="8" fill="white" opacity="0.95"/>
-                    <circle cx="71" cy="34" r="1.8" fill="#2c3e50"/>
-                    <circle cx="71.7" cy="33.3" r="0.6" fill="white"/>
-                    <path d="M75 37 L82 39 L75 40 Z" fill="#f39c12"/>
-                    <path d="M48 38 C38 28 18 22 8 26 C20 28 30 34 38 40 Z" fill="white" opacity="0.9"/>
-                    <path d="M48 44 C38 54 16 58 6 55 C18 52 32 48 40 44 Z" fill="white" opacity="0.8"/>
-                    <path d="M30 42 C22 40 14 44 10 50 C16 46 24 44 30 44 Z" fill="white" opacity="0.85"/>
-                    <path d="M82 39 C88 37 94 38 96 36" stroke="#27ae60" stroke-width="1.8" fill="none" stroke-linecap="round"/>
-                    <ellipse cx="90" cy="35" rx="4" ry="2.5" fill="#2ecc71" transform="rotate(-20 90 35)" opacity="0.9"/>
-                    <ellipse cx="94" cy="34" rx="3.5" ry="2" fill="#27ae60" transform="rotate(-35 94 34)" opacity="0.9"/>
-                    <ellipse cx="87" cy="37" rx="3" ry="1.8" fill="#2ecc71" transform="rotate(-5 87 37)" opacity="0.9"/>
+                <svg class="peace-dove dove-flip" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+                    <path fill="currentColor" d="M160.8 96.5c14 17 31 30.9 49.5 42.2c25.9 15.8 53.7 25.9 77.7 31.6l0-31.5C265.8 108.5 250 71.5 248.6 28c-.4-11.3-7.5-21.5-18.4-24.4c-7.6-2-15.8-.2-21 5.8c-13.3 15.4-32.7 44.6-48.4 87.2zM320 144l0 30.6s0 0 0 0l0 1.3s0 0 0 0l0 32.1c-60.8-5.1-185-43.8-219.3-157.2C97.4 40 87.9 32 76.6 32c-7.9 0-15.3 3.9-18.8 11C46.8 65.9 32 112.1 32 176c0 116.9 80.1 180.5 118.4 202.8L11.8 416.6C6.7 418 2.6 421.8 .9 426.8s-.8 10.6 2.3 14.8C21.7 466.2 77.3 512 160 512c3.6 0 7.2-1.2 10-3.5L245.6 448l74.4 0c88.4 0 160-71.6 160-160l0-160 29.9-44.9c1.3-2 2.1-4.4 2.1-6.8c0-6.8-5.5-12.3-12.3-12.3L400 64c-44.2 0-80 35.8-80 80zm80-16a16 16 0 1 1 0 32 16 16 0 1 1 0-32z"/>
                 </svg>
             </div>
             <h1>伊朗-以色列冲突事件时间轴</h1>
@@ -3626,12 +3656,6 @@
             <div class="update-info">
                 <span class="update-time" id="update-time">📅 最后更新：加载中...</span>
                 <span class="update-stats" id="update-stats">📊 已收录 ... 条权威事件</span>
-            </div>
-            <div class="source-legend">
-                <span class="source-legend-item"><span class="source-legend-badge official">★ 官方媒体</span> 央视、新华社等</span>
-                <span class="source-legend-item"><span class="source-legend-badge intl">◆ 国际媒体</span> 路透、BBC等</span>
-                <span class="source-legend-item"><span class="source-legend-badge domestic">● 国内媒体</span> 网易、腾讯等</span>
-                <span class="source-legend-item"><span class="source-legend-badge other">○ 其他来源</span> 其他渠道</span>
             </div>
             <div class="header-actions">
                 <button type="button" class="header-btn" onclick="openModal('historyModal')">📜 参战国历史</button>
@@ -3651,37 +3675,34 @@
                     <div class="stat-label">冲突天数</div>
                     <div class="stat-sub" id="warDaysSub" style="font-size:11px;color:var(--text-secondary);margin-top:2px;">加载中...</div>
                 </div>
-                <a class="stat-item stat-link" href="https://www.163.com/dy/article/KOVF8G4F05346RC6.html" target="_blank" title="来源：NPR/UN - 伊朗死亡人数统计">
+                <a class="stat-item stat-link" id="iranDeathsItem" href="https://en.wikipedia.org/wiki/Casualties_of_the_2026_Iran_war" target="_blank" title="来源：Wikipedia《Casualties of the 2026 Iran war》- 伊朗死亡人数统计">
                     <div class="stat-value" id="iranDeaths">--</div>
                     <div class="stat-label">伊朗死亡</div>
                 </a>
-                <a class="stat-item stat-link" href="https://news.un.org/en/story/2026/03/1167318" target="_blank" title="来源：联合国难民署 - 以色列伤亡统计">
+                <a class="stat-item stat-link" id="iranInjuredItem" href="https://en.wikipedia.org/wiki/Casualties_of_the_2026_Iran_war" target="_blank" title="来源：伊朗卫生部/US估计 - 伊朗受伤统计">
+                    <div class="stat-value" id="iranInjured">--</div>
+                    <div class="stat-label">伊朗受伤</div>
+                </a>
+                <a class="stat-item stat-link" id="israelDeathsItem" href="https://en.wikipedia.org/wiki/Casualties_of_the_2026_Iran_war" target="_blank" title="来源：Wikipedia《Casualties of the 2026 Iran war》- 以色列伤亡统计">
                     <div class="stat-value" id="israelDeaths">--</div>
                     <div class="stat-label">以色列死亡</div>
                 </a>
-                <a class="stat-item stat-link" href="https://news.cctv.cn/2026/03/14/ARTIoDR6Ih62qxTie7VgeJdm260314.shtml" target="_blank" title="来源：联合国难民署 - 中东地区流离失所人数">
-                    <div class="stat-value" id="displaced">--</div>
-                    <div class="stat-label">流离失所</div>
-                </a>
                 <div class="stats-expand-toggle" id="statsToggle" onclick="toggleStatsExpand()">更多 ▾</div>
                 <div class="stats-extra" id="statsExtra">
-                    <a class="stat-item stat-link" href="https://en.wikipedia.org/wiki/Casualties_of_the_2026_Iran_war" target="_blank" title="来源：黎巴嫩卫生部/Wikipedia - 黎巴嫩伤亡统计">
+                    <a class="stat-item stat-link" id="lebanonDeathsItem" href="https://en.wikipedia.org/wiki/Casualties_of_the_2026_Iran_war" target="_blank" title="来源：黎巴嫩卫生部/Wikipedia - 黎巴嫩伤亡统计">
                         <div class="stat-value" id="lebanonDeaths">--</div>
                         <div class="stat-label">黎巴嫩死亡</div>
                     </a>
-                    <div class="stat-item">
+                    <a class="stat-item stat-link" id="usDeathsItem" href="https://en.wikipedia.org/wiki/Casualties_of_the_2026_Iran_war" target="_blank" title="来源：Wikipedia《Casualties of the 2026 Iran war》- 美军死亡统计">
                         <div class="stat-value" id="usDeaths">--</div>
                         <div class="stat-label">美军死亡</div>
-                    </div>
-                    <a class="stat-item stat-link" href="https://en.wikipedia.org/wiki/Casualties_of_the_2026_Iran_war" target="_blank" title="来源：伊朗卫生部/US估计 - 伊朗受伤统计">
-                        <div class="stat-value" id="iranInjured">--</div>
-                        <div class="stat-label">伊朗受伤</div>
+                    </a>
+                    <a class="stat-item stat-link" id="displacedItem" href="https://en.wikipedia.org/wiki/Casualties_of_the_2026_Iran_war" target="_blank" title="来源：Wikipedia《Casualties of the 2026 Iran war》/ UNHCR - 流离失所人数">
+                        <div class="stat-value" id="displaced">--</div>
+                        <div class="stat-label">流离失所</div>
                     </a>
                 </div>
             </div>
-
-            <!-- 争议数据提示区域（由 JS 动态填充） -->
-            <div id="disputeBanner" class="dispute-banner" style="display:none;"></div>
 
             <div class="belligerents">
                 <div class="belligerent-side">
@@ -3722,78 +3743,6 @@
             </div>
         </div>
 
-        <!-- 搜索与筛选工具栏 -->
-        <div class="toolbar" id="mainToolbar">
-            <div class="search-box">
-                <input type="text" class="search-input" id="searchInput" placeholder="搜索事件关键词... (按 / 快速聚焦)">
-            </div>
-            <div class="filter-bar">
-                <button class="filter-btn active" data-filter="all">全部</button>
-                <button class="filter-btn" data-filter="major">重要</button>
-                <button class="filter-btn" data-filter="military">军事</button>
-                <button class="filter-btn" data-filter="humanitarian">人道</button>
-                <button class="filter-btn" data-filter="political">政治</button>
-                <button class="filter-btn" data-filter="diplomatic">外交</button>
-                <span class="filter-divider">|</span>
-                <button class="filter-btn" data-filter="iran">伊朗</button>
-                <button class="filter-btn" data-filter="israel">以色列</button>
-                <button class="filter-btn" data-filter="usa">美国</button>
-            </div>
-            <div class="filter-bar stage-filter" id="stageFilter">
-                <span class="filter-label">时段:</span>
-                <button class="filter-btn active" data-stage="all">全部</button>
-                <button class="filter-btn" data-stage="2-3月">2-3月 · 开战</button>
-                <button class="filter-btn" data-stage="4月">4月 · 升级</button>
-                <button class="filter-btn" data-stage="5月">5月 · 停火</button>
-            </div>
-        </div>
-
-        <div class="toc">
-            <div class="toc-header">
-                <h3>快速导航</h3>
-                <button class="toc-toggle" onclick="toggleToc()">收起</button>
-            </div>
-            <div class="toc-links" id="tocLinks"><a href="#d32" class="toc-link">4月1日</a>
-                <a href="#d31" class="toc-link">3月31日</a>
-                <a href="#d30" class="toc-link">3月30日</a>
-
-                <a href="#d29" class="toc-link">3月29日</a>
-                <a href="#d28" class="toc-link">3月28日</a>
-                <a href="#d27" class="toc-link">3月27日</a>
-                <a href="#d26" class="toc-link">3月26日</a>
-                <a href="#d25" class="toc-link">3月25日</a>
-                <a href="#d24" class="toc-link">3月24日</a>
-                <a href="#d23" class="toc-link">3月23日</a>
-                <a href="#d22" class="toc-link">3月22日</a>
-                <a href="#d20" class="toc-link">3月20日</a>
-                <a href="#d19" class="toc-link">3月19日</a>
-                <a href="#d18" class="toc-link">3月18日</a>
-                <a href="#d17" class="toc-link">3月17日</a>
-                <a href="#d16" class="toc-link">3月16日</a>
-                <a href="#d15" class="toc-link">3月15日</a>
-                <a href="#d14" class="toc-link">3月14日</a>
-                <a href="#d13" class="toc-link">3月13日</a>
-                <a href="#d12" class="toc-link">3月12日</a>
-                <a href="#d11" class="toc-link">3月11日</a>
-                <a href="#d10" class="toc-link">3月10日</a>
-                <a href="#d9" class="toc-link">3月9日</a>
-                <a href="#d8" class="toc-link">3月8日</a>
-                <a href="#d7" class="toc-link">3月7日</a>
-                <a href="#d6" class="toc-link">3月6日</a>
-                <a href="#d5" class="toc-link">3月5日</a>
-                <a href="#d4" class="toc-link">3月4日</a>
-                <a href="#d3" class="toc-link">3月3日</a>
-                <a href="#d2" class="toc-link">3月2日</a>
-                <a href="#d1" class="toc-link">3月1日</a>
-                <a href="#d0" class="toc-link">2月28日</a>
-                <a href="#bg" class="toc-link">战前背景</a>
-            </div>
-        </div>
-
-        <div class="no-results" id="noResults">
-            <p>未找到匹配的事件</p>
-        </div>
-
         <!-- 可折叠信息面板（冲突背景、术语、地图等） -->
         <div class="info-panel expanded" id="infoPanel">
             <div class="info-panel-header" onclick="toggleInfoPanel()">
@@ -3807,7 +3756,7 @@
                 </div>
             </div>
             <div class="info-panel-quick">
-                ⚔️ 2026年2月28日以色列发动「狮子崛起行动」· 参战方：伊朗+抵抗轴心 vs 以色列+美国 · 主战场：伊朗、以色列、波斯湾
+                ⚔️ 2026年2月28日美国以色列联合发动「史诗怒火行动」· 参战方：伊朗+抵抗轴心 vs 以色列+美国 · 主战场：伊朗、以色列、波斯湾
             </div>
             <div class="info-panel-content">
                 <!-- 关键术语词云 -->
@@ -3817,7 +3766,7 @@
                         <div class="word-cloud-track">
                             <!-- 第一组：军事行动类 -->
                             <span class="word-tag size-xl" data-term="真实承诺-4">真实承诺-4</span>
-                            <span class="word-tag size-lg" data-term="狮子崛起行动">狮子崛起行动</span>
+                            <span class="word-tag size-lg" data-term="史诗怒火行动">史诗怒火行动</span>
                             <span class="word-tag size-xl" data-term="导弹波次">导弹波次</span>
                             <span class="word-tag size-lg" data-term="弹道导弹">弹道导弹</span>
                             <span class="word-tag size-md" data-term="精确制导">精确制导</span>
@@ -3835,7 +3784,7 @@
                             <span class="word-tag size-lg" data-term="无人机群">无人机群</span>
                             <!-- 复制一份实现无缝滚动 -->
                             <span class="word-tag size-xl" data-term="真实承诺-4">真实承诺-4</span>
-                            <span class="word-tag size-lg" data-term="狮子崛起行动">狮子崛起行动</span>
+                            <span class="word-tag size-lg" data-term="史诗怒火行动">史诗怒火行动</span>
                             <span class="word-tag size-xl" data-term="导弹波次">导弹波次</span>
                             <span class="word-tag size-lg" data-term="弹道导弹">弹道导弹</span>
                             <span class="word-tag size-md" data-term="精确制导">精确制导</span>
@@ -3887,6 +3836,73 @@
             </div>
         </div>
 
+        <!-- 搜索与筛选工具栏 -->
+        <div class="toolbar" id="mainToolbar">
+            <div class="search-box">
+                <input type="text" class="search-input" id="searchInput" placeholder="搜索事件关键词... (按 / 快速聚焦)">
+            </div>
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="all">全部</button>
+                <button class="filter-btn" data-filter="star">★ 星标</button>
+                <button class="filter-btn" data-filter="major">重要</button>
+                <button class="filter-btn" data-filter="military">军事</button>
+                <button class="filter-btn" data-filter="humanitarian">人道</button>
+                <button class="filter-btn" data-filter="political">政治</button>
+                <button class="filter-btn" data-filter="diplomatic">外交</button>
+                <span class="filter-divider">|</span>
+                <button class="filter-btn" data-filter="iran">伊朗</button>
+                <button class="filter-btn" data-filter="israel">以色列</button>
+                <button class="filter-btn" data-filter="usa">美国</button>
+            </div>
+        </div>
+
+        <div class="toc">
+            <div class="toc-header">
+                <h3>快速导航</h3>
+                <button class="toc-toggle" onclick="toggleToc()">收起</button>
+            </div>
+            <div class="toc-links" id="tocLinks"><a href="#d32" class="toc-link">4月1日</a>
+                <a href="#d31" class="toc-link">3月31日</a>
+                <a href="#d30" class="toc-link">3月30日</a>
+
+                <a href="#d29" class="toc-link">3月29日</a>
+                <a href="#d28" class="toc-link">3月28日</a>
+                <a href="#d27" class="toc-link">3月27日</a>
+                <a href="#d26" class="toc-link">3月26日</a>
+                <a href="#d25" class="toc-link">3月25日</a>
+                <a href="#d24" class="toc-link">3月24日</a>
+                <a href="#d23" class="toc-link">3月23日</a>
+                <a href="#d22" class="toc-link">3月22日</a>
+                <a href="#d20" class="toc-link">3月20日</a>
+                <a href="#d19" class="toc-link">3月19日</a>
+                <a href="#d18" class="toc-link">3月18日</a>
+                <a href="#d17" class="toc-link">3月17日</a>
+                <a href="#d16" class="toc-link">3月16日</a>
+                <a href="#d15" class="toc-link">3月15日</a>
+                <a href="#d14" class="toc-link">3月14日</a>
+                <a href="#d13" class="toc-link">3月13日</a>
+                <a href="#d12" class="toc-link">3月12日</a>
+                <a href="#d11" class="toc-link">3月11日</a>
+                <a href="#d10" class="toc-link">3月10日</a>
+                <a href="#d9" class="toc-link">3月9日</a>
+                <a href="#d8" class="toc-link">3月8日</a>
+                <a href="#d7" class="toc-link">3月7日</a>
+                <a href="#d6" class="toc-link">3月6日</a>
+                <a href="#d5" class="toc-link">3月5日</a>
+                <a href="#d4" class="toc-link">3月4日</a>
+                <a href="#d3" class="toc-link">3月3日</a>
+                <a href="#d2" class="toc-link">3月2日</a>
+                <a href="#d1" class="toc-link">3月1日</a>
+                <a href="#d0" class="toc-link">2月28日</a>
+                <a href="#bg" class="toc-link">战前背景</a>
+            </div>
+        </div>
+
+        <div class="no-results" id="noResults">
+            <p>未找到匹配的事件</p>
+        </div>
+
+
     <!-- 收录说明弹窗 -->
     <div class="modal-overlay" id="aboutModal" onclick="closeModal(event, 'aboutModal')">
         <div class="modal-content" onclick="event.stopPropagation()">
@@ -3903,7 +3919,7 @@
                     <li><strong>国际通讯社：</strong>路透社、美联社、法新社</li>
                     <li><strong>国际权威机构：</strong>联合国新闻、UNICEF、联合国难民署（含其官方账号）</li>
                     <li><strong>国际主流媒体：</strong>BBC、半岛电视台、NPR、卫报、纽约时报、华盛顿邮报、PBS、合众国际社</li>
-                    <li><strong>军事研究机构：</strong>战争研究所（ISW）、关键威胁项目（CTP）</li>
+                    <li><strong>军事研究机构：</strong>战争研究所（ISW）、关键威胁项目（CTP）、IISS国际战略研究所、SIPRI斯德哥尔摩国际和平研究所、CSIS战略与国际研究中心、卡内基国际和平基金会</li>
                     <li><strong>百科参考：</strong>Wikipedia英文（仅用于事实核查，不作为事件来源）</li>
                 </ul>
 
@@ -3934,6 +3950,14 @@
                     <li>社交媒体：微博、知乎、无官方认证账号</li>
                     <li>视频平台：YouTube视频</li>
                     <li>无来源标注的信息、匿名传言</li>
+                </ul>
+
+                <p style="margin: 12px 0 6px; font-weight: 600; color: #cf1322;">✕ 平台账号判定规则（重要）</p>
+                <ul style="margin: 6px 0; padding-left: 20px; line-height: 1.8;">
+                    <li><strong>平台官方账号 ✅：</strong>知乎/头条/微博等平台上的<strong>官方媒体认证账号</strong>（如央视新闻、新华社、人民日报等机构的蓝V认证账号），其发布内容视为该媒体级别信源</li>
+                    <li><strong>第三方账号 ❌：</strong>平台上的个人自媒体、营销号、非认证账号（即使内容引用权威数据），一律不得作为信源</li>
+                    <li><strong>无法核实身份 ❌：</strong>反爬导致无法打开页面确认账号认证状态时，一律不得采用</li>
+                    <li><strong>首选官网：</strong>同一内容能在媒体官网/白名单域名找到的，优先使用官网链接，平台链接仅在官网确实无此内容时使用</li>
                 </ul>
             </div>
 
@@ -3988,6 +4012,7 @@
 
     <div class="footer">
             <p>伊朗-以色列冲突时间线 · 数据来源于各事件标注的权威媒体</p>
+            <p class="footer-disclaimer">本站内容由 AI 自动化收集整理，可能存在疏漏或错误，仅供信息参考，不构成任何立场判断；请以原始来源链接为准。</p>
             <p class="footer-links">
                 <a href="javascript:void(0)" onclick="document.getElementById('methodologyModal').style.display='flex'">数据来源与方法论</a>
                 <span class="footer-divider">·</span>
@@ -4062,7 +4087,7 @@
                 <h3>🇮🇷 伊朗</h3>
                 <div class="country-card">
                     <h4>波斯文明古国</h4>
-                    <p>伊朗古称波斯，是世界文明古国之一，拥有5000年文明史。1979年伊斯兰革命后建立伊朗伊斯兰共和国，定都德黑兰。人口约8700万，以什叶派伊斯兰教为国教。</p>
+                    <p>伊朗古称波斯，是世界文明古国之一，拥有5000年文明史。1979年伊斯兰革命后建立伊朗伊斯兰共和国，定都德黑兰。人口约9200万（世界银行2025年口径），以什叶派伊斯兰教为国教。本次战争中，伊朗最高领袖哈梅内伊于开战首日（2026年2月28日）遇袭身亡，3月8日选出新任最高领袖穆杰塔巴·哈梅内伊。</p>
                     <div class="wiki-links">
                         <a href="https://zh.wikipedia.org/wiki/%E4%BC%8A%E6%9C%97" target="_blank">维基百科·伊朗</a>
                         <a href="https://baike.baidu.com/item/%E4%BC%8A%E6%9C%97%E4%BC%8A%E6%96%AF%E5%85%B0%E5%85%B1%E5%92%8C%E5%9B%BD" target="_blank">百度百科·伊朗</a>
@@ -4078,7 +4103,7 @@
                 <h3>🇮🇱 以色列</h3>
                 <div class="country-card">
                     <h4>犹太国家</h4>
-                    <p>以色列1948年建国，是世界上唯一以犹太人为主体的国家。特拉维夫-雅法为实际首都（耶路撒冷为法定首都），人口约900万。以色列是中东地区唯一的发达国家。</p>
+                    <p>以色列1948年建国，是世界上唯一以犹太人为主体的国家。特拉维夫-雅法为实际首都（耶路撒冷为法定首都），人口约990万（世界银行2025年口径）。以色列是中东地区唯一的发达国家。本次战争中，以色列与美国联合发动对伊朗的全面军事打击，并同时在黎巴嫩南部与真主党持续交火。</p>
                     <div class="wiki-links">
                         <a href="https://zh.wikipedia.org/wiki/%E4%BB%A5%E8%89%B2%E5%88%97" target="_blank">维基百科·以色列</a>
                         <a href="https://baike.baidu.com/item/%E4%BB%A5%E8%89%B2%E5%88%97" target="_blank">百度百科·以色列</a>
@@ -4166,7 +4191,7 @@
 
             <div class="modal-section">
                 <h3>二、核武器争议</h3>
-                <p>伊朗核计划是以色列最大安全关切。以色列多次表示，伊朗一旦拥有核武器将对以色列生存构成致命威胁。2025年6月以色列发动"狮子崛起行动"，首要目标就是伊朗核设施。</p>
+                <p>伊朗核计划是以色列最大安全关切。以色列多次表示，伊朗一旦拥有核武器将对以色列生存构成致命威胁。2025年6月以色列发动「崛起的雄狮」行动，首要目标就是伊朗核设施；2026年3月27日，以色列首次直接打击伊朗核设施（阿拉克重水反应堆、阿尔达坎黄饼厂、布什尔核电站）。</p>
                 <p><strong>来源：</strong>《2025年以伊冲突》, 百度百科</p>
                 <a href="https://baike.baidu.com/item/2025%E5%B9%B4%E4%BB%A5%E4%BC%8A%E5%86%B2%E7%AA%81/65802378" target="_blank" class="modal-source">查看原文 →</a>
             </div>
@@ -4186,20 +4211,21 @@
             </div>
 
             <div class="modal-section">
-                <h3>五、2026年2月冲突升级</h3>
-                <p>2026年2月28日，美国与以色列联合发动代号为「史诗烈怒」(Operation Epic Fury) 和「咆哮的雄狮」(Operation Roaring Lion) 的大规模军事打击，在12小时内发动近900次空袭， targeting 伊朗导弹、防空系统、军事基础设施及领导层。伊朗最高领袖哈梅内伊在首日空袭中身亡。伊朗随后发动大规模导弹反击，冲突进入全面战争阶段。</p>
+                <h3>五、2026年2月28日：战争爆发</h3>
+                <p>2026年2月28日，美国与以色列联合发动代号为「史诗怒火」(Operation Epic Fury) 的大规模军事打击，在12小时内发动近900次空袭，打击伊朗导弹、防空系统、军事基础设施及领导层。伊朗最高领袖哈梅内伊在首日空袭中身亡，伊朗随后发动大规模导弹反击，冲突进入全面战争阶段。3月8日，伊朗最高领袖委员会选出穆杰塔巴·哈梅内伊为新任最高领袖。</p>
                 <p><strong>来源：</strong>Britannica, Reuters, NPR, Al Jazeera</p>
                 <a href="https://www.britannica.com/event/2026-Iran-war" target="_blank" class="modal-source">Britannica·2026 Iran War →</a>
             </div>
 
             <div class="modal-section">
                 <h3>六、各方目标</h3>
-                <p><strong>伊朗：</strong>维护国家安全，阻止美国和以色列的军事打击，获取战争赔偿</p>
+                <p><strong>伊朗：</strong>维护国家安全，阻止美国和以色列的军事打击，获取战争赔偿，坚持霍尔木兹海峡管理权</p>
                 <p><strong>以色列：</strong>彻底摧毁伊朗核能力，解除伊朗代理人武装</p>
                 <p><strong>美国：</strong>遏制伊朗地区影响力，保护以色列安全，维护波斯湾能源航道</p>
-                <p><strong>来源：</strong>《中东冲突主要参与者分析》, 雪球财经, 2025年6月18日</p>
-                <a href="https://xueqiu.com/4528807922/339264655" target="_blank" class="modal-source">查看原文 →</a>
+                <p><strong>来源：</strong>Britannica《2026 Iran War》/ 联合国新闻 / 时间线事件汇总</p>
+                <a href="https://www.britannica.com/event/2026-Iran-war" target="_blank" class="modal-source">Britannica·2026 Iran War →</a>
             </div>
+            <p class="modal-source" style="margin-top:4px;text-align:center;">战争进程与最新动态详见下方时间轴 ↓</p>
         </div>
     </div>
 
@@ -4242,13 +4268,62 @@
                         </tr>
                     </tbody>
                 </table>
-                <p class="modal-source">数据来源：Global Firepower 2025年军力指数报告</p>
+                <p class="modal-source">数据来源：Global Firepower 2025年军力指数（<strong>参考级排名</strong>，综合指数仅作横向参考；军力详情见下方 IISS/CSIS 权威数据）</p>
                 <a href="https://www.globalfirepower.com/countries-listing.php" target="_blank" class="modal-source">查看原报告 →</a>
+            </div>
+
+            <!-- 权威分项数据 -->
+            <div class="modal-section">
+                <h3>二、权威机构分项数据（IISS / SIPRI / CSIS）</h3>
+                <table class="military-table">
+                    <thead>
+                        <tr>
+                            <th>指标</th>
+                            <th>🇮🇷 伊朗</th>
+                            <th>🇮🇱 以色列</th>
+                            <th>🇺🇸 美国</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>现役兵力（IISS《军力平衡2025》）</td>
+                            <td>约 61 万人（含革命卫队19万）</td>
+                            <td>约 17 万人</td>
+                            <td>约 132 万人（全球）</td>
+                        </tr>
+                        <tr>
+                            <td>国防预算（SIPRI 2024）</td>
+                            <td>79 亿美元</td>
+                            <td>约 275 亿美元</td>
+                            <td>约 8,740 亿美元（全球）</td>
+                        </tr>
+                        <tr>
+                            <td>弹道导弹（CSIS）</td>
+                            <td>中东规模最大导弹库，数千枚（射程至2500km）</td>
+                            <td>杰里科系列（射程4800km+）</td>
+                            <td>陆基/海基洲际导弹</td>
+                        </tr>
+                        <tr>
+                            <td>作战飞机（IISS）</td>
+                            <td>约 250 架（老旧为主）</td>
+                            <td>约 340 架（含 F-35I）</td>
+                            <td>约 13,000 架（全球）</td>
+                        </tr>
+                        <tr>
+                            <td>核能力</td>
+                            <td>无核武器（核计划为争议焦点）</td>
+                            <td>疑拥核（官方不承认）</td>
+                            <td>核大国</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="modal-source">来源：IISS《军力平衡2025》/ SIPRI / CSIS，见新华网《外媒分析伊朗军事实力》2026年2月12日</p>
+                <a href="http://www.news.cn/milpro/20260212/60c429f6777543fa8baf1fb43d282832/c.html" target="_blank" class="modal-source">新华网·外媒分析伊朗军事实力 →</a>
             </div>
 
             <!-- 兵力对比 -->
             <div class="modal-section">
-                <h3>二、兵力规模</h3>
+                <h3>三、兵力规模</h3>
                 <table class="military-table">
                     <thead>
                         <tr>
@@ -4291,7 +4366,7 @@
 
             <!-- 空军对比 -->
             <div class="modal-section">
-                <h3>三、空中力量</h3>
+                <h3>四、空中力量</h3>
                 <table class="military-table">
                     <thead>
                         <tr>
@@ -4323,13 +4398,13 @@
                         </tr>
                     </tbody>
                 </table>
-                <p class="modal-source">来源：搜狐军事《以伊战争正酣，以色列与伊朗的军力对比分析》，2025年6月16日</p>
-                <a href="https://www.sohu.com/a/904969651_100051387" target="_blank" class="modal-source">查看原文 →</a>
+                <p class="modal-source">来源：新华网《外媒分析伊朗军事实力》（引IISS《军力平衡2025》），2026年2月12日</p>
+                <a href="http://www.news.cn/milpro/20260212/60c429f6777543fa8baf1fb43d282832/c.html" target="_blank" class="modal-source">新华网·外媒分析伊朗军事实力 →</a>
             </div>
 
             <!-- 陆军/导弹对比 -->
             <div class="modal-section">
-                <h3>四、陆军与导弹力量</h3>
+                <h3>五、陆军与导弹力量</h3>
                 <table class="military-table">
                     <thead>
                         <tr>
@@ -4364,13 +4439,14 @@
                         </tr>
                     </tbody>
                 </table>
-                <p class="modal-source">来源：今日头条《伊朗军事力量详细数据》，2025年6月13日</p>
-                <a href="https://www.toutiao.com/article/7515286322056151586/" target="_blank" class="modal-source">查看原文 →</a>
+                <p class="modal-source">来源：新华网《外媒分析伊朗军事实力》/ Reuters《What are Iran's ballistic missile capabilities?》，2026年2月</p>
+                <a href="http://www.news.cn/milpro/20260212/60c429f6777543fa8baf1fb43d282832/c.html" target="_blank" class="modal-source">新华网·外媒分析伊朗军事实力 →</a>
+                <a href="https://www.reuters.com/business/aerospace-defense/what-are-irans-ballistic-missile-capabilities-2026-02-26" target="_blank" class="modal-source">Reuters·伊朗弹道导弹能力 →</a>
             </div>
 
             <!-- 防空系统 -->
             <div class="modal-section">
-                <h3>五、防空体系</h3>
+                <h3>六、防空体系</h3>
                 <table class="military-table">
                     <thead>
                         <tr>
@@ -4402,13 +4478,14 @@
                         </tr>
                     </tbody>
                 </table>
-                <p class="modal-source">来源：知乎《奇趣数据看世界（180）：以伊军事实力对比》，2025年6月24日</p>
-                <a href="https://zhuanlan.zhihu.com/p/1920976891407468463" target="_blank" class="modal-source">查看原文 →</a>
+                <p class="modal-source">来源：新华网《以色列防空系统暴露薄弱环节》（2026年3月26日）/ BBC《以色列导弹防御系统详解》</p>
+                <a href="http://www.xinhuanet.com/milpro/20260326/f40996ccbed54ad9a1ad2f903aabfa29/c.html" target="_blank" class="modal-source">新华网·以色列防空系统实战分析 →</a>
+                <a href="https://www.bbc.com/zhongwen/trad/world-69387422" target="_blank" class="modal-source">BBC·以色列导弹防御系统详解 →</a>
             </div>
 
             <!-- 海军 -->
             <div class="modal-section">
-                <h3>六、海军力量</h3>
+                <h3>七、海军力量</h3>
                 <table class="military-table">
                     <thead>
                         <tr>
@@ -4451,21 +4528,21 @@
 
             <!-- 综合评估 -->
             <div class="modal-section">
-                <h3>七、综合评估</h3>
+                <h3>八、综合评估</h3>
                 <div class="military-summary">
                     <strong>质量 vs 数量：</strong>伊朗以人力和导弹数量见长，以色列以技术代差和信息化制胜，美国综合碾压一切。<br>
                     <strong>不对称优势：</strong>伊朗的"抵抗轴心"体系（真主党+胡塞+伊拉克民兵）形成多点牵制，是其核心战略资产。<br>
                     <strong>核威慑：</strong>以色列拥有公认的核武器（约 90 枚），伊朗核计划是此次冲突根源；美国核保护伞全程覆盖以色列。<br>
                     <strong>制空权：</strong>以色列 F-35I + 美军 B-2、F-22 在制空权上完全压制伊朗，是此次冲突伊朗承受重大损失的根本原因。
                 </div>
-                <p class="modal-source" style="margin-top:10px">综合来源：Global Firepower 2025 / IISS《军力平衡》2025 / 新华网·军事</p>
-                <a href="https://zhuanlan.zhihu.com/p/2012290191981835797" target="_blank" class="modal-source">知乎·三国军力深度对比 →</a>
+                <p class="modal-source" style="margin-top:10px">综合来源：Global Firepower 2025（参考级）/ IISS《军力平衡》2025 / 新华网·军事 / 卡内基国际和平基金会</p>
+                <a href="https://carnegieendowment.org/middle-east/diwan/2026/04/a-military-balance-sheet-in-war-with-iran" target="_blank" class="modal-source">Carnegie·美以伊战争军事平衡评估（2026年4月） →</a>
             </div>
 
             <!-- 战争损耗 -->
             <div class="modal-section">
-                <h3>八、战争损耗（截至2026年4月8日停火）</h3>
-                <p style="font-size:12px;color:var(--text-secondary);margin-bottom:10px;">数据来源：UN, UNICEF, NPR, Statista, US DoD, Al Jazeera</p>
+                <h3>九、战争损耗（截至2026年8月3日）</h3>
+                <p style="font-size:12px;color:var(--text-secondary);margin-bottom:10px;">数据来源：UN, UNICEF, NPR, Statista, US DoD, Al Jazeera, Wikipedia（2026-08-02口径）</p>
                 <table class="military-table">
                     <thead>
                         <tr>
@@ -4478,9 +4555,9 @@
                     <tbody>
                         <tr>
                             <td>死亡人数</td>
-                            <td>约 1,300+</td>
-                            <td>约 25</td>
-                            <td>13（军人）</td>
+                            <td>官方 3,468+ / HRANA 3,636+<br><span class="death-claim">美以声称 6,000+（含军人）</span></td>
+                            <td>约 70（含军事行动）</td>
+                            <td>20（军人）</td>
                         </tr>
                         <tr>
                             <td>儿童死亡</td>
@@ -4496,21 +4573,21 @@
                         </tr>
                         <tr>
                             <td>核设施损毁</td>
-                            <td>纳坦兹、福尔多、布什尔等地遭攻击，地下设施受损程度不明</td>
+                            <td>纳坦兹、福尔多、布什尔、阿拉克等地遭攻击，地下设施受损程度不明</td>
                             <td>-</td>
                             <td>-</td>
                         </tr>
                         <tr>
                             <td>导弹攻击</td>
-                            <td>对以色列发动约 186 波次攻击</td>
+                            <td>对以色列及美军基地发动逾200波次攻击，7月曾单日连袭海湾多国基地</td>
                             <td>拦截弹药大量消耗</td>
-                            <td>参与约 1,600 架次空袭</td>
+                            <td>参与约 1,600 架次空袭，7月连续空袭伊朗数十晚</td>
                         </tr>
                         <tr>
                             <td>基础设施</td>
-                            <td>德黑兰、伊斯法罕等地遭重创，82,000+建筑受损</td>
+                            <td>德黑兰、伊斯法罕、阿巴斯港等地遭重创，82,000+建筑受损</td>
                             <td>特拉维夫、海法部分建筑损毁</td>
-                            <td>-</td>
+                            <td>7月美军基地（科威特、巴林、约旦、沙特）多次遭袭</td>
                         </tr>
                     </tbody>
                 </table>
@@ -4981,9 +5058,9 @@ var glossaryData = {
         title: '真实承诺-4',
         desc: '伊朗对以色列和美国发动导弹打击行动的代号，是伊朗「真实承诺」系列的第四次大规模行动，标志着伊朗直接参与对以攻击。'
     },
-    '狮子崛起行动': {
-        title: '狮子崛起行动',
-        desc: '以色列于2026年2月28日发动的军事行动代号，此次行动直接攻击伊朗本土，引发全面冲突。'
+    '史诗怒火行动': {
+        title: '史诗怒火行动',
+        desc: '美国与以色列于2026年2月28日联合发动的军事行动代号（Operation Epic Fury），当日对伊朗发动近900次空袭，直接引发全面冲突。'
     },
     '导弹波次': {
         title: '导弹波次',
@@ -5108,33 +5185,12 @@ function initWordCloudEvents() {
 
 // 筛选状态变量
 var currentFilter = 'all';
-var currentStage = 'all';
 
 function filterByTag(tag, btn) {
     currentFilter = tag;
-    // 只移除分类筛选按钮的 active，不影响时段按钮
     document.querySelectorAll('.filter-btn[data-filter]').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
     filterEvents();
-}
-
-function filterByStage(stage, btn) {
-    currentStage = stage;
-    document.querySelectorAll('.stage-filter .filter-btn').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    filterEvents();
-}
-
-// 时段到 date_id 范围的映射（d0 = 2026-02-28）
-function isDateInStage(dateId, stage) {
-    if (stage === 'all') return true;
-    var match = dateId.match(/^d(\d+)$/);
-    if (!match) return false;
-    var dayNum = parseInt(match[1], 10);
-    if (stage === '2-3月') return dayNum >= 0 && dayNum <= 31;   // Feb 28 - Mar 31
-    if (stage === '4月') return dayNum >= 32 && dayNum <= 61;     // Apr 1 - Apr 30
-    if (stage === '5月') return dayNum >= 62;                     // May 1+
-    return true;
 }
 
 function filterEvents() {
@@ -5146,6 +5202,9 @@ function filterEvents() {
         var categoryMatch = currentFilter === 'all';
 
         if (!categoryMatch) {
+            if (currentFilter === 'star') {
+                categoryMatch = event.classList.contains('star-event');
+            } else {
             // 检查事件是否有对应的标签
             var tags = event.querySelectorAll('.category-tag');
             tags.forEach(function(tag) {
@@ -5167,18 +5226,10 @@ function filterEvents() {
             if (currentFilter === 'major' && event.classList.contains('major')) {
                 categoryMatch = true;
             }
-        }
-
-        // 时段筛选：检查所属 date-group 的 id 是否在当前时段内
-        var stageMatch = currentStage === 'all';
-        if (!stageMatch) {
-            var parentGroup = event.closest('.date-group');
-            if (parentGroup && parentGroup.id) {
-                stageMatch = isDateInStage(parentGroup.id, currentStage);
             }
         }
 
-        var shouldShow = categoryMatch && stageMatch;
+        var shouldShow = categoryMatch;
         if (shouldShow) {
             event.classList.remove('hidden');
             hasVisibleEvent = true;
@@ -5215,27 +5266,18 @@ function updateFilterResult() {
 
     var filterNames = {
         'all': '全部',
+        'star': '星标事件',
         'major': '重要事件',
         'military': '军事',
         'humanitarian': '人道主义',
         'political': '政治',
         'diplomatic': '外交'
     };
-    var stageNames = {
-        'all': '',
-        '2-3月': '2-3月',
-        '4月': '4月',
-        '5月': '5月'
-    };
 
     var activeFilter = currentFilter !== 'all' ? filterNames[currentFilter] : null;
-    var activeStage = currentStage !== 'all' ? stageNames[currentStage] : null;
 
-    if (activeFilter || activeStage) {
-        var label = [];
-        if (activeStage) label.push(activeStage);
-        if (activeFilter) label.push(activeFilter);
-        resultDiv.innerHTML = '当前显示：<strong>' + label.join(' · ') + '</strong> 共 ' + visibleEvents + ' 条事件';
+    if (activeFilter) {
+        resultDiv.innerHTML = '当前显示：<strong>' + activeFilter + '</strong> 共 ' + visibleEvents + ' 条事件';
         resultDiv.classList.add('show');
     } else {
         resultDiv.classList.remove('show');
@@ -5272,7 +5314,7 @@ function setSort(order, btn) {
                 bgMusic.play().then(function() {
                     hasPlayedOnce = true;
                     isPlaying = true;
-                    var player = document.getElementById('musicPlayer');
+                    var player = document.getElementById('stickyMusicBtn');
                     if (player) player.classList.add('playing');
                     console.log('音乐自动播放成功');
                 }).catch(function(e) {
@@ -5300,14 +5342,6 @@ function setSort(order, btn) {
                 });
             });
 
-            // 绑定时段筛选按钮事件
-            document.querySelectorAll('.stage-filter .filter-btn').forEach(function(btn) {
-                btn.addEventListener('click', function() {
-                    var stage = this.getAttribute('data-stage');
-                    filterByStage(stage, this);
-                });
-            });
-
             // 不再自动播放，改为用户滚动时触发
 
             // 获取音乐播放器元素
@@ -5329,14 +5363,14 @@ function setSort(order, btn) {
                         bgMusic.pause();
                         isPlaying = false;
                         isPausedByUser = true;
-                        musicPlayer.textContent = '♪';
+                        musicPlayer.classList.remove('playing');
                         console.log('音乐已暂停');
                     } else {
                         bgMusic.play().then(function() {
                             isPlaying = true;
                             isPausedByUser = false;
                             hasPlayedOnce = true;
-                            musicPlayer.textContent = '♫';
+                            musicPlayer.classList.add('playing');
                             console.log('音乐开始播放');
                         }).catch(function(e) {
                             console.log('播放失败:', e);
@@ -5349,7 +5383,7 @@ function setSort(order, btn) {
             if (bgMusic) {
                 bgMusic.addEventListener('ended', function() {
                     isPlaying = false;
-                    if (musicPlayer) musicPlayer.textContent = '♪';
+                    if (musicPlayer) musicPlayer.classList.remove('playing');
                 });
             }
 
@@ -5507,6 +5541,35 @@ function setSort(order, btn) {
         }
 
         // Toast 提示功能
+        function showDisputeTip(iconEl, text) {
+            // 关闭已有的气泡
+            var existing = document.querySelector('.dispute-popover');
+            if (existing) existing.remove();
+
+            var pop = document.createElement('div');
+            pop.className = 'dispute-popover';
+            pop.innerHTML = '<div class="dispute-popover-title">数据存在争议</div><div class="dispute-popover-body">' + text + '</div>';
+            document.body.appendChild(pop);
+
+            // 定位在图标旁
+            var rect = iconEl.getBoundingClientRect();
+            pop.style.left = Math.max(8, Math.min(rect.left + rect.width / 2 - 140, window.innerWidth - 288)) + 'px';
+            pop.style.top = (rect.bottom + 8) + 'px';
+
+            // 点击外部关闭
+            var closeHandler = function(e) {
+                if (!pop.contains(e.target) && e.target !== iconEl) {
+                    pop.remove();
+                    document.removeEventListener('click', closeHandler);
+                    document.removeEventListener('scroll', closeHandler, true);
+                }
+            };
+            setTimeout(function() {
+                document.addEventListener('click', closeHandler);
+                document.addEventListener('scroll', closeHandler, true);
+            }, 0);
+        }
+
         function showToast(message) {
             var toast = document.createElement('div');
             toast.textContent = message;
