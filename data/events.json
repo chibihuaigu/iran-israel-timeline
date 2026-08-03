@@ -2,7 +2,7 @@
  "version": "1.0",
  "extracted_at": "2026-08-02 21:43:08",
  "total_days": 155,
- "total_events": 500,
+ "total_events": 499,
  "events": [
   {
    "date_id": "d155",
@@ -1561,11 +1561,6 @@
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-11-2026/",
        "name": "ISW战争研究所",
        "priority": 1
-      },
-      {
-       "url": "https://www.reuters.com/world/middle-east/",
-       "name": "路透社",
-       "priority": 1
       }
      ]
     },
@@ -1630,11 +1625,6 @@
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-10-2026/",
        "name": "ISW战争研究所",
        "priority": 1
-      },
-      {
-       "url": "https://www.reuters.com/world/middle-east/",
-       "name": "路透社",
-       "priority": 1
       }
      ]
     },
@@ -1650,11 +1640,6 @@
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-10-2026/",
        "name": "ISW战争研究所",
-       "priority": 1
-      },
-      {
-       "url": "https://www.reuters.com/world/middle-east/",
-       "name": "路透社",
        "priority": 1
       }
      ]
@@ -1678,11 +1663,6 @@
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-9-2026/",
        "name": "ISW战争研究所",
        "priority": 1
-      },
-      {
-       "url": "https://www.reuters.com/world/middle-east/",
-       "name": "路透社",
-       "priority": 1
       }
      ]
     },
@@ -1699,11 +1679,6 @@
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-9-2026/",
        "name": "ISW战争研究所",
        "priority": 1
-      },
-      {
-       "url": "https://www.reuters.com/world/middle-east/",
-       "name": "路透社",
-       "priority": 1
       }
      ]
     },
@@ -1719,11 +1694,6 @@
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-9-2026/",
        "name": "ISW战争研究所",
-       "priority": 1
-      },
-      {
-       "url": "https://www.reuters.com/world/middle-east/",
-       "name": "路透社",
        "priority": 1
       }
      ]
@@ -1768,11 +1738,6 @@
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-8-2026/",
        "name": "ISW战争研究所",
        "priority": 1
-      },
-      {
-       "url": "https://www.reuters.com/world/middle-east/",
-       "name": "路透社",
-       "priority": 1
       }
      ]
     },
@@ -1788,11 +1753,6 @@
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-8-2026/",
        "name": "ISW战争研究所",
-       "priority": 1
-      },
-      {
-       "url": "https://www.reuters.com/world/middle-east/",
-       "name": "路透社",
        "priority": 1
       }
      ]
@@ -1885,11 +1845,6 @@
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-6-2026/",
        "name": "ISW战争研究所",
        "priority": 1
-      },
-      {
-       "url": "https://www.reuters.com/world/middle-east/",
-       "name": "路透社",
-       "priority": 1
       }
      ]
     },
@@ -1932,11 +1887,6 @@
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-5-2026/",
        "name": "ISW战争研究所",
-       "priority": 1
-      },
-      {
-       "url": "https://www.reuters.com/world/middle-east/",
-       "name": "路透社",
        "priority": 1
       }
      ]
@@ -3980,16 +3930,11 @@
      "title": "特朗普威胁：伊朗HEU必须\"立即移交\"美国",
      "content": "5月26日特朗普在Truth Social发帖称，伊朗的高浓缩铀(HEU)必须\"立即移交\"给美国，否则在伊朗境内或\"可接受地点\"被摧毁并接受核查。ISW报告指出，伊朗和调解方、美国官员均表示，美方在伊朗作出严肃核承诺前不会向伊朗提供经济救济。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-may-26-2026/",
        "name": "ISW战争研究所",
-       "priority": 1
-      },
-      {
-       "url": "https://www.reuters.com/world/trump-truth-social-iran-heu-2026-05-26/",
-       "name": "路透社",
        "priority": 1
       }
      ]
@@ -4030,7 +3975,7 @@
        "priority": 1
       },
       {
-       "url": "https://www.reuters.com/world/iran-frozen-assets-demand-2026-05-26/",
+       "url": "https://www.reuters.com/world/middle-east/rubio-says-iran-deal-could-take-days-us-launches-fresh-strikes-2026-05-26/",
        "name": "路透社",
        "priority": 1
       }
@@ -4078,7 +4023,7 @@
        "priority": 1
       },
       {
-       "url": "https://www.reuters.com/world/iran-qatar-talks-2026-05-25/",
+       "url": "https://www.reuters.com/world/middle-east/rubio-says-us-will-find-another-way-if-iran-talks-fail-2026-05-25/",
        "name": "路透社",
        "priority": 1
       }
@@ -4139,13 +4084,8 @@
      "title": "伊朗最高国安委将审议备忘录草案",
      "content": "5月24日路透社援引伊朗高级官员报道，伊朗最高国家安全委员会(SNSC)将召开会议审议或否决当前草案，若SNSC批准将送交最高领袖Mojtaba最终批准。一名伊朗高级消息人士告诉CNN，最近的调解谈判已取得\"重大进展\"，可能成为该地区\"新时代\"的转折点。IRGC旗下的Tasnim通讯社报道，一个或两个条款的争议仍未解决。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
-      {
-       "url": "https://www.reuters.com/world/iran-snst-review-mou-2026-05-24/",
-       "name": "路透社",
-       "priority": 1
-      },
       {
        "url": "https://www.cnn.com/2026/05/24/politics/iran-us-talks-progress/index.html",
        "name": "CNN",
@@ -4160,17 +4100,12 @@
      "title": "伊朗：33艘船24小时内经\"安全协调\"通过霍尔木兹",
      "content": "5月24日IRGC海军报告，过去24小时内有33艘船只在IRGC海军协调下通过霍尔木兹海峡。Press TV报道，IRGC表示武装力量已做好准备，对任何新的侵略行动予以\"毁灭性、地狱般\"的回应。IRGC高级顾问警告若美方恢复攻击，伊朗将打破海上封锁并退出NPT。",
      "major": false,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://www.presstv.ir/Detail/2026/05/24/769228/may24-iran-reaffirms-military-readiness-new-aggression-key-gaps-remain-deal",
        "name": "Press TV",
        "priority": 2
-      },
-      {
-       "url": "https://www.reuters.com/world/iran-hormuz-transit-2026-05-24/",
-       "name": "路透社",
-       "priority": 1
       }
      ]
     }
@@ -4190,7 +4125,7 @@
      "verification_status": "verified",
      "sources": [
       {
-       "url": "https://www.reuters.com/world/trump-iran-deal-largely-negotiated-2026-05-23/",
+       "url": "https://www.reuters.com/world/asia-pacific/us-iran-report-progress-talks-ending-war-looking-next-few-days-2026-05-23/",
        "name": "路透社",
        "priority": 1
       },
@@ -4216,7 +4151,7 @@
        "priority": 1
       },
       {
-       "url": "https://www.reuters.com/world/iran-counterproposal-us-troops-2026-05-23/",
+       "url": "https://www.reuters.com/world/asia-pacific/irans-top-negotiator-says-tehran-will-not-compromise-talks-with-us-2026-05-23/",
        "name": "路透社",
        "priority": 1
       }
@@ -4277,16 +4212,11 @@
      "title": "伊朗启动信息战，将海峡保护费包装为\"合法海事服务\"",
      "content": "5月22日ISW报告指出，IRGC海军声称35艘船在过去24小时内经\"伊朗许可和安全\"通过霍尔木兹海峡。这种\"安全\"实质上是保护费——商船付费以避免伊朗军队攻击，自2026年2月以来，伊朗是唯一在霍尔木兹海峡威胁航运的力量。伊朗和阿曼讨论引入\"服务费\"机制而非通行费。《纽约时报》报道，阿曼最初拒绝与伊朗合作，但现表示愿利用其对海湾邻国和美国的影响力支持该收费系统。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-may-22-2026/",
        "name": "ISW战争研究所",
-       "priority": 1
-      },
-      {
-       "url": "https://www.reuters.com/world/middle-east/iran-strait-hormuz-transit-2026-05-22/",
-       "name": "路透社",
        "priority": 1
       }
      ]
@@ -4333,7 +4263,7 @@
        "priority": 1
       },
       {
-       "url": "https://www.reuters.com/world/middle-east/iran-nuclear-talks-sticking-points-2026-05-21/",
+       "url": "https://www.reuters.com/world/asia-pacific/tehran-reviewing-latest-us-response-trump-suggests-he-can-wait-2026-05-21/",
        "name": "路透社",
        "priority": 1
       }
@@ -4745,16 +4675,11 @@
      "title": "伊朗推出保险计划伪装的通行费制度，议会加强海峡管理",
      "content": "伊朗推出以海上保险政策为名的通行费制度（为船只提供免受伊朗攻击的保险）。议会安全委员会主席阿齐兹表示，伊朗已准备好专业机制在国家主权框架内管理交通。与美国主导的自由航行计划相关的参与者被限制通行。IRGC海军允许中国、日本、巴基斯坦船只通行，正与欧洲方面谈判。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://www.chinanews.com/gj/shipin/2026/05-16/news1054165.shtml",
        "name": "中新网/央视",
-       "priority": 1
-      },
-      {
-       "url": "https://www.reuters.com/world/middle-east/iran-hormuz-insurance-toll-2026-05-16/",
-       "name": "路透社",
        "priority": 1
       }
      ]
@@ -4945,7 +4870,7 @@
      "verification_status": "single_authoritative",
      "sources": [
       {
-       "url": "https://www.reuters.com/world/saudi-undeclared-strikes-iran-2026-05-12/",
+       "url": "https://www.reuters.com/world/asia-pacific/saudi-arabia-launched-covert-attacks-iran-regional-war-widened-sources-2026-05-12/",
        "name": "路透社",
        "priority": 1
       }
@@ -4996,16 +4921,11 @@
      "title": "IRGC提出五项谈判前提条件，伊朗原子能组织称浓缩不可谈判",
      "content": "IRGC巴吉亚托拉赫指挥官贾法里表示，伊朗不会谈判，除非美国接受伊朗的条件：结束所有战线的战争、解除制裁、解冻资产、赔偿战争损失、承认霍尔木兹海峡主权。伊朗原子能组织负责人告诉议会，浓缩活动不可谈判。伊朗还阻止了一艘卡塔尔LNG船通过海峡。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://www.aljazeera.com/news/2026/5/11/irgc-iran-preconditions-negotiations",
        "name": "半岛电视台",
-       "priority": 1
-      },
-      {
-       "url": "https://www.reuters.com/world/middle-east/irgc-iran-negotiations-preconditions-2026-05-11/",
-       "name": "路透社",
        "priority": 1
       }
      ]
@@ -5066,16 +4986,11 @@
      "title": "俄罗斯通过里海向伊朗运送无人机零部件",
      "content": "纽约时报报道称，俄罗斯正通过里海向伊朗运送无人机零部件，以帮助伊朗重建进攻能力。此前以军曾打击里海沿岸的班达尔安扎利港，试图阻止俄罗斯军事运输。经济学人披露的机密文件显示，俄罗斯提议向伊朗提供5000架短程光纤无人机和更远程的卫星制导无人机。",
      "major": false,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://www.nytimes.com/2026/05/09/world/middleeast/russia-iran-drone-components-caspian.html",
        "name": "纽约时报",
-       "priority": 1
-      },
-      {
-       "url": "https://www.reuters.com/world/russia-iran-drone-caspian-2026-05-09/",
-       "name": "路透社",
        "priority": 1
       }
      ]
@@ -5218,7 +5133,7 @@
        "priority": 1
       },
       {
-       "url": "https://www.reuters.com/world/middle-east/container-ship-cma-cgm-san-antonio-struck-missile-hormuz-2026-05-06/",
+       "url": "https://www.reuters.com/world/cma-cgm-container-ship-hit-strait-hormuz-injuring-crew-2026-05-06/",
        "name": "路透社",
        "priority": 1
       }
@@ -5234,7 +5149,7 @@
      "verification_status": "verified",
      "sources": [
       {
-       "url": "https://www.reuters.com/markets/commodities/oil-prices-plunge-iran-deal-hopes-2026-05-06/",
+       "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-05-06/",
        "name": "路透社",
        "priority": 1
       },
@@ -5265,7 +5180,7 @@
        "priority": 1
       },
       {
-       "url": "https://www.reuters.com/world/middle-east/us-iran-closing-in-on-onepage-memo-to-end-war-2026-05-06/",
+       "url": "https://www.reuters.com/world/middle-east/us-iran-closing-one-page-memo-end-war-axios-reports-2026-05-06/",
        "name": "路透社",
        "priority": 1
       },
@@ -5286,7 +5201,7 @@
      "verification_status": "verified",
      "sources": [
       {
-       "url": "https://www.reuters.com/world/middle-east/iran-parliament-rejects-14-point-memo-us-wish-list-2026-05-06/",
+       "url": "https://www.reuters.com/world/middle-east/senior-iran-mp-says-axios-text-us-proposal-is-more-wishlist-than-reality-2026-05-06/",
        "name": "路透社",
        "priority": 1
       },
@@ -5520,7 +5435,7 @@
        "priority": 1
       },
       {
-       "url": "https://www.reuters.com/world/middle-east/iran-strikes-us-2026-03-11/",
+       "url": "https://www.reuters.com/world/middle-east/us-treasury-warns-shippers-not-pay-hormuz-tolls-even-form-charity-2026-05-01",
        "name": "路透社",
        "priority": 1
       }
@@ -5596,7 +5511,7 @@
        "priority": 1
       },
       {
-       "url": "https://www.reuters.com/world/middle-east/trump-says-iran-told-us-collapse-wants-hormuz-reopened-2026-04-28/",
+       "url": "https://www.reuters.com/world/trump-says-iran-wants-us-open-hormuz-strait-soon-possible-2026-04-28",
        "name": "路透社",
        "priority": 1
       },
@@ -5638,7 +5553,7 @@
      "verification_status": "verified",
      "sources": [
       {
-       "url": "https://www.reuters.com/world/middle-east/rubio-iran-hormuz-tolls-not-tolerated-2026-04-28/",
+       "url": "https://www.reuters.com/world/asia-pacific/iranian-foreign-minister-heads-russia-trump-says-call-us-negotiate-2026-04-27",
        "name": "路透社",
        "priority": 1
       },
@@ -5659,7 +5574,7 @@
      "verification_status": "verified",
      "sources": [
       {
-       "url": "https://www.reuters.com/world/middle-east/us-treasury-imposes-sanctions-35-iranian-entities-2026-04-28/",
+       "url": "https://www.reuters.com/business/finance/us-imposes-sanctions-35-individuals-entities-aiding-irans-sanctions-evasions-2026-04-28",
        "name": "路透社",
        "priority": 1
       },
@@ -5677,16 +5592,11 @@
      "title": "伊朗最高国安委准备应对即将到来的抗议潮",
      "content": "ISW 4月28日报告显示，伊朗最高国家安全委员会（SNSC）召开会议，由与Vahidi关系密切的Zolghadr主持，议题是讨论如何应对可能在未来几天内爆发的抗议潮。情报评估警告，伊朗经济在美方6-8周的海上封锁下'已到崩溃边缘'，可能导致大规模民众抗议。报告指出，互联网封锁60天已造成20%相关行业失业。据Iran International引述情报报告，伊朗互联网业务每日损失3000万-4000万美元（注：Iran International为伊朗境外流亡媒体，可作为背景信息参考，不作单一信源使用）。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-april-28-2026/",
        "name": "ISW战争研究所",
-       "priority": 1
-      },
-      {
-       "url": "https://www.reuters.com/world/middle-east/iran-protests-economic-collapse-2026-04-28/",
-       "name": "路透社",
        "priority": 1
       }
      ]
@@ -5701,7 +5611,7 @@
      "verification_status": "single_authoritative",
      "sources": [
       {
-       "url": "https://www.reuters.com/world/middle-east/trump-approval-record-low-iran-war-2026-04-28/",
+       "url": "https://www.reuters.com/world/us/trump-approval-sinks-record-low-war-with-iran-drives-cost-of-living-concerns-2026-04-28",
        "name": "路透社",
        "priority": 1
       }
@@ -5723,13 +5633,13 @@
      "verification_status": "verified",
      "sources": [
       {
-       "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-april-27-2026/",
-       "name": "ISW",
+       "url": "https://www.reuters.com/world/middle-east/evolving-drone-war-southern-lebanon-clouds-iran-peace-prospects-2026-05-12",
+       "name": "路透社",
        "priority": 1
       },
       {
-       "url": "https://www.nytimes.com/2026/04/21/world/middleeast/us-iraq-security-cooperation.html",
-       "name": "纽约时报",
+       "url": "https://understandingwar.org/research/uncategorized/hezbollahs-pivot-to-fpv-drones-requires-israeli-overmatch",
+       "name": "ISW战争研究所",
        "priority": 1
       }
      ]
@@ -6683,8 +6593,8 @@
        "priority": 1
       },
       {
-       "url": "https://www.reuters.com/world/us-activists-protest-arms-sales-israel-outside-senators-offices-2026-04-14/",
-       "name": "Reuters",
+       "url": "https://www.reuters.com/world/us/dozens-detained-new-york-city-protest-over-us-arms-sales-israel-2026-04-14",
+       "name": "路透社",
        "priority": 1
       }
      ],
@@ -6699,8 +6609,8 @@
      "major": false,
      "sources": [
       {
-       "url": "https://www.reuters.com/markets/global-markets/imf-cuts-global-growth-outlook-iran-war-raises-risk-deep-slowdown-2026-04-14/",
-       "name": "Reuters",
+       "url": "https://www.reuters.com/business/imf-cuts-growth-outlook-warns-potential-global-recession-if-iran-war-worsens-2026-04-14",
+       "name": "路透社",
        "priority": 1
       }
      ],
@@ -6878,8 +6788,8 @@
        "priority": 1
       },
       {
-       "url": "https://www.reuters.com/world/uk/uk-says-it-does-not-support-us-blockade-strait-hormuz-2026-04-13/",
-       "name": "Reuters",
+       "url": "https://www.reuters.com/world/europe/uk-will-not-back-blockade-strait-hormuz-pm-starmer-says-2026-04-13",
+       "name": "路透社",
        "priority": 1
       }
      ],
@@ -6963,8 +6873,8 @@
      "major": true,
      "sources": [
       {
-       "url": "https://www.reuters.com/world/middle-east/trump-threatens-shut-strait-hormuz-2026-04-12/",
-       "name": "Reuters",
+       "url": "https://www.reuters.com/world/trump-says-it-will-take-little-while-us-blockade-strait-hormuz-2026-04-12",
+       "name": "路透社",
        "priority": 1
       },
       {
@@ -7007,8 +6917,8 @@
      "major": true,
      "sources": [
       {
-       "url": "https://www.reuters.com/world/middle-east/us-iran-ceasefire-talks-fail-2026-04-12/",
-       "name": "Reuters",
+       "url": "https://www.reuters.com/world/middle-east/gulf-stocks-slide-us-iran-talks-falter-ceasefire-doubts-resurface-2026-04-12",
+       "name": "路透社",
        "priority": 1
       },
       {
@@ -7227,11 +7137,6 @@
        "priority": 2
       },
       {
-       "url": "https://www.reuters.com/world/middle-east/israel-strikes-120-targets-iran-2026-04-05/",
-       "name": "Reuters",
-       "priority": 1
-      },
-      {
        "url": "https://apnews.com/live/iran-war-israel-trump-04-05-2026",
        "name": "AP News",
        "priority": 1
@@ -7406,10 +7311,6 @@
        "priority": 1
       },
       {
-       "name": "Reuters",
-       "url": "https://www.reuters.com/world/middle-east/"
-      },
-      {
        "name": "Le Monde",
        "url": "https://www.lemonde.fr/en/international/article/2026/03/26/israeli-army-calls-for-more-troops-on-lebanese-front-opposition-warns-shortage-could-trigger-security-disaster_6751845_4.html"
       },
@@ -7457,8 +7358,8 @@
      "content": "伊朗军方于当地时31日凌晨出动攻击型无人机，打击以色列境内两处目标：位于本-古里安机场附近的德国西门子公司工业软件中心和位于海法的美国电话电报公司通信中心。\n                        \n                            今日头条",
      "sources": [
       {
-       "url": "https://www.reuters.com/world/middle-east/iran-targets-israeli-tech-facilities-2026-03-31/",
-       "name": "Reuters",
+       "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-march-31-2026/",
+       "name": "ISW战争研究所",
        "priority": 1
       }
      ],
@@ -7536,11 +7437,6 @@
        "url": "https://www.163.com/dy/article/KPJOMLEO05567TRE.html",
        "name": "网易新闻",
        "priority": 2
-      },
-      {
-       "url": "https://www.reuters.com/world/middle-east/iran-launches-88th-89th-missile-waves-2026-03-31/",
-       "name": "Reuters",
-       "priority": 1
       }
      ],
      "needs_verification": false,
@@ -7548,7 +7444,7 @@
       "❌ 无来源",
       "❌ 有效来源不足2个（现有0个）"
      ],
-     "verification_status": "verified"
+     "verification_status": "single_authoritative"
     }
    ]
   },
@@ -7566,8 +7462,8 @@
      "content": "中国外交部发言人毛宁主持例行记者会，就美以与伊朗战争局势表态，呼吁各方保持克制，通过外交途径解决争端。\n                        \n                            中国外交部",
      "sources": [
       {
-       "url": "https://www.reuters.com/world/china/china-iran-war-statement-2026-03-30/",
-       "name": "Reuters",
+       "url": "https://www.reuters.com/world/china/chinese-container-ships-pass-through-strait-hormuz-second-attempt-data-shows-2026-03-30",
+       "name": "路透社",
        "priority": 1
       }
      ],
@@ -7667,8 +7563,8 @@
      "content": "伊朗革命卫队向以色列北部城市海法发射多枚弹道导弹，命中巴赞炼油厂，厂区燃起大火，浓烟直冲地中海沿岸上空。革命卫队发言人拉米赞·谢里夫确认此次打击。内塔尼亚胡称其为“踵踏以色列主权、极具毁灭性的致命袭击”。\n                        \n                            新浪新闻\n                            搜狐新闻",
      "sources": [
       {
-       "url": "https://www.reuters.com/world/middle-east/iran-missile-hits-haifa-oil-refinery-2026-03-30/",
-       "name": "Reuters",
+       "url": "https://www.reuters.com/world/middle-east/missile-hits-fuel-tanker-israels-oil-refineries-2026-03-30",
+       "name": "路透社",
        "priority": 1
       }
      ],
@@ -8176,11 +8072,6 @@
       {
        "url": "https://sputniknews.cn/20260327/1070462308.html",
        "name": "俄罗斯卫星通讯社"
-      },
-      {
-       "url": "https://www.reuters.com/world/us/pentagon-plans-decisive-strikes-iran-2026-03-28/",
-       "name": "Reuters",
-       "priority": 1
       }
      ],
      "needs_verification": false,
@@ -8189,7 +8080,7 @@
       "❌ 来源#1URL问题: 未知域名: https://sputniknews.cn/20260327/1070462308.html",
       "❌ 有效来源不足2个（现有0个）"
      ],
-     "verification_status": "verified"
+     "verification_status": "single_authoritative"
     },
     {
      "major": false,
@@ -8382,8 +8273,8 @@
      "content": "据法新社报道，伊朗官方电视台援引一名高级官员的话报道称，伊朗已拒绝美国提出的旨在结束中东战争的和平计划。该官员表示：\"战争将在伊朗决定它应该结束时结束，而非在特朗普设想它结束时结束。\"伊朗外交部长阿拉格齐也强调，经由调解方\"交流信息\"并不意味着与美国进行谈判，伊朗要求敌对方按照伊朗提出的要求结束战争，并赔偿伊朗人民遭受的损失。\n                        \n                        \n                            今日头条",
      "sources": [
       {
-       "url": "https://www.reuters.com/world/middle-east/iran-rejects-us-peace-plan-says-war-will-end-when-tehran-decides-2026-03-27/",
-       "name": "Reuters",
+       "url": "https://www.reuters.com/world/middle-east/us-proposal-end-war-is-one-sided-door-diplomacy-still-open-iranian-official-says-2026-03-26",
+       "name": "路透社",
        "priority": 1
       }
      ],
@@ -8410,8 +8301,8 @@
        "priority": 2
       },
       {
-       "url": "https://www.reuters.com/world/middle-east/iran-foreign-minister-israel-pushing-us-2026-03-27/",
-       "name": "Reuters",
+       "url": "https://www.reuters.com/world/asia-pacific/israel-strikes-tehran-trump-says-us-negotiating-end-war-2026-03-25",
+       "name": "路透社",
        "priority": 1
       }
      ],
@@ -8427,8 +8318,8 @@
      "content": "当地时间26日凌晨，伊朗哈马丹、伊斯法罕、阿巴斯港以及东部城市马什哈德均传出爆炸声。以色列媒体稍早前表示，伊朗伊斯兰革命卫队海军司令在当天袭击中身亡。截至目前，伊朗伊斯兰革命卫队已发动\"真实承诺-4\"第81波攻势（中文媒体另称第82轮），对科威特、沙特、巴林等地美军基地和相关设施实施打击，同时发射多型号导弹对以色列南部军事目标和工业设施实施针对性打击。\n                        \n                        \n                            东方财富网",
      "sources": [
       {
-       "url": "https://www.reuters.com/world/middle-east/explosions-iran-cities-2026-03-27/",
-       "name": "Reuters",
+       "url": "https://www.reuters.com/world/middle-east/us-confirms-death-iranian-irgc-naval-commander-2026-03-26",
+       "name": "路透社",
        "priority": 1
       }
      ],
@@ -8446,52 +8337,19 @@
      "time": "凌晨",
      "tag": "major-tag",
      "category": "军事",
-     "title": "伊朗首次打击以色列海上目标，萨尔-6护卫舰被击中受损",
-     "content": "伊朗伊斯兰革命卫队宣布启动\"真实承诺4\"军事行动第86轮打击，分三个波次动用\"霍拉姆沙赫尔4\"中程弹道导弹、\"波斯湾-3\"反舰导弹及百余架攻击型无人机。首轮打击首次锁定以色列地中海海域的萨尔-6型护卫舰编队及海法港海军基地，以色列国防军证实一艘护卫舰舰体被导弹破片击中受损，一处港口后勤仓库被完全摧毁，3名以军士兵受伤。\n                        \n                        \n                            今日头条",
-     "sources": [
-      {
-       "url": "https://www.reuters.com/world/middle-east/iran-targets-israeli-warship-first-time-red-sea-2026-03-27/",
-       "name": "Reuters",
-       "priority": 1
-      },
-      {
-       "url": "https://apnews.com/article/iran-israel-war-missiles-drones-03-27-2026",
-       "name": "AP News",
-       "priority": 1
-      }
-     ],
-     "needs_verification": false,
-     "quality_issues": [
-      "⚠️ 只有1个来源（需要≥2个）",
-      "❌ 来源#1名称无效: '待核实来源'",
-      "❌ 有效来源不足2个（现有0个）"
-     ],
-     "verification_status": "verified"
-    },
-    {
-     "major": true,
-     "disputed": false,
-     "time": "凌晨",
-     "tag": "major-tag",
-     "category": "军事",
      "title": "伊朗发动\"真实承诺-4\"第81波攻势，打击以色列70多处目标",
      "content": "【IRGC官方声明】伊朗伊斯兰革命卫队宣布，已发动\"真实承诺-4\"第81波攻势，动用\"伊马德\"\"吉亚姆\"\"霍拉姆沙赫尔-4\"和\"加德尔\"等精确制导导弹，打击包括海法、迪莫纳、特拉维夫在内的以色列70多处目标。\n                        \n                        \n                            企鹅号\n                            企鹅号(2)\n                            俄罗斯卫星通讯社",
      "sources": [
       {
        "url": "https://sputniknews.cn/20260326/1070449282.html",
        "name": "俄罗斯卫星通讯社"
-      },
-      {
-       "url": "https://www.reuters.com/world/middle-east/iran-launches-81st-wave-2026-03-27/",
-       "name": "Reuters",
-       "priority": 1
       }
      ],
      "needs_verification": false,
      "quality_issues": [
       "❌ 来源#3URL问题: 未知域名: https://sputniknews.cn/20260326/1070449282.html"
      ],
-     "verification_status": "verified"
+     "verification_status": "single_authoritative"
     }
    ]
   },
@@ -8558,8 +8416,8 @@
      "content": "【IRGC官方声明】伊朗伊斯兰革命卫队宣布已发动\"真实承诺-4\"行动第79波攻势。此次行动发射了\"城堡破坏者\"\"海巴尔\"\"伊马德\"等型号导弹和无人机，突破以色列多重防御系统，打击了位于特拉维夫北部和中部的情报机构据点，以及位于伊拉克库尔德自治区埃尔比勒国际机场的美军驻地。\n                        \n                        \n                            企鹅号",
      "sources": [
       {
-       "url": "https://www.reuters.com/world/middle-east/iran-launches-79th-wave-iraq-2026-03-26/",
-       "name": "Reuters",
+       "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-march-26-2026/",
+       "name": "ISW战争研究所",
        "priority": 1
       }
      ],
@@ -8613,8 +8471,8 @@
        "priority": 2
       },
       {
-       "url": "https://www.reuters.com/world/middle-east/iran-missile-hits-tel-aviv-2026-03-25/",
-       "name": "Reuters",
+       "url": "https://www.reuters.com/world/asia-pacific/iran-says-it-is-reviewing-us-ceasefire-plan-no-talks-trump-says-tehran-leaders-2026-03-26",
+       "name": "路透社",
        "priority": 1
       }
      ],
@@ -8639,8 +8497,8 @@
        "name": "网易新闻"
       },
       {
-       "url": "https://www.reuters.com/world/middle-east/israel-airstrikes-tehran-2026-03-25/",
-       "name": "Reuters",
+       "url": "https://www.reuters.com/world/asia-pacific/israel-strikes-tehran-trump-says-us-negotiating-end-war-2026-03-25",
+       "name": "路透社",
        "priority": 1
       }
      ],
@@ -8723,11 +8581,6 @@
        "url": "https://new.qq.com/rain/a/20260324A000PH00",
        "name": "腾讯新闻",
        "priority": 2
-      },
-      {
-       "url": "https://www.reuters.com/world/middle-east/iran-marv-missile-patriot-2026-03-25/",
-       "name": "Reuters",
-       "priority": 1
       }
      ],
      "needs_verification": false,
@@ -8735,7 +8588,7 @@
       "⚠️ 只有1个来源（需要≥2个）",
       "❌ 有效来源不足2个（现有1个）"
      ],
-     "verification_status": "verified"
+     "verification_status": "single_authoritative"
     }
    ]
   },
@@ -8753,8 +8606,8 @@
      "content": "美国总统特朗普限伊朗48小时开放霍尔木兹海峡，否则将打击其发电厂，伊朗强硬回应，表示若遭袭将全面关闭霍尔木兹海峡。\n                        \n                        \n                            安徽网",
      "sources": [
       {
-       "url": "https://www.reuters.com/world/middle-east/trump-gives-iran-48-hours-open-strait-hormuz-2026-03-24/",
-       "name": "Reuters",
+       "url": "https://www.reuters.com/world/middle-east/trump-iran-trade-threats-over-energy-targets-war-escalates-2026-03-22",
+       "name": "路透社",
        "priority": 1
       },
       {
@@ -8799,8 +8652,8 @@
        "priority": 2
       },
       {
-       "url": "https://www.reuters.com/world/middle-east/iran-launches-missile-wave-israel-2026-03-26/",
-       "name": "Reuters",
+       "url": "https://www.reuters.com/world/asia-pacific/iran-sends-waves-missiles-into-israel-dismisses-trumps-talk-negotiations-fake-2026-03-24",
+       "name": "路透社",
        "priority": 1
       }
      ],
@@ -8850,8 +8703,8 @@
      "content": "伊朗宣布使用造价低廉、可快速量产的新型无人机打击以色列本-古里安机场，并提出包含关闭中东地区美军基地在内的六项停战条件。\n                        \n                        \n                            企鹅号",
      "sources": [
       {
-       "url": "https://www.reuters.com/world/middle-east/iran-sets-six-conditions-ceasefire-2026-03-22/",
-       "name": "Reuters",
+       "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-march-22-2026/",
+       "name": "ISW战争研究所",
        "priority": 1
       }
      ],
@@ -8872,8 +8725,8 @@
      "content": "当地时间3月22日晚至23日凌晨，伊朗首都德黑兰遭遇以色列多轮彻夜空袭，密集爆炸声持续超8小时，防空系统全程紧急启动，现场空气中残留刺鼻气味。以色列军方已公开承认发动此次打击。\n                        \n                        \n                            企鹅号",
      "sources": [
       {
-       "url": "https://www.reuters.com/world/middle-east/israel-strikes-tehran-third-day-2026-03-24/",
-       "name": "Reuters",
+       "url": "https://www.reuters.com/world/middle-east/israeli-military-says-it-is-conducting-strikes-tehran-2026-03-23/",
+       "name": "路透社",
        "priority": 1
       }
      ],
@@ -8979,8 +8832,8 @@
      "content": "霍尔木兹海峡对峙升级，伊朗官员提出停战六项条件。特朗普限伊朗48小时开放霍尔木兹海峡，否则将打击其发电厂，伊朗强硬回应。\n                        \n                        \n                            安徽网",
      "sources": [
       {
-       "url": "https://www.reuters.com/world/middle-east/iran-us-standoff-hormuz-2026-03-20/",
-       "name": "Reuters",
+       "url": "https://www.reuters.com/world/middle-east/trump-iran-trade-threats-over-energy-targets-war-escalates-2026-03-22/",
+       "name": "路透社",
        "priority": 1
       }
      ],
@@ -9008,8 +8861,8 @@
      "content": "以军宣布\"深化\"地面攻势，轰炸黎巴嫩多座桥梁。伊朗采用全新战术及升级武器装备回应美以联合打击。\n                        \n                        \n                            安徽网",
      "sources": [
       {
-       "url": "https://www.reuters.com/world/middle-east/israel-expands-ground-operations-lebanon-2026-03-19/",
-       "name": "Reuters",
+       "url": "https://www.reuters.com/world/middle-east/israeli-strike-hits-central-beirut-after-evacuation-warning-2026-03-18/",
+       "name": "路透社",
        "priority": 1
       }
      ],
@@ -9053,8 +8906,8 @@
      "content": "伊拉克\"伊斯兰抵抗组织\"宣称使用无人机袭击了巴格达绿区内的美国大使馆，造成使馆区域部分设施受损。这是伊拉克民兵武装对美军在中东存在持续施压的最新行动。\n                        \n                        \n                            腾讯新闻",
      "sources": [
       {
-       "url": "https://www.reuters.com/world/middle-east/iraqi-militia-drone-attacks-baghdad-green-zone-2026-03-17/",
-       "name": "Reuters",
+       "url": "https://www.reuters.com/world/middle-east/drones-rockets-fired-us-embassy-baghdad-security-sources-say-2026-03-17/",
+       "name": "路透社",
        "priority": 1
       }
      ],
@@ -9097,8 +8950,8 @@
      "content": "3月17日凌晨，以色列战机在德黑兰发动空袭，伊朗最高国家安全委员会秘书阿里·拉里贾尼连同多名随行人员殒命。消息传出，全球舆论哗然。\n                        \n                        \n                            腾讯新闻",
      "sources": [
       {
-       "url": "https://www.reuters.com/world/middle-east/israeli-strike-kills-senior-iranian-commander-2026-03-22/",
-       "name": "Reuters",
+       "url": "https://www.reuters.com/world/middle-east/israel-says-irans-security-chief-larijani-is-killed-2026-03-17/",
+       "name": "路透社",
        "priority": 1
       }
      ],
@@ -9209,8 +9062,8 @@
      "content": "美国总统特朗普14日在社交媒体发文称，将联合多国（尤其是受伊朗封锁霍尔木兹海峡影响的国家）共同派遣军舰护航，以\"尽快开放海峡\"。他声称美军已\"摧毁伊朗100%的军事能力\"，但同时承认伊朗仍可能通过无人机、水雷或导弹构成威胁，并警告将猛烈轰炸伊朗海岸线并击沉试图阻拦的舰船。\n                        \n                        \n                            新华国际头条",
      "sources": [
       {
-       "url": "https://www.reuters.com/world/middle-east/trump-announces-multinational-coalition-guard-strait-hormuz-2026-03-15/",
-       "name": "Reuters",
+       "url": "https://www.reuters.com/world/asia-pacific/trump-says-many-countries-will-send-warships-keep-strait-hormuz-open-2026-03-14/",
+       "name": "路透社",
        "priority": 1
       }
      ],
@@ -9232,8 +9085,8 @@
      "content": "伊朗伊斯兰革命卫队于14日深夜发起\"真实承诺－4\"行动第51波攻势，动用液体和固体燃料导弹打击位于沙特阿拉伯海尔季市的美军苏丹王子空军基地（PSAB）。沙特国防部称已拦截并摧毁6枚弹道导弹。截至3月15日，伊朗已累计发动51波反击行动，目标覆盖以色列全境及中东多国美军基地。\n                        \n                        \n                            新华社/新浪\n                            新华网",
      "sources": [
       {
-       "url": "https://www.reuters.com/world/middle-east/iran-launches-51st-missile-wave-saudi-base-2026-03-15/",
-       "name": "Reuters",
+       "url": "https://www.reuters.com/world/trump-says-most-planes-targeted-attack-saudi-arabia-base-had-little-damage-2026-03-14/",
+       "name": "路透社",
        "priority": 1
       }
      ],
@@ -9283,8 +9136,8 @@
      "content": "据CNN引述美国情报消息人士透露，伊朗已在霍尔木兹海峡开始大规模布设水雷，伊朗拥有约5000枚水雷，28艘潜艇协同部署，可在数天内将霍尔木兹海峡变成\"航行禁区\"。伊拉克民兵武装\"伊斯兰抵抗组织\"同日宣称已击落一架美军无人机。目前霍峡仍有土方14艘船只等待通行。\n                        \n                        \n                            新浪财经\n                            腾讯新闻",
      "sources": [
       {
-       "url": "https://www.reuters.com/world/middle-east/iran-deploys-mines-strait-hormuz-warned-us-official-2026-03-14/",
-       "name": "Reuters",
+       "url": "https://www.reuters.com/business/energy/iran-has-laid-about-dozen-mines-strait-hormuz-sources-say-2026-03-11/",
+       "name": "路透社",
        "priority": 1
       }
      ],
@@ -9322,8 +9175,8 @@
      "content": "受冲突持续升级及霍尔木兹海峡封锁威胁影响，布伦特原油结算价在今日突破100美元/桶，为2022年8月以来首次。国际能源署（IEA）成员国已宣布协调释放战略石油储备，但市场对全球能源供应风险的担忧仍在蔓延。\n                        \n                        \n                            东方财富\n                            腾讯新闻",
      "sources": [
       {
-       "url": "https://www.reuters.com/markets/global-markets/oil-prices-rise-2-iran-war-continues-2026-03-14/",
-       "name": "Reuters",
+       "url": "https://www.reuters.com/business/energy/oil-drops-after-us-issues-license-countries-buy-russian-oil-stranded-sea-30-days-2026-03-13/",
+       "name": "路透社",
        "priority": 1
       },
       {
@@ -9376,8 +9229,8 @@
      "content": "美国总统特朗普在接受福克斯新闻频道采访时称，美军下周将对伊朗进行\"猛烈空袭\"，并拒绝透露美国是否在谈判或施压以求停火。美军还被曝已向中东增派海军陆战队和军舰。与此同时，美方表示计划摧毁伊朗军事能力，在美以双边谈判中，停战条件包括伊朗彻底放弃核武器研发。\n                        \n                        \n                            中国军网\n                            新浪新闻",
      "sources": [
       {
-       "url": "https://www.reuters.com/world/trump-warns-more-strikes-iran-2026-03-14/",
-       "name": "Reuters",
+       "url": "https://www.reuters.com/world/middle-east/trump-threatens-strike-irans-kharg-island-oil-network-if-shipping-lanes-remain-2026-03-14/",
+       "name": "路透社",
        "priority": 1
       }
      ],
@@ -9422,11 +9275,6 @@
       {
        "url": "https://news.un.org/en/story/2026/03/1143012",
        "name": "UN News"
-      },
-      {
-       "url": "https://www.reuters.com/world/china-russia-demand-end-iran-war-un-2026-03-14/",
-       "name": "Reuters",
-       "priority": 1
       }
      ],
      "needs_verification": false,
@@ -9435,7 +9283,7 @@
       "❌ 来源#2URL问题: 未知域名: https://www.ungeneva.org/zh/news-media/news/2026/03/116710",
       "❌ 有效来源不足2个（现有0个）"
      ],
-     "verification_status": "verified"
+     "verification_status": "single_authoritative"
     },
     {
      "major": true,
@@ -9639,8 +9487,8 @@
      "content": "国际能源署(IEA)成员国同意释放石油储备，以稳定因冲突导致的全球能源供应紧张。这是冲突升级以来IEA首次采取协调行动。\n                        \n                        \n                            腾讯新闻",
      "sources": [
       {
-       "url": "https://www.reuters.com/markets/iea-emergency-oil-reserve-2026-03-13/",
-       "name": "Reuters",
+       "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-march-13-2026/",
+       "name": "ISW战争研究所",
        "priority": 1
       }
      ],
@@ -9705,8 +9553,8 @@
      "content": "美军中央司令部证实，一架KC-135空中加油机在伊拉克西部坠毁，机上6人当中4人死亡。美军方表示飞机坠毁非敌方或友军火力造成。但伊朗方面称该机被抵抗组织导弹击落，机组人员全部遇难。\n                        \n                        \n                            腾讯新闻\n                            凤凰网",
      "sources": [
       {
-       "url": "https://www.reuters.com/world/middle-east/us-military-plane-crashes-iraq-2026-03-13/",
-       "name": "Reuters",
+       "url": "https://www.reuters.com/world/four-us-service-members-killed-plane-crash-over-iraq-2026-03-13",
+       "name": "路透社",
        "priority": 1
       },
       {
@@ -9732,8 +9580,8 @@
      "content": "伊朗新任最高领袖穆杰塔巴·哈梅内伊发表就任后首份公开声明，称将\"战斗到最后一息\"，誓言继续关闭霍尔木兹海峡直至美以停止军事行动。其父哈梅内伊与妻子均在此前空袭中身亡，穆杰塔巴以\"压倒性多数\"于3月8日当选新任最高领袖，革命卫队和武装部队已宣誓效忠。\n                        \n                        \n                            新浪财经\n                            腾讯新闻",
      "sources": [
       {
-       "url": "https://www.reuters.com/world/middle-east/irans-new-leader-makes-first-statement-2026-03-14/",
-       "name": "Reuters",
+       "url": "https://www.reuters.com/world/irans-supreme-leader-mojtaba-khamenei-says-strait-hormuz-should-remain-shut-2026-03-12",
+       "name": "路透社",
        "priority": 1
       }
      ],
@@ -9755,8 +9603,8 @@
      "content": "以色列外长称不寻求\"无休止战争\"，但同时强调伊朗必须解除武装。\n                        \n                        \n                            腾讯新闻",
      "sources": [
       {
-       "url": "https://www.reuters.com/world/middle-east/israel-foreign-minister-no-endless-war-2026-03-12/",
-       "name": "Reuters",
+       "url": "https://www.reuters.com/world/europe/israel-not-seeking-endless-war-with-iran-foreign-minister-says-2026-03-10",
+       "name": "路透社",
        "priority": 1
       }
      ],
@@ -9830,8 +9678,8 @@
        "name": "Xinhua"
       },
       {
-       "url": "https://www.reuters.com/markets/iea-releases-emergency-oil-reserves-2026-03-12/",
-       "name": "Reuters",
+       "url": "https://www.reuters.com/business/energy/iea-proposes-largest-ever-oil-release-strategic-reserves-wsj-reports-2026-03-11/",
+       "name": "路透社",
        "priority": 1
       }
      ],
@@ -9944,8 +9792,8 @@
      "content": "以色列总理内塔尼亚胡举行自美以空袭伊朗以来的首次新闻发布会，威胁刺杀伊朗新任最高领袖穆杰塔巴。这是以来首次有以色列领导人公开如此表态。\n                        \n                        \n                            搜狐新闻",
      "sources": [
       {
-       "url": "https://www.reuters.com/world/middle-east/netanyahu-threatens-target-irans-new-leader-2026-03-13/",
-       "name": "Reuters",
+       "url": "https://www.reuters.com/world/middle-east/netanyahu-threatens-irans-new-supreme-leader-defends-joint-assault-with-us-2026-03-12",
+       "name": "路透社",
        "priority": 1
       }
      ],
@@ -9984,8 +9832,8 @@
      "content": "伊朗伊斯兰革命卫队12日凌晨宣布，已完成\"真实承诺-4\"第40波攻势，与黎巴嫩真主党展开联合作战，打击以色列境内目标和位于中东地区的美军基地。真主党向以色列北部发射约150枚火箭弹。这是冲突以来双方首次协同行动。\n                        \n                        \n                            腾讯新闻\n                            云南网",
      "sources": [
       {
-       "url": "https://www.reuters.com/world/middle-east/iran-hezbollah-launch-joint-missile-attacks-2026-03-12/",
-       "name": "Reuters",
+       "url": "https://www.reuters.com/world/middle-east/irans-shiite-allies-step-up-strikes-despite-weakened-hand-2026-03-12",
+       "name": "路透社",
        "priority": 1
       }
      ],
@@ -10015,14 +9863,9 @@
        "url": "https://news.cctv.com/2026/03/11/ARTIH9C7ad8G7boSgHbPTf2C260311.shtml",
        "name": "新华社",
        "priority": 1
-      },
-      {
-       "url": "https://www.reuters.com/world/middle-east/iran-strikes-us-2026-03-11/",
-       "name": "路透社",
-       "priority": 1
       }
      ],
-     "verification_status": "verified"
+     "verification_status": "single_authoritative"
     },
     {
      "major": false,
@@ -10132,8 +9975,8 @@
      "content": "俄罗斯塔斯社报道：伊朗发射大批导弹和无人机对以色列发动报复性反击，以色列情报总部、电子情报部门和海法海军基地陷入火海。10枚导弹全中美军基地。\n                        \n                        \n                            搜狐新闻",
      "sources": [
       {
-       "url": "https://www.reuters.com/world/middle-east/iran-fires-missiles-three-targets-2026-03-11/",
-       "name": "Reuters",
+       "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-march-11-2026/",
+       "name": "ISW战争研究所",
        "priority": 1
       }
      ],
@@ -10322,8 +10165,8 @@
      "content": "【IRGC官方声明】当地时间3月10日，伊朗革命卫队公布\"真实承诺4\"第34轮打击详细战报，针对美国和以色列的军事打击已正式进入全新阶段。伊朗官方表态：美国与以色列的袭击已导致1300多名平民丧生，受伤人数超过1.5万。\n                        \n                        \n                            腾讯新闻\n                            搜狐新闻",
      "sources": [
       {
-       "url": "https://www.reuters.com/world/middle-east/iran-34th-missile-wave-2026-03-10/",
-       "name": "Reuters",
+       "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-march-10-2026/",
+       "name": "ISW战争研究所",
        "priority": 1
       }
      ],
@@ -10682,8 +10525,8 @@
        "name": "Xinhua"
       },
       {
-       "url": "https://www.reuters.com/world/us/senate-rejects-war-powers-resolution-2026-03-05/",
-       "name": "Reuters",
+       "url": "https://www.reuters.com/world/us/us-lawmakers-set-vote-war-powers-iran-conflict-widens-2026-03-04",
+       "name": "路透社",
        "priority": 1
       }
      ],
@@ -10709,8 +10552,8 @@
        "name": "Xinhua"
       },
       {
-       "url": "https://www.reuters.com/world/middle-east/iran-fires-missiles-qatar-2026-03-05/",
-       "name": "Reuters",
+       "url": "https://www.reuters.com/world/middle-east/iran-fm-says-strikes-targeted-us-not-qatar-doha-rejects-claim-2026-03-04",
+       "name": "路透社",
        "priority": 1
       }
      ],
@@ -10736,8 +10579,8 @@
        "name": "澎湃新闻"
       },
       {
-       "url": "https://www.reuters.com/world/middle-east/iran-claims-struck-us-aircraft-carrier-2026-03-05/",
-       "name": "Reuters",
+       "url": "https://www.reuters.com/world/middle-east/iran-will-target-israeli-nuclear-site-if-regime-change-is-sought-iranian-2026-03-04",
+       "name": "路透社",
        "priority": 1
       }
      ],
@@ -10974,11 +10817,6 @@
       {
        "url": "https://sputniknews.cn/20260302/iran-strike-coup/",
        "name": "俄罗斯卫星通讯社"
-      },
-      {
-       "url": "https://www.reuters.com/ar/pictures/GJRVAEJ4VZNU5JVP5BH67GJF54-2026-03-10/",
-       "name": "Reuters",
-       "priority": 1
       }
      ],
      "needs_verification": true,
@@ -10987,7 +10825,7 @@
       "❌ 来源#1URL问题: 未知域名: https://sputniknews.cn/",
       "❌ 有效来源不足2个（现有0个）"
      ],
-     "verification_status": "verified"
+     "verification_status": "single_authoritative"
     },
     {
      "major": false,
@@ -11118,8 +10956,8 @@
      "content": "美军使用的伊拉克库尔德自治区埃尔比勒机场遭到攻击，附属油库和弹药库发生殉爆。攻击不仅有革命卫队导弹，还有当地亲伊朗什叶派民兵发射的自杀式无人机。\n                        \n                        \n                            南方周末",
      "sources": [
       {
-       "url": "https://www.reuters.com/world/middle-east/iranian-missiles-hit-iraqi-airport-2026-03-01/",
-       "name": "Reuters",
+       "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-march-1-2026/",
+       "name": "ISW战争研究所",
        "priority": 1
       }
      ],
