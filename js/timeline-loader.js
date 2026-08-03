@@ -525,7 +525,7 @@ function updateStatisticsDisplay(statisticsData) {
             }).join('');
             let html = `<div class="dispute-title">数据存在争议</div>${items}`;
             if (latestVerified) {
-                html += `<div style="margin-top:6px;font-size:11px;color:var(--text-tertiary);">伤亡数据最后核实: ${latestVerified}</div>`;
+                html += `<div class="dispute-verified">伤亡数据最后核实: ${latestVerified}</div>`;
             }
             banner.innerHTML = html;
             banner.style.display = 'block';
@@ -534,7 +534,7 @@ function updateStatisticsDisplay(statisticsData) {
         // 无争议时也显示核实日期
         const banner = document.getElementById('disputeBanner');
         if (banner) {
-            banner.innerHTML = `<div style="font-size:11px;color:var(--text-tertiary);text-align:center;">伤亡数据最后核实: ${latestVerified}</div>`;
+            banner.innerHTML = `<div class="dispute-verified">伤亡数据最后核实: ${latestVerified}</div>`;
             banner.style.display = 'block';
             banner.style.background = 'transparent';
             banner.style.border = 'none';
