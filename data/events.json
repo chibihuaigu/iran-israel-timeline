@@ -928,7 +928,7 @@
     {
      "time": "全天",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "伊朗从洛雷斯坦省向\"敌方目标\"发射新一轮导弹",
      "content": "据伊朗伊斯兰共和国通讯社7月20日报道，伊朗已从该国西部洛雷斯坦省针对\"敌方目标\"进行了新一轮导弹发射。 [源修复: 原URL链接已失效，已替换为ISW 7月20日特别报告及GlobalSecurity数据]",
      "major": false,
@@ -949,7 +949,7 @@
     {
      "time": "全天",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "伊朗陆军发言人警告美国盟友船只通过海峡将\"遇到困难\"",
      "content": "当地时间7月20日，伊朗陆军发言人表示，任何美国盟友的舰船在通过霍尔木兹海峡时\"都会遇到困难\"。 [源修复: 原链接已失效，已替换为ISW 7月20日特别报告]",
      "major": false,
@@ -992,7 +992,7 @@
     {
      "time": "全天",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "美军在伊拉克库尔德斯坦因未爆弹药死亡1人",
      "content": "CENTCOM7月19日宣布，一名美军士兵在伊拉克库尔德斯坦处理击落的伊朗单向攻击无人机未爆弹药时死亡。",
      "major": false,
@@ -1148,7 +1148,7 @@
     {
      "time": "全天",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "伊朗攻击泰国籍船只",
      "content": "IRGC关联的Tasnim通讯社7月17日报道，IRGC海军在击中一艘无视警告的泰国籍船只。UKMTO报告一艘船只在阿曼Khasab以东19海里处被击中，位置表明该船正试图通过南部过境航线。",
      "major": false,
@@ -1164,7 +1164,7 @@
     {
      "time": "全天",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "伊朗攻击叙利亚al Tanf前美军基地",
      "content": "IRGC声称打击叙利亚al Tanf Garrison的美军特种作战指挥中心，报复伊朗士兵在Iranshahr被杀。美军2月已撤出该基地，叙利亚政府军接管。叙利亚军方消息人士称伊朗在al Tanf附近发动攻击但未击中基地本身。",
      "major": false,
@@ -1218,7 +1218,7 @@
     {
      "time": "全天",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "LAF开始部署到黎巴嫩南部试点区",
      "content": "黎巴嫩武装部队7月16日开始向宾特朱拜勒地区的Ghandouriyeh、Froun、Qalaouiyeh、Kfar Dounine等城镇部署部队，开展巡逻并设立检查站和观察哨，执行6月26日三方框架协议。",
      "major": false,
@@ -1234,7 +1234,7 @@
     {
      "time": "全天",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "IRGC试图向真主党走私FPV无人机被截获",
      "content": "叙利亚内政部部队7月7日在al Tanf附近截获IRGC从伊拉克走私至黎巴嫩真主党的武器，包括数百个13英寸FPV无人机和组件(中国制造光纤线轴、伊朗制PG-7V反坦克弹头)、数十枚2026年制Almas反坦克导弹和Paveh-351巡航导弹组件。俄罗斯可能提供部分光纤无人机。",
      "major": false,
@@ -1288,7 +1288,7 @@
     {
      "time": "全天",
      "category": "经济",
-     "tag": "tag",
+     "tag": "major-tag",
      "title": "美国增加对伊朗制裁，打击50+个人和实体",
      "content": "美国财政部7月14-15日制裁50多个支持穆罕默德·侯赛因·沙姆哈尼石油出口和制裁规避网络的个人、实体和船只，以及3个支持IRGC武器采购的个人和4个实体。",
      "major": false,
@@ -1304,7 +1304,7 @@
     {
      "time": "全天",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "6架无人机攻击埃尔比勒机场和美国领事馆",
      "content": "伊拉克媒体7月15日报道，不明行为体向埃尔比勒国际机场和美国驻埃尔比勒领事馆发射6架无人机，全部被拦截。尚不清楚是伊朗还是伊朗支持的伊拉克民兵所为。",
      "major": false,
@@ -1342,7 +1342,7 @@
     {
      "time": "全天",
      "category": "代理人",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "真主党信息战拖延黎巴嫩解除武装努力",
      "content": "真主党开展信息战，试图说服黎巴嫩政府该组织将配合LAF，但要求优先确保以色列完全撤军。真主党同时声称试点区计划可能引发\"内战\"。美以黎罗马谈判7月14日开始。",
      "major": false,
@@ -1358,7 +1358,7 @@
     {
      "time": "全天",
      "category": "外交",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "title": "伊朗议会首次公开会议讨论海峡管理立法",
      "content": "伊朗议会自战争开始以来首次举行公开会议，审议\"确保霍尔木兹海峡和波斯湾安全与可持续发展战略规划\"法案。180名议员签署信件要求成立监督委员会。议长加利巴夫未主持会议。",
      "major": false,
@@ -1466,7 +1466,7 @@
     {
      "time": "全天",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "IRGC海军击中塞浦路斯籍商船GFS Galaxy号",
      "content": "IRGC海军7月11日用反舰巡航导弹击中塞浦路斯籍GFS Galaxy号，并声称7月12日击中第二艘船只，显示IRGC海军仍具备攻击商船能力。",
      "major": false,
@@ -1530,7 +1530,7 @@
     {
      "time": "全天",
      "category": "核",
-     "tag": "tag",
+     "tag": "major-tag",
      "title": "伊朗继续保护其核计划",
      "content": "国际科学与国际安全研究所和CNN 7月10日报道，伊朗最近几周继续采取措施保护帕尔钦军事综合体的塔莱甘2号设施，以防未来可能的打击。该研究所评估，伊朗正在塔莱甘2号上方建造混凝土屋顶，以加固其抵御打击能力。美国和以色列在最近的战争中多次打击帕尔钦，至少一次打击了塔莱甘2号设施。伊朗政权此前在2003年暂停其核武器计划之前，使用塔莱甘2号设施测试引爆核装置所需的炸药。",
      "major": false,
@@ -1555,7 +1555,7 @@
      "title": "伊朗最高领袖表示必须为父亲被杀复仇",
      "content": "伊朗最高领袖穆杰塔巴·哈梅内伊7月11日表示，伊朗必须为其父亲、前最高领袖阿里·哈梅内伊的被杀复仇。他补充说，这种复仇不取决于他个人的生存，世界上\"每个自由的人\"都将参与实现这一目标。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-11-2026/",
@@ -1567,7 +1567,7 @@
     {
      "time": "全天",
      "category": "外交",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "title": "伊朗外长访问阿曼讨论霍尔木兹海峡",
      "content": "伊朗外交部长阿巴斯·阿拉格齐7月11日前往阿曼与阿曼官员就海峡安全通行举行会谈。阿拉格齐是主导谈判的关键人物，他与阿曼的会谈旨在讨论霍尔木兹海峡的安全通行问题。特朗普政府已指示高级官员，包括副总统JD·万斯、中东特使史蒂夫·威特科夫和贾里德·库什纳继续谈判。",
      "major": false,
@@ -1615,11 +1615,11 @@
     {
      "time": "全天",
      "category": "经济",
-     "tag": "tag",
+     "tag": "major-tag",
      "title": "美国增加对伊朗影子银行基础设施的经济压力",
      "content": "美国7月10日制裁了八名个人和六个实体，包括迪拜金融家阿里·安萨里，他监管受益于最高领袖穆杰塔巴·哈梅内伊、其他政权精英和伊斯兰革命卫队的资产。美国财政部还制裁了安萨里拥有的Smart Global Limited、三家伊朗交易所和两家前沿公司，这些公司通过空壳公司网络为受制裁的伊朗银行每年转移或持有数十亿美元。",
      "major": false,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-10-2026/",
@@ -1631,11 +1631,11 @@
     {
      "time": "全天",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "伊朗支持的伊拉克民兵试图规避解除武装倡议",
      "content": " 未透露姓名的框架消息人士7月9日告诉伊拉克媒体， 未指明的民兵正在向政府移交\"废弃\"导弹或无法操作的无人机，但保留功能性重型武器。只有真主党旅和伊玛目阿里旅公开宣布愿意解除武装，可能是为了获得扎伊迪为民兵成员愿意解除武装而保留的35,000个安全部门职位。两个民兵在战争期间都进行或直接支持了对伊拉克和地区外国目标的攻击。",
      "major": false,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-10-2026/",
@@ -1657,7 +1657,7 @@
      "title": "美军打击伊朗90个目标",
      "content": "美国中央司令部7月8日报告，美军在伊朗南部海岸线打击了90个目标，包括防空系统、沿海监视资产、导弹和无人机储存地点、海军能力和军事后勤基础设施。这些打击是为回应伊朗7月6日和7日在海峡内对民用船只的打击。中央司令部于7月7日进行了类似打击。地理定位画面显示美国打击对恰巴哈尔港 显示 海上交通管制塔造成损坏，该港位于伊朗东南部与阿曼湾接壤的边境。地理定位画面还显示对法尔斯省设拉子的伊斯兰革命卫队海军沙希德·阿萨里内贾德兵营造成损坏。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-9-2026/",
@@ -1673,7 +1673,7 @@
      "title": "伊朗官员威胁改变核学说",
      "content": "议会国家安全和外交政策委员会发言人易卜拉欣·雷扎伊7月8日表示，如果美国发动另一次\"全面攻击\"，伊朗可能会考虑改变其核学说。雷扎伊此前7月3日表示，以色列官员威胁杀害伊朗最高领袖穆杰塔巴·哈梅内伊构成重新考虑伊朗核学说的\"有效且令人信服的理由\"。议会经济委员会成员侯赛因·萨姆萨米7月9日另行表示，伊朗必须改变其核学说，因为伊朗目前正参与一场\"生存战争\"。萨姆萨米是85名伊朗议员之一，他们在5月31日致穆杰塔巴的信中隐含呼吁伊朗发展洲际弹道导弹能力。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-9-2026/",
@@ -1685,11 +1685,11 @@
     {
      "time": "全天",
      "category": "外交",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "title": "美国采取措施支持黎巴嫩三方框架协议执行",
      "content": "美国驻黎巴嫩大使米歇尔·伊萨在7月9日与黎巴嫩总统约瑟夫·奥恩的会面中表示，美国将在\"数日内\"向黎巴嫩派遣军事代表团，以支持协议执行。伊萨也表示，在即将举行的7月15日和16日在意大利罗马的美以黎谈判之后，将确定执行协议\"试点区\"计划的开始日期。一名 未透露姓名的 美国官员告诉Axios，以色列国防军将在\"数日内\"开始从两个新宣布的试点区撤出。",
      "major": false,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-9-2026/",
@@ -1732,7 +1732,7 @@
      "title": "伊朗攻击美国在巴林和科威特的军事设施",
      "content": "伊朗为回应美国的打击，向巴林和科威特的美军设施发射导弹和无人机。所有伊朗投射物均被拦截，未造成伤亡。伊朗可能计算，对海湾国家的攻击将通过威胁美军和提高美国盟友的成本来增加美国避免进一步军事升级的压力。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-8-2026/",
@@ -1744,11 +1744,11 @@
     {
      "time": "全天",
      "category": "外交",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "title": "黎巴嫩政府宣布参加罗马谈判",
      "content": "黎巴嫩政府7月8日宣布将参加7月15日和16日在意大利罗马与美国和以色列的谈判。黎巴嫩政府早些时候声称，其参加谈判的条件是以色列从黎巴嫩南部的\"试点区\"撤军。6月26日框架协议规定，以色列军队最终将从其在扎夫塔尔·埃尔·加尔比耶和纳巴蒂耶省甘杜里耶和弗伦周围的阵地撤出，之后黎巴嫩武装部队将确保这些区域的安全并解除和解散当地武装团体。",
      "major": false,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-8-2026/",
@@ -1766,7 +1766,7 @@
     {
      "time": "全天",
      "category": "外交",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "title": "伊朗拒绝阿联酋向国际海事组织提出的管理海峡计划",
      "content": "多家伊朗媒体7月7日报道，阿联酋向国际海事组织提出了管理霍尔木兹海峡的计划，伊朗予以拒绝，其他八个 未指名的阿联酋\"盟友\"予以支持。伊朗声称该计划缺乏\"法律依据\"并\"超出国际海事理事会的技术授权和权限\"。伊朗声称仍在为船只提供服务。伊朗政权附属媒体在这些媒体报道伊朗拒绝阿联酋计划后发表声明，称通过海峡的所有过境必须按照伊朗的安排进行。",
      "major": false,
@@ -1787,7 +1787,7 @@
     {
      "time": "全天",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "伊朗向油轮发射无人机",
      "content": "伊朗7月7日在霍尔木兹海峡附近向一艘未指明身份的油轮发射无人机。此前伊朗于7月6日对油轮发动两次导弹袭击。这些攻击旨在阻止船只使用靠近阿曼海岸的过境路线，以维护伊朗对海峡交通的控制。",
      "major": false,
@@ -1808,7 +1808,7 @@
     {
      "time": "全天",
      "category": "外交",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "title": "北约外长讨论霍尔木兹海峡问题",
      "content": "北约成员国外长7月7日在土耳其安卡拉举行的北约峰会间隙，与巴林、科威特、卡塔尔和阿联酋外长讨论如何处理海峡问题，据外交官告诉路透社。沙特阿拉伯、科威特和阿联酋据报正在制定延长能源管道的计划，以绕过海峡并减轻伊朗对其经济的干扰，据多个消息来源7月7日告诉路透社。",
      "major": false,
@@ -1835,11 +1835,11 @@
     {
      "time": "全天",
      "category": "政治",
-     "tag": "tag",
+     "tag": "political-tag",
      "title": "伊朗最高领袖重新任命司法首长",
      "content": "伊朗最高领袖穆杰塔巴·哈梅内伊7月5日重新任命戈拉姆·侯赛因·穆赫辛尼·埃杰伊为司法首长。这是穆杰塔巴自2026年3月成为最高领袖以来的第三次任命。埃杰伊曾在强硬派总统马哈茂德·艾哈迈迪内贾德手下担任情报部长，自2021年起担任司法首长。埃杰伊历史上对政权异见者采取强硬立场，例如在2022年马赫萨·阿米尼抗议活动中公开为处决抗议者辩护，并在2026年将抗议者描述为\"恐怖分子\"。美国于2010年9月因侵犯人权行为制裁了埃杰伊。",
      "major": false,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-6-2026/",
@@ -1882,7 +1882,7 @@
      "title": "以色列国防军宣布控制真主党在黎巴嫩南部的隧道网络",
      "content": "以色列国防军参谋长艾yal·扎米尔中将7月5日宣布，以色列国防军已控制真主党在黎巴嫩南部贝福特城堡附近的广泛隧道网络。以色列国防军此前于5月31日控制了贝福特城堡周围的地面地形，并于6月开始夺取和拆除真主党的地下基础设施。扎米尔指出，真主党在伊朗协助下，在贝福特城堡周围的山脊开发了广泛的隧道网络，用于指挥控制和瞄准以色列北部社区。扎米尔敦促黎巴嫩武装部队履行解除真主党武装的承诺，并警告以色列国防军准备在真主党违反停火时发动\"迅速进攻\"。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-july-5-2026/",
@@ -1900,7 +1900,7 @@
     {
      "time": "全天",
      "category": "外交",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "title": "伊朗坚持在霍尔木兹海峡征收通行费",
      "content": "伊朗继续坚持在霍尔木兹海峡实施非法通行费计划，尽管阿曼反对强制收费。伊朗拒绝了阿曼提出的设立\"海事服务\"基金的提议，该基金将由航运和能源公司自愿捐款资助。据《华尔街日报》7月2日报道，伊朗寻求对通过海峡的船只征收强制费用，而阿曼则建议将费用改为自愿性质。美伊谅解备忘录要求伊朗与阿曼协商确定海峡的\"未来管理\"，但报告显示伊朗和阿曼对水道未来管理存在不同愿景。",
      "major": false,
@@ -1921,7 +1921,7 @@
     {
      "time": "全天",
      "category": "政治",
-     "tag": "tag",
+     "tag": "political-tag",
      "title": "伊朗最高领袖穆杰塔巴·哈梅内伊未出席前最高领袖葬礼开幕式",
      "content": "伊朗最高领袖穆杰塔巴·哈梅内伊7月3日未出席在德黑兰举行的前最高领袖阿里·哈梅内伊葬礼开幕式，尽管伊朗大多数高级领导人和许多外国显要出席了仪式。穆杰塔巴自战争开始以来未曾公开露面，据报道正在从导致其父亲死亡的袭击中恢复。伊斯兰革命卫队指挥官艾哈迈德·瓦希迪少将在仪式上首次公开露面，这是自美以伊战争以来的首次。",
      "major": false,
@@ -1942,7 +1942,7 @@
     {
      "time": "全天",
      "category": "经济",
-     "tag": "tag",
+     "tag": "major-tag",
      "title": "伊朗开始与日本公司谈判出售石油",
      "content": "伊朗已开始与日本公司谈判购买伊朗石油，据伊朗和西方消息人士7月3日告诉路透社。美伊谅解备忘录包括60天的石油制裁豁免，并规定美国将在签署最终协议后解除对伊朗的所有制裁。日本此前是美国对伊朗实施最大压力制裁前伊朗石油的主要进口国。伊朗与日本的谈判表明，伊朗正试图利用制裁豁免期与前经济伙伴重建石油销售网络。",
      "major": false,
@@ -1972,14 +1972,15 @@
      "title": "巴基斯坦声明：下次美伊会谈拟于哈梅内伊葬礼后举行",
      "content": "7月3日，巴基斯坦外交部发表声明，作为调解方，卡塔尔与巴基斯坦在多哈分别与美国和伊朗谈判代表举行会谈，围绕落实美伊谅解备忘录相关议题取得积极进展。声明同时指出，下一次美伊会谈拟于伊朗已故最高领袖阿里·哈梅内伊的葬礼仪式结束后尽快举行。哈梅内伊葬礼安排：7月4日起在德黑兰、库姆和马什哈德举行；7月7日库姆送葬；7月8日伊拉克什叶派圣城纳杰夫和卡尔巴拉；7月9日马什哈德安葬。",
      "major": false,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "http://www.xinhuanet.com/world/20260703/pakistan-statement.html",
        "name": "新华网",
        "priority": 1
       }
-     ]
+     ],
+     "tag": "political-tag"
     }
    ]
   },
@@ -2047,14 +2048,15 @@
      "title": "伊朗总统佩泽希齐扬：协议应建立在相互遵守基础上",
      "content": "6月30日，伊朗总统佩泽希齐扬就当前局势发表讲话表示，任何协议和谅解都应建立在相互遵守的基础之上，如果美方遵守双方达成的谅解文件，伊朗也将履行自身承诺。同时他强调，面对\"不合理的叫嚣和毫无依据的威胁\"，伊朗的方针是坚持以理性和维护人的尊严为基础作出决策，并采取坚决、果断的捍卫行动。",
      "major": false,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "http://www.xinhuanet.com/world/20260701/pezeshkian.html",
        "name": "新华网",
        "priority": 1
       }
-     ]
+     ],
+     "tag": "political-tag"
     },
     {
      "time": "上午",
@@ -2062,14 +2064,15 @@
      "title": "美伊代表团在卡塔尔多哈举行会谈",
      "content": "6月30日，在卡塔尔和巴基斯坦调解下，美国和伊朗代表团在卡塔尔多哈举行会谈，围绕落实美伊谅解备忘录相关议题进行讨论。各方就美伊谅解备忘录涉及的若干具体问题进行了深入讨论，并在相关议题上取得\"积极进展\"。原定6月30日在瑞士举行的核问题谈判，因之前美伊军事冲突改到卡塔尔多哈，议题也从核计划变成了海上安全。",
      "major": false,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "http://www.xinhuanet.com/world/20260701/doha-talks.html",
        "name": "新华网",
        "priority": 1
       }
-     ]
+     ],
+     "tag": "diplomatic-tag"
     }
    ]
   },
@@ -2083,14 +2086,15 @@
      "title": "特朗普称伊朗请求会谈 伊朗否认",
      "content": "6月29日，美国总统特朗普在社交媒体发文称，伊朗已提出会谈请求，\"会谈将于30日在卡塔尔多哈举行\"。白宫新闻秘书莱维特表示，美国总统特使威特科夫等人本周将飞往多哈，参加美伊高级别会谈。当晚，伊朗外交部发言人巴加埃表示，伊方未来几天没有与美方开展任何谈判的计划。伊朗正在跟进谅解备忘录有关美国解冻伊朗被冻结资产条款的执行进程，伊朗将于本周派遣专家代表团前往多哈，但这一访问与美方代表团对多哈的访问无关。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "http://www.xinhuanet.com/world/20260630/doha-talks.html",
        "name": "新华网",
        "priority": 1
       }
-     ]
+     ],
+     "tag": "diplomatic-tag"
     },
     {
      "time": "下午",
@@ -2098,14 +2102,15 @@
      "title": "以色列防长卡茨：以色列随时可能与伊朗再起冲突",
      "content": "6月29日，以色列《新消息报》网站报道，以色列国防部长卡茨当天向媒体表示，鉴于复杂的安全局势和在黎巴嫩的军事行动，以色列随时可能与伊朗再次爆发冲突。卡茨列举了两种可能重启与伊朗战争的情况：一是美国总统特朗普\"认为谈判已经结束，想要重燃战火\"，二是伊朗攻击以色列。卡茨说，他已指示以色列国防军做好在伊朗开展\"蓝白行动\"的准备。卡茨还表示，黎南部\"安全区\"西段和中段地区\"几乎所有\"武装基础设施和村庄都被毁，东段地区73%的村庄和基础设施被毁，原本居住在\"安全区\"内的20万黎巴嫩居民\"将长期无法返回家园\"。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "http://www.xinhuanet.com/world/20260630/katz.html",
        "name": "新华网",
        "priority": 1
       }
-     ]
+     ],
+     "tag": "military-tag"
     }
    ]
   },
@@ -2119,14 +2124,15 @@
      "title": "美方单方面宣布停止动能攻击行动",
      "content": "6月28日，Axios新闻报道称多名美国高级官员透露美方决定停止所有动能攻击行动，允许霍尔木兹海峡自由航行，技术谈判继续。原定6月30日在瑞士举行的核问题谈判临时改到卡塔尔多哈，议题从核计划变为海上安全。伊朗革命卫队同日凌晨在美方宣布前发动导弹袭击（见同天事件#2），故美方声明实为单方面反应。[日期核验: Axios/ISW 6月28日]",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://www.criticalthreats.org/analysis/iran-update-special-report-june-28-2026",
        "name": "CTP关键威胁项目",
        "priority": 1
       }
-     ]
+     ],
+     "tag": "diplomatic-tag"
     },
     {
      "time": "凌晨",
@@ -2135,7 +2141,7 @@
      "title": "伊朗革命卫队导弹袭击科威特巴林8处美军基地",
      "content": "6月28日凌晨，伊朗革命卫队航空航天部队从阿巴斯港、克尔曼沙赫和布什尔三处导弹基地同时发射了数十枚中程弹道导弹和巡航导弹，目标覆盖科威特和巴林境内8处美军核心设施。目标包括科威特阿里·萨利姆空军基地、贾巴尔空军基地、阿瑞坎军营、比林军营、萨勒米亚海军码头、舒韦赫港，以及巴林的谢赫·伊萨空军基地、穆罕默德·艾哈迈德海军基地。巴林内政部发布通告，境内穆哈拉克省一处居民楼在袭击事件中受损，没有造成人员伤亡。科威特军方成功拦截两枚来自伊朗的弹道导弹。整个袭击持续了不到两个小时。这是越南战争以来，美军海外基地群遭受的单次最大规模导弹攻击。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://www.criticalthreats.org/analysis/iran-update-special-report-june-28-2026",
@@ -2168,7 +2174,8 @@
        "name": "央视新闻",
        "priority": 1
       }
-     ]
+     ],
+     "tag": "military-tag"
     }
    ]
   },
@@ -2209,14 +2216,15 @@
      "title": "霍尔木兹海峡商船遭无人机袭击",
      "content": "6月25日，一艘途经霍尔木兹海峡的商船（Ever Lovely集装箱船，IMO 9629110）遭无人机袭击，当时该船正沿阿曼海岸行驶。伊朗方面称该船未走授权航道。国际海事组织（IMO）随即暂停了船舶撤离计划，至少一艘原油油轮（Omega Trader）放弃通行返回波斯湾。联合国安理会就此事展开讨论。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "http://www.xinhuanet.com/world/20260626/hormuz-drone.html",
        "name": "新华网",
        "priority": 1
       }
-     ]
+     ],
+     "tag": "military-tag"
     }
    ]
   },
@@ -2242,7 +2250,8 @@
        "name": "新华网",
        "priority": 1
       }
-     ]
+     ],
+     "tag": "diplomatic-tag"
     }
    ]
   },
@@ -2256,14 +2265,15 @@
      "title": "伊朗代表：霍尔木兹海峡已对商船完全开放且不收费",
      "content": "6月23日，伊朗常驻联合国日内瓦办事处代表阿里·巴赫雷尼表示，霍尔木兹海峡已对商船完全开放，且不收取任何费用。这一表态是对此前一天海峡关闭决定的回调。",
      "major": false,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "http://www.xinhuanet.com/world/20260623/bahreini.html",
        "name": "新华网",
        "priority": 1
       }
-     ]
+     ],
+     "tag": "diplomatic-tag"
     },
     {
      "time": "上午",
@@ -2271,14 +2281,15 @@
      "title": "阿曼和伊朗联合声明：建立工作组共商海峡管理",
      "content": "6月23日，阿曼和伊朗发表联合声明，双方同意通过两国外交部之间的一个联合工作组保持对话，以便就霍尔木兹海峡未来航行管理、提供的服务以及相关费用达成共识。声明确认致力于确保霍尔木兹海峡航行安全，所有涉及霍尔木兹海峡的安排必须充分尊重两国主权。声明说将与沿岸国家及相关方就霍尔木兹海峡管理及\"相关费用\"进行磋商。",
      "major": false,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "http://www.xinhuanet.com/world/20260623/oman-iran.html",
        "name": "新华网",
        "priority": 1
       }
-     ]
+     ],
+     "tag": "diplomatic-tag"
     }
    ]
   },
@@ -2292,14 +2303,15 @@
      "title": "伊朗革命烈士领袖纪念委员会宣布哈梅内伊葬礼安排",
      "content": "6月22日，伊朗革命烈士领袖纪念委员会宣布，已故最高领袖阿里·哈梅内伊的告别、送葬和安葬仪式将于7月4日起在德黑兰、库姆和马什哈德举行。7月7日将在库姆举行哈梅内伊及其家属遗体送葬仪式，并举行相关殡礼活动。7月8日还将在伊拉克什叶派圣城纳杰夫和卡尔巴拉举行送葬仪式。7月9日将在伊朗东北部圣城马什哈德举行遗体送葬及安葬仪式。",
      "major": false,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "http://www.xinhuanet.com/world/20260622/khamenei-funeral.html",
        "name": "新华网",
        "priority": 1
       }
-     ]
+     ],
+     "tag": "political-tag"
     }
    ]
   },
@@ -2313,14 +2325,15 @@
      "title": "美伊代表团在瑞士比尔根山继续技术性谈判",
      "content": "6月21日，瑞士比尔根山，美国和伊朗代表团继续举行谈判，讨论谅解备忘录执行细节。谈判涉及霍尔木兹海峡通航技术规范、伊朗被冻结资产解冻程序等议题。",
      "major": false,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "http://www.xinhuanet.com/world/20260621/bürgenstock.html",
        "name": "新华网",
        "priority": 1
       }
-     ]
+     ],
+     "tag": "diplomatic-tag"
     }
    ]
   },
@@ -2366,14 +2379,15 @@
      "title": "伊朗波斯湾海峡管理局发布霍尔木兹海峡通行新规",
      "content": "6月19日，伊朗波斯湾海峡管理局发布文件，要求所有船只必须持有该机构批准的有效保险单才能通过霍尔木兹海峡，现阶段保险免费，管理局保留后续收费权利；同时发布规定航线，禁止船只偏离航线或使用替代航线。同日，美伊双方在瑞士卢塞恩湖举行技术性会谈，继续讨论备忘录实施细则。[日期核验: Wikipedia 伊斯兰堡备忘录条目]",
      "major": false,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://en.wikipedia.org/wiki/Islamabad_Memorandum",
        "name": "Wikipedia英文",
        "priority": 1
       }
-     ]
+     ],
+     "tag": "military-tag"
     }
    ]
   },
@@ -2399,7 +2413,8 @@
        "name": "新华社",
        "priority": 1
       }
-     ]
+     ],
+     "tag": "diplomatic-tag"
     },
     {
      "time": "上午",
@@ -2419,7 +2434,8 @@
        "name": "新华社",
        "priority": 1
       }
-     ]
+     ],
+     "tag": "diplomatic-tag"
     }
    ]
   },
@@ -2445,7 +2461,8 @@
        "name": "新华网",
        "priority": 1
       }
-     ]
+     ],
+     "tag": "diplomatic-tag"
     },
     {
      "time": "下午",
@@ -2539,7 +2556,8 @@
        "name": "新华网",
        "priority": 1
       }
-     ]
+     ],
+     "tag": "diplomatic-tag"
     },
     {
      "time": "下午",
@@ -2559,7 +2577,8 @@
        "name": "新华网",
        "priority": 1
       }
-     ]
+     ],
+     "tag": "diplomatic-tag"
     },
     {
      "time": "下午",
@@ -2579,7 +2598,8 @@
        "name": "央视新闻",
        "priority": 1
       }
-     ]
+     ],
+     "tag": "diplomatic-tag"
     }
    ]
   },
@@ -2605,7 +2625,8 @@
        "name": "新华网",
        "priority": 1
       }
-     ]
+     ],
+     "tag": "diplomatic-tag"
     },
     {
      "time": "下午",
@@ -2625,7 +2646,8 @@
        "name": "新华网",
        "priority": 1
       }
-     ]
+     ],
+     "tag": "military-tag"
     },
     {
      "time": "下午",
@@ -2645,7 +2667,8 @@
        "name": "网易新闻",
        "priority": 3
       }
-     ]
+     ],
+     "tag": "major-tag"
     },
     {
      "time": "下午",
@@ -2665,7 +2688,8 @@
        "name": "央视新闻",
        "priority": 1
       }
-     ]
+     ],
+     "tag": "diplomatic-tag"
     },
     {
      "time": "上午",
@@ -2700,14 +2724,15 @@
      "title": "以色列空袭贝鲁特南郊，搅局美伊协议",
      "content": "6月14日，就在美伊宣布达成协议前几个小时，以色列轰炸了黎巴嫩首都贝鲁特南郊，令特朗普大为光火。特朗普在接受美国阿克西奥斯新闻网站电话采访时爆粗口，批评以总理内塔尼亚胡'毫无判断力'。特朗普在《纽约时报》另一通电话采访中继续严厉批评内塔尼亚胡，称'他是个非常难缠的人'。以色列媒体则纷纷用'失败''糟糕'这样的字眼描述美伊协议，认为这份初步协议没有照顾以方利益。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "http://www.xinhuanet.com/world/20260615/5fb2f66ca52241c491d93c0b354495c5/c.html",
        "name": "新华网",
        "priority": 1
       }
-     ]
+     ],
+     "tag": "military-tag"
     },
     {
      "time": "下午",
@@ -2742,14 +2767,15 @@
      "title": "伊朗国家安全委员会副主席披露霍尔木兹海峡通行安排",
      "content": "6月13日，伊朗国家安全委员会副主席纳博扬说，根据他看过的伊朗和美国谅解备忘录文本，霍尔木兹海峡所有商船将恢复通行，不受任何限制。特朗普同日在白宫表示，美国和伊朗定于14日签署协议，霍尔木兹海峡将在协议签署后立即开放。伊朗已不再寻求拥有核武器，也不会购买、自主研发或以任何其他方式获取核武器。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "http://china.cnr.cn/news/20260614/t20260614_527660209.shtml",
        "name": "央广网",
        "priority": 1
       }
-     ]
+     ],
+     "tag": "diplomatic-tag"
     }
    ]
   },
@@ -2763,14 +2789,15 @@
      "title": "伊朗外长披露伊美谅解备忘录草案部分内容",
      "content": "6月12日晚播出的伊朗伊斯兰共和国广播电视台节目中，伊朗外长阿拉格齐披露伊美谅解备忘录草案部分内容，涉及停火安排、霍尔木兹海峡航运和经济议题等。阿拉格齐说，谈判框架分为'两阶段'，第一阶段聚焦结束冲突和恢复地区稳定，第二阶段就核问题及有关事项展开正式谈判。关于停火安排，谅解文件涉及结束所有战线军事冲突，涵盖黎巴嫩，伊方明确告知对方达成协议需要以色列从黎巴嫩南部撤军。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "http://world.people.com.cn/n1/2026/0613/c1002-40739511.html",
        "name": "人民网",
        "priority": 1
       }
-     ]
+     ],
+     "tag": "diplomatic-tag"
     },
     {
      "time": "凌晨",
@@ -2806,7 +2833,7 @@
      "title": "伊朗宣布霍尔木兹海峡对所有船只关闭",
      "content": "6月11日凌晨，伊朗武装部队哈塔姆安比亚中央总部发布声明，宣布霍尔木兹海峡即日起对包括油轮和商船在内的所有类型船只关闭，任何试图通过该海峡的船只都将成为打击目标。霍尔木兹海峡承担全球约30%（一说20%）的原油海运量。伊朗还驳斥了美国方面有关船只通过霍尔木兹海峡的说法。国际油价应声暴涨，布伦特原油期货价格一度逼近93美元/桶。美军中央司令部10日发布消息称，伊朗声称海峡已关闭的说法'错误'，当晚商船仍在继续进出霍尔木兹海峡。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://news.cri.cn/2026-06-11/571d2a15-70c5-415d-b4ca-d5f7c6a9628e.html",
@@ -2821,14 +2848,15 @@
      "title": "伊朗革命卫队打击美军在中东18个重要目标",
      "content": "6月11日凌晨，伊朗伊斯兰革命卫队公共关系部门发表声明，称革命卫队在两波行动中'击中并摧毁'了美军在中东地区的18个重要目标。这些目标分布在三个核心地点：科威特的阿里·萨利姆空军基地和艾哈迈德·贾比尔空军基地、巴林的谢赫·伊萨空军基地。伊朗还用无人机袭击了位于巴林的美军第五舰队总部。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://news.cri.cn/2026-06-11/571d2a15-70c5-415d-b4ca-d5f7c6a9628e.html",
        "name": "国际在线（中央广电总台）",
        "priority": 1
       }
-     ]
+     ],
+     "tag": "military-tag"
     },
     {
      "time": "凌晨",
@@ -2836,14 +2864,15 @@
      "title": "美军发射49枚战斧巡航导弹打击伊朗",
      "content": "6月11日凌晨（美东时间6月10日17时15分），美国中央司令部宣布，应三军统帅指示，对伊朗境内多个目标发起新一轮打击。据美国官员透露，所有打击目标均位于伊朗南部，包括防空系统、雷达以及无人机指挥控制单元。本轮共使用了49枚'战斧'巡航导弹，部分目标距伊朗首都德黑兰仅约65公里，另有战斗机在伊朗西南部领空执行任务。特朗普透露，伊朗高层官员已主动致电，请求他叫停这轮轰炸。特朗普随后表示，轰炸即将停止。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://news.cctv.com/2026/06/11/ARTIu3JzTfXfAhj9Q5FhWjC260611.shtml",
        "name": "央视新闻",
        "priority": 1
       }
-     ]
+     ],
+     "tag": "military-tag"
     }
    ]
   },
@@ -2869,7 +2898,8 @@
        "name": "央视新闻",
        "priority": 1
       }
-     ]
+     ],
+     "tag": "military-tag"
     },
     {
      "time": "全天",
@@ -2898,14 +2928,15 @@
      "title": "内塔尼亚胡取消重大对伊打击计划",
      "content": "6月10日，以色列总理内塔尼亚胡在特朗普要求下取消原定的大规模对伊打击计划。以色列和阿拉伯媒体均确认，内塔尼亚胡在白宫压力下暂缓报复行动。内塔尼亚胡在X平台发布的视频中表示，以色列军队'目前'正在停火，因为伊朗'停止了对我们的攻击'，并警告'如果伊朗恢复对以色列的攻击，我们将以压倒性力量进行回击'。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://mobile.chinadaily.com.cn/html5/2026-06/10/content_012_6a28675aed50be540e731f78.htm",
        "name": "中国日报",
        "priority": 1
       }
-     ]
+     ],
+     "tag": "military-tag"
     }
    ]
   },
@@ -2920,7 +2951,7 @@
      "title": "美军对伊朗发动'自卫性'打击，回应阿帕奇直升机被击落",
      "content": "美国东部时间6月9日17时，在总统特朗普指示下，美国中央司令部对伊朗发动'自卫性'打击，以回应前一天美军'阿帕奇'直升机被击落事件。打击目标全部位于霍尔木兹海峡伊朗沿岸一侧，涵盖沿岸远程防空雷达站、近程防空导弹发射阵地、海岸警戒雷达三套核心设施，没有触及伊朗内陆炼油、核设施、居民聚居区等敏感目标。伊朗霍尔木兹甘省锡里克、米纳卜、格什姆岛等多地传出爆炸声，部分地区防空系统启动。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "http://news.cnr.cn/sq/20260610/t20260610_527655156.shtml",
@@ -2947,7 +2978,8 @@
        "name": "中国网（Xinhua）",
        "priority": 1
       }
-     ]
+     ],
+     "tag": "military-tag"
     },
     {
      "time": "凌晨",
@@ -2955,14 +2987,15 @@
      "title": "伊朗议会发言人：伊朗武装部队已达到最高战斗准备状态",
      "content": "在美军打击行动发生前，伊朗议会国家安全与外交政策委员会发言人雷扎伊6月9日表示，伊朗武装部队已达到最高战斗和防御准备状态，受损情况已得到修复。伊朗武装部队已做好以最高级别应对任何侵略的准备。",
      "major": false,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "http://news.cnr.cn/sq/20260610/t20260610_527655156.shtml",
        "name": "央视新闻",
        "priority": 1
       }
-     ]
+     ],
+     "tag": "military-tag"
     }
    ]
   },
@@ -2976,14 +3009,15 @@
      "title": "胡塞武装介入，向以色列发射导弹并禁止与以色列有关船只通过红海",
      "content": "6月8日，也门胡塞武装发言人宣布，胡塞武装当日向以色列中部雅法地区多个目标发射导弹，并宣布对以色列实施红海航行'全面禁令'，警告任何与以色列有关联、在红海水域活动的船只都将被视为打击目标。胡塞武装的加入使本轮冲突进一步外溢，对全球航运构成新威胁。",
      "major": false,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "http://www.xinhuanet.com/20260608/ea3e127173a14360bb4ee0c71a82096b/c.html",
        "name": "新华网",
        "priority": 1
       }
-     ]
+     ],
+     "tag": "military-tag"
     },
     {
      "time": "下午",
@@ -3003,7 +3037,8 @@
        "name": "France 24",
        "priority": 1
       }
-     ]
+     ],
+     "tag": "diplomatic-tag"
     },
     {
      "time": "凌晨",
@@ -3023,7 +3058,8 @@
        "name": "中国网（Xinhua）",
        "priority": 1
       }
-     ]
+     ],
+     "tag": "military-tag"
     }
    ]
   },
@@ -3076,11 +3112,11 @@
     {
      "time": "下午",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "IRGC在Saravan击毙4名反政府武装分子",
      "content": "6月7日，IRGC宣布在锡斯坦和俾路支省Saravan击毙4名反政府武装分子。伊朗媒体6月7日报道，IRGC识别并打击了试图进入Saravan的反政府武装人员。武装人员杀死1名IRGC成员，但IRGC击毙了这些武装分子。IRGC还补充说从武装人员手中缴获了武器、弹药和Starlink卫星终端。",
      "major": false,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-june-7-2026/",
@@ -3092,7 +3128,7 @@
     {
      "time": "上午",
      "category": "经济",
-     "tag": "tag",
+     "tag": "major-tag",
      "title": "伊朗议员：每艘船通过海峡收费150-200万美元",
      "content": "6月7日，一名伊朗议员告诉IRGC下属媒体，伊朗通过其非认可的分道航行规则，平均每艘试图通过海峡的船只收取150万至200万美元。该议员补充说，这些船已通过易货商品和加密货币向伊朗付款。伊朗环境部6月7日声明，外交部正在审查向通过海峡的船只收取\"海上和环境服务费\"的计划。",
      "major": false,
@@ -3140,7 +3176,7 @@
     {
      "time": "下午",
      "category": "经济",
-     "tag": "tag",
+     "tag": "major-tag",
      "title": "彭博社：美国考虑用伊朗冻结资产帮海湾盟友修复伊朗袭击损失",
      "content": "6月6日，彭博社援引一名特朗普政府官员报道，美国官员正考虑使用被冻结的伊朗资金帮助海湾盟友修复因伊朗袭击造成的损失。该官员补充称，美国财政部将\"使用所有可用工具\"来评估伊朗给美国海湾盟友造成的损失估计，并允许他们使用伊朗资产进行重建。6月7日，伊朗副外长Gharibabadi回应称与美军合作的Gulf国家\"没有资格索赔\"，并强调伊朗资产不是\"掠夺物\"或用来支付海湾国家的资金。",
      "major": false,
@@ -3214,7 +3250,7 @@
     {
      "time": "下午",
      "category": "外交",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "title": "伊朗外长Rezaei：任何美伊和平协议取决于释放240亿美元冻结资产",
      "content": "6月5日，伊朗最高领袖军事顾问、IRGC前司令穆赫辛·礼萨伊（Mohsen Rezaei）告诉CNN，任何潜在的美伊和平协议取决于美国同意释放240亿美元伊朗冻结资产。同日，伊朗武装部队总参谋部下属媒体Defa Press 6月6日发文称，任何未来美伊协议必须包含对伊朗的经济赔偿以及对美国的保证，使美国在退出协议时承担\"重大代价\"。议会国家安全和外交政策委员会成员Kowsari准将6月6日表示，伊朗在整个谈判过程中都强调需要赔偿。",
      "major": false,
@@ -3235,7 +3271,7 @@
     {
      "time": "上午",
      "category": "外交",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "title": "黎巴嫩议长贝里：真主党愿在以色列撤军前提下撤离利塔尼河以南",
      "content": "6月5日，黎巴嫩议长、真主党盟友纳比·贝里（Nabih Berri）表示，如果以色列军队从其在黎巴嫩占领的领土撤出，并同意\"无条件全面停火\"，他将同意真主党从黎南部撤出。贝里称6月3日美以黎三方协议\"不公正\"、\"不值得讨论\"，呼应了真主党对该协议的拒绝。同日，黎巴嫩总统奥恩和总理萨拉姆指责伊朗利用黎巴嫩作为美伊谈判的\"筹码\"，萨拉姆强调黎巴嫩冲突\"不是为我们而战，而是在我们的土地和人民的代价上进行的\"。",
      "major": false,
@@ -3256,7 +3292,7 @@
     {
      "time": "上午",
      "category": "经济",
-     "tag": "tag",
+     "tag": "major-tag",
      "title": "阿曼Mina al Fahal港附近爆炸，油装载暂停",
      "content": "6月5日，知情人士告诉路透社，一架无人机袭击在阿曼Mina al Fahal港附近引发爆炸。三名未指明消息来源称爆炸后港口石油装载暂停。阿曼石油开发公司（PDO）6月5日称港口运营已恢复。事件延续伊朗在波斯湾和阿拉伯海针对海湾国家能源基础设施的灰色地带袭扰战略。",
      "major": false,
@@ -3287,7 +3323,7 @@
      "title": "萨德尔派武装\"萨拉亚·阿尔·萨拉姆\"正式上缴武器",
      "content": "6月4日，萨德尔派什叶派民族主义神职人员穆克塔达·萨德尔（Muktada al Sadr）的\"副圣战事务\"代表在萨迈拉正式将萨拉亚·阿尔·萨拉姆（和平旅）民兵旗帜移交给联邦政府限制武器委员会代表。这是自5月中旬总理Zaidi上任以来，PMF框架内首个正式向国家上缴武器的派系。萨拉亚·阿尔·萨拉姆控制PMF第313、314、315旅，估计有2万至5万名战士。伊拉克联合行动指挥部副司令称连接该组织与PMF的\"机制\"将被废除，该组织将\"直接隶属于\"总理。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-june-4-2026/",
@@ -3299,7 +3335,7 @@
     {
      "time": "下午",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "胡塞领导人Abdulmalik：与抵抗轴心\"全面协调\"",
      "content": "6月4日，胡塞最高领导人Abdulmalik al Houthi宣布胡塞武装与抵抗轴心其他成员\"全面协调\"，并将对黎巴嫩和巴勒斯坦领土的最新发展采取\"必要\"行动。该声明是伊朗和抵抗轴心信息行动的一部分，意图通过对以色列施压来威胁美国，以阻止以色列针对真主党的行动。",
      "major": false,
@@ -3320,7 +3356,7 @@
     {
      "time": "上午",
      "category": "外交",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "title": "伊朗副外长称伊朗遵守UNCLOS对霍尔木兹海峡\"提供服务\"",
      "content": "6月4日，伊朗副外长、法律和国际事务部副部长Gharibabadi接受伊朗媒体采访，声称伊朗遵守《联合国海洋法公约》（UNCLOS），因为伊朗正在向伊朗水域内的船只\"提供服务\"和\"保护\"。他所说的\"保护\"是保护船只免受伊朗袭击，这意味着伊朗在霍尔木兹海峡事实上建立了保护勒索体系。Gharibabadi同时表示，伊朗仍寻求在签署MoU时立即释放至少一半冻结资产，谈判期内再释放另一半。同日，黎巴嫩总统奥恩和总理萨拉姆指责伊朗利用黎巴嫩作为美伊谈判的\"筹码\"。",
      "major": false,
@@ -3351,7 +3387,7 @@
      "title": "美以黎三方协议要求真主党撤至利塔尼河以北",
      "content": "6月3日，美国、以色列和黎巴嫩发表联合声明，同意实施停火，前提是真主党停止所有袭击并将其武装人员撤至利塔尼河以北。联合声明指出，各方寻求建立框架以实现各自在黎巴嫩的长期目标，包括结束冲突并解除真主党武装使武器收归黎巴嫩国家。以色列和黎巴嫩将协调在黎南部建立\"试点区\"，黎巴嫩武装力量（LAF）将部署至这些地区，\"排除所有非国家行为者\"。黎巴嫩政府确认LAF已开始在IDF撤出的黎南部地区部署。黎巴嫩总统奥恩（Aoun）称该联合声明是获得\"最终和全面停火\"的\"最后机会\"。但真主党总书记Qassem于6月4日拒绝该协议，称接受意味着投降。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-june-4-2026/",
@@ -3363,7 +3399,7 @@
     {
      "time": "下午",
      "category": "政治",
-     "tag": "tag",
+     "tag": "political-tag",
      "title": "伊朗议长加利巴夫首次以对华特别代表身份召集经济会议",
      "content": "6月3日，伊朗议长、对华特别代表加利巴夫（Mohammad Bagher Ghalibaf）召集伊朗央行行长、规划预算组织负责人及石油、经济、工业部长会议，协调对华经济政策。这是自5月17日最高领袖任命其为对华特别代表以来，加利巴夫首次召开该职务的相关会议。IRGC下属塔斯尼姆通讯社强调，此新职务拥有不同于以往的\"权威层级\"。会议凸显加利巴夫试图深化与美国对手中国的合作。同时，反政府媒体5月31日报道总统佩泽什基安（Pezeshkian）已向最高领袖提交辞呈，反映其已被边缘化。",
      "major": false,
@@ -3436,7 +3472,7 @@
      "title": "美财政部制裁4家伊朗加密货币交易所",
      "content": "6月2日，美国财政部OFAC以帮助伊朗逃避制裁为由，将伊朗最大的4家加密货币交易所Nobitex、Wallex、Bitpin和Ramzinex列入SDN清单，同时点名Nobitex的4名高管。这是OFAC有史以来针对伊朗交易所基础设施规模最大的加密专项行动。Nobitex在2025年处理了伊朗超过50%的数字资产流入，IRGC关联钱包活动已被证实。本次制裁是\"经济狂怒\"（Economic Fury）行动的一部分，自战争开始以来美财政部已扣押约10亿美元伊朗加密资产。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-june-3-2026/",
@@ -3448,7 +3484,7 @@
     {
      "time": "下午",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "IRGC海军通过霍尔木兹海峡24艘船",
      "content": "6月2日，IRGC海军宣布在过去24小时内允许24艘船只通过霍尔木兹海峡，并警告将对该海峡实施\"智能管控\"，声称\"邪恶的外国人\"在波斯湾和海峡中无立足之地。被美国制裁的霍尔木兹海峡管理局（PGSA）声称自4月底以来已有300多艘非伊朗船只向伊朗提交信息以获得通行许可。ISW评估认为，伊朗正利用美伊谈判僵局试图将非法分道航行规则、通行许可和过路费体系正常化。",
      "major": false,
@@ -3559,7 +3595,7 @@
     {
      "time": "上午",
      "category": "政治",
-     "tag": "tag",
+     "tag": "political-tag",
      "title": "伊拉克什叶协调框架支持限制武器收归国家",
      "content": "6月1日，伊拉克什叶派协调框架宣布支持将武器限制于国家、将伊朗支持的\"人民动员力量\"（PMF）从\"政治、党派和社会框架\"中分离。ISW评估认为该表态是对美国要求伊拉克联邦政府解除民兵武装压力的回应，而非真正意图。6月2日，伊朗支持的伊拉克民兵Asaib Ahl al Haq（正义联盟）宣布成立内部委员会开始从PMF中\"脱离\"，此前该组织领导人Qais al Khazali已公开支持解除武装。",
      "major": false,
@@ -3644,7 +3680,7 @@
     {
      "time": "上午",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "85名伊朗议员致信最高领袖要求发展ICBM",
      "content": "5月31日，85名伊朗议员联名致信最高领袖Mojtaba Khamenei，暗示要求发展洲际弹道导弹（ICBM）能力。议员们表示，议会将支持伊朗军事力量和国防工业，直到伊朗导弹能够打到美国。伊朗已知最远射程导弹是Emad、Sejjil和Shahab-3，报道射程2000公里。2026年3月伊朗曾尝试向3700公里外的Diego Garcia发射2枚弹道导弹，1枚失败另1枚被美军拦截。",
      "major": false,
@@ -4084,12 +4120,17 @@
      "title": "伊朗最高国安委将审议备忘录草案",
      "content": "5月24日路透社援引伊朗高级官员报道，伊朗最高国家安全委员会(SNSC)将召开会议审议或否决当前草案，若SNSC批准将送交最高领袖Mojtaba最终批准。一名伊朗高级消息人士告诉CNN，最近的调解谈判已取得\"重大进展\"，可能成为该地区\"新时代\"的转折点。IRGC旗下的Tasnim通讯社报道，一个或两个条款的争议仍未解决。",
      "major": true,
-     "verification_status": "single_authoritative",
+     "verification_status": "verified",
      "sources": [
       {
        "url": "https://www.cnn.com/2026/05/24/politics/iran-us-talks-progress/index.html",
        "name": "CNN",
        "priority": 2
+      },
+      {
+       "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-may-24-2026/",
+       "name": "ISW战争研究所",
+       "priority": 1
       }
      ]
     },
@@ -4100,12 +4141,17 @@
      "title": "伊朗：33艘船24小时内经\"安全协调\"通过霍尔木兹",
      "content": "5月24日IRGC海军报告，过去24小时内有33艘船只在IRGC海军协调下通过霍尔木兹海峡。Press TV报道，IRGC表示武装力量已做好准备，对任何新的侵略行动予以\"毁灭性、地狱般\"的回应。IRGC高级顾问警告若美方恢复攻击，伊朗将打破海上封锁并退出NPT。",
      "major": false,
-     "verification_status": "single_authoritative",
+     "verification_status": "verified",
      "sources": [
       {
        "url": "https://www.presstv.ir/Detail/2026/05/24/769228/may24-iran-reaffirms-military-readiness-new-aggression-key-gaps-remain-deal",
        "name": "Press TV",
        "priority": 2
+      },
+      {
+       "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-may-24-2026/",
+       "name": "ISW战争研究所",
+       "priority": 1
       }
      ]
     }
@@ -4303,7 +4349,7 @@
      "title": "以色列空袭黎巴嫩致至少19人死亡，含妇女儿童",
      "content": "以色列5月20日凌晨对黎巴嫩发动空袭，仅在沿海提尔省代尔卡农·纳赫尔村的一次空袭中就造成10人死亡，包括3名儿童和3名妇女。全天共造成至少19人死亡。尽管以色列与黎巴嫩已延长停火协议45天，但双方冲突仍在持续，停火协议形同虚设。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://www.theguardian.com/world/2026/may/20/deadly-israeli-strikes-lebanon",
@@ -4394,7 +4440,7 @@
      "title": "特朗普威胁伊朗'最好快点'，数小时后撤回威胁",
      "content": "美国总统特朗普5月17日在社交平台发文称\"伊朗的时钟在滴答作响，最好快点行动，否则将一无所有\"。然而数小时后特朗普撤回了这一威胁。据《纽约时报》同日报道，美国军方官员表示，面对美国持续数月的军事打击和封锁，伊朗表现出了巨大的韧性和军事实力。美官员透露，伊朗的核储备尚未受到影响，军事设施也未被完全摧毁。这一信息与特朗普此前声称的\"已摧毁伊朗100%军事能力\"形成鲜明对比。",
      "major": true,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://www.aljazeera.com/news/2026/5/19/trump-says-iran-attack-on-hold-what-we-know-about-latest-negotiations",
@@ -4448,11 +4494,11 @@
     {
      "time": "下午",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "伊拉克真主党旅警告：若美以再次打击将报复",
      "content": "伊朗支持的伊拉克民兵组织真主党旅发言人阿布·穆贾希德·阿萨夫5月18日警告，如果美以再次打击伊朗支持的伊拉克民兵，该组织将进行报复。他还声称大部分美以\"侦察行动\"来自约旦，并警告约旦政府从近期冲突中吸取教训，意在阻止约旦允许美军从其领土发起打击。",
      "major": false,
-     "verification_status": "verified",
+     "verification_status": "single_authoritative",
      "sources": [
       {
        "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-may-18-2026/",
@@ -4480,7 +4526,7 @@
     {
      "time": "上午",
      "category": "外交",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "title": "以色列与黎巴嫩延长停火45天并扩大谈判",
      "content": "美国国务院5月18日宣布，以色列与黎巴嫩已同意将4月16日达成的停火协议延长45天，并启动更广泛的政治解决方案谈判。然而，以色列对黎巴嫩的空袭和真主党的攻击在整个周末持续进行。联合国安理会随后谴责了对阿联酋巴拉卡核电站的无人机袭击。",
      "major": false,
@@ -4501,7 +4547,7 @@
     {
      "time": "上午",
      "category": "外交",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "title": "伊朗外交部：已准备好应对与美冲突的任何局面",
      "content": "伊朗外交部发言人巴加埃5月18日在新闻发布会上表示，德黑兰已准备好应对与美冲突的任何局面。巴加埃强调，伊朗武装力量在40天的战斗行动中已经证明，将以全力回击任何鲁莽的举动。此前CNN报道称五角大楼已拟定针对伊朗境内的打击目标清单。巴加埃同时强调，伊朗严肃地寻求以外交方式调解冲突。",
      "major": false,
@@ -4586,7 +4632,7 @@
     {
      "time": "下午",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "NYT披露以色列在伊拉克沙漠建两个秘密军事前哨站",
      "content": "据《纽约时报》5月17日报道，伊拉克官员披露以色列在2024年底在伊拉克西部沙漠建造了两个秘密军事前哨站。其中一个位于安巴尔省Nukhayb附近，曾在2025年6月12天战争中用于空中支援、加油和医疗。以色列在近期对伊作战前曾向该基地部署突击队和搜救队，以便在伊朗击落以军战机时营救飞行员。另一秘密前哨站的位置和状态未公开。两名伊拉克安全官员还透露，美国曾在2025年6月和近期冲突中迫使伊拉克关闭雷达以保护美军飞机。伊朗支持的伊拉克行为体可能利用这些报告向伊拉克政府施压，要求采购先进防空系统。",
      "major": true,
@@ -4623,7 +4669,7 @@
     {
      "time": "上午",
      "category": "政治",
-     "tag": "tag",
+     "tag": "political-tag",
      "title": "伊朗议长加利巴夫被任命为对华事务特别代表",
      "content": "据伊朗塔斯尼姆通讯社5月17日报道，经伊朗总统佩泽什基安提名、最高领袖穆杰塔巴·哈梅内伊批准，伊朗议会议长穆罕默德·巴格尔·加利巴夫被任命为伊朗对华事务特别代表，负责协调伊朗与中国关系的各个方面。此举正值特朗普访华之际，此前伊朗宣布允许中国船只通过霍尔木兹海峡。加利巴夫曾作为伊方首席谈判代表于4月11-12日在伊斯兰堡与美国副总统万斯进行美伊最高级别对话。",
      "major": false,
@@ -4650,7 +4696,7 @@
     {
      "time": "下午",
      "category": "经济",
-     "tag": "tag",
+     "tag": "major-tag",
      "title": "伊朗-中国铁路贸易增长三倍，巴基斯坦启动新过境路线",
      "content": "自封锁以来，伊朗与中国铁路贸易增长三倍。巴基斯坦启动新过境路线，允许第三国货物经巴基斯坦领土运往伊朗。伊拉克新总理扎伊迪指示伊拉克海关启动与伊朗的过境运输和转口贸易。美军封锁数字更新为拦截78艘商船。",
      "major": false,
@@ -4693,7 +4739,7 @@
     {
      "time": "全天",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "美军封锁拦截75艘商船，美军中央司令部称伊朗需数年重建",
      "content": "美军中央司令部(CENTCOM)公布封锁最新数据，自4月13日封锁开始以来，美军已拦截并引导75艘商船改变航线。CENTCOM表示封锁将继续执行，旨在切断伊朗石油出口收入。同日，美军中央司令部声称伊朗需数年才能重建其军事能力。",
      "major": false,
@@ -4767,7 +4813,7 @@
     {
      "time": "下午",
      "category": "外交",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "title": "伊朗豁免中国、俄罗斯等友好国家通行费，至少6艘中国船只安全通过",
      "content": "伊朗豁免友好国家（中国、俄罗斯、印度、伊拉克、巴基斯坦）通行费。日本也为一艘油轮谈判了安全通行。至少6艘中国船只安全通过海峡。纽约时报报道称中国企业正通过第三国（可能在非洲）讨论向伊朗出售武器，包括肩扛式防空导弹和反舰导弹。",
      "major": false,
@@ -4815,7 +4861,7 @@
     {
      "time": "下午",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "伊朗宣布霍尔木兹海峡控制区扩大至200-300英里",
      "content": "IRGC海军政治副司令声称，伊朗在霍尔木兹海峡的作战区域从20-30英里走廊扩大到从贾斯克/锡里克到格什姆岛以外的200-300英里新月形区域。伊朗军方发言人表示将不再允许美国武器通过海峡运往地区基地。IRGC关联媒体呼吁对海底光缆主张主权。",
      "major": false,
@@ -4863,7 +4909,7 @@
     {
      "time": "下午",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "WSJ和路透社披露阿联酋和沙特曾对伊朗发动未公开打击",
      "content": "华尔街日报报道阿联酋在4月8日停火宣布前后曾打击伊朗拉万岛炼油厂。路透社报道沙特阿拉伯也在战争期间对伊朗发动了未公开打击。经济学家估计沙特石油出口被削减约三分之一，阿联酋被削减约一半，巴林、卡塔尔、科威特几乎不再出口能源产品。",
      "major": false,
@@ -4901,7 +4947,7 @@
     {
      "time": "全天",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "真主党FPV无人机战术创新，成本仅300-400美元",
      "content": "真主党使用光纤制导FPV无人机，单价仅300-400美元，远低于传统无线电控制无人机的1000美元以上。以军在约100名真主党FPV无人机操作员中击杀不到10人，因指挥控制高度分散。真主党发布视频展示FPV无人机攻击以色列铁穹电池。",
      "major": false,
@@ -4939,7 +4985,7 @@
     {
      "time": "下午",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "UKMTO报告船只遭袭，阿联酋和科威特拦截伊朗无人机",
      "content": "英国海上贸易组织（UKMTO）报告一艘散货船在卡塔尔多哈附近遭不明投射物袭击。阿联酋和科威特国防部分别报告拦截了伊朗无人机。袭击时间与伊朗提交反提案的时间吻合，分析认为伊朗可能试图通过维持高油价施加经济压力。",
      "major": false,
@@ -4982,7 +5028,7 @@
     {
      "time": "全天",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "俄罗斯通过里海向伊朗运送无人机零部件",
      "content": "纽约时报报道称，俄罗斯正通过里海向伊朗运送无人机零部件，以帮助伊朗重建进攻能力。此前以军曾打击里海沿岸的班达尔安扎利港，试图阻止俄罗斯军事运输。经济学人披露的机密文件显示，俄罗斯提议向伊朗提供5000架短程光纤无人机和更远程的卫星制导无人机。",
      "major": false,
@@ -5035,6 +5081,11 @@
        "url": "https://www.cnn.com/2026/05/08/world/iran-israel-war-may-8-update/index.html",
        "name": "CNN",
        "priority": 2
+      },
+      {
+       "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-may-8-2026/",
+       "name": "ISW战争研究所",
+       "priority": 1
       }
      ]
     },
@@ -5062,7 +5113,7 @@
     {
      "time": "下午",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "真主党向以色列北部发射报复性火箭弹",
      "content": "真主党向以色列北部纳哈里亚附近的IDF什拉加基地（第1戈拉尼旅总部）发射报复性火箭弹，回应5月6日以色列空袭打死真主党拉德万部队指挥官艾哈迈德·加拉布·巴卢特。以军拦截了一枚火箭弹，其余落在开阔地带，无人员伤亡。以军随后空袭了黎巴嫩境内的真主党发射器，包括贝卡谷地。",
      "major": false,
@@ -5194,7 +5245,7 @@
     {
      "time": "上午",
      "category": "政治",
-     "tag": "tag",
+     "tag": "political-tag",
      "title": "伊朗议会拒绝备忘录，称其为'美国愿望清单'",
      "content": "伊朗伊斯兰议会国家安全与外交政策委员会发言人Ebrahim Rezaei 5月6日在X平台发文，将14点备忘录描述为'更像是美国的愿望清单而非现实'。他警告，'美国将不会在他们正在输掉的战争中得到他们在面对面谈判中没得到的东西'。他还称伊朗'已准备就绪，手指扣在扳机上'，如果美方拒绝给予更多让步，将以军事行动回应。这反映出伊朗内部强硬派对协议的抵触，与议会261名议员4月27-28日支持Ghalibaf谈判团队的声明形成对比，显示德黑兰决策圈存在公开分歧。",
      "major": false,
@@ -5242,7 +5293,7 @@
     {
      "time": "全天",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "以军继续对黎巴嫩南部真主党发动密集空袭",
      "content": "以色列国防军持续对黎巴嫩南部真主党基础设施和战斗人员发动高频率空袭。自5月1日以来以军已对黎巴嫩南部至少120个真主党目标实施打击，这是停火以来单日空袭频率最高的时期之一。真主党使用FPV无人机进行反击。",
      "major": false,
@@ -5354,7 +5405,7 @@
     {
      "time": "全天",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "以军对黎巴嫩南部真主党发动120余次空袭",
      "content": "以色列国防军在5月1日以来对黎巴嫩南部真主党目标和战斗人员发动了至少120次空袭，这是自停火以来以军在黎巴嫩南部单日空袭频率最高的一次。真主党继续使用FPV无人机袭击以色列在黎巴嫩南部的部队。",
      "major": false,
@@ -5423,7 +5474,7 @@
     {
      "time": "下午",
      "category": "经济",
-     "tag": "tag",
+     "tag": "major-tag",
      "title": "美财政部制裁伊朗逃避制裁银行网络",
      "content": "美国财政部将三个伊朗银行网络及其关联空壳公司列入制裁名单，这些实体每年在伊朗'影子银行'网络中进行数百亿美元贸易。此前4月28日美财政部已制裁35个参与伊朗影子银行网络的实体和个人。美国还冻结了与伊朗相关的3.44亿美元加密货币。",
      "major": false,
@@ -5472,7 +5523,7 @@
     {
      "time": "全天",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "美国继续维持对伊朗港口封锁，拦截伊朗油轮",
      "content": "美国中央司令部继续执行对伊朗港口的封锁，拦截试图驶往伊朗港口的受制裁伊朗旗油轮。美国国防部长赫格塞斯重申美国将继续执行封锁。美伊谈判在取消后仍无进展，局势持续僵持。",
      "major": false,
@@ -5546,7 +5597,7 @@
     {
      "time": "下午",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "美方在海湾加强护航，Rubio反对伊朗对霍尔木兹通行收费",
      "content": "美国国务卿Rubio 4月28日接受Fox News采访时明确表态，美国'不容忍'伊朗'将通行权货币化'的企图，称'如果他们所说的开通海峡是指'海峡是开放的，但需要与伊朗协调、获得他们许可、否则会被攻击并支付费用'，那不是开通海峡，而是非法占有国际水道'。同日，美军中央司令部公布'自由计划'（Project Freedom），为滞留商船提供美海军护航，护航区域设在海峡主航道以南。",
      "major": false,
@@ -5604,7 +5655,7 @@
     {
      "time": "上午",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "路透独家：特朗普支持率因伊朗战事跌至历史新低",
      "content": "路透社4月28日发布的独家民调显示，美国总统特朗普的支持率因美伊战事跌至历史新低。报道指出，油价飙升、美国国内通胀压力加大以及'伊朗已崩溃'叙事的反复都成为拖累其支持率的关键因素。油价方面，4月28日Brent原油开盘价约$109.96/桶，世行警告2026年能源价格将上涨24%。",
      "major": false,
@@ -5626,7 +5677,7 @@
     {
      "time": "下午",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "真主党持续使用FPV无人机袭击黎巴嫩南部以军",
      "content": "真主党继续在停火期间使用第一人称视角(FPV)无人机对黎巴嫩南部的以色列国防军车辆发动袭击。真主党公布了4月13日和15日的FPV无人机攻击以军车辆的 视频。以色列媒体注意到真主党近几周越来越多地使用FPV无人机。美国继续维持对伊朗港口的封锁。",
      "major": false,
@@ -5653,7 +5704,7 @@
     {
      "time": "下午",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "以色列对黎巴嫩南部真主党目标发动空袭",
      "content": "以色列军队对黎巴嫩南部真主党目标发动空袭。以色列总理内塔尼亚胡此前下令军方\"猛烈攻击\"黎巴嫩真主党目标，尽管此前特朗普表示以黎停火协议已延长三周。真主党继续使用光纤FPV无人机对以军车辆发动攻击。",
      "major": false,
@@ -5706,7 +5757,7 @@
     {
      "time": "全天",
      "category": "经济",
-     "tag": "tag",
+     "tag": "major-tag",
      "title": "美国财政部制裁中国恒力石化及40家航运公司",
      "content": "美国财政部对中国恒力石化炼油有限公司实施制裁，该公司是伊朗最大原油客户之一。财政部还针对40家参与运输伊朗石油的航运公司和船只。此外，美国近期冻结了与伊朗相关的3.44亿美元加密货币。这些措施进一步加大了对伊朗经济的压力。",
      "major": false,
@@ -5727,7 +5778,7 @@
     {
      "time": "下午",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "真主党对以色列北部和黎巴嫩南部以军发动小规模袭击",
      "content": "真主党声称在4月24日和25日分别对黎巴嫩南部的以色列国防军车辆发动了两次无人机袭击。以色列军方报告真主党还向以色列北部城镇发射了两枚火箭弹和两架无人机，落在空旷地区，未造成伤亡。真主党官员称停火协议\"毫无意义\"。ISW评估认为真主党正进行小规模象征性攻击，既展示能力又避免引发大规模报复。",
      "major": false,
@@ -5832,7 +5883,7 @@
     {
      "time": "下午",
      "category": "政治",
-     "tag": "tag",
+     "tag": "political-tag",
      "title": "以色列总理内塔尼亚胡披露隐瞒的前列腺癌诊断",
      "content": "以色列总理本雅明·内塔尼亚胡披露他在伊朗战争期间被诊断出早期前列腺癌并接受了放疗，但选择对公众隐瞒病情。内塔尼亚胡现年76岁，声称隐瞒是因为担心伊朗会利用这一信息。其办公室表示他目前已无癌症。",
      "major": false,
@@ -5848,7 +5899,7 @@
     {
      "time": "下午",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "疑似伊朗支持的伊拉克民兵用无人机袭击科威特北部边境",
      "content": "科威特军方称两架来自伊拉克的无人机袭击了科威特北部边境哨所，未造成人员伤亡。伊拉克总理下令成立调查委员会。ISW评估称这些可能是伊朗支持的伊拉克民兵所为。",
      "major": false,
@@ -5917,7 +5968,7 @@
     {
      "time": "下午",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "以军空袭黎巴嫩南部致3人死亡",
      "content": "黎巴嫩公共卫生部称，以色列空袭黎巴嫩南部造成3人死亡。当天以黎双方在华盛顿白宫举行大使级会谈。",
      "major": false,
@@ -5949,7 +6000,7 @@
     {
      "time": "上午",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "真主党连续第三天攻击以军",
      "content": "真主党对黎巴嫩南部泰拜赫地区的以军发动反坦克导弹和FPV无人机攻击，连续第三天违反停火协议。以色列军方称正为停火可能随时崩溃做准备，指责真主党在停火期间重组力量。",
      "major": false,
@@ -5965,7 +6016,7 @@
     {
      "time": "上午",
      "category": "外交",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "title": "以色列外长称以黎将在华盛顿举行直接对话",
      "content": "以色列外交部长萨尔表示，以色列与黎巴嫩将于4月23日在美国华盛顿进行直接对话。萨尔称以色列与黎巴嫩没有严重分歧，真主党是以色列与黎巴嫩和平与正常化的唯一障碍。",
      "major": false,
@@ -6025,7 +6076,7 @@
     {
      "time": "下午",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "真主党停火以来首次攻击以色列军队",
      "content": "真主党声称对黎巴嫩南部的以色列军队发动两次攻击，这是4月16日停火生效以来真主党首次对以军发动攻击。真主党称此举是为回应以色列对黎巴嫩平民的攻击和摧毁民居的行为。",
      "major": false,
@@ -6057,7 +6108,7 @@
     {
      "time": "上午",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "以军在宾特朱拜勒与真主党激战",
      "content": "以色列国防军第35伞兵旅旅长称，以军在黎巴嫩南部宾特朱拜勒与真主党进行激烈战斗，目前已全面出击。以军在该市中央区和体育场附近与真主党交火。宾特朱拜勒位于多条主要道路交汇处，具有重要战术意义。",
      "major": false,
@@ -6079,7 +6130,7 @@
     {
      "time": "下午",
      "category": "外交",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "title": "美国驻巴格达大使馆警告伊朗支持的伊拉克民兵策划袭击",
      "content": "美国驻巴格达大使馆警告称，伊朗支持的伊拉克民兵继续策划针对美国公民和目标的袭击。此前真主党旅证实，伊朗革命卫队圣城旅指挥官加尼4月18日在巴格达与伊拉克民兵领导人会面，讨论重启与美以冲突的准备工作。",
      "major": false,
@@ -6169,7 +6220,7 @@
     {
      "time": "下午",
      "category": "政治",
-     "tag": "tag",
+     "tag": "political-tag",
      "title": "以色列国防部长卡茨下令在黎巴嫩使用全力",
      "content": "以色列国防部长卡茨宣布，他和总理内塔尼亚胡已下令以色列国防军在地面和空中使用全力保护以色列北部社区安全。",
      "major": false,
@@ -6216,7 +6267,7 @@
     {
      "time": "上午",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "以军162师公布黎巴嫩南部战果",
      "content": "以色列国防军162装甲师报告，自冲突开始以来在黎巴嫩南部已打死250多名真主党武装人员，摧毁405多个真主党据点，缴获1000多件武器。该师自3月26日起在黎巴嫩南部开展行动。",
      "major": false,
@@ -6306,7 +6357,7 @@
     {
      "time": "上午",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "以军在黎巴嫩南部继续打击真主党",
      "content": "以色列国防军称在黎巴嫩南部安全区内对违反停火协议的真主党武装人员实施空袭和炮击。以军401装甲旅发现并打击一个接近以军前线防线的真主党小组。",
      "major": false,
@@ -6433,7 +6484,7 @@
     {
      "time": "下午",
      "category": "外交",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "title": "巴基斯坦斡旋美伊谈判取得重大进展",
      "content": "巴基斯坦官员表示在巴基斯坦的斡旋下，美伊谈判有望取得重大突破。巴基斯坦陆军参谋长阿西姆·穆尼尔率领的高级代表团抵达德黑兰。双方正在讨论临时协议，但在铀浓缩期限问题上仍存在分歧。伊朗提议暂停5年，美国要求20年禁令。",
      "major": true,
@@ -6454,7 +6505,7 @@
     {
      "time": "上午",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "美军澄清伊朗港口封锁细节",
      "content": "美军中央司令部澄清伊朗港口封锁的实施细节，表示封锁已全面实施，进出伊朗的海运贸易已完全停止。封锁针对所有进入或离开伊朗沿海地区的各国船只，但不影响前往非伊朗港口的船只通行。",
      "major": false,
@@ -6518,7 +6569,7 @@
     {
      "time": "下午",
      "category": "外交",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "title": "IAEA总干事呼吁对伊朗核计划实施严格核查",
      "content": "国际原子能机构总干事拉斐尔·格罗西表示，任何结束战争的协议都应包括对伊朗核计划的严格核查措施。他强调铀浓缩暂停期限是政治决定，需要美伊双方协商。格罗西警告说，任何没有严格监控的协议都是\"协议的幻觉\"。",
      "major": false,
@@ -6534,7 +6585,7 @@
     {
      "time": "上午",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "真主党向以色列北部发射约30枚火箭弹",
      "content": "真主党向以色列北部地区发射了约30枚火箭弹，以军防空系统进行了拦截。这是黎以谈判进行期间真主党继续展示武力的行动。",
      "major": false,
@@ -6582,7 +6633,7 @@
     {
      "time": "全天",
      "category": "政治",
-     "tag": "tag",
+     "tag": "political-tag",
      "title": "纽约反战示威者被捕，要求停止对以军售",
      "content": "约100名反战示威者在纽约参议员办公室外举行静坐示威，要求停止对以色列的武器销售。参议员桑德斯推动阻止超过6亿美元的炸弹运往以色列。",
      "major": false,
@@ -6603,7 +6654,7 @@
     {
      "time": "全天",
      "category": "经济",
-     "tag": "tag",
+     "tag": "major-tag",
      "title": "IMF下调全球增长预期，警告伊朗战争风险",
      "content": "国际货币基金组织下调2026年全球增长预期0.2个百分点至3.1%，警告美国伊朗战争的全球经济影响可能更加严重，如果冲突持续和能源价格上涨。",
      "major": false,
@@ -6619,7 +6670,7 @@
     {
      "time": "全天",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "多艘船只通过霍尔木兹海峡测试美国封锁",
      "content": "至少三艘与伊朗有关的船只在美国封锁开始后通过霍尔木兹海峡，包括两艘中国国有超级油轮。BBC Verify分析航运数据显示船只成功通过海峡。",
      "major": false,
@@ -6640,7 +6691,7 @@
     {
      "time": "全天",
      "category": "外交",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "title": "俄罗斯外长拉夫罗夫访华讨论中东危机",
      "content": "俄罗斯外长拉夫罗夫抵达北京，讨论中东危机和霍尔木兹海峡局势。中俄两国都谴责美国对伊朗的封锁行动，呼吁通过外交途径解决争端。",
      "major": false,
@@ -6666,7 +6717,7 @@
     {
      "time": "全天",
      "category": "外交",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "title": "中国谴责美国封锁行动危险且不负责任",
      "content": "中国外交部发言人郭嘉昆谴责美国对伊朗港口的封锁行动是危险且不负责任的行为，称其将加剧紧张局势并破坏本已脆弱的停火协议。中国国防部长董军确认中国船只继续在霍尔木兹海峡航行，强调与伊朗的经贸协议。中国否认向伊朗提供武器的报道。",
      "major": true,
@@ -6692,7 +6743,7 @@
     {
      "time": "全天",
      "category": "外交",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "title": "真主党表示不会遵守黎以谈判结果",
      "content": "真主党政治委员会成员Wafiq Safa表示，真主党对谈判结果不感兴趣也不关心。真主党领导人Naim Kassem敦促黎巴嫩退出与以色列的谈判。谈判旨在解除真主党武装，但真主党明确表示不会接受任何协议。",
      "major": true,
@@ -6777,7 +6828,7 @@
     {
      "time": "全天",
      "category": "外交",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "title": "英国不支持美国封锁行动",
      "content": "英国首相Starmer表示英国不支持美国对霍尔木兹海峡的封锁行动。西班牙国防部长也表示封锁\"毫无意义\"。欧洲多国对此表示担忧。",
      "major": false,
@@ -6798,7 +6849,7 @@
     {
      "time": "全天",
      "category": "经济",
-     "tag": "tag",
+     "tag": "major-tag",
      "title": "油价突破100美元/桶",
      "content": "原油价格因美国封锁威胁再次突破100美元/桶。市场担忧霍尔木兹海峡供应中断可能进一步推高能源价格。",
      "major": false,
@@ -6819,7 +6870,7 @@
     {
      "time": "全天",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "伊朗威胁海湾地区所有港口",
      "content": "伊朗军方称美国封锁计划是\"海盗行为\"，警告海湾和奥曼海的港口\"要么属于所有人，要么不属于任何人\"。伊朗军方表示将对美国的封锁行动做出回应。",
      "major": true,
@@ -6889,7 +6940,7 @@
     {
      "time": "全天",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "IDF参谋长下令军队进入高度戒备状态",
      "content": "以色列国防军参谋长Eyal Zamir下令军队进入高度戒备状态，准备可能与伊朗重新发生军事对抗。情报部门正在扩大伊朗目标库，空军准备打击方案。",
      "major": true,
@@ -6911,7 +6962,7 @@
     {
      "time": "全天",
      "category": "外交",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "title": "美伊停火谈判破裂，双方互相指责",
      "content": "美国和伊朗在巴基斯坦举行的面对面谈判于周日结束，未能达成结束战争的协议。美国副总统JD Vance表示谈判持续21小时后结束，双方将继续讨论。伊朗方面指责美方缺乏诚意。",
      "major": true,
@@ -6943,7 +6994,7 @@
     {
      "time": "全天",
      "category": "外交",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "title": "美伊开始在巴基斯坦举行历史性面对面谈判",
      "content": "美国副总统JD Vance与伊朗议长Mohammad Bagher Qalibaf率领各自代表团在伊斯兰堡开始历史性面对面谈判。伊朗提出10点方案要求战争结束和霍尔木兹海峡控制权，美国提出15点方案要求限制伊朗核计划。谈判持续超过21小时，双方分歧严重。伊朗要求黎巴嫩停火、释放被冻结资产、战争赔偿，美国要求伊朗放弃核武器计划。",
      "major": true,
@@ -6965,7 +7016,7 @@
     {
      "time": "全天",
      "category": "外交",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "title": "美伊准备停火谈判，内塔尼亚胡授权与黎巴嫩谈判",
      "content": "美伊双方准备在巴基斯坦举行高级别会谈，JD Vance将率美国代表团。内塔尼亚胡授权与黎巴嫩进行直接谈判。伊朗表示除非以色列停止对黎巴嫩袭击，否则不会参加谈判。伊朗议长Ghalibaf表示谈判前提是黎巴嫩停火和释放被冻结资产。",
      "major": true,
@@ -6992,7 +7043,7 @@
     {
      "time": "全天",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "停火第二天，以色列继续空袭黎巴嫩",
      "content": "停火第二天，以色列空军称对真主党发动了开战以来最大规模的空袭，打击约100个目标。内塔尼亚胡表示支持临时停火但强调这是暂时的。停火协议不适用于黎巴嫩战场。",
      "major": true,
@@ -7105,7 +7156,7 @@
     {
      "time": "全天",
      "category": "人道",
-     "tag": "tag",
+     "tag": "humanitarian-tag",
      "title": "海法遭伊朗导弹袭击4人死亡",
      "content": "伊朗导弹击中海法一栋住宅楼，造成4人死亡，包括一对父母及其儿子和儿子的伴侣。",
      "major": true,
@@ -7126,7 +7177,7 @@
     {
      "time": "全天",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "以军打击伊朗境内120多个目标",
      "content": "以军在过去一天打击伊朗中西部120多个目标，包括革命卫队弹道导弹阵地、无人机存储和发射阵地、防空阵地。以军称已摧毁真主党1000多名恐怖分子。以军战机打击伊朗西南部Mahshahr的石化综合设施，称其为生产和出口化学武器的重要设施。",
      "major": true,
@@ -7155,7 +7206,7 @@
     {
      "time": "全天",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "伊朗集束导弹击中特拉维夫IDF总部附近",
      "content": "伊朗集束炸弹在特拉维夫Kirya军事总部附近爆炸，造成4人轻伤。伊朗集束弹药在以色列中部10个地点爆炸。美军证实第二架战机在霍尔木兹海峡附近被击落。美以战机继续打击伊朗，包括Mahshahr石化区和布什尔核设施附近。",
      "major": true,
@@ -7189,7 +7240,7 @@
     {
      "time": "全天",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "美军F-15战机在伊朗被击落，以军摧毁70%伊朗钢铁产能",
      "content": "美军证实一架F-15E战机在伊朗被击落，这是战争开始以来首架在伊朗境内被击落的美军战机。以军宣布已摧毁伊朗70%的钢铁产能。伊朗导弹碎片击中海法多个地区，造成建筑和车辆损坏。以军在逾越节期间打击伊朗境内50多个弹道导弹阵地。",
      "major": true,
@@ -7218,7 +7269,7 @@
     {
      "time": "全天",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "以军消除伊朗弹道导弹部队指挥官",
      "content": "以军在克尔曼沙阿地区精确打击，消除伊朗西部中央导弹部队指挥官Makram Atimi。伊朗发射20多枚弹道导弹袭击以色列，约一半被拦截。真主党向以色列发射约120枚火箭弹。以军空袭德黑兰一处用于生产和组装弹道导弹弹头的关键设施，在48小时内打击约400个目标。",
      "major": true,
@@ -7250,7 +7301,7 @@
     {
      "time": "全天",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "伊朗发射第89波反击，逾越节期间大规模导弹袭击",
      "content": "【IRGC官方声明】伊朗革命卫队发射100多枚重型导弹和攻击无人机，打击美国和以色列目标，包括特拉维夫、海法和巴林的基地。这是开战以来最大规模的导弹齐射之一。以军对伊朗中部和西部地区发动大规模空袭，打击弹道导弹发射和存储设施、无人机生产设施和防空系统。",
      "major": true,
@@ -7272,10 +7323,10 @@
      "major": false,
      "disputed": false,
      "time": "下午",
-     "tag": "tag",
+     "tag": "military-tag",
      "category": "军事",
      "title": "以色列宣布将完成对伊朗所有关键军事生产设施打击",
-     "content": "以色列国防军发表声明，以色列空军将于4月1日完成对伊朗军事生产行业所有“关键”资产的打击，约占伊朗军事生产行业的70%。以军还表示未来其他非关键军事生产设施也可能被列为打击对象。\n                        \n                            新浪新闻",
+     "content": "以色列国防军发表声明，以色列空军将于4月1日完成对伊朗军事生产行业所有\"关键\"资产的打击，约占伊朗军事生产行业的70%。以军还表示未来其他非关键军事生产设施也可能被列为打击对象。\n                        \n                            新浪新闻",
      "sources": [
       {
        "url": "https://www.reuters.com/world/middle-east/israel-will-destroy-all-iran-military-facilities-2026-03-31/",
@@ -7300,9 +7351,9 @@
      "major": false,
      "disputed": true,
      "time": "晚上",
-     "tag": "tag",
+     "tag": "military-tag",
      "category": "军事",
-     "title": "以色列面临“七线作战”，兵力濒临崩溃",
+     "title": "以色列面临\"七线作战\"，兵力濒临崩溃",
      "content": "以军总参谋长扎米尔向安全内阁警告军队\"面临崩溃\"，反对派领袖拉皮德称预备役军人已进行第六、七轮轮换，\"精疲力竭\"。以军同时在伊朗、黎巴嫩、加沙、叙利亚、约旦河西岸等多条战线作战。Le Monde、Anadolu、Middle East Monitor等均有报道。",
      "sources": [
       {
@@ -7333,7 +7384,7 @@
      "tag": "major-tag",
      "category": "外交",
      "title": "特朗普发表紧急讲话，暗示两三周内结束军事行动",
-     "content": "白宫灯火通明，特朗普罕见发表紧急讲话，表示美军可能将在两到三周内结束针对伊朗的军事行动，准备撤离中东。这一声明引发全球舆论哗然，与此前“让对手彻底回到石器时代”的强硬表态形成鲜明对比。\n                        \n                            今日头条",
+     "content": "白宫灯火通明，特朗普罕见发表紧急讲话，表示美军可能将在两到三周内结束针对伊朗的军事行动，准备撤离中东。这一声明引发全球舆论哗然，与此前\"让对手彻底回到石器时代\"的强硬表态形成鲜明对比。\n                        \n                            今日头条",
      "sources": [
       {
        "url": "https://www.news.cn/world/20260402/5f60e8d97a604e6ea3ea874b3294895d/c.html",
@@ -7352,7 +7403,7 @@
      "major": false,
      "disputed": false,
      "time": "上午",
-     "tag": "tag",
+     "tag": "military-tag",
      "category": "军事",
      "title": "伊朗打击以色列科技目标及沙特美军基地",
      "content": "伊朗军方于当地时31日凌晨出动攻击型无人机，打击以色列境内两处目标：位于本-古里安机场附近的德国西门子公司工业软件中心和位于海法的美国电话电报公司通信中心。\n                        \n                            今日头条",
@@ -7406,7 +7457,7 @@
      "major": false,
      "disputed": false,
      "time": "上午",
-     "tag": "tag",
+     "tag": "military-tag",
      "category": "军事",
      "title": "以色列空军空袭伊朗境内50处武器生产设施",
      "content": "以色列国防军发表声明，在过去一天内，以色列空军对伊朗境内50处武器生产设施及研发场所实施军事打击，在早间一轮空袭中投下约80枚炸弹，目标包括弹道导弹发动机关键部件生产设施。\n                        \n                            新浪新闻",
@@ -7437,6 +7488,11 @@
        "url": "https://www.163.com/dy/article/KPJOMLEO05567TRE.html",
        "name": "网易新闻",
        "priority": 2
+      },
+      {
+       "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-march-31-2026/",
+       "name": "ISW战争研究所",
+       "priority": 1
       }
      ],
      "needs_verification": false,
@@ -7444,7 +7500,7 @@
       "❌ 无来源",
       "❌ 有效来源不足2个（现有0个）"
      ],
-     "verification_status": "single_authoritative"
+     "verification_status": "verified"
     }
    ]
   },
@@ -7456,7 +7512,7 @@
      "major": false,
      "disputed": false,
      "time": "晚上",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "category": "外交",
      "title": "中国外交部就伊朗战争局势表态",
      "content": "中国外交部发言人毛宁主持例行记者会，就美以与伊朗战争局势表态，呼吁各方保持克制，通过外交途径解决争端。\n                        \n                            中国外交部",
@@ -7481,7 +7537,7 @@
      "tag": "major-tag",
      "category": "军事",
      "title": "伊朗革命卫队海军司令坦格西里阵亡",
-     "content": "伊朗伊斯兰革命卫队发表声明，悟念革命卫队海军司令阿里礼萨·坦格西里。声明称坦格西里因伤势过重身亡，伊斯兰革命卫队将“永不停止战斗，直至敌人被彻底消灭”。\n                        \n                            新华社",
+     "content": "伊朗伊斯兰革命卫队发表声明，悟念革命卫队海军司令阿里礼萨·坦格西里。声明称坦格西里因伤势过重身亡，伊斯兰革命卫队将\"永不停止战斗，直至敌人被彻底消灭\"。\n                        \n                            新华社",
      "sources": [
       {
        "url": "https://www.news.cn/world/20260326/ce83ab1e1d6843ee928861ebb5f8a8e2/c.html",
@@ -7500,10 +7556,10 @@
      "major": false,
      "disputed": false,
      "time": "下午",
-     "tag": "tag",
+     "tag": "military-tag",
      "category": "军事",
-     "title": "以色列宣布军事目标进入“收尾阶段”",
-     "content": "以色列军方和领导人表示，在与伊朗开战一个月后，以色列几乎完成了对冲突开始时自行确定的所有目标的轰炸，以色列在伊朗的军事目标已进入“收尾阶段”。以色列政治领导层命令军队转向打击伊朗政权的“经济”目标。\n                        \n                            新浪新闻",
+     "title": "以色列宣布军事目标进入\"收尾阶段\"",
+     "content": "以色列军方和领导人表示，在与伊朗开战一个月后，以色列几乎完成了对冲突开始时自行确定的所有目标的轰炸，以色列在伊朗的军事目标已进入\"收尾阶段\"。以色列政治领导层命令军队转向打击伊朗政权的\"经济\"目标。\n                        \n                            新浪新闻",
      "sources": [
       {
        "url": "https://www.news.cn/world/20260330/9f3ed09e09c8421bb08ee61c114fa897/c.html",
@@ -7530,7 +7586,7 @@
      "major": false,
      "disputed": false,
      "time": "上午",
-     "tag": "tag",
+     "tag": "military-tag",
      "category": "军事",
      "title": "伊朗军队无人机打击以色列军工设施",
      "content": "伊朗军队出动多型无人机，打击位于特拉维夫和以色列北部地区的多家军工企业，涉及电子战、无人机制造以及防空系统等领域。\n                        \n                            新华社",
@@ -7560,7 +7616,7 @@
      "tag": "major-tag",
      "category": "军事",
      "title": "伊朗导弹命中海法巴赞炼油厂",
-     "content": "伊朗革命卫队向以色列北部城市海法发射多枚弹道导弹，命中巴赞炼油厂，厂区燃起大火，浓烟直冲地中海沿岸上空。革命卫队发言人拉米赞·谢里夫确认此次打击。内塔尼亚胡称其为“踵踏以色列主权、极具毁灭性的致命袭击”。\n                        \n                            新浪新闻\n                            搜狐新闻",
+     "content": "伊朗革命卫队向以色列北部城市海法发射多枚弹道导弹，命中巴赞炼油厂，厂区燃起大火，浓烟直冲地中海沿岸上空。革命卫队发言人拉米赞·谢里夫确认此次打击。内塔尼亚胡称其为\"踵踏以色列主权、极具毁灭性的致命袭击\"。\n                        \n                            新浪新闻\n                            搜狐新闻",
      "sources": [
       {
        "url": "https://www.reuters.com/world/middle-east/missile-hits-fuel-tanker-israels-oil-refineries-2026-03-30",
@@ -7579,7 +7635,7 @@
      "major": false,
      "disputed": false,
      "time": "凌晨",
-     "tag": "tag",
+     "tag": "political-tag",
      "category": "政治",
      "title": "以色列议会通过2026年国防预算",
      "content": "以色列议会以62票赞成、55票反对通过2026年国防预算，金额超过450亿美元，创历史新高。内塔尼亚胡政府借此确保战争军费来源，无需提前大选。\n                        \n                            新浪新闻",
@@ -7603,8 +7659,8 @@
      "time": "凌晨",
      "tag": "major-tag",
      "category": "军事",
-     "title": "伊朗发动“真实承诺-4”第87波攻击",
-     "content": "【IRGC官方声明】伊朗伊斯兰革命卫队凌晨发动“真实承诺-4”行动第87波攻击，动用“伊玛德”“吉亚姆”“霍拉姆沙赫尔”等型号弹道导弹及攻击型无人机，对以色列及美军目标实施打击。\n                        \n                            搜狐新闻\n                            新浪新闻",
+     "title": "伊朗发动\"真实承诺-4\"第87波攻击",
+     "content": "【IRGC官方声明】伊朗伊斯兰革命卫队凌晨发动\"真实承诺-4\"行动第87波攻击，动用\"伊玛德\"\"吉亚姆\"\"霍拉姆沙赫尔\"等型号弹道导弹及攻击型无人机，对以色列及美军目标实施打击。\n                        \n                            搜狐新闻\n                            新浪新闻",
      "sources": [
       {
        "url": "https://www.news.cn/world/20260327/52df323ac5ab48d58d41b308f37ba7ec/c.html",
@@ -7629,7 +7685,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "humanitarian-tag",
      "category": "人道",
      "title": "伊朗安全部队被指在民用设施内活动，以平民做人盾",
      "content": "据两名伊朗公民向耶路撒冷邮报透露，伊朗安全部队采用多种方式躲避以美打击：包括在学校、大学内部署；在平民医院内开会；使用民用服装携带武器；设立检查站故意制造交通拥堵；招募年轻人加入\"巴斯基青年\"武装部队。德黑兰等多个城市已发生针对此类聚集地的打击。（待核实）\n                        \n                        \n                            耶路撒冷邮报",
@@ -7637,27 +7693,10 @@
       {
        "url": "https://www.jpost.com/middle-east/iran-news/article-891362",
        "name": "耶路撒冷邮报"
-      }
-     ],
-     "needs_verification": false,
-     "quality_issues": [
-      "⚠️ 只有1个来源（需要≥2个）",
-      "❌ 有效来源不足2个（现有1个）"
-     ],
-     "verification_status": "verified"
-    },
-    {
-     "major": false,
-     "disputed": false,
-     "time": "全天",
-     "tag": "tag",
-     "category": "外交",
-     "title": "伊朗强硬派加紧要求研制核弹，IRGC推动退出《核不扩散条约》",
-     "content": "据路透社和两名伊朗高级消息人士，随着IRGC在前最高领袖哈梅内伊被杀后占据主导地位，伊朗强硬派关于是否应发展核弹的争论日益公开化。IRGC附属通讯社刊文呼吁尽快退出《核不扩散条约》，强硬派议员也发出类似呼吁。不过有消息人士称目前尚无改变核政策的具体计划。（待核实）\n                        \n                        \n                            耶路撒冷邮报（Reuters）",
-     "sources": [
+      },
       {
-       "url": "https://www.jpost.com/middle-east/iran-news/article-891375",
-       "name": "耶路撒冷邮报",
+       "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-march-29-2026/",
+       "name": "ISW战争研究所",
        "priority": 1
       }
      ],
@@ -7672,7 +7711,34 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
+     "category": "外交",
+     "title": "伊朗强硬派加紧要求研制核弹，IRGC推动退出《核不扩散条约》",
+     "content": "据路透社和两名伊朗高级消息人士，随着IRGC在前最高领袖哈梅内伊被杀后占据主导地位，伊朗强硬派关于是否应发展核弹的争论日益公开化。IRGC附属通讯社刊文呼吁尽快退出《核不扩散条约》，强硬派议员也发出类似呼吁。不过有消息人士称目前尚无改变核政策的具体计划。（待核实）\n                        \n                        \n                            耶路撒冷邮报（Reuters）",
+     "sources": [
+      {
+       "url": "https://www.jpost.com/middle-east/iran-news/article-891375",
+       "name": "耶路撒冷邮报",
+       "priority": 1
+      },
+      {
+       "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-march-29-2026/",
+       "name": "ISW战争研究所",
+       "priority": 1
+      }
+     ],
+     "needs_verification": false,
+     "quality_issues": [
+      "⚠️ 只有1个来源（需要≥2个）",
+      "❌ 有效来源不足2个（现有1个）"
+     ],
+     "verification_status": "verified"
+    },
+    {
+     "major": false,
+     "disputed": false,
+     "time": "全天",
+     "tag": "diplomatic-tag",
      "category": "外交",
      "title": "以色列将伊朗外长阿拔奇奇和议长卡利巴夫从暗杀名单移除",
      "content": "据France24报道，以色列在巴基斯坦提出请求后，将伊朗外交部长阿拔奇奇和议长卡利巴夫从暗杀名单中移除。巴基斯坦呼吁美国不要将此二人作为打击目标。（待核实）\n                        \n                        \n                            France24",
@@ -7694,7 +7760,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "humanitarian-tag",
      "category": "人道",
      "title": "伊朗导弹无人机袭击科威特港口及沙特，多国受损",
      "content": "伊朗使用无人机和巡航导弹袭击科威特穆巴拉克·阿卡比尔港和舒瓦ikh港，科威特公共工程部确认袭击事件，造成物质损失无人员伤亡。沙特国防部宣布伊朗向利雅得发射至少6枚弹道导弹（其中2枚被拦截，4枚落入阿拉伯湾），并向利雅得发射至少9架无人机（大部分被拦截，碎片落入军事基地附近，未造成伤亡）。（待核实）\n                        \n                        \n                            耶路撒冷邮报（沙特国防部）",
@@ -7702,6 +7768,11 @@
       {
        "url": "https://www.jpost.com/middle-east/iran-news/article-891416",
        "name": "耶路撒冷邮报",
+       "priority": 1
+      },
+      {
+       "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-march-29-2026/",
+       "name": "ISW战争研究所",
        "priority": 1
       }
      ],
@@ -7724,6 +7795,11 @@
       {
        "url": "https://www.jpost.com/middle-east/iran-news/article-891416",
        "name": "耶路撒冷邮报"
+      },
+      {
+       "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-march-29-2026/",
+       "name": "ISW战争研究所",
+       "priority": 1
       }
      ],
      "needs_verification": false,
@@ -7737,7 +7813,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "category": "外交",
      "title": "美国考虑再向中东增派10000地面部队，82空降师已部署",
      "content": "《华尔街日报》援引美国国防部官员报道，美国正在考虑向中东增派多达10000名地面部队（含步兵和装甲车辆），以向特朗普提供更多\"军事选项\"。国防部副部长发言人表示：\"所有部队部署公告都将由国防部发布，总统始终拥有所有军事选项。\"（待核实，WSJ独家）\n                        \n                        \n                            耶路撒冷邮报（WSJ）",
@@ -7745,6 +7821,11 @@
       {
        "url": "https://www.jpost.com/middle-east/iran-news/article-891382",
        "name": "耶路撒冷邮报",
+       "priority": 1
+      },
+      {
+       "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-march-29-2026/",
+       "name": "ISW战争研究所",
        "priority": 1
       }
      ],
@@ -7768,6 +7849,11 @@
        "url": "https://www.jpost.com/middle-east/iran-news/article-891429",
        "name": "耶路撒冷邮报",
        "priority": 1
+      },
+      {
+       "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-march-29-2026/",
+       "name": "ISW战争研究所",
+       "priority": 1
       }
      ],
      "needs_verification": false,
@@ -7781,7 +7867,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "category": "外交",
      "title": "特朗普称美伊正在谈判，提议将霍尔木兹海峡改名为\"特朗普海峡\"",
      "content": "特朗普在迈阿密FII优先峰会上称美国正在与伊朗就霍尔木兹海峡问题谈判，开玩笑说要将海峡改名为\"特朗普海峡\"作为停战条件。他同时表示希望重启亚伯拉罕协议新成员国的谈判，并称\"47年来，伊朗一直是中东的恶霸，但现在不再是了\"。（多源证实）\n                        \n                        \n                            耶路撒冷邮报",
@@ -7789,6 +7875,11 @@
       {
        "url": "https://www.jpost.com/middle-east/iran-news/article-891446",
        "name": "耶路撒冷邮报"
+      },
+      {
+       "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-march-29-2026/",
+       "name": "ISW战争研究所",
+       "priority": 1
       }
      ],
      "needs_verification": false,
@@ -7811,6 +7902,11 @@
        "url": "https://www.jpost.com/middle-east/iran-news/article-891445",
        "name": "耶路撒冷邮报",
        "priority": 1
+      },
+      {
+       "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-march-29-2026/",
+       "name": "ISW战争研究所",
+       "priority": 1
       }
      ],
      "needs_verification": false,
@@ -7824,7 +7920,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "humanitarian-tag",
      "category": "人道",
      "title": "联合国：伊朗82000栋民用建筑受损，180000人家园被毁",
      "content": "国际移民组织报告，伊朗32个省中20个省的82000栋民用建筑（包括医院和住宅）受损，180000人的家园被毁。挪威难民委员会秘书长埃格兰警告：\"如果战争继续，我们面临更大范围的人道主义灾难，数百万人可能被迫越境逃离。\"",
@@ -7846,7 +7942,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "category": "外交",
      "title": "特朗普将伊朗能源设施打击截止日期延至4月6日",
      "content": "特朗普将此前威胁打击伊朗能源设施的截止日期从3月27日延至4月6日，称谈判进展\"非常顺利\"。但伊朗否认正在进行任何谈判，称美国是在\"自己和自己谈判\"。美国通过巴基斯坦向伊朗递交了包含15项条件的停火方案，伊朗已拒绝并提出自己的5点方案。",
@@ -7868,7 +7964,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "category": "外交",
      "title": "以色列导弹发射架摧毁报告：470个中仅剩不到180个可用",
      "content": "据以色列情报总局向国防部长卡茨提交的报告，伊朗约470个导弹发射架中，不到180个（40%）仍可运作，其余已被严重损毁或摧毁。伊朗制造业已陷入瘫痪，无法在战时生产新发射架，导致其每日发射100枚导弹的原计划难以实现。此外，革命卫队导弹部队中出现越来越多拒绝进入发射阵地的迹象。（待核实，以方单一来源）\n                        \n                        \n                            耶路撒冷邮报",
@@ -7876,6 +7972,11 @@
       {
        "url": "https://www.jpost.com/israel-news/defense-news/article-891389",
        "name": "耶路撒冷邮报"
+      },
+      {
+       "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-march-29-2026/",
+       "name": "ISW战争研究所",
+       "priority": 1
       }
      ],
      "needs_verification": false,
@@ -7911,7 +8012,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "category": "外交",
      "title": "G7外长发表声明，呼吁立即停止攻击平民及基础设施",
      "content": "G7国家外长在巴黎郊外举行会议，通过关于伊朗问题的声明，呼吁立即停止针对平民和基础设施的攻击。法国外长巴罗表示：\"任何情况下都不能在武装冲突中故意以平民为目标。\"声明同时强调必须永久恢复霍尔木兹海峡的自由航行。美国国务卿鲁比奥出席会议。",
@@ -8017,6 +8118,11 @@
       {
        "url": "https://www.jpost.com/middle-east/iran-news/article-891444",
        "name": "耶路撒冷邮报"
+      },
+      {
+       "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-march-29-2026/",
+       "name": "ISW战争研究所",
+       "priority": 1
       }
      ],
      "needs_verification": false,
@@ -8064,7 +8170,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "category": "外交",
      "title": "五角大楼制定对伊朗\"决定性打击\"方案",
      "content": "据媒体Axios援引知情消息人士和2名官员的话报道，五角大楼正在制定对伊朗实施\"决定性打击\"的方案，其中包括动用地面部队和大规模轰炸。这意味着美国可能升级军事介入程度。\n                        \n                        \n                            俄罗斯卫星通讯社",
@@ -8072,6 +8178,11 @@
       {
        "url": "https://sputniknews.cn/20260327/1070462308.html",
        "name": "俄罗斯卫星通讯社"
+      },
+      {
+       "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-march-28-2026/",
+       "name": "ISW战争研究所",
+       "priority": 1
       }
      ],
      "needs_verification": false,
@@ -8080,16 +8191,16 @@
       "❌ 来源#1URL问题: 未知域名: https://sputniknews.cn/20260327/1070462308.html",
       "❌ 有效来源不足2个（现有0个）"
      ],
-     "verification_status": "single_authoritative"
+     "verification_status": "verified"
     },
     {
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "category": "外交",
      "title": "乌干达军方领导人社交媒体发文支持以色列，但非官方政策",
-     "content": "乌干达国防军总司令穆胡齐·凯纳鲁加巴在社交媒体发文称“站在以色列一边”，声称一个旅“两周内可攻占德黑兰”。但这些是个人社交媒体言论，非官方声明。其父穆塞维尼总统次日会见伊朗大使讨论合作。耶路撒冷邮报、Fox News等均有报道。",
+     "content": "乌干达国防军总司令穆胡齐·凯纳鲁加巴在社交媒体发文称\"站在以色列一边\"，声称一个旅\"两周内可攻占德黑兰\"。但这些是个人社交媒体言论，非官方声明。其父穆塞维尼总统次日会见伊朗大使讨论合作。耶路撒冷邮报、Fox News等均有报道。",
      "sources": [
       {
        "name": "Jerusalem Post",
@@ -8139,7 +8250,7 @@
      "major": false,
      "disputed": false,
      "time": "晚上",
-     "tag": "tag",
+     "tag": "major-tag",
      "category": "分析",
      "title": "新华社分析：美国在伊朗战争中未能取得决定性成果，战略缺失与盟友分歧凸显",
      "content": "新华社3月27日发文分析称，尽管美国在火力上占据明显优势，但由于缺乏连贯战略、与盟友分歧加剧，以及低估伊朗的制度韧性，美国未能实现战争初期预期的目标。分析人士指出，外部军事压力反而强化了伊朗国内凝聚力，引发\"防御性民族主义\"，各阶层民众在外部威胁面前团结在政府周围。美国国家反恐中心主任乔·肯特因反对这场战争而辞职，其辞职信写道：\"我们是在以色列及其强大的美国游说团体的压力下发动了这场战争。\"\n                        \n                        \n                            新华社",
@@ -8190,7 +8301,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "major-tag",
      "category": "经济",
      "title": "伊朗威胁：若波斯湾受压，将在曼德海峡开辟新战线",
      "content": "据伊朗媒体援引伊军方人士消息报道，如果敌方试图对伊朗岛屿或本土发起地面行动，或者通过海军行动在波斯湾和阿曼湾对伊朗施压，伊朗将在曼德海峡开辟新的战线。曼德海峡是全球最重要的石油运输通道之一，此举将对国际能源市场产生重大影响。\n                        \n                        \n                            网易/新华社",
@@ -8267,7 +8378,7 @@
      "major": false,
      "disputed": false,
      "time": "下午",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "category": "外交",
      "title": "伊朗拒绝美国和平计划，称\"战争将在伊朗决定时结束\"",
      "content": "据法新社报道，伊朗官方电视台援引一名高级官员的话报道称，伊朗已拒绝美国提出的旨在结束中东战争的和平计划。该官员表示：\"战争将在伊朗决定它应该结束时结束，而非在特朗普设想它结束时结束。\"伊朗外交部长阿拉格齐也强调，经由调解方\"交流信息\"并不意味着与美国进行谈判，伊朗要求敌对方按照伊朗提出的要求结束战争，并赔偿伊朗人民遭受的损失。\n                        \n                        \n                            今日头条",
@@ -8290,7 +8401,7 @@
      "major": false,
      "disputed": false,
      "time": "上午",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "category": "外交",
      "title": "伊朗外长：以色列将美国推向冲突，美伊未举行谈判",
      "content": "伊朗外交部长阿拉格齐接受国家电视台采访时表示，当前这场战争既不是伊朗的战争，也不是美国的战争，而是以色列将美国推向冲突。阿拉格齐称，美伊迄今未举行谈判，同时强调希望按伊方条件结束战争。\n                        \n                        \n                            腾讯网/财联社\n                            企鹅号",
@@ -8343,13 +8454,18 @@
       {
        "url": "https://sputniknews.cn/20260326/1070449282.html",
        "name": "俄罗斯卫星通讯社"
+      },
+      {
+       "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-march-27-2026/",
+       "name": "ISW战争研究所",
+       "priority": 1
       }
      ],
      "needs_verification": false,
      "quality_issues": [
       "❌ 来源#3URL问题: 未知域名: https://sputniknews.cn/20260326/1070449282.html"
      ],
-     "verification_status": "single_authoritative"
+     "verification_status": "verified"
     }
    ]
   },
@@ -8361,7 +8477,7 @@
      "major": false,
      "disputed": true,
      "time": "全天",
-     "tag": "tag",
+     "tag": "major-tag",
      "category": "分析",
      "title": "美以袭击伊朗造成大量学生和教师遇难",
      "content": "伊朗教育部及多家媒体报道，美国和以色列的袭击已导致伊朗大量学生和教师丧生，教育设施遭到严重破坏。\n                            \n                                不同来源数据：\n                                【俄罗斯卫星通讯社】230名学生和教师遇难\n                                【腾讯/伊朗红新月会】平民必须得到尊重和支持（未给具体数字）\n                                【今日头条】208名未成年人死亡 / 165名女子小学遇难\n                                【企鹅号】210名师生遇难 / 175名师生身亡\n                                说明：各媒体报道数字存在差异，建议以官方最终通报为准。",
@@ -8520,20 +8636,13 @@
      "content": "伊朗革命卫队宣称在恰巴哈尔附近击落一架美军F-18战斗机。美军中央司令部(CENTCOM)明确否认。事实核查机构Misbar分析视频后发现飞机存活并继续飞行。该说法未获证实。",
      "sources": [
       {
-       "name": "Press TV (IRGC声明)",
-       "url": "https://twitter.com/PressTV/status/2036852295036461082"
-      },
-      {
-       "name": "CENTCOM (美方否认)",
-       "url": "https://twitter.com/CENTCOM/status/2036869094595568037"
-      },
-      {
-       "name": "Meaww Fact Check",
-       "url": "https://news.meaww.com/fact-check-is-irans-claim-it-shot-down-an-american-f-18-jet-true"
-      },
-      {
        "name": "Türkiye Today",
        "url": "https://www.turkiyetoday.com/region/irans-revolutionary-guard-claims-shootdown-of-us-f-18-fighter-jet-over-southern-iran-3216887"
+      },
+      {
+       "url": "https://www.aljazeera.com/news/2026/3/25/iran-claims-it-shot-down-us-fighter-jet-pentagon-denies",
+       "name": "半岛电视台",
+       "priority": 1
       }
      ],
      "needs_verification": false,
@@ -8572,7 +8681,7 @@
      "major": false,
      "disputed": false,
      "time": "凌晨",
-     "tag": "tag",
+     "tag": "major-tag",
      "category": "经济",
      "title": "伊朗MaRV导弹撕破爱国者防线，搅动全球能源市场",
      "content": "2026年3月中旬，伊朗对卡塔尔拉斯拉凡天然气综合设施发动导弹打击，引发全球能源与安全震动。伊朗动用具备末端机动能力的MaRV导弹成功突破防御。\n                        \n                        \n                            腾讯网",
@@ -8581,6 +8690,11 @@
        "url": "https://new.qq.com/rain/a/20260324A000PH00",
        "name": "腾讯新闻",
        "priority": 2
+      },
+      {
+       "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-march-25-2026/",
+       "name": "ISW战争研究所",
+       "priority": 1
       }
      ],
      "needs_verification": false,
@@ -8588,7 +8702,7 @@
       "⚠️ 只有1个来源（需要≥2个）",
       "❌ 有效来源不足2个（现有1个）"
      ],
-     "verification_status": "single_authoritative"
+     "verification_status": "verified"
     }
    ]
   },
@@ -8600,7 +8714,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "major-tag",
      "category": "经济",
      "title": "特朗普要求伊朗48小时内开放霍尔木兹海峡，否则将打击发电厂",
      "content": "美国总统特朗普限伊朗48小时开放霍尔木兹海峡，否则将打击其发电厂，伊朗强硬回应，表示若遭袭将全面关闭霍尔木兹海峡。\n                        \n                        \n                            安徽网",
@@ -8669,7 +8783,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "major-tag",
      "category": "经济",
      "title": "美以对伊朗军事打击进入第23天：伊朗表示不寻求与伊斯兰国家冲突",
      "content": "伊朗总统佩泽希齐扬表示，伊朗不寻求同伊斯兰国家发生冲突或战争。伊朗伊斯兰议会议长卡利巴夫说，一旦伊朗发电站等基础设施成为打击目标，整个中东地区的能源和石油供应将受到严重影响。\n                        \n                        \n                            中国网",
@@ -8697,7 +8811,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "category": "外交",
      "title": "伊朗提出停战六项条件，包括关闭中东地区美军基地",
      "content": "伊朗宣布使用造价低廉、可快速量产的新型无人机打击以色列本-古里安机场，并提出包含关闭中东地区美军基地在内的六项停战条件。\n                        \n                        \n                            企鹅号",
@@ -8746,7 +8860,7 @@
     {
      "time": "下午",
      "category": "军事",
-     "tag": "tag",
+     "tag": "military-tag",
      "title": "以军空袭德黑兰发动新一轮打击",
      "content": "以色列国防军表示对伊朗首都德黑兰发动新一轮空袭。此前一天以军通报过去一周打死3名伊朗高级官员，将继续在世界各地追杀伊朗高级官员。3月21日为伊朗新年诺鲁孜节。",
      "major": false,
@@ -8826,7 +8940,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "major-tag",
      "category": "经济",
      "title": "霍尔木兹海峡对峙升级，双方互相发出最后通牒",
      "content": "霍尔木兹海峡对峙升级，伊朗官员提出停战六项条件。特朗普限伊朗48小时开放霍尔木兹海峡，否则将打击其发电厂，伊朗强硬回应。\n                        \n                        \n                            安徽网",
@@ -8855,7 +8969,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "military-tag",
      "category": "军事",
      "title": "以色列宣布\"深化\"地面攻势，轰炸黎巴嫩多座桥梁",
      "content": "以军宣布\"深化\"地面攻势，轰炸黎巴嫩多座桥梁。伊朗采用全新战术及升级武器装备回应美以联合打击。\n                        \n                        \n                            安徽网",
@@ -8872,7 +8986,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "humanitarian-tag",
      "category": "人道",
      "title": "允许有限人员双向通行 拉法口岸18日起重新开放",
      "content": "以色列国防部方面15日称，加沙地带拉法口岸定于18日起双向重新开放，允许有限人员双向通行。拉法口岸位于加沙地带南部与埃及交界处，对加沙地带人道主义援助至关重要。2024年5月，以军控制了拉法口岸巴方一侧。以色列与美国2月28日联手对伊朗发起大规模军事行动首日，以方以安全为由关闭拉法口岸。\n                        \n                        \n                            央视新闻\n                            NBC News",
@@ -8900,7 +9014,7 @@
      "major": false,
      "disputed": false,
      "time": "夜间",
-     "tag": "tag",
+     "tag": "military-tag",
      "category": "军事",
      "title": "伊拉克民兵无人机袭击巴格达绿区美国大使馆",
      "content": "伊拉克\"伊斯兰抵抗组织\"宣称使用无人机袭击了巴格达绿区内的美国大使馆，造成使馆区域部分设施受损。这是伊拉克民兵武装对美军在中东存在持续施压的最新行动。\n                        \n                        \n                            腾讯新闻",
@@ -8999,7 +9113,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "category": "外交",
      "title": "北约明确表态不参战",
      "content": "北约明确表态不会参与美伊冲突。多数北约盟友告知美方不愿介入伊朗军事行动。特朗普后来批评北约拒绝协助是\"非常愚蠢的错误\"。意大利于3月15日宣布不参战并开始撤回军队。\n                        \n                        \n                            央视新闻\n                            Reuters",
@@ -9026,7 +9140,7 @@
      "major": false,
      "disputed": false,
      "time": "夜间",
-     "tag": "tag",
+     "tag": "humanitarian-tag",
      "category": "人道",
      "title": "伊朗：逾4.3万处民用设施受损，逾3.6万处为住宅",
      "content": "伊朗方面通报，美以15天持续空袭已造成约4.3万处民用设施受损，其中住宅超过3.6万处。伊朗教育部称，自2月28日冲突爆发以来，已有210名学生和教师遇难，160名师生受伤；文化遗产部门表示至少56处历史文化遗址遭到严重破坏。黎以边境真主党与以军在希亚姆镇爆发直接交火，以军空袭一处黎巴嫩医疗中心致12名医务人员死亡。\n                        \n                        \n                            新华网",
@@ -9056,7 +9170,7 @@
      "major": false,
      "disputed": false,
      "time": "上午",
-     "tag": "tag",
+     "tag": "major-tag",
      "category": "经济",
      "title": "特朗普宣布多国联合护航霍尔木兹海峡，声称伊朗军事能力\"全面摧毁\"",
      "content": "美国总统特朗普14日在社交媒体发文称，将联合多国（尤其是受伊朗封锁霍尔木兹海峡影响的国家）共同派遣军舰护航，以\"尽快开放海峡\"。他声称美军已\"摧毁伊朗100%的军事能力\"，但同时承认伊朗仍可能通过无人机、水雷或导弹构成威胁，并警告将猛烈轰炸伊朗海岸线并击沉试图阻拦的舰船。\n                        \n                        \n                            新华国际头条",
@@ -9101,7 +9215,7 @@
      "major": false,
      "disputed": false,
      "time": "凌晨",
-     "tag": "tag",
+     "tag": "major-tag",
      "category": "经济",
      "title": "伊朗提出停战两条件：收回所有损失、美国撤出波斯湾",
      "content": "伊朗伊斯兰革命卫队高级指挥官穆赫辛·礼萨伊少将明确表示，伊朗考虑结束战争的两个条件为：一、伊朗收回所有损失；二、美国完全撤离波斯湾。与此同时，以色列国防部长卡茨声称冲突已进入\"决定性阶段\"，将持续到\"必要之时\"。美国总统特朗普则在社交媒体表示，不接受伊朗提出的任何协议。以黎双方据报可能在未来几天于塞浦路斯或巴黎举行直接停火谈判。\n                        \n                        \n                            21经济网/新华社",
@@ -9130,7 +9244,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "major-tag",
      "category": "经济",
      "title": "伊朗大规模在霍尔木兹布设水雷",
      "content": "据CNN引述美国情报消息人士透露，伊朗已在霍尔木兹海峡开始大规模布设水雷，伊朗拥有约5000枚水雷，28艘潜艇协同部署，可在数天内将霍尔木兹海峡变成\"航行禁区\"。伊拉克民兵武装\"伊斯兰抵抗组织\"同日宣称已击落一架美军无人机。目前霍峡仍有土方14艘船只等待通行。\n                        \n                        \n                            新浪财经\n                            腾讯新闻",
@@ -9147,7 +9261,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "humanitarian-tag",
      "category": "人道",
      "title": "联合国：冲突致410万人流离失所",
      "content": "联合国难民署公布最新数据：本轮中东冲突已致伊朗、黎巴嫩、阿富汗、巴基斯坦共410万人流离失所，其中伊朗境内逾320万人。联合国人道主义事务协调办公室报告，伊朗平民死亡超1300人、受伤逾9000人；以色列报告15人死亡、2142人受伤；黎巴嫩3月2日至13日期间已有773人死亡、1933人受伤。",
@@ -9196,7 +9310,7 @@
      "major": false,
      "disputed": false,
      "time": "上午",
-     "tag": "tag",
+     "tag": "major-tag",
      "category": "经济",
      "title": "哈尔克岛遭袭详情：15次以上爆炸，石油设施未损",
      "content": "伊朗法尔斯通讯社报道，哈尔克岛遭美军空袭期间发生15次以上爆炸，美方打击目标为岛上防御工事、军事基地及直升机机库等军事设施，但石油出口设施未受损坏。伊朗方面表示，岛上防空系统已展开反击并击落至少一架美军无人机。此次打击被外界解读为美方向伊朗施加经济压力的战略举措。\n                        \n                        \n                            央视网\n                            星岛日报",
@@ -9267,7 +9381,7 @@
      "major": false,
      "disputed": false,
      "time": "上午",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "category": "外交",
      "title": "中俄联合国会议要求停止对伊朗侵略",
      "content": "中国和俄罗斯在联合国安理会紧急会议上联合向美国和以色列发难，要求立即停止对伊朗的军事行动，并将其定性为\"侵略战争\"。这是冲突以来中俄在国际外交场合最强硬的联合表态。联合国国际海事组织（IMO）同期宣布将于3月18-19日在伦敦召开理事会特别会议，聚焦海湾地区航运危机。\n                        \n                        \n                            联合国新闻\n                            联合国日内瓦",
@@ -9365,7 +9479,7 @@
      "major": false,
      "disputed": false,
      "time": "上午",
-     "tag": "tag",
+     "tag": "humanitarian-tag",
      "category": "人道",
      "title": "美军累计13人死亡约200人受伤，战费已达110亿美元",
      "content": "美国媒体报道，截至3月14日，已有13名美军人员在本轮中东军事行动中死亡，约200人受伤（含KC-135坠机4死亡）。美国政府首次公开披露战争成本：上周对伊军事行动花费约110亿美元。另有报道称5架美军加油机在沙特基地遭袭受损，美国国会已有议员就战争授权和开支合法性发声。\n                        \n                        \n                            腾讯新闻\n                            华尔街见闻",
@@ -9387,7 +9501,7 @@
      "major": true,
      "disputed": false,
      "time": "上午",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "category": "外交",
      "title": "特朗普拒绝普京\"停战换核\"提议，美俄分歧公开化",
      "content": "美国总统特朗普公开拒绝了俄罗斯总统普京提出的停战方案——将伊朗浓缩铀转移至俄罗斯以换取停火。特朗普表示这一方案\"不可接受\"，并强调美国将继续军事行动直至伊朗核威胁彻底解除。此举标志着美俄在中东问题上的分歧进一步公开化，俄方随即召见美国大使表达强烈不满。\n                        \n                        \n                            腾讯新闻\n                            新浪新闻",
@@ -9481,7 +9595,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "category": "外交",
      "title": "国际能源署释放石油储备",
      "content": "国际能源署(IEA)成员国同意释放石油储备，以稳定因冲突导致的全球能源供应紧张。这是冲突升级以来IEA首次采取协调行动。\n                        \n                        \n                            腾讯新闻",
@@ -9503,7 +9617,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "political-tag",
      "category": "政治",
      "title": "伊朗提出结束战争三大条件",
      "content": "伊朗总统佩泽希齐扬提出结束冲突的三大必要条件：承认伊朗的合法权利、支付战争赔偿金、伊朗的合法权益得到保障。\n                        \n                        \n                            新华网",
@@ -9597,7 +9711,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "category": "外交",
      "title": "以色列外长称不寻求无休止战争",
      "content": "以色列外长称不寻求\"无休止战争\"，但同时强调伊朗必须解除武装。\n                        \n                        \n                            腾讯新闻",
@@ -9619,7 +9733,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "political-tag",
      "category": "政治",
      "title": "内塔尼亚胡：需要多长时间就打击伊朗多久",
      "content": "以色列总理内塔尼亚胡表示，需要多长时间就打击伊朗多久，不寻求\"无休止战争\"。\n                        \n                        \n                            央视新闻\n                            Washington Post\n                            ISW",
@@ -9646,7 +9760,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "political-tag",
      "category": "政治",
      "title": "伊朗总统谈结束战争条件",
      "content": "伊朗总统佩泽希齐扬表示，结束这场由美国和以色列所引发战事的\"唯一途径\"是承认伊朗的合法权利，支付赔偿金。\n                        \n                        \n                            新华网",
@@ -9695,7 +9809,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "humanitarian-tag",
      "category": "人道",
      "title": "截至3月12日双方伤亡数据汇总",
      "content": "伊朗方面：至少585人死亡、1326人受伤，320万人流离失所 | 黎巴嫩方面：3月2日至12日累计634人死亡、1586人受伤 | 美军方面：至少13人死亡，约200人受伤\n                        \n                        \n                            新华网",
@@ -9721,7 +9835,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "military-tag",
      "category": "军事",
      "title": "以军袭击德黑兰核设施",
      "content": "以色列国防军对德黑兰一处重要设施实施打击，称该设施是伊朗推进\"核武器研发关键能力\"的地点。该设施曾在2024年10月遭到以军打击。美军使用GBU-57/B巨型MOP钻地炸弹袭击。\n                        \n                        \n                            新浪新闻\n                            网易新闻",
@@ -9730,6 +9844,11 @@
        "url": "https://www.jpost.com/middle-east/iran-news/article-889729",
        "name": "耶路撒冷邮报",
        "priority": 2
+      },
+      {
+       "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-march-12-2026/",
+       "name": "ISW战争研究所",
+       "priority": 1
       }
      ],
      "needs_verification": false,
@@ -9737,7 +9856,7 @@
       "❌ 来源#2URL问题: 未知域名: https://www.163.com/",
       "❌ 有效来源不足2个（现有1个）"
      ],
-     "verification_status": "single_authoritative"
+     "verification_status": "verified"
     },
     {
      "major": true,
@@ -9764,7 +9883,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "military-tag",
      "category": "军事",
      "title": "以色列帕尔马希姆空军基地遭袭",
      "content": "位于以色列境内的帕尔马希姆空军基地遭到伊朗导弹袭击。（注：Al Jazeera报道伊朗军方于3月12日宣称打击帕尔马希姆和奥夫达空军基地。）\n                        \n                        \n                            央视新闻\n                            Al Jazeera",
@@ -9786,7 +9905,7 @@
      "major": false,
      "disputed": false,
      "time": "晚上",
-     "tag": "tag",
+     "tag": "political-tag",
      "category": "政治",
      "title": "内塔尼亚胡威胁刺杀伊朗新领袖",
      "content": "以色列总理内塔尼亚胡举行自美以空袭伊朗以来的首次新闻发布会，威胁刺杀伊朗新任最高领袖穆杰塔巴。这是以来首次有以色列领导人公开如此表态。\n                        \n                        \n                            搜狐新闻",
@@ -9854,7 +9973,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "category": "外交",
      "title": "国际能源署释放4亿桶石油储备",
      "content": "国际能源署32个成员国一致同意释放4亿桶战略石油储备。美国宣布将未来120天释放1.72亿桶。霍尔木兹海峡航运风险激增，国际油价攀升至每桶约100美元。\n                        \n                        \n                            新华网\n                            路透社",
@@ -9871,7 +9990,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "military-tag",
      "category": "军事",
      "title": "美军击沉60+艘伊朗舰艇",
      "content": "美军中央司令部公布打击伊朗海军舰艇视频，称3月11日击沉60多艘伊朗舰艇，包括全部四艘苏莱曼尼级战舰。伊朗17艘舰艇沉没。\n                        \n                        \n                            央视新闻\n                            📺 现场视频",
@@ -9892,7 +10011,7 @@
      "major": false,
      "disputed": true,
      "time": "全天",
-     "tag": "tag",
+     "tag": "humanitarian-tag",
      "category": "人道",
      "title": "伊朗称美以造成1300+平民丧生",
      "content": "伊朗常驻联合国代表表示：美以蓄意攻击居民区和民用设施，迄今造成伊朗超过1300名平民丧生，175名师生死亡，9669处民用设施被毁。伊朗320万人流离失所。\n                        \n                        \n                            央视新闻\n                            腾讯新闻\n                            联合国新闻",
@@ -9943,7 +10062,7 @@
      "major": false,
      "disputed": false,
      "time": "晚上",
-     "tag": "tag",
+     "tag": "military-tag",
      "category": "军事",
      "title": "以军大规模空袭德黑兰",
      "content": "以空军出动数十架战斗机袭击伊朗伊斯兰革命卫队总部、指挥中心、德黑兰多个弹道导弹储存和生产设施等。\n                        \n                        \n                            央视新闻",
@@ -9969,7 +10088,7 @@
      "major": false,
      "disputed": false,
      "time": "晚上",
-     "tag": "tag",
+     "tag": "military-tag",
      "category": "军事",
      "title": "伊朗向三地开火",
      "content": "俄罗斯塔斯社报道：伊朗发射大批导弹和无人机对以色列发动报复性反击，以色列情报总部、电子情报部门和海法海军基地陷入火海。10枚导弹全中美军基地。\n                        \n                        \n                            搜狐新闻",
@@ -9992,7 +10111,7 @@
      "major": true,
      "disputed": false,
      "time": "下午",
-     "tag": "tag",
+     "tag": "political-tag",
      "category": "政治",
      "title": "特朗普称军事行动即将结束",
      "content": "美国总统特朗普称，伊朗境内\"几乎已无可打击的目标\"，美国对伊朗军事行动\"即将结束\"。特朗普表示\"任何时候我想让它结束，它就结束\"。\n                        \n                        \n                            央视新闻\n                            腾讯新闻",
@@ -10041,7 +10160,7 @@
      "major": true,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "category": "外交",
      "title": "特朗普有条件同意谈判，威胁20倍打击霍尔木兹",
      "content": "美国总统特朗普表示有条件同意与伊朗谈判，但称战事已\"非常彻底\"。同时强硬表态：若伊朗阻断霍尔木兹海峡运输，将施以\"比以往猛烈20倍的打击\"。特朗普还对穆杰塔巴·哈梅内伊当选表示\"失望\"，称仍希望由\"内部候选人\"执政。\n                        \n                        \n                            新华网",
@@ -10068,7 +10187,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "major-tag",
      "category": "经济",
      "title": "战损数据汇总",
      "content": "联合国：320万伊朗人流离失所 | 油价攀升至每桶约100美元 | 以色列国防军累计对伊朗24省实施超3400次空袭，投掷炸弹超7500枚\n                        \n                        \n                            联合国新闻",
@@ -10090,7 +10209,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "major-tag",
      "category": "经济",
      "title": "伊朗袭击以色列油气设施",
      "content": "伊朗空军使用攻击型无人机袭击以色列海法的油气精炼厂及燃料存储设施。这是继3月7日海法炼油厂遇袭后，以色列能源设施再次遭打击。\n                        \n                        \n                            央视新闻",
@@ -10116,7 +10235,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "military-tag",
      "category": "军事",
      "title": "伊朗第31-36轮密集打击",
      "content": "伊朗伊斯兰革命卫队发起\"真实承诺-4\"第31至36轮攻势，发射\"伊马德\"、\"海巴尔\"、\"加德尔\"弹道导弹打击伊拉克埃尔比勒美军基地和以色列特拉维夫第五舰队基地。\n                        \n                        \n                            央视新闻\n                            人民网\n                            📺 战况视频",
@@ -10187,7 +10306,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "humanitarian-tag",
      "category": "人道",
      "title": "战火波及民用设施",
      "content": "双方攻击目标扩大到民用设施，多个海湾国家报告遭遇新袭击并有平民伤亡。联合国数据显示：超320万伊朗人流离失所。\n                        \n                        \n                            央视新闻\n                            联合国新闻",
@@ -10207,7 +10326,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "military-tag",
      "category": "军事",
      "title": "海湾国家首次遭袭击",
      "content": "战火扩大至海湾国家：阿联酋迪拜国际机场遭伊朗无人机袭击，2名加纳籍、1名孟加拉国籍人员受轻伤，1名印度籍受中度伤。两架无人机坠落迪拜机场附近。\n                        \n                        \n                            央视新闻\n                            CNN",
@@ -10245,7 +10364,7 @@
      "major": false,
      "disputed": true,
      "time": "全天",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "category": "外交",
      "title": "普京与特朗普通话提出外交调解方案",
      "content": "俄罗斯总统普京与美国总统特朗普通电话，提出通过政治外交途径解决冲突，建议多国领导人参与调停沟通。澳大利亚宣布向阿联酋提供预警机和导弹防御支援，但明确不参与对伊朗进攻行动。（注：3月10日为新华社报道日，通话实际发生在3月9日；3月9日通话Axios/AP等多家媒体也报道了该通话，西方主流媒体未确认该日期通话。CNN等媒体记录的普京-特朗普伊朗问题通话为4月29日。）\n                        \n                        \n                            新华网",
@@ -10268,7 +10387,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "military-tag",
      "category": "军事",
      "title": "以军打击伊朗F-14战机",
      "content": "以军对伊朗展开新一轮大规模空袭，包括打击部署在伊斯法罕机场的多架F-14战斗机，并打击伊朗侦测系统和防空系统。\n                        \n                        \n                            央视新闻",
@@ -10293,7 +10412,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "military-tag",
      "category": "军事",
      "title": "伊朗打击科威特美军基地",
      "content": "伊朗伊斯兰革命卫队使用无人机与弹道导弹打击科威特美军直升机基地，造成\"严重破坏\"。科威特国防部通报当日拦截7枚导弹和5架无人机。\n                        \n                        \n                            央视新闻",
@@ -10318,7 +10437,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "military-tag",
      "category": "军事",
      "title": "伊朗击落80架无人机",
      "content": "伊朗防空系统击落80架各类型无人机，包括3架美国MQ-9无人机、74架以色列\"赫尔墨斯-900\"等型号无人机。一架\"赫尔墨斯-900\"无人机被完整缴获。\n                        \n                        \n                            央视新闻\n                            📺 击落画面",
@@ -10370,7 +10489,7 @@
      "major": false,
      "disputed": false,
      "time": "凌晨",
-     "tag": "tag",
+     "tag": "humanitarian-tag",
      "category": "人道",
      "title": "德黑兰沙赫兰油库爆炸",
      "content": "德黑兰西北部沙赫兰油库爆发大火，以色列空军累计投下7500枚炸弹，攻击目标从军事设施转向炼油厂、油库等民用目标。\n                        \n                        \n                            央视新闻\n                            📺 爆炸现场",
@@ -10401,7 +10520,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "category": "外交",
      "title": "伊朗总统拒绝无条件投降",
      "content": "伊朗总统佩泽希齐扬发表电视讲话，表示伊朗绝不可能无条件投降，呼吁邻国共同解决分歧，\"不要沦为美国和以色列的傀儡\"。\n                        \n                        \n                            央视新闻\n                            NPR\n                            France 24\n                            📺 讲话视频",
@@ -10428,7 +10547,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "major-tag",
      "category": "经济",
      "title": "美以累计投弹超7500枚",
      "content": "以色列国防军发言人德维兰宣布，以军累计对伊朗24省实施超3400次空袭，投掷炸弹超7500枚，重点打击核设施、导弹基地和石油设施。\n                        \n                        \n                            央视新闻",
@@ -10482,7 +10601,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "major-tag",
      "category": "经济",
      "title": "以军重点打击伊朗石油设施",
      "content": "以军攻击目标从军事设施转向炼油厂、油库、输油管道等民用目标。重点打击伊朗两处最重要的弹道导弹生产基地，重创伊朗导弹生产能力。\n                        \n                        \n                            央视新闻\n                            NYT\n                            Al Jazeera\n                            📺 打击画面",
@@ -10515,7 +10634,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "category": "外交",
      "title": "美参议院否决战争授权议案",
      "content": "美国参议院未通过要求总统在对伊朗采取军事行动前必须获得国会授权的议案。特朗普政府虽勉强过关，但此举标志着国内政治压力上升。另据报道，美军精确制导武器库存\"正在迅速消耗\"，可能需优先选择拦截目标。\n                        \n                        \n                            新华网",
@@ -10570,7 +10689,7 @@
      "major": false,
      "disputed": true,
      "time": "全天",
-     "tag": "tag",
+     "tag": "humanitarian-tag",
      "category": "人道",
      "title": "伊朗宣称击中美军航母",
      "content": "伊朗革命卫队3月1日宣称在阿曼海击中美国\"亚伯拉罕·林肯\"号航空母舰，航母随后撤离超1000公里。美军中央司令部予以否认。伊朗同时宣称摧毁多套\"萨德\"反导系统雷达。[日期核验: IRGC宣称日为3月1日，本事件记录于3月5日为报道汇总日]",
@@ -10628,7 +10747,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "military-tag",
      "category": "军事",
      "title": "伊朗使用高超音速导弹",
      "content": "伊朗使用\"霍拉姆沙赫尔-4\"高超音速导弹（射程2000km、14-16马赫）和\"法塔赫\"高超声速导弹打击以色列国防部、本·古里安机场等目标。Janes防务情报确认伊朗在冲突中使用了2000km+射程弹道导弹。\n                        \n                        \n                            央视新闻\n                            Janes\n                            📺 导弹视频",
@@ -10645,7 +10764,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "major-tag",
      "category": "经济",
      "title": "霍尔木兹海峡持续封锁",
      "content": "霍尔木兹海峡被伊朗实质性封锁，全球约20%石油运输受影响。至少9个中东国家遭遇伊朗袭击。中东多国机场、酒店及能源基础设施被命中或误伤。\n                        \n                        \n                            央视新闻\n                            新华网\n                            NPR\n                            The Guardian",
@@ -10683,7 +10802,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "military-tag",
      "category": "军事",
      "title": "沙特大使馆遭无人机袭击，巴林基地受损",
      "content": "美国驻沙特大使馆遭2架无人机袭击，建筑轻微受损，美方限制人员前往吉达、利雅得等地军事设施。伊朗革命卫队发起\"真实承诺-4\"第14轮攻势，打击美军巴林谢赫伊萨空军基地，称摧毁主指挥楼并引发燃料设施火灾。阿曼杜库姆商业港燃料储罐遭无人机袭击。\n                        \n                        \n                            新华网",
@@ -10709,7 +10828,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "category": "外交",
      "title": "美国向中东多国发撤离令，国内爆发反战游行",
      "content": "美国国务院3小时内连续发布6条撤离令，要求驻约旦、巴林、伊拉克、科威特、卡塔尔、阿联酋的非必要政府人员撤离。与此同时，纽约、旧金山、洛杉矶等城市民众自发举行大规模反战游行，要求政府停止对伊朗军事行动。\n                        \n                        \n                            新华网\n                            NBC News\n                            Al Jazeera\n                            PBS",
@@ -10741,7 +10860,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "military-tag",
      "category": "军事",
      "title": "战损数据汇总",
      "content": "伊朗：520余处军事目标被毁，17艘舰艇沉没，250架战机损毁，多座核设施受损（新华社确认纳坦兹核设施在内）。美国：多架F-15E战机误击坠毁，MQ-9无人机被击落，27个基地遇袭。以色列：F-35I战机被毁，5座空军基地遭命中。\n                        \n                        \n                            新华网\n                            央视新闻",
@@ -10758,7 +10877,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "military-tag",
      "category": "军事",
      "title": "伊朗向三方向同时开火",
      "content": "伊朗首次向三个方向同时开火：以色列本土军事重地、以色列周边关键设施、科威特境内美军基地。约旦成功拦截49枚导弹和无人机。\n                        \n                        \n                            央视新闻",
@@ -10810,7 +10929,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "military-tag",
      "category": "军事",
      "title": "伊朗第10波导弹打击",
      "content": "【IRGC官方声明】伊朗伊斯兰革命卫队使用\"海巴尔\"弹道导弹对以色列发起第十波打击。\n                        \n                        \n                            俄罗斯卫星通讯社",
@@ -10818,6 +10937,11 @@
       {
        "url": "https://sputniknews.cn/20260302/iran-strike-coup/",
        "name": "俄罗斯卫星通讯社"
+      },
+      {
+       "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-march-2-2026/",
+       "name": "ISW战争研究所",
+       "priority": 1
       }
      ],
      "needs_verification": true,
@@ -10826,13 +10950,13 @@
       "❌ 来源#1URL问题: 未知域名: https://sputniknews.cn/",
       "❌ 有效来源不足2个（现有0个）"
      ],
-     "verification_status": "single_authoritative"
+     "verification_status": "verified"
     },
     {
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "military-tag",
      "category": "军事",
      "title": "伊朗向三方向同时发射导弹",
      "content": "伊朗首次向三个方向同时开火：以色列本土军事重地、以色列周边关键设施、科威特境内美军基地。约旦成功拦截49枚导弹和无人机。\n                        \n                        \n                            央视新闻\n                            Reuters\n                            BBC",
@@ -10891,7 +11015,7 @@
      "major": false,
      "disputed": true,
      "time": "全天",
-     "tag": "tag",
+     "tag": "military-tag",
      "category": "军事",
      "title": "伊朗称导弹命中以总理办公室（以色列否认）",
      "content": "伊朗革命卫队宣称使用\"海巴尔\"弹道导弹打击以色列总理内塔尼亚胡办公室及空军指挥部。以色列总理办公室否认该说法，称之为\"假新闻\"。内塔尼亚胡事后在贝特谢梅什公开露面。AFP核实称网上流传的相关视频为虚假内容。",
@@ -10919,7 +11043,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "humanitarian-tag",
      "category": "人道",
      "title": "以色列空袭伊朗多地",
      "content": "以色列国防军宣布对伊朗弹道导弹发射装置和防空系统发动新一轮打击。德黑兰多地传出爆炸声。伊朗一所小学及一座体育馆遭遇袭击，多人伤亡。\n                        \n                        \n                            央视新闻\n                            NPR\n                            Reuters",
@@ -10951,7 +11075,7 @@
      "major": false,
      "disputed": false,
      "time": "全天",
-     "tag": "tag",
+     "tag": "military-tag",
      "category": "军事",
      "title": "伊拉克埃尔比勒机场遭攻击",
      "content": "美军使用的伊拉克库尔德自治区埃尔比勒机场遭到攻击，附属油库和弹药库发生殉爆。攻击不仅有革命卫队导弹，还有当地亲伊朗什叶派民兵发射的自杀式无人机。\n                        \n                        \n                            南方周末",
@@ -11034,7 +11158,7 @@
      "major": false,
      "disputed": false,
      "time": "上午",
-     "tag": "tag",
+     "tag": "military-tag",
      "category": "军事",
      "title": "伊朗第6轮打击：27个美军基地",
      "content": "【IRGC官方声明】伊朗伊斯兰革命卫队发布第6号公告：对美国和以色列发起新的攻势，袭击目标包括中东地区27个美军基地。\n                        \n                        \n                            央视新闻",
@@ -11061,7 +11185,7 @@
      "major": false,
      "disputed": false,
      "time": "上午",
-     "tag": "tag",
+     "tag": "diplomatic-tag",
      "category": "外交",
      "title": "内塔尼亚胡·特朗普发表联合声明",
      "content": "以色列总理内塔尼亚胡宣布\"咆哮的狮子\"行动启动，称行动\"将持续至威胁消除\"，呼吁伊朗人民\"走上街头完成使命\"。美国总统特朗普表示要将伊朗导弹工业\"夷为平地\"(raze to the ground)，敦促伊朗军方投降否则面临\"必然死亡\"，并暗示支持伊朗政权更迭。\n                        \n                        \n                            央视新闻\n                            Al Jazeera\n                            The Guardian\n                            PBS NewsHour",
@@ -11093,7 +11217,7 @@
      "major": false,
      "disputed": false,
      "time": "上午",
-     "tag": "tag",
+     "tag": "military-tag",
      "category": "军事",
      "title": "伊朗向海湾国家发射导弹",
      "content": "伊朗向除阿曼外的所有海湾国家发射弹道导弹，目标包括卡塔尔乌代德空军基地、科威特萨利姆空军基地、阿联酋扎夫拉空军基地及巴林美国海军第五舰队等。科威特阿里·萨利姆空军基地被\"完全炸毁\"。\n                        \n                        \n                            央视新闻\n                            📺 导弹发射画面",
@@ -11114,7 +11238,7 @@
      "major": false,
      "disputed": false,
      "time": "上午",
-     "tag": "tag",
+     "tag": "humanitarian-tag",
      "category": "人道",
      "title": "美军误击伊朗小学 165人遇难",
      "content": "2月28日战争首日，美军一枚战斧巡航导弹误击伊朗南部霍尔木兹甘省米纳卜市（Minab）一所女子小学，造成至少165人遇难（后续升至168人），大部分为7-12岁女童。11天后（3月11日）美国军方初步调查认定系DIA过时目标情报误导所致（学校已于2013-2016年从IRGC海军基地围栏隔出但美军目标清单未更新），美方应对此承担责任。[日期核验: CNN 3月11日/NPR 3月12日]",
@@ -11231,7 +11355,8 @@
        "priority": 1
       }
      ],
-     "verification_status": "verified"
+     "verification_status": "verified",
+     "tag": "military-tag"
     },
     {
      "time": "2025年11月",
@@ -11251,7 +11376,8 @@
        "priority": 1
       }
      ],
-     "verification_status": "verified"
+     "verification_status": "verified",
+     "tag": "diplomatic-tag"
     },
     {
      "time": "2025年6月24日",
@@ -11271,7 +11397,8 @@
        "priority": 1
       }
      ],
-     "verification_status": "verified"
+     "verification_status": "verified",
+     "tag": "diplomatic-tag"
     },
     {
      "time": "2025年6月13-24日",
@@ -11291,7 +11418,8 @@
        "priority": 1
       }
      ],
-     "verification_status": "verified"
+     "verification_status": "verified",
+     "tag": "military-tag"
     },
     {
      "time": "2025年6月13日",
@@ -11311,7 +11439,8 @@
        "priority": 1
       }
      ],
-     "verification_status": "verified"
+     "verification_status": "verified",
+     "tag": "military-tag"
     },
     {
      "time": "2025年6月",
@@ -11331,7 +11460,8 @@
        "priority": 1
       }
      ],
-     "verification_status": "verified"
+     "verification_status": "verified",
+     "tag": "diplomatic-tag"
     }
    ]
   }
