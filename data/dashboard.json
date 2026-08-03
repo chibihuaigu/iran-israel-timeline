@@ -9,10 +9,10 @@
   "usDeaths": "20",
   "displaced": "160万+",
   "disputed_fields": {
-    "iranDeaths": "伊朗官方数字，独立来源估算差异较大",
-    "lebanonDeaths": "黎巴嫩卫生部统计，含真主党战斗人员",
-    "iranInjured": "伊朗官方估计，实际数字可能更高",
-    "displaced": "联合国估计，含间接流离失所"
+    "iranDeaths": "HRANA 3,684 / 伊朗官方3,528 / US/Israel声称6,000+",
+    "lebanonDeaths": "黎巴嫩卫生部4,324 / IDF声称2,500 / 真主党自称1,000+",
+    "iranInjured": "伊朗官方27,170 / OCHA 33,000 / US/Israel声称15,000",
+    "displaced": "黎巴嫩160万+（联合国）；另有伊朗境内320万+（UNHCR）"
   },
   "ceasefireInfo": {
     "ceasefireDate": "2026-04-08",
