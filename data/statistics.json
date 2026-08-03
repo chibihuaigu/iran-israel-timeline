@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-08-03 14:41",
+  "lastUpdated": "2026-08-03",
   "description": "统计数据来源追踪文件，记录每个统计字段的数据来源和可信度",
   "fields": {
     "warDays": {
@@ -18,36 +18,36 @@
       "lastUpdated": "2026-08-03"
     },
     "iranDeaths": {
-      "value": "3,468+",
+      "value": "3,684+",
       "confidence": "medium",
       "caliber": "伊朗境内军事人员+平民合计",
       "hasDispute": true,
-      "disputeDetails": "伊朗官方3,468 / HRANA 3,636+ / US/Israel声称6,000+",
+      "disputeDetails": "HRANA 3,684 / 伊朗官方3,528 / US/Israel声称6,000+",
       "sources": [
         {
-          "value": "3,468",
-          "source": "伊朗官方/Foundation of Martyrs",
-          "date": "2026-08-03"
-        },
-        {
-          "value": "3,636+",
+          "value": "3,684",
           "source": "HRANA独立核实",
           "date": "2026-08-03"
         },
         {
+          "value": "3,528",
+          "source": "伊朗官方",
+          "date": "2026-08-03"
+        },
+        {
           "value": "6,000+",
-          "source": "US/Israel声称",
+          "source": "US/Israel声称（含军人）",
           "date": "2026-08-03"
         }
       ],
       "lastUpdated": "2026-08-03"
     },
     "israelDeaths": {
-      "value": "47",
+      "value": "70",
       "confidence": "medium",
       "sources": [
         {
-          "value": "47",
+          "value": "70",
           "source": "Wikipedia/Casualties_of_the_2026_Iran_war",
           "date": "2026-08-03"
         }
@@ -55,13 +55,13 @@
       "lastUpdated": "2026-08-03"
     },
     "usDeaths": {
-      "value": "15",
+      "value": "20",
       "confidence": "high",
       "caliber": "驻中东美军在冲突中死亡人数",
       "sources": [
         {
-          "value": "15",
-          "source": "Wikipedia/CENTCOM确认",
+          "value": "20",
+          "source": "Wikipedia/Casualties_of_the_2026_Iran_war",
           "date": "2026-08-03"
         }
       ],
@@ -70,49 +70,59 @@
     "displaced": {
       "value": "160万+",
       "confidence": "medium",
-      "caliber": "黎巴嫩流离失所人数",
+      "caliber": "黎巴嫩流离失所人数（另有伊朗境内320万+，UNHCR）",
       "sources": [
         {
           "value": "160万+",
           "source": "联合国/黎巴嫩卫生部",
           "date": "2026-07-12"
+        },
+        {
+          "value": "320万+",
+          "source": "UNHCR（伊朗境内）",
+          "date": "2026-03-13"
         }
       ],
-      "lastUpdated": "2026-07-12"
+      "lastUpdated": "2026-08-03"
     },
     "lebanonDeaths": {
-      "value": "2,869+",
+      "value": "4,324+",
       "confidence": "medium",
       "caliber": "黎巴嫩境内被以色列打击死亡人数",
       "sources": [
         {
-          "value": "2,869",
+          "value": "4,324",
           "source": "黎巴嫩卫生部",
+          "date": "2026-08-03"
+        },
+        {
+          "value": "2,500",
+          "source": "IDF声称",
           "date": "2026-08-03"
         },
         {
           "value": "1,000+",
           "source": "真主党自称",
           "date": "2026-08-03"
-        },
-        {
-          "value": "1,700",
-          "source": "IDF声称击杀",
-          "date": "2026-08-03"
         }
       ],
       "lastUpdated": "2026-08-03"
     },
     "iranInjured": {
-      "value": "15,000+",
+      "value": "27,170+",
       "confidence": "medium",
       "caliber": "伊朗境内受伤总人数",
       "hasDispute": true,
-      "disputeDetails": "伊朗卫生部26,500+ / US/Israel声称15,000",
+      "disputeDetails": "伊朗官方27,170 / OCHA 33,000 / US/Israel声称15,000",
       "sources": [
         {
-          "value": "26,500+",
-          "source": "伊朗卫生部",
+          "value": "27,170",
+          "source": "伊朗官方",
+          "date": "2026-08-03"
+        },
+        {
+          "value": "33,000",
+          "source": "OCHA",
           "date": "2026-08-03"
         },
         {
