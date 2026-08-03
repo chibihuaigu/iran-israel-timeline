@@ -171,11 +171,12 @@ function renderEventCard(event, dateId, eventIndex) {
     else if (event.mark === 'escalation') eventMarkClass = ' escalation';
 
     return `
-        <div class="event-card${event.major ? ' major' : ''}${eventMarkClass} ${sourceQualityClass}" ${anchorId ? `id="${anchorId}"` : ''}>
+        <div class="event-card${event.major ? ' major' : ''}${eventMarkClass}${event.star ? ' star-event' : ''} ${sourceQualityClass}" ${anchorId ? `id="${anchorId}"` : ''}>
             <div class="event-time">${event.time}</div>
             <div class="event-header">
                 <div class="event-title">
                     <span class="category-tag ${event.tag}">${event.category}</span>
+                    ${event.star ? '<span class="star-badge" title="关键事件">★</span>' : ''}
                     ${event.title}
                     ${verificationBadge}
                     ${disputedBadge}
@@ -289,7 +290,21 @@ function updateDashboard(dashboardData, eventsData = null) {
 
         if (el && value !== undefined) {
             if (disputed[dashboardField]) {
-                el.innerHTML = value + ' <span class="disputed-icon" title="' + disputed[dashboardField] + '">⚠️</span>';
+                el.innerHTML = value;
+                // 图标放到卡片右上角（由 updateStatisticsDisplay 统一补充详情）
+                const item = el.closest('.stat-item');
+                if (item && !item.querySelector('.disputed-icon')) {
+                    const icon = document.createElement('span');
+                    icon.className = 'disputed-icon';
+                    icon.textContent = '⚠️';
+                    icon.setAttribute('data-tip', disputed[dashboardField]);
+                    icon.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        showDisputeTip(this, this.getAttribute('data-tip'));
+                    });
+                    item.appendChild(icon);
+                }
             } else {
                 el.textContent = value;
             }
@@ -488,9 +503,8 @@ async function initTimeline() {
  * 更新统计数据来源显示
  */
 function updateStatisticsDisplay(statisticsData) {
-    // 检查是否有争议数据
+    // 检查是否有争议数据，把完整分歧详情写入对应数字旁的 ⚠️ 图标
     const disputedFields = [];
-    let latestVerified = null;
     for (const [field, data] of Object.entries(statisticsData.fields || {})) {
         if (data.hasDispute) {
             disputedFields.push({
@@ -500,46 +514,40 @@ function updateStatisticsDisplay(statisticsData) {
                 confidence: data.confidence
             });
         }
-        // 追踪最新核实日期
-        if (data.lastUpdated) {
-            if (!latestVerified || data.lastUpdated > latestVerified) {
-                latestVerified = data.lastUpdated;
-            }
-        }
     }
 
-    // 显示争议提示
+    // 为卡片右上角的 ⚠️ 图标补充完整争议详情（点击弹出）
     if (disputedFields.length > 0) {
-        console.log('[统计] 发现争议数据:', disputedFields);
-
-        const banner = document.getElementById('disputeBanner');
-        if (banner) {
-            const fieldLabels = {
-                iranDeaths: '伊朗死亡', israelDeaths: '以色列死亡',
-                lebanonDeaths: '黎巴嫩死亡', usDeaths: '美军死亡',
-                displaced: '流离失所', iranInjured: '伊朗受伤'
-            };
-            const items = disputedFields.map(d => {
-                const label = fieldLabels[d.field] || d.field;
-                return `<div class="dispute-item"><strong>${label}</strong>: ${d.dispute}</div>`;
-            }).join('');
-            let html = `<div class="dispute-title">数据存在争议</div>${items}`;
-            if (latestVerified) {
-                html += `<div class="dispute-verified">伤亡数据最后核实: ${latestVerified}</div>`;
+        const fieldItemMap = {
+            iranDeaths: 'iranDeathsItem', israelDeaths: 'israelDeathsItem',
+            lebanonDeaths: 'lebanonDeathsItem', usDeaths: 'usDeathsItem',
+            displaced: 'displacedItem', iranInjured: 'iranInjuredItem'
+        };
+        disputedFields.forEach(d => {
+            const itemId = fieldItemMap[d.field];
+            if (!itemId) return;
+            const item = document.getElementById(itemId);
+            if (!item) return;
+            let icon = item.querySelector('.disputed-icon');
+            if (!icon) {
+                icon = document.createElement('span');
+                icon.className = 'disputed-icon';
+                icon.textContent = '⚠️';
+                item.appendChild(icon);
             }
-            banner.innerHTML = html;
-            banner.style.display = 'block';
-        }
-    } else if (latestVerified) {
-        // 无争议时也显示核实日期
-        const banner = document.getElementById('disputeBanner');
-        if (banner) {
-            banner.innerHTML = `<div class="dispute-verified">伤亡数据最后核实: ${latestVerified}</div>`;
-            banner.style.display = 'block';
-            banner.style.background = 'transparent';
-            banner.style.border = 'none';
-            banner.style.padding = '4px 0';
-        }
+            let tip = d.dispute || icon.getAttribute('data-tip') || '存在争议';
+            const upd = statisticsData.fields[d.field] && statisticsData.fields[d.field].lastUpdated;
+            if (upd) tip += `（最后核实: ${upd}）`;
+            icon.setAttribute('data-tip', tip);
+            // 移除旧监听，重新绑定点击
+            const newIcon = icon.cloneNode(true);
+            icon.parentNode.replaceChild(newIcon, icon);
+            newIcon.addEventListener('click', function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                showDisputeTip(this, this.getAttribute('data-tip'));
+            });
+        });
     }
 }
 
