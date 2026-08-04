@@ -28,6 +28,9 @@
             --text-muted: #a0aec0;
             --border: #e2e8f0;
             --shadow: rgba(0, 0, 0, 0.06);
+            /* 毛玻璃背景（吸顶 toolbar / toc 用） */
+            --glass-bg: rgba(255, 255, 255, 0.72);
+            --glass-border: rgba(255, 255, 255, 0.3);
         }
 
         [data-theme="dark"] {
@@ -39,6 +42,8 @@
             --text-muted: #7b8da3;
             --border: #2d3a4f;
             --shadow: rgba(0, 0, 0, 0.4);
+            --glass-bg: rgba(15, 20, 25, 0.72);
+            --glass-border: rgba(255, 255, 255, 0.08);
         }
 
         * {
@@ -485,7 +490,7 @@
             padding: 8px 0;
             margin-bottom: 16px;
             z-index: 200;
-            background: var(--bg);
+            background: transparent;
             border-bottom: 1px solid transparent;
         }
         .toolbar.is-stuck {
@@ -800,7 +805,9 @@
         .filter-btn {
             padding: 5px 12px;
             border: 1px solid var(--border);
-            background: var(--bg);
+            background: rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
             color: var(--text-tertiary);
             border-radius: 16px;
             font-size: 12px;
@@ -825,13 +832,29 @@
             padding: 10px 16px;
             margin-bottom: 20px;
             box-shadow: none;
-            position: sticky;
-            top: 0;
-            z-index: 100;
-            /* 添加背景和模糊效果，确保导航栏不透明 */
-            background: var(--bg);
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            box-shadow: 0 -2px 8px var(--shadow);
+        }
+        /* TOC 吸顶状态（保留供 JS 切换，桌面端与 .toc 一致：永远 fixed 底部） */
+        .toc.toc-stuck {
+            position: fixed;
+            bottom: 0;
+            top: auto;
+            left: 0;
+            right: 0;
+            max-width: none;
+            width: 100%;
+            transform: none;
+            margin: 0;
+            border-radius: 0;
+            background: transparent;
+            backdrop-filter: none;
+            -webkit-backdrop-filter: none;
+            box-shadow: 0 -2px 8px var(--shadow);
         }
 
         .toc-header {
@@ -1570,7 +1593,7 @@
 
         .scroll-top {
             position: fixed;
-            bottom: 25px;
+            bottom: 70px;
             right: 25px;
             width: 44px;
             height: 44px;
@@ -1584,7 +1607,7 @@
             cursor: pointer;
             box-shadow: 0 2px 12px var(--shadow);
             transition: opacity 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
-            z-index: 1000;
+            z-index: 9999;
             padding: 0;
         }
         .scroll-top.visible {
@@ -1602,8 +1625,8 @@
         /* 反馈按钮 */
         .feedback-btn {
             position: fixed;
-            bottom: 25px;
-            right: 80px;
+            bottom: 70px;
+            right: 84px;
             padding: 12px 20px;
             background: var(--card-bg);
             color: var(--text);
@@ -1613,8 +1636,8 @@
             font-weight: 500;
             cursor: pointer;
             box-shadow: 0 2px 12px var(--shadow);
+            z-index: 1100;
             transition: all 0.3s;
-            z-index: 1000;
             display: flex;
             align-items: center;
             gap: 6px;
@@ -1764,7 +1787,7 @@
 
         @media (max-width: 600px) {
             .feedback-btn {
-                bottom: 14px;
+                bottom: 60px;
                 right: 60px;
                 padding: 10px 14px;
                 font-size: 12px;
@@ -2180,6 +2203,23 @@
                 padding: 0;
                 top: auto;
             }
+            /* 移动端 toc-stuck 强制保持底部（不被桌面端 top:53 覆盖） */
+            .toc.toc-stuck {
+                position: fixed;
+                bottom: 0;
+                top: auto;
+                left: 0;
+                right: 0;
+                max-width: none;
+                width: 100%;
+                transform: none;
+                margin: 0;
+                border-radius: 0;
+                background: transparent;
+                backdrop-filter: none;
+                -webkit-backdrop-filter: none;
+                box-shadow: none;
+            }
             .toc-header {
                 display: none;
             }
@@ -2366,7 +2406,7 @@
             .event-header { gap: 4px; margin-bottom: 6px; }
 
             /* 底部按钮 */
-            .scroll-top { bottom: 14px; right: 14px; width: 40px; height: 40px; }
+            .scroll-top { bottom: 60px; right: 14px; width: 40px; height: 40px; }
             .scroll-top svg { width: 18px; height: 18px; }
             .keyboard-hint { display: none; }
 
@@ -3661,7 +3701,7 @@
         }
 
         </style>
-    <script src="js/timeline-loader.js?v=20260804"></script>
+    <script src="js/timeline-loader.js?v=20260804k"></script>
 
     <!-- Leaflet 地图 JS -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
@@ -4172,34 +4212,73 @@
             updateToolbarStuck();
         }
 
-        // 日期标签吸顶控制：
-        // 标签吸顶停驻在筛选栏下方（桌面58/移动88px）；标签任何部分处于筛选栏区域内
-        // （bottom>0 且 top<停驻点）时隐藏，避免"切半"视觉；完全在停驻点下方或上方时可见。
-        var labelRaf = null;
-        function updateDateLabelVisibility() {
-            labelRaf = null;
-            var stopTop = window.innerWidth <= 768 ? 88 : 58;
-            document.querySelectorAll('.date-label').forEach(function(label) {
-                var group = label.closest('.date-group');
-                if (!group) return;
-                if (group.classList.contains('hidden')) return;
-                var r = label.getBoundingClientRect();
-                // 标签与筛选栏区域（0~停驻点）有交集 → 隐藏
-                var inToolbarZone = r.bottom > 0 && r.top < stopTop - 2;
-                var hidden = label.classList.contains('label-hidden');
-                if (inToolbarZone && !hidden) {
-                    label.classList.add('label-hidden');
-                } else if (!inToolbarZone && hidden) {
-                    label.classList.remove('label-hidden');
-                }
-            });
+        // TOC（快速导航）吸顶 + 高亮当前日期（fixed 方案，绕开 sticky 在部分浏览器/扩展下的兼容问题）。
+        // 滚动时：
+        // 1. toolbar 吸顶后，TOC 切到 fixed top=53 紧贴 toolbar 下方（spacer 同步加高给事件卡占位）
+        // 2. 找"events 在屏幕中可见占比最大"的 group，高亮对应 toc-link
+        var tocRaf = null;
+        var currentActiveToc = null;
+        var tocEl = null;
+
+        function ensureToc() {
+            if (tocEl) return true;
+            tocEl = document.querySelector('.toc');
+            return !!tocEl;
         }
-        window.addEventListener('scroll', function() {
-            if (!labelRaf) {
-                labelRaf = requestAnimationFrame(updateDateLabelVisibility);
+
+        function updateToc() {
+            tocRaf = null;
+            if (!ensureToc()) return;
+            var groups = document.querySelectorAll('.date-group:not(.hidden)');
+            var winH = window.innerHeight;
+            var activeGroup = null;
+            var bestVisibleH = 0;
+            for (var i = 0; i < groups.length; i++) {
+                var g = groups[i];
+                var eventsEl = g.querySelector('.events-container');
+                if (!eventsEl) continue;
+                var eRect = eventsEl.getBoundingClientRect();
+                if (eRect.bottom <= 0 || eRect.top >= winH) continue;
+                var visibleH = Math.min(eRect.bottom, winH) - Math.max(eRect.top, 0);
+                if (visibleH > bestVisibleH) {
+                    bestVisibleH = visibleH;
+                    activeGroup = g;
+                }
             }
-        }, { passive: true });
-        updateDateLabelVisibility();
+            // 高亮对应 toc-link
+            var activeTocLink = null;
+            if (activeGroup && activeGroup.id) {
+                var link = document.querySelector('.toc-link[href="#' + activeGroup.id + '"]');
+                if (link) activeTocLink = link;
+            }
+            if (activeTocLink !== currentActiveToc) {
+                if (currentActiveToc) currentActiveToc.classList.remove('active');
+                currentActiveToc = activeTocLink;
+                if (activeTocLink) activeTocLink.classList.add('active');
+            }
+            // TOC 永远 fixed 在底部（桌面+移动统一），不依赖 toolbar 吸顶状态
+            // spacer 只需反映 toolbar 吸顶（事件卡从 toolbar 底下开始），TOC 在底部不占文档位置
+            var toolbarStuck = toolbarEl && toolbarEl.classList.contains('is-stuck');
+            if (toolbarStuck) {
+                if (!tocEl.classList.contains('toc-stuck')) {
+                    tocEl.classList.add('toc-stuck');
+                }
+            } else {
+                if (tocEl.classList.contains('toc-stuck')) {
+                    tocEl.classList.remove('toc-stuck');
+                }
+            }
+        }
+
+        function scheduleTocUpdate() {
+            if (!tocRaf) {
+                tocRaf = requestAnimationFrame(updateToc);
+            }
+        }
+        window.addEventListener('scroll', scheduleTocUpdate, { passive: true });
+        window.addEventListener('resize', scheduleTocUpdate, { passive: true });
+        // 初次加载后延迟一帧，确保事件已渲染
+        setTimeout(updateToc, 50);
     </script>
 
     <!-- 参战国历史弹窗 -->
