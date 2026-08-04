@@ -170,8 +170,20 @@ function renderEventCard(event, dateId, eventIndex) {
     else if (event.mark === 'first_occurrence') eventMarkClass = ' first-occurrence';
     else if (event.mark === 'escalation') eventMarkClass = ' escalation';
 
+    // tag → 色条类映射（卡片左侧色条按事件类别着色）
+    const tagColorMap = {
+        'major-tag': ' card-major',
+        'military-tag': ' card-military',
+        'diplomatic-tag': ' card-diplomatic',
+        'political-tag': ' card-political',
+        'humanitarian-tag': ' card-humanitarian',
+        'rumor-tag': ' card-rumor',
+        'sanction-tag': ' card-sanction'
+    };
+    const colorClass = tagColorMap[event.tag] || '';
+
     return `
-        <div class="event-card${event.major ? ' major' : ''}${eventMarkClass}${event.star ? ' star-event' : ''} ${sourceQualityClass}" ${anchorId ? `id="${anchorId}"` : ''}>
+        <div class="event-card${event.major ? ' major' : ''}${eventMarkClass}${event.star ? ' star-event' : ''}${colorClass} ${sourceQualityClass}" ${anchorId ? `id="${anchorId}"` : ''}>
             <div class="event-time">${event.time}</div>
             <div class="event-header">
                 <div class="event-title">
