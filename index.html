@@ -482,8 +482,17 @@
             align-items: center;
             flex-wrap: wrap;
             gap: 8px;
-            padding: 0;
+            padding: 8px 0;
             margin-bottom: 16px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: var(--bg);
+            border-bottom: 1px solid transparent;
+        }
+        .toolbar.is-stuck {
+            border-bottom-color: var(--border);
+            box-shadow: 0 2px 8px var(--shadow);
         }
         .toolbar .search-box {
             flex: 1 1 220px;
@@ -630,6 +639,9 @@
             .toolbar {
                 gap: 6px;
                 margin-bottom: 12px;
+                position: static;
+                border-bottom: none;
+                box-shadow: none;
             }
             .toolbar .search-box {
                 flex: 1 1 100%;
@@ -900,7 +912,7 @@
 
         .date-label {
             position: sticky;
-            top: 60px;
+            top: 58px;
             z-index: 99;
             display: inline-flex;
             align-items: center;
@@ -4102,6 +4114,19 @@
                     if (!scrollTopBtn.classList.contains('visible')) scrollTopBtn.classList.add('visible');
                 } else {
                     if (scrollTopBtn.classList.contains('visible')) scrollTopBtn.classList.remove('visible');
+                }
+            });
+        }
+
+        // 筛选栏吸顶：滚动越过 toolbar 时加 is-stuck（显示底边框+阴影）
+        var toolbarEl = document.getElementById('mainToolbar');
+        if (toolbarEl) {
+            window.addEventListener('scroll', function() {
+                var rect = toolbarEl.getBoundingClientRect();
+                if (rect.top <= 0) {
+                    if (!toolbarEl.classList.contains('is-stuck')) toolbarEl.classList.add('is-stuck');
+                } else {
+                    if (toolbarEl.classList.contains('is-stuck')) toolbarEl.classList.remove('is-stuck');
                 }
             });
         }
