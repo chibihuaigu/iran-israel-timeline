@@ -918,6 +918,9 @@
         }
 
         .date-label {
+            position: sticky;
+            top: 58px;
+            z-index: 90;
             display: inline-flex;
             align-items: center;
             gap: 8px;
@@ -933,6 +936,10 @@
             box-shadow: 0 3px 12px rgba(30, 58, 95, 0.25);
             cursor: pointer;
             transition: all 0.2s;
+        }
+        .date-label.label-hidden {
+            opacity: 0;
+            pointer-events: none;
         }
 
         .date-label:hover {
@@ -1206,6 +1213,9 @@
             }
             .timeline::before { left: 0; width: 2px; }
             .date-label {
+                position: sticky !important;
+                top: 88px !important;
+                z-index: 90 !important;
                 margin-left: -12px;
                 font-size: 13px;
                 padding: 7px 14px;
@@ -2294,6 +2304,8 @@
             .timeline { padding-left: 18px; }
             .timeline::before { left: 0; width: 2px; }
             .date-label {
+                position: sticky;
+                top: 88px;
                 margin-left: -8px;
                 font-size: 12px;
                 padding: 6px 12px;
@@ -4130,9 +4142,34 @@
             });
         }
 
-        // 日期标签防穿透说明：
-        // toolbar z-index(200) > date-label z-index(90)，且 toolbar 背景不透明，
-        // 标签被推出滑过 toolbar 区域时会被完全遮挡；停驻在 toolbar 下方(58px)时正常可见。
+        // 日期标签吸顶控制：
+        // 标签吸顶停驻在筛选栏下方（桌面58/移动88px）；标签任何部分处于筛选栏区域内
+        // （bottom>0 且 top<停驻点）时隐藏，避免"切半"视觉；完全在停驻点下方或上方时可见。
+        var labelRaf = null;
+        function updateDateLabelVisibility() {
+            labelRaf = null;
+            var stopTop = window.innerWidth <= 768 ? 88 : 58;
+            document.querySelectorAll('.date-label').forEach(function(label) {
+                var group = label.closest('.date-group');
+                if (!group) return;
+                if (group.classList.contains('hidden')) return;
+                var r = label.getBoundingClientRect();
+                // 标签与筛选栏区域（0~停驻点）有交集 → 隐藏
+                var inToolbarZone = r.bottom > 0 && r.top < stopTop - 2;
+                var hidden = label.classList.contains('label-hidden');
+                if (inToolbarZone && !hidden) {
+                    label.classList.add('label-hidden');
+                } else if (!inToolbarZone && hidden) {
+                    label.classList.remove('label-hidden');
+                }
+            });
+        }
+        window.addEventListener('scroll', function() {
+            if (!labelRaf) {
+                labelRaf = requestAnimationFrame(updateDateLabelVisibility);
+            }
+        }, { passive: true });
+        updateDateLabelVisibility();
     </script>
 
     <!-- 参战国历史弹窗 -->
