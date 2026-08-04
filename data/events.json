@@ -1,9 +1,83 @@
 {
  "version": "1.0",
- "extracted_at": "2026-08-03 14:41:14",
- "total_days": 156,
- "total_events": 505,
+ "extracted_at": "2026-08-04 09:45:00",
+ "total_days": 157,
+ "total_events": 508,
  "events": [
+  {
+   "date_id": "d157",
+   "date_label": "8月4日",
+   "events": [
+    {
+     "time": "上午",
+     "category": "外交",
+     "tag": "major-tag",
+     "title": "伊朗否认与美谈判，称仅与阿曼就海峡通行磋商",
+     "content": "8月4日，伊朗外交部发言人巴加埃表示，伊朗目前没有与美国进行任何谈判，也没有接待或派遣代表团的计划；伊朗当前谈判对象是阿曼，内容仅限于建立霍尔木兹海峡安全通行的临时航线安排。巴加埃强调，海峡现状\"绝不会回到2月28日之前的状况\"。此前特朗普8月3日宣布美伊谈判将于周一开始，伊朗予以否认。[日期核验: Reuters/Al Jazeera/NPR 8月3-4日]",
+     "major": true,
+     "verification_status": "verified",
+     "sources": [
+      {
+       "url": "https://www.aljazeera.com/news/liveblog/2026/8/4/iran-war-live-tehran-denies-us-talks-as-trump-warns-of-last-chance",
+       "name": "半岛电视台",
+       "priority": 1
+      },
+      {
+       "url": "https://www.npr.org/2026/08/03/g-s1-136916/iran-war-trump-us-peace-negotiations",
+       "name": "NPR",
+       "priority": 1
+      },
+      {
+       "url": "https://www.cnbc.com/2026/08/03/trump-iran-us-negotiations-peace-proposals-.html",
+       "name": "CNBC",
+       "priority": 2
+      }
+     ]
+    },
+    {
+     "time": "上午",
+     "category": "外交",
+     "tag": "major-tag",
+     "title": "特朗普称谈判是伊朗\"最后机会\"，海峡协议\"即将达成\"",
+     "content": "8月4日，美国总统特朗普表示美伊谈判正在进行，并警告谈判是伊朗达成协议的\"最后机会\"；特朗普此前宣称美伊已就霍尔木兹海峡达成协议框架，弃核协议也接近达成，并称原计划对伊打击是\"二战以来最大规模攻击\"，因伊朗及地区盟友请求停手而取消。特朗普称谈判将分两阶段：先重开霍尔木兹海峡，后谈核问题。[日期核验: Sky News/AP/PBS 8月3-4日]",
+     "major": true,
+     "verification_status": "verified",
+     "sources": [
+      {
+       "url": "https://www.pbs.org/newshour/world/trump-claims-iran-talks-will-start-monday-and-4-other-developments-in-the-middle-east",
+       "name": "PBS",
+       "priority": 1
+      },
+      {
+       "url": "https://abcnews.com/International/live-updates/iran-live-updates-trump-deal-imminent-iran-oman?id=135317231",
+       "name": "ABC News",
+       "priority": 2
+      }
+     ]
+    },
+    {
+     "time": "全天",
+     "category": "军事",
+     "tag": "military-tag",
+     "title": "美伊军事对峙持续：美军戒备、伊朗支持民兵袭击伊拉克美军利益",
+     "content": "8月4日，美国国防部长赫格塞斯警告美军\"锁定装载\"，战备水平为二战以来最高；美方否认与伊朗举行新一轮正式谈判。与此同时，伊朗支持的伊拉克民兵对伊拉克境内（含库尔德地区）的美军利益发动多起无人机袭击；叙利亚过渡总统沙拉与伊拉克库尔德地区主席巴尔扎尼会晤讨论地区安全。[日期核验: Fox/Al Jazeera/PBS 8月3-4日]",
+     "major": false,
+     "verification_status": "verified",
+     "sources": [
+      {
+       "url": "https://www.aljazeera.com/news/liveblog/2026/8/4/iran-war-live-tehran-denies-us-talks-as-trump-warns-of-last-chance",
+       "name": "半岛电视台",
+       "priority": 1
+      },
+      {
+       "url": "https://www.pbs.org/newshour/world/trump-claims-iran-talks-will-start-monday-and-4-other-developments-in-the-middle-east",
+       "name": "PBS",
+       "priority": 1
+      }
+     ]
+    }
+   ]
+  },
   {
    "date_id": "d156",
    "date_label": "8月3日",
