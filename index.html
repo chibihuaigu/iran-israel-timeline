@@ -484,15 +484,27 @@
             gap: 8px;
             padding: 8px 0;
             margin-bottom: 16px;
-            position: sticky;
-            top: 0;
             z-index: 200;
             background: var(--bg);
             border-bottom: 1px solid transparent;
         }
         .toolbar.is-stuck {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 8px 16px;
             border-bottom-color: var(--border);
             box-shadow: 0 2px 8px var(--shadow);
+            max-width: none;
+        }
+        .toolbar-spacer {
+            display: none;
+        }
+        .toolbar-spacer.active {
+            display: block;
+            height: 53px;
         }
         .toolbar .search-box {
             flex: 1 1 220px;
@@ -639,16 +651,13 @@
             .toolbar {
                 gap: 6px;
                 margin-bottom: 12px;
-                position: sticky;
-                top: 0;
-                z-index: 100;
-                background: var(--bg);
-                border-bottom: 1px solid transparent;
                 padding: 6px 0;
             }
             .toolbar.is-stuck {
-                border-bottom-color: var(--border);
-                box-shadow: 0 2px 8px var(--shadow);
+                padding: 6px 10px;
+            }
+            .toolbar-spacer.active {
+                height: 85px;
             }
             .toolbar .search-box {
                 flex: 1 1 100%;
@@ -3651,7 +3660,7 @@
         }
 
         </style>
-    <script src="js/timeline-loader.js?v=20260413"></script>
+    <script src="js/timeline-loader.js?v=20260804"></script>
 
     <!-- Leaflet 地图 JS -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
@@ -3888,6 +3897,7 @@
                 <button class="filter-btn" data-filter="economic"><span class="filter-dot dot-economic"></span>经济</button>
             </div>
         </div>
+        <div class="toolbar-spacer" id="toolbarSpacer"></div>
 
         <div class="toc">
             <div class="toc-header">
@@ -4129,17 +4139,27 @@
             });
         }
 
-        // 筛选栏吸顶：滚动越过 toolbar 时加 is-stuck（显示底边框+阴影）
+        // 筛选栏吸顶（fixed 方案，全浏览器兼容）：
+        // 滚动超过 toolbar 原始位置时，切换为 fixed 固定顶部 + 激活占位 spacer
         var toolbarEl = document.getElementById('mainToolbar');
+        var toolbarSpacer = document.getElementById('toolbarSpacer');
         if (toolbarEl) {
-            window.addEventListener('scroll', function() {
+            function updateToolbarStuck() {
                 var rect = toolbarEl.getBoundingClientRect();
-                if (rect.top <= 0) {
-                    if (!toolbarEl.classList.contains('is-stuck')) toolbarEl.classList.add('is-stuck');
-                } else {
-                    if (toolbarEl.classList.contains('is-stuck')) toolbarEl.classList.remove('is-stuck');
+                var shouldStick = rect.top <= 0;
+                var isStuck = toolbarEl.classList.contains('is-stuck');
+                if (shouldStick && !isStuck) {
+                    toolbarEl.classList.add('is-stuck');
+                    if (toolbarSpacer) toolbarSpacer.classList.add('active');
+                } else if (!shouldStick && isStuck) {
+                    toolbarEl.classList.remove('is-stuck');
+                    if (toolbarSpacer) toolbarSpacer.classList.remove('active');
                 }
-            });
+            }
+            window.addEventListener('scroll', function() {
+                updateToolbarStuck();
+            }, { passive: true });
+            updateToolbarStuck();
         }
 
         // 日期标签吸顶控制：
