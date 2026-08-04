@@ -4144,9 +4144,18 @@
         var toolbarEl = document.getElementById('mainToolbar');
         var toolbarSpacer = document.getElementById('toolbarSpacer');
         if (toolbarEl) {
+            // 记录 toolbar 的原始文档位置（用于判断何时吸顶/释放）
+            var toolbarAnchor = null;
+            function measureToolbarAnchor() {
+                toolbarAnchor = toolbarEl.getBoundingClientRect().top + (window.scrollY || document.documentElement.scrollTop);
+            }
+            measureToolbarAnchor();
+            window.addEventListener('resize', measureToolbarAnchor);
+
             function updateToolbarStuck() {
-                var rect = toolbarEl.getBoundingClientRect();
-                var shouldStick = rect.top <= 0;
+                var scrollY = window.scrollY || document.documentElement.scrollTop;
+                // fixed 状态下 getBoundingClientRect 恒为 0，必须用记录的原始位置判断
+                var shouldStick = toolbarAnchor !== null && scrollY > toolbarAnchor - 1;
                 var isStuck = toolbarEl.classList.contains('is-stuck');
                 if (shouldStick && !isStuck) {
                     toolbarEl.classList.add('is-stuck');
