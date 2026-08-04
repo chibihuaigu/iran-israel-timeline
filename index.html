@@ -486,7 +486,7 @@
             margin-bottom: 16px;
             position: sticky;
             top: 0;
-            z-index: 100;
+            z-index: 200;
             background: var(--bg);
             border-bottom: 1px solid transparent;
         }
@@ -922,7 +922,7 @@
         .date-label {
             position: sticky;
             top: 58px;
-            z-index: 99;
+            z-index: 90;
             display: inline-flex;
             align-items: center;
             gap: 8px;
@@ -940,9 +940,7 @@
             transition: all 0.2s;
         }
         .date-label.label-off {
-            opacity: 0;
-            pointer-events: none;
-            transition: none;
+            display: none;
         }
 
         .date-label:hover {
@@ -1218,7 +1216,7 @@
             .date-label {
                 position: sticky !important;
                 top: 88px !important;
-                z-index: 99 !important;
+                z-index: 90 !important;
                 margin-left: -12px;
                 font-size: 13px;
                 padding: 7px 14px;
@@ -4146,21 +4144,30 @@
         }
 
         // 日期标签防穿透：sticky 标签被推出组顶、滑过筛选栏上方时隐藏
-        window.addEventListener('scroll', function() {
+        // 用 rAF 节流 + display 控制，确保任何浏览器下及时生效
+        var labelScrollRaf = null;
+        function updateDateLabels() {
+            labelScrollRaf = null;
+            var stopTop = window.innerWidth <= 768 ? 88 : 58;
             document.querySelectorAll('.date-label').forEach(function(label) {
                 var group = label.closest('.date-group');
                 if (!group) return;
                 if (group.classList.contains('hidden')) return;
                 var lr = label.getBoundingClientRect();
-                // 停驻点 = toolbar 高度 + 间隙（桌面58/移动88），标签滑到停驻点上方说明被推出，隐藏
-                var stopTop = window.innerWidth <= 768 ? 88 : 58;
-                if (lr.top < stopTop - 2 && lr.bottom > 0) {
-                    if (!label.classList.contains('label-off')) label.classList.add('label-off');
-                } else {
-                    if (label.classList.contains('label-off')) label.classList.remove('label-off');
+                var shouldHide = lr.top < stopTop - 2 && lr.bottom > 0;
+                var hidden = label.classList.contains('label-off');
+                if (shouldHide && !hidden) {
+                    label.classList.add('label-off');
+                } else if (!shouldHide && hidden) {
+                    label.classList.remove('label-off');
                 }
             });
-        });
+        }
+        window.addEventListener('scroll', function() {
+            if (!labelScrollRaf) {
+                labelScrollRaf = requestAnimationFrame(updateDateLabels);
+            }
+        }, { passive: true });
     </script>
 
     <!-- 参战国历史弹窗 -->
