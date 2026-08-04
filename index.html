@@ -911,8 +911,6 @@
             position: relative;
             padding-top: 8px;
             transition: opacity 0.3s;
-            /* 裁剪 sticky 标签溢出：标签被推出组顶时立即被裁剪，不会穿到筛选栏上方 */
-            overflow: clip;
         }
 
         .date-group.hidden {
@@ -938,9 +936,6 @@
             box-shadow: 0 3px 12px rgba(30, 58, 95, 0.25);
             cursor: pointer;
             transition: all 0.2s;
-        }
-        .date-label.label-off {
-            display: none;
         }
 
         .date-label:hover {
@@ -4143,31 +4138,9 @@
             });
         }
 
-        // 日期标签防穿透：sticky 标签被推出组顶、滑过筛选栏上方时隐藏
-        // 用 rAF 节流 + display 控制，确保任何浏览器下及时生效
-        var labelScrollRaf = null;
-        function updateDateLabels() {
-            labelScrollRaf = null;
-            var stopTop = window.innerWidth <= 768 ? 88 : 58;
-            document.querySelectorAll('.date-label').forEach(function(label) {
-                var group = label.closest('.date-group');
-                if (!group) return;
-                if (group.classList.contains('hidden')) return;
-                var lr = label.getBoundingClientRect();
-                var shouldHide = lr.top < stopTop - 2 && lr.bottom > 0;
-                var hidden = label.classList.contains('label-off');
-                if (shouldHide && !hidden) {
-                    label.classList.add('label-off');
-                } else if (!shouldHide && hidden) {
-                    label.classList.remove('label-off');
-                }
-            });
-        }
-        window.addEventListener('scroll', function() {
-            if (!labelScrollRaf) {
-                labelScrollRaf = requestAnimationFrame(updateDateLabels);
-            }
-        }, { passive: true });
+        // 日期标签防穿透说明：
+        // toolbar z-index(200) > date-label z-index(90)，且 toolbar 背景不透明，
+        // 标签被推出滑过 toolbar 区域时会被完全遮挡；停驻在 toolbar 下方(58px)时正常可见。
     </script>
 
     <!-- 参战国历史弹窗 -->
