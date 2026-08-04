@@ -552,18 +552,6 @@ function updateStatisticsDisplay(statisticsData) {
 }
 
 /**
- * 滚动到最新事件（第一个日期组）
- */
-function scrollToLatest() {
-    const firstGroup = document.querySelector('.date-group');
-    if (firstGroup) {
-        firstGroup.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    } else {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
-}
-
-/**
  * 切换战前背景展开/折叠
  */
 function toggleBg() {
