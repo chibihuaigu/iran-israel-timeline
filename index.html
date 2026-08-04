@@ -639,9 +639,16 @@
             .toolbar {
                 gap: 6px;
                 margin-bottom: 12px;
-                position: static;
-                border-bottom: none;
-                box-shadow: none;
+                position: sticky;
+                top: 0;
+                z-index: 100;
+                background: var(--bg);
+                border-bottom: 1px solid transparent;
+                padding: 6px 0;
+            }
+            .toolbar.is-stuck {
+                border-bottom-color: var(--border);
+                box-shadow: 0 2px 8px var(--shadow);
             }
             .toolbar .search-box {
                 flex: 1 1 100%;
@@ -1203,7 +1210,7 @@
             .timeline::before { left: 0; width: 2px; }
             .date-label {
                 position: sticky !important;
-                top: 8px !important;
+                top: 88px !important;
                 z-index: 99 !important;
                 margin-left: -12px;
                 font-size: 13px;
@@ -2293,8 +2300,8 @@
             .timeline { padding-left: 18px; }
             .timeline::before { left: 0; width: 2px; }
             .date-label {
-                position: relative;
-                top: 0;
+                position: sticky;
+                top: 88px;
                 margin-left: -8px;
                 font-size: 12px;
                 padding: 6px 12px;
