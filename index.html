@@ -621,6 +621,12 @@
             border-color: #ffd700;
             color: #b8860b;
         }
+        .filter-btn[data-filter="star"] .star-text {
+            color: #ffd700;
+        }
+        .filter-btn[data-filter="star"].active .star-text {
+            color: #b8860b;
+        }
         .filter-divider {
             color: var(--text-muted);
             margin: 0 3px;
@@ -3866,7 +3872,7 @@
             </div>
             <div class="filter-bar">
                 <button class="filter-btn active" data-filter="all">全部</button>
-                <button class="filter-btn" data-filter="star">★ 星标</button>
+                <button class="filter-btn" data-filter="star"><span class="star-text">★</span> 星标</button>
                 <button class="filter-btn" data-filter="military"><span class="filter-dot dot-military"></span>军事</button>
                 <button class="filter-btn" data-filter="humanitarian"><span class="filter-dot dot-humanitarian"></span>人道</button>
                 <button class="filter-btn" data-filter="political"><span class="filter-dot dot-political"></span>政治</button>
