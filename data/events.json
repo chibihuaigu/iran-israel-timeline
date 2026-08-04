@@ -32,7 +32,8 @@
        "name": "CNBC",
        "priority": 2
       }
-     ]
+     ],
+     "star": true
     },
     {
      "time": "上午",
@@ -299,7 +300,7 @@
        "priority": 1
       }
      ],
-     "star": true
+     "star": false
     }
    ]
   },
@@ -9560,7 +9561,7 @@
       "❌ 有效来源不足2个（现有1个）"
      ],
      "verification_status": "verified",
-     "star": true
+     "star": false
     },
     {
      "major": true,
