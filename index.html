@@ -491,13 +491,14 @@
         .toolbar.is-stuck {
             position: fixed;
             top: 0;
-            left: 0;
-            right: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+            max-width: 900px;
             margin: 0;
-            padding: 8px 16px;
+            padding: 8px 0;
             border-bottom-color: var(--border);
             box-shadow: 0 2px 8px var(--shadow);
-            max-width: none;
         }
         .toolbar-spacer {
             display: none;
@@ -654,7 +655,7 @@
                 padding: 6px 0;
             }
             .toolbar.is-stuck {
-                padding: 6px 10px;
+                padding: 6px 0;
             }
             .toolbar-spacer.active {
                 height: 85px;
