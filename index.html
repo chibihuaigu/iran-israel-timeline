@@ -911,6 +911,8 @@
             position: relative;
             padding-top: 8px;
             transition: opacity 0.3s;
+            /* 裁剪 sticky 标签溢出：标签被推出组顶时立即被裁剪，不会穿到筛选栏上方 */
+            overflow: clip;
         }
 
         .date-group.hidden {
@@ -940,6 +942,7 @@
         .date-label.label-off {
             opacity: 0;
             pointer-events: none;
+            transition: none;
         }
 
         .date-label:hover {
