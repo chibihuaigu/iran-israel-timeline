@@ -541,7 +541,6 @@
             border-radius: 50%;
             flex-shrink: 0;
         }
-        .filter-dot.dot-major { background: #b45309; }
         .filter-dot.dot-military { background: #c0392b; }
         .filter-dot.dot-humanitarian { background: #7f8c8d; }
         .filter-dot.dot-political { background: #8e44ad; }
@@ -560,11 +559,6 @@
             background: #ffffff;
         }
         /* 筛选按钮按类别着色 */
-        .toolbar .filter-btn[data-filter="major"].active {
-            background: var(--primary-dark);
-            border-color: var(--primary-dark);
-            color: white;
-        }
         .toolbar .filter-btn[data-filter="military"].active {
             background: var(--primary);
             border-color: var(--primary);
@@ -581,7 +575,6 @@
             border-color: var(--secondary);
             color: white;
         }
-        .toolbar .filter-btn[data-filter="major"]:hover,
         .toolbar .filter-btn[data-filter="military"]:hover {
             border-color: var(--primary);
             color: var(--primary);
@@ -3874,7 +3867,6 @@
             <div class="filter-bar">
                 <button class="filter-btn active" data-filter="all">全部</button>
                 <button class="filter-btn" data-filter="star">★ 星标</button>
-                <button class="filter-btn" data-filter="major"><span class="filter-dot dot-major"></span>重要</button>
                 <button class="filter-btn" data-filter="military"><span class="filter-dot dot-military"></span>军事</button>
                 <button class="filter-btn" data-filter="humanitarian"><span class="filter-dot dot-humanitarian"></span>人道</button>
                 <button class="filter-btn" data-filter="political"><span class="filter-dot dot-political"></span>政治</button>
@@ -5261,9 +5253,7 @@ function filterEvents() {
             var tags = event.querySelectorAll('.category-tag');
             tags.forEach(function(tag) {
                 var tagText = tag.textContent.trim();
-                if (currentFilter === 'major' && tag.classList.contains('major-tag')) {
-                    categoryMatch = true;
-                } else if (currentFilter === 'military' && tag.classList.contains('military-tag')) {
+                if (currentFilter === 'military' && tag.classList.contains('military-tag')) {
                     categoryMatch = true;
                 } else if (currentFilter === 'humanitarian' && tag.classList.contains('humanitarian-tag')) {
                     categoryMatch = true;
@@ -5316,7 +5306,6 @@ function updateFilterResult() {
     var filterNames = {
         'all': '全部',
         'star': '星标事件',
-        'major': '重要事件',
         'military': '军事',
         'humanitarian': '人道主义',
         'political': '政治',
