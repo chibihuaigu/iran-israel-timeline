@@ -937,6 +937,10 @@
             cursor: pointer;
             transition: all 0.2s;
         }
+        .date-label.label-off {
+            opacity: 0;
+            pointer-events: none;
+        }
 
         .date-label:hover {
             transform: scale(1.02);
@@ -4137,6 +4141,23 @@
                 }
             });
         }
+
+        // 日期标签防穿透：sticky 标签被推出组顶、滑过筛选栏上方时隐藏
+        window.addEventListener('scroll', function() {
+            document.querySelectorAll('.date-label').forEach(function(label) {
+                var group = label.closest('.date-group');
+                if (!group) return;
+                if (group.classList.contains('hidden')) return;
+                var lr = label.getBoundingClientRect();
+                // 停驻点 = toolbar 高度 + 间隙（桌面58/移动88），标签滑到停驻点上方说明被推出，隐藏
+                var stopTop = window.innerWidth <= 768 ? 88 : 58;
+                if (lr.top < stopTop - 2 && lr.bottom > 0) {
+                    if (!label.classList.contains('label-off')) label.classList.add('label-off');
+                } else {
+                    if (label.classList.contains('label-off')) label.classList.remove('label-off');
+                }
+            });
+        });
     </script>
 
     <!-- 参战国历史弹窗 -->
