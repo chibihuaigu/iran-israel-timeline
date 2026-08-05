@@ -101,7 +101,8 @@
               "name": "半岛电视台",
               "priority": 1
             }
-          ]
+          ],
+          "star": true
         },
         {
           "time": "上午",
