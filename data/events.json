@@ -10369,11 +10369,16 @@
           "tag": "major-tag",
           "category": "分析",
           "title": "伊朗第34-40轮密集打击",
-          "content": "当地时间3月10日至11日凌晨，伊朗连续发动第34、35、40波高强度打击，使用高超音速导弹+无人机蜂群饱和攻击。打击伊拉克埃尔比勒美军基地和巴林美国第五舰队基地。\n                        \n                        \n                            腾讯新闻\n                            搜狐新闻",
+          "content": "当地时间3月10日至11日凌晨，伊朗连续发动第34、35、40波高强度打击，使用高超音速导弹+无人机蜂群饱和攻击。打击伊拉克埃尔比勒美军基地和巴林美国第五舰队基地。\n                        \n                        \n                            腾讯新闻\n                            搜狐新闻 [日期核验: Press TV/世界报 3月10-11日]",
           "sources": [
             {
-              "url": "https://understandingwar.org/research/middle-east/iran-update-march-11-2026/",
-              "name": "ISW",
+              "url": "https://www.presstv.co.uk/Detail/2026/03/10/765225/true-promise-4-iran-resistance-axisops-against-us-israeli-assets-march-10",
+              "name": "Press TV",
+              "priority": 2
+            },
+            {
+              "url": "https://www.lemonde.fr/en/international/article/2026/03/11/israeli-military-says-missiles-launched-from-iran-towards-israel_6751316_4.html",
+              "name": "世界报",
               "priority": 1
             }
           ],
@@ -10420,8 +10425,13 @@
           "content": "俄罗斯塔斯社报道：伊朗发射大批导弹和无人机对以色列发动报复性反击，以色列情报总部、电子情报部门和海法海军基地陷入火海。10枚导弹全中美军基地。\n                        \n                        \n                            搜狐新闻",
           "sources": [
             {
-              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-march-11-2026/",
-              "name": "ISW战争研究所",
+              "url": "https://www.lemonde.fr/en/international/article/2026/03/11/israeli-military-says-missiles-launched-from-iran-towards-israel_6751316_4.html",
+              "name": "世界报",
+              "priority": 1
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/2026_Iran_war",
+              "name": "Wikipedia英文",
               "priority": 1
             }
           ],
@@ -10610,8 +10620,13 @@
           "content": "【IRGC官方声明】当地时间3月10日，伊朗革命卫队公布\"真实承诺4\"第34轮打击详细战报，针对美国和以色列的军事打击已正式进入全新阶段。伊朗官方表态：美国与以色列的袭击已导致1300多名平民丧生，受伤人数超过1.5万。\n                        \n                        \n                            腾讯新闻\n                            搜狐新闻",
           "sources": [
             {
-              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-march-10-2026/",
-              "name": "ISW战争研究所",
+              "url": "https://www.presstv.co.uk/Detail/2026/03/10/765225/true-promise-4-iran-resistance-axisops-against-us-israeli-assets-march-10",
+              "name": "Press TV",
+              "priority": 2
+            },
+            {
+              "url": "https://en.wikipedia.org/wiki/2026_Iran_war",
+              "name": "Wikipedia英文",
               "priority": 1
             }
           ],
