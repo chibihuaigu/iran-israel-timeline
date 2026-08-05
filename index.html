@@ -1141,7 +1141,7 @@
         .event-card.card-political { border-left-color: #8e44ad; }
         .event-card.card-humanitarian { border-left-color: #7f8c8d; }
         .event-card.card-rumor { border-left-color: #95a5a6; }
-        .event-card.card-sanction { border-left-color: #6d4c41; }
+        .event-card.card-economic { border-left-color: #388e3c; }
         .event-card.star-event {
             border-left-color: #ffd700;
             border-left-width: 5px;
@@ -3738,7 +3738,7 @@
         }
 
         </style>
-    <script src="js/timeline-loader.js?v=20260805a"></script>
+    <script src="js/timeline-loader.js?v=20260805b"></script>
 
     <!-- Leaflet 地图 JS -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
@@ -5493,6 +5493,15 @@ function filterEvents() {
     var dateGroups = document.querySelectorAll('.date-group');
     var hasVisibleEvent = false;
 
+    // 筛选按钮 → 标签文字映射（按 category 文字匹配，保证与卡片标签一致）
+    var filterToCategory = {
+        'military': '军事',
+        'humanitarian': '人道',
+        'political': '政治',
+        'diplomatic': '外交',
+        'economic': '经济'
+    };
+
     events.forEach(function(event) {
         var categoryMatch = currentFilter === 'all';
 
@@ -5500,23 +5509,24 @@ function filterEvents() {
             if (currentFilter === 'star') {
                 categoryMatch = event.classList.contains('star-event');
             } else {
-            // 检查事件是否有对应的标签
-            var tags = event.querySelectorAll('.category-tag');
-            tags.forEach(function(tag) {
-                var tagText = tag.textContent.trim();
-                if (currentFilter === 'military' && tag.classList.contains('military-tag')) {
-                    categoryMatch = true;
-                } else if (currentFilter === 'humanitarian' && tag.classList.contains('humanitarian-tag')) {
-                    categoryMatch = true;
-                } else if (currentFilter === 'political' && tag.classList.contains('political-tag')) {
-                    categoryMatch = true;
-                } else if (currentFilter === 'diplomatic' && tag.classList.contains('diplomatic-tag')) {
-                    categoryMatch = true;
-                } else if (currentFilter === 'economic' && tagText.includes('经济')) {
-                    categoryMatch = true;
+                var expectedCategory = filterToCategory[currentFilter];
+                var tags = event.querySelectorAll('.category-tag');
+                tags.forEach(function(tag) {
+                    var tagText = tag.textContent.trim();
+                    // 按标签文字匹配（与卡片显示的标签完全一致）
+                    if (expectedCategory && tagText === expectedCategory) {
+                        categoryMatch = true;
+                    }
+                });
+                // 经济类兜底：制裁(sanction)也属经济类别
+                if (!categoryMatch && currentFilter === 'economic') {
+                    tags.forEach(function(tag) {
+                        if (tag.classList.contains('sanction-tag')) {
+                            categoryMatch = true;
+                        }
+                    });
                 }
-            });
-        }
+            }
         }
 
         var shouldShow = categoryMatch;
