@@ -170,7 +170,21 @@ function renderEventCard(event, dateId, eventIndex) {
     else if (event.mark === 'first_occurrence') eventMarkClass = ' first-occurrence';
     else if (event.mark === 'escalation') eventMarkClass = ' escalation';
 
-    // tag → 色条类映射（卡片左侧色条按事件类别着色）
+    // category（标签文字）→ 色条类映射（优先于 tag，保证颜色与标签一致）
+    const categoryColorMap = {
+        '军事': ' card-military',
+        '外交': ' card-diplomatic',
+        '政治': ' card-political',
+        '人道': ' card-humanitarian',
+        '经济': ' card-economic',
+        '内政': ' card-political',
+        '国际': ' card-diplomatic',
+        '代理人': ' card-military',
+        '情报': ' card-major',
+        '核': ' card-major',
+        '分析': ' card-major'
+    };
+    // tag → 色条类映射（兜底，category 未命中时使用）
     const tagColorMap = {
         'major-tag': ' card-major',
         'military-tag': ' card-military',
@@ -178,9 +192,9 @@ function renderEventCard(event, dateId, eventIndex) {
         'political-tag': ' card-political',
         'humanitarian-tag': ' card-humanitarian',
         'rumor-tag': ' card-rumor',
-        'sanction-tag': ' card-sanction'
+        'sanction-tag': ' card-economic'
     };
-    const colorClass = tagColorMap[event.tag] || '';
+    const colorClass = (event.category && categoryColorMap[event.category]) || tagColorMap[event.tag] || '';
 
     return `
         <div class="event-card${event.major ? ' major' : ''}${eventMarkClass}${event.star ? ' star-event' : ''}${colorClass} ${sourceQualityClass}" ${anchorId ? `id="${anchorId}"` : ''}>
