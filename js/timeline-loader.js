@@ -5,7 +5,7 @@
  */
 
 // 数据文件路径（静态版本号，每次数据更新时递增）
-const CACHE_BUSTER = '?v=20260518';
+const CACHE_BUSTER = '?t=' + Date.now();
 const DATA_DIR = 'data/';
 const EVENTS_FILE = DATA_DIR + 'events.json' + CACHE_BUSTER;
 const DASHBOARD_FILE = DATA_DIR + 'dashboard.json' + CACHE_BUSTER;
