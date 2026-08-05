@@ -1,10 +1,10 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-08-04",
+  "lastUpdated": "2026-08-05 11:41",
   "description": "统计数据来源追踪文件，记录每个统计字段的数据来源和可信度",
   "fields": {
     "warDays": {
-      "value": 158,
+      "value": 159,
       "calculated_from": "events.json中max(date_id) + 1",
       "confidence": "high",
       "note": "完全自动化计算",
@@ -12,10 +12,10 @@
         {
           "type": "自动计算",
           "formula": "max(date_id) + 1",
-          "date": "2026-08-03"
+          "date": "2026-08-05"
         }
       ],
-      "lastUpdated": "2026-08-04"
+      "lastUpdated": "2026-08-05"
     },
     "iranDeaths": {
       "value": "3,684+",
