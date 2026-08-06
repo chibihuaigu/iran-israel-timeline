@@ -1,9 +1,57 @@
 {
   "version": "1.0",
-  "extracted_at": "2026-08-05 11:41:25",
-  "total_days": 158,
-  "total_events": 512,
+  "extracted_at": "2026-08-06 10:31:12",
+  "total_days": 159,
+  "total_events": 515,
   "events": [
+    {
+      "date_id": "d159",
+      "date_label": "8月6日",
+      "events": [
+        {
+          "time": "上午",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "霍尔木兹海峡油轮报告听到两次爆炸",
+          "content": "8月6日，英国海事贸易行动办公室(UKMTO)报告，一艘油轮在阿曼库姆扎尔东南约10海里处穿越霍尔木兹海峡时听到两次爆炸声，船员和船只安全，无环境损害报告。事件发生在伊朗与阿曼就联合管理海峡航道举行谈判期间，伊朗自战争以来实际控制海峡，曾向未按规定航线行驶的船只开火。[日期核验: UKMTO/半岛电视台 8月6日]",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.aljazeera.com/news/liveblog/2026/8/6/iran-war-live-tehran-oman-close-in-on-hormuz-deal-houthis-attack-tankers",
+              "name": "半岛电视台",
+              "priority": 1
+            },
+            {
+              "url": "https://www.timesofisrael.com/liveblog_entry/tanker-reports-hearing-explosions-in-hormuz-but-vessel-and-crew-safe-uk-maritime-agency/",
+              "name": "Times of Israel",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "凌晨",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "美官员称美伊协议或48小时内签署，聚焦重开霍尔木兹海峡",
+          "content": "8月6日，美国官员透露，华盛顿与德黑兰可能48小时内签署协议，协议聚焦重新开放霍尔木兹海峡，或成为迈向更广泛谈判的第一步。此前伊朗外交部宣布与阿曼就海峡新航线地理坐标达成一致，联合声明进入最终起草阶段；伊方强调协议不等于危机结束，美国海军封锁仍是海峡不安全根源，航线不涉及通行费。特朗普在拉斯维加斯表示宁愿与伊朗达成协议，称不想杀人；副总统万斯称谈判过程混乱但结果将有利于美国。[日期核验: 半岛电视台/CBS 8月6日]",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.aljazeera.com/news/liveblog/2026/8/6/iran-war-live-tehran-oman-close-in-on-hormuz-deal-houthis-attack-tankers",
+              "name": "半岛电视台",
+              "priority": 1
+            },
+            {
+              "url": "https://www.bbc.com/news/articles/ckg9d3eyeggo",
+              "name": "BBC",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
     {
       "date_id": "d158",
       "date_label": "8月5日",
@@ -67,6 +115,32 @@
             {
               "url": "https://en.wikipedia.org/wiki/2026_Iran_war",
               "name": "Wikipedia英文",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "胡塞武装声称袭击两艘沙特油轮，威胁扩大红海攻击",
+          "content": "8月5日，也门胡塞武装声称对两艘沙特油轮发动导弹袭击：其一是红海延布港附近的沙特油轮Wafa，胡塞称其被多枚弹道导弹击中；另一艘为亚丁湾的沙特油轮Daisy。胡塞发言人萨雷称这是自7月22日宣布对沙特实施海上封锁以来遭袭的第8艘沙特油轮，并威胁扩大红海北部攻击，以封锁沙特石油运输的所有通道。袭击发生后国际油价反弹约1%至每桶80美元，沙特方面暂未回应。[日期核验: 纽约时报/路透社 8月5日]",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.nytimes.com/2026/08/05/world/middleeast/houthis-claim-attack-saudi-arabia-tanker.html",
+              "name": "纽约时报",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/yemens-houthis-say-they-attacked-saudi-oil-tanker-red-sea-2026-08-05/",
+              "name": "路透社",
+              "priority": 1
+            },
+            {
+              "url": "https://www.aljazeera.com/news/liveblog/2026/8/5/iran-war-live-tehran-oman-talks-on-hormuz-positive-ship-hit-in-red-sea",
+              "name": "半岛电视台",
               "priority": 1
             }
           ]
