@@ -43,11 +43,11 @@
       "lastUpdated": "2026-08-03"
     },
     "israelDeaths": {
-      "value": "70",
+      "value": "72",
       "confidence": "medium",
       "sources": [
         {
-          "value": "70",
+          "value": "72",
           "source": "Wikipedia/Casualties_of_the_2026_Iran_war",
           "date": "2026-08-06"
         }
