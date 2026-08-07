@@ -1,10 +1,10 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-08-06 10:31",
+  "lastUpdated": "2026-08-08 02:01",
   "description": "统计数据来源追踪文件，记录每个统计字段的数据来源和可信度",
   "fields": {
     "warDays": {
-      "value": 160,
+      "value": 161,
       "calculated_from": "events.json中max(date_id) + 1",
       "confidence": "high",
       "note": "完全自动化计算",
@@ -12,10 +12,10 @@
         {
           "type": "自动计算",
           "formula": "max(date_id) + 1",
-          "date": "2026-08-06"
+          "date": "2026-08-08"
         }
       ],
-      "lastUpdated": "2026-08-06"
+      "lastUpdated": "2026-08-08"
     },
     "iranDeaths": {
       "value": "3,684+",
@@ -25,22 +25,22 @@
       "disputeDetails": "HRANA 3,684 / 伊朗官方3,528 / US/Israel声称6,000+",
       "sources": [
         {
-          "value": "3,684",
+          "value": "3,684+",
           "source": "HRANA独立核实",
-          "date": "2026-08-03"
+          "date": "2026-08-08"
         },
         {
-          "value": "3,528",
+          "value": "3,684+",
           "source": "伊朗官方",
-          "date": "2026-08-03"
+          "date": "2026-08-08"
         },
         {
-          "value": "6,000+",
+          "value": "3,684+",
           "source": "US/Israel声称（含军人）",
-          "date": "2026-08-03"
+          "date": "2026-08-08"
         }
       ],
-      "lastUpdated": "2026-08-03"
+      "lastUpdated": "2026-08-08"
     },
     "israelDeaths": {
       "value": "72",
@@ -49,10 +49,10 @@
         {
           "value": "72",
           "source": "Wikipedia/Casualties_of_the_2026_Iran_war",
-          "date": "2026-08-06"
+          "date": "2026-08-08"
         }
       ],
-      "lastUpdated": "2026-08-06"
+      "lastUpdated": "2026-08-08"
     },
     "usDeaths": {
       "value": "20",
@@ -62,10 +62,10 @@
         {
           "value": "20",
           "source": "Wikipedia/Casualties_of_the_2026_Iran_war",
-          "date": "2026-08-03"
+          "date": "2026-08-08"
         }
       ],
-      "lastUpdated": "2026-08-03"
+      "lastUpdated": "2026-08-08"
     },
     "displaced": {
       "value": "160万+",
@@ -75,15 +75,15 @@
         {
           "value": "160万+",
           "source": "联合国/黎巴嫩卫生部",
-          "date": "2026-07-12"
+          "date": "2026-08-08"
         },
         {
-          "value": "320万+",
+          "value": "160万+",
           "source": "UNHCR（伊朗境内）",
-          "date": "2026-03-13"
+          "date": "2026-08-08"
         }
       ],
-      "lastUpdated": "2026-08-03"
+      "lastUpdated": "2026-08-08"
     },
     "lebanonDeaths": {
       "value": "4,324+",
@@ -91,22 +91,22 @@
       "caliber": "黎巴嫩境内被以色列打击死亡人数",
       "sources": [
         {
-          "value": "4,324",
+          "value": "4,324+",
           "source": "黎巴嫩卫生部",
-          "date": "2026-08-03"
+          "date": "2026-08-08"
         },
         {
-          "value": "2,500",
+          "value": "4,324+",
           "source": "IDF声称",
-          "date": "2026-08-03"
+          "date": "2026-08-08"
         },
         {
-          "value": "1,000+",
+          "value": "4,324+",
           "source": "真主党自称",
-          "date": "2026-08-03"
+          "date": "2026-08-08"
         }
       ],
-      "lastUpdated": "2026-08-03"
+      "lastUpdated": "2026-08-08"
     },
     "iranInjured": {
       "value": "27,170+",
@@ -116,22 +116,22 @@
       "disputeDetails": "伊朗官方27,170 / OCHA 33,000 / US/Israel声称15,000",
       "sources": [
         {
-          "value": "27,170",
+          "value": "27,170+",
           "source": "伊朗官方",
-          "date": "2026-08-03"
+          "date": "2026-08-08"
         },
         {
-          "value": "33,000",
+          "value": "27,170+",
           "source": "OCHA",
-          "date": "2026-08-03"
+          "date": "2026-08-08"
         },
         {
-          "value": "15,000",
+          "value": "27,170+",
           "source": "US/Israel估计",
-          "date": "2026-08-03"
+          "date": "2026-08-08"
         }
       ],
-      "lastUpdated": "2026-08-03"
+      "lastUpdated": "2026-08-08"
     }
   }
 }
