@@ -1,17 +1,138 @@
 {
   "version": "1.0",
-  "extracted_at": "2026-08-06 10:31:12",
-  "total_days": 159,
-  "total_events": 515,
+  "extracted_at": "2026-08-08 02:01:00",
+  "total_days": 160,
+  "total_events": 521,
   "events": [
+    {
+      "date_id": "d160",
+      "date_label": "8月7日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "伊朗称与阿曼就重开霍尔木兹海峡的协议即将敲定",
+          "content": "8月7日，伊朗方面表示，与阿曼就重新开放霍尔木兹海峡达成的协议即将最终敲定，双方此前已就海峡航运路线达成一致。据以色列时报报道，关于暂时重开海峡的协议据称已达成，但美方是否支持尚不确定。美国、伊朗、阿曼三方正接近一项重开海峡的临时协议；伊朗议会一委员会同时审议禁止美国、以色列船只通过海峡的初步法案。[日期核验: 半岛电视台/以色列时报 8月7日]",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/8/7/trump-says-war-cant-go-much-longer-whats-the-latest-on",
+              "name": "半岛电视台",
+              "priority": 1
+            },
+            {
+              "url": "https://www.timesofisrael.com/liveblog-august-7-2026/",
+              "name": "Times of Israel",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "傍晚",
+          "category": "外交",
+          "tag": "diplomatic-tag",
+          "title": "土耳其、沙特、巴基斯坦签署联合防务协议",
+          "content": "8月7日，土耳其总统埃尔多安、沙特王储兼首相穆罕默德·本·萨勒曼、巴基斯坦总理夏巴兹·谢里夫在沙特圣城麦加签署三方联合防务协议，即麦加联合防御协议。协议规定对三国中任何一国的武装攻击将被视为对三国共同的攻击；土耳其官员称协议纯属防御性质，不针对任何特定国家。[日期核验: 路透社/半岛电视台 8月7日]",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/asia-pacific/saudi-arabia-turkey-pakistan-sign-joint-defence-deal-amid-regional-turmoil-2026-08-07/",
+              "name": "路透社",
+              "priority": 1
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/8/7/turkiye-saudi-arabi-pakistan-sign-joint-defence-agreement-whats-in-it",
+              "name": "半岛电视台",
+              "priority": 1
+            },
+            {
+              "url": "https://www.bbc.com/news/articles/c30418m4mj4o",
+              "name": "BBC",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "下午",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "沙特官员称情报显示胡塞与伊拉克武装或将在革命卫队指挥下发动新袭击",
+          "content": "8月7日，一名沙特高级官员对路透社表示，情报显示胡塞武装和伊拉克武装团体可能在伊朗伊斯兰革命卫队监督下发起新的袭击，目标可能包括能源基础设施、港口和机场。沙特正与地区盟友和美国合作评估威胁；伊朗管理霍尔木兹海峡的草案方案拟禁止美国与以色列船只通行。[日期核验: 路透社/半岛电视台 8月7日]",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/8/7/houthi-strikes-hit-yemen-as-saudi-arabia-braces-for-attacks-what-we-know",
+              "name": "半岛电视台",
+              "priority": 1
+            },
+            {
+              "url": "https://www.cnbc.com/2026/08/07/us-iran-war-trump-hormuz-diplomacy-oil-.html",
+              "name": "CNBC",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "上午",
+          "category": "军事",
+          "tag": "military-tag",
+          "title": "胡塞武装对也门马里卜、哈德拉毛发动至少12次导弹袭击",
+          "content": "8月7日，胡塞武装向也门哈德拉毛省和马里卜省发起至少12次导弹袭击，造成至少17名政府军士兵和1名军官死亡。胡塞方面称袭击了沙特支持的应急部队基地，摧毁人员、武器和车辆；此前一日胡塞对上述地区的袭击已致约30名士兵死亡。胡塞还称打击了沙特支持的萨恩吉恩营地。[日期核验: 半岛电视台 8月7日]",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/8/7/houthi-strikes-hit-yemen-as-saudi-arabia-braces-for-attacks-what-we-know",
+              "name": "半岛电视台",
+              "priority": 1
+            },
+            {
+              "url": "https://www.timesofisrael.com/liveblog-august-7-2026/",
+              "name": "Times of Israel",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
     {
       "date_id": "d159",
       "date_label": "8月6日",
       "events": [
         {
+          "time": "全天",
+          "category": "军事",
+          "tag": "military-tag",
+          "title": "胡塞武装袭击也门政府军基地，至少30名士兵死亡",
+          "content": "8月6日，胡塞武装使用弹道导弹和无人机袭击也门哈德拉毛省和马里卜省多个政府军营地，造成至少30名政府军士兵死亡、约50人受伤。胡塞发言人萨雷称袭击导致数百人伤亡，目标为沙特支持的也门应急部队营地。同日胡塞对沙特南部奈季兰地区的袭击致11名平民受伤，其中包括一名幼童。外媒称这是也门多年停火以来最致命的袭击。[日期核验: 半岛电视台/路透社 8月6日]",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/8/6/houthis-claim-to-have-killed-45-in-attacks-on-yemeni-government-forces",
+              "name": "半岛电视台",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/least-30-yemeni-government-troops-killed-houthi-attacks-sources-say-2026-08-06/",
+              "name": "路透社",
+              "priority": 1
+            },
+            {
+              "url": "https://www.bbc.com/news/articles/ckgdmdr0lmgo",
+              "name": "BBC",
+              "priority": 1
+            }
+          ]
+        },
+        {
           "time": "上午",
           "category": "军事",
-          "tag": "major-tag",
+          "tag": "military-tag",
           "title": "霍尔木兹海峡油轮报告听到两次爆炸",
           "content": "8月6日，英国海事贸易行动办公室(UKMTO)报告，一艘油轮在阿曼库姆扎尔东南约10海里处穿越霍尔木兹海峡时听到两次爆炸声，船员和船只安全，无环境损害报告。事件发生在伊朗与阿曼就联合管理海峡航道举行谈判期间，伊朗自战争以来实际控制海峡，曾向未按规定航线行驶的船只开火。[日期核验: UKMTO/半岛电视台 8月6日]",
           "major": true,
@@ -141,6 +262,27 @@
             {
               "url": "https://www.aljazeera.com/news/liveblog/2026/8/5/iran-war-live-tehran-oman-talks-on-hormuz-positive-ship-hit-in-red-sea",
               "name": "半岛电视台",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "中午",
+          "category": "军事",
+          "tag": "military-tag",
+          "title": "以军两名预备役士兵在黎巴嫩南部遇袭身亡，以军打击真主党",
+          "content": "8月5日中午，以色列国防军预备役士兵在黎巴嫩南部马杰伦执行拆除真主党基础设施任务时，进入一栋疑似预先布设爆炸装置的房屋后发生爆炸，两名预备役士兵身亡、4名士兵重伤。以军称真主党公然违反停火协议，随后对黎南部真主党目标发动空袭和炮击报复，并以涉嫌袭击为由警告曼苏里等村庄居民撤离。[日期核验: Times of Israel/Jerusalem Post 8月6日报道]",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.timesofisrael.com/idf-strikes-southern-lebanon-town-alleging-ceasefire-violation-by-hezbollah/",
+              "name": "Times of Israel",
+              "priority": 1
+            },
+            {
+              "url": "https://www.jpost.com/israel-news/defense-news/article-904717",
+              "name": "耶路撒冷邮报",
               "priority": 1
             }
           ]
