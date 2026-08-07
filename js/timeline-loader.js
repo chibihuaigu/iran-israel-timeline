@@ -1,8 +1,21 @@
 /**
  * 时间线数据加载器
  * 从外部 JSON 文件加载事件数据和 Dashboard 数据
- * 版本: 1.2
+ * 版本: 1.3
  */
+
+/**
+ * HTML 转义：所有动态数据（title/content/note/sources/label 等）插入 innerHTML 前必须转义，
+ * 防止特殊字符破坏结构或被恶意数据注入脚本（XSS）
+ */
+function escapeHtml(str) {
+    return String(str == null ? '' : str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+}
 
 // 数据文件路径（静态版本号，每次数据更新时递增）
 const CACHE_BUSTER = '?t=' + Date.now();
@@ -137,12 +150,12 @@ function renderEventCard(event, dateId, eventIndex) {
         const tier = getSourceTier(name);
         const tierTip = TIER_DESCRIPTIONS[tier] || '';
         if (urls.length === 1) {
-            return `<a class="source-link ${tier}" href="${urls[0]}" target="_blank" title="${tierTip}">${name}</a>`;
+            return `<a class="source-link ${tier}" href="${escapeHtml(urls[0])}" target="_blank" title="${escapeHtml(tierTip)}">${escapeHtml(name)}</a>`;
         } else {
             // 多个链接时，第一个作为主链接，其他作为角标
-            const mainLink = `<a class="source-link ${tier}" href="${urls[0]}" target="_blank" title="${tierTip}">${name}</a>`;
+            const mainLink = `<a class="source-link ${tier}" href="${escapeHtml(urls[0])}" target="_blank" title="${escapeHtml(tierTip)}">${escapeHtml(name)}</a>`;
             const extraLinks = urls.slice(1).map((url, i) =>
-                `<a class="source-link source-extra" href="${url}" target="_blank" title="${name} 文章${i+2}">+${i+1}</a>`
+                `<a class="source-link source-extra" href="${escapeHtml(url)}" target="_blank" title="${escapeHtml(name)} 文章${i+2}">+${i+1}</a>`
             ).join('');
             return mainLink + extraLinks;
         }
@@ -198,18 +211,18 @@ function renderEventCard(event, dateId, eventIndex) {
 
     return `
         <div class="event-card${event.major ? ' major' : ''}${eventMarkClass}${event.star ? ' star-event' : ''}${colorClass} ${sourceQualityClass}" ${anchorId ? `id="${anchorId}"` : ''}>
-            <div class="event-time">${event.time}</div>
+            <div class="event-time">${escapeHtml(event.time)}</div>
             <div class="event-header">
                 <div class="event-title">
-                    <span class="category-tag ${event.tag}">${event.category}</span>
+                    <span class="category-tag ${escapeHtml(event.tag)}">${escapeHtml(event.category)}</span>
                     ${event.star ? '<span class="star-badge" title="关键事件">★</span>' : ''}
-                    ${event.title}
+                    <span class="event-title-text">${escapeHtml(event.title)}</span>
                     ${verificationBadge}
                     ${disputedBadge}
                 </div>
-                ${anchorId ? `<button class="event-share" onclick="shareEvent('${anchorId}')" title="分享此事件">🔗</button>` : ''}
+                ${anchorId ? `<button class="event-share" onclick="shareEvent('${anchorId}')" title="分享此事件"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="14" height="14" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg></button>` : ''}
             </div>
-            <div class="event-content">${event.content}</div>
+            <div class="event-content">${escapeHtml(event.content)}</div>
             ${event.sources.length > 0 ? `<div class="event-sources">${sourceLinks}</div>` : '<div class="event-sources no-source-warning">⚠️ 暂无来源</div>'}
         </div>
     `;
@@ -223,15 +236,15 @@ function renderDateGroup(dayData) {
 
     // 每日总结（如果有）
     const summaryHtml = dayData.summary
-        ? `<div class="day-summary"><span class="day-summary-icon">📌</span><span class="day-summary-text">${dayData.summary}</span></div>`
+        ? `<div class="day-summary"><span class="day-summary-icon">📌</span><span class="day-summary-text">${escapeHtml(dayData.summary)}</span></div>`
         : '';
 
     // 战前背景特殊处理（可折叠）
     if (dayData.date_id === 'bg' || dayData.is_collapsible) {
         return `
             <div class="date-group" id="${dayData.date_id}">
-                <div class="date-label bg-collapsed" onclick="toggleBg()" style="background: linear-gradient(135deg, #52c41a, #73d13d); cursor: pointer;">
-                    ${dayData.date_label} <span class="date-day">· ${dayData.date_subtitle || ''}</span>
+                <div class="date-label bg-collapsed" onclick="toggleBg()" style="background: linear-gradient(135deg, var(--bg-pill-a, #52c41a), var(--bg-pill-b, #73d13d)); cursor: pointer;">
+                    ${escapeHtml(dayData.date_label)} <span class="date-day">· ${escapeHtml(dayData.date_subtitle || '')}</span>
                     <span class="bg-toggle-hint">点击展开</span>
                 </div>
                 <div class="events-container bg-content" style="display: none;">
@@ -245,7 +258,7 @@ function renderDateGroup(dayData) {
     return `
         <div class="date-group" id="${dayData.date_id}">
             <div class="date-label" onclick="scrollToDate('${dayData.date_id}')">
-                ${dayData.date_label}
+                ${escapeHtml(dayData.date_label)}
             </div>
             ${summaryHtml}
             <div class="events-container">
@@ -267,6 +280,25 @@ function renderTimeline(eventsData) {
     
     const html = eventsData.events.map(renderDateGroup).join('\n');
     container.innerHTML = html;
+
+    // 生成 TOC 快速导航（与 dashboard 解耦：dashboard 加载失败不影响导航）
+    const tocLinksEl = document.getElementById('tocLinks');
+    if (tocLinksEl && eventsData?.events) {
+        // 按日期倒序生成链接（最新在前）
+        const tocLinks = eventsData.events
+            .filter(day => day.date_id !== 'bg') // 排除战前背景
+            .map(day => `<a href="#${day.date_id}" class="toc-link">${escapeHtml(day.date_label)}</a>`)
+            .join('\n');
+        // 添加战前背景链接到末尾
+        const bgEvent = eventsData.events.find(day => day.date_id === 'bg');
+        const fullTocLinks = bgEvent
+            ? tocLinks + `\n<a href="#bg" class="toc-link">战前背景</a>`
+            : tocLinks;
+        tocLinksEl.innerHTML = fullTocLinks;
+        // 初始化时滚动到最左边（显示最新日期）
+        tocLinksEl.scrollLeft = 0;
+    }
+
     console.log(`[时间线] 渲染完成: ${eventsData.total_events} 个事件`);
 }
 
@@ -290,17 +322,6 @@ function updateDashboard(dashboardData, eventsData = null) {
         'iranInjured': 'iranInjured'
     };
 
-    // Modal 元素映射：dashboard.json字段 -> Modal元素ID
-    const modalFieldMap = {
-        'warDays': 'dataWarDays',
-        'iranDeaths': 'dataIranDeaths',
-        'israelDeaths': 'dataIsraelDeaths',
-        'lebanonDeaths': 'dataLebanonDeaths',
-        'usDeaths': 'dataUsDeaths',
-        'displaced': 'dataDisplaced',
-        'iranInjured': 'dataIranInjured'
-    };
-    
     // 更新 Dashboard 卡片
     const disputed = dashboardData.disputed_fields || {};
     Object.keys(fieldMap).forEach(dashboardField => {
@@ -334,17 +355,6 @@ function updateDashboard(dashboardData, eventsData = null) {
             } else {
                 el.textContent = value;
             }
-        }
-    });
-    
-    // 更新 Modal（数据统计弹窗）
-    Object.keys(modalFieldMap).forEach(dashboardField => {
-        const modalId = modalFieldMap[dashboardField];
-        const value = dashboardData[dashboardField];
-        
-        const el = document.getElementById(modalId);
-        if (el && value !== undefined) {
-            el.textContent = value;
         }
     });
     
@@ -391,28 +401,6 @@ function updateDashboard(dashboardData, eventsData = null) {
         }
     }
 
-    // 更新 toc-links（底部横向时间轴导航）
-    const tocLinksEl = document.getElementById('tocLinks');
-    if (tocLinksEl && eventsData?.events) {
-        // 按日期倒序生成链接（最新在前）
-        const tocLinks = eventsData.events
-            .filter(day => day.date_id !== 'bg') // 排除战前背景
-            .map(day => `<a href="#${day.date_id}" class="toc-link">${day.date_label}</a>`)
-            .join('\n');
-        // 添加战前背景链接到末尾
-        const bgEvent = eventsData.events.find(day => day.date_id === 'bg');
-        const fullTocLinks = bgEvent
-            ? tocLinks + `\n<a href="#bg" class="toc-link">战前背景</a>`
-            : tocLinks;
-        tocLinksEl.innerHTML = fullTocLinks;
-
-        // 初始化时滚动到最左边（显示最新日期）
-        // 因为导航是最新在前，所以scrollLeft=0显示最新日期
-        tocLinksEl.scrollLeft = 0;
-
-        console.log('[时间线] TOC导航已更新');
-    }
-
     // 更新 warDaysSub（冲突天数副标题，显示停火信息）
     const warDaysSubEl = document.getElementById('warDaysSub');
     if (warDaysSubEl && dashboardData.ceasefireInfo) {
@@ -421,19 +409,21 @@ function updateDashboard(dashboardData, eventsData = null) {
         const status = ceasefireInfo.status || '停火中';
         const statusDetail = ceasefireInfo.statusDetail || '';
 
-        // 根据状态显示不同的副标题
+        // 根据状态显示不同的副标题（颜色由 CSS 状态类控制，各皮肤/主题自动保证对比度）
+        warDaysSubEl.style.color = '';
+        warDaysSubEl.classList.remove('stat-status-warn', 'stat-status-ok', 'stat-status-mid');
         if (status === '谈判破裂') {
             warDaysSubEl.textContent = `含停火 ${ceasefireDays} 天 | 谈判破裂`;
-            warDaysSubEl.style.color = 'var(--primary)'; // 红色警告
+            warDaysSubEl.classList.add('stat-status-warn');
         } else if (status === '达成协议') {
             warDaysSubEl.textContent = `停火生效 | 第${ceasefireDays}天`;
-            warDaysSubEl.style.color = 'var(--secondary)'; // 蓝色
+            warDaysSubEl.classList.add('stat-status-ok');
         } else if (status === '谈判中') {
             warDaysSubEl.textContent = `含停火 ${ceasefireDays} 天 | 谈判中`;
-            warDaysSubEl.style.color = 'var(--text-secondary)';
+            warDaysSubEl.classList.add('stat-status-mid');
         } else {
             warDaysSubEl.textContent = `含停火 ${ceasefireDays} 天`;
-            warDaysSubEl.style.color = 'var(--text-secondary)';
+            warDaysSubEl.classList.add('stat-status-mid');
         }
     }
 
@@ -627,7 +617,8 @@ function showToast(message) {
     if (!toast) {
         toast = document.createElement('div');
         toast.id = 'toast';
-        toast.style.cssText = 'position:fixed;bottom:80px;left:50%;transform:translateX(-50%);background:var(--primary);color:white;padding:8px 20px;border-radius:20px;font-size:13px;z-index:9999;transition:opacity 0.3s;pointer-events:none;';
+        // 与 index.html 的 showToast 视觉统一（黑底圆角胶囊）
+        toast.style.cssText = 'position:fixed;bottom:80px;left:50%;transform:translateX(-50%);background:rgba(0,0,0,0.8);color:white;padding:12px 24px;border-radius:24px;font-size:14px;z-index:9999;transition:opacity 0.3s;pointer-events:none;';
         document.body.appendChild(toast);
     }
     toast.textContent = message;
