@@ -1,9 +1,419 @@
 {
   "version": "1.0",
-  "extracted_at": "2026-08-08 02:01:00",
-  "total_days": 160,
-  "total_events": 521,
+  "extracted_at": "2026-08-16 16:19:14",
+  "total_days": 169,
+  "total_events": 537,
   "events": [
+    {
+      "date_id": "d169",
+      "date_label": "8月16日",
+      "events": []
+    },
+    {
+      "date_id": "d168",
+      "date_label": "8月15日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "经济",
+          "tag": "major-tag",
+          "title": "霍尔木兹海峡通行量降至战前17%，油市持续承压",
+          "content": "8月15日，据英国海事贸易行动办公室（UKMTO）等数据，过去7天霍尔木兹海峡日均通行量仅为战前均值的17%；船舶跟踪数据显示当日仅2艘船通过海峡，且未见原油运输，而战前日均通行130-140艘。国际能源署（IEA）此前警告全球石油库存正快速消耗，重开海峡日益紧迫。[日期核验: CNN/半岛电视台 8月15日]",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.cnn.com/2026/08/15/world/live-news/iran-war-trump",
+              "name": "CNN",
+              "priority": 2
+            },
+            {
+              "url": "https://www.aljazeera.com/news/liveblog/2026/8/15/iran-war-live-trump-vows-to-make-hormuz-us-territory-pretty-soon",
+              "name": "半岛电视台",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "全天",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "伊朗称与阿曼就霍尔木兹航运路线图达成一致，将发表联合声明",
+          "content": "8月15日，伊朗外交部发言人巴加伊表示，经过数周谈判，伊朗与阿曼已就霍尔木兹海峡的航运路线图达成一致，相关联合声明仍在磋商中；他重申，海峡完全恢复通行取决于美方停止针对伊朗的行动。伊朗外长阿拉格齐同日强调，与阿曼的谈判与重开海峡是两回事，海峡重开仍需美方满足条件。[日期核验: 阿纳多卢通讯社/半岛电视台 8月15-16日]",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.aa.com.tr/en/world/iran-says-agreement-reached-with-oman-on-strait-of-hormuz-shipping-routes/4028346",
+              "name": "阿纳多卢通讯社",
+              "priority": 2
+            },
+            {
+              "url": "https://www.aljazeera.com/news/liveblog/2026/8/16/iran-war-live-talks-on-hormuz-strait-continue-israel-kills-11-in-lebanon",
+              "name": "半岛电视台",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "上午",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "胡塞武装向红海莫卡港发射6枚弹道导弹，致1死8伤",
+          "content": "8月15日，胡塞武装向也门红海战略港口城市莫卡发射6枚弹道导弹，造成1名港口安全部队成员死亡、8人受伤。莫卡由也门国际承认政府控制。近期胡塞武装持续与也门政府军交火，并向沙特红海方向油轮发动袭击。[日期核验: CNN 8月15日]",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.cnn.com/2026/08/15/world/live-news/iran-war-trump",
+              "name": "CNN",
+              "priority": 2
+            },
+            {
+              "url": "https://www.aljazeera.com/news/liveblog/2026/8/15/iran-war-live-trump-vows-to-make-hormuz-us-territory-pretty-soon",
+              "name": "半岛电视台",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "凌晨",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "以色列空袭黎巴嫩南部致11人死亡，为6月停火以来最致命袭击",
+          "content": "8月15日凌晨（当地时间约04:30，北京时间09:30），以色列空袭黎巴嫩南部安萨尔村，造成7人死亡（含3名儿童和2名妇女），其中一栋房屋内的一家人全数遇难；数小时后以军再次空袭代尔扎赫拉尼镇，又造成4人死亡。以色列军方称其目标是真主党精锐拉德万部队一名营长阿里·萨米尔·哈桑，并称已将其击毙；以方称袭击是对真主党此前袭击造成3名以军士兵重伤的报复，指真主党利用平民作\"人盾\"。黎巴嫩总理萨拉姆谴责遇难平民\"不是军事基础设施\"，呼吁以色列停止升级；总统奥恩谴责以色列的\"反复违约\"发出\"明确信号\"。这是6月停火框架协议以来黎巴嫩最致命的袭击，真主党否认以方说法，誓言\"适当回应\"。[日期核验: BBC/半岛电视台 8月15-16日报道，袭击发生于8月15日清晨]",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.bbc.com/news/articles/c4gjygx4gjeo",
+              "name": "BBC",
+              "priority": 1
+            },
+            {
+              "url": "https://www.aljazeera.com/news/liveblog/2026/8/16/iran-war-live-talks-on-hormuz-strait-continue-israel-kills-11-in-lebanon",
+              "name": "半岛电视台",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d167",
+      "date_label": "8月14日",
+      "events": [
+        {
+          "time": "傍晚",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "特朗普称击败伊朗后将很快宣布霍尔木兹海峡为美国领土",
+          "content": "8月14日，美国总统特朗普在纽约州拿骚县一警察学院发表讲话，称伊朗\"being very badly defeated\"（被打败得非常惨），并表示\"很快我将宣布霍尔木兹海峡为美国领土\"；他还敦促美国人接受略高的汽油价格。[日期核验: 特朗普于美东时间8月14日（周五）讲话，CNN/半岛电视台 8月15日报道]",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.aljazeera.com/news/liveblog/2026/8/15/iran-war-live-trump-vows-to-make-hormuz-us-territory-pretty-soon",
+              "name": "半岛电视台",
+              "priority": 1
+            },
+            {
+              "url": "https://www.cnn.com/2026/08/15/world/live-news/iran-war-trump",
+              "name": "CNN",
+              "priority": 2
+            }
+          ]
+        },
+        {
+          "time": "凌晨",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "伊朗袭击两艘ADNOC油轮，阿联酋谴责为海盗行为",
+          "content": "8月14日凌晨（阿联酋当地时间13日傍晚），伊朗向两艘阿布扎比国家石油公司（ADNOC）油轮发动袭击，两船当时正穿越霍尔木兹海峡。阿联酋外交部谴责伊朗的\"hostile attack\"（敌对袭击），称其把海峡通行用作经济胁迫，属\"piracy\"（海盗行为），是对地区稳定、地区人民及全球能源供应的直接威胁；袭击未造成人员伤亡，局势已得到控制。ADNOC证实其两艘船只遇袭。伊朗未立即回应。[日期核验: 美联社/半岛电视台 8月14日]",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://apnews.com/article/iran-uae-us-strait-hormuz-august-14-2026-e8565c608ac5283ec8103c85df924b13",
+              "name": "美联社",
+              "priority": 1
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/8/14/uae-accuses-iran-of-attacks-on-two-adnoc-vessels-in-strait-of-hormuz",
+              "name": "半岛电视台",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d166",
+      "date_label": "8月13日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "美伊就霍尔木兹海峡控制权互斥：美称能无限期封锁，伊称海峡归其管辖",
+          "content": "8月13日，美国与伊朗就霍尔木兹海峡控制权交换相互矛盾的声明。美方官员称可\"indefinitely\"（无限期）维持对伊朗港口的封锁，伊朗方面则坚称海峡处于其控制之下。国际能源署（IEA）警告全球石油库存正快速消耗，重开海峡愈发紧迫。当日霍尔木兹海峡油轮通行量仅8艘，低于10日均值约12艘，战前为每天130-140艘。布伦特原油报约89美元/桶，连续第7个交易日上涨。[日期核验: 半岛电视台/CNN 8月13日]",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.aljazeera.com/news/liveblog/2026/8/13/iran-war-live-us-and-iran-exchange-opposing-claims-over-hormuz-control",
+              "name": "半岛电视台",
+              "priority": 1
+            },
+            {
+              "url": "https://www.cnn.com/2026/08/12/world/live-news/iran-war-trump",
+              "name": "CNN",
+              "priority": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d165",
+      "date_label": "8月12日",
+      "events": [
+        {
+          "time": "上午",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "特朗普坚称美国完全控制霍尔木兹，雷扎伊扩大重开条件",
+          "content": "8月12日，美国总统特朗普对记者称美国对霍尔木兹海峡拥有\"total control\"（完全控制），指责伊朗\"lying all the time\"（不断撒谎）且通胀高达300%，并威胁伊朗可能被\"totally destroyed\"（彻底摧毁）。伊朗新任最高国家安全委员会秘书穆赫辛·雷扎伊在就任后首次公开表态中扩大重开海峡的条件，要求美国\"change its behavior\"（改变行为），并称海峡将保持关闭直至所有条件满足，包括结束对黎巴嫩和加沙的战争；此前他会见了中国驻伊大使。当天布伦特原油价格连续第6天上涨，报每桶89美元附近。[日期核验: CNN/半岛电视台 8月12日]",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.cnn.com/2026/08/12/world/live-news/iran-war-trump",
+              "name": "CNN",
+              "priority": 2
+            },
+            {
+              "url": "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm",
+              "name": "GlobalSecurity",
+              "priority": 1
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/8/12/iran-remains-defiant-as-it-vows-to-fight-us-until-demands-met",
+              "name": "半岛电视台",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d164",
+      "date_label": "8月11日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "军事",
+          "tag": "military-tag",
+          "title": "胡塞武装首次使用光纤FPV无人机攻击也门政府军",
+          "content": "8月11日，胡塞武装首次在也门马里卜省使用光纤制导FPV（第一人称视角）无人机攻击也门政府军，该无人机事后被政府军缴获；8月12日，两名也门分析师公布了缴获画面，证实这是胡塞首次部署光纤FPV无人机。分析指出，缴获的胡塞FPV无人机使用了在中国电商平台销售的商用光纤线缆，显示胡塞正获得更先进的反制技术，也门战事或进一步升级。[日期核验: ISW/CTP 8月13日报告]",
+          "major": false,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-august-13-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            },
+            {
+              "url": "https://www.criticalthreats.org/analysis/iran-update-evening-special-report-august-13-2026",
+              "name": "CTP关键威胁项目",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "下午",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "胡塞武装袭击红海埃及货船致至少6人死亡，为开战以来首次致命袭击",
+          "content": "8月11日，胡塞武装在曼德海峡向埃及籍货船Tihamah发射多枚弹道导弹，造成至少6人死亡，包括巴基斯坦籍船员，救援行动中另有也门海岸警卫队员死亡。这是2月底开战以来胡塞武装首次在袭击中造成人员死亡。胡塞称该船载有沙特军事装备，也门政府予以否认。巴基斯坦外交部谴责袭击并确认本国公民遇难。[日期核验: 纽约时报/半岛电视台 8月11日]",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.nytimes.com/2026/08/11/world/middleeast/deadly-houthi-strike-red-sea.html",
+              "name": "纽约时报",
+              "priority": 1
+            },
+            {
+              "url": "https://www.bbc.com/news/articles/ckg9wpmzmlno",
+              "name": "BBC",
+              "priority": 1
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/8/12/six-killed-in-houthi-attack-on-bab-al-mandeb-ship-yemens-government-says",
+              "name": "半岛电视台",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "上午",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "美军直升机向试图突破封锁的货船发射地狱火导弹",
+          "content": "8月11日，美国中央司令部（CENTCOM）称，美海军MH-60直升机向巴拿马旗货船Vela Nova发射两枚地狱火导弹，击中其机舱并破坏舵机。该船当时正从阿曼湾驶向伊朗港口，被指无视美方多次警告，试图突破美国对伊朗港口的封锁。船员弃船后17人全部获救。CENTCOM称自4月实施封锁以来已拦阻55艘商船、致残3艘、登船检查2艘；这是美方7月14日重启封锁以来第3艘被强行致残的船只。[日期核验: 半岛电视台/CENTCOM 8月11日]",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/8/11/us-military-fires-on-cargo-vessel-it-said-sought-to-break-iran-blockade",
+              "name": "半岛电视台",
+              "priority": 1
+            },
+            {
+              "url": "https://www.cnn.com/2026/08/12/world/live-news/iran-war-trump",
+              "name": "CNN",
+              "priority": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d163",
+      "date_label": "8月10日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "特朗普要求伊朗为50年损失支付赔偿，油价收涨5%",
+          "content": "8月10日，美国总统特朗普在白宫回应伊朗提出的重开海峡条件，要求伊朗为\"the damage they've done over a 50-year period\"（50年来造成的损失）支付赔偿，涵盖在伊身亡的美国人及遇害抗议者家属，\"if there's damages to be paid, I think Iran should pay those damages\"；他声称伊朗镇压抗议已导致约5.2万人死亡（美国HRANA组织2月报道约7000人死难），并称伊朗还应赔偿2000年也门科尔号驱逐舰袭击事件中17名美国水兵的家属（该袭击被归咎于基地组织而非伊朗）。特朗普在Truth Social发文称，伊朗应对黎巴嫩、叙利亚、也门和加沙人民遭受的损害和死亡负责。当天布伦特原油收涨5%，市场认为此举令重开海峡的谈判前景更加黯淡。特朗普同时表示，美方与伊朗之间存在某种形式的谈判。[日期核验: 路透社/CNN/半岛电视台 8月10日]",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/middle-east/iran-ties-hormuz-reopening-us-concessions-several-demands-2026-08-09/",
+              "name": "路透社",
+              "priority": 1
+            },
+            {
+              "url": "https://www.cnn.com/2026/08/10/world/live-news/iran-war-trump",
+              "name": "CNN",
+              "priority": 2
+            },
+            {
+              "url": "https://www.aljazeera.com/news/liveblog/2026/8/10/iran-war-live-us-semi-negotiating-with-tehran-israel-rejects-gaza-plan",
+              "name": "半岛电视台",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "下午",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "伊朗最高领袖完成六项高级军事任命，瓦希迪正式出任革命卫队总司令",
+          "content": "8月10日，伊朗最高领袖穆杰塔巴·哈梅内伊确认多项高级军事任命：艾哈迈德·瓦希迪正式出任伊斯兰革命卫队（IRGC）总司令并晋升少将，接替2月28日战争首日被击毙的帕克普尔（瓦希迪自3月起代理该职）；阿里·阿卜杜拉希出任武装部队总参谋长（基奥马尔斯·海达里任其副手），穆斯塔法·伊扎迪出任瓦希迪的副手，阿里·奥兹马伊出任IRGC海军司令。前一天（8月9日），前IRGC总司令穆赫辛·雷扎伊（两伊战争时期任总司令16年）被任命为最高国家安全委员会秘书兼最高领袖在该委员会的常驻代表，原秘书佐勒加德尔转任最高领袖政治顾问。最高领袖指示加强威慑、为\"powerful offensive operations\"（强大进攻作战）做好准备。分析人士认为，这批任命多出自IRGC创始一代，显示最高领袖加速整合权力、为长期战争做准备。[日期核验: 半岛电视台 8月10-11日]",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.aljazeera.com/news/2026/8/10/iran-hierarchy-consolidation-as-irgc-veteran-tapped-for-key-security-role",
+              "name": "半岛电视台",
+              "priority": 1
+            },
+            {
+              "url": "https://understandingwar.org/research/middle-east/iran-update-special-report-august-10-2026/",
+              "name": "ISW战争研究所",
+              "priority": 1
+            }
+          ],
+          "star": true
+        }
+      ]
+    },
+    {
+      "date_id": "d162",
+      "date_label": "8月9日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "伊朗外长称与美无进行中谈判，与阿曼协议进入最后阶段",
+          "content": "8月9日，伊朗外长阿拉格齐表示，德黑兰与华盛顿之间不存在进行中的谈判，\"The intermediaries are still making efforts to find ways to resume negotiations\"（中间人仍在努力寻找恢复谈判的途径）；与阿曼的海峡航运协议已进入\"final stages\"（最后阶段），但\"changes to maritime routes in the Strait of Hormuz are a technical and legal matter and do not mean that the Strait of Hormuz has been reopened\"（海峡航线变更是技术性和法律性事项，不意味着海峡已经重开）。伊朗最高国家安全委员会秘书佐勒加德尔此前重申，海峡将保持关闭\"until America corrects its behavior\"（直至美国纠正其行为）。[日期核验: 路透社/半岛电视台 8月9日]",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.reuters.com/world/asia-pacific/iran-says-oman-deal-is-final-stages-us-must-act-open-hormuz-2026-08-09/",
+              "name": "路透社",
+              "priority": 1
+            },
+            {
+              "url": "https://www.aljazeera.com/news/liveblog/2026/8/9/iran-war-live-tehran-demands-end-to-us-blockade-to-reopen-strait-of-hormuz",
+              "name": "半岛电视台",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date_id": "d161",
+      "date_label": "8月8日",
+      "events": [
+        {
+          "time": "全天",
+          "category": "外交",
+          "tag": "major-tag",
+          "title": "伊朗设重开霍尔木兹条件：美须履行6月备忘录，IRGC称重开与谈判无关",
+          "content": "8月8日，伊朗最高国家安全委员会秘书佐勒加德尔发表声明，提出重开霍尔木兹海峡须满足的一系列条件，包括美方停止威胁、解除对伊朗港口的封锁等。伊朗外长阿拉格齐同日表示，与阿曼的协议\"very close\"（非常接近），但海峡全面重开将取决于美国兑现6月谅解备忘录（MoU）中的承诺；伊朗批评美方支持南部绕行航线却未与德黑兰协调、未停止以色列对黎巴嫩的袭击、拒绝解冻伊朗被冻结资产。伊斯兰革命卫队（IRGC）发言人侯赛因·莫赫比强调，重开海峡\"has its own specific mechanism and has nothing to do with the negotiations between Iran and Oman\"（有其特定机制，与伊朗-阿曼谈判无关）。伊朗议会国家安全委员会发言人前一天已证实，与阿曼的海峡安排框架已达成一致。[日期核验: 纽约时报/路透社/半岛电视台 8月8日]",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.nytimes.com/2026/08/08/world/middleeast/iran-us-oman-strait-of-hormuz.html",
+              "name": "纽约时报",
+              "priority": 1
+            },
+            {
+              "url": "https://www.reuters.com/world/middle-east/irans-revolutionary-guard-says-re-opening-strait-hormuz-does-not-depend-talks-2026-08-08/",
+              "name": "路透社",
+              "priority": 1
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/8/8/iran-deliberates-hormuz-arrangement-amid-uncertain-prospects-with-us",
+              "name": "半岛电视台",
+              "priority": 1
+            }
+          ]
+        },
+        {
+          "time": "凌晨",
+          "category": "军事",
+          "tag": "major-tag",
+          "title": "阿联酋称伊朗导弹袭击ADNOC油轮，海湾多国谴责",
+          "content": "8月8日凌晨，阿联酋指责伊朗向一艘阿布扎比国家石油公司（ADNOC）油轮发射导弹，该油轮当时正穿越霍尔木兹海峡，袭击未造成人员伤亡。ADNOC称自冲突爆发以来其所属船只已15次遭导弹或无人机袭击（其中本周3次），累计造成1名船员死亡、20人受伤。海湾合作委员会（GCC）秘书长谴责这是\"dangerous and unacceptable escalation\"（危险且不可接受的升级），沙特、卡塔尔、约旦等国予以谴责；阿联酋方面将此定性为伊斯兰革命卫队（IRGC）的\"piracy\"（海盗行为）。[日期核验: 路透社/半岛电视台 8月8日]",
+          "major": true,
+          "verification_status": "verified",
+          "sources": [
+            {
+              "url": "https://www.reuters.com/business/energy/uae-says-iran-attacked-adnoc-vessel-with-missile-strait-hormuz-2026-08-08/",
+              "name": "路透社",
+              "priority": 1
+            },
+            {
+              "url": "https://www.aljazeera.com/news/2026/8/8/uae-says-iran-targeted-adnoc-tanker-in-hormuz-no-casualties-2",
+              "name": "半岛电视台",
+              "priority": 1
+            }
+          ]
+        }
+      ]
+    },
     {
       "date_id": "d160",
       "date_label": "8月7日",
